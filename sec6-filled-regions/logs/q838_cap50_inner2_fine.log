@@ -1,0 +1,32 @@
+   centre excess D(0) - C +5.4717733483e-02
+cap rp 5.0 rm 4.999: inner mass 0.22621658; C 5.025389367047; inner radius a_0..: [2.067271, 0.001316, 0.030326]; inner d_1..: [-0.000063, -0.033673]; residual 3.4e-05; min f 0.999
+   centre excess D(0) - C +5.1174148824e-02
+cap rp 5.0 rm 4.97: inner mass 0.22535789; C 5.021242853788; inner radius a_0..: [2.056975, 0.025415, -0.014929]; inner d_1..: [0.001693, 0.016778]; residual 2.1e-07; min f 0.997
+   centre excess D(0) - C +4.4580362822e-02
+cap rp 5.0 rm 4.92: inner mass 0.22389295; C 5.014059758210; inner radius a_0..: [2.039815, 0.064974, -0.015363]; inner d_1..: [0.005401, 0.017626]; residual 5.8e-11; min f 0.993
+   centre excess D(0) - C +3.7967486085e-02
+cap rp 5.0 rm 4.87: inner mass 0.22241352; C 5.006823397172; inner radius a_0..: [2.022562, 0.101045, -0.017882]; inner d_1..: [0.010195, 0.021489]; residual 1.4e-11; min f 0.988
+   centre excess D(0) - C +3.1531048699e-02
+cap rp 5.0 rm 4.82: inner mass 0.22090646; C 4.999531654829; inner radius a_0..: [2.005053, 0.133512, -0.018665]; inner d_1..: [0.016363, 0.024505]; residual 7.1e-11; min f 0.983
+   centre excess D(0) - C +2.5394462216e-02
+cap rp 5.0 rm 4.77: inner mass 0.21936232; C 4.992182702776; inner radius a_0..: [1.987214, 0.162574, -0.018029]; inner d_1..: [0.023973, 0.027431]; residual 6.7e-11; min f 0.979
+   centre excess D(0) - C +1.9633534230e-02
+cap rp 5.0 rm 4.72: inner mass 0.21777377; C 4.984775022882; inner radius a_0..: [1.968992, 0.188548, -0.016350]; inner d_1..: [0.033000, 0.031048]; residual 1.8e-11; min f 0.975
+   centre excess D(0) - C +1.4289736237e-02
+cap rp 5.0 rm 4.67: inner mass 0.21613505; C 4.977307390618; inner radius a_0..: [1.950349, 0.211765, -0.013931]; inner d_1..: [0.043378, 0.036021]; residual 2.3e-11; min f 0.971
+   centre excess D(0) - C +9.3817517649e-03
+cap rp 5.0 rm 4.62: inner mass 0.21444151; C 4.969778842651; inner radius a_0..: [1.931252, 0.232536, -0.010998]; inner d_1..: [0.055034, 0.042909]; residual 2.5e-11; min f 0.966
+   centre excess D(0) - C +4.9138364252e-03
+cap rp 5.0 rm 4.57: inner mass 0.21268930; C 4.962188642194; inner radius a_0..: [1.911671, 0.251131, -0.007718]; inner d_1..: [0.067894, 0.052207]; residual 8.2e-11; min f 0.962
+   centre excess D(0) - C +1.6534442135e-03
+cap rp 5.0 rm 4.53: inner mass 0.21124300; C 4.956071722203; inner radius a_0..: [1.895638, 0.264596, -0.004926]; inner d_1..: [0.079008, 0.061694]; residual 6.3e-11; min f 0.959
+   centre excess D(0) - C +8.8136089084e-04
+cap rp 5.0 rm 4.52: inner mass 0.21087503; C 4.954536247608; inner radius a_0..: [1.891577, 0.267779, -0.004211]; inner d_1..: [0.081898, 0.064381]; residual 5.0e-11; min f 0.958
+   centre excess D(0) - C +5.0171092332e-04
+cap rp 5.0 rm 4.515: inner mass 0.21069007; C 4.953767571771; inner radius a_0..: [1.889539, 0.269345, -0.003852]; inner d_1..: [0.083359, 0.065774]; residual 3.5e-11; min f 0.957
+   centre excess D(0) - C +1.2630517281e-04
+cap rp 5.0 rm 4.51: inner mass 0.21050446; C 4.952998269852; inner radius a_0..: [1.887494, 0.270893, -0.003491]; inner d_1..: [0.084831, 0.067201]; residual 3.6e-11; min f 0.957
+   centre excess D(0) - C -2.4486782042e-04
+cap rp 5.0 rm 4.505: inner mass 0.21031819; C 4.952228341579; inner radius a_0..: [1.885445, 0.272424, -0.003130]; inner d_1..: [0.086314, 0.068662]; residual 9.0e-11; min f 0.957
+   centre excess D(0) - C -6.1182125171e-04
+cap rp 5.0 rm 4.5: inner mass 0.21013126; C 4.951457786691; inner radius a_0..: [1.883390, 0.273938, -0.002767]; inner d_1..: [0.087807, 0.070159]; residual 1.8e-11; min f 0.956

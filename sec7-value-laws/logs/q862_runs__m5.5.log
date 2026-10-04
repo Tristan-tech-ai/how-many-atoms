@@ -1,0 +1,5 @@
+centre_scripts\q862_lfp1d.py:47: RuntimeWarning: overflow encountered in exp
+  p = np.array(list(z[:nI]) + [m]); ww = np.exp(z[nI:-1]); B_ = z[-1]
+centre_scripts\q862_lfp1d.py:52: RuntimeWarning: invalid value encountered in divide
+  return p, x, w_/w_.sum(), B_
+m 5.5: K 15 (centre atom yes); positive atoms [1.403794, 1.413047, 2.52473, 3.716414, 4.135421, 5.185157, 5.5]; B 0.8549120271; residual 1.4e-01; KKT +1.4e-01; stage-1 gap 6.0e-05; rounds 12; NOT ACCEPTED

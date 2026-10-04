@@ -1,0 +1,20 @@
+K_eff  2 liftoff  A   3.1623  NPMLE residual +0.1858  capacity    n/a   difference n/a
+K_eff  3 birth    A   6.0302  NPMLE residual +0.1012  capacity    n/a   difference n/a
+K_eff  4 liftoff  A   6.6253  NPMLE residual +0.0353  capacity +0.1340  difference -0.0987
+K_eff  5 birth    A   8.6896  NPMLE residual -0.0167  capacity +0.0403  difference -0.0569
+K_eff  6 liftoff  A   9.1785  NPMLE residual +0.0063  capacity +0.0329  difference -0.0266
+K_eff  7 birth    A  10.9150  NPMLE residual -0.0354  capacity -0.0189  difference -0.0165
+K_eff  8 liftoff  A  11.3575  NPMLE residual -0.0020  capacity +0.0086  difference -0.0106
+K_eff  9 birth    A  12.9076  NPMLE residual -0.0358  capacity -0.0281  difference -0.0077
+K_eff 10 liftoff  A  13.3247  NPMLE residual -0.0058  capacity -0.0009  difference -0.0049
+K_eff 11 birth    A  14.7491  NPMLE residual -0.0320  capacity -0.0275  difference -0.0045
+K_eff 12 liftoff  A  15.1508  NPMLE residual -0.0077  capacity -0.0053  difference -0.0024
+K_eff 13 birth    A  16.4817  NPMLE residual -0.0275  capacity -0.0245  difference -0.0030
+K_eff 14 liftoff  A  16.8737  NPMLE residual -0.0086  capacity -0.0105  difference +0.0019
+K_eff 15 birth    A  18.1308  NPMLE residual -0.0233  capacity -0.0214  difference -0.0019
+K_eff 16 liftoff  A  18.5165  NPMLE residual -0.0090  capacity -0.0084  difference -0.0005
+K_eff 17 birth    A  19.7129  NPMLE residual -0.0197  capacity -0.0183  difference -0.0015
+K_eff 18 liftoff  A  20.0947  NPMLE residual -0.0090  capacity -0.0088  difference -0.0002
+K_eff 19 birth    A  21.2396  NPMLE residual -0.0167  capacity -0.0156  difference -0.0011
+K_eff 20 liftoff  A  21.6189  NPMLE residual -0.0087  capacity    n/a   difference n/a
+scored K_eff 7-19: 13; within 0.5 %: 10; verdict FAIL

@@ -1,0 +1,19 @@
+d = 4 NPMLE: 17 matched events; within 1 %: 16; verdict PASS
+   K_eff  2 liftoff  A   2.4495 shift 0.71744 quadratic 0.70820 (+0.0130)  linear-2D -0.1075  linear-3D -0.0510
+   K_eff  3 birth    A   4.5040 shift 1.52402 quadratic 1.51544 (+0.0057)  linear-2D -0.0926  linear-3D -0.0460
+   K_eff  4 liftoff  A   5.2724 shift 1.17243 quadratic 1.16903 (+0.0029)  linear-2D -0.0475  linear-3D -0.0229
+   K_eff  5 birth    A   6.8139 shift 1.66994 quadratic 1.67444 (-0.0027)  linear-2D -0.0397  linear-3D -0.0216
+   K_eff  6 liftoff  A   7.5039 shift 1.37125 quadratic 1.37038 (+0.0006)  linear-2D -0.0254  linear-3D -0.0125
+   K_eff  7 birth    A   8.8195 shift 1.74141 quadratic 1.74699 (-0.0032)  linear-2D -0.0151  linear-3D -0.0092
+   K_eff  8 liftoff  A   9.4754 shift 1.48729 quadratic 1.48740 (-0.0001)  linear-2D -0.0135  linear-3D -0.0068
+   K_eff  9 birth    A  10.6569 shift 1.78856 quadratic 1.79325 (-0.0026)  linear-2D -0.0020  linear-3D -0.0023
+   K_eff 10 liftoff  A  11.2920 shift 1.56867 quadratic 1.56935 (-0.0004)  linear-2D -0.0058  linear-3D -0.0031
+   K_eff 11 birth    A  12.3811 shift 1.82503 quadratic 1.82870 (-0.0020)  linear-2D +0.0056  linear-3D +0.0018
+   K_eff 12 liftoff  A  13.0008 shift 1.63159 quadratic 1.63259 (-0.0006)  linear-2D -0.0004  linear-3D -0.0005
+   K_eff 13 birth    A  14.0207 shift 1.85572 quadratic 1.85857 (-0.0015)  linear-2D +0.0104  linear-3D +0.0044
+   K_eff 14 liftoff  A  14.6282 shift 1.68313 quadratic 1.68428 (-0.0007)  linear-2D +0.0035  linear-3D +0.0014
+   K_eff 15 birth    A  15.5936 shift 1.88279 quadratic 1.88502 (-0.0012)  linear-2D +0.0135  linear-3D +0.0061
+   K_eff 16 liftoff  A  16.1905 shift 1.72697 quadratic 1.72817 (-0.0007)  linear-2D +0.0065  linear-3D +0.0029
+   K_eff 17 birth    A  17.1116 shift 1.90734 quadratic 1.90910 (-0.0009)  linear-2D +0.0156  linear-3D +0.0073
+   K_eff 18 liftoff  A  17.6992 shift 1.76528 quadratic 1.76647 (-0.0007)  linear-2D +0.0087  linear-3D +0.0040
+   rms rel: quadratic 0.0038, linear-2D 0.0389, linear-3D 0.0190

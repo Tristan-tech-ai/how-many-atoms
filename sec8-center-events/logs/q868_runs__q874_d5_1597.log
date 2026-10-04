@@ -1,0 +1,11 @@
+e 3 split  m 8.250565 deficit 0.591285993 offset 3.43655 residual 4.4e-13
+e 4 birth  m 9.236171 deficit 0.502985527 offset 3.43533 residual 4.4e-13
+e 5 split  m 9.764594 deficit 0.463581983 offset 3.43446 residual 4.4e-13
+e 6 birth  m 10.695892 deficit 0.404594576 offset 3.43260 residual 1.8e-12
+e 7 split  m 11.218026 deficit 0.376327813 offset 3.43148 residual 1.8e-12
+e 8 birth  m 12.105856 deficit 0.334635739 offset 3.42945 residual 2.2e-12
+   window m 9.7646: offset 3.43446; L 3.42559 (+0.00887); S 3.43598 (-0.00153)
+   window m 10.6959: offset 3.43260; L 3.42175 (+0.01085); S 3.43525 (-0.00265)
+   window m 11.2180: offset 3.43148; L 3.41967 (+0.01180); S 3.43481 (-0.00334)
+   window m 12.1059: offset 3.42945; L 3.41630 (+0.01315); S 3.43405 (-0.00460)
+max offset 3.43680; last 3.42945; L FAIL; S FAIL

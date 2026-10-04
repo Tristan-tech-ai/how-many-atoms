@@ -1,0 +1,119 @@
+start A = 1.9: ok True, r [0.], w [1.], C 1.0000000000
+EVENT liftoff at A in (1.9999999, 2.0000000]  (signal past it +4.551e-02; interior max at r = 0.5168644881994118)
+   now 1 support points r at A = 2.0002000: r [0.0245] w [1.]
+A = 3.0000: 1 support points r; outer depths A - r: [1.333854]  [0s]
+EVENT birth at A in (3.5398115, 3.5398116]  (signal past it +3.840e-03; interior max at r = None)
+   now 2 support points or at A = 3.5398116: r [0.      2.10367] w [0. 1.]
+A = 4.0000: 2 support points or; outer depths A - r: [1.404296 4.      ]  [1s]
+EVENT liftoff at A in (4.5102701, 4.5102702]  (signal past it +7.084e-03; interior max at r = 0.5802609982278323)
+   now 2 support points rr at A = 4.5104702: r [0.02619 3.0611 ] w [0.1137 0.8863]
+A = 5.0000: 2 support points rr; outer depths A - r: [1.438002 3.808242]  [2s]
+EVENT birth at A in (5.7236508, 5.7236509]  (signal past it +1.847e-03; interior max at r = None)
+   now 3 support points orr at A = 5.7236509: r [0.      1.75351 4.27095] w [0.      0.24734 0.75266]
+A = 6.0000: 3 support points orr; outer depths A - r: [1.450295 3.902772 6.      ]  [3s]
+EVENT liftoff at A in (6.6016873, 6.6016874]  (signal past it +2.186e-03; interior max at r = 0.7515928913414247)
+   now 3 support points rrr at A = 6.6018874: r [0.02788 2.63337 5.14396] w [0.04148 0.28039 0.67813]
+A = 7.0000: 3 support points rrr; outer depths A - r: [1.458    3.928538 5.903683]  [4s]
+EVENT birth at A in (7.6674422, 7.6674423]  (signal past it +5.439e-04; interior max at r = None)
+   now 4 support points orrr at A = 7.6674423: r [0.      1.57563 3.72009 6.20531] w [0.      0.1098  0.28676 0.60344]
+A = 8.0000: 4 support points orrr; outer depths A - r: [1.462513 3.932682 5.998849 8.      ]  [5s]
+EVENT liftoff at A in (8.4906049, 8.4906050]  (signal past it +1.168e-04; interior max at r = 0.4067296290190065)
+   now 4 support points rrrr at A = 8.4908050: r [0.02913 2.40198 4.54677 7.02581] w [0.02124 0.13808 0.28489 0.55579]
+A = 9.0000: 4 support points rrrr; outer depths A - r: [1.466032 3.934412 6.019214 7.812787]  [7s]
+EVENT birth at A in (9.4657735, 9.4657736]  (signal past it +1.580e-04; interior max at r = None)
+   now 5 support points orrrr at A = 9.4657736: r [0.      1.45971 3.40942 5.52694 7.99816] w [0.      0.06153 0.15355 0.27709 0.50784]
+A = 10.0000: 5 support points orrrr; outer depths A - r: [ 1.468643  3.934291  6.031476  7.925732 10.      ]  [9s]
+EVENT liftoff at A in (10.2492151, 10.2492152]  (signal past it +3.066e-06; interior max at r = 0.13399346070018145)
+   now 5 support points rrrrr at A = 10.2494152: r [0.0301  2.24529 4.20004 6.31262 8.78003] w [0.01285 0.08204 0.16096 0.26939 0.47476]
+A = 11.0000: 5 support points rrrrr; outer depths A - r: [1.470723 3.933565 6.032158 7.935859 9.696309]  [11s]
+EVENT birth at A in (11.1609868, 11.1609869]  (signal past it +5.613e-05; interior max at r = None)
+   now 6 support points orrrrr at A = 11.1609869: r [0.      1.37541 3.19554 5.12234 7.22657 9.6899 ] w [0.      0.03919 0.09573 0.16444 0.25946 0.44118]
+EVENT liftoff at A in (11.9133368, 11.9133369]  (signal past it +4.159e-05; interior max at r = 0.7461594528024941)
+   now 6 support points rrrrrr at A = 11.9135369: r [ 0.0309   2.12831  3.95679  5.87971  7.98054 10.44126] w [0.00859 0.05429 0.10389 0.16533 0.25114 0.41677]
+A = 12.0000: 6 support points rrrrrr; outer depths A - r: [1.472401 3.932752 6.032471 7.950283 9.752002]  [15s]
+EVENT birth at A in (12.7772471, 12.7772472]  (signal past it +1.050e-05; interior max at r = None)
+   now 7 support points orrrrrr at A = 12.7772472: r [ 0.       1.31008  3.03439  4.83492  6.74896  8.84578 11.30379] w [0.      0.02709 0.06537 0.10952 0.16453 0.24166 0.39182]
+A = 13.0000: 7 support points orrrrrr; outer depths A - r: [1.473717 3.930943 6.025752 7.93258  9.706688]  [18s]
+EVENT liftoff at A in (13.5041458, 13.5041459]  (signal past it +2.561e-05; interior max at r = 0.8484569798449768)
+   now 7 support points rrrrrrr at A = 13.5043459: r [ 0.03158  2.03587  3.77094  5.56858  7.47952  9.57396 12.03003] w [0.00613 0.03854 0.07268 0.11272 0.16301 0.23392 0.37299]
+A = 14.0000: 7 support points rrrrrrr; outer depths A - r: [1.474833 3.929536 6.021412 7.925001 9.698712]  [22s]
+EVENT birth at A in (14.3300923, 14.3300924]  (signal past it +3.265e-06; interior max at r = None)
+   now 8 support points orrrrrrr at A = 14.3300924: r [ 0.       1.25725  2.90628  4.61373  6.40213  8.30893 10.40084 12.85492] w [0.      0.01982 0.04744 0.07832 0.11473 0.16057 0.22546 0.35366]
+A = 15.0000: 8 support points orrrrrrr; outer depths A - r: [1.475791 3.928403 6.018481 7.922514 9.706201]  [25s]
+EVENT liftoff at A in (15.0355240, 15.0355241]  (signal past it +2.946e-06; interior max at r = 0.6262906577076989)
+   now 8 support points rrrrrrrr at A = 15.0357241: r [ 0.0322   1.96002  3.62161  5.32703  7.11263  9.01719 11.10734 13.5599 ] w [0.0046  0.02876 0.05371 0.082   0.11562 0.15813 0.21855 0.33865]
+EVENT birth at A in (15.8302915, 15.8302916]  (signal past it +2.406e-06; interior max at r = 1.479556864690077)
+   now 9 support points orrrrrrrr at A = 15.8302916: r [ 0.       1.21321  2.8007   4.43513  6.13111  7.91243  9.81449 11.9028
+ 14.35381] w [0.      0.01511 0.03598 0.05882 0.08485 0.11583 0.1551  0.21112 0.32318]
+A = 16.0000: 9 support points orrrrrrrr; outer depths A - r: [1.476611 3.927292 6.015143 7.916214 9.694678]  [33s]
+EVENT liftoff at A in (16.5172196, 16.5172197]  (signal past it +2.885e-06; interior max at r = 0.7903886071094588)
+   now 9 support points rrrrrrrrr at A = 16.5174197: r [ 0.03278  1.89608  3.49748  5.13066  6.82412  8.60333 10.50371 12.59064
+ 15.04043] w [0.00357 0.02227 0.04131 0.06241 0.08663 0.11557 0.15235 0.205   0.31088]
+A = 17.0000: 9 support points rrrrrrrrr; outer depths A - r: [1.477324 3.92629  6.012183 7.910816 9.686031]  [57s]
+EVENT birth at A in (17.2857117, 17.2857118]  (signal past it +3.472e-07; interior max at r = None)
+   now 10 support points orrrrrrrrr at A = 17.2857118: r [ 0.       1.17567  2.71139  4.28617  5.90978  7.59885  9.37555 11.27416
+ 13.35967 15.8082 ] w [0.      0.0119  0.02822 0.04581 0.0654  0.08792 0.11487 0.1492  0.1985
+ 0.29819]
+EVENT liftoff at A in (17.9564238, 17.9564239]  (signal past it +3.726e-07; interior max at r = 0.588506186889414)
+   now 10 support points rrrrrrrrrr at A = 17.9566239: r [ 0.03339  1.84106  3.39175  4.96593  6.58732  8.2744  10.04949 11.94679
+ 14.03117 16.4787 ] w [0.00285 0.01774 0.03276 0.04912 0.06746 0.08862 0.11401 0.14642 0.1931
+ 0.28792]
+A = 18.0000: 10 support points rrrrrrrrrr; outer depths A - r: [1.477951 3.925412 6.009726 7.906917 9.681806]  [85s]
+EVENT birth at A in (18.7023296, 18.7023297]  (signal past it +3.360e-07; interior max at r = 1.4639514662685666)
+   now 11 support points orrrrrrrrrr at A = 18.7023297: r [ 0.       1.14311  2.63434  4.15895  5.72352  7.34042  9.02497 10.79833
+ 12.69426 14.7775  17.22398] w [0.      0.0096  0.02271 0.03669 0.05199 0.06916 0.089   0.11283 0.14333
+ 0.18738 0.2773 ]
+A = 19.0000: 11 support points orrrrrrrrrr; outer depths A - r: [1.478505 3.924597 6.007378 7.90268  9.674916]  [93s]
+EVENT liftoff at A in (19.3586412, 19.3586413]  (signal past it +7.112e-07; interior max at r = 0.8014556405302984)
+   now 11 support points rrrrrrrrrrr at A = 19.3588413: r [ 0.03413  1.79295  3.29999  4.82459  6.38721  8.00224  9.68526 11.45734
+ 13.3522  15.43451 17.88015] w [0.00233 0.01447 0.02661 0.03968 0.05408 0.0703  0.08907 0.11167 0.14063
+ 0.18259 0.26857]
+A = 20.0000: 11 support points rrrrrrrrrrr; outer depths A - r: [1.479    3.923863 6.005314 7.899138 9.669831]  [110s]
+EVENT birth at A in (20.0848269, 20.0848270]  (signal past it +6.601e-08; interior max at r = 1.172805380176315)
+   now 12 support points orrrrrrrrrrr at A = 20.0848270: r [ 0.       1.11447  2.56683  4.04832  5.56331  7.12137  8.73384 10.41514
+ 12.18591 14.07967 16.16102 18.60579] w [0.      0.00791 0.01867 0.03004 0.04233 0.0559  0.07119 0.08891 0.11026
+ 0.1377  0.17754 0.25954]
+EVENT liftoff at A in (20.7282108, 20.7282109]  (signal past it +2.949e-07; interior max at r = 0.7838994558512853)
+   now 12 support points rrrrrrrrrrrr at A = 20.7284109: r [ 0.03539  1.75036  3.21919  4.70118  6.21447  7.77079  9.38179 11.06187
+ 12.8316  14.72447 16.80504 19.24908] w [0.00194 0.01202 0.02204 0.03273 0.04434 0.05721 0.07174 0.0886  0.10895
+ 0.13514 0.17327 0.25202]
+  step to 20.738411 failed; dA -> 5.00e-03
+  step to 20.794348 failed; dA -> 1.27e-02
+A = 21.0000: 12 support points rrrrrrrrrrrr; outer depths A - r: [1.479443 3.923195 6.003445 7.895925 9.665128]  [143s]
+EVENT birth at A in (21.4369644, 21.4369645]  (signal past it +2.504e-08; interior max at r = 1.13483276200951)
+   now 13 support points orrrrrrrrrrrr at A = 21.4369645: r [ 0.       1.08903  2.50696  3.95076  5.42317  6.93185  8.48558 10.09487
+ 11.77366 13.54233 15.43428 17.51404 19.95734] w [0.      0.00663 0.01562 0.02505 0.03515 0.04615 0.05833 0.07211 0.08811
+ 0.10745 0.13239 0.16878 0.24422]
+A = 22.0000: 13 support points orrrrrrrrrrrr; outer depths A - r: [1.479843 3.922582 6.001744 7.893005 9.660846]  [154s]
+EVENT liftoff at A in (22.0686335, 22.0686336]  (signal past it +1.125e-07; interior max at r = 0.7595649777403701)
+   now 13 support points rrrrrrrrrrrrr at A = 22.0688336: r [ 0.02801  1.71209  3.14714  4.59193  6.0629   7.56996  9.12228 10.7304
+ 12.40819 14.176   16.0672  18.14629 20.58896] w [0.00164 0.01014 0.01856 0.02746 0.03703 0.0475  0.05912 0.07228 0.08757
+ 0.10608 0.12999 0.16496 0.23767]
+EVENT birth at A in (22.7618295, 22.7618296]  (signal past it +3.693e-08; interior max at r = 1.5613569164855023)
+   now 14 support points orrrrrrrrrrrrr at A = 22.7618296: r [ 0.       1.06628  2.45334  3.86374  5.29897  6.76528  8.26971  9.82033
+ 11.42718 13.10393 14.87086 16.76128 18.83968 21.28171] w [0.      0.00563 0.01325 0.02121 0.02965 0.03876 0.04872 0.05978 0.0723
+ 0.08689 0.10456 0.12743 0.16094 0.23087]
+A = 23.0000: 14 support points orrrrrrrrrrrrr; outer depths A - r: [1.480206 3.922021 6.000195 7.890352 9.656955]  [180s]
+EVENT liftoff at A in (23.3827917, 23.3827918]  (signal past it +2.834e-08; interior max at r = 0.6933372375089734)
+   now 14 support points rrrrrrrrrrrrrr at A = 23.3829918: r [ 0.02814  1.67765  3.08236  4.49417  5.92819  7.393    8.8961  10.44558
+ 12.05147 13.72739 15.49358 17.38335 19.46117 21.90266] w [0.0014  0.00867 0.01584 0.02336 0.0314  0.0401  0.04962 0.06021 0.07222
+ 0.08621 0.10319 0.12519 0.15749 0.2251 ]
+  step to 23.392992 failed; dA -> 5.00e-03
+  step to 23.387992 failed; dA -> 2.50e-03
+  step to 23.385492 failed; dA -> 1.25e-03
+  step to 23.384242 failed; dA -> 6.25e-04
+  step to 23.383617 failed; dA -> 3.13e-04
+  step to 23.383304 failed; dA -> 1.56e-04
+  step to 23.383148 failed; dA -> 7.81e-05
+  step to 23.383187 failed; dA -> 5.86e-05
+  step to 23.383216 failed; dA -> 4.39e-05
+  step to 23.383172 failed; dA -> 2.20e-05
+  step to 23.383150 failed; dA -> 1.10e-05
+  step to 23.383156 failed; dA -> 8.24e-06
+  step to 23.383148 failed; dA -> 4.12e-06
+  step to 23.383150 failed; dA -> 3.09e-06
+  step to 23.383151 failed; dA -> 2.32e-06
+  step to 23.383149 failed; dA -> 1.16e-06
+  step to 23.383150 failed; dA -> 8.69e-07
+STOP: continuation failed
+done [232s]; events: 27; kinds: ['liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff', 'birth', 'liftoff']

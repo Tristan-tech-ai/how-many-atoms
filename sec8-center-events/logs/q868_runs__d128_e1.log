@@ -1,0 +1,7 @@
+centre_scripts\q868_lfp_events_dimd.py:18: RuntimeWarning: overflow encountered in exp
+  K = np.exp(gammaln(d/2) + nu*np.log(2/xs))*ive(nu, xs)
+centre_scripts\q868_lfp_events_dimd.py:18: RuntimeWarning: invalid value encountered in multiply
+  K = np.exp(gammaln(d/2) + nu*np.log(2/xs))*ive(nu, xs)
+centre_scripts\q868_lfp_events_dimd.py:19: RuntimeWarning: invalid value encountered in divide
+  A = ive(d/2, xs)/ive(nu, xs)
+d 128 e1 (birth of the centre): m 13.00555999; interior excess just below +0.00e+00

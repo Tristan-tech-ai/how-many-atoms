@@ -1,0 +1,6 @@
+it 0: C in [3.50848075, 4.17536424] (gap 6.67e-01); wall mass outer 0.0237 inner 0.0156  [0s]
+it 2000: C in [3.71855148, 3.71881968] (gap 2.68e-04); wall mass outer 0.4756 inner 0.2930  [373s]
+it 4000: C in [3.71857358, 3.71871763] (gap 1.44e-04); wall mass outer 0.4756 inner 0.2931  [764s]
+it 6000: C in [3.71858162, 3.71868341] (gap 1.02e-04); wall mass outer 0.4756 inner 0.2931  [1114s]
+it 8000: C in [3.71858586, 3.71866585] (gap 8.00e-05); wall mass outer 0.4756 inner 0.2931  [1462s]
+saved q859_runs/e1.npz; grid 920 x 920, 153912 interior points, 3800 + 2500 wall points; final C in [3.7185858563, 3.7186658465]

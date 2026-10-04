@@ -1,0 +1,7 @@
+  eps 0.805: max q/|L_KK| 4.1817e+22 at 82.542 deg; LR residual 2.5e-6  [36s]
+  eps 0.806208406078: max q/|L_KK| -1.06791e+16 at 0.041667 deg; LR residual 1.1e-10  [75s]
+  eps 0.806208405769: max q/|L_KK| 3.55595e+25 at 10.292 deg; LR residual 1.3e-6  [115s]
+  eps 0.806208406078: max q/|L_KK| -1.06791e+16 at 0.041667 deg; LR residual 1.1e-10  [124s]
+  eps 0.806208406078: max q/|L_KK| -1.06791e+16 at 0.041667 deg; LR residual 1.1e-10  [133s]
+q810: NOT CONVERGED, |max q/|L_KK|| = 1.068e+16 at the last eps; the line below is the last iterate, not an event
+B_event cap rp 3 K 26 major M' 15 fam3K26b: LR event eps 0.8062084061; vs copying-ring 0.805: 0.1501 %; ring ['0.05698888', '0.03620018', '0.03535053', '0.03816436', '0.04016505', '0.03901456', '0.03261089'] G ['16.95861', '32.34567', '46.85291', '60.73479', '73.78683', '85.13339']; b_j - c_j ['-1.062e-6', '-1.399e-6', '5.68e-6', '-7.645e-6', '1.374e-5', '-3.794e-5', '2.814e-5', '-0.0003105', '-0.002932', '-0.01667', '0.03134', '-0.01099', '-2.445', '-0.6263', '0.8365']  [133s]

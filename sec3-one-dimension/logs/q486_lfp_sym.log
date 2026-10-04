@@ -1,0 +1,18 @@
+q486 v2: symmetric continuation, bounded normal mean, squared error; m to 30.0 by 0.05
+   RESUME from m = 21.6, K = 33, 31 transitions so far
+m =  22.00: K =  33, r = 0.984635049285, res 2.2e-15, off-support -3.1e-12, R(0)-r +1.11e-16, R''(0) -2.04e-09, edge gaps [1.9056 1.7211 1.6044 1.5213], centre gap 1.1416   [694s]
+      split continuation: 19 eps steps, eps at the grid point 0.29656, full Newton res 5.3e-15
+   TRANSITION 33 -> 34 (split) at m = 22.167943   [802s]
+      appear continuation: 15 c steps, c at the grid point 1.1829e-02, full Newton res 8.3e-14
+   TRANSITION 34 -> 35 (appear) at m = 22.735666   [1109s]
+m =  23.00: K =  35, r = 0.985779632902, res 2.8e-14, off-support -9.4e-13, R(0)-r -7.44e-15, R''(0) -7.05e-10, edge gaps [1.9056 1.721  1.6043 1.5211], centre gap 1.0672   [1985s]
+Traceback (most recent call last):
+  File "q486_lfp_sym.py", line 541, in <module>
+    res = start_family(mt, vt, J, centre, kind, m1)
+  File "q486_lfp_sym.py", line 470, in start_family
+    got = split_eps_continuation(mt, v_old, J, m_target) if kind == "split" else appear_c_continuation(mt, a0, w0, J, m_target)
+          ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "q486_lfp_sym.py", line 388, in split_eps_continuation
+    (e1, z1), (e2, z2) = hist[-2], hist[-1]
+                         ~~~~^^^^
+IndexError: list index out of range

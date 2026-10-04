@@ -1,0 +1,33 @@
+d 1 m 4.568938 birth  deficit 0.15882779 predicted 0.15747500 ratio 1.00859 residual 5.6e-14 excess +1.1e-11
+d 1 m 5.364037 split  deficit 0.13087568 predicted 0.13004219 ratio 1.00641 residual 1.1e-15 excess +2.2e-16
+d 1 m 6.137378 birth  deficit 0.11024402 predicted 0.10970146 ratio 1.00495 residual 2.2e-13 excess +0.0e+00
+d 2 m 1.534995 e1     deficit 1.01100522 predicted 0.97028061 ratio 1.04197 residual 0.0e+00 excess +0.0e+00
+d 2 m 2.317149 e2     deficit 0.73308608 predicted 0.72084398 ratio 1.01698 residual 0.0e+00 excess +0.0e+00
+d 2 m 4.079543 split  deficit 0.42054826 predicted 0.41933858 ratio 1.00288 residual 2.2e-16 excess +2.2e-16
+d 2 m 4.981621 birth  deficit 0.33358726 predicted 0.33342769 ratio 1.00048 residual 2.2e-13 excess +8.4e-11
+d 2 m 5.707282 split  deficit 0.28192847 predicted 0.28212799 ratio 0.99929 residual 4.4e-16 excess +0.0e+00
+d 2 m 6.546581 birth  deficit 0.23595890 predicted 0.23629439 ratio 0.99858 residual 2.2e-13 excess +2.2e-11
+d 3 m 1.907980 e1     deficit 1.46154455 predicted 1.42919679 ratio 1.02263 residual 0.0e+00 excess +0.0e+00
+d 3 m 2.592893 e2     deficit 1.12426310 predicted 1.11864250 ratio 1.00502 residual 0.0e+00 excess +0.0e+00
+d 3 m 4.389038 split  deficit 0.65604103 predicted 0.65953401 ratio 0.99470 residual 0.0e+00 excess +0.0e+00
+d 3 m 5.376053 birth  deficit 0.51532544 predicted 0.51873677 ratio 0.99342 residual 4.4e-16 excess +3.3e-10
+d 3 m 6.036522 split  deficit 0.44517398 predicted 0.44828853 ratio 0.99305 residual 2.2e-13 excess +0.0e+00
+d 3 m 6.946158 birth  deficit 0.36998675 predicted 0.37256182 ratio 0.99309 residual 2.2e-13 excess +0.0e+00
+d 4 m 2.223263 e1     deficit 1.90265040 predicted 1.89223242 ratio 1.00551 residual 0.0e+00 excess +0.0e+00
+d 4 m 2.841764 e2     deficit 1.52359264 predicted 1.53295674 ratio 0.99389 residual 0.0e+00 excess +0.0e+00
+d 4 m 4.069368 birth  deficit 1.05544717 predicted 1.06751214 ratio 0.98870 residual 2.2e-13 excess +3.0e-09
+d 4 m 4.680523 split  deficit 0.89965966 predicted 0.91116912 ratio 0.98737 residual 4.4e-16 excess +0.0e+00
+d 4 m 5.753621 birth  deficit 0.69995263 predicted 0.70897316 ratio 0.98728 residual 1.3e-15 excess +3.8e-10
+d 4 m 6.353140 split  deficit 0.61626172 predicted 0.62405133 ratio 0.98752 residual 2.2e-13 excess +4.4e-16
+d 4 m 7.335920 birth  deficit 0.50850256 predicted 0.51452037 ratio 0.98830 residual 2.2e-13 excess +9.6e-11
+d 5 m 2.500804 e1     deficit 2.33939488 predicted 2.36109531 ratio 0.99081 residual 0.0e+00 excess +0.0e+00
+d 5 m 3.070295 e2     deficit 1.92856555 predicted 1.96067298 ratio 0.98362 residual 0.0e+00 excess +0.0e+00
+d 5 m 4.402800 birth  deficit 1.31896951 predicted 1.34445367 ratio 0.98104 residual 8.9e-16 excess +3.9e-09
+d 5 m 4.956883 split  deficit 1.14850424 predicted 1.17103542 ratio 0.98076 residual 1.8e-15 excess +1.8e-15
+d 5 m 6.114747 birth  deficit 0.88565012 predicted 0.90198551 ratio 0.98189 residual 8.9e-16 excess +0.0e+00
+d 5 m 6.658386 split  deficit 0.79257475 predicted 0.80663732 ratio 0.98257 residual 4.4e-13 excess +0.0e+00
+d 5 m 7.715125 birth  deficit 0.64940457 predicted 0.65989559 ratio 0.98410 residual 8.9e-16 excess +1.4e-10
+d 2: scored (m >= 4) 4; ratios [1.0029, 1.0005, 0.9993, 0.9986]; band [0.98, 1.02]: PASS
+d 3: scored (m >= 4) 4; ratios [0.9947, 0.9934, 0.9931, 0.9931]; band [0.98, 1.02]: PASS
+d 4: scored (m >= 4) 5; ratios [0.9887, 0.9874, 0.9873, 0.9875, 0.9883]; band [0.95, 1.05]: PASS
+d 5: scored (m >= 4) 5; ratios [0.981, 0.9808, 0.9819, 0.9826, 0.9841]; band [0.95, 1.05]: PASS

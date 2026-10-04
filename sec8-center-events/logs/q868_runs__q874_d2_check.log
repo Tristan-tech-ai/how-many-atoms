@@ -1,0 +1,11 @@
+e 3 split  m 5.707282 deficit 0.281928472 offset 3.35096 residual 4.4e-16
+e 4 birth  m 6.546581 deficit 0.235958901 offset 3.35479 residual 2.2e-13
+e 5 split  m 7.245051 deficit 0.205795011 offset 3.35715 residual 1.1e-13
+e 6 birth  m 8.039518 deficit 0.178045515 offset 3.35899 residual 5.6e-13
+e 7 split  m 8.715310 deficit 0.158642727 offset 3.36015 residual 7.8e-13
+e 3 birth  m 9.475237 deficit 0.140393856 offset 3.36105 residual 4.4e-13
+e 4 split  m 10.131839 deficit 0.127051727 offset 3.36162 residual 8.9e-13
+e 5 birth  m 10.863885 deficit 0.114305023 offset 3.36205 residual 6.7e-13
+e 6 split  m 11.503970 deficit 0.104670080 offset 3.36231 residual 2.0e-12
+e 7 birth  m 12.212779 deficit 0.095357833 offset 3.36248 residual 1.8e-12
+e 8 split  m 12.838428 deficit 0.088134052 offset 3.36257 residual 2.4e-12

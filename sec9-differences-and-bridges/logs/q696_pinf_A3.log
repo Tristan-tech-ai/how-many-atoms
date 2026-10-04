@@ -1,0 +1,6 @@
+it 0: C in [1.41920557, 2.58138017] (gap 1.16e+00); wall mass 0.1238  [0s]
+it 2000: C in [1.76261541, 1.76305188] (gap 4.36e-04); wall mass 0.9142  [134s]
+it 4000: C in [1.76265382, 1.76289922] (gap 2.45e-04); wall mass 0.9138  [254s]
+it 6000: C in [1.76267146, 1.76284794] (gap 1.76e-04); wall mass 0.9137  [377s]
+it 8000: C in [1.76268242, 1.76281907] (gap 1.37e-04); wall mass 0.9136  [494s]
+saved q696_pinf_A3.npz; grid 440 x 440, 14161 interior points, 2000 wall points

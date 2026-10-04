@@ -1,0 +1,2 @@
+lfp rp 2.8 rm 2.246: pair a 0.671128, mass 0.26115344, C 1.314507706223; Hessian at (a,0) -5.419846e-02 -2.724239e-03; minor-axis max r - C -3.864e-05 at b 0.61; r(0) - C -3.335e-03; residual 1.2e-15; min f 0.788
+lfp rp 2.8 rm 2.2465: pair a 0.671219, mass 0.26119233, C 1.314572107545; Hessian at (a,0) -5.420248e-02 -2.386881e-03; minor-axis max r - C +2.376e-05 at b 0.61; r(0) - C -3.337e-03; residual 2.6e-15; min f 0.788

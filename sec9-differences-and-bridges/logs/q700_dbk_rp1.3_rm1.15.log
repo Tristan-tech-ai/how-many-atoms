@@ -1,0 +1,2 @@
+it 0: C in [0.44430509, 0.60218132] (gap 1.58e-01); wall mass 0.5360; beta 1.00  [0s]
+saved q700_dbk_rp1.3_rm1.15.npz; grid 372 x 372, 1731 interior points, 2000 wall points

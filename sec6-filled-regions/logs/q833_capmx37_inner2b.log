@@ -1,0 +1,23 @@
+cap rp 3.7 rm 3.699: inner mass 0.12159575; C 4.608963348057; inner radius a_0..: [0.907070, 0.000087, 0.000000]; inner d_1..: [0.002350, 0.000009]; residual 3.5e-11; min f 1.000
+cap rp 3.7 rm 3.68: inner mass 0.12060893; C 4.605583971940; inner radius a_0..: [0.892229, 0.001686, 0.000002]; inner d_1..: [0.048934, 0.003655]; residual 1.9e-11; min f 0.999
+cap rp 3.7 rm 3.66: inner mass 0.11955972; C 4.602021023619; inner radius a_0..: [0.876165, 0.003268, 0.000008]; inner d_1..: [0.102247, 0.015747]; residual 4.5e-11; min f 0.999
+cap rp 3.7 rm 3.64: inner mass 0.11849975; C 4.598452256222; inner radius a_0..: [0.859621, 0.004744, 0.000018]; inner d_1..: [0.160471, 0.038299]; residual 3.5e-11; min f 0.998
+cap rp 3.7 rm 3.62: inner mass 0.11742895; C 4.594877706688; inner radius a_0..: [0.842567, 0.006116, 0.000031]; inner d_1..: [0.224233, 0.073886]; residual 2.0e-11; min f 0.998
+cap rp 3.7 rm 3.6: inner mass 0.11634726; C 4.591297410442; inner radius a_0..: [0.824968, 0.007383, 0.000046]; inner d_1..: [0.294275, 0.125817]; residual 6.3e-11; min f 0.997
+cap rp 3.7 rm 3.58: inner mass 0.11525465; C 4.587711401233; inner radius a_0..: [0.806786, 0.008546, 0.000063]; inner d_1..: [0.371480, 0.198378]; residual 5.8e-12; min f 0.996
+cap rp 3.7 rm 3.56: inner mass 0.11415107; C 4.584119710977; inner radius a_0..: [0.787980, 0.009604, 0.000082]; inner d_1..: [0.456908, 0.297192]; residual 2.1e-11; min f 0.996
+cap rp 3.7 rm 3.54: inner mass 0.11303649; C 4.580522369592; inner radius a_0..: [0.768500, 0.010557, 0.000102]; inner d_1..: [0.551844, 0.429717]; residual 7.5e-11; min f 0.995
+cap rp 3.7 rm 3.52: inner mass 0.11191088; C 4.576919404830; inner radius a_0..: [0.748291, 0.011403, 0.000122]; inner d_1..: [0.657859, 0.605980]; residual 3.6e-11; min f 0.994
+cap rp 3.7 rm 3.5: inner mass 0.11069478; C 4.573315717604; inner radius a_0..: [0.724874, 0.015622, -0.001923]; inner d_1..: [0.752140, 1.517606]; residual 3.4e-04; min f 0.993
+cap rp 3.7 rm 3.48: inner mass 0.10963378; C 4.569699084634; inner radius a_0..: [0.705158, 0.012437, 0.000853]; inner d_1..: [0.906403, 1.582491]; residual 2.2e-05; min f 0.993
+cap rp 3.7 rm 3.46: inner mass 0.10851596; C 4.566079750346; inner radius a_0..: [0.682992, 0.010317, 0.003887]; inner d_1..: [1.072395, 1.416120]; residual 1.1e-04; min f 0.992
+cap rp 3.7 rm 3.456: inner mass 0.10823742; C 4.565352663583; inner radius a_0..: [0.677929, 0.013326, 0.000303]; inner d_1..: [1.097073, 1.683386]; residual 5.2e-06; min f 0.992
+cap rp 3.7 rm 3.452: inner mass 0.10803144; C 4.564627430681; inner radius a_0..: [0.672963, 0.013496, 0.001669]; inner d_1..: [1.130488, 1.658220]; residual 5.5e-05; min f 0.992
+centre_scripts\q833_models.py:71: RuntimeWarning: invalid value encountered in log
+  if FUNC == "cap": return -np.log(p), None, (i1, i2, Ki)
+cap rp 3.7 rm 3.448: inner mass 0.10779787; C 4.563902863543; inner radius a_0..: [0.668258, 0.011232, 0.003047]; inner d_1..: [1.175283, 1.749284]; residual 5.8e-05; min f 0.992
+cap rp 3.7 rm 3.444: inner mass 0.10753271; C 4.563177270145; inner radius a_0..: [0.663590, 0.013627, 0.000200]; inner d_1..: [1.202597, 1.993852]; residual 9.7e-12; min f 0.992
+cap rp 3.7 rm 3.44: inner mass 0.10729785; C 4.562451781907; inner radius a_0..: [0.658724, 0.013699, 0.000203]; inner d_1..: [1.239689, 2.118772]; residual 1.1e-11; min f 0.991
+cap rp 3.7 rm 3.44: inner mass 0.10729785; C 4.562451781907; inner radius a_0..: [0.658724, 0.013699, 0.000203]; inner d_1..: [1.239689, 2.118772]; residual 1.1e-11; min f 0.991
+cap rp 3.7 rm 3.441: inner mass 0.10735602; C 4.562633190773; inner radius a_0..: [0.659976, 0.013650, 0.000172]; inner d_1..: [1.230436, 2.088010]; residual 6.2e-07; min f 0.992
+cap rp 3.7 rm 3.4415: inner mass 0.10738598; C 4.562723865890; inner radius a_0..: [0.660554, 0.013673, 0.000202]; inner d_1..: [1.225654, 2.071030]; residual 4.9e-11; min f 0.992

@@ -1,0 +1,9 @@
+it 0: C in [1.23468583, 1.75101228] (gap 5.16e-01); wall mass 0.1544; beta 1.00  [0s]
+it 1000: C in [1.50353495, 1.50393015] (gap 3.95e-04); wall mass 0.9321; beta 2.15  [131s]
+it 2000: C in [1.50354818, 1.50374848] (gap 2.00e-04); wall mass 0.9321; beta 3.85  [278s]
+it 3000: C in [1.50355284, 1.50368444] (gap 1.32e-04); wall mass 0.9321; beta 2.58  [412s]
+it 4000: C in [1.50355555, 1.50364723] (gap 9.17e-05); wall mass 0.9321; beta 2.58  [527s]
+it 5000: C in [1.50355746, 1.50362096] (gap 6.35e-05); wall mass 0.9321; beta 2.58  [627s]
+it 6000: C in [1.50355885, 1.50360196] (gap 4.31e-05); wall mass 0.9321; beta 2.58  [724s]
+it 7000: C in [1.50355982, 1.50358856] (gap 2.87e-05); wall mass 0.9321; beta 2.58  [813s]
+saved q702_rose_e0.0083_A3.npz; grid 440 x 440, 10953 interior points, 2000 wall points

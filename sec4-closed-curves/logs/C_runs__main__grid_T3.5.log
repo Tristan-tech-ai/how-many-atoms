@@ -1,0 +1,7 @@
+C_grid_sra rp 1.0 rm 0.7 s 2.0 T 3.5: NGH 200, 1025 grid orbits (4096 curve points), 1000 BA iterations, then support reduction
+  after BA: max D - 1 +2.949e-04  [2s]
+  sra 0: |S| 2, max D - 1 +1.143e-01 at 90.000 deg, max |grad on S| 0.00e+00  [2s]
+  sra 20: |S| 3, max D - 1 +2.311e-11 at 71.455 deg, max |grad on S| 3.94e-13  [2s]
+  sra done (22 steps): |S| 3, max D - 1 on the grid +2.420e-14, total mass 0.999999999999976
+  active grid orbits (deg, mass per atom): [(0.0, 0.3069353), (71.3672, 0.07451384), (71.4551, 0.02201853)]
+  clusters: XG (K 6); masses per atom ['0.30693526', '0.09653237']; G deg ['71.38723']  [2s]

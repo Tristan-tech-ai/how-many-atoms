@@ -1,0 +1,45 @@
+start: ok True, 2 points
+mark 1: 2 points  [19s]
+mark 2: 2 points  [20s]
+event 1 (birth) bisected  [53s]
+   now 3 points
+mark 3: 3 points  [71s]
+mark 4: 3 points  [91s]
+mark 5: 3 points  [92s]
+event 2 (split) bisected  [120s]
+   now 4 points
+mark 6: 4 points  [131s]
+mark 7: 4 points  [152s]
+mark 8: 4 points  [153s]
+event 3 (birth) bisected  [199s]
+   now 5 points
+mark 9: 5 points  [201s]
+mark 10: 5 points  [225s]
+mark 11: 5 points  [247s]
+event 4 (split) bisected  [265s]
+   now 6 points
+mark 12: 6 points  [320s]
+mark 13: 6 points  [338s]
+event 5 (split) bisected  [352s]
+   now 7 points
+mark 14: 7 points  [483s]
+event 6 (split) bisected  [521s]
+   now 8 points
+mark 15: 8 points  [671s]
+mark 16: 8 points  [700s]
+event 7 (split) bisected  [735s]
+   now 9 points
+mark 17: 9 points  [932s]
+mark 18: 9 points  [966s]
+event 8 (split) bisected  [1003s]
+   now 10 points
+mark 19: 10 points  [1432s]
+mark 20: 10 points  [1473s]
+event 9 (split) bisected  [1500s]
+   now 11 points
+mark 21: 11 points  [2124s]
+event 10 (split) bisected  [2188s]
+   now 12 points
+  steps: 426 accepted, 20 failed, dW 4.6e-03, 12 points  [3713s]
+mark 22: 12 points  [3900s]
+mark 23: 12 points  [3950s]

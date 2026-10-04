@@ -1,0 +1,6 @@
+it 0: C in [2.71041815, 3.54740937] (gap 8.37e-01); wall mass 0.0246  [0s]
+it 2000: C in [2.90673299, 2.90711174] (gap 3.79e-04); wall mass 0.5868  [99s]
+it 4000: C in [2.90677579, 2.90697111] (gap 1.95e-04); wall mass 0.5870  [211s]
+it 6000: C in [2.90679200, 2.90690651] (gap 1.15e-04); wall mass 0.5870  [326s]
+it 8000: C in [2.90680044, 2.90687802] (gap 7.76e-05); wall mass 0.5871  [450s]
+saved q696_disc_A8_check.npz; grid 640 x 640, 79381 interior points, 2000 wall points

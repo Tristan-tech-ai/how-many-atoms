@@ -1,0 +1,11 @@
+start: ok True, 2 points
+resumed: ok True, 11 points
+event 10 (split) bisected  [47s]
+   now 12 points
+mark 23: 12 points  [830s]
+mark 24: 12 points  [884s]
+event 11 (birth) bisected  [970s]
+   now 13 points
+mark 25: 13 points  [1037s]
+mark 26: 13 points  [1100s]
+event 12 (split) bisected  [1145s]

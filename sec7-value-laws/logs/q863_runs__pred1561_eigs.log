@@ -1,0 +1,12 @@
+annulus RI 2.65224 RO 13.347760000000001 H 0.05: unknowns 215014; lambda_1 = 0.08083355; 4 lambda_1 = 0.32333420
+annulus RI 2.65224 RO 13.347760000000001 H 0.025: unknowns 860139; lambda_1 = 0.08113363; 4 lambda_1 = 0.32453453
+annulus RI 6.0 RO 10.0 H 0.05: unknowns 80402; lambda_1 = 0.60171746; 4 lambda_1 = 2.40686982
+annulus RI 6.0 RO 10.0 H 0.025: unknowns 321708; lambda_1 = 0.60707103; 4 lambda_1 = 2.42828413
+annulus RI 6.0 RO 13.347760000000001 H 0.05: unknowns 178612; lambda_1 = 0.17819043; 4 lambda_1 = 0.71276171
+annulus RI 6.0 RO 13.347760000000001 H 0.025: unknowns 714532; lambda_1 = 0.17907843; 4 lambda_1 = 0.71631373
+annulus RI 4.65224 RO 14.347760000000001 H 0.05: unknowns 231446; lambda_1 = 0.10111636; 4 lambda_1 = 0.40446543
+annulus RI 4.65224 RO 14.347760000000001 H 0.025: unknowns 925924; lambda_1 = 0.10149674; 4 lambda_1 = 0.40598696
+annulus RI 8.0 RO 11.0 H 0.05: unknowns 71636; lambda_1 = 1.06647401; 4 lambda_1 = 4.26589604
+annulus RI 8.0 RO 11.0 H 0.025: unknowns 286532; lambda_1 = 1.08022321; 4 lambda_1 = 4.32089282
+annulus RI 8.0 RO 14.347760000000001 H 0.05: unknowns 178238; lambda_1 = 0.24007204; 4 lambda_1 = 0.96028817
+annulus RI 8.0 RO 14.347760000000001 H 0.025: unknowns 713020; lambda_1 = 0.24147761; 4 lambda_1 = 0.96591043

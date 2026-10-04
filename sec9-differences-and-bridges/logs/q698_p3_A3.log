@@ -1,0 +1,13 @@
+it 0: C in [1.58339309, 1.58351608] (gap 1.23e-04); wall mass 0.9194; beta 1.00  [0s]
+it 1000: C in [1.58340752, 1.58361813] (gap 2.11e-04); wall mass 0.9194; beta 3.72  [59s]
+it 2000: C in [1.58341658, 1.58353992] (gap 1.23e-04); wall mass 0.9194; beta 2.67  [120s]
+it 3000: C in [1.58342287, 1.58363252] (gap 2.10e-04); wall mass 0.9194; beta 3.33  [179s]
+it 4000: C in [1.58342753, 1.58355221] (gap 1.25e-04); wall mass 0.9194; beta 3.72  [238s]
+it 5000: C in [1.58343111, 1.58353641] (gap 1.05e-04); wall mass 0.9194; beta 2.31  [295s]
+it 6000: C in [1.58343395, 1.58349209] (gap 5.81e-05); wall mass 0.9194; beta 2.88  [354s]
+it 7000: C in [1.58343624, 1.58356509] (gap 1.29e-04); wall mass 0.9194; beta 4.00  [410s]
+it 8000: C in [1.58343812, 1.58346408] (gap 2.60e-05); wall mass 0.9194; beta 2.49  [466s]
+it 9000: C in [1.58343968, 1.58350929] (gap 6.96e-05); wall mass 0.9194; beta 2.40  [524s]
+it 10000: C in [1.58344100, 1.58354165] (gap 1.01e-04); wall mass 0.9194; beta 3.46  [609s]
+it 11000: C in [1.58344211, 1.58348805] (gap 4.59e-05); wall mass 0.9194; beta 2.15  [730s]
+saved q698_p3_A3.npz; grid 440 x 440, 12253 interior points, 2000 wall points

@@ -1,0 +1,6 @@
+m 3.3220: offset_1 3.294821; d 1.05: offset 3.296047 kappa 0.1635 (res 5.6e-14, excess +0.0e+00); d 1.10: offset 3.297274 kappa 0.1636 (res 2.2e-16, excess +2.2e-16)
+m 4.1585: offset_1 3.307863; d 1.05: offset 3.309246 kappa 0.2076 (res 5.6e-14, excess +0.0e+00); d 1.10: offset 3.310611 kappa 0.2063 (res 1.7e-13, excess +0.0e+00)
+m 4.9665: offset_1 3.316110; d 1.05: offset 3.317620 kappa 0.2510 (res 5.6e-14, excess +4.4e-16); d 1.10: offset 3.319082 kappa 0.2470 (res 5.6e-14, excess +2.4e-14)
+m 5.7507: offset_1 3.321766; d 1.05: offset 3.323300 kappa 0.2792 (res 1.1e-13, excess +0.0e+00); d 1.10: offset 3.324773 kappa 0.2736 (res 1.7e-13, excess +0.0e+00)
+m 6.5147: offset_1 3.325868; d 1.05: offset 3.327422 kappa 0.3065 (res 4.4e-13, excess +7.1e-14); d 1.10: offset 3.328893 kappa 0.2983 (res 1.1e-13, excess +0.0e+00)
+m 7.2610: offset_1 3.328971; d 1.05: offset 3.330517 kappa 0.3282 (res 2.8e-13, excess +0.0e+00); d 1.10: offset 3.149637 kappa -19.0251 (res 1.9e-03, excess +2.9e-02)

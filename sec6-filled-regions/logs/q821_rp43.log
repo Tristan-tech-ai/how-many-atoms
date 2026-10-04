@@ -1,0 +1,16 @@
+rp 4.3 rm 3.288: pair a 0.997845, m0 0.12087499, C 1.799107620676 (centre-atom model C 1.793556076454, pair - centre +5.55e-03); Hessian at (a,0) -0.039116 -0.008113; D(0) - C -5.035e-03; residual 3.3e-15; min f 0.898
+    minor axis: max D - C -3.989e-04 at b 0.76; circle radius a: max D - C +1.776e-15 at 0 deg, min -2.434e-03
+rp 4.3 rm 3.29: pair a 0.998272, m0 0.12094678, C 1.799479560048 (centre-atom model C 1.793913003832, pair - centre +5.57e-03); Hessian at (a,0) -0.039090 -0.007544; D(0) - C -5.035e-03; residual 3.1e-14; min f 0.899
+    minor axis: max D - C -2.253e-04 at b 0.77; circle radius a: max D - C -3.109e-14 at 0 deg, min -2.171e-03
+rp 4.3 rm 3.292: pair a 0.998698, m0 0.12101839, C 1.799851302058 (centre-atom model C 1.794269736525, pair - centre +5.58e-03); Hessian at (a,0) -0.039064 -0.006975; D(0) - C -5.035e-03; residual 3.6e-15; min f 0.899
+    minor axis: max D - C -4.780e-05 at b 0.77; circle radius a: max D - C -3.553e-15 at 0 deg, min -1.908e-03
+rp 4.3 rm 3.293: pair a 0.998910, m0 0.12105412, C 1.800037099045 (centre-atom model C 1.794448029879, pair - centre +5.59e-03); Hessian at (a,0) -0.039051 -0.006690; D(0) - C -5.035e-03; residual 6.2e-15; min f 0.899
+    minor axis: max D - C +4.136e-05 at b 0.78; circle radius a: max D - C -6.217e-15 at 0 deg, min -1.776e-03
+rp 4.3 rm 3.294: pair a 0.999122, m0 0.12108982, C 1.800222846683 (centre-atom model C 1.794626274580, pair - centre +5.60e-03); Hessian at (a,0) -0.039038 -0.006405; D(0) - C -5.035e-03; residual 3.6e-15; min f 0.899
+    minor axis: max D - C +1.322e-04 at b 0.78; circle radius a: max D - C -3.553e-15 at 0 deg, min -1.643e-03
+rp 4.3 rm 3.295: pair a 0.999334, m0 0.12112546, C 1.800408544968 (centre-atom model C 1.794804470632, pair - centre +5.60e-03); Hessian at (a,0) -0.039025 -0.006121; D(0) - C -5.035e-03; residual 1.2e-15; min f 0.899
+    minor axis: max D - C +2.232e-04 at b 0.78; circle radius a: max D - C +0.000e+00 at 0 deg, min -1.511e-03
+rp 4.3 rm 3.297: pair a 0.999757, m0 0.12119663, C 1.800779793470 (centre-atom model C 1.795160716816, pair - centre +5.62e-03); Hessian at (a,0) -0.038999 -0.005550; D(0) - C -5.034e-03; residual 1.2e-14; min f 0.899
+    minor axis: max D - C +4.074e-04 at b 0.79; circle radius a: max D - C -1.155e-14 at 0 deg, min -1.255e-03
+rp 4.3 rm 3.3: pair a 1.000390, m0 0.12130304, C 1.801336296009 (centre-atom model C 1.795694721380, pair - centre +5.64e-03); Hessian at (a,0) -0.038959 -0.004695; D(0) - C -5.034e-03; residual 4.4e-12; min f 0.900
+    minor axis: max D - C +6.889e-04 at b 0.80; circle radius a: max D - C -8.882e-16 at 0 deg, min -9.105e-04

@@ -1,0 +1,7 @@
+start: ok True, 2 points
+resumed: ok True, 7 points
+event 6 (split) bisected  [53s]
+   now 8 points
+event 7 (birth) bisected  [161s]
+STOP: could not continue past the event
+done [228s]; events 7

@@ -1,0 +1,9 @@
+rd rp 2.9 rm 2.5315: pair a 0.598108, mass 0.31912157, C 0.999999999977; Hessian at (a,0) -1.103688e-02 -6.232508e-04; minor-axis max r - C -4.702e-05 at b 0.53; r(0) - C -5.222e-04; residual 5.6e-13; min f 0.769
+rd rp 2.9 rm 2.532: pair a 0.598242, mass 0.31921389, C 0.999999999977; Hessian at (a,0) -1.103883e-02 -5.081626e-04; minor-axis max r - C -3.080e-05 at b 0.53; r(0) - C -5.225e-04; residual 5.6e-13; min f 0.769
+rd rp 2.9 rm 2.5325: pair a 0.598375, mass 0.31930617, C 0.999999999977; Hessian at (a,0) -1.104077e-02 -3.930409e-04; minor-axis max r - C -1.415e-05 at b 0.54; r(0) - C -5.229e-04; residual 2.5e-16; min f 0.769
+rd rp 2.9 rm 2.5328: pair a 0.598455, mass 0.31936152, C 0.999999999977; Hessian at (a,0) -1.104193e-02 -3.239520e-04; minor-axis max r - C -4.059e-06 at b 0.54; r(0) - C -5.231e-04; residual 5.6e-13; min f 0.769
+rd rp 2.9 rm 2.5329: pair a 0.598482, mass 0.31937996, C 0.999999999977; Hessian at (a,0) -1.104232e-02 -3.009193e-04; minor-axis max r - C -6.950e-07 at b 0.54; r(0) - C -5.231e-04; residual 5.6e-13; min f 0.769
+rd rp 2.9 rm 2.533: pair a 0.598508, mass 0.31939841, C 0.999999999977; Hessian at (a,0) -1.104271e-02 -2.778862e-04; minor-axis max r - C +2.669e-06 at b 0.54; r(0) - C -5.232e-04; residual 7.4e-16; min f 0.769
+rd rp 2.9 rm 2.5331: pair a 0.598535, mass 0.31941685, C 0.999999999977; Hessian at (a,0) -1.104309e-02 -2.548504e-04; minor-axis max r - C +6.033e-06 at b 0.54; r(0) - C -5.233e-04; residual 5.6e-13; min f 0.769
+rd rp 2.9 rm 2.5335: pair a 0.598641, mass 0.31949060, C 0.999999999977; Hessian at (a,0) -1.104464e-02 -1.626970e-04; minor-axis max r - C +1.977e-05 at b 0.55; r(0) - C -5.235e-04; residual 5.6e-13; min f 0.770
+rd rp 2.9 rm 2.534: pair a 0.598774, mass 0.31958276, C 0.999999999977; Hessian at (a,0) -1.104656e-02 -4.747491e-05; minor-axis max r - C +3.719e-05 at b 0.55; r(0) - C -5.239e-04; residual 8.9e-16; min f 0.770

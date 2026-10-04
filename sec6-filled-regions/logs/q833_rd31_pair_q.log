@@ -1,0 +1,2 @@
+rd rp 3.1 rm 2.498: pair a 0.734947, mass 0.34411363, C 0.999999999977; Hessian at (a,0) -1.113302e-02 -1.437338e-03; minor-axis max r - C -1.861e-05 at b 0.60; r(0) - C -7.977e-04; residual 5.6e-13; min f 0.615
+rd rp 3.1 rm 2.4985: pair a 0.735050, mass 0.34421318, C 0.999999999977; Hessian at (a,0) -1.113115e-02 -1.320725e-03; minor-axis max r - C +2.710e-06 at b 0.60; r(0) - C -7.978e-04; residual 3.3e-16; min f 0.616

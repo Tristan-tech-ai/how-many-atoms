@@ -1,0 +1,17 @@
+rd rp 2.9 rm 2.899: inner mass 0.41710786; C 0.999999999977; inner radius a_0..: [0.948137, 0.000173, 0.000000]; inner d_1..: [0.001455, 0.000006]; residual 3.6e-12; min f 0.999
+rd rp 2.9 rm 2.88: inner mass 0.41270190; C 0.999999999977; inner radius a_0..: [0.935397, 0.003362, 0.000008]; inner d_1..: [0.030496, 0.002394]; residual 7.0e-12; min f 0.986
+rd rp 2.9 rm 2.86: inner mass 0.40798573; C 0.999999999977; inner radius a_0..: [0.921459, 0.006505, 0.000032]; inner d_1..: [0.064107, 0.010242]; residual 2.8e-12; min f 0.971
+rd rp 2.9 rm 2.84: inner mass 0.40318807; C 0.999999999977; inner radius a_0..: [0.906945, 0.009430, 0.000068]; inner d_1..: [0.101169, 0.024726]; residual 5.3e-12; min f 0.957
+rd rp 2.9 rm 2.82: inner mass 0.39830782; C 0.999999999977; inner radius a_0..: [0.891820, 0.012140, 0.000116]; inner d_1..: [0.142079, 0.047339]; residual 4.6e-12; min f 0.943
+rd rp 2.9 rm 2.8: inner mass 0.39334391; C 0.999999999977; inner radius a_0..: [0.876043, 0.014638, 0.000172]; inner d_1..: [0.187301, 0.079980]; residual 1.5e-12; min f 0.929
+rd rp 2.9 rm 2.78: inner mass 0.38829535; C 0.999999999977; inner radius a_0..: [0.859567, 0.016925, 0.000235]; inner d_1..: [0.237393, 0.125092]; residual 6.0e-12; min f 0.914
+rd rp 2.9 rm 2.76: inner mass 0.38316122; C 0.999999999977; inner radius a_0..: [0.842343, 0.019002, 0.000303]; inner d_1..: [0.293018, 0.185854]; residual 4.4e-12; min f 0.900
+rd rp 2.9 rm 2.74: inner mass 0.37794067; C 0.999999999977; inner radius a_0..: [0.824312, 0.020870, 0.000374]; inner d_1..: [0.354975, 0.266452]; residual 2.8e-12; min f 0.886
+rd rp 2.9 rm 2.72: inner mass 0.37263294; C 0.999999999977; inner radius a_0..: [0.805408, 0.022529, 0.000448]; inner d_1..: [0.424235, 0.372474]; residual 6.1e-12; min f 0.872
+rd rp 2.9 rm 2.7: inner mass 0.36723738; C 0.999999999977; inner radius a_0..: [0.785557, 0.023977, 0.000522]; inner d_1..: [0.501986, 0.511490]; residual 9.7e-12; min f 0.858
+rd rp 2.9 rm 2.68: inner mass 0.36175344; C 0.999999999977; inner radius a_0..: [0.764672, 0.025213, 0.000594]; inner d_1..: [0.589692, 0.693932]; residual 4.9e-12; min f 0.845
+rd rp 2.9 rm 2.66: inner mass 0.35618069; C 0.999999999977; inner radius a_0..: [0.742651, 0.026233, 0.000664]; inner d_1..: [0.689182, 0.934450]; residual 8.6e-12; min f 0.831
+rd rp 2.9 rm 2.64: inner mass 0.35051884; C 0.999999999977; inner radius a_0..: [0.719375, 0.027034, 0.000730]; inner d_1..: [0.802754, 1.254071]; residual 6.5e-12; min f 0.817
+rd rp 2.9 rm 2.62: inner mass 0.34476818; C 1.000000104655; inner radius a_0..: [0.694776, 0.028101, 0.000439]; inner d_1..: [0.933288, 1.631129]; residual 4.3e-06; min f 0.804
+rd rp 2.9 rm 2.6: inner mass 0.33892741; C 0.999999999977; inner radius a_0..: [0.668458, 0.027954, 0.000845]; inner d_1..: [1.084685, 2.270324]; residual 2.9e-12; min f 0.790
+rd rp 2.9 rm 2.58: inner mass 0.33299804; C 0.999999999977; inner radius a_0..: [0.640432, 0.028053, 0.000891]; inner d_1..: [1.261689, 3.087333]; residual 8.5e-12; min f 0.777

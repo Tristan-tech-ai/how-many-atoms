@@ -1,0 +1,11 @@
+T 1.700: mode harm: final residual 6.163e-33, converged True [5s]
+ margins midway: 13.1843 -5.475029e-14; 37.5590 -1.879760e-14; 58.8138 -8.008262e-15; 79.4391 -7.436404e-15; scan max +1.540744e-33 at 0.000 deg [5s] 
+T 1.680: mode harm: final residual 4.157e-09, converged False [15s]
+ margins midway: 14.1207 -1.565218e-09; 41.9497 -6.543571e-10; 72.8230 -1.910022e-10; 89.9940 -2.350329e-10; scan max +2.234325e-10 at 0.000 deg [15s] 
+T 1.660:   File "flint/types/arb_mat.pyx", line 436, in flint.types.arb_mat.arb_mat.solve
+ ZeroDivisionError: singular matrix in solve() 
+T 1.640:   File "flint/types/arb_mat.pyx", line 436, in flint.types.arb_mat.arb_mat.solve
+ ZeroDivisionError: singular matrix in solve() 
+      0 [main] bash (25460) child_copy: cygheap read copy failed, 0x800000000..0x800010320, done 0, windows pid 25460, Win32 error 299
+   6687 [main] bash 393 child_copy: dll data read copy failed, 0x210246000..0x21025FC90, done 0, windows pid 25460, Win32 error 299
+   7805 [main] bash 393 C:\Program Files\Git\usr\bin\bash.exe: *** fatal error in forked process - couldn't create signal pipe, Win32 error 5

@@ -1,0 +1,467 @@
+  birth track d 3 m 2.613: f -1.397e-04; support [0.27599 2.61289]; weights [0.12225 0.87775]; residual 2.2e-16
+  birth track d 3 m 2.638: f -6.900e-04; support [0.41184 2.63789]; weights [0.1281 0.8719]; residual 4.4e-16
+  birth track d 3 m 2.663: f -1.628e-03; support [0.51106 2.66289]; weights [0.13399 0.86601]; residual 2.2e-16
+  birth track d 3 m 2.688: f -2.922e-03; support [0.59242 2.68789]; weights [0.13992 0.86008]; residual 1.1e-13
+  birth track d 3 m 2.713: f -4.540e-03; support [0.66259 2.71289]; weights [0.14586 0.85414]; residual 1.1e-13
+  birth track d 3 m 2.738: f -6.449e-03; support [0.72488 2.73789]; weights [0.15182 0.84818]; residual 0.0e+00
+  birth track d 3 m 2.763: f -8.617e-03; support [0.78123 2.76289]; weights [0.15778 0.84222]; residual 0.0e+00
+  birth track d 3 m 2.788: f -1.101e-02; support [0.83289 2.78789]; weights [0.16373 0.83627]; residual 1.1e-15
+  birth track d 3 m 2.813: f -1.360e-02; support [0.88073 2.81289]; weights [0.16968 0.83032]; residual 2.2e-15
+  birth track d 3 m 2.838: f -1.636e-02; support [0.92537 2.83789]; weights [0.1756 0.8244]; residual 0.0e+00
+  birth track d 3 m 2.863: f -1.925e-02; support [0.96731 2.86289]; weights [0.1815 0.8185]; residual 2.2e-16
+  birth track d 3 m 2.888: f -2.224e-02; support [1.00689 2.88789]; weights [0.18736 0.81264]; residual 0.0e+00
+  birth track d 3 m 2.913: f -2.530e-02; support [1.04444 2.91289]; weights [0.19318 0.80682]; residual 0.0e+00
+  birth track d 3 m 2.938: f -2.840e-02; support [1.08018 2.93789]; weights [0.19895 0.80105]; residual 2.2e-16
+  birth track d 3 m 2.963: f -3.152e-02; support [1.11432 2.96289]; weights [0.20468 0.79532]; residual 0.0e+00
+  birth track d 3 m 2.988: f -3.462e-02; support [1.14703 2.98789]; weights [0.21034 0.78966]; residual 0.0e+00
+  birth track d 3 m 3.013: f -3.767e-02; support [1.17844 3.01289]; weights [0.21595 0.78405]; residual 0.0e+00
+  birth track d 3 m 3.038: f -4.064e-02; support [1.20869 3.03789]; weights [0.2215 0.7785]; residual 0.0e+00
+  birth track d 3 m 3.063: f -4.352e-02; support [1.23789 3.06289]; weights [0.22697 0.77303]; residual 4.4e-16
+  birth track d 3 m 3.088: f -4.626e-02; support [1.26611 3.08789]; weights [0.23238 0.76762]; residual 8.9e-16
+  birth track d 3 m 3.113: f -4.884e-02; support [1.29345 3.11289]; weights [0.23771 0.76229]; residual 4.4e-16
+  birth track d 3 m 3.138: f -5.124e-02; support [1.31998 3.13789]; weights [0.24297 0.75703]; residual 0.0e+00
+  birth track d 3 m 3.163: f -5.342e-02; support [1.34577 3.16289]; weights [0.24815 0.75185]; residual 0.0e+00
+  birth track d 3 m 3.188: f -5.537e-02; support [1.37087 3.18789]; weights [0.25326 0.74674]; residual 0.0e+00
+  birth track d 3 m 3.213: f -5.706e-02; support [1.39534 3.21289]; weights [0.25828 0.74172]; residual 0.0e+00
+  birth track d 3 m 3.238: f -5.846e-02; support [1.41922 3.23789]; weights [0.26322 0.73678]; residual 4.4e-16
+  birth track d 3 m 3.263: f -5.954e-02; support [1.44256 3.26289]; weights [0.26808 0.73192]; residual 0.0e+00
+  birth track d 3 m 3.288: f -6.028e-02; support [1.4654  3.28789]; weights [0.27285 0.72715]; residual 8.9e-16
+  birth track d 3 m 3.313: f -6.067e-02; support [1.48777 3.31289]; weights [0.27755 0.72245]; residual 2.2e-13
+  birth track d 3 m 3.338: f -6.066e-02; support [1.50971 3.33789]; weights [0.28216 0.71784]; residual 0.0e+00
+  birth track d 3 m 3.363: f -6.025e-02; support [1.53124 3.36289]; weights [0.28668 0.71332]; residual 8.9e-16
+  birth track d 3 m 3.388: f -5.941e-02; support [1.55241 3.38789]; weights [0.29113 0.70887]; residual 4.9e-15
+  birth track d 3 m 3.413: f -5.811e-02; support [1.57322 3.41289]; weights [0.29549 0.70451]; residual 4.4e-16
+  birth track d 3 m 3.438: f -5.633e-02; support [1.59371 3.43789]; weights [0.29976 0.70024]; residual 0.0e+00
+  birth track d 3 m 3.463: f -5.405e-02; support [1.61389 3.46289]; weights [0.30396 0.69604]; residual 4.4e-16
+  birth track d 3 m 3.488: f -5.125e-02; support [1.6338  3.48789]; weights [0.30807 0.69193]; residual 0.0e+00
+  birth track d 3 m 3.513: f -4.791e-02; support [1.65344 3.51289]; weights [0.31211 0.68789]; residual 1.3e-15
+  birth track d 3 m 3.538: f -4.401e-02; support [1.67284 3.53789]; weights [0.31606 0.68394]; residual 0.0e+00
+  birth track d 3 m 3.563: f -3.952e-02; support [1.69202 3.56289]; weights [0.31993 0.68007]; residual 0.0e+00
+  birth track d 3 m 3.588: f -3.442e-02; support [1.71099 3.58789]; weights [0.32373 0.67627]; residual 0.0e+00
+  birth track d 3 m 3.613: f -2.870e-02; support [1.72976 3.61289]; weights [0.32745 0.67255]; residual 8.9e-16
+  birth track d 3 m 3.638: f -2.233e-02; support [1.74835 3.63789]; weights [0.3311 0.6689]; residual 0.0e+00
+  birth track d 3 m 3.663: f -1.530e-02; support [1.76677 3.66289]; weights [0.33467 0.66533]; residual 0.0e+00
+  birth track d 3 m 3.688: f -7.588e-03; support [1.78504 3.68789]; weights [0.33816 0.66184]; residual 0.0e+00
+  birth track d 3 m 3.713: f +8.289e-04; support [1.80316 3.71289]; weights [0.34159 0.65841]; residual 0.0e+00
+  state at root - 0.01: support [1.794209 3.700523]; weights [0.339903 0.660097]; residual 0.0e+00; interior excess +0.00e+00
+CHAIN d 3 e3 birth: m 3.71052251; support [1.801448 3.710523]; weights [0.341267 0.658733]; residual 0.0e+00
+  split track d 3 m 3.721: f -3.308e-02; support [0.      1.81457 3.72052]; weights [0.00125 0.34199 0.65676]; residual 4.4e-16
+  split track d 3 m 3.746: f -3.448e-02; support [0.      1.84666 3.74552]; weights [0.00418 0.34395 0.65187]; residual 4.4e-16
+  split track d 3 m 3.771: f -3.575e-02; support [0.      1.87781 3.77052]; weights [0.00688 0.34608 0.64704]; residual 0.0e+00
+  split track d 3 m 3.796: f -3.689e-02; support [0.      1.90808 3.79552]; weights [0.00937 0.34835 0.64228]; residual 4.4e-16
+  split track d 3 m 3.821: f -3.789e-02; support [0.      1.93752 3.82052]; weights [0.01168 0.35074 0.63758]; residual 4.4e-16
+  split track d 3 m 3.846: f -3.872e-02; support [0.      1.9662  3.84552]; weights [0.01382 0.35323 0.63294]; residual 8.9e-16
+  split track d 3 m 3.871: f -3.939e-02; support [0.      1.99415 3.87052]; weights [0.01582 0.3558  0.62838]; residual 4.4e-16
+  split track d 3 m 3.896: f -3.988e-02; support [0.      2.02143 3.89552]; weights [0.01768 0.35844 0.62388]; residual 4.4e-16
+  split track d 3 m 3.921: f -4.018e-02; support [0.      2.04807 3.92052]; weights [0.01942 0.36112 0.61946]; residual 0.0e+00
+  split track d 3 m 3.946: f -4.028e-02; support [0.      2.07411 3.94552]; weights [0.02105 0.36384 0.61511]; residual 4.4e-16
+  split track d 3 m 3.971: f -4.017e-02; support [0.      2.09959 3.97052]; weights [0.02257 0.36659 0.61084]; residual 8.9e-16
+  split track d 3 m 3.996: f -3.984e-02; support [0.      2.12453 3.99552]; weights [0.02401 0.36935 0.60664]; residual 4.4e-16
+  split track d 3 m 4.021: f -3.929e-02; support [0.      2.14897 4.02052]; weights [0.02536 0.37213 0.60251]; residual 4.4e-16
+  split track d 3 m 4.046: f -3.850e-02; support [0.      2.17293 4.04552]; weights [0.02664 0.3749  0.59846]; residual 2.2e-13
+  split track d 3 m 4.071: f -3.746e-02; support [0.      2.19644 4.07052]; weights [0.02784 0.37767 0.59449]; residual 8.9e-16
+  split track d 3 m 4.096: f -3.618e-02; support [0.      2.21953 4.09552]; weights [0.02898 0.38043 0.59059]; residual 8.9e-16
+  split track d 3 m 4.121: f -3.464e-02; support [0.      2.24222 4.12052]; weights [0.03006 0.38318 0.58677]; residual 8.9e-16
+  split track d 3 m 4.146: f -3.283e-02; support [0.      2.26452 4.14552]; weights [0.03107 0.38591 0.58302]; residual 2.2e-13
+  split track d 3 m 4.171: f -3.075e-02; support [0.      2.28647 4.17052]; weights [0.03204 0.38861 0.57935]; residual 6.3e-14
+  split track d 3 m 4.196: f -2.838e-02; support [0.      2.30807 4.19552]; weights [0.03295 0.39129 0.57576]; residual 8.9e-16
+  split track d 3 m 4.221: f -2.574e-02; support [0.      2.32934 4.22052]; weights [0.03382 0.39394 0.57224]; residual 4.4e-16
+  split track d 3 m 4.246: f -2.280e-02; support [0.      2.35031 4.24552]; weights [0.03465 0.39656 0.5688 ]; residual 4.4e-16
+  split track d 3 m 4.271: f -1.956e-02; support [0.      2.37098 4.27052]; weights [0.03543 0.39914 0.56543]; residual 4.4e-16
+  split track d 3 m 4.296: f -1.602e-02; support [0.      2.39138 4.29552]; weights [0.03617 0.40169 0.56213]; residual 0.0e+00
+  split track d 3 m 4.321: f -1.217e-02; support [0.      2.41151 4.32052]; weights [0.03688 0.40421 0.55891]; residual 2.2e-13
+  split track d 3 m 4.346: f -8.005e-03; support [0.      2.43139 4.34552]; weights [0.03756 0.40668 0.55576]; residual 4.4e-16
+  split track d 3 m 4.371: f -3.525e-03; support [0.      2.45104 4.37052]; weights [0.0382  0.40912 0.55269]; residual 1.3e-15
+  split track d 3 m 4.396: f +1.277e-03; support [0.      2.47045 4.39552]; weights [0.0388  0.41152 0.54968]; residual 2.2e-13
+  state at root - 0.01: support [0.       2.457674 4.379038]; weights [0.038406 0.40994  0.551654]; residual 2.2e-13; interior excess +0.00e+00
+CHAIN d 3 e4 split: m 4.38903823; support [0.       2.465437 4.389038]; weights [0.038649 0.410898 0.550453]; residual 0.0e+00
+  birth track d 3 m 4.409: f -3.124e-05; support [0.31669 2.48726 4.40904]; weights [0.04121 0.41134 0.54745]; residual 2.2e-13
+  birth track d 3 m 4.434: f -1.552e-04; support [0.47022 2.51461 4.43404]; weights [0.04449 0.4118  0.54371]; residual 2.2e-13
+  birth track d 3 m 4.459: f -3.683e-04; support [0.58063 2.54199 4.45904]; weights [0.04783 0.41218 0.53999]; residual 2.2e-13
+  birth track d 3 m 4.484: f -6.645e-04; support [0.66979 2.5694  4.48404]; weights [0.05121 0.4125  0.53629]; residual 4.4e-16
+  birth track d 3 m 4.509: f -1.038e-03; support [0.74552 2.59681 4.50904]; weights [0.05464 0.41276 0.5326 ]; residual 2.2e-13
+  birth track d 3 m 4.534: f -1.481e-03; support [0.81176 2.6242  4.53404]; weights [0.05809 0.41297 0.52894]; residual 6.3e-14
+  birth track d 3 m 4.559: f -1.988e-03; support [0.8708  2.65154 4.55904]; weights [0.06155 0.41315 0.5253 ]; residual 8.9e-16
+  birth track d 3 m 4.584: f -2.551e-03; support [0.92414 2.67883 4.58404]; weights [0.06501 0.4133  0.52169]; residual 2.2e-13
+  birth track d 3 m 4.609: f -3.164e-03; support [0.97284 2.70604 4.60904]; weights [0.06847 0.41343 0.5181 ]; residual 2.2e-13
+  birth track d 3 m 4.634: f -3.818e-03; support [1.01766 2.73315 4.63404]; weights [0.07191 0.41355 0.51453]; residual 2.2e-13
+  birth track d 3 m 4.659: f -4.506e-03; support [1.05918 2.76017 4.65904]; weights [0.07533 0.41367 0.511  ]; residual 2.2e-13
+  birth track d 3 m 4.684: f -5.220e-03; support [1.09787 2.78707 4.68404]; weights [0.07871 0.4138  0.50749]; residual 2.2e-13
+  birth track d 3 m 4.709: f -5.952e-03; support [1.1341  2.81384 4.70904]; weights [0.08206 0.41393 0.50401]; residual 2.2e-13
+  birth track d 3 m 4.734: f -6.693e-03; support [1.16816 2.84047 4.73404]; weights [0.08537 0.41408 0.50055]; residual 1.8e-15
+  birth track d 3 m 4.759: f -7.436e-03; support [1.2003  2.86696 4.75904]; weights [0.08863 0.41424 0.49713]; residual 2.2e-13
+  birth track d 3 m 4.784: f -8.172e-03; support [1.23074 2.8933  4.78404]; weights [0.09184 0.41442 0.49374]; residual 4.4e-13
+  birth track d 3 m 4.809: f -8.891e-03; support [1.25966 2.91949 4.80904]; weights [0.09499 0.41463 0.49038]; residual 4.4e-16
+  birth track d 3 m 4.834: f -9.586e-03; support [1.28721 2.94551 4.83404]; weights [0.09809 0.41485 0.48706]; residual 8.9e-16
+  birth track d 3 m 4.859: f -1.025e-02; support [1.31352 2.97136 4.85904]; weights [0.10113 0.4151  0.48376]; residual 2.2e-13
+  birth track d 3 m 4.884: f -1.086e-02; support [1.33871 2.99705 4.88404]; weights [0.10412 0.41538 0.48051]; residual 2.2e-15
+  birth track d 3 m 4.909: f -1.143e-02; support [1.36288 3.02258 4.90904]; weights [0.10704 0.41568 0.47728]; residual 8.9e-16
+  birth track d 3 m 4.934: f -1.193e-02; support [1.38613 3.04793 4.93404]; weights [0.1099  0.41601 0.47409]; residual 2.2e-13
+  birth track d 3 m 4.959: f -1.236e-02; support [1.40853 3.0731  4.95904]; weights [0.11271 0.41636 0.47093]; residual 2.2e-13
+  birth track d 3 m 4.984: f -1.271e-02; support [1.43016 3.09811 4.98404]; weights [0.11545 0.41673 0.46781]; residual 1.8e-15
+  birth track d 3 m 5.009: f -1.297e-02; support [1.45108 3.12295 5.00904]; weights [0.11814 0.41713 0.46473]; residual 2.2e-13
+  birth track d 3 m 5.034: f -1.313e-02; support [1.47134 3.14762 5.03404]; weights [0.12077 0.41755 0.46168]; residual 2.2e-13
+  birth track d 3 m 5.059: f -1.319e-02; support [1.49101 3.17212 5.05904]; weights [0.12334 0.418   0.45867]; residual 2.2e-13
+  birth track d 3 m 5.084: f -1.312e-02; support [1.51012 3.19646 5.08404]; weights [0.12585 0.41846 0.45569]; residual 4.4e-16
+  birth track d 3 m 5.109: f -1.292e-02; support [1.52872 3.22063 5.10904]; weights [0.12831 0.41894 0.45275]; residual 4.4e-16
+  birth track d 3 m 5.134: f -1.258e-02; support [1.54685 3.24464 5.13404]; weights [0.13071 0.41944 0.44985]; residual 1.3e-15
+  birth track d 3 m 5.159: f -1.209e-02; support [1.56454 3.26849 5.15904]; weights [0.13306 0.41996 0.44699]; residual 2.2e-13
+  birth track d 3 m 5.184: f -1.144e-02; support [1.58183 3.29218 5.18404]; weights [0.13536 0.42049 0.44416]; residual 2.2e-13
+  birth track d 3 m 5.209: f -1.062e-02; support [1.59874 3.31572 5.20904]; weights [0.1376  0.42103 0.44136]; residual 4.4e-16
+  birth track d 3 m 5.234: f -9.617e-03; support [1.61531 3.33912 5.23404]; weights [0.1398  0.42159 0.43861]; residual 2.2e-13
+  birth track d 3 m 5.259: f -8.426e-03; support [1.63155 3.36236 5.25904]; weights [0.14195 0.42216 0.43589]; residual 2.2e-15
+  birth track d 3 m 5.284: f -7.032e-03; support [1.6475  3.38546 5.28404]; weights [0.14405 0.42274 0.43321]; residual 8.9e-16
+  birth track d 3 m 5.309: f -5.428e-03; support [1.66317 3.40842 5.30904]; weights [0.14611 0.42332 0.43057]; residual 2.2e-13
+  birth track d 3 m 5.334: f -3.600e-03; support [1.67858 3.43125 5.33404]; weights [0.14813 0.42392 0.42796]; residual 2.2e-13
+  birth track d 3 m 5.359: f -1.540e-03; support [1.69375 3.45394 5.35904]; weights [0.1501  0.42452 0.42539]; residual 2.2e-13
+  birth track d 3 m 5.384: f +7.627e-04; support [1.7087  3.47651 5.38404]; weights [0.15203 0.42512 0.42285]; residual 2.2e-13
+  state at root - 0.01: support [1.69797  3.460287 5.366053]; weights [0.150644 0.424685 0.424671]; residual 1.8e-15; interior excess +0.00e+00
+CHAIN d 3 e5 birth: m 5.37605311; support [1.703951 3.469313 5.376053]; weights [0.151417 0.424926 0.423657]; residual 2.2e-13
+  split track d 3 m 5.386: f -5.949e-03; support [0.      1.71904 3.47993 5.38605]; weights [0.00064 0.15227 0.42457 0.42252]; residual 2.2e-13
+  split track d 3 m 5.411: f -6.406e-03; support [0.      1.75551 3.50641 5.41105]; weights [0.00211 0.15448 0.4237  0.4197 ]; residual 2.2e-13
+  split track d 3 m 5.436: f -6.846e-03; support [0.      1.7903  3.53281 5.43605]; weights [0.00344 0.15679 0.42286 0.41691]; residual 2.2e-13
+  split track d 3 m 5.461: f -7.263e-03; support [0.      1.82357 3.55909 5.46105]; weights [0.00465 0.15917 0.42204 0.41414]; residual 2.2e-13
+  split track d 3 m 5.486: f -7.653e-03; support [0.      1.85543 3.58528 5.48605]; weights [0.00575 0.16161 0.42125 0.41139]; residual 2.2e-13
+  split track d 3 m 5.511: f -8.012e-03; support [0.      1.88601 3.61134 5.51105]; weights [0.00675 0.16408 0.42049 0.40867]; residual 1.3e-15
+  split track d 3 m 5.536: f -8.334e-03; support [0.      1.9154  3.63729 5.53605]; weights [0.00768 0.16658 0.41977 0.40597]; residual 2.2e-13
+  split track d 3 m 5.561: f -8.614e-03; support [0.      1.94369 3.66311 5.56105]; weights [0.00853 0.16908 0.41909 0.40331]; residual 2.2e-13
+  split track d 3 m 5.586: f -8.849e-03; support [0.      1.97096 3.6888  5.58605]; weights [0.00932 0.17158 0.41844 0.40066]; residual 2.2e-13
+  split track d 3 m 5.611: f -9.032e-03; support [0.      1.9973  3.71435 5.61105]; weights [0.01005 0.17407 0.41783 0.39805]; residual 4.4e-16
+  split track d 3 m 5.636: f -9.160e-03; support [0.      2.02275 3.73977 5.63605]; weights [0.01074 0.17655 0.41725 0.39546]; residual 3.2e-14
+  split track d 3 m 5.661: f -9.228e-03; support [0.      2.0474  3.76505 5.66105]; weights [0.01138 0.17901 0.41672 0.3929 ]; residual 2.2e-13
+  split track d 3 m 5.686: f -9.232e-03; support [0.      2.07128 3.79019 5.68605]; weights [0.01197 0.18144 0.41622 0.39037]; residual 2.2e-13
+  split track d 3 m 5.711: f -9.166e-03; support [0.      2.09446 3.81518 5.71105]; weights [0.01253 0.18384 0.41577 0.38786]; residual 8.9e-13
+  split track d 3 m 5.736: f -9.026e-03; support [0.      2.11697 3.84003 5.73605]; weights [0.01306 0.1862  0.41535 0.38539]; residual 2.2e-13
+  split track d 3 m 5.761: f -8.808e-03; support [0.      2.13886 3.86473 5.76105]; weights [0.01356 0.18853 0.41496 0.38294]; residual 2.2e-13
+  split track d 3 m 5.786: f -8.508e-03; support [0.      2.16018 3.88929 5.78605]; weights [0.01403 0.19083 0.41462 0.38052]; residual 2.2e-13
+  split track d 3 m 5.811: f -8.121e-03; support [0.      2.18095 3.9137  5.81105]; weights [0.01448 0.19308 0.41431 0.37814]; residual 2.2e-13
+  split track d 3 m 5.836: f -7.642e-03; support [0.      2.20122 3.93796 5.83605]; weights [0.0149  0.19529 0.41403 0.37578]; residual 2.2e-13
+  split track d 3 m 5.861: f -7.067e-03; support [0.      2.221   3.96208 5.86105]; weights [0.0153  0.19746 0.41379 0.37345]; residual 2.2e-13
+  split track d 3 m 5.886: f -6.393e-03; support [0.      2.24034 3.98605 5.88605]; weights [0.01568 0.19959 0.41358 0.37115]; residual 2.2e-13
+  split track d 3 m 5.911: f -5.615e-03; support [0.      2.25925 4.00988 5.91105]; weights [0.01604 0.20168 0.4134  0.36888]; residual 2.2e-13
+  split track d 3 m 5.936: f -4.729e-03; support [0.      2.27777 4.03357 5.93605]; weights [0.01639 0.20372 0.41325 0.36664]; residual 2.2e-13
+  split track d 3 m 5.961: f -3.731e-03; support [0.      2.29591 4.05712 5.96105]; weights [0.01672 0.20573 0.41313 0.36443]; residual 2.2e-13
+  split track d 3 m 5.986: f -2.617e-03; support [0.      2.31369 4.08052 5.98605]; weights [0.01703 0.20769 0.41303 0.36225]; residual 2.2e-13
+  split track d 3 m 6.011: f -1.384e-03; support [0.      2.33114 4.10379 6.01105]; weights [0.01733 0.2096  0.41297 0.3601 ]; residual 4.4e-13
+  split track d 3 m 6.036: f -2.667e-05; support [0.      2.34828 4.12692 6.03605]; weights [0.01762 0.21148 0.41292 0.35798]; residual 1.8e-15
+  split track d 3 m 6.061: f +1.458e-03; support [0.      2.36512 4.14992 6.06105]; weights [0.0179  0.21331 0.4129  0.35589]; residual 2.2e-13
+  state at root - 0.01: support [0.       2.341782 4.118118 6.026522]; weights [0.017512 0.210769 0.412937 0.358782]; residual 2.2e-13; interior excess +2.66e-15
+CHAIN d 3 e6 split: m 6.03652215; support [0.       2.348597 4.127353 6.036522]; weights [0.017626 0.211514 0.412922 0.357938]; residual 2.2e-13
+  birth track d 3 m 6.057: f -8.970e-06; support [0.3387  2.3723  4.14771 6.05652]; weights [0.01916 0.21258 0.41213 0.35613]; residual 2.2e-13
+  birth track d 3 m 6.082: f -4.471e-05; support [0.50107 2.40201 4.17318 6.08152]; weights [0.02115 0.21385 0.41112 0.35388]; residual 2.2e-13
+  birth track d 3 m 6.107: f -1.064e-04; support [0.61647 2.43175 4.19868 6.10652]; weights [0.02319 0.21508 0.41008 0.35165]; residual 4.4e-13
+  birth track d 3 m 6.132: f -1.926e-04; support [0.70858 2.46149 4.22419 6.13152]; weights [0.02527 0.21627 0.40903 0.34943]; residual 2.2e-13
+  birth track d 3 m 6.157: f -3.015e-04; support [0.78593 2.49117 4.24972 6.15652]; weights [0.02738 0.21743 0.40796 0.34723]; residual 2.2e-13
+  birth track d 3 m 6.182: f -4.315e-04; support [0.8528  2.52074 4.27526 6.18152]; weights [0.02951 0.21857 0.40688 0.34504]; residual 2.2e-13
+  birth track d 3 m 6.207: f -5.805e-04; support [0.91174 2.55017 4.30079 6.20652]; weights [0.03164 0.2197  0.40578 0.34287]; residual 6.7e-13
+  birth track d 3 m 6.232: f -7.466e-04; support [0.96441 2.57941 4.32633 6.23152]; weights [0.03377 0.22083 0.40468 0.34072]; residual 2.2e-13
+  birth track d 3 m 6.257: f -9.276e-04; support [1.01198 2.60845 4.35186 6.25652]; weights [0.03589 0.22196 0.40357 0.33858]; residual 2.2e-13
+  birth track d 3 m 6.282: f -1.121e-03; support [1.05531 2.63724 4.37738 6.28152]; weights [0.03799 0.22309 0.40246 0.33645]; residual 2.2e-13
+  birth track d 3 m 6.307: f -1.325e-03; support [1.09505 2.66576 4.40288 6.30652]; weights [0.04007 0.22423 0.40136 0.33434]; residual 2.2e-13
+  birth track d 3 m 6.332: f -1.536e-03; support [1.13173 2.69401 4.42837 6.33152]; weights [0.04211 0.22539 0.40025 0.33225]; residual 1.3e-15
+  birth track d 3 m 6.357: f -1.753e-03; support [1.16575 2.72195 4.45382 6.35652]; weights [0.04412 0.22656 0.39914 0.33017]; residual 2.2e-13
+  birth track d 3 m 6.382: f -1.971e-03; support [1.19746 2.74959 4.47925 6.38152]; weights [0.04609 0.22775 0.39805 0.32811]; residual 2.2e-13
+  birth track d 3 m 6.407: f -2.189e-03; support [1.22714 2.7769  4.50465 6.40652]; weights [0.04802 0.22896 0.39696 0.32607]; residual 4.4e-13
+  birth track d 3 m 6.432: f -2.404e-03; support [1.25502 2.80388 4.53001 6.43152]; weights [0.0499  0.23018 0.39587 0.32404]; residual 2.2e-13
+  birth track d 3 m 6.457: f -2.611e-03; support [1.28131 2.83053 4.55533 6.45652]; weights [0.05174 0.23142 0.3948  0.32203]; residual 2.2e-13
+  birth track d 3 m 6.482: f -2.809e-03; support [1.30617 2.85685 4.58061 6.48152]; weights [0.05353 0.23268 0.39375 0.32004]; residual 4.4e-13
+  birth track d 3 m 6.507: f -2.993e-03; support [1.32976 2.88283 4.60585 6.50652]; weights [0.05528 0.23395 0.3927  0.31807]; residual 4.4e-13
+  birth track d 3 m 6.532: f -3.161e-03; support [1.35221 2.90848 4.63103 6.53152]; weights [0.05699 0.23523 0.39167 0.31611]; residual 2.2e-13
+  birth track d 3 m 6.557: f -3.309e-03; support [1.37362 2.9338  4.65616 6.55652]; weights [0.05865 0.23653 0.39066 0.31416]; residual 1.5e-14
+  birth track d 3 m 6.582: f -3.432e-03; support [1.3941  2.95879 4.68124 6.58152]; weights [0.06026 0.23784 0.38966 0.31224]; residual 2.2e-13
+  birth track d 3 m 6.607: f -3.529e-03; support [1.41373 2.98346 4.70627 6.60652]; weights [0.06183 0.23916 0.38868 0.31033]; residual 2.2e-13
+  birth track d 3 m 6.632: f -3.594e-03; support [1.43258 3.00781 4.73123 6.63152]; weights [0.06336 0.24048 0.38772 0.30844]; residual 3.6e-15
+  birth track d 3 m 6.657: f -3.623e-03; support [1.45074 3.03185 4.75613 6.65652]; weights [0.06485 0.24181 0.38677 0.30657]; residual 4.4e-13
+  birth track d 3 m 6.682: f -3.614e-03; support [1.46825 3.05559 4.78097 6.68152]; weights [0.0663  0.24314 0.38585 0.30471]; residual 2.2e-13
+  birth track d 3 m 6.707: f -3.561e-03; support [1.48517 3.07903 4.80575 6.70652]; weights [0.06771 0.24447 0.38494 0.30287]; residual 2.2e-13
+  birth track d 3 m 6.732: f -3.460e-03; support [1.50155 3.10217 4.83046 6.73152]; weights [0.06908 0.24581 0.38406 0.30105]; residual 2.2e-13
+  birth track d 3 m 6.757: f -3.308e-03; support [1.51744 3.12504 4.85511 6.75652]; weights [0.07042 0.24714 0.38319 0.29925]; residual 2.2e-13
+  birth track d 3 m 6.782: f -3.100e-03; support [1.53288 3.14764 4.87968 6.78152]; weights [0.07172 0.24847 0.38235 0.29747]; residual 4.4e-13
+  birth track d 3 m 6.807: f -2.831e-03; support [1.54789 3.16996 4.90419 6.80652]; weights [0.07299 0.24979 0.38152 0.2957 ]; residual 4.1e-14
+  birth track d 3 m 6.832: f -2.497e-03; support [1.56251 3.19203 4.92863 6.83152]; weights [0.07422 0.25111 0.38072 0.29395]; residual 6.7e-13
+  birth track d 3 m 6.857: f -2.093e-03; support [1.57678 3.21385 4.953   6.85652]; weights [0.07543 0.25242 0.37993 0.29222]; residual 6.7e-13
+  birth track d 3 m 6.882: f -1.615e-03; support [1.59072 3.23543 4.9773  6.88152]; weights [0.07661 0.25373 0.37916 0.2905 ]; residual 6.8e-13
+  birth track d 3 m 6.907: f -1.057e-03; support [1.60435 3.25677 5.00152 6.90652]; weights [0.07775 0.25502 0.37842 0.28881]; residual 2.2e-13
+  birth track d 3 m 6.932: f -4.163e-04; support [1.61769 3.27789 5.02568 6.93152]; weights [0.07887 0.25631 0.37769 0.28713]; residual 2.2e-13
+  birth track d 3 m 6.957: f +3.137e-04; support [1.63077 3.29878 5.04976 6.95652]; weights [0.07997 0.25759 0.37698 0.28546]; residual 2.2e-13
+  state at root - 0.01: support [1.620136 3.281778 5.030148 6.936158]; weights [0.079078 0.256548 0.377557 0.286816]; residual 4.4e-13; interior excess +0.00e+00
+CHAIN d 3 e7 birth: m 6.94615781; support [1.62538  3.290146 5.039784 6.946158]; weights [0.079517 0.257059 0.377273 0.286151]; residual 2.2e-13
+  split track d 3 m 6.956: f -1.434e-03; support [0.      1.64203 3.30134 5.04995 6.95616]; weights [0.00038 0.08017 0.25723 0.37677 0.28546]; residual 4.4e-13
+  split track d 3 m 6.981: f -1.584e-03; support [0.      1.68187 3.32919 5.07536 6.98116]; weights [0.00125 0.08185 0.25766 0.3755  0.28374]; residual 2.2e-13
+  split track d 3 m 7.006: f -1.733e-03; support [0.      1.71937 3.35686 5.10075 7.00616]; weights [0.00202 0.0836  0.2581  0.37425 0.28203]; residual 4.4e-13
+  split track d 3 m 7.031: f -1.878e-03; support [0.      1.75475 3.38433 5.12613 7.03116]; weights [0.00271 0.0854  0.25857 0.37299 0.28033]; residual 6.7e-13
+  split track d 3 m 7.056: f -2.017e-03; support [0.      1.78823 3.41158 5.15149 7.05616]; weights [0.00332 0.08722 0.25906 0.37175 0.27865]; residual 4.4e-13
+  split track d 3 m 7.081: f -2.149e-03; support [0.      1.81998 3.4386  5.17682 7.08116]; weights [0.00388 0.08906 0.25957 0.37052 0.27698]; residual 2.9e-13
+  split track d 3 m 7.106: f -2.271e-03; support [0.      1.85016 3.46538 5.20213 7.10616]; weights [0.00439 0.09089 0.2601  0.36929 0.27532]; residual 2.2e-13
+  split track d 3 m 7.131: f -2.382e-03; support [0.      1.87892 3.49192 5.2274  7.13116]; weights [0.00485 0.09273 0.26066 0.36808 0.27368]; residual 4.4e-13
+  split track d 3 m 7.156: f -2.480e-03; support [0.      1.90637 3.51821 5.25265 7.15616]; weights [0.00528 0.09455 0.26124 0.36688 0.27205]; residual 2.2e-13
+  split track d 3 m 7.181: f -2.563e-03; support [0.      1.93262 3.54424 5.27786 7.18116]; weights [0.00567 0.09635 0.26185 0.36569 0.27043]; residual 2.2e-13
+  split track d 3 m 7.206: f -2.629e-03; support [0.      1.95778 3.57    5.30303 7.20616]; weights [0.00604 0.09812 0.26248 0.36452 0.26883]; residual 2.2e-13
+  split track d 3 m 7.231: f -2.675e-03; support [0.      1.98193 3.5955  5.32816 7.23116]; weights [0.00638 0.09987 0.26314 0.36337 0.26724]; residual 4.4e-13
+  split track d 3 m 7.256: f -2.701e-03; support [0.      2.00515 3.62073 5.35324 7.25616]; weights [0.00669 0.10159 0.26382 0.36223 0.26567]; residual 2.2e-13
+  split track d 3 m 7.281: f -2.703e-03; support [0.      2.02751 3.6457  5.37828 7.28116]; weights [0.00699 0.10328 0.26451 0.36111 0.2641 ]; residual 2.2e-13
+  split track d 3 m 7.306: f -2.680e-03; support [0.      2.04908 3.6704  5.40327 7.30616]; weights [0.00727 0.10494 0.26523 0.36001 0.26255]; residual 6.7e-13
+  split track d 3 m 7.331: f -2.629e-03; support [0.      2.06992 3.69484 5.42821 7.33116]; weights [0.00753 0.10656 0.26597 0.35893 0.26102]; residual 2.2e-13
+  split track d 3 m 7.356: f -2.549e-03; support [0.      2.09008 3.71901 5.45309 7.35616]; weights [0.00777 0.10814 0.26672 0.35787 0.2595 ]; residual 4.4e-13
+  split track d 3 m 7.381: f -2.437e-03; support [0.      2.10961 3.74292 5.47792 7.38116]; weights [0.008   0.10969 0.26749 0.35683 0.25799]; residual 2.2e-13
+  split track d 3 m 7.406: f -2.292e-03; support [0.      2.12854 3.76657 5.5027  7.40616]; weights [0.00822 0.11121 0.26827 0.35581 0.2565 ]; residual 2.2e-13
+  split track d 3 m 7.431: f -2.110e-03; support [0.      2.14694 3.78997 5.52741 7.43116]; weights [0.00843 0.11269 0.26906 0.35481 0.25502]; residual 2.2e-13
+  split track d 3 m 7.456: f -1.891e-03; support [0.      2.16482 3.81312 5.55207 7.45616]; weights [0.00863 0.11413 0.26986 0.35383 0.25355]; residual 6.7e-13
+  split track d 3 m 7.481: f -1.632e-03; support [0.      2.18222 3.83602 5.57667 7.48116]; weights [0.00882 0.11554 0.27067 0.35287 0.2521 ]; residual 2.2e-13
+  split track d 3 m 7.506: f -1.330e-03; support [0.      2.19918 3.85868 5.6012  7.50616]; weights [0.009   0.11692 0.27149 0.35193 0.25066]; residual 4.4e-13
+  split track d 3 m 7.531: f -9.836e-04; support [0.      2.21572 3.8811  5.62567 7.53116]; weights [0.00917 0.11826 0.27232 0.35102 0.24924]; residual 2.2e-13
+  split track d 3 m 7.556: f -5.908e-04; support [0.      2.23188 3.90329 5.65007 7.55616]; weights [0.00934 0.11957 0.27315 0.35012 0.24783]; residual 4.4e-13
+  split track d 3 m 7.581: f -1.493e-04; support [0.      2.24766 3.92525 5.67441 7.58116]; weights [0.00949 0.12085 0.27398 0.34925 0.24643]; residual 4.4e-13
+  split track d 3 m 7.606: f +3.431e-04; support [0.      2.26311 3.94699 5.69868 7.60616]; weights [0.00964 0.12209 0.27482 0.3484  0.24505]; residual 2.2e-13
+  state at root - 0.01: support [0.       2.246328 3.923385 5.67233  7.579021]; weights [0.00948  0.120737 0.273911 0.349322 0.246549]; residual 8.9e-13; interior excess +0.00e+00
+CHAIN d 3 e8 split: m 7.58902124; support [0.       2.252556 3.932115 5.682049 7.589021]; weights [0.009542 0.12124  0.274245 0.348978 0.245994]; residual 6.7e-13
+  birth track d 3 m 7.609: f -2.958e-06; support [0.35353 2.27798 3.95301 5.70214 7.60902]; weights [0.01055 0.12219 0.27437 0.34802 0.24486]; residual 4.4e-13
+  birth track d 3 m 7.634: f -1.478e-05; support [0.52132 2.30985 3.97916 5.72727 7.63402]; weights [0.01186 0.12336 0.27451 0.34683 0.24345]; residual 4.4e-13
+  birth track d 3 m 7.659: f -3.526e-05; support [0.63935 2.34174 4.00536 5.7524  7.65902]; weights [0.01321 0.12449 0.27462 0.34563 0.24205]; residual 4.4e-13
+  birth track d 3 m 7.684: f -6.394e-05; support [0.7326  2.37355 4.03157 5.77755 7.68402]; weights [0.01459 0.12561 0.27472 0.34443 0.24065]; residual 6.7e-13
+  birth track d 3 m 7.709: f -1.003e-04; support [0.81011 2.40522 4.05781 5.8027  7.70902]; weights [0.016   0.12671 0.2748  0.34322 0.23927]; residual 8.9e-13
+  birth track d 3 m 7.734: f -1.438e-04; support [0.87645 2.43666 4.08404 5.82786 7.73402]; weights [0.01741 0.12781 0.27486 0.34201 0.2379 ]; residual 4.4e-13
+  birth track d 3 m 7.759: f -1.938e-04; support [0.93435 2.46782 4.11027 5.85302 7.75902]; weights [0.01882 0.12891 0.27492 0.34081 0.23654]; residual 2.2e-13
+  birth track d 3 m 7.784: f -2.495e-04; support [0.9856  2.49865 4.13648 5.87818 7.78402]; weights [0.02023 0.13002 0.27496 0.3396  0.23518]; residual 8.9e-13
+  birth track d 3 m 7.809: f -3.104e-04; support [1.03146 2.52909 4.16265 5.90334 7.80902]; weights [0.02162 0.13115 0.275   0.3384  0.23384]; residual 4.4e-13
+  birth track d 3 m 7.834: f -3.755e-04; support [1.07288 2.55911 4.18879 5.9285  7.83402]; weights [0.02298 0.13228 0.27504 0.33719 0.2325 ]; residual 8.7e-14
+  birth track d 3 m 7.859: f -4.439e-04; support [1.11055 2.58868 4.21488 5.95366 7.85902]; weights [0.02432 0.13343 0.27508 0.33599 0.23118]; residual 4.4e-13
+  birth track d 3 m 7.884: f -5.149e-04; support [1.14505 2.61779 4.24091 5.97881 7.88402]; weights [0.02564 0.13459 0.27511 0.33479 0.22986]; residual 4.4e-13
+  birth track d 3 m 7.909: f -5.874e-04; support [1.17681 2.64641 4.26687 6.00396 7.90902]; weights [0.02691 0.13578 0.27515 0.3336  0.22856]; residual 2.2e-13
+  birth track d 3 m 7.934: f -6.603e-04; support [1.20621 2.67453 4.29276 6.0291  7.93402]; weights [0.02816 0.13697 0.27519 0.33241 0.22726]; residual 2.2e-13
+  birth track d 3 m 7.959: f -7.326e-04; support [1.23355 2.70216 4.31856 6.05422 7.95902]; weights [0.02937 0.13818 0.27524 0.33123 0.22597]; residual 4.4e-13
+  birth track d 3 m 7.984: f -8.030e-04; support [1.25909 2.72928 4.34427 6.07934 7.98402]; weights [0.03054 0.13941 0.2753  0.33005 0.2247 ]; residual 8.9e-13
+  birth track d 3 m 8.009: f -8.705e-04; support [1.28303 2.75591 4.36989 6.10445 8.00902]; weights [0.03168 0.14064 0.27536 0.32888 0.22343]; residual 2.2e-13
+  birth track d 3 m 8.034: f -9.337e-04; support [1.30556 2.78204 4.3954  6.12954 8.03402]; weights [0.03279 0.14188 0.27544 0.32772 0.22217]; residual 6.7e-13
+  birth track d 3 m 8.059: f -9.914e-04; support [1.32683 2.80768 4.4208  6.15461 8.05902]; weights [0.03386 0.14313 0.27552 0.32657 0.22092]; residual 2.2e-13
+  birth track d 3 m 8.084: f -1.042e-03; support [1.34698 2.83285 4.44609 6.17966 8.08402]; weights [0.03489 0.14439 0.27562 0.32542 0.21968]; residual 6.7e-13
+  birth track d 3 m 8.109: f -1.084e-03; support [1.36612 2.85755 4.47126 6.2047  8.10902]; weights [0.03589 0.14565 0.27572 0.32429 0.21845]; residual 1.1e-12
+  birth track d 3 m 8.134: f -1.116e-03; support [1.38436 2.8818  4.49631 6.22972 8.13402]; weights [0.03686 0.14691 0.27584 0.32316 0.21723]; residual 6.7e-13
+  birth track d 3 m 8.159: f -1.137e-03; support [1.40178 2.9056  4.52124 6.25471 8.15902]; weights [0.0378  0.14817 0.27597 0.32205 0.21602]; residual 2.2e-13
+  birth track d 3 m 8.184: f -1.145e-03; support [1.41846 2.92898 4.54603 6.27968 8.18402]; weights [0.03871 0.14942 0.27611 0.32094 0.21481]; residual 2.2e-13
+  birth track d 3 m 8.209: f -1.138e-03; support [1.43448 2.95195 4.5707  6.30462 8.20902]; weights [0.03959 0.15068 0.27626 0.31985 0.21362]; residual 2.2e-13
+  birth track d 3 m 8.234: f -1.114e-03; support [1.44988 2.97451 4.59523 6.32954 8.23402]; weights [0.04045 0.15192 0.27643 0.31877 0.21244]; residual 4.4e-13
+  birth track d 3 m 8.259: f -1.072e-03; support [1.46473 2.99668 4.61963 6.35443 8.25902]; weights [0.04127 0.15316 0.2766  0.3177  0.21126]; residual 6.7e-13
+  birth track d 3 m 8.284: f -1.009e-03; support [1.47907 3.01849 4.64389 6.37929 8.28402]; weights [0.04208 0.15439 0.27679 0.31664 0.2101 ]; residual 8.9e-13
+  birth track d 3 m 8.309: f -9.252e-04; support [1.49294 3.03993 4.66801 6.40413 8.30902]; weights [0.04286 0.15562 0.27699 0.31559 0.20895]; residual 4.4e-13
+  birth track d 3 m 8.334: f -8.168e-04; support [1.50639 3.06103 4.692   6.42893 8.33402]; weights [0.04361 0.15683 0.2772  0.31456 0.2078 ]; residual 6.7e-13
+  birth track d 3 m 8.359: f -6.824e-04; support [1.51945 3.0818  4.71585 6.4537  8.35902]; weights [0.04435 0.15803 0.27742 0.31354 0.20666]; residual 6.7e-13
+  birth track d 3 m 8.384: f -5.198e-04; support [1.53215 3.10225 4.73956 6.47844 8.38402]; weights [0.04507 0.15922 0.27765 0.31253 0.20554]; residual 6.7e-13
+  birth track d 3 m 8.409: f -3.270e-04; support [1.54452 3.12239 4.76313 6.50314 8.40902]; weights [0.04576 0.16039 0.27789 0.31154 0.20442]; residual 4.4e-13
+  birth track d 3 m 8.434: f -1.018e-04; support [1.55658 3.14224 4.78656 6.52781 8.43402]; weights [0.04644 0.16155 0.27814 0.31056 0.20331]; residual 8.9e-13
+  birth track d 3 m 8.459: f +1.581e-04; support [1.56835 3.1618  4.80985 6.55244 8.45902]; weights [0.0471  0.1627  0.2784  0.30959 0.20221]; residual 8.9e-13
+  state at root - 0.01: support [1.556677 3.142401 4.786753 6.528011 8.43423 ]; weights [0.046445 0.161564 0.27814  0.310547 0.203303]; residual 6.7e-13; interior excess +0.00e+00
+CHAIN d 3 e9 birth: m 8.44422956; support [1.561419 3.15026  4.796087 6.537868 8.44423 ]; weights [0.046711 0.162025 0.278242 0.310159 0.202863]; residual 8.9e-13
+  split track d 3 m 8.454: f -4.100e-04; support [0.      1.57942 3.16198 4.80646 6.54792 8.45423]; weights [2.5000e-04 4.7190e-02 1.6231e-01 2.7814e-01 3.0970e-01 2.0242e-01]; residual 6.7e-13
+  split track d 3 m 8.479: f -4.634e-04; support [0.      1.62208 3.19108 4.83238 6.57305 8.47923]; weights [0.00081 0.04843 0.16302 0.27789 0.30854 0.2013 ]; residual 2.2e-13
+  split track d 3 m 8.504: f -5.169e-04; support [0.      1.66175 3.21991 4.85827 6.59818 8.50423]; weights [0.00131 0.04972 0.16375 0.27763 0.30739 0.2002 ]; residual 4.4e-13
+  split track d 3 m 8.529: f -5.700e-04; support [0.      1.69875 3.24843 4.88412 6.6233  8.52923]; weights [0.00174 0.05103 0.1645  0.27738 0.30624 0.1991 ]; residual 4.4e-13
+  split track d 3 m 8.554: f -6.220e-04; support [0.      1.73339 3.27662 4.90992 6.64842 8.55423]; weights [0.00212 0.05236 0.16527 0.27713 0.3051  0.19802]; residual 2.2e-13
+  split track d 3 m 8.579: f -6.721e-04; support [0.      1.76591 3.30447 4.93567 6.67354 8.57923]; weights [0.00246 0.0537  0.16605 0.27689 0.30396 0.19693]; residual 8.9e-13
+  split track d 3 m 8.604: f -7.196e-04; support [0.      1.79653 3.33196 4.96137 6.69865 8.60423]; weights [0.00277 0.05503 0.16686 0.27665 0.30283 0.19586]; residual 4.4e-13
+  split track d 3 m 8.629: f -7.636e-04; support [0.      1.82545 3.35909 4.98699 6.72375 8.62923]; weights [0.00305 0.05634 0.16769 0.27642 0.3017  0.1948 ]; residual 8.9e-13
+  split track d 3 m 8.654: f -8.033e-04; support [0.      1.85283 3.38584 5.01255 6.74884 8.65423]; weights [0.00331 0.05764 0.16853 0.27619 0.30058 0.19374]; residual 6.7e-13
+  split track d 3 m 8.679: f -8.380e-04; support [0.      1.87881 3.41221 5.03803 6.77392 8.67923]; weights [0.00355 0.05892 0.16939 0.27598 0.29947 0.19269]; residual 8.9e-13
+  split track d 3 m 8.704: f -8.668e-04; support [0.      1.90353 3.43819 5.06342 6.79898 8.70423]; weights [0.00376 0.06018 0.17027 0.27578 0.29837 0.19164]; residual 4.4e-13
+  split track d 3 m 8.729: f -8.887e-04; support [0.      1.92709 3.4638  5.08873 6.82404 8.72923]; weights [0.00396 0.06141 0.17116 0.27558 0.29727 0.19061]; residual 6.7e-13
+  split track d 3 m 8.754: f -9.029e-04; support [0.      1.9496  3.48902 5.11394 6.84908 8.75423]; weights [0.00415 0.06262 0.17207 0.2754  0.29618 0.18958]; residual 6.7e-13
+  split track d 3 m 8.779: f -9.085e-04; support [0.      1.97115 3.51386 5.13906 6.8741  8.77923]; weights [0.00432 0.06379 0.17299 0.27524 0.2951  0.18856]; residual 4.4e-13
+  split track d 3 m 8.804: f -9.045e-04; support [0.      1.99182 3.53833 5.16407 6.8991  8.80423]; weights [0.00448 0.06494 0.17391 0.27508 0.29403 0.18755]; residual 2.2e-13
+  split track d 3 m 8.829: f -8.900e-04; support [0.      2.01168 3.56243 5.18898 6.92409 8.82923]; weights [0.00464 0.06606 0.17485 0.27494 0.29297 0.18654]; residual 4.4e-13
+  split track d 3 m 8.854: f -8.639e-04; support [0.      2.0308  3.58617 5.21378 6.94905 8.85423]; weights [0.00478 0.06715 0.17579 0.27481 0.29192 0.18554]; residual 4.4e-13
+  split track d 3 m 8.879: f -8.254e-04; support [0.      2.04924 3.60955 5.23846 6.97399 8.87923]; weights [0.00492 0.06821 0.17674 0.2747  0.29088 0.18455]; residual 6.7e-13
+  split track d 3 m 8.904: f -7.733e-04; support [0.      2.06704 3.63259 5.26304 6.99891 8.90423]; weights [0.00504 0.06924 0.17769 0.2746  0.28986 0.18357]; residual 2.5e-13
+  split track d 3 m 8.929: f -7.067e-04; support [0.      2.08426 3.65528 5.28749 7.0238  8.92923]; weights [0.00517 0.07024 0.17864 0.27451 0.28884 0.1826 ]; residual 4.4e-13
+  split track d 3 m 8.954: f -6.244e-04; support [0.      2.10094 3.67764 5.31183 7.04867 8.95423]; weights [0.00528 0.07122 0.17959 0.27444 0.28783 0.18163]; residual 6.7e-13
+  split track d 3 m 8.979: f -5.256e-04; support [0.      2.11711 3.69967 5.33604 7.07352 8.97923]; weights [0.00539 0.07217 0.18055 0.27438 0.28684 0.18067]; residual 8.9e-13
+  split track d 3 m 9.004: f -4.090e-04; support [0.      2.13282 3.72139 5.36014 7.09833 9.00423]; weights [0.00549 0.0731  0.1815  0.27434 0.28585 0.17972]; residual 4.4e-13
+  split track d 3 m 9.029: f -2.735e-04; support [0.      2.14809 3.74281 5.3841  7.12312 9.02923]; weights [0.00559 0.074   0.18244 0.27431 0.28488 0.17877]; residual 4.4e-13
+  split track d 3 m 9.054: f -1.182e-04; support [0.      2.16296 3.76392 5.40795 7.14787 9.05423]; weights [0.00569 0.07487 0.18338 0.27429 0.28393 0.17784]; residual 4.4e-13
+  split track d 3 m 9.079: f +5.819e-05; support [0.      2.17746 3.78475 5.43167 7.1726  9.07923]; weights [0.00578 0.07573 0.18432 0.27428 0.28298 0.17691]; residual 4.4e-13
+  state at root - 0.01: support [0.       2.167109 3.769853 5.414682 7.154884 9.061314]; weights [0.005717 0.075118 0.183649 0.274288 0.283656 0.177572]; residual 4.4e-13; interior excess +0.00e+00
+CHAIN d 3 e10 split: m 9.07131399; support [0.       2.172908 3.778185 5.42417  7.164774 9.071314]; weights [0.005754 0.075459 0.184024 0.274285 0.283278 0.1772  ]; residual 6.7e-13
+  birth track d 3 m 9.091: f -1.072e-06; support [0.36466 2.19992 3.79965 5.44446 7.1848  9.09131]; weights [0.00646 0.07622 0.18443 0.27401 0.28243 0.17645]; residual 6.7e-13
+  birth track d 3 m 9.116: f +7.764e-06; support [0.40632 2.21791 3.82147 5.46842 7.20957 9.11631]; weights [0.00671 0.07708 0.18527 0.27394 0.28148 0.17553]; residual 3.2e-05
+  state at root - 0.01: support [0.476604 2.220227 3.81577  5.459684 7.199823 9.106311]; weights [0.007004 0.076785 0.184724 0.273794 0.281801 0.175892]; residual 1.1e-12; interior excess +0.00e+00
+CHAIN d 3 e11 birth: m 9.11631126; support [-1.000000e-06  2.198313e+00  3.815127e+00  5.466613e+00  7.209215e+00
+  9.116311e+00]; weights [0.005911 0.076949 0.185698 0.2743   0.2816   0.175542]; residual 6.7e-13
+  split track d 3 m 9.126: f +4.514e-04; support [ 0.      -0.       2.20381  3.82322  5.47599  7.21908  9.12631]; weights [ 0.01296 -0.00701  0.07727  0.18607  0.27431  0.28123  0.17518]; residual 8.9e-13
+  split track d 3 m 9.151: f +6.948e-04; support [ 0.      -0.       2.21735  3.84326  5.49934  7.24371  9.15131]; weights [ 0.00836 -0.00234  0.07806  0.18698  0.27434  0.28032  0.17427]; residual 8.9e-13
+  split track d 3 m 9.176: f +9.636e-04; support [ 0.      -0.       2.2306   3.86305  5.52257  7.2683   9.17631]; weights [ 0.00932 -0.00321  0.07883  0.18789  0.27438  0.27943  0.17337]; residual 8.9e-13
+  split track d 3 m 9.201: f +1.259e-03; support [ 0.      -0.       2.24357  3.88259  5.54567  7.29287  9.20131]; weights [ 0.00941 -0.00323  0.07958  0.18879  0.27443  0.27855  0.17248]; residual 1.3e-10
+  split track d 3 m 9.226: f +1.582e-03; support [ 0.      -0.       2.25628  3.90189  5.56864  7.31739  9.22631]; weights [0.00158 0.00468 0.08031 0.18968 0.27449 0.27768 0.17159]; residual 4.4e-13
+  split track d 3 m 9.251: f +1.935e-03; support [ 0.      -0.       2.26876  3.92095  5.59149  7.34188  9.25131]; weights [0.00355 0.00278 0.08102 0.19056 0.27456 0.27682 0.17071]; residual 4.4e-13
+  split track d 3 m 9.276: f +2.317e-03; support [ 0.      -0.       2.281    3.9398   5.61421  7.36633  9.27631]; weights [0.00093 0.00546 0.08171 0.19144 0.27464 0.27598 0.16984]; residual 8.9e-13
+  split track d 3 m 9.301: f +2.731e-03; support [ 0.      -0.       2.29303  3.95843  5.63681  7.39074  9.30131]; weights [0.00126 0.0052  0.08239 0.1923  0.27473 0.27515 0.16898]; residual 1.3e-12
+  split track d 3 m 9.326: f +3.177e-03; support [ 0.      -0.       2.30486  3.97685  5.65928  7.41511  9.32631]; weights [0.00126 0.00526 0.08305 0.19315 0.27483 0.27433 0.16813]; residual 1.1e-12
+  split track d 3 m 9.351: f +3.657e-03; support [ 0.      -0.       2.31649  3.99507  5.68163  7.43945  9.35131]; weights [0.00122 0.00537 0.08369 0.19398 0.27494 0.27352 0.16728]; residual 6.3e-11
+  split track d 3 m 9.376: f +4.172e-03; support [ 0.      -0.       2.32795  4.01309  5.70386  7.46374  9.37631]; weights [-0.00066  0.0073   0.08432  0.19481  0.27505  0.27273  0.16644]; residual 4.4e-13
+  split track d 3 m 9.401: f +4.724e-03; support [ 0.      -0.       2.33923  4.03092  5.72597  7.48799  9.40131]; weights [-0.00068  0.00739  0.08493  0.19563  0.27517  0.27196  0.1656 ]; residual 5.5e-11
+  split track d 3 m 9.426: f +5.312e-03; support [ 0.      -0.       2.35035  4.04857  5.74796  7.51221  9.42631]; weights [-0.00095  0.00771  0.08553  0.19643  0.2753   0.27119  0.16478]; residual 8.9e-13
+  split track d 3 m 9.451: f +5.940e-03; support [ 0.      -0.       2.36132  4.06605  5.76983  7.53638  9.45131]; weights [-0.00083  0.00765  0.08612  0.19723  0.27544  0.27044  0.16396]; residual 2.2e-13
+  split track d 3 m 9.476: f +6.607e-03; support [ 0.      -0.       2.37214  4.08336  5.79159  7.5605   9.47631]; weights [-9.0000e-05  6.9600e-03  8.6690e-02  1.9801e-01  2.7558e-01  2.6970e-01
+  1.6315e-01]; residual 2.9e-12
+  split track d 3 m 9.501: f +7.315e-03; support [ 0.      -0.       2.38282  4.1005   5.81323  7.58459  9.50131]; weights [3.0000e-05 6.8900e-03 8.7250e-02 1.9878e-01 2.7572e-01 2.6898e-01
+ 1.6235e-01]; residual 4.1e-11
+  split track d 3 m 9.526: f +8.066e-03; support [0.      0.      2.39338 4.11748 5.83476 7.60863 9.52631]; weights [-5.0000e-05  7.0200e-03  8.7800e-02  1.9954e-01  2.7587e-01  2.6827e-01
+  1.6155e-01]; residual 5.0e-10
+  split track d 3 m 9.551: f +8.860e-03; support [0.      0.      2.4038  4.13431 5.85617 7.63263 9.55131]; weights [-5.0000e-05  7.0700e-03  8.8340e-02  2.0029e-01  2.7603e-01  2.6757e-01
+  1.6076e-01]; residual 5.1e-10
+  split track d 3 m 9.576: f +9.699e-03; support [0.      0.      2.41411 4.15099 5.87748 7.65659 9.57631]; weights [-5.0000e-05  7.1200e-03  8.8860e-02  2.0102e-01  2.7619e-01  2.6688e-01
+  1.5998e-01]; residual 5.2e-10
+  split track d 3 m 9.601: f +1.058e-02; support [ 0.      -0.       2.42431  4.16753  5.89867  7.6805   9.60131]; weights [0.00053 0.00659 0.08937 0.20175 0.27635 0.26621 0.15921]; residual 8.9e-13
+  split track d 3 m 9.626: f +1.152e-02; support [ 0.      -0.       2.43439  4.18394  5.91976  7.70437  9.62631]; weights [0.00051 0.00665 0.08988 0.20246 0.27652 0.26555 0.15844]; residual 1.6e-12
+  split track d 3 m 9.651: f +1.250e-02; support [ 0.      -0.       2.44438  4.2002   5.94074  7.72819  9.65131]; weights [ 0.00799 -0.00078  0.09037  0.20316  0.27669  0.2649   0.15768]; residual 6.7e-13
+  split track d 3 m 9.676: f +1.353e-02; support [ 0.      -0.       2.45427  4.21634  5.96162  7.75197  9.67631]; weights [ 0.00804 -0.00079  0.09085  0.20385  0.27686  0.26426  0.15693]; residual 3.0e-11
+centre_scripts\q868_lfp_events_dimd.py:20: RuntimeWarning: overflow encountered in exp
+  return (np.where(small, np.exp(-x)*(1 + x*x/(2*d)), K), np.where(small, x/d - x**3/(d*d*(d + 2)), A))
+centre_scripts\q868_lfp_events_dimd.py:33: RuntimeWarning: invalid value encountered in multiply
+  K, A = kern(d, r*rho); e = wi*np.exp(-(rho - r)**2/2)*K
+centre_scripts\q868_lfp_events_dimd.py:40: RuntimeWarning: invalid value encountered in multiply
+  f = cd(d)*x**(d - 1)*np.exp(-(x - t)**2/2)*K
+  split track d 3 m 9.701: f +1.353e-02; support [ 0.      -0.       2.45427  4.21634  5.96162  7.75197  9.70131]; weights [ 0.00804 -0.00079  0.09085  0.20385  0.27686  0.26426  0.15693]; residual 1.1e-02
+  split track d 3 m 9.726: f +1.574e-02; support [ 0.      -0.       2.47377  4.24825  6.00308  7.7994   9.72631]; weights [ 0.00814 -0.00081  0.09179  0.2052   0.27721  0.26302  0.15545]; residual 2.0e-12
+  split track d 3 m 9.751: f +1.693e-02; support [ 0.      -0.       2.48339  4.26403  6.02365  7.82304  9.75131]; weights [ 0.01753 -0.01016  0.09224  0.20586  0.27739  0.26242  0.15472]; residual 6.7e-13
+  split track d 3 m 9.776: f +1.817e-02; support [ 0.      -0.       2.49293  4.27969  6.04414  7.84665  9.77631]; weights [ 0.02058 -0.01317  0.09269  0.2065   0.27757  0.26183  0.154  ]; residual 6.7e-13
+  split track d 3 m 9.801: f +1.947e-02; support [ 0.      -0.       2.5024   4.29525  6.06452  7.8702   9.80131]; weights [ 0.01994 -0.01249  0.09313  0.20714  0.27776  0.26125  0.15328]; residual 8.9e-13
+  split track d 3 m 9.826: f +2.082e-02; support [ 0.      -0.       2.51179  4.3107   6.08481  7.89372  9.82631]; weights [ 0.01995 -0.01246  0.09355  0.20777  0.27794  0.26068  0.15257]; residual 3.2e-11
+  split track d 3 m 9.851: f +2.224e-02; support [ 0.      -0.       2.52111  4.32605  6.10501  7.91718  9.85131]; weights [ 0.03705 -0.02952  0.09398  0.20838  0.27813  0.26012  0.15187]; residual 8.9e-13
+  split track d 3 m 9.876: f +2.371e-02; support [ 0.      -0.       2.53037  4.3413   6.12512  7.94061  9.87631]; weights [ 0.03723 -0.02967  0.09439  0.20899  0.27831  0.25958  0.15118]; residual 6.7e-13
+  split track d 3 m 9.901: f +2.524e-02; support [ 0.      -0.       2.53956  4.35645  6.14514  7.96399  9.90131]; weights [ 0.03367 -0.02607  0.09479  0.20958  0.2785   0.25904  0.15049]; residual 1.3e-12
+  split track d 3 m 9.926: f +2.684e-02; support [ 0.      -0.       2.54868  4.37152  6.16508  7.98732  9.92631]; weights [ 0.02952 -0.02189  0.09519  0.21017  0.27868  0.25852  0.14981]; residual 6.7e-13
+  split track d 3 m 9.951: f +2.849e-02; support [ 0.      -0.       2.55776  4.3865   6.18492  8.01061  9.95131]; weights [ 59.31527 -59.30761   0.09558   0.21074   0.27887   0.258     0.14913]; residual 1.6e-12
+  split track d 3 m 9.976: f +3.021e-02; support [ 0.      -0.       2.56677  4.40139  6.20469  8.03386  9.97631]; weights [ 60.24524 -60.23754   0.09597   0.21131   0.27906   0.2575    0.14847]; residual 8.9e-13
+  split track d 3 m 10.001: f +3.200e-02; support [ 0.      -0.       2.57573  4.41619  6.22437  8.05706 10.00131]; weights [ 60.53459 -60.52686   0.09635   0.21187   0.27924   0.25701   0.14781]; residual 8.9e-13
+  split track d 3 m 10.026: f +3.386e-02; support [ 0.      -0.       2.58464  4.43092  6.24398  8.08022 10.02631]; weights [ 64.92918 -64.92142   0.09672   0.21241   0.27943   0.25652   0.14716]; residual 1.1e-12
+  split track d 3 m 10.051: f +3.578e-02; support [ 0.      -0.       2.5935   4.44557  6.2635   8.10333 10.05131]; weights [ 74.43757 -74.42978   0.09708   0.21295   0.27962   0.25605   0.14651]; residual 8.9e-13
+  split track d 3 m 10.076: f +3.777e-02; support [ 0.      -0.       2.60232  4.46015  6.28295  8.1264  10.07631]; weights [ 77.71925 -77.71143   0.09744   0.21348   0.2798    0.25558   0.14587]; residual 1.8e-12
+  split track d 3 m 10.101: f +3.983e-02; support [ 0.      -0.       2.61109  4.47465  6.30232  8.14943 10.10131]; weights [ 78.45094 -78.44309   0.0978    0.214     0.27999   0.25513   0.14524]; residual 1.3e-12
+  split track d 3 m 10.126: f +4.196e-02; support [ 0.      -0.       2.61982  4.48908  6.32162  8.17242 10.12631]; weights [ 81.23552 -81.22765   0.09814   0.21452   0.28017   0.25468   0.14461]; residual 1.3e-12
+  split track d 3 m 10.151: f +4.416e-02; support [ 0.      -0.       2.62851  4.50345  6.34084  8.19536 10.15131]; weights [ 81.90911 -81.90121   0.09849   0.21502   0.28035   0.25425   0.14399]; residual 1.3e-12
+  split track d 3 m 10.176: f +4.644e-02; support [ 0.      -0.       2.63716  4.51775  6.36     8.21826 10.17631]; weights [ 82.12489 -82.11696   0.09882   0.21552   0.28054   0.25382   0.14338]; residual 1.1e-12
+  split track d 3 m 10.201: f +4.879e-02; support [ 0.      -0.       2.64577  4.53198  6.37909  8.24112 10.20131]; weights [-5.0812007e+02  5.0812802e+02  9.9150000e-02  2.1600000e-01
+  2.8072000e-01  2.5340000e-01  1.4277000e-01]; residual 2.9e-12
+  split track d 3 m 10.226: f +5.122e-02; support [ 0.      -0.       2.65435  4.54616  6.3981   8.26394 10.22631]; weights [ 3.3025978e+02 -3.3025179e+02  9.9480000e-02  2.1648000e-01
+  2.8090000e-01  2.5299000e-01  1.4218000e-01]; residual 1.6e-12
+  split track d 3 m 10.251: f +5.373e-02; support [ 0.      -0.       2.66289  4.56028  6.41706  8.28671 10.25131]; weights [ 2.8816162e+02 -2.8815361e+02  9.9800000e-02  2.1695000e-01
+  2.8107000e-01  2.5258000e-01  1.4158000e-01]; residual 1.8e-12
+  split track d 3 m 10.276: f +5.631e-02; support [ 0.      -0.       2.67141  4.57434  6.43594  8.30944 10.27631]; weights [ 2.9731771e+02 -2.9730967e+02  1.0011000e-01  2.1742000e-01
+  2.8125000e-01  2.5219000e-01  1.4100000e-01]; residual 2.1e-12
+  split track d 3 m 10.301: f +5.897e-02; support [ 0.      -0.       2.67989  4.58834  6.45477  8.33214 10.30131]; weights [ 2.7335650e+02 -2.7334845e+02  1.0042000e-01  2.1787000e-01
+  2.8143000e-01  2.5180000e-01  1.4042000e-01]; residual 2.7e-12
+  split track d 3 m 10.326: f +6.171e-02; support [ 0.      -0.       2.68834  4.60229  6.47353  8.35479 10.32631]; weights [ 1.9716412e+02 -1.9715604e+02  1.0073000e-01  2.1832000e-01
+  2.8160000e-01  2.5142000e-01  1.3984000e-01]; residual 1.6e-12
+  split track d 3 m 10.351: f +6.453e-02; support [ 0.      -0.       2.69677  4.6162   6.49223  8.3774  10.35131]; weights [ 6.22039900e+03 -6.22039089e+03  1.01030000e-01  2.18760000e-01
+  2.81770000e-01  2.51050000e-01  1.39280000e-01]; residual 4.4e-12
+  split track d 3 m 10.376: f +6.744e-02; support [ 0.      -0.       2.70517  4.63005  6.51088  8.39997 10.37631]; weights [ 6.21059415e+03 -6.21058602e+03  1.01330000e-01  2.19200000e-01
+  2.81940000e-01  2.50690000e-01  1.38720000e-01]; residual 1.0e-10
+  split track d 3 m 10.401: f +7.043e-02; support [ 0.      -0.       2.71355  4.64385  6.52946  8.42251 10.40131]; weights [ 6.16025794e+03 -6.16024979e+03  1.01620000e-01  2.19630000e-01
+  2.82110000e-01  2.50330000e-01  1.38160000e-01]; residual 4.7e-11
+  split track d 3 m 10.426: f +7.350e-02; support [ 0.      -0.       2.7219   4.65761  6.54799  8.445   10.42631]; weights [ 3.05897691e+03 -3.05896874e+03  1.01910000e-01  2.20050000e-01
+  2.82280000e-01  2.49990000e-01  1.37610000e-01]; residual 7.9e-12
+  split track d 3 m 10.451: f +7.666e-02; support [ 0.      -0.       2.73023  4.67132  6.56647  8.46746 10.45131]; weights [ 3.77982038e+03 -3.77981219e+03  1.02190000e-01  2.20460000e-01
+  2.82450000e-01  2.49640000e-01  1.37070000e-01]; residual 2.2e-12
+  split track d 3 m 10.476: f +7.990e-02; support [ 0.      -0.       2.73854  4.68499  6.58489  8.48987 10.47631]; weights [ 1.37183005e+04 -1.37182923e+04  1.02470000e-01  2.20870000e-01
+  2.82610000e-01  2.49310000e-01  1.36540000e-01]; residual 1.2e-10
+  split track d 3 m 10.501: f +7.990e-02; support [ 0.      -0.       2.73854  4.68499  6.58489  8.48987 10.50131]; weights [ 1.37183005e+04 -1.37182923e+04  1.02470000e-01  2.20870000e-01
+  2.82610000e-01  2.49310000e-01  1.36540000e-01]; residual 1.0e-02
+  split track d 3 m 10.526: f +8.665e-02; support [ 0.      -0.       2.75511  4.71221  6.62157  8.5346  10.52631]; weights [ 2.06041987e+04 -2.06041905e+04  1.03020000e-01  2.21660000e-01
+  2.82930000e-01  2.48660000e-01  1.35480000e-01]; residual 6.5e-12
+  split track d 3 m 10.551: f +9.016e-02; support [ 0.      -0.       2.76337  4.72577  6.63984  8.5569  10.55131]; weights [ 2.14258198e+04 -2.14258116e+04  1.03280000e-01  2.22050000e-01
+  2.83090000e-01  2.48350000e-01  1.34960000e-01]; residual 2.6e-10
+  split track d 3 m 10.576: f +9.376e-02; support [ 0.      -0.       2.77161  4.73928  6.65806  8.57917 10.57631]; weights [ 2.64890980e+04 -2.64890897e+04  1.03550000e-01  2.22430000e-01
+  2.83250000e-01  2.48040000e-01  1.34450000e-01]; residual 7.2e-11
+  split track d 3 m 10.601: f +9.745e-02; support [ 0.      -0.       2.77983  4.75276  6.67623  8.6014  10.60131]; weights [ 1.16131739e+05 -1.16131731e+05  1.03810000e-01  2.22800000e-01
+  2.83400000e-01  2.47740000e-01  1.33950000e-01]; residual 3.2e-09
+  split track d 3 m 10.626: f +1.012e-01; support [ 0.      -0.       2.78804  4.76621  6.69435  8.6236  10.62631]; weights [ 9.88146230e+04 -9.88146147e+04  1.04060000e-01  2.23170000e-01
+  2.83560000e-01  2.47440000e-01  1.33450000e-01]; residual 4.2e-10
+  split track d 3 m 10.651: f +1.051e-01; support [ 0.      -0.       2.79624  4.77962  6.71243  8.64576 10.65131]; weights [ 1.02281065e+05 -1.02281057e+05  1.04310000e-01  2.23540000e-01
+  2.83710000e-01  2.47150000e-01  1.32950000e-01]; residual 2.0e-10
+  split track d 3 m 10.676: f +1.091e-01; support [ 0.      -0.       2.80443  4.793    6.73047  8.66788 10.67631]; weights [ 1.19438983e+05 -1.19438975e+05  1.04560000e-01  2.23900000e-01
+  2.83860000e-01  2.46870000e-01  1.32460000e-01]; residual 8.1e-10
+  split track d 3 m 10.701: f +1.132e-01; support [ 0.      -0.       2.81261  4.80636  6.74846  8.68998 10.70131]; weights [ 2.67957794e+05 -2.67957786e+05  1.04810000e-01  2.24250000e-01
+  2.84000000e-01  2.46590000e-01  1.31980000e-01]; residual 6.0e-10
+  split track d 3 m 10.726: f +1.173e-01; support [ 0.      -0.       2.82078  4.81968  6.76641  8.71203 10.72631]; weights [ 2.65376997e+05 -2.65376989e+05  1.05050000e-01  2.24600000e-01
+  2.84150000e-01  2.46320000e-01  1.31500000e-01]; residual 8.4e-09
+  split track d 3 m 10.751: f +1.216e-01; support [ 0.      -0.       2.82893  4.83298  6.78432  8.73406 10.75131]; weights [ 1.92056638e+05 -1.92056630e+05  1.05290000e-01  2.24940000e-01
+  2.84290000e-01  2.46050000e-01  1.31030000e-01]; residual 5.3e-10
+  split track d 3 m 10.776: f +1.259e-01; support [ 0.      -0.       2.83708  4.84624  6.80219  8.75605 10.77631]; weights [ 1.93532994e+05 -1.93532986e+05  1.05520000e-01  2.25270000e-01
+  2.84440000e-01  2.45790000e-01  1.30570000e-01]; residual 1.2e-09
+  split track d 3 m 10.801: f +1.304e-01; support [ 0.      -0.       2.84523  4.85949  6.82002  8.77801 10.80131]; weights [ 1.90096489e+05 -1.90096480e+05  1.05750000e-01  2.25600000e-01
+  2.84580000e-01  2.45530000e-01  1.30110000e-01]; residual 7.9e-10
+  split track d 3 m 10.826: f +1.349e-01; support [ 0.      -0.       2.85337  4.87271  6.83782  8.79993 10.82631]; weights [ 1.93454401e+05 -1.93454392e+05  1.05980000e-01  2.25930000e-01
+  2.84720000e-01  2.45280000e-01  1.29650000e-01]; residual 1.5e-09
+  split track d 3 m 10.851: f +1.396e-01; support [ 0.      -0.       2.8615   4.88591  6.85558  8.82183 10.85131]; weights [ 1.89683929e+05 -1.89683921e+05  1.06210000e-01  2.26250000e-01
+  2.84850000e-01  2.45040000e-01  1.29200000e-01]; residual 1.5e-09
+  split track d 3 m 10.876: f +1.444e-01; support [ 0.      -0.       2.86963  4.89909  6.8733   8.84369 10.87631]; weights [ 1.86460028e+05 -1.86460019e+05  1.06430000e-01  2.26570000e-01
+  2.84990000e-01  2.44800000e-01  1.28760000e-01]; residual 3.4e-09
+  split track d 3 m 10.901: f +1.492e-01; support [ 0.      -0.       2.87776  4.91224  6.89099  8.86552 10.90131]; weights [ 1.84571715e+05 -1.84571707e+05  1.06650000e-01  2.26880000e-01
+  2.85120000e-01  2.44560000e-01  1.28320000e-01]; residual 3.3e-09
+  split track d 3 m 10.926: f +1.542e-01; support [ 0.      -0.       2.88588  4.92538  6.90865  8.88732 10.92631]; weights [ 1.89131089e+05 -1.89131081e+05  1.06860000e-01  2.27180000e-01
+  2.85250000e-01  2.44330000e-01  1.27890000e-01]; residual 4.4e-09
+  split track d 3 m 10.951: f +1.593e-01; support [ 0.      -0.       2.89401  4.9385   6.92627  8.9091  10.95131]; weights [ 1.34327946e+05 -1.34327938e+05  1.07080000e-01  2.27490000e-01
+  2.85380000e-01  2.44100000e-01  1.27460000e-01]; residual 2.1e-10
+  split track d 3 m 10.976: f +1.645e-01; support [ 0.      -0.       2.90213  4.9516   6.94387  8.93084 10.97631]; weights [ 1.33460822e+05 -1.33460813e+05  1.07280000e-01  2.27780000e-01
+  2.85510000e-01  2.43880000e-01  1.27040000e-01]; residual 4.3e-10
+  split track d 3 m 11.001: f +1.697e-01; support [ 0.      -0.       2.91025  4.96468  6.96143  8.95255 11.00131]; weights [ 1.25101073e+05 -1.25101064e+05  1.07490000e-01  2.28070000e-01
+  2.85640000e-01  2.43660000e-01  1.26620000e-01]; residual 3.1e-09
+  split track d 3 m 11.026: f +1.751e-01; support [ 0.      -0.       2.91838  4.97775  6.97896  8.97424 11.02631]; weights [ 9.16281958e+04 -9.16281873e+04  1.07700000e-01  2.28360000e-01
+  2.85760000e-01  2.43450000e-01  1.26210000e-01]; residual 1.3e-10
+  split track d 3 m 11.051: f +1.806e-01; support [ 0.      -0.       2.9265   4.99081  6.99647  8.9959  11.05131]; weights [ 7.93789342e+04 -7.93789257e+04  1.07900000e-01  2.28650000e-01
+  2.85890000e-01  2.43240000e-01  1.25800000e-01]; residual 2.7e-10
+  split track d 3 m 11.076: f +1.862e-01; support [ 0.      -0.       2.93463  5.00385  7.01395  9.01753 11.07631]; weights [ 5.71233269e+04 -5.71233184e+04  1.08090000e-01  2.28930000e-01
+  2.86010000e-01  2.43040000e-01  1.25400000e-01]; residual 2.1e-10
+  split track d 3 m 11.101: f +1.920e-01; support [ 0.      -0.       2.94277  5.01688  7.0314   9.03913 11.10131]; weights [ 5.96293024e+04 -5.96292939e+04  1.08290000e-01  2.29200000e-01
+  2.86130000e-01  2.42840000e-01  1.25000000e-01]; residual 6.0e-11
+  split track d 3 m 11.126: f +1.978e-01; support [ 0.      -0.       2.95091  5.0299   7.04883  9.06071 11.12631]; weights [ 1.07870605e+05 -1.07870597e+05  1.08480000e-01  2.29470000e-01
+  2.86250000e-01  2.42640000e-01  1.24610000e-01]; residual 3.5e-09
+  split track d 3 m 11.151: f +2.037e-01; support [ 0.      -0.       2.95905  5.04291  7.06623  9.08226 11.15131]; weights [ 1.61049396e+05 -1.61049387e+05  1.08670000e-01  2.29740000e-01
+  2.86370000e-01  2.42450000e-01  1.24220000e-01]; residual 3.4e-10
+  split track d 3 m 11.176: f +2.098e-01; support [ 0.      -0.       2.9672   5.05591  7.08361  9.10378 11.17631]; weights [ 1.11770114e+05 -1.11770106e+05  1.08860000e-01  2.30000000e-01
+  2.86480000e-01  2.42260000e-01  1.23840000e-01]; residual 2.7e-10
+  split track d 3 m 11.201: f +2.159e-01; support [ 0.      -0.       2.97536  5.0689   7.10097  9.12528 11.20131]; weights [ 1.11102937e+05 -1.11102928e+05  1.09040000e-01  2.30260000e-01
+  2.86600000e-01  2.42070000e-01  1.23460000e-01]; residual 9.7e-10
+  split track d 3 m 11.226: f +2.222e-01; support [ 0.      -0.       2.98352  5.08188  7.1183   9.14676 11.22631]; weights [ 1.13853352e+05 -1.13853344e+05  1.09220000e-01  2.30520000e-01
+  2.86710000e-01  2.41890000e-01  1.23080000e-01]; residual 4.1e-10
+  split track d 3 m 11.251: f +2.286e-01; support [ 0.      -0.       2.9917   5.09486  7.13561  9.16821 11.25131]; weights [ 1.07970117e+05 -1.07970108e+05  1.09400000e-01  2.30770000e-01
+  2.86820000e-01  2.41720000e-01  1.22720000e-01]; residual 6.6e-10
+  split track d 3 m 11.276: f +2.351e-01; support [ 0.      -0.       2.99988  5.10783  7.15291  9.18964 11.27631]; weights [ 1.07656153e+05 -1.07656144e+05  1.09580000e-01  2.31020000e-01
+  2.86930000e-01  2.41540000e-01  1.22350000e-01]; residual 1.5e-09
+  split track d 3 m 11.301: f +2.418e-01; support [ 0.      -0.       3.00807  5.12079  7.17018  9.21104 11.30131]; weights [ 1.09318352e+05 -1.09318344e+05  1.09750000e-01  2.31260000e-01
+  2.87040000e-01  2.41370000e-01  1.21990000e-01]; residual 7.6e-10
+  split track d 3 m 11.326: f +2.485e-01; support [ 0.      -0.       3.01628  5.13376  7.18744  9.23243 11.32631]; weights [ 1.05531468e+05 -1.05531459e+05  1.09920000e-01  2.31500000e-01
+  2.87150000e-01  2.41210000e-01  1.21640000e-01]; residual 2.0e-10
+  split track d 3 m 11.351: f +2.554e-01; support [ 0.      -0.       3.0245   5.14672  7.20467  9.25379 11.35131]; weights [ 1.05695396e+05 -1.05695387e+05  1.10090000e-01  2.31740000e-01
+  2.87250000e-01  2.41040000e-01  1.21290000e-01]; residual 2.7e-09
+  split track d 3 m 11.376: f +2.624e-01; support [ 0.      -0.       3.03273  5.15967  7.2219   9.27513 11.37631]; weights [ 1.05220104e+05 -1.05220095e+05  1.10260000e-01  2.31970000e-01
+  2.87360000e-01  2.40880000e-01  1.20940000e-01]; residual 4.0e-09
+  split track d 3 m 11.401: f +2.695e-01; support [ 0.      -0.       3.04097  5.17263  7.2391   9.29644 11.40131]; weights [ 1.72389481e+05 -1.72389473e+05  1.10420000e-01  2.32210000e-01
+  2.87460000e-01  2.40730000e-01  1.20600000e-01]; residual 7.1e-09
+  split track d 3 m 11.426: f +2.767e-01; support [ 0.      -0.       3.04923  5.18559  7.25629  9.31774 11.42631]; weights [ 3.56741111e+05 -3.56741102e+05  1.10580000e-01  2.32430000e-01
+  2.87570000e-01  2.40580000e-01  1.20260000e-01]; residual 1.5e-09
+  split track d 3 m 11.451: f +2.841e-01; support [ 0.      -0.       3.05751  5.19854  7.27347  9.33902 11.45131]; weights [ 3.62691983e+05 -3.62691974e+05  1.10740000e-01  2.32660000e-01
+  2.87670000e-01  2.40430000e-01  1.19930000e-01]; residual 1.5e-08
+  split track d 3 m 11.476: f +2.915e-01; support [ 0.      -0.       3.0658   5.2115   7.29063  9.36027 11.47631]; weights [ 3.61703083e+05 -3.61703074e+05  1.10890000e-01  2.32880000e-01
+  2.87770000e-01  2.40280000e-01  1.19600000e-01]; residual 2.2e-08
+  split track d 3 m 11.501: f +2.991e-01; support [ 0.      -0.       3.07411  5.22446  7.30778  9.38151 11.50131]; weights [ 3.61418887e+05 -3.61418878e+05  1.11040000e-01  2.33090000e-01
+  2.87870000e-01  2.40130000e-01  1.19280000e-01]; residual 2.2e-08
+  split track d 3 m 11.526: f +2.953e-01; support [ 0.      -0.       3.0746   5.2253   7.30568  9.38712 11.52631]; weights [ 3.61395037e+05 -3.61395029e+05  1.11070000e-01  2.33220000e-01
+  2.87910000e-01  2.40260000e-01  1.19010000e-01]; residual 6.1e-03
+  split track d 3 m 11.551: f +3.147e-01; support [ 0.      -0.       3.09078  5.2504   7.34205  9.42393 11.55131]; weights [ 3.60106851e+05 -3.60106842e+05  1.11340000e-01  2.33520000e-01
+  2.88070000e-01  2.39860000e-01  1.18640000e-01]; residual 7.6e-09
+  split track d 3 m 11.576: f +3.227e-01; support [ 0.      -0.       3.09915  5.26337  7.35917  9.44512 11.57631]; weights [ 3.48361394e+05 -3.48361386e+05  1.11490000e-01  2.33730000e-01
+  2.88160000e-01  2.39720000e-01  1.18330000e-01]; residual 2.5e-08
+  split track d 3 m 11.601: f +3.308e-01; support [ 0.      -0.       3.10753  5.27636  7.37628  9.46628 11.60131]; weights [ 3.58511357e+05 -3.58511348e+05  1.11630000e-01  2.33930000e-01
+  2.88260000e-01  2.39590000e-01  1.18020000e-01]; residual 3.8e-10
+  split track d 3 m 11.626: f +3.390e-01; support [ 0.      -0.       3.11594  5.28934  7.39338  9.48743 11.62631]; weights [ 3.57707316e+05 -3.57707307e+05  1.11770000e-01  2.34140000e-01
+  2.88360000e-01  2.39460000e-01  1.17720000e-01]; residual 7.6e-10
+  split track d 3 m 11.651: f +3.474e-01; support [ 0.      -0.       3.12437  5.30234  7.41048  9.50857 11.65131]; weights [ 3.51545259e+05 -3.51545250e+05  1.11910000e-01  2.34330000e-01
+  2.88450000e-01  2.39340000e-01  1.17420000e-01]; residual 5.3e-10
+  split track d 3 m 11.676: f +3.559e-01; support [ 0.      -0.       3.13283  5.31534  7.42756  9.52968 11.67631]; weights [ 3.85895070e+05 -3.85895062e+05  1.12040000e-01  2.34530000e-01
+  2.88540000e-01  2.39210000e-01  1.17120000e-01]; residual 2.8e-08
+  split track d 3 m 11.701: f +3.645e-01; support [ 0.      -0.       3.14131  5.32836  7.44465  9.55079 11.70131]; weights [ 3.83494740e+05 -3.83494732e+05  1.12170000e-01  2.34730000e-01
+  2.88640000e-01  2.39090000e-01  1.16830000e-01]; residual 3.9e-09
+  split track d 3 m 11.726: f +3.733e-01; support [ 0.      -0.       3.14982  5.34139  7.46172  9.57188 11.72631]; weights [ 3.90115613e+05 -3.90115605e+05  1.12300000e-01  2.34920000e-01
+  2.88730000e-01  2.38970000e-01  1.16540000e-01]; residual 4.7e-08
+d 3: no split crossing after m 9.116311; chain stopped
+EVENTS [["birth", 3.71052251], ["split", 4.38903823], ["birth", 5.37605311], ["split", 6.03652215], ["birth", 6.94615781], ["split", 7.58902124], ["birth", 8.44422956], ["split", 9.07131399], ["birth", 9.11631126]]

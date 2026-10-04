@@ -1,0 +1,9 @@
+it 0: C in [0.40847461, 0.59115699] (gap 1.83e-01); wall mass 0.5700; beta 1.00  [0s]
+it 1000: C in [0.51170899, 0.51173434] (gap 2.53e-05); wall mass 1.0000; beta 4.00  [66s]
+it 2000: C in [0.51171021, 0.51175736] (gap 4.71e-05); wall mass 1.0000; beta 4.00  [126s]
+it 3000: C in [0.51171128, 0.51174542] (gap 3.41e-05); wall mass 1.0000; beta 4.00  [186s]
+it 4000: C in [0.51171225, 0.51174662] (gap 3.44e-05); wall mass 1.0000; beta 4.00  [248s]
+it 5000: C in [0.51171313, 0.51174239] (gap 2.93e-05); wall mass 1.0000; beta 2.40  [314s]
+it 6000: C in [0.51171391, 0.51173936] (gap 2.54e-05); wall mass 1.0000; beta 4.00  [386s]
+it 7000: C in [0.51171461, 0.51175798] (gap 4.34e-05); wall mass 1.0000; beta 4.00  [463s]
+saved q700_dbk_rp1.3_rm1.0.npz; grid 372 x 372, 1509 interior points, 2000 wall points

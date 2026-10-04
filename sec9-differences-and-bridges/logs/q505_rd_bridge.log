@@ -1,0 +1,39 @@
+q505 rate-distortion bridge, source U[-1,1], distortion (x-y)^2; L = sqrt(2 s), T = 2/L^2; LMAX = 7.2
+predictions read from results_q496_npmle_uniform.json (a_star, K_before -> K_after, kind):
+   L = 1.732025   1 -> 2   split
+   L = 2.979950   2 -> 3   birth
+   L = 4.100006   3 -> 4   split
+   L = 5.143951   4 -> 5   birth
+   L = 6.132721   5 -> 6   split
+   L = 7.078094   6 -> 7   birth
+   CHANGE 1 -> 2 (split) at L = 1.7320508  (T = 0.6666667)   old-family residual 1.1e-16   [23s]
+      new family at L = 2.0321: BA gave 2 clusters; polished 2 atoms [-0.3577  0.3577], residual 1.1e-16, signals birth -7.5e-03 split -6.3e-01   [59s]
+   CHANGE 2 -> 3 (birth) at L = 2.9799389  (T = 0.2252243)   old-family residual 1.1e-16   [90s]
+      new family at L = 3.2799: BA gave 3 clusters; polished 3 atoms [-0.5553 -0.      0.5553], residual 1.1e-16, signals birth -4.4e-03 split -3.9e-01   [142s]
+   CHANGE 3 -> 4 (split) at L = 4.0999814  (T = 0.1189779)   old-family residual 3.9e-16   [176s]
+      new family at L = 4.4000: BA gave 4 clusters; polished 4 atoms [-0.6633 -0.1612  0.1612  0.6633], residual 6.1e-16, signals birth -6.2e-04 split -2.3e-01   [228s]
+   CHANGE 4 -> 5 (birth) at L = 5.1439802  (T = 0.0755843)   old-family residual 2.4e-16   [263s]
+      new family at L = 5.4440: BA gave 5 clusters; polished 5 atoms [-0.727  -0.2938 -0.      0.2938  0.727 ], residual 1.8e-15, signals birth -3.2e-04 split -1.0e-01   [312s]
+   CHANGE 5 -> 6 (split) at L = 6.1326939  (T = 0.0531774)   old-family residual 1.3e-14   [341s]
+      new family at L = 6.4327: BA gave 6 clusters; polished 6 atoms [-0.7688 -0.3956 -0.1084  0.1084  0.3956  0.7688], residual 1.0e-15, signals birth -8.2e-05 split -6.5e-02   [390s]
+   CHANGE 6 -> 7 (birth) at L = 7.0780649  (T = 0.0399210)   old-family residual 2.5e-15   [415s]
+      new family at L = 7.3781: BA gave 7 clusters; polished 7 atoms [-0.7984 -0.4712 -0.2034 -0.      0.2034  0.4712  0.7984], residual 1.3e-15, signals birth -4.5e-05 split -3.0e-02   [463s]
+
+plateau cross-check (Blahut-Arimoto from the uniform grid only):
+   L = 1.466: 1 mass clusters at [-0.]
+   L = 2.356: 2 mass clusters at [-0.4329  0.4329]
+   L = 3.540: 3 mass clusters at [-0.5922  0.      0.5922]
+   L = 4.622: 4 mass clusters at [-0.6812 -0.1921  0.1921  0.6812]
+   L = 5.638: 5 mass clusters at [-0.7372 -0.3197  0.      0.3197  0.7372]
+   L = 6.605: 6 mass clusters at [-0.7752 -0.4132 -0.1242  0.1242  0.4132  0.7752]
+   L = 7.139: 6 mass clusters at [-0.7916 -0.4512 -0.148   0.1479  0.4512  0.7916]
+
+comparison with the NPMLE predictions:
+   predicted L = 1.732025 (1->2 split)   found 1.732051 (1->2 split)   rel 1.5e-05   PASS
+   predicted L = 2.979950 (2->3 birth)   found 2.979939 (2->3 birth)   rel 3.7e-06   PASS
+   predicted L = 4.100006 (3->4 split)   found 4.099981 (3->4 split)   rel 6.0e-06   PASS
+   predicted L = 5.143951 (4->5 birth)   found 5.143980 (4->5 birth)   rel 5.6e-06   PASS
+   predicted L = 6.132721 (5->6 split)   found 6.132694 (5->6 split)   rel 4.4e-06   PASS
+   predicted L = 7.078094 (6->7 birth)   found 7.078065 (6->7 birth)   rel 4.2e-06   PASS
+
+VERDICT: PASS   [742s]

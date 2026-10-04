@@ -1,0 +1,81 @@
+start rm 1.12625 (eps 0.0737500) X0 Y1 nG 6: residual 2.41e-43 (VALID); PREC 192 FUNC capfix TOLV 1e-38 TOLR 1e-42 [108s]
+   margins ['10.63:-7.39e-34', '23.38:-2.73e-33', '37.45:-7.14e-33', '52.08:-1.43e-32', '67.06:-2.33e-32', '82.31:-3.07e-32']; gapmax ['4.610:-4.73e-37e', '5.023:-3.04e-36e', '16.867:-1.01e-35e', '30.598:-2.99e-35e', '45.042:-6.65e-35e', '59.872:-1.19e-34e', '75.008:-1.73e-34e']; scan +1.25e-43@90.00; DC0 -2.58e-34 DC90 +1.25e-43; fine0max -1.70e-38@4.75; fine90max -3.30e-36@89.95; d2 ['G0:-2.245e-31', 'G1:-5.502e-31', 'G2:-1.475e-30', 'G3:-3.131e-30', 'G4:-5.398e-30', 'G5:-7.657e-30', 'Y:-8.679e-30'] [108s]
+  it 0: residual 7.572e-11 [109s]
+  it 1: residual 7.572e-11 (chord step) [109s]
+  it 2: residual 1.269e-20 (after a step with a fresh J) [149s]
+  it 3: residual 1.269e-20 (after a step with a fresh J) [150s]
+  it 4: residual 9.028e-28 (after a step with a fresh J) [190s]
+  it 5: residual 9.028e-28 (after a step with a fresh J) [191s]
+  it 6: residual 1.068e-32 (after a step with a fresh J) [228s]
+  it 7: residual 1.068e-32 (after a step with a fresh J) [230s]
+  it 8: residual 4.129e-36 (after a step with a fresh J) [269s]
+  it 9: residual 4.129e-36 (after a step with a fresh J) [271s]
+  it 10: residual 1.230e-39 (after a step with a fresh J) [309s]
+  it 11: residual 1.230e-39 (after a step with a fresh J) [311s]
+  it 12: residual 5.024e-48 (after a step with a fresh J) [348s]
+  rm 1.126 (eps 0.074000000) valid: res 5.0e-48 (12 its); G [4.402, 16.1677, 30.0114, 44.5293, 59.4083, 74.5826]; masses [0.039133, 0.033, 0.04109, 0.040307, 0.038891, 0.038418, 0.038728] [458s]
+     margins ['10.28:-6.75e-34', '23.09:-2.86e-33', '37.27:-7.81e-33', '51.97:-1.59e-32', '67.00:-2.60e-32', '82.29:-3.44e-32']; gapmax ['4.292:-3.44e-37e', '4.696:-2.55e-36e', '16.514:-1.01e-35e', '30.374:-3.21e-35e', '44.901:-7.32e-35e', '59.788:-1.32e-34e', '74.968:-1.94e-34e']; scan +1.83e-48@90.00; DC0 -1.82e-34 DC90 +1.83e-48; fine0max -6.63e-38@4.45; fine90max -3.68e-36@89.95; d2 ['G0:-1.884e-31', 'G1:-5.362e-31', 'G2:-1.566e-30', 'G3:-3.424e-30', 'G4:-5.973e-30', 'G5:-8.517e-30', 'Y:-9.669e-30'] [458s]
+  it 0: residual 2.165e-11 [459s]
+  it 1: residual 2.165e-11 (chord step) [459s]
+  it 2: residual 1.263e-21 (after a step with a fresh J) [499s]
+  it 3: residual 1.263e-21 (after a step with a fresh J) [500s]
+  it 4: residual 3.352e-28 (after a step with a fresh J) [537s]
+  it 5: residual 3.352e-28 (after a step with a fresh J) [539s]
+  it 6: residual 5.738e-34 (after a step with a fresh J) [577s]
+  it 7: residual 5.738e-34 (after a step with a fresh J) [578s]
+  it 8: residual 1.001e-37 (after a step with a fresh J) [617s]
+  it 9: residual 1.001e-37 (after a step with a fresh J) [618s]
+  it 10: residual 1.722e-40 (after a step with a fresh J) [657s]
+  it 11: residual 1.722e-40 (after a step with a fresh J) [659s]
+  it 12: residual 3.133e-49 (after a step with a fresh J) [699s]
+  rm 1.12575 (eps 0.074250000) valid: res 3.1e-49 (12 its); G [3.9725, 15.7728, 29.7771, 44.3847, 59.3221, 74.5418]; masses [0.039226, 0.031384, 0.041878, 0.040685, 0.03908, 0.038536, 0.038823] [810s]
+     margins ['9.87:-6.10e-34', '22.77:-3.02e-33', '37.08:-8.57e-33', '51.85:-1.76e-32', '66.93:-2.91e-32', '82.27:-3.85e-32']; gapmax ['3.873:-2.19e-37e', '4.267:-2.04e-36e', '16.123:-1.01e-35e', '30.142:-3.46e-35e', '44.758:-8.09e-35e', '59.703:-1.47e-34e', '74.928:-2.17e-34e']; scan -1.75e-49@90.00; DC0 -1.11e-34 DC90 -1.75e-49; fine0max -1.13e-38@3.95; fine90max -4.11e-36@89.95; d2 ['G0:-1.481e-31', 'G1:-5.193e-31', 'G2:-1.666e-30', 'G3:-3.751e-30', 'G4:-6.619e-30', 'G5:-9.484e-30', 'Y:-1.078e-29'] [810s]
+  it 0: residual 2.164e-11 [812s]
+  it 1: residual 2.164e-11 (chord step) [812s]
+  it 2: residual 1.087e-21 (after a step with a fresh J) [851s]
+  it 3: residual 1.087e-21 (after a step with a fresh J) [852s]
+  it 4: residual 2.255e-28 (after a step with a fresh J) [891s]
+  it 5: residual 2.255e-28 (after a step with a fresh J) [893s]
+  it 6: residual 5.010e-34 (after a step with a fresh J) [932s]
+  it 7: residual 5.010e-34 (after a step with a fresh J) [934s]
+  it 8: residual 1.131e-36 (after a step with a fresh J) [971s]
+  it 9: residual 1.131e-36 (after a step with a fresh J) [972s]
+  it 10: residual 4.523e-40 (after a step with a fresh J) [1010s]
+  it 11: residual 4.523e-40 (after a step with a fresh J) [1011s]
+  it 12: residual 7.024e-48 (after a step with a fresh J) [1051s]
+  rm 1.1255 (eps 0.074500000) valid: res 7.0e-48 (12 its); G [3.3715, 15.3364, 29.5352, 44.2381, 59.2354, 74.5008]; masses [0.039318, 0.029453, 0.042935, 0.041099, 0.039277, 0.038657, 0.038919] [1159s]
+     margins ['9.35:-5.45e-34', '22.44:-3.20e-33', '36.89:-9.43e-33', '51.74:-1.97e-32', '66.87:-3.26e-32', '82.25:-4.32e-32']; gapmax ['3.287:-1.09e-37e', '3.671:-1.48e-36e', '15.691:-1.00e-35e', '29.903:-3.75e-35e', '44.613:-8.96e-35e', '59.617:-1.65e-34e', '74.888:-2.43e-34e']; scan -2.04e-48@90.00; DC0 -5.26e-35 DC90 -2.04e-48; fine0max -7.19e-39@3.35; fine90max -4.58e-36@89.95; d2 ['G0:-1.028e-31', 'G1:-5.002e-31', 'G2:-1.780e-30', 'G3:-4.120e-30', 'G4:-7.345e-30', 'G5:-1.057e-29', 'Y:-1.203e-29'] [1159s]
+  it 0: residual 2.163e-11 [1160s]
+  it 1: residual 2.163e-11 (chord step) [1161s]
+  it 2: residual 1.057e-21 (after a step with a fresh J) [1200s]
+  it 3: residual 1.057e-21 (after a step with a fresh J) [1201s]
+  it 4: residual 1.337e-28 (after a step with a fresh J) [1239s]
+  it 5: residual 1.337e-28 (after a step with a fresh J) [1240s]
+  it 6: residual 3.837e-34 (after a step with a fresh J) [1278s]
+  it 7: residual 3.837e-34 (after a step with a fresh J) [1279s]
+  it 8: residual 2.913e-36 (after a step with a fresh J) [1318s]
+  it 9: residual 2.913e-36 (after a step with a fresh J) [1320s]
+  it 10: residual 7.305e-40 (after a step with a fresh J) [1358s]
+  it 11: residual 7.305e-40 (after a step with a fresh J) [1359s]
+  it 12: residual 8.633e-47 (after a step with a fresh J) [1396s]
+  rm 1.12525 (eps 0.074750000) valid: res 8.6e-47 (12 its); G [2.4235, 14.8566, 29.2866, 44.0898, 59.1482, 74.4596]; masses [0.039411, 0.027148, 0.044326, 0.041546, 0.03948, 0.038779, 0.039015] [1502s]
+     margins ['8.64:-4.77e-34', '22.07:-3.41e-33', '36.69:-1.04e-32', '51.62:-2.19e-32', '66.80:-3.65e-32', '82.23:-4.86e-32']; gapmax ['2.363:-2.82e-38e', '2.734:-8.36e-37e', '15.217:-9.96e-36e', '29.657:-4.08e-35e', '44.466:-9.95e-35e', '59.531:-1.84e-34e', '74.848:-2.73e-34e']; scan -2.66e-47@90.00; DC0 -1.26e-35 DC90 -2.66e-47; fine0max -4.31e-39@2.4; fine90max -5.12e-36@89.95; d2 ['G0:-5.143e-32', 'G1:-4.799e-31', 'G2:-1.909e-30', 'G3:-4.536e-30', 'G4:-8.165e-30', 'G5:-1.180e-29', 'Y:-1.345e-29'] [1502s]
+  it 0: residual nan [1504s]
+  it 1: residual nan (chord step) [1504s]
+Traceback (most recent call last):
+  File "H_track.py", line 73, in <module>
+    cmd_track(sys.argv[1:])
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "H_track.py", line 51, in cmd_track
+    st, nr, its = solve(rm_s)
+                  ~~~~~^^^^^^
+  File "H_track.py", line 33, in solve
+    v, nr, ok, h = S.newton(vp, rm, maxit=MAXIT, verbose=os.environ.get("VERB", "0") == "1")
+                   ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D_solver.py", line 119, in newton
+    if CHORD: return self.newton_chord(v, rm, maxit=maxit, tol=tol, verbose=verbose, J=J)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D_solver.py", line 158, in newton_chord
+    dvm = J.solve(arb_mat(n, 1, [-(x.mid()) for x in r])); dv = [dvm[i, 0] for i in range(n)]
+  File "flint/types/arb_mat.pyx", line 436, in flint.types.arb_mat.arb_mat.solve
+ZeroDivisionError: singular matrix in solve()

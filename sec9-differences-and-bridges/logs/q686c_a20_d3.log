@@ -1,0 +1,27 @@
+start: ok True, 2 points
+mark 1: 2 points  [7s]
+mark 2: 2 points  [7s]
+event 1 (birth) bisected  [19s]
+   now 3 points
+mark 3: 3 points  [25s]
+mark 4: 3 points  [32s]
+mark 5: 3 points  [33s]
+event 2 (birth) bisected  [49s]
+   now 4 points
+mark 6: 4 points  [52s]
+mark 7: 4 points  [61s]
+mark 8: 4 points  [61s]
+mark 9: 4 points  [69s]
+mark 10: 4 points  [70s]
+event 3 (birth) bisected  [82s]
+   now 5 points
+mark 11: 5 points  [93s]
+mark 12: 5 points  [102s]
+event 4 (split) bisected  [111s]
+   now 6 points
+mark 13: 6 points  [539s]
+mark 14: 6 points  [550s]
+event 5 (birth) bisected  [568s]
+   now 7 points
+mark 15: 7 points  [587s]
+event 6 (split) bisected  [612s]

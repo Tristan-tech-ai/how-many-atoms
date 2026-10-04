@@ -1,0 +1,29 @@
+q506: Jung-Kim-Matejka-Sims tracking example, prior N(0,1) truncated at +-3, lambda = 0.5; published support [-1.088  -0.1739  0.1739  1.088 ]
+   refinement 0: split atom at -0.0000 (c'' = 6.72e-04)
+   refinement 1: split atom at -0.1385 (c'' = 3.85e-05)
+   refinement 2: split atom at -0.0509 (c'' = 2.22e-04)
+   refinement 3: split atom at -0.1169 (c'' = 3.40e-04)
+   refinement 4: split atom at +0.0635 (c'' = 1.99e-04)
+   refinement 5: insert atom at -0.0850 (c - 1 = 2.54e-05)
+   refinement 6: split atom at -0.0849 (c'' = 1.49e-02)
+   refinement 7: split atom at -0.1849 (c'' = 1.44e-02)
+
+kernel variance lambda (eq. 15 convention): BA 19999 iterations; 11 atoms [-1.0917 -0.2882 -0.2267 -0.2233 -0.0751 -0.0321 -0.0294  0.0151  0.1734
+  0.1895  1.0904], weights [1.912e-01 7.000e-04 1.672e-01 4.000e-04 2.490e-02 1.833e-01 1.000e-04
+ 1.500e-03 4.000e-03 2.343e-01 1.922e-01], residual 5.4e-04, max off-support c - 1 = +4.90e-04   [55s]
+   refinement 0: split atom at +0.8514 (c'' = 1.84e-03)
+   refinement 1: split atom at -0.0028 (c'' = 2.90e-03)
+   refinement 2: split atom at -0.0806 (c'' = 2.72e-03)
+   refinement 3: split atom at -0.8671 (c'' = 2.88e-03)
+   refinement 4: split atom at -0.8050 (c'' = 2.51e-03)
+   refinement 5: split atom at +0.1365 (c'' = 1.08e-02)
+   refinement 6: split atom at +0.9646 (c'' = 4.60e-03)
+   refinement 7: split atom at -0.1883 (c'' = 8.85e-03)
+
+kernel variance lambda/2 (Corollary 2.1 convention): BA 19999 iterations; 13 atoms [-1.8005 -1.0008 -0.8976 -0.6997 -0.2883 -0.0883  0.0097  0.0392  0.239
+  0.7823  0.8646  1.0646  1.8065], weights [0.053  0.066  0.1144 0.0463 0.1169 0.1169 0.0156 0.0056 0.1878 0.0905
+ 0.0674 0.0674 0.0524], residual 9.3e-03, max off-support c - 1 = +2.34e-03   [109s]
+
+R1: FAIL (0 convention(s) match)
+R2: untruncated prior N(0,1), kernel variance 0.25: X ~ N(0, 0.75) predicted; the output law is then N(0, 1) exactly, so the KKT function is identically 1 (convolution of Gaussians: 0.75 + 0.25 = 1)
+[109s]

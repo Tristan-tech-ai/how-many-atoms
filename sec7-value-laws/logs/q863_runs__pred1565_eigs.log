@@ -1,0 +1,6 @@
+annulus RI 3.65224 RO 13.347760000000001 H 0.05: unknowns 207082; lambda_1 = 0.10021848; 4 lambda_1 = 0.40087393
+annulus RI 3.65224 RO 13.347760000000001 H 0.025: unknowns 828444; lambda_1 = 0.10059123; 4 lambda_1 = 0.40236491
+annulus RI 5.65224 RO 16.34776 H 0.05: unknowns 295680; lambda_1 = 0.08338355; 4 lambda_1 = 0.33353420
+annulus RI 5.65224 RO 16.34776 H 0.025: unknowns 1182704; lambda_1 = 0.08369540; 4 lambda_1 = 0.33478161
+annulus RI 6.65224 RO 18.34776 H 0.05: unknowns 367390; lambda_1 = 0.06995144; 4 lambda_1 = 0.27980575
+annulus RI 6.65224 RO 18.34776 H 0.025: unknowns 1469659; lambda_1 = 0.07017213; 4 lambda_1 = 0.28068854

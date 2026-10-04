@@ -1,0 +1,21 @@
+  birth track d 3 m 4.500: f -8.942e-04; support [0.7194 2.5869 4.5   ]; weights [0.0534  0.41267 0.53393]; residual 2.2e-13
+  birth track d 3 m 4.550: f -1.798e-03; support [0.85018 2.64166 4.55   ]; weights [0.0603  0.41309 0.52662]; residual 4.4e-13
+  birth track d 3 m 4.600: f -2.937e-03; support [0.95571 2.69621 4.6    ]; weights [0.06722 0.41338 0.51939]; residual 8.4e-15
+  birth track d 3 m 4.650: f -4.254e-03; support [1.04452 2.75042 4.65   ]; weights [0.0741  0.41363 0.51227]; residual 4.4e-16
+  birth track d 3 m 4.700: f -5.686e-03; support [1.12126 2.80418 4.7    ]; weights [0.08086 0.41388 0.50526]; residual 8.9e-16
+  birth track d 3 m 4.750: f -7.168e-03; support [1.18889 2.8574  4.75   ]; weights [0.08745 0.41418 0.49837]; residual 2.2e-13
+  birth track d 3 m 4.800: f -8.634e-03; support [1.24937 2.91004 4.8    ]; weights [0.09386 0.41455 0.49159]; residual 4.4e-16
+  birth track d 3 m 4.850: f -1.001e-02; support [1.30414 2.96204 4.85   ]; weights [0.10004 0.41501 0.48495]; residual 2.2e-13
+  birth track d 3 m 4.900: f -1.123e-02; support [1.35426 3.01337 4.9    ]; weights [0.10599 0.41557 0.47844]; residual 2.2e-13
+  birth track d 3 m 4.950: f -1.222e-02; support [1.40053 3.06402 4.95   ]; weights [0.1117  0.41623 0.47207]; residual 2.2e-13
+  birth track d 3 m 5.000: f -1.289e-02; support [1.44359 3.11399 5.     ]; weights [0.11718 0.41698 0.46584]; residual 2.2e-13
+  birth track d 3 m 5.050: f -1.318e-02; support [1.48396 3.16328 5.05   ]; weights [0.12241 0.41783 0.45975]; residual 2.2e-13
+  birth track d 3 m 5.100: f -1.300e-02; support [1.52205 3.21191 5.1    ]; weights [0.12742 0.41876 0.45381]; residual 0.0e+00
+  birth track d 3 m 5.150: f -1.228e-02; support [1.55819 3.25988 5.15   ]; weights [0.13222 0.41977 0.44802]; residual 4.4e-16
+  birth track d 3 m 5.200: f -1.093e-02; support [1.59267 3.30723 5.2    ]; weights [0.1368  0.42083 0.44237]; residual 4.4e-16
+  birth track d 3 m 5.250: f -8.879e-03; support [1.62572 3.35397 5.25   ]; weights [0.14118 0.42195 0.43687]; residual 4.4e-16
+  birth track d 3 m 5.300: f -6.033e-03; support [1.65754 3.40014 5.3    ]; weights [0.14537 0.42311 0.43152]; residual 2.2e-13
+  birth track d 3 m 5.350: f -2.313e-03; support [1.68829 3.44575 5.35   ]; weights [0.14939 0.4243  0.42631]; residual 2.2e-13
+  birth track d 3 m 5.400: f +2.365e-03; support [1.71814 3.49085 5.4    ]; weights [0.15324 0.42551 0.42125]; residual 2.2e-13
+  state at root - 0.01: support [1.69797  3.460287 5.366053]; weights [0.150644 0.424685 0.424671]; residual 2.2e-13; interior excess +0.00e+00
+d 3 birth event: m 5.37605311; support [1.703951 3.469313 5.376053]; weights [0.151417 0.424926 0.423657]; residual 1.3e-15

@@ -1,0 +1,14 @@
+it 0: B 1.5542059461  2 - B 0.44579405  max r - B 5.21e-01  [0s]
+centre_scripts\q863b_lfp_grid2d_annulus.py:28: RuntimeWarning: overflow encountered in exp
+  w = np.where(mask, w*np.exp(ETA*(r - rmax)), 0.0); w /= w.sum()
+centre_scripts\q863b_lfp_grid2d_annulus.py:28: RuntimeWarning: invalid value encountered in multiply
+  w = np.where(mask, w*np.exp(ETA*(r - rmax)), 0.0); w /= w.sum()
+it 1000: B 1.6504034900  2 - B 0.34959651  max r - B 1.85e-03  [103s]
+it 2000: B 1.6509085960  2 - B 0.34909140  max r - B 9.45e-04  [206s]
+it 3000: B 1.6510851464  2 - B 0.34891485  max r - B 5.25e-04  [308s]
+it 4000: B 1.6511712761  2 - B 0.34882872  max r - B 3.60e-04  [445s]
+it 5000: B 1.6512178471  2 - B 0.34878215  max r - B 2.64e-04  [584s]
+it 6000: B 1.6512447957  2 - B 0.34875520  max r - B 1.99e-04  [688s]
+it 7000: B 1.6512616240  2 - B 0.34873838  max r - B 1.72e-04  [785s]
+it 8000: B 1.6512729976  2 - B 0.34872700  max r - B 1.50e-04  [875s]
+annulus RI 9.0 RO 13.0 H 0.05: Bayes risk 1.6512729976; 2 - B 0.34872700; KKT gap 1.50e-04; grid 800 x 800, 110604 points

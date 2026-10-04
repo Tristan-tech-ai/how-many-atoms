@@ -1,0 +1,12 @@
+[    1.2s] formal density M 4: harmonic residual 6.0e-15; c = [0.1396460859450319, 0.051830219736388544, 0.02175374981939744, 0.012346915595706226]
+[    1.2s] min f(t_l) = 0.898781 (must be > 0)
+sum of weights - 1: [+/- 2.97e-76]
+[    2.6s] float: formal C 0.390649230148085; discrete-input curve sup 0.390649230148286; ripple 3.85e-13
+[    2.6s] U = sup + 5e-14 = [0.39064923014833602410 +/- 4.34e-21]
+[    3.6s] Lam on the grid done (128 atoms, M 577)
+[    3.6s]   curve [0.000000, 1.570796]: 32 Taylor intervals, half-width 0.02454, order 36, rho 1: remainder 1.07e-58 (f), 2.37e-52 (f''); quadrature 4.62e-62 (f), 1.37e-60 (f'')
+[   11.1s] curve check D(.||q) < U on [0, pi/2]: ok True; max upper bound of D - U -7.837705533508247e-15; pieces 32; failures []
+[   11.1s] interior: max |x_l|^2 = 1.000000 (<= 1 gives Hess D >= 0, so the sup over the filled ellipse is on the boundary)
+[   11.1s] RESULT: C(rp 1.0, rm 0.9597) <= [0.39064923014833602410 +/- 4.34e-21] (rigorous, by duality with the formal-density output law)
+[   11.4s] LOWER bound: I(X;Y) of the N-point input = [0.39064923014816047684 +/- 2.67e-21]  (radius 4.6e-62)
+[   11.4s] SANDWICH (endpoints printed to 25 digits; round outward when quoting): 0.3906492301481604768426600 <= C <= 0.3906492301483360241043385; width 1.76e-13

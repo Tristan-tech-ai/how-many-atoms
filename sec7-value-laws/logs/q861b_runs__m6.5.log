@@ -1,0 +1,5 @@
+centre_scripts\q861b_lfp_disc_active.py:56: RuntimeWarning: overflow encountered in exp
+  rr = r.copy(); rr[free] = z[:len(free)]; ww = np.exp(z[len(free):len(free) + len(r)]); return rr, ww/ww.sum(), z[-1]
+centre_scripts\q861b_lfp_disc_active.py:56: RuntimeWarning: invalid value encountered in divide
+  rr = r.copy(); rr[free] = z[:len(free)]; ww = np.exp(z[len(free):len(free) + len(r)]); return rr, ww/ww.sum(), z[-1]
+m 6.5: rings 4 radii [0.0, 1.772, 3.607717, 6.5] masses [0.08899733, 0.000999, 0.5368765, 0.37312717]; B 1.601264495029; 2 - B 0.39873550; residual 3.8e-15; KKT max r - B +9.5e-01; stage-1 gap 6.2e-05; rounds 16; NOT ACCEPTED

@@ -1,0 +1,16 @@
+lfp rp 2.6 rm 2.599: inner mass 0.30001326; C 1.335197232655; inner radius a_0..: [0.822624, 0.000081, 0.000000]; inner d_1..: [0.002064, 0.000007]; residual 1.6e-11; min f 1.000
+lfp rp 2.6 rm 2.58: inner mass 0.29728280; C 1.333017496773; inner radius a_0..: [0.810129, 0.001552, 0.000002]; inner d_1..: [0.043030, 0.002915]; residual 2.4e-12; min f 0.992
+lfp rp 2.6 rm 2.56: inner mass 0.29434570; C 1.330707039737; inner radius a_0..: [0.796518, 0.002972, 0.000007]; inner d_1..: [0.090032, 0.012445]; residual 4.9e-12; min f 0.983
+lfp rp 2.6 rm 2.54: inner mass 0.29134292; C 1.328380154656; inner radius a_0..: [0.782407, 0.004264, 0.000015]; inner d_1..: [0.141508, 0.029996]; residual 1.9e-11; min f 0.975
+lfp rp 2.6 rm 2.52: inner mass 0.28827330; C 1.326036807696; inner radius a_0..: [0.767763, 0.005429, 0.000024]; inner d_1..: [0.198051, 0.057349]; residual 2.2e-11; min f 0.966
+lfp rp 2.6 rm 2.5: inner mass 0.28513575; C 1.323676949767; inner radius a_0..: [0.752550, 0.006471, 0.000035]; inner d_1..: [0.260377, 0.096792]; residual 3.6e-12; min f 0.958
+lfp rp 2.6 rm 2.48: inner mass 0.28192918; C 1.321300515299; inner radius a_0..: [0.736727, 0.007393, 0.000047]; inner d_1..: [0.329348, 0.151286]; residual 1.4e-12; min f 0.949
+lfp rp 2.6 rm 2.46: inner mass 0.27865253; C 1.318907420999; inner radius a_0..: [0.720248, 0.008198, 0.000059]; inner d_1..: [0.406018, 0.224717]; residual 1.3e-11; min f 0.940
+lfp rp 2.6 rm 2.44: inner mass 0.27530483; C 1.316497564586; inner radius a_0..: [0.703059, 0.008887, 0.000071]; inner d_1..: [0.491683, 0.322247]; residual 1.5e-11; min f 0.932
+lfp rp 2.6 rm 2.42: inner mass 0.27188512; C 1.314070823515; inner radius a_0..: [0.685100, 0.009464, 0.000083]; inner d_1..: [0.587958, 0.450839]; residual 1.5e-11; min f 0.923
+lfp rp 2.6 rm 2.4: inner mass 0.26839251; C 1.311627053664; inner radius a_0..: [0.666300, 0.009929, 0.000094]; inner d_1..: [0.696879, 0.620038]; residual 1.1e-11; min f 0.914
+lfp rp 2.6 rm 2.38: inner mass 0.26482619; C 1.309166088010; inner radius a_0..: [0.646578, 0.010286, 0.000104]; inner d_1..: [0.821046, 0.843177]; residual 1.5e-11; min f 0.905
+lfp rp 2.6 rm 2.36: inner mass 0.26118542; C 1.306687735263; inner radius a_0..: [0.625836, 0.010535, 0.000113]; inner d_1..: [0.963837, 1.139284]; residual 1.2e-11; min f 0.896
+lfp rp 2.6 rm 2.34: inner mass 0.25746955; C 1.304191778487; inner radius a_0..: [0.603958, 0.010678, 0.000121]; inner d_1..: [1.129712, 1.536179]; residual 1.7e-11; min f 0.887
+lfp rp 2.6 rm 2.32: inner mass 0.25367801; C 1.301677973669; inner radius a_0..: [0.580805, 0.010715, 0.000128]; inner d_1..: [1.324692, 2.075718]; residual 9.9e-12; min f 0.878
+lfp rp 2.6 rm 2.3: inner mass 0.25027034; C 1.299174334808; inner radius a_0..: [0.546226, 0.011462, 0.004606]; inner d_1..: [1.521082, 6.010771]; residual 1.6e-04; min f 0.866

@@ -1,0 +1,37 @@
+Q562 BLIND BRIDGE TEST, part 1 (mapping fixed before any prediction number is computed), written 30 Sep 15:32:32 (date stamp).
+bridge_outcomes_SEALED.md has NOT been opened (only bridge_specs.md was read, between 15:28 and 15:31).
+Identity used (label M, standard): rate-distortion with squared error, min I(X;Y) + beta E(X-Y)^2 (nats), has optimal reproduction
+equal to the population NPMLE with kernel exp(-beta (x - y)^2) (Rose 1994 eq. 3; Yang et al. 2023); rational inattention with
+quadratic loss and Shannon cost is the same problem (Matejka-Sims eq. 1 with U = -(y - x)^2 and alpha = beta).
+Units: noise sd sigma = 1/sqrt(2 beta); half-length a = A/sigma for a source of half-width A; D (source units) = D_noise A^2/a^2.
+Instrument: q562_rdlib.solve (q535b's certified solver copied as text), returns K, KKT certificate, D_noise and I (nats).
+Cases and how each is predicted:
+  A9  uniform [-8, 8], beta = 0.1: a = 8 sqrt(0.2).                      A10 beta = 0.2: a = 8 sqrt(0.4).
+  A11 (= A7) uniform [-8, 8], D = 4: solve D_noise(a) 64/a^2 = 4.         A12 D = 3.        A8 D = 8.
+  A13 uniform [0, 1), R = 1 bit: solve I(a) = ln 2.
+  A3  uniform (-1, 1), kappa = 1 nat: solve I(a) = 1.                     A4 kappa = 1.2 nats.
+  A1  normal sd 1/3 truncated to (-1, 1), kappa = 0.33 nats: 'tnorm' source, solve I(a) = 0.33.   A2 kappa = 0.39.
+  A5  normal sd 1 truncated to [-3, 3], JKMS lambda = 0.5: beta = 1 by the agent's reading (untruncated omega^2 = 0.5), so a = 3 sqrt(2)
+      = 4.243 ('tnorm'); the other printed convention (beta = 2) gives a = 6; both are computed, beta = 1 is the registered one.
+  A6  Rose 1994 Fig. 1: EXCLUDED (the figure was viewed at 14:55, 795 (3)).
+Each prediction is the certified K at the solved a. Scoring rule: exact integer match with the reported count at the finest reported
+discretisation; a case whose solved a lies within 0.1 of a certified transition is flagged "near transition" before the outcome is read.
+Part 2 (the numbers) follows in this file before the sealed file is opened.
+PART 2 (prediction numbers), appended 15:49:18 (date stamp) before bridge_outcomes_SEALED.md is opened.
+  A9: a = 3.5777 (unif), predicted K = 3, certified True, I = 0.6856 nats, D_noise = 0.89922 (nearest transition 0.52)
+  A10: a = 5.0596 (unif), predicted K = 4, certified True, I = 0.9855 nats, D_noise = 0.94040 NEAR TRANSITION (0.084)
+  A11: a = 3.8124 (unif), predicted K = 3, certified True, I = 0.7383 nats, D_noise = 0.90853 (nearest transition 0.29)
+  A12: a = 4.4549 (unif), predicted K = 4, certified True, I = 0.8719 nats, D_noise = 0.93040 (nearest transition 0.35)
+  A8: a = 2.5816 (unif), predicted K = 2, certified True, I = 0.4258 nats, D_noise = 0.83312 (nearest transition 0.40)
+  A13: a = 3.6091 (unif), predicted K = 3, certified True, I = 0.6932 nats, D_noise = 0.89966 (nearest transition 0.49)
+  A3: a = 5.1505 (unif), predicted K = 5, certified True, I = 1.0001 nats, D_noise = 0.94489 NEAR TRANSITION (0.006)
+  A4: a = 6.3873 (unif), predicted K = 6, certified True, I = 1.2000 nats, D_noise = 0.95254 (nearest transition 0.25)
+  A1: a = 4.2314 (tnorm), predicted K = 4, certified True, I = 0.3300 nats, D_noise = 0.99900
+  A2: a = 4.4916 (tnorm), predicted K = 4, certified True, I = 0.3900 nats, D_noise = 0.99834
+  A5: a = 4.2426 (tnorm), predicted K = 4, certified True, I = 0.3327 nats, D_noise = 0.99897
+  A5alt: a = 6.0000 (tnorm), predicted K = 6, certified True, I = 0.6788 nats, D_noise = 0.99893
+  Mapping checks against numbers already in the specs (not outcomes):
+    A11: implied rate 0.7383 nats against the CBA rate 0.736 (K = 160)
+    A8: implied rate 0.4258 nats against the CBA rate 0.4243 (K = 160)
+    A13: implied D = 0.01727 against Mao-Gray-Linder's 0.0173 at R = 1 bit
+  Registered: A5 uses beta = 1 (K = 4); A5alt (beta = 2, K = 6) is secondary. A6 excluded.

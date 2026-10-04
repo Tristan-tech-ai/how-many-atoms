@@ -1,0 +1,5 @@
+1D offsets: [(2.896, np.float64(3.29252)), (3.748, np.float64(3.30544)), (4.569, np.float64(3.31397)), (5.364, np.float64(3.31998)), (6.137, np.float64(3.32439)), (6.892, np.float64(3.32775)), (7.63, np.float64(3.33038)), (8.353, np.float64(3.33249)), (9.064, np.float64(3.3342))]
+2D kappa: [(np.float64(5.707), np.float64(0.2615)), (np.float64(6.547), np.float64(0.2818)), (np.float64(7.245), np.float64(0.2974)), (np.float64(8.04), np.float64(0.3117)), (np.float64(8.715), np.float64(0.3226)), (np.float64(9.475), np.float64(0.3331)), (np.float64(10.132), np.float64(0.3413)), (np.float64(10.864), np.float64(0.3493)), (np.float64(11.504), np.float64(0.3557)), (np.float64(12.213), np.float64(0.3619))]
+3D m 7.5890: offset 3.38490 predicted 3.38576 (-0.00086); kappa_3D 0.2989
+3D m 8.4442: offset 3.38584 predicted 3.38670 (-0.00086); kappa_3D 0.3132
+scored 2; within 0.003: 2; verdict PASS

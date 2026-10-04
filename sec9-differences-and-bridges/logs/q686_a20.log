@@ -1,0 +1,43 @@
+start: ok True, 2 points
+mark 1: 2 points  [9s]
+mark 2: 2 points  [9s]
+event 1 bisected  [24s]
+   now 3 points
+mark 3: 3 points  [32s]
+mark 4: 3 points  [42s]
+mark 5: 3 points  [42s]
+event 2 bisected  [64s]
+   now 4 points
+mark 6: 4 points  [76s]
+mark 7: 4 points  [87s]
+mark 8: 4 points  [87s]
+mark 9: 4 points  [98s]
+mark 10: 4 points  [99s]
+event 3 bisected  [112s]
+   now 5 points
+mark 11: 5 points  [125s]
+mark 12: 5 points  [137s]
+event 4 bisected  [154s]
+   now 6 points
+mark 13: 6 points  [196s]
+mark 14: 6 points  [209s]
+event 5 bisected  [229s]
+   now 7 points
+mark 15: 7 points  [249s]
+event 6 bisected  [285s]
+   now 8 points
+mark 16: 8 points  [364s]
+mark 17: 8 points  [385s]
+event 7 bisected  [425s]
+   now 9 points
+mark 18: 9 points  [441s]
+mark 19: 9 points  [466s]
+event 8 bisected  [509s]
+   now 10 points
+mark 20: 10 points  [802s]
+mark 21: 10 points  [833s]
+event 9 bisected  [876s]
+   now 11 points
+mark 22: 11 points  [935s]
+event 10 bisected  [1007s]
+   now 12 points

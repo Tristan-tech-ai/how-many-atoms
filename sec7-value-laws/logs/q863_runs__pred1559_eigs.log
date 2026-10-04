@@ -1,0 +1,8 @@
+A 5.0 B 3.5 DL 3.34776 H 0.05: unknowns 72086; lambda_1 = 0.10217810; 4 lambda_1 = 0.40871239
+A 5.0 B 3.5 DL 3.34776 H 0.025: unknowns 288433; lambda_1 = 0.10240743; 4 lambda_1 = 0.40962972
+A 5.0 B 3.5 DL 0.0 H 0.05: unknowns 21961; lambda_1 = 0.34761858; 4 lambda_1 = 1.39047433
+A 5.0 B 3.5 DL 0.0 H 0.025: unknowns 87935; lambda_1 = 0.34893107; 4 lambda_1 = 1.39572428
+A 6.0 B 4.0 DL 3.34776 H 0.05: unknowns 86695; lambda_1 = 0.08574053; 4 lambda_1 = 0.34296212
+A 6.0 B 4.0 DL 3.34776 H 0.025: unknowns 346902; lambda_1 = 0.08591163; 4 lambda_1 = 0.34364651
+A 6.0 B 4.0 DL 0.0 H 0.05: unknowns 30132; lambda_1 = 0.25792667; 4 lambda_1 = 1.03170668
+A 6.0 B 4.0 DL 0.0 H 0.025: unknowns 120591; lambda_1 = 0.25887017; 4 lambda_1 = 1.03548070

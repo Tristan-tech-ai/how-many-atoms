@@ -1,0 +1,19 @@
+  split track d 1 m 4.580: f -2.531e-04; support [0.      0.89821 2.66365 4.58   ]; weights [0.01659 0.43745 0.35651 0.18945]; residual 8.0e-15
+  split track d 1 m 4.630: f -4.131e-04; support [0.      1.00791 2.72054 4.63   ]; weights [0.06965 0.3969  0.34756 0.18589]; residual 5.6e-14
+  split track d 1 m 4.680: f -5.957e-04; support [0.      1.0988  2.77687 4.68   ]; weights [0.10224 0.3761  0.33924 0.18242]; residual 1.1e-13
+  split track d 1 m 4.730: f -7.912e-04; support [0.      1.1762  2.83246 4.73   ]; weights [0.12431 0.36506 0.33158 0.17904]; residual 1.1e-13
+  split track d 1 m 4.780: f -9.896e-04; support [0.      1.24341 2.88721 4.78   ]; weights [0.14027 0.35938 0.3246  0.17576]; residual 4.4e-16
+  split track d 1 m 4.830: f -1.181e-03; support [0.      1.30267 2.94101 4.83   ]; weights [0.15235 0.35681 0.31828 0.17256]; residual 5.6e-14
+  split track d 1 m 4.880: f -1.354e-03; support [0.      1.35559 2.99382 4.88   ]; weights [0.16182 0.35612 0.31259 0.16947]; residual 1.7e-13
+  split track d 1 m 4.930: f -1.500e-03; support [0.      1.40334 3.04559 4.93   ]; weights [0.16944 0.35659 0.30749 0.16647]; residual 5.6e-14
+  split track d 1 m 4.980: f -1.607e-03; support [0.      1.44684 3.0963  4.98   ]; weights [0.17572 0.35777 0.30295 0.16357]; residual 1.1e-13
+  split track d 1 m 5.030: f -1.666e-03; support [0.      1.48678 3.14597 5.03   ]; weights [0.18097 0.35937 0.2989  0.16076]; residual 1.1e-13
+  split track d 1 m 5.080: f -1.664e-03; support [0.      1.52372 3.19461 5.08   ]; weights [0.18543 0.36121 0.2953  0.15806]; residual 5.6e-14
+  split track d 1 m 5.130: f -1.592e-03; support [0.      1.55811 3.24222 5.13   ]; weights [0.18926 0.36317 0.29212 0.15545]; residual 5.6e-14
+  split track d 1 m 5.180: f -1.438e-03; support [0.      1.5903  3.28885 5.18   ]; weights [0.1926  0.36517 0.2893  0.15294]; residual 1.1e-13
+  split track d 1 m 5.230: f -1.193e-03; support [0.      1.62061 3.33453 5.23   ]; weights [0.19551 0.36716 0.28681 0.15052]; residual 1.4e-15
+  split track d 1 m 5.280: f -8.453e-04; support [0.      1.64927 3.37928 5.28   ]; weights [0.19809 0.36911 0.2846  0.1482 ]; residual 5.6e-14
+  split track d 1 m 5.330: f -3.842e-04; support [0.      1.67649 3.42315 5.33   ]; weights [0.20038 0.37099 0.28266 0.14597]; residual 5.6e-14
+  split track d 1 m 5.380: f +2.009e-04; support [0.      1.70245 3.46618 5.38   ]; weights [0.20243 0.3728  0.28094 0.14382]; residual 1.1e-13
+  state at root - 0.01: support [0.       1.689122 3.443941 5.354037]; weights [0.201395 0.371873 0.281807 0.144925]; residual 1.1e-13; interior excess +0.00e+00
+d 1 split event: m 5.36403666; support [0.       1.694294 3.452533 5.364037]; weights [0.2018   0.372234 0.281468 0.144498]; residual 5.6e-14

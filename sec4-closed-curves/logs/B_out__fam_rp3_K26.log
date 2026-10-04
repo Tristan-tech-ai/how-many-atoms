@@ -1,0 +1,7 @@
+  eps 0.79: max q/|L_KK| 1.43465e+18 at 84.292 deg; LR residual 2.8e-10  [34s]
+  eps 0.791185889195: max q/|L_KK| -3.75278e+14 at 0.041667 deg; LR residual 5.3e-7  [74s]
+  eps 0.791185578836: max q/|L_KK| -9.9453e+15 at 0.041667 deg; LR residual 7.5e-10  [113s]
+  eps 0.791185901365: max q/|L_KK| 2.89461e+14 at 7.2917 deg; LR residual 2.3e-11  [151s]
+  eps 0.791185892243: max q/|L_KK| -2.8998e+11 at 0.041667 deg; LR residual 2.3e-8  [190s]
+  eps 0.791185892252: max q/|L_KK| -4.002e+11 at 0.041667 deg; LR residual 7.1e-9  [229s]
+  eps 0.791185892219: max q/|L_KK| -4.94896e+13 at 0.041667 deg; LR residual 5.5e-11  [269s]

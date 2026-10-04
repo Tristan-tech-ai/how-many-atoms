@@ -1,0 +1,9 @@
+it 0: C in [1.20385535, 1.71143877] (gap 5.08e-01); wall mass 0.1614; beta 1.00  [0s]
+it 1000: C in [1.47159519, 1.47199141] (gap 3.96e-04); wall mass 0.9386; beta 2.49  [133s]
+it 2000: C in [1.47160722, 1.47180719] (gap 2.00e-04); wall mass 0.9387; beta 3.32  [272s]
+it 3000: C in [1.47161163, 1.47173974] (gap 1.28e-04); wall mass 0.9387; beta 2.40  [396s]
+it 4000: C in [1.47161430, 1.47169888] (gap 8.46e-05); wall mass 0.9387; beta 3.57  [536s]
+it 5000: C in [1.47161613, 1.47167081] (gap 5.47e-05); wall mass 0.9387; beta 2.07  [667s]
+it 6000: C in [1.47161737, 1.47167324] (gap 5.59e-05); wall mass 0.9387; beta 2.88  [810s]
+it 7000: C in [1.47161818, 1.47167727] (gap 5.91e-05); wall mass 0.9387; beta 4.00  [1015s]
+saved q700_ell_B2.85_A3.npz; grid 440 x 440, 10391 interior points, 2000 wall points

@@ -1,0 +1,5 @@
+  it 0: residual 5.899e-06 [96s]
+  it 1: residual 5.436e-11 [191s]
+  it 2: residual 2.782e-21 [286s]
+  it 3: residual 1.391e-21 [385s]
+  it 4: residual 1.217e-21 [488s]
