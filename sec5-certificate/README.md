@@ -1,7 +1,8 @@
 # Section V and Appendix A: the certificate of Theorem 1
 
-**Theorem 1.** For the filled ellipse with semi-axes r_p = 1 and r_m = 0.9597, the capacity-achieving input of Y = X + Z
-(Z standard Gaussian in the plane) is a symmetric ring of 32 atoms with no atom at the ends of the major axis, (±1, 0).
+**Theorem 1.** Let Y = X + Z with Z standard Gaussian in the plane, and let the input X be confined to the filled ellipse with
+semi-axes r_p = 1 and r_m = 0.9597. The capacity-achieving input is a symmetric ring of 32 atoms with no atom at the ends of the
+major axis, (±1, 0).
 This contradicts Theorem 4 of Dytso, Barletta and Kramer (arXiv:2401.17084).
 
 ## Run it
@@ -43,6 +44,11 @@ values `[-1.12760361457e-50, -1.12760361456e-50]` at (1, 0) and `-1.41767643390e
 
 ## Settings
 
-Environment variables of `certify_ring32.py` (defaults are the values used in the paper): `HD`, `NN`, `PREC` (fine grid step
-1/HD, nodes, bits), `HDC`, `NNC`, `PRECC` (curve grid), `A` (strip half-width, 1.45), `NT`, `MT`, `RHO` (Taylor intervals,
-order, Cauchy radius), `DZ` (half-width of the zone around each atom), `THREADS`.
+`certify_ring32.py` reads these environment variables; the defaults are the values used in the paper.
+
+- `HD`, `NN`, `PREC`: fine grid step 1/HD, nodes, bits
+- `HDC`, `NNC`, `PRECC`: the curve grid
+- `A`: strip half-width, 1.45
+- `NT`, `MT`, `RHO`: Taylor intervals, order, Cauchy radius
+- `DZ`: half-width of the zone around each atom
+- `THREADS`: number of threads

@@ -1,0 +1,39 @@
+{
+ "capacity ellipse 2.8": {
+  "rp": 2.8,
+  "observed": 2.18742185,
+  "registered": 2.1874219,
+  "miss": -5.000000014021566e-08
+ },
+ "LFP ellipse 1.7": {
+  "rp": 1.7,
+  "observed": 1.4038103971855618,
+  "registered": 1.4038104,
+  "miss": -2.814438238019079e-09
+ },
+ "NPMLE ellipse 2.1": {
+  "rp": 2.1,
+  "observed": 1.741635414171197,
+  "registered": 1.7416352,
+  "miss": 2.1417119699940201e-07
+ },
+ "capacity mixed 0.2, 2.8": {
+  "rp": 2.8,
+  "observed": 2.1756059948763773,
+  "registered": 2.1756059,
+  "miss": 9.487637742111588e-08
+ },
+ "LFP mixed 0.1, 1.7": {
+  "rp": 1.7,
+  "observed": 1.401569502055782,
+  "registered": 1.4015695,
+  "miss": 2.0557819890854034e-09
+ },
+ "NPMLE mixed 0.2, 2.1": {
+  "rp": 2.1,
+  "observed": 1.7363462909565004,
+  "registered": 1.736346,
+  "miss": 2.909565004483028e-07
+ },
+ "max_abs_miss": 2.909565004483028e-07
+}

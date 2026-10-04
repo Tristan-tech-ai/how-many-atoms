@@ -1,0 +1,274 @@
+[
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.15",
+  "context": "fitted on capacity ($0.15$",
+  "expr": "L(1438, r'eccentric point plus\\s+(0\\.15) to 0\\.35 eps\\^2')",
+  "why": "1438 quartet band",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.35",
+  "context": "to $0.35\\,\\epsilon_i^2$",
+  "expr": "L(1438, r'eccentric point plus\\s+0\\.15 to (0\\.35) eps\\^2')",
+  "why": "1438 quartet band",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.25",
+  "context": "LFP $0.25\\,\\epsilon_i^2 \\pm",
+  "expr": "L(1456, r'eccentric\\s+point\\s+plus\\s+(0\\.25)\\s+eps\\^2\\s+\\(the\\s+capacity\\s+quartet\\s+residual')",
+  "why": "1456 LFP quartet band centre",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "5\\times 10^{-4}",
+  "context": "LFP $0.25\\,\\epsilon_i^2 \\pm 5\\times 10^{-4}$",
+  "expr": "L(1456, r'half-width (5e-4); the polar point')",
+  "why": "1456 half-width",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "5\\times 10^{-4}",
+  "context": "eccentric point $-5\\times 10^{-4}$",
+  "expr": "L(1459, r'\\[eccentric - (5e-4), eccentric \\+ 0\\.25 eps\\^2 \\+ 5e-4\\]')",
+  "why": "1459 band form",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.25",
+  "context": "eccentric point $-5\\times 10^{-4}$",
+  "expr": "L(1459, r'\\[eccentric - 5e-4, eccentric \\+ (0\\.25) eps\\^2 \\+ 5e-4\\]')",
+  "why": "1459 band form",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.0\\times 10^{-4}",
+  "context": "of $-2.0\\times 10^{-4} \\pm",
+  "expr": "L(1468, r'miss = -(2\\.0e-4) \\+- 5e-5')",
+  "why": "1468 (c) secondary band",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "5\\times 10^{-5}",
+  "context": "of $-2.0\\times 10^{-4} \\pm 5\\times 10^{-5}$",
+  "expr": "L(1468, r'miss = -2\\.0e-4 \\+- (5e-5)')",
+  "why": "1468 (c) secondary band",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "3.6",
+  "context": "capacity, ellipse, 3.6 & pair",
+  "expr": "L(1433, r'rp (3\\.6) pair loss at rm 3\\.396546')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "3.6",
+  "context": "capacity, ellipse, 3.6 & quartet",
+  "expr": "L(1434, r'PRE-REGISTERED rp (3\\.6) quartet at 3\\.430938')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "4.3",
+  "context": "capacity, ellipse, 4.3 & pair",
+  "expr": "L(1438, r'eccentric form at rp (4\\.3) \\(inner')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "4.3",
+  "context": "capacity, ellipse, 4.3 & quartet",
+  "expr": "L(1438, r'eccentric form at rp (4\\.3) \\(inner')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.2",
+  "context": "capacity, mixed $0.2$, 3.7 & pair",
+  "expr": "L(1453, r'mixed curve lam (0\\.2), rp 3\\.7 lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "3.7",
+  "context": "capacity, mixed $0.2$, 3.7 & pair",
+  "expr": "L(1453, r'mixed curve lam 0\\.2, rp (3\\.7) lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.2",
+  "context": "capacity, mixed $0.2$, 3.7 & quartet",
+  "expr": "L(1470, r'quartet on the mixed curve lam (0\\.2), rp 3\\.7')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "3.7",
+  "context": "capacity, mixed $0.2$, 3.7 & quartet",
+  "expr": "L(1470, r'quartet on the mixed curve lam 0\\.2, rp (3\\.7)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.6",
+  "context": "LFP, ellipse, 2.6 & pair",
+  "expr": "L(1444, r'LFP pair on the ellipse rp (2\\.6) is lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.6",
+  "context": "LFP, ellipse, 2.6 & quartet",
+  "expr": "L(1456, r'LFP quartet on the ellipse rp (2\\.6) is lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.1",
+  "context": "LFP, mixed $0.1$, 2.6 & pair",
+  "expr": "L(1466, r'FUNC lfp LAM (0\\.1) rp 2\\.6')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.6",
+  "context": "LFP, mixed $0.1$, 2.6 & pair",
+  "expr": "L(1466, r'FUNC lfp LAM 0\\.1 rp (2\\.6)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.1",
+  "context": "LFP, mixed $0.1$, 2.6 & quartet",
+  "expr": "L(1468, r'LFP quartet, lam (0\\.1), rp 2\\.6')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.6",
+  "context": "LFP, mixed $0.1$, 2.6 & quartet",
+  "expr": "L(1468, r'LFP quartet, lam 0\\.1, rp (2\\.6)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.8",
+  "context": "LFP, ellipse, 2.8 & pair",
+  "expr": "L(1477, r'LFP rp (2\\.8): the largest')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.9",
+  "context": "NPMLE, ellipse, 2.9 & pair",
+  "expr": "L(1448, r'inner pair on the ellipse rp (2\\.9) lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.9",
+  "context": "NPMLE, ellipse, 2.9 & quartet",
+  "expr": "L(1459, r'quartet on the ellipse rp (2\\.9) is lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.2",
+  "context": "NPMLE, mixed $0.2$, 2.9 & pair",
+  "expr": "L(1466, r'FUNC\\s+rd\\s+LAM\\s+(0\\.2)\\s+rp\\s+2\\.9')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.9",
+  "context": "NPMLE, mixed $0.2$, 2.9 & pair",
+  "expr": "L(1466, r'FUNC\\s+rd\\s+LAM\\s+0\\.2\\s+rp\\s+(2\\.9)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.2",
+  "context": "NPMLE, mixed $0.2$, 2.9 & quartet",
+  "expr": "L(1468, r'rd quartet, lam (0\\.2), rp 2\\.9')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.9",
+  "context": "NPMLE, mixed $0.2$, 2.9 & quartet",
+  "expr": "L(1468, r'rd quartet, lam 0\\.2, rp (2\\.9)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "0.1",
+  "context": "NPMLE, mixed $0.1$, 2.9 & pair",
+  "expr": "L(1468, r'rd pair, lam (0\\.1), rp 2\\.9')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "2.9",
+  "context": "NPMLE, mixed $0.1$, 2.9 & pair",
+  "expr": "L(1468, r'rd pair, lam 0\\.1, rp (2\\.9)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "3.1",
+  "context": "NPMLE, ellipse, 3.1 & pair",
+  "expr": "L(1477, r'rd rp (3\\.1): sign change')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "3.7",
+  "context": "capacity, ellipse, 3.7--4.0 & 6 events",
+  "expr": "L(1421, r'PRE-REGISTERED at rp (3\\.7)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ },
+ {
+  "paper": "supplement_inner_rings",
+  "printed": "4.0",
+  "context": "capacity, ellipse, 3.7--4.0 & 6 events",
+  "expr": "L(1426, r'PRE-REGISTERED at a second rp \\((4\\.0)\\)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition"
+ }
+]

@@ -5,7 +5,7 @@ Code, computed states and run logs for the paper
 > I Made Tristan Hope Firdaus, *How Many Atoms, and Where: Predicting the Discrete Optima of Capacity, Minimax Estimation and
 > the NPMLE Under Gaussian Noise*, working paper, 2026. The PDF is in [`paper/`](paper/).
 
-The paper studies three problems in which a probability law on a bounded region is seen through Gaussian noise: the
+The paper studies three problems in which a probability law on a bounded region is seen through Gaussian noise. They are the
 capacity-achieving input of a peak-limited channel, the least favorable prior (LFP) of a bounded normal mean, and the
 nonparametric maximum-likelihood estimate (NPMLE) of a mixing law. In all three the optimal law is discrete. The paper predicts
 how many atoms it has and where they sit, and certifies one counterexample to a published theorem.
@@ -16,7 +16,7 @@ Each folder holds the material behind one section of the paper.
 
 | folder | paper section | what it reproduces |
 |---|---|---|
-| [`sec3-one-dimension/`](sec3-one-dimension/) | III | edge constants (Table I) and the frozen forward tests of the count law |
+| [`sec3-one-dimension/`](sec3-one-dimension/) | III | edge constants (Table I) and the forward tests of the count law, fixed before the computation |
 | [`sec4-closed-curves/`](sec4-closed-curves/) | IV | the formal density, the Szegő rule and the ring losses of Tables II and III, Fig. 1 |
 | [`sec5-certificate/`](sec5-certificate/) | V and Appendix A | **Theorem 1**: the certified 32-atom ring without vertex atoms (runs on its own) |
 | [`sec6-filled-regions/`](sec6-filled-regions/) | VI | births at the center (Table V, Fig. 3), the first center atom, rings inside rings (Table VI) |
@@ -24,6 +24,7 @@ Each folder holds the material behind one section of the paper.
 | [`sec8-center-events/`](sec8-center-events/) | VIII | events at the center of d-balls and the shift law |
 | [`sec9-differences-and-bridges/`](sec9-differences-and-bridges/) | IX | what does not carry over, and the blind test against published rate-distortion and rational-inattention solutions |
 | [`registration-log/`](registration-log/) | all | the append-only log in which every prediction was written before it was tested |
+| [`checks/`](checks/) | all | the code that checked every number and figure of the paper against primary files, with what it reads |
 | [`paper/`](paper/) | | the paper and the full table of inner-ring tests |
 
 Every folder has a `README.md` (what is there and how it maps to the paper) and a `FILES.md` (one line per script: what it does,
@@ -62,9 +63,15 @@ About four minutes on three threads. The last lines should report `Krawczyk ... 
 ## What is proved and what is numerical
 
 Only Theorem 1 and Proposition 1 of the paper are proved; the theorem rests on the computer-assisted certificate in
-`sec5-certificate/`. Everything else is numerical, and Table VIII of the paper grades each claim. A prediction called
-*registered* was written into a dated, append-only log before the optimum was computed; the order is asserted by the author from
-file times. The log is in [`registration-log/`](registration-log/).
+`sec5-certificate/`. Everything else is numerical. A prediction called *registered* was written into a dated, append-only log
+before the optimum was computed; the log's time stamps are not certified by a third party. The log is in
+[`registration-log/`](registration-log/), and Table VIII of the paper lists the registered tests that did not pass.
+
+## How the numbers were checked
+
+Every number printed in the paper was checked by code against a primary file: a run log, a result file, or an entry of the
+registration log. The figures are drawn by scripts that read their data from such files. [`checks/`](checks/) holds that code,
+the formula behind each derived number, and the input files that the other folders do not already hold.
 
 ## License and citation
 

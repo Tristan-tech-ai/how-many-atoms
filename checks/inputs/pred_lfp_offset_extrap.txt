@@ -1,0 +1,10 @@
+Pre-registration, written 08:56:08 on 25 Sep 2026, before any q492 row with m > 39.9 exists (the stored rows end at 39.9).
+MODEL (post hoc fit, 728's drift law beta_L' = N(1 - eta) - 1 with N - 1 algebraic): beta_L(m) := pi/sqrt(1 - r*) - m =
+beta_inf + c2/m^2 + c3/m^3 + c4/m^4 [+ c5/m^5], least squares on the 271 stored rows (m = 18.65-39.9, or m >= 25).
+The 4- and 5-term fits give beta_inf = 3.34776 (3.3477573-3.3477607) and agree on:
+    beta_L(41.0) = 3.3467076,  beta_L(43.0) = 3.3467966,  beta_L(45.0) = 3.3468748.
+PREDICTION, frozen: when q492 stores rows at m = 41.0, 43.0 and 45.0,
+    |beta_L(41.0) - 3.3467076| <= 5e-7,  |beta_L(43.0) - 3.3467966| <= 1e-6,  |beta_L(45.0) - 3.3468748| <= 2e-6.
+FAIL if any is outside. Equivalently 1 - r*(m) = pi^2/(m + beta_L(m))^2 with these beta_L. Implied, not scored:
+beta_L(100) = 3.34757 +- 1e-5 and r*(100) = 1 - pi^2/(103.34757)^2.
+A FAIL is labelled M or B before any claim (for B: the row's convergence, the m value, a K change at the row).

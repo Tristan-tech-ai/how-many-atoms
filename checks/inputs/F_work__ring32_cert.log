@@ -1,0 +1,14 @@
+[    0.0s] state D_work/b36/flank32_ngh640_final.json; fine grid h 1/28, Y 23.5, M 1317, prec 576; a 1.45; quadrature bound for D 1.599e-109
+[   55.5s]   harmonic Newton 0: |F(v)| <= 1.323e-50
+[  110.3s]   harmonic Newton 1: |F(v)| <= 8.077e-60
+[  165.1s]   harmonic Newton 2: |F(v)| <= 1.104e-77
+[  221.4s]   harmonic Newton 3: |F(v)| <= 1.963e-108
+[  221.4s] polished: |F(v^)| <= 1.963e-108 (rigorous, exact F)
+[  221.4s] |Y F(v^)| componentwise: 6.82e-67 4.19e-67 3.46e-67 3.42e-67 3.32e-67 2.87e-67 1.97e-67 7.02e-68 1.00e-67 3.81e-68 7.33e-69 2.94e-69 5.40e-69 1.07e-68 1.62e-68 1.98e-68 1.60e-109
+[  259.8s] Krawczyk attempt 0 (r = 10|YF|, max r 6.82e-66): ok True; ||I - YJ(B)||_inf 8.970e-22; |K - v^|/r max 0.100
+[  259.8s] exact KKT point in the box: G deg 2.5863554508, 13.6893419145, 25.9682669924, 37.9918037043, 49.7730296355, 61.3802069618, 72.8722408213, 84.2981592090; radii max 6.82e-66; smallest mass lower bound 2.587730e-02; C 0.390649230148160810397330986870
+[  260.3s] curve: coarse grid h 1/16, Y 18.0, M 577, prec 256; quadrature bound 4.616e-62; Lam over the box done
+[  260.3s]   curve [0.000000, 1.570796]: 32 Taylor intervals, half-width 0.02454, order 36, rho 1: remainder 1.07e-58 (f), 2.37e-52 (f''); quadrature 4.62e-62 (f), 1.37e-60 (f'')
+[  267.1s] curve certificate ok True: max UB of D - C off the zones -1.7356471843808251e-53; max UB of (D - C)'' in the zones -2.863776181036991e-47; pieces 230; failures []; certified violations 0 []
+[  267.1s] D - C at the major vertex t = 0, enclosure valid for every v in the box (so for the exact KKT point): [-1.127604e-50, -1.127604e-50]
+[  267.1s] done

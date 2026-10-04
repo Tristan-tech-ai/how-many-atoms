@@ -1,0 +1,6 @@
+e 3 birth  m 4.069368 deficit 1.055447166 offset 3.39003 residual 2.2e-13
+e 4 split  m 4.680523 deficit 0.899659659 offset 3.39895 residual 4.4e-16
+e 5 birth  m 5.753621 deficit 0.699952630 offset 3.40622 residual 1.3e-15
+e 6 split  m 6.353140 deficit 0.616261723 offset 3.40888 residual 2.2e-13
+e 7 birth  m 7.335920 deficit 0.508502563 offset 3.41079 residual 2.2e-13
+max offset 3.41080; last 3.41079; L FAIL; S FAIL

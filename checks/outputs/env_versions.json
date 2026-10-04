@@ -1,0 +1,8 @@
+{
+ "python_flint_version": "0.9.0",
+ "python_flint_major_minor": 0.9,
+ "flint_module_version": "0.9.0",
+ "dist_info": "<python>\\Lib\\site-packages\\python_flint-0.9.0.dist-info",
+ "dist_info_mtime": "2026-09-05T15:26:05",
+ "note": "installed before the certificate runs of 1335 (2 Oct) and 1401 (3 Oct); a single python-flint distribution is installed"
+}

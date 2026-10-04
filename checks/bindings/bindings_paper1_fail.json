@@ -1,0 +1,136 @@
+[
+ {
+  "paper": "paper1",
+  "printed": "3\\times 10^{-7}",
+  "context": "point held to $3\\times 10^{-7}$ in all three",
+  "expr": "3e-7 if J('temporal_within/gate_truth/births_check.json', 'max_abs_miss') <= 3e-7 else -1",
+  "why": "upper bound: the six registered births miss by at most 2.91e-7 in r_m (births_check.json, ring zeros from Amendments 1406, 1443, 1447, 1452, 1462, 1464)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "3\\times 10^{-7}",
+  "context": "All six registered births passed, within $3\\times 10^{-7}$",
+  "expr": "3e-7 if J('temporal_within/gate_truth/births_check.json', 'max_abs_miss') <= 3e-7 else -1",
+  "why": "upper bound: the six registered births miss by at most 2.91e-7 in r_m (births_check.json, ring zeros from Amendments 1406, 1443, 1447, 1452, 1462, 1464)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "3\\times 10^{-7}",
+  "context": "within $3\\times 10^{-7}$ of the prediction",
+  "expr": "3e-7 if J('temporal_within/gate_truth/births_check.json', 'max_abs_miss') <= 3e-7 else -1",
+  "why": "upper bound: the six registered births miss by at most 2.91e-7 in r_m (births_check.json, ring zeros from Amendments 1406, 1443, 1447, 1452, 1462, 1464)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "2.2",
+  "context": "copying error $h_{K-2}$ to within $2.2\\%$",
+  "expr": "2.2 if 100 * max(abs(-(J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 4) - L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){4}([\\d.]+) \\(j 2-10\\)')) - T('temporal_within/agents/B_out/cc_cap13K12.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){4}(-[\\d.e-]+),')) / abs(T('temporal_within/agents/B_out/cc_cap13K12.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){4}(-[\\d.e-]+),')), abs(-(J('temporal_within/agents/B_out/cc13K10_M5_e0.20724.json', 'c', 3) - L(1283, r'K 10 at eps 0\\.207240: b (?:[\\d.]+, ){3}([\\d.]+) \\(j 2-8\\)')) - T('temporal_within/agents/B_out/cc_cap13K10.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){3}(-[\\d.e-]+),')) / abs(T('temporal_within/agents/B_out/cc_cap13K10.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){3}(-[\\d.e-]+),'))) <= 2.2 else -1",
+  "why": "upper bound: |h_{K-2}(solved) - h_{K-2}(LR)| / |h_{K-2}(LR)| is 2.17 % (K = 12) and 1.44 % (K = 10)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "4\\times 10^{-6}",
+  "context": "are at most $4\\times 10^{-6}$ for",
+  "expr": "4e-6 if max(abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){0}([\\d.]+),') - J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 0)), abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){1}([\\d.]+),') - J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 1)), abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){2}([\\d.]+),') - J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 2)), abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){3}([\\d.]+),') - J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 3))) <= 4e-6 else -1",
+  "why": "upper bound: |b_j - c_j| for j = 2, 4, 6, 8 is 0.9e-6, 2.3e-6, 3.7e-6, 1.6e-6 (b to six digits in Amendment 1283)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "20",
+  "context": "certified box rounded to 20 decimals",
+  "expr": "20",
+  "why": "format of the table cells (each cell matches the polished 40-digit state rounded to 20 decimals)",
+  "kind": "definition"
+ },
+ {
+  "paper": "paper1",
+  "printed": "2.138",
+  "context": "its shift is $2.138$ against",
+  "expr": "(T('temporal_within/centre_scripts/q868_runs/d8_e1.log', r'd 8 e1 \\(birth of the centre\\): m ([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)'))",
+  "why": "d 8 e1 3.19499053 (d8_e1.log) minus d 1 e1 1.05674351 (Amendment 1573)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "1.137",
+  "context": "against $1.137$ from",
+  "expr": "(7 * (3 * (L(1573, r'd 3 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)')) - 5 * (L(1573, r'd 2 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)'))))",
+  "why": "shift_8 = 7 (3 s_3 - 5 s_2) from the d = 2, 3 e1 shifts of Amendment 1573"
+ },
+ {
+  "paper": "paper1",
+  "printed": "88",
+  "context": "misses by $88\\%$: its shift",
+  "expr": "100 * ((T('temporal_within/centre_scripts/q868_runs/d8_e1.log', r'd 8 e1 \\(birth of the centre\\): m ([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)')) - (7 * (3 * (L(1573, r'd 3 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)')) - 5 * (L(1573, r'd 2 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)'))))) / (7 * (3 * (L(1573, r'd 3 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)')) - 5 * (L(1573, r'd 2 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)'))))",
+  "why": "relative miss of the d = 8 e1 shift"
+ },
+ {
+  "paper": "paper1",
+  "printed": "16",
+  "context": "16 of 19 registered; three failures",
+  "expr": "J('temporal_within/gate_truth/inner_rings_check.json', 'passed')",
+  "why": "verdicts recomputed from band and observed value for each registered inner-ring test (inner_rings_check.json; every number found in the log)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "19",
+  "context": "16 of 19 registered; three failures",
+  "expr": "J('temporal_within/gate_truth/inner_rings_check.json', 'registered')",
+  "why": "registered inner-ring tests (inner_rings_check.json)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "2.3",
+  "context": "(resolution about $6\\%$, $2.3\\%$)",
+  "expr": "100 * ((L(1514, r'settings identical to 1513: final bracket \\[[\\d.]+, ([\\d.]+)\\]') - L(1514, r'settings identical to 1513: final bracket \\[([\\d.]+),')) + (L(1513, r'p 2 \\(disc control\\): final bracket \\[[\\d.]+, ([\\d.]+)\\]') - L(1513, r'p 2 \\(disc control\\): final bracket \\[([\\d.]+),'))) / 2 / (L(1512, r'predicted C ([\\d.]+); equal-area disc') - L(1512, r'equal-area disc \\(area-only alternative\\) ([\\d.]+)\\.'))",
+  "why": "p = 3: (bracket width at p 3 + disc bracket width)/2 over the shape signal 3.567e-3 = 2.31 % (Amendments 1512-1514)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.53",
+  "context": "first five ring losses on cooling lay within $0.53",
+  "expr": "0.53 if max([100*(L(1320, r'So T_c lies in \\(\\d\\.\\d+, (\\d\\.\\d+)\\)')/L(1320, r'obs/pred - 1 recomputed: \\d\\.\\d+/(\\d\\.\\d+)') - 1), 100*(L(1321, r'K 10 T_c (\\d\\.\\d+) against')/L(1321, r'K 10 T_c \\d\\.\\d+ against (\\d\\.\\d+)') - 1), 100*(L(1321, r'so T_c is in\\s+\\(\\d\\.\\d+, (\\d\\.\\d+)\\)')/L(1321, r'K 12 T_c \\d\\.\\d+ against (\\d\\.\\d+)') - 1), 100*(L(1330, r'So T_c lies\\s+in \\(\\d\\.\\d+, (\\d\\.\\d+)\\)')/L(1330, r'registered (\\d\\.\\d+) \\(C_registration') - 1), 100*(L(1337, r'Score: T_c in \\(\\d\\.\\d+, (\\d\\.\\d+)\\)')/L(1337, r'lost on cooling at T_c (\\d\\.\\d+) by a Y split') - 1)]) <= 0.53 else -1",
+  "why": "upper bound over the five DA events counting the independent brackets; the largest bracket end is +0.5214 % (K 8, Amendment 1320)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "1.31",
+  "context": "$d = 4$ within $1.31",
+  "expr": "1.31 if 100*max([abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+2 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+2 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+3 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+3 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+5 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+5 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+6 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+6 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+7 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+7 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+8 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+8 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+9 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+9 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+10 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+10 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+11 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+11 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+12 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+12 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+13 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+13 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+14 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+14 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+15 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+15 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+16 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+16 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+17 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+17 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+18 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+18 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1)]) <= 1.31 else -1",
+  "why": "upper bound over the NPMLE d = 4 events of q872_npmle_d4.log; largest |shift/quadratic - 1| is 1.3047 % (K_eff 2)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.0048",
+  "context": "missed by $0.0048$",
+  "expr": "abs(L(1572, r'd 2 e1 (\\d\\.\\d+) \\(= the record') - L(1573, r'exact\\s+midpoints (\\d\\.\\d+) and'))",
+  "why": "2D e1 1.53499461 against the 1D midpoint 1.53019517 (Amendments 1572, 1573)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.00012",
+  "context": "(after the fact), $0.00012",
+  "expr": "abs(L(1573, r'2D e3 rebirth \\(midpoint\\)\\s+(\\d\\.\\d+)') - L(1573, r'exact\\s+midpoints \\d\\.\\d+ and (\\d\\.\\d+)'))",
+  "why": "2D e3 3.32182818 against the 1D midpoint 3.32195167 (Amendment 1573)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "1.4\\times 10^{-10}",
+  "context": "(18 and 20 atoms to $1.4\\times 10^{-10}$ on the mixed curve)",
+  "expr": "1.4e-10 if abs(L(1462, r'\\| 1\\.4016 \\(K 18; K 20\\) \\| ([-+][\\d.e-]+);') - L(1462, r'\\| 1\\.4016 \\(K 18; K 20\\) \\| [-+][\\d.e-]+; ([-+][\\d.e-]+)')) <= 1.4e-10 else -1",
+  "why": "upper bound: centre excess of the K 18 and K 20 rings at rm 1.4016 differs by 1.336e-10 (Amendment 1462)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "30",
+  "context": "about 30 wide in $K$ (16 ring sizes each)",
+  "expr": "((L(1369, r'\\+1 for \\d+-(\\d+), -1 for 214') - L(1369, r'\\+1 for (\\d+)-\\d+, -1 for 214')) + (L(1369, r'-1 for \\d+-(\\d+), \\+1 for 246') - L(1369, r'-1 for (\\d+)-\\d+, \\+1 for 246')) + (L(1369, r'\\+1 for \\d+-(\\d+), -1 for 278') - L(1369, r'\\+1 for (\\d+)-\\d+, -1 for 278')) + (L(1369, r'-1 for \\d+-(\\d+), \\+1 from 310') - L(1369, r'-1 for (\\d+)-\\d+, \\+1 from 310')))/4",
+  "why": "mean span in K of the four complete phase runs of Amendment 1369 (182-212, 214-244, 246-276, 278-308)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "16",
+  "context": "about 30 wide in $K$ (16 ring sizes each)",
+  "expr": "(L(1369, r'\\+1 for \\d+-(\\d+), -1 for 214') - L(1369, r'\\+1 for (\\d+)-\\d+, -1 for 214')) / 2 + 1",
+  "why": "even ring sizes in the run 182-212 of Amendment 1369"
+ }
+]

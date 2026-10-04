@@ -1,0 +1,282 @@
+[
+ {
+  "paper": "paper1",
+  "printed": "fourteen",
+  "context": "Of fourteen capacity events registered in advance",
+  "expr": "sum([L(1350, r'\\+0\\.0040 % to \\+(0\\.0054) %') <= 1, L(1350, r'\\+0\\.0131 % to \\+(0\\.0145) %') <= 1, L(1413, r'\\+0\\.0118 \\.\\. \\+(0\\.0121) %') <= 0.5, L(1428, r'\\+0\\.0055 % to \\+(0\\.0106) %') <= 0.5, L(1328, r'\\| copying ring \\(1302\\) \\| 0\\.134287189 \\| \\+(0\\.03004) %') <= 1, L(1374, r'copying \\(1302\\) \\+(0\\.2777) %') <= 1, L(1373, r'\\| copying ring \\(q795\\) \\| 0\\.100908111 \\| \\+(0\\.109) %') <= 1, L(1385, r'\\| 22 -> 24 \\| \\(0\\.0872266, 0\\.0872344\\) \\| 0\\.086631 \\| \\+0\\.69 % \\| 0\\.087130 \\| \\+(0\\.12) %') <= 3, L(1385, r'\\| 0\\.074900 \\| \\+0\\.07 \\.\\. \\+(0\\.13) %') <= 3, L(1385, r'\\| 26 -> 28 \\| \\(0\\.0653262, 0\\.0653320\\) \\| 0\\.064977 \\| \\+0\\.54 % \\| 0\\.065283 \\| \\+(0\\.07) %') <= 3, L(1356, r'\\+0\\.00944 % \\.\\. \\+(0\\.00945) %') <= 0.02, L(1360, r'\\+0\\.00711 % \\.\\. \\+(0\\.00713) %') <= 0.02, L(1372, r'\\+0\\.00547 % \\.\\. \\+(0\\.00548) %') <= 0.02, L(1399, r'obs/pred - 1 =\\s+\\+(0\\.0043) %') <= 0.02])",
+  "why": "count of the 14 registered capacity ring losses whose score lies inside its registered band (1350, 1413, 1428, 1328, 1374, 1373, 1385, 1356, 1360, 1372, 1399)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "fourteen",
+  "context": "and all fourteen",
+  "expr": "sum([L(1350, r'\\+0\\.0040 % to \\+(0\\.0054) %') <= 1, L(1350, r'\\+0\\.0131 % to \\+(0\\.0145) %') <= 1, L(1413, r'\\+0\\.0118 \\.\\. \\+(0\\.0121) %') <= 0.5, L(1428, r'\\+0\\.0055 % to \\+(0\\.0106) %') <= 0.5, L(1328, r'\\| copying ring \\(1302\\) \\| 0\\.134287189 \\| \\+(0\\.03004) %') <= 1, L(1374, r'copying \\(1302\\) \\+(0\\.2777) %') <= 1, L(1373, r'\\| copying ring \\(q795\\) \\| 0\\.100908111 \\| \\+(0\\.109) %') <= 1, L(1385, r'\\| 22 -> 24 \\| \\(0\\.0872266, 0\\.0872344\\) \\| 0\\.086631 \\| \\+0\\.69 % \\| 0\\.087130 \\| \\+(0\\.12) %') <= 3, L(1385, r'\\| 0\\.074900 \\| \\+0\\.07 \\.\\. \\+(0\\.13) %') <= 3, L(1385, r'\\| 26 -> 28 \\| \\(0\\.0653262, 0\\.0653320\\) \\| 0\\.064977 \\| \\+0\\.54 % \\| 0\\.065283 \\| \\+(0\\.07) %') <= 3, L(1356, r'\\+0\\.00944 % \\.\\. \\+(0\\.00945) %') <= 0.02, L(1360, r'\\+0\\.00711 % \\.\\. \\+(0\\.00713) %') <= 0.02, L(1372, r'\\+0\\.00547 % \\.\\. \\+(0\\.00548) %') <= 0.02, L(1399, r'obs/pred - 1 =\\s+\\+(0\\.0043) %') <= 0.02])",
+  "why": "count of the 14 registered capacity ring losses whose score lies inside its registered band (1350, 1413, 1428, 1328, 1374, 1373, 1385, 1356, 1360, 1372, 1399)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "twenty",
+  "context": "problems, twenty fell within",
+  "expr": "sum([L(1350, r'\\+0\\.0040 % to \\+(0\\.0054) %') <= 0.61, L(1350, r'\\+0\\.0131 % to \\+(0\\.0145) %') <= 0.61, L(1413, r'\\+0\\.0118 \\.\\. \\+(0\\.0121) %') <= 0.61, L(1428, r'\\+0\\.0055 % to \\+(0\\.0106) %') <= 0.61, L(1328, r'\\| copying ring \\(1302\\) \\| 0\\.134287189 \\| \\+(0\\.03004) %') <= 0.61, L(1374, r'copying \\(1302\\) \\+(0\\.2777) %') <= 0.61, L(1373, r'\\| copying ring \\(q795\\) \\| 0\\.100908111 \\| \\+(0\\.109) %') <= 0.61, L(1385, r'\\| 22 -> 24 \\| \\(0\\.0872266, 0\\.0872344\\) \\| 0\\.086631 \\| \\+0\\.69 % \\| 0\\.087130 \\| \\+(0\\.12) %') <= 0.61, L(1385, r'\\| 0\\.074900 \\| \\+0\\.07 \\.\\. \\+(0\\.13) %') <= 0.61, L(1385, r'\\| 26 -> 28 \\| \\(0\\.0653262, 0\\.0653320\\) \\| 0\\.064977 \\| \\+0\\.54 % \\| 0\\.065283 \\| \\+(0\\.07) %') <= 0.61, L(1323, r'\\+0\\.2171 % to \\+(0\\.2174) %') <= 0.61, L(1325, r'\\+0\\.0191 % to \\+(0\\.0195) %') <= 0.61, L(1327, r'obs/pred - 1 = \\+(0\\.609) %') <= 0.61, L(1340, r'\\| copying ring \\(1300\\) \\| 0\\.138306596 \\| \\+(0\\.0763) %') <= 0.61, L(1359, r'\\| copying ring \\(1300\\) \\| 0\\.124499331 \\| \\+(0\\.0565) %') <= 0.61, L(1337, r'K 8 \\+(0\\.37) %') <= 0.61, L(1337, r'K 10 \\+(0\\.36) %') <= 0.61, L(1337, r'K 12 \\+(0\\.18) %') <= 0.61, L(1337, r'K 14 \\+(0\\.31) %') <= 0.61, L(1337, r'K 16 \\+0\\.007\\.\\.\\+(0\\.039) %') <= 0.61, L(1356, r'\\| Szego \\(copying\\) form alone \\(1348\\) \\| 0\\.94085 \\| \\+(1\\.175) %') <= 0.61])",
+  "why": "count of registered events whose rule-alone score is within 0.61 %: the 10 capacity events with form S (rp <= 1.2), the 10 NPMLE, LFP and annealing events, and the rp 3 18-ring rule-alone miss +1.175 % (1356), which is outside"
+ },
+ {
+  "paper": "paper1",
+  "printed": "twenty-four",
+  "context": "f twenty-four changes predicted in advance",
+  "expr": "sum([L(1350, r'\\+0\\.0040 % to \\+(0\\.0054) %') <= 1, L(1350, r'\\+0\\.0131 % to \\+(0\\.0145) %') <= 1, L(1413, r'\\+0\\.0118 \\.\\. \\+(0\\.0121) %') <= 0.5, L(1428, r'\\+0\\.0055 % to \\+(0\\.0106) %') <= 0.5, L(1328, r'\\| copying ring \\(1302\\) \\| 0\\.134287189 \\| \\+(0\\.03004) %') <= 1, L(1374, r'copying \\(1302\\) \\+(0\\.2777) %') <= 1, L(1373, r'\\| copying ring \\(q795\\) \\| 0\\.100908111 \\| \\+(0\\.109) %') <= 1, L(1385, r'\\| 22 -> 24 \\| \\(0\\.0872266, 0\\.0872344\\) \\| 0\\.086631 \\| \\+0\\.69 % \\| 0\\.087130 \\| \\+(0\\.12) %') <= 3, L(1385, r'\\| 0\\.074900 \\| \\+0\\.07 \\.\\. \\+(0\\.13) %') <= 3, L(1385, r'\\| 26 -> 28 \\| \\(0\\.0653262, 0\\.0653320\\) \\| 0\\.064977 \\| \\+0\\.54 % \\| 0\\.065283 \\| \\+(0\\.07) %') <= 3, L(1356, r'\\+0\\.00944 % \\.\\. \\+(0\\.00945) %') <= 0.02, L(1360, r'\\+0\\.00711 % \\.\\. \\+(0\\.00713) %') <= 0.02, L(1372, r'\\+0\\.00547 % \\.\\. \\+(0\\.00548) %') <= 0.02, L(1399, r'obs/pred - 1 =\\s+\\+(0\\.0043) %') <= 0.02, L(1323, r'\\+0\\.2171 % to \\+(0\\.2174) %') <= 1, L(1325, r'\\+0\\.0191 % to \\+(0\\.0195) %') <= 1, L(1327, r'obs/pred - 1 = \\+(0\\.609) %') <= 1, L(1340, r'\\| copying ring \\(1300\\) \\| 0\\.138306596 \\| \\+(0\\.0763) %') <= 1, L(1359, r'\\| copying ring \\(1300\\) \\| 0\\.124499331 \\| \\+(0\\.0565) %') <= 1, L(1337, r'K 8 \\+(0\\.37) %') <= 1, L(1337, r'K 10 \\+(0\\.36) %') <= 1, L(1337, r'K 12 \\+(0\\.18) %') <= 1, L(1337, r'K 14 \\+(0\\.31) %') <= 1, L(1337, r'K 16 \\+0\\.007\\.\\.\\+(0\\.039) %') <= 1])",
+  "why": "count of registered ring losses whose scored obs/pred - 1 lies inside its registered band: 14 capacity (1350, 1413, 1428, 1328, 1374, 1373, 1385, 1356, 1360, 1372, 1399) and 10 in the NPMLE, LFP and annealing (1323, 1325, 1327, 1340, 1359, 1337)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "24",
+  "context": "conjecture; 24 of 24 registered events in band",
+  "expr": "sum([L(1350, r'\\+0\\.0040 % to \\+(0\\.0054) %') <= 1, L(1350, r'\\+0\\.0131 % to \\+(0\\.0145) %') <= 1, L(1413, r'\\+0\\.0118 \\.\\. \\+(0\\.0121) %') <= 0.5, L(1428, r'\\+0\\.0055 % to \\+(0\\.0106) %') <= 0.5, L(1328, r'\\| copying ring \\(1302\\) \\| 0\\.134287189 \\| \\+(0\\.03004) %') <= 1, L(1374, r'copying \\(1302\\) \\+(0\\.2777) %') <= 1, L(1373, r'\\| copying ring \\(q795\\) \\| 0\\.100908111 \\| \\+(0\\.109) %') <= 1, L(1385, r'\\| 22 -> 24 \\| \\(0\\.0872266, 0\\.0872344\\) \\| 0\\.086631 \\| \\+0\\.69 % \\| 0\\.087130 \\| \\+(0\\.12) %') <= 3, L(1385, r'\\| 0\\.074900 \\| \\+0\\.07 \\.\\. \\+(0\\.13) %') <= 3, L(1385, r'\\| 26 -> 28 \\| \\(0\\.0653262, 0\\.0653320\\) \\| 0\\.064977 \\| \\+0\\.54 % \\| 0\\.065283 \\| \\+(0\\.07) %') <= 3, L(1356, r'\\+0\\.00944 % \\.\\. \\+(0\\.00945) %') <= 0.02, L(1360, r'\\+0\\.00711 % \\.\\. \\+(0\\.00713) %') <= 0.02, L(1372, r'\\+0\\.00547 % \\.\\. \\+(0\\.00548) %') <= 0.02, L(1399, r'obs/pred - 1 =\\s+\\+(0\\.0043) %') <= 0.02, L(1323, r'\\+0\\.2171 % to \\+(0\\.2174) %') <= 1, L(1325, r'\\+0\\.0191 % to \\+(0\\.0195) %') <= 1, L(1327, r'obs/pred - 1 = \\+(0\\.609) %') <= 1, L(1340, r'\\| copying ring \\(1300\\) \\| 0\\.138306596 \\| \\+(0\\.0763) %') <= 1, L(1359, r'\\| copying ring \\(1300\\) \\| 0\\.124499331 \\| \\+(0\\.0565) %') <= 1, L(1337, r'K 8 \\+(0\\.37) %') <= 1, L(1337, r'K 10 \\+(0\\.36) %') <= 1, L(1337, r'K 12 \\+(0\\.18) %') <= 1, L(1337, r'K 14 \\+(0\\.31) %') <= 1, L(1337, r'K 16 \\+0\\.007\\.\\.\\+(0\\.039) %') <= 1])",
+  "why": "count of registered ring losses whose scored obs/pred - 1 lies inside its registered band: 14 capacity (1350, 1413, 1428, 1328, 1374, 1373, 1385, 1356, 1360, 1372, 1399) and 10 in the NPMLE, LFP and annealing (1323, 1325, 1327, 1340, 1359, 1337)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "2.7",
+  "context": "strip up to $2.7",
+  "expr": "100*(L(1597, r'and (3\\.4368) \\(7\\.72\\)')/L(1590, r'below delta = (3\\.34776)') - 1)",
+  "why": "largest LFP strip excess over the 1D delta, relative: 5D maximum offset 3.4368 at m 7.72 (1590, 1597) against delta 3.34776"
+ },
+ {
+  "paper": "paper1",
+  "printed": "2.7",
+  "context": "by up to $2.7",
+  "expr": "100*(L(1597, r'and (3\\.4368) \\(7\\.72\\)')/L(1590, r'below delta = (3\\.34776)') - 1)",
+  "why": "largest LFP strip excess over the 1D delta, relative: 5D maximum offset 3.4368 at m 7.72 (1590, 1597) against delta 3.34776"
+ },
+ {
+  "paper": "paper1",
+  "printed": "3.5\\times 10^{-6}",
+  "context": "four of them within $3.5",
+  "expr": "max(L(1323, r'\\+0\\.00005 % to \\+(0\\.00035) %')/100, L(1325, r'\\| -(0\\.0003) % to \\+0\\.0001 %')/100, L(1340, r'\\((1\\.2e-8) relative\\)'), L(1359, r'-0\\.0000024 % \\.\\. \\+(0\\.0000466) %')/100)",
+  "why": "largest relative LR miss of the four registered LR events: NPMLE K 14 +0.00035 % (1323), K 16 0.0003 % (1325), LFP K 14 1.2e-8 (1340), K 16 0.0000466 % (1359)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "3.5\\times 10^{-6}",
+  "context": "linear-response correction was registered lay within",
+  "expr": "max(L(1323, r'\\+0\\.00005 % to \\+(0\\.00035) %')/100, L(1325, r'\\| -(0\\.0003) % to \\+0\\.0001 %')/100, L(1340, r'\\((1\\.2e-8) relative\\)'), L(1359, r'-0\\.0000024 % \\.\\. \\+(0\\.0000466) %')/100)",
+  "why": "largest relative LR miss of the four registered LR events (1323, 1325, 1340, 1359), percent converted to a fraction"
+ },
+ {
+  "paper": "paper1",
+  "printed": "3.5\\times 10^{-6}",
+  "context": "NPMLE, 14 & Y birth",
+  "expr": "L(1323, r'\\+0\\.00005 % to \\+(0\\.00035) %')/100",
+  "why": "NPMLE K 14 LR score +0.00005 % to +0.00035 % (1323), upper end as a fraction"
+ },
+ {
+  "paper": "paper1",
+  "printed": "3\\times 10^{-6}",
+  "context": "NPMLE, 16 & X split",
+  "expr": "L(1325, r'\\| -(0\\.0003) % to \\+0\\.0001 %')/100",
+  "why": "NPMLE K 16 LR score -0.0003 % to +0.0001 % (1325), largest magnitude as a fraction"
+ },
+ {
+  "paper": "paper1",
+  "printed": "9.4\\times 10^{-5}",
+  "context": "between $10^{-7}$ and $9.4",
+  "expr": "L(1356, r'zero at eps (0\\.9519100801)')/L(1356, r'Szego loss \\+ LR offset \\(1349\\) \\| (0\\.9518201483)') - 1",
+  "why": "largest LR miss of the six capacity LR events: rp 3 18-ring observed 0.9519100801 / registered 0.9518201483 - 1 (1356)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.0310",
+  "context": "$\\epsilon = 0.0310$ and $0.0308$",
+  "expr": "J('temporal_within/agents/G_work/e36/S_copy_rm0.9690_p448.json', 'rp') - J('temporal_within/agents/G_work/e36/S_copy_rm0.9690_p448.json', 'rm')",
+  "why": "eps = rp - rm of the valid 448-bit 36-ring state at rm 0.9690 (solve_copy_0.9690_p448.log)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "1.22",
+  "context": "$K\\epsilon = 1.15$",
+  "expr": "30*L(1305, r'\\| 30 \\| vertex \\(X \\+ 7G\\) \\| (0\\.0408032574)')",
+  "why": "K eps at K 30 from the K/2-truncation loss point 0.0408032574 (1305)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.61",
+  "context": "a local exponent $d\\ln K/d\\ln(1/\\epsilon)",
+  "expr": "log(42/34)/log(L(1376, r'\\| (0\\.0342693) \\| 0\\.0307639')/L(1376, r'\\| 0\\.0259835 \\| (0\\.0241900) \\|'))",
+  "why": "local exponent between K 34 and K 42 in the K/2 convention (loss points 0.0342693, 0.0241900; 1376)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.59",
+  "context": "From $K = 38$ to $320$",
+  "expr": "log(320/38)/log(L(1376, r'\\| 0\\.0307639 \\| (0\\.0281235) \\|')/L(1369, r'\\| 0\\.001003 \\| (0\\.000779) \\|'))",
+  "why": "exponent between K 38 (0.0281235, 1376) and K 320 (0.000779, 1369)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.6",
+  "context": "(exponent $0.6$)",
+  "expr": "log(42/34)/log(L(1376, r'\\| (0\\.0342693) \\| 0\\.0307639')/L(1376, r'\\| 0\\.0259835 \\| (0\\.0241900) \\|'))",
+  "why": "local exponent past the first lobe, K 34-42 (1376), to one decimal"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.563588",
+  "context": "nats ($0.563588$ bits)",
+  "expr": "L(1335, r'C = (0\\.3906492301481608)')/log(2)",
+  "why": "certified capacity C (1335) converted from nats to bits"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.3906492301481604",
+  "context": "this gives $0.3906492301481604",
+  "expr": "(math.floor((L(1410, r'= (0\\.39064923014816047684) \\+- 2\\.7e-21') - 0.39)*1e16) + 39*10**14)/1e16",
+  "why": "lower end of the sandwich, I = 0.39064923014816047684 +- 2.7e-21 (1410), rounded outward (down) to 16 decimals; 0.39 is split off so that float64 resolves the 16th decimal"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.4",
+  "context": "lost below the predicted point by $0.4",
+  "expr": "100*L(1477, r'E - 1 = \\+(4\\.17e-3)')",
+  "why": "LFP pair miss in the eccentric harmonic, E - 1 = +4.17e-3 (1477), in per cent"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.9",
+  "context": "lost below the predicted point by $0.4",
+  "expr": "100*L(1477, r'\\+(8\\.72e-3) \\(rd')",
+  "why": "NPMLE (rd) pair miss in the eccentric harmonic, E - 1 = +8.72e-3 (1477), in per cent"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.831",
+  "context": "$\\pi(1 + 2k) = -0.831$",
+  "expr": "math.pi*(1 + 2*L(1520, r'k = (-0\\.63226)'))",
+  "why": "pi (1 + 2k) with the 1D strip response k = -0.63226 (1520)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.44",
+  "context": "rises to $0.0148$ at $m = 12.8$",
+  "expr": "100*(L(1610, r'offset (3\\.36257)')/L(1610, r'over delta = (3\\.34776)') - 1)",
+  "why": "2D excess 3.36257 - 3.34776 at m 12.838 relative to delta (1610), in per cent"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.0890",
+  "context": "$0.0890$ near $7.7$",
+  "expr": "L(1597, r'and (3\\.4368) \\(7\\.72\\)') - L(1590, r'below delta = (3\\.34776)')",
+  "why": "5D maximum offset 3.4368 at m 7.72 (1597, 1590) minus the 1D delta 3.34776"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.242",
+  "context": "height $\\varphi(1) = 0.242$",
+  "expr": "exp(-0.5)/sqrt(2*math.pi)",
+  "why": "phi(1), the standard normal density at 1"
+ },
+ {
+  "paper": "paper1",
+  "printed": "10^{-109}",
+  "context": "10^{-109}$. For the curve step",
+  "expr": "10**math.floor(math.log10(L(1335, r'quadrature bound (1\\.6e-109)')))",
+  "why": "the line break splits 1.6\\times 10^{-109}; this token is the power of ten of the quadrature bound 1.6e-109 (1335)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "1.6",
+  "context": "576-bit precision, total bound on $D_\\pi$ of $1.6",
+  "expr": "L(1335, r'quadrature bound (1\\.6)e-109')",
+  "why": "the line break splits 1.6\\times 10^{-109}; this token is the mantissa of the quadrature bound 1.6e-109 (1335)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "1.12760361456",
+  "context": "[-1.12760361457, -1.12760361456]",
+  "expr": "-J('temporal_within/agents/F_work/ring32_R2fix_cert.json', 'vertex', 1)*1e50",
+  "why": "upper end of the certified enclosure of D - C at (rp, 0) in units of 1e-50 (ring32_R2fix_cert.json)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "6.2\\times 10^{-4}",
+  "context": "and $6.2\\times 10^{-4}$ at $j = 10$",
+  "expr": "L(1283, r'0\\.352374, 0\\.491137, (0\\.859105); j = 12') - L(1283, r'0\\.352378, 0\\.491135, (0\\.858484) \\(j 2-10\\)')",
+  "why": "rp 1.3 K 12 ring: |b_10 - c_10| = 0.859105 - 0.858484 (1283)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "9.19\\times 10^{-4}",
+  "context": "$h_{K - 2} = -9.19",
+  "expr": "J('temporal_within/agents/B_out/cc13K10_M5_e0.20724.json', 'c', 3) - L(1283, r'b 0\\.331127, 0\\.451148, 0\\.561937, (0\\.914573) \\(j 2-8\\)')",
+  "why": "solved rp 1.3 K 10 ring b_8 0.914573 (1283) minus c_8 of the K/2 formal density (agents/B_out/cc13K10_M5_e0.20724.json), as in B_copycheck"
+ },
+ {
+  "paper": "paper1",
+  "printed": "6.21\\times 10^{-4}",
+  "context": "$h_{K - 2} = -9.19",
+  "expr": "J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 4) - L(1283, r'0\\.352378, 0\\.491135, (0\\.858484) \\(j 2-10\\)')",
+  "why": "solved rp 1.3 K 12 ring b_10 0.858484 (1283) minus c_10 of the K/2 formal density (agents/B_out/cc13K12_M6_e0.182742.json)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "0.006",
+  "context": "$+0.004$ to $+0.006",
+  "expr": "math.ceil(L(1350, r'\\+0\\.0040 % to \\+(0\\.0054) %')*1000)/1000",
+  "why": "30-ring score +0.0040 % to +0.0054 % (1350); the table rounds score intervals outward, so the upper end 0.0054 prints as 0.006"
+ },
+ {
+  "paper": "paper1",
+  "printed": "2.6",
+  "context": "shape term & $2.6",
+  "expr": "100*(L(1513, r'Delta\\(2\\.5\\) = (0\\.060542)') - L(1513, r'registered (0\\.060508)'))/(L(1513, r'registered (0\\.060508)') - L(1513, r'alternative (0\\.059221)'))",
+  "why": "p 2.5: offset 0.060542 - 0.060508 over the shape signal 0.060508 - 0.059221 (registered minus area-only, 1513)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "1.0",
+  "context": "shape term & $2.6",
+  "expr": "100*(L(1514, r'= (0\\.098570);') - L(1514, r'registered (0\\.098533)'))/(L(1514, r'registered (0\\.098533)') - L(1514, r'alternative (0\\.094966)'))",
+  "why": "p 3: offset 0.098570 - 0.098533 over the shape signal 0.098533 - 0.094966 (registered minus area-only, 1514)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "1.12760361458",
+  "context": "[-1.12760361458, -1.12760361456]",
+  "expr": "math.ceil(-J('temporal_within/agents/F_work/ring32_R2fix_cert.json', 'vertex', 0) * 1e50 * 1e11) / 1e11",
+  "why": "lower end of the certified enclosure of D - C at (rp, 0), rounded outward to 11 digits (ring32_R2fix_cert.json)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "2.3",
+  "context": "misses of $+8.1$, $+4.8$, $+3.3$, $+2.3$",
+  "expr": "(T('temporal_within/agents/B_out/b2_gap2d_G_c3b_states.jsonl.log', r'eps (1\\.1488\\d*) K 12') / 1.1226 - 1) * 100",
+  "why": "rp 3, K 12: solved loss eps 1.1488852 (solver log) over the Szego-form loss eps 1.1226 (agent G's interpolation of alpha_11, agents/G_family.md; that input is from a secondary note); +2.34 %"
+ },
+ {
+  "paper": "paper1",
+  "printed": "1.8",
+  "context": "$+2.3$, $+1.8$ and $+1.4",
+  "expr": "(T('temporal_within/agents/B_out/b2_gap2d_G_c3c_states.jsonl.log', r'eps (1\\.0695\\d*) K 14') / 1.0511 - 1) * 100",
+  "why": "rp 3, K 14: solved loss eps 1.0695439 (solver log) over the Szego-form loss eps 1.0511 (agent G's interpolation; secondary input); +1.755 %"
+ },
+ {
+  "paper": "paper1",
+  "printed": "1.12760361456",
+  "context": "[-1.12760361458, -1.12760361456]",
+  "expr": "math.floor(-J('temporal_within/agents/F_work/ring32_R2fix_cert.json', 'vertex', 1) * 1e50 * 1e11) / 1e11",
+  "why": "upper end of the certified enclosure of D - C at (rp, 0), rounded outward to 11 digits (ring32_R2fix_cert.json)"
+ },
+ {
+  "paper": "paper1",
+  "printed": "48",
+  "context": "give 48 base intervals, 38 free and",
+  "expr": "T('temporal_within/agents/F_work/ring32_R2fix_cert.log', r'intervals (\\d+) free') + T('temporal_within/agents/F_work/ring32_R2fix_cert.log', r'free \\+ (\\d+) atom zones')",
+  "why": "the certificate log prints 'intervals 38 free + 10 atom zones'"
+ },
+ {
+  "paper": "paper1",
+  "printed": "10^{-7}",
+  "context": "10^{-7}\\max_k|YF(\\hat v)|_k",
+  "expr": "T('temporal_within/agents/F_ring32_cert.py', r'fac = (\\d+\\.\\d+)') * T('temporal_within/agents/F_ring32_cert.py', r'max\\(YF\\)\\*(1e-8)')",
+  "why": "first Krawczyk radius r = max(fac*|YF_i|, fac*max(YF)*1e-8) with fac = 10 in F_ring32_cert.py"
+ }
+]

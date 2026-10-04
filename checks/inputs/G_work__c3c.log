@@ -1,0 +1,5 @@
+G_cont rp 3.0: rm 1.8664062786 -> 2.95, step 0.004; TOLV 1e-13 TOLC 1e-12 BTOL 1e-06; grid 832 per axis [0s]
+start rm 1.8664062786: X3G K 14, residual 8.88e-16, ok True None [2s]
+EVENT X3G (K 14) lost in rm (1.930456083, 1.930457060); first violation: birth; birth max +2.929e-13 at 90.000 deg; valid end: birthval +6.00e-14, d2max -1.37e-08 [102s]
+   -> Y birth at t=pi/2: XY3G K 16 valid at rm 1.9305570598499997 (variant 2) [177s]
+EVENT XY3G (K 16) lost in rm (1.994168388, 1.994169365); first violation: split; d2 Y +1.297e-12; valid end: birthval -4.44e-16, d2max +2.75e-14 [381s]

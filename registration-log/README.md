@@ -11,7 +11,7 @@ names the prediction it scores. Nothing in the log was rewritten afterwards; cor
 - A prediction entry says **PRE-REGISTERED** (or **REGISTERED**) and gives the predicted value and its band. **Blind** means the
   optimum did not exist yet when the prediction was written.
 - A result entry quotes the prediction's number and gives the verdict: **PASS**, **FAIL**, or a third outcome stated in advance.
-  Failures stay in the log; Table IX of the paper lists those that matter for its claims.
+  Failures stay in the log; Table VIII of the paper lists those that matter for its claims.
 - `M` and `B` after a failure mean that it was traced to the mathematics (`M`) or to a bug in code, grid or precision (`B`), with
   the evidence given in the entry.
 

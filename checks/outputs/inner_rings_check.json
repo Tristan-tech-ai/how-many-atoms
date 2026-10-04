@@ -1,0 +1,250 @@
+{
+ "rows": [
+  {
+   "problem": "capacity",
+   "ring": "pair",
+   "lo": "3.39615",
+   "hi": "3.39695",
+   "observed": "3.39656",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "capacity",
+   "ring": "quartet",
+   "lo": "3.43054",
+   "hi": "3.43134",
+   "observed": "3.43094",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "capacity",
+   "ring": "pair",
+   "lo": "3.31403",
+   "hi": "3.32113",
+   "observed": "3.31902",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "capacity",
+   "ring": "quartet",
+   "lo": "3.50003",
+   "hi": "3.50386",
+   "observed": "3.50338",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "capacity",
+   "ring": "pair",
+   "lo": "3.29308",
+   "hi": "3.29428",
+   "observed": "3.29254",
+   "printed": "FAIL",
+   "recomputed": "FAIL",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "capacity",
+   "ring": "quartet",
+   "lo": "3.52424",
+   "hi": "3.52616",
+   "observed": "3.52568",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "capacity",
+   "ring": "pair",
+   "lo": "3.38143",
+   "hi": "3.38243",
+   "observed": "3.381956",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "capacity",
+   "ring": "quartet",
+   "lo": "3.44158",
+   "hi": "3.44269",
+   "observed": "3.442136",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "LFP",
+   "ring": "pair",
+   "lo": "2.27253",
+   "hi": "2.27333",
+   "observed": "2.272753",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "LFP",
+   "ring": "quartet",
+   "lo": "2.32039",
+   "hi": "2.32139",
+   "observed": "2.320752",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "LFP",
+   "ring": "pair",
+   "lo": "2.27134",
+   "hi": "2.27234",
+   "observed": "2.271647",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "LFP",
+   "ring": "quartet",
+   "lo": "2.32083",
+   "hi": "2.32192",
+   "observed": "2.321326",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "LFP",
+   "ring": "pair",
+   "lo": "2.24645",
+   "hi": "2.24745",
+   "observed": "2.246310",
+   "printed": "FAIL",
+   "recomputed": "FAIL",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "NPMLE",
+   "ring": "pair",
+   "lo": "2.53389",
+   "hi": "2.53489",
+   "observed": "2.534208",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "NPMLE",
+   "ring": "quartet",
+   "lo": "2.60478",
+   "hi": "2.60621",
+   "observed": "2.605352",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "NPMLE",
+   "ring": "pair",
+   "lo": "2.53134",
+   "hi": "2.53234",
+   "observed": "2.531636",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "NPMLE",
+   "ring": "quartet",
+   "lo": "2.60374",
+   "hi": "2.60517",
+   "observed": "2.604292",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "NPMLE",
+   "ring": "pair",
+   "lo": "2.53262",
+   "hi": "2.53362",
+   "observed": "2.532921",
+   "printed": "PASS",
+   "recomputed": "PASS",
+   "agrees": true,
+   "numbers_in_log": true
+  },
+  {
+   "problem": "NPMLE",
+   "ring": "pair",
+   "lo": "2.49899",
+   "hi": "2.49999",
+   "observed": "2.498436",
+   "printed": "FAIL",
+   "recomputed": "FAIL",
+   "agrees": true,
+   "numbers_in_log": true
+  }
+ ],
+ "registered": 19,
+ "passed": 16,
+ "all_verdicts_agree": true,
+ "all_numbers_in_log": true,
+ "counts": {
+  "capacity": {
+   "pair": [
+    3,
+    4
+   ],
+   "quartet": [
+    4,
+    4
+   ]
+  },
+  "LFP": {
+   "pair": [
+    2,
+    3
+   ],
+   "quartet": [
+    2,
+    2
+   ]
+  },
+  "NPMLE": {
+   "pair": [
+    3,
+    4
+   ],
+   "quartet": [
+    2,
+    2
+   ]
+  }
+ },
+ "failed": 3
+}

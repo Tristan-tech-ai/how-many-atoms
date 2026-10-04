@@ -1,0 +1,6 @@
+G_cont rp 3.0: rm 0.005 -> 2.95, step 0.02; TOLV 1e-11 TOLC 1e-10 BTOL 1e-06; grid 832 per axis [0s]
+start rm 0.005: X1G K 6, residual 3.80e-16, ok True None [0s]
+EVENT X1G (K 6) lost in rm (1.269818115, 1.269818726); first violation: birth; birth max +7.035e-10 at 90.000 deg; valid end: birthval -8.94e-09, d2max -1.56e-02 [96s]
+   -> Y birth at t=pi/2: XY1G K 8 valid at rm 1.2699187255859383 (variant 0) [98s]
+EVENT XY1G (K 8) lost in rm (1.580048730, 1.580049341); first violation: split; d2 Y +1.325e-08; valid end: birthval -1.00e+00, d2max -4.79e-08 [166s]
+   -> Y split at t=pi/2: X2G K 10 valid at rm 1.5801493408203129 (variant 0) [170s]
