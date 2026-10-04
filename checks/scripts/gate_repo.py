@@ -115,7 +115,14 @@ def main():
             a, b = os.path.join(REPOS[p], rp), os.path.join(TW, lp)
             same = os.path.exists(a) and os.path.exists(b) and open(a, "rb").read() == open(b, "rb").read()
             newer = os.path.exists(b) and os.path.getmtime(b) < os.path.getmtime(os.path.join(TW, lp.replace(".pdf", ".tex")))
-            rows.append((p, rp, "SAME" if same else "DIFFERENT", "tex newer than pdf" if newer else ""))
+            # the LaTeX log of the build: no error lines and no undefined reference (the published supplement had both
+            # an error and a wrong table number, unseen because nonstop builds still write a PDF)
+            lg = os.path.join(TW, lp.replace(".pdf", ".log"))
+            lt = open(lg, encoding="utf-8", errors="replace").read() if os.path.exists(lg) else ""
+            bad = [l.strip() for l in lt.split("\n") if l.startswith("!") or "undefined" in l or "Rerun to get" in l]
+            note = "; ".join(x for x in ["tex newer than pdf" if newer else "", "LaTeX log: " + bad[0][:80] if bad else "",
+                                         "" if lt else "no LaTeX log"] if x)
+            rows.append((p, rp, "SAME" if same else "DIFFERENT", note))
     fails["R1"] = sum(1 for r in rows if r[2] != "SAME" or r[3])
     rep += ["## R1 paper PDFs", "", "| paper | repo file | vs local build | note |", "|---|---|---|---|"] + [f"| {a} | {b} | {c} | {d} |" for a, b, c, d in rows]
 
