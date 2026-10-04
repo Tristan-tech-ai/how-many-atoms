@@ -23,6 +23,7 @@ Each folder holds the material behind one section of the paper.
 | [`sec7-value-laws/`](sec7-value-laws/) | VII | optimal values on discs, balls, shells and annuli (Table VII, Fig. 4), close walls |
 | [`sec8-center-events/`](sec8-center-events/) | VIII | events at the center of d-balls and the shift law |
 | [`sec9-differences-and-bridges/`](sec9-differences-and-bridges/) | IX | what does not carry over, and the blind test against published rate-distortion and rational-inattention solutions |
+| [`registration-log/`](registration-log/) | all | the append-only log in which every prediction was written before it was tested |
 | [`paper/`](paper/) | | the paper and the full table of inner-ring tests |
 
 Every folder has a `README.md` (what is there and how it maps to the paper) and a `FILES.md` (one line per script: what it does,
@@ -63,7 +64,7 @@ About four minutes on three threads. The last lines should report `Krawczyk ... 
 Only Theorem 1 and Proposition 1 of the paper are proved; the theorem rests on the computer-assisted certificate in
 `sec5-certificate/`. Everything else is numerical, and Table VIII of the paper grades each claim. A prediction called
 *registered* was written into a dated, append-only log before the optimum was computed; the order is asserted by the author from
-file times.
+file times. The log is in [`registration-log/`](registration-log/).
 
 ## License and citation
 
