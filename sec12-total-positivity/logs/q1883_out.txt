@@ -1,0 +1,23 @@
+files 94; verdicts {'PASS': 93, 'FAIL': 1}
+largest tau on the strip boxes 0.186070
+largest tau_A(Y) 4.5076e-91
+largest eps_F 4.1390e-131
+largest eps_J 4.9540e-134
+largest eps_G 1.3769e-31
+largest |K(X) - v0| 3.0477e-116
+smallest mass in a box 6.048029e-04
+initial minors per state from 156 to 1560, 88578 in all
+upper bound of D - C closest to zero -1.1466e-29 (optimal states with a certificate: 91)
+constant: box radius = 1e-110
+constant: zone floor, depth, window, order, box cap = 1e-14, 45, 14.0, 6, 400000
+constant: strip half-width a = 0.5
+constant: end of the computed grid = 40
+constant: tail decay rate = 39
+constant: He bound factor = 720
+constant: far window = 54
+constant: precision of bounds and certificate = 192
+constant: precision of polish and Krawczyk = 600
+constant: precision of minors = 1200
+constant: grid step h (half the step of q206) = 0.01
+P1 held; P2 did not hold
+READING (no verdict): summary of the closed exact-state chain q1882.

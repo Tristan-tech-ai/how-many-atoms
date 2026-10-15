@@ -1,0 +1,15 @@
+K 62: 113 stored OPTIMAL states A 41.7375 to 42.263175; centred triples 111
+K 62 start A 41.74 (even, u_1): entry 0.1523600482; IFT flow 11.0283031511; neighbour FD 10.2969265653; rel diff 0.071 CONTROL FAILED; sum of contributions 11.0283031511; relative rate 72.383169 [120s]
+     block D(u_j)-D(A) : sum     -190.26901, positive part  2.1729098e+12, negative part -2.1729098e+12, largest |c| at index 1 of 30 (-2.17291e+12); signs of b: 1+/29-; signs of x: 29+/1-
+     block D'(u_j)     : sum      201.29731, positive part      201.29731, negative part              0, largest |c| at index 30 of 30 (125.507); signs of b: 15+/0-; signs of x: 0+/30-
+     block norm        : sum            0.0, positive part              0, negative part              0, largest |c| at index 1 of 1 (0.0); signs of b: 0+/0-; signs of x: 0+/1-
+K 62 middle A 41.983175 (even, u_1): entry 0.5016253586; IFT flow 0.265555740801; neighbour FD 0.265620984961; rel diff 0.000246 OK; sum of contributions 0.265555740801; relative rate 0.52939058 [124s]
+     block D(u_j)-D(A) : sum     -4.5374836, positive part   5.3101828e+9, negative part  -5.3101828e+9, largest |c| at index 1 of 30 (-3.62555e+9); signs of b: 1+/29-; signs of x: 28+/2-
+     block D'(u_j)     : sum      4.8030393, positive part      4.8030393, negative part              0, largest |c| at index 30 of 30 (2.99836); signs of b: 15+/0-; signs of x: 0+/30-
+     block norm        : sum            0.0, positive part              0, negative part              0, largest |c| at index 1 of 1 (0.0); signs of b: 0+/0-; signs of x: 0+/1-
+K 62 end A 42.258175 (even, u_1): entry 0.5446095485; IFT flow 0.0993769958004; neighbour FD 0.0993815867757; rel diff 4.62e-5 OK; sum of contributions 0.0993769958004; relative rate 0.18247384 [125s]
+     block D(u_j)-D(A) : sum     -1.6544561, positive part   5.4241113e+8, negative part  -5.4241113e+8, largest |c| at index 1 of 30 (-2.57717e+8); signs of b: 1+/29-; signs of x: 27+/3-
+     block D'(u_j)     : sum      1.7538331, positive part      1.7538331, negative part              0, largest |c| at index 30 of 30 (1.09854); signs of b: 15+/0-; signs of x: 0+/30-
+     block norm        : sum            0.0, positive part              0, negative part              0, largest |c| at index 1 of 1 (0.0); signs of b: 0+/0-; signs of x: 0+/1-
+READING q1387 done 3
+exit 0

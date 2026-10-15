@@ -1,0 +1,26 @@
+READING q1447 (no verdict): six edge terms of the innermost flow, K 83 to 108 n 26
+sign pattern(s): ['---+++'] ; largest control_rel 9.9e-39
+== even K 84 .. 108 n 13
+ normalised by the sum of the three positive terms (mass-type); term -> fit y = L + a K^-p
+  term 0: first -0.00387 last -0.00399 | p=2/3 L=-0.00465 rms=3.0e-08 | p=1 L=-0.00441 rms=4.0e-07 | best p=0.70 L=-0.00462 rms=1.5e-08
+  term 1: first -0.16001 last -0.16269 | p=2/3 L=-0.17739 rms=6.7e-07 | p=1 L=-0.17206 rms=9.0e-06 | best p=0.70 L=-0.17663 rms=3.4e-07
+  term 2: first -0.76128 last -0.76146 | p=2/3 L=-0.76247 rms=4.6e-08 | p=1 L=-0.76211 rms=6.2e-07 | best p=0.70 L=-0.76242 rms=2.4e-08
+  term 3: first +0.01413 last +0.01446 | p=2/3 L=+0.01625 rms=8.2e-08 | p=1 L=+0.01560 rms=1.1e-06 | best p=0.70 L=+0.01616 rms=4.2e-08
+  term 4: first +0.36519 last +0.36869 | p=2/3 L=+0.38788 rms=8.8e-07 | p=1 L=+0.38093 rms=1.2e-05 | best p=0.70 L=+0.38689 rms=4.5e-07
+  term 5: first +0.62068 last +0.61685 | p=2/3 L=+0.59586 rms=9.6e-07 | p=1 L=+0.60347 rms=1.3e-05 | best p=0.70 L=+0.59695 rms=4.9e-07
+  R_e from the six terms: first 1.08089 last 1.07742 | p=2/3 L=1.05836 rms=1.8e-06
+  share of the six position-type terms in N: 0.9767 -> 0.9773; P/flow 18.900 -> 19.838
+  ratios of the position-type terms 1/2 and 0/2: 0.21019 -> 0.21366 | 0.00508 -> 0.00524
+  ratios of the mass-type terms 4/5 and 3/5: 0.58837 -> 0.59770 | 0.02276 -> 0.02344
+== odd K 83 .. 107 n 13
+ normalised by the sum of the three positive terms (mass-type); term -> fit y = L + a K^-p
+  term 0: first -0.00386 last -0.00399 | p=2/3 L=-0.00465 rms=3.3e-08 | p=1 L=-0.00441 rms=4.1e-07 | best p=0.70 L=-0.00461 rms=1.4e-08
+  term 1: first -0.15995 last -0.16266 | p=2/3 L=-0.17738 rms=7.1e-07 | p=1 L=-0.17204 rms=9.2e-06 | best p=0.70 L=-0.17662 rms=3.3e-07
+  term 2: first -0.76411 last -0.76384 | p=2/3 L=-0.76242 rms=6.4e-07 | p=1 L=-0.76294 rms=3.1e-07 | best p=0.90 L=-0.76282 rms=2.9e-08
+  term 3: first +0.01411 last +0.01445 | p=2/3 L=+0.01625 rms=8.9e-08 | p=1 L=+0.01560 rms=1.1e-06 | best p=0.70 L=+0.01616 rms=3.9e-08
+  term 4: first +0.36501 last +0.36857 | p=2/3 L=+0.38788 rms=9.5e-07 | p=1 L=+0.38088 rms=1.2e-05 | best p=0.70 L=+0.38688 rms=4.1e-07
+  term 5: first +0.62088 last +0.61698 | p=2/3 L=+0.59587 rms=1.0e-06 | p=1 L=+0.60353 rms=1.3e-05 | best p=0.70 L=+0.59696 rms=4.5e-07
+  R_e from the six terms: first 1.07769 last 1.07470 | p=2/3 L=1.05853 rms=8.4e-07
+  share of the six position-type terms in N: 0.9741 -> 0.9751; P/flow 21.059 -> 21.824
+  ratios of the position-type terms 1/2 and 0/2: 0.20932 -> 0.21295 | 0.00506 -> 0.00522
+  ratios of the mass-type terms 4/5 and 3/5: 0.58790 -> 0.59738 | 0.02273 -> 0.02341

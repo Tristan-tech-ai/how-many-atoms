@@ -1,0 +1,128 @@
+"""q1690 (10 Oct 2026, REGISTRATION, no verdict word): registration of the Aitken-extrapolated births law (q1689: bulk laws through c24, c26, c28, stored series to order 18, fixed ratio rho_bar = 0.4130) for the missing event K_b 136 and the future events K_b 139..150. The wall pairs of the three laws are refitted (four rounds) on all 55 measured events K_b 83..138. The registration text is written to q1690_prereg_aitken.txt only if no event file for K_b 136 or 139..150 exists in fw_cap_par*, fw_prod; the listing is generated here.
+Predictions:
+ P1 no event file for K_b 136, 139..150 exists;
+ P2 the extrapolated predictions differ from the cell (14, 14) predictions of q1684_prereg_139_150.txt by less than 1e-12 at K_b 139 and by less than 3e-12 at K_b 150;
+ P3 the extrapolation correction a_inf - a14 is negative and smaller in size than 5e-12 at every registered event.
+Bars written to the file: |a_inf - A| < 3e-13 for K_b 136 and 139..145, and < 5e-13 for K_b 146..150 (the later events K_b 131..138 were reproduced to 8.5e-14 in q1689).
+Control: with the pairs refitted on K_b 83..130 only, the code reproduces the q1689 differences at K_b 138 (+0.085e-12) and K_b 134 (+0.057e-12) to within 3e-14.
+Usage: py q1690_register_aitken.py (from small_gap_q206/; about 1 minute)."""
+
+import glob, json, os, re, time
+import numpy as np
+import sympy as sp
+import mpmath as mp
+import births_law as B
+
+H = os.path.dirname(os.path.abspath(__file__))
+C = os.path.join(H, "..", "centre_scripts")
+S20 = json.load(open(os.path.join(C, "d22_out_20.json")))
+E = {n: float(S20["e%d" % n]) for n in range(2, 21)}
+txt = open(os.path.join(H, "q1557_stdout_ORD28.txt"), encoding="utf-8").read()
+f = {}
+for n in (26, 28):
+    m = re.search(r"^\s*f%d = (.*?)(?:\s{2,}= |$)" % n, txt, re.M)
+    f[n] = float(mp.mpf(sp.N(sp.sympify(m.group(1).strip().replace("pi", "PI"), locals={"PI": sp.pi}), 30)))
+FALL = (B.F + [-2.420924146814851e-10, -8.973800969707301e-11])[:13] + [f[26], f[28]]
+
+
+def setlaw(NG):
+    B.F = FALL[: NG + 1]
+    B.NG = NG
+    B.g = [1.0]
+    for n in range(1, NG + 1):
+        B.g.append(-sum(B.F[j] * B.g[n - j] for j in range(1, n + 1)))
+
+
+KS = (136,) + tuple(range(139, 151))
+listing = []
+for K in KS:
+    for dname in sorted(glob.glob(os.path.join(H, "fw_cap_par*"))) + [os.path.join(H, "fw_prod")]:
+        fn = os.path.join(dname, "event_Kb%d.json" % K)
+        if os.path.exists(fn):
+            listing.append("EXISTS %s" % fn)
+lab = lambda q: "holds" if q else "does not hold"
+print("P1 no event file for K_b 136, 139..150: %s %s" % (lab(not listing), listing))
+if listing:
+    print("READING q1690: events exist, no registration written")
+    raise SystemExit(0)
+RB = 0.4130
+ex = [E[n] for n in range(6, 19)]
+h = 1e-7
+
+
+def fitpairs(Kin):
+    min_ = np.array([B.measured(K) for K in Kin])
+    out = {}
+    for NG in (12, 13, 14):
+        setlaw(NG)
+        nu, d0 = -0.0937736508347, 0.0011599160063
+        for rnd in range(4):
+            p0 = np.array([B.a_pred(K, nu, d0, ex) for K in Kin])
+            M = np.stack(
+                [
+                    [(B.a_pred(K, nu + h, d0, ex) - B.a_pred(K, nu - h, d0, ex)) / (2 * h) for K in Kin],
+                    [(B.a_pred(K, nu, d0 + h, ex) - B.a_pred(K, nu, d0 - h, ex)) / (2 * h) for K in Kin],
+                ],
+                1,
+            )
+            sol, *_ = np.linalg.lstsq(M, -(p0 - min_), rcond=None)
+            nu, d0 = nu + sol[0], d0 + sol[1]
+        out[NG] = (nu, d0)
+    return out
+
+
+def a_inf(K, pairs):
+    a = {}
+    for NG in (12, 13, 14):
+        setlaw(NG)
+        a[NG] = B.a_pred(K, pairs[NG][0], pairs[NG][1], ex)
+    return a[14] + (a[14] - a[13]) * RB / (1 - RB), a[14]
+
+
+P130 = fitpairs([K for K in range(83, 131) if B.measured(K) is not None])
+c1 = abs(a_inf(138, P130)[0] - B.measured(138) - 0.085e-12) < 3e-14
+c2 = abs(a_inf(134, P130)[0] - B.measured(134) - 0.057e-12) < 3e-14
+print(
+    "control values: K_b 138 %+.3e (q1689 +0.085e-12), K_b 134 %+.3e (q1689 +0.057e-12)"
+    % (a_inf(138, P130)[0] - B.measured(138), a_inf(134, P130)[0] - B.measured(134))
+)
+Kin = [K for K in range(83, 139) if B.measured(K) is not None]
+P = fitpairs(Kin)
+R = {K: a_inf(K, P) for K in KS}
+reg = open(os.path.join(H, "q1684_prereg_139_150.txt")).read()
+c14 = {}
+for K in range(139, 151):
+    m = re.search(r"K_b %d: NG 14 nmax 14 a_pred = ([\d.]+)" % K, reg)
+    c14[K] = float(m.group(1))
+p2 = abs(R[139][0] - c14[139]) < 1e-12 and abs(R[150][0] - c14[150]) < 3e-12
+p3 = all(R[K][0] - R[K][1] < 0 and abs(R[K][0] - R[K][1]) < 5e-12 for K in KS)
+print(
+    "difference to the cell (14, 14) of q1684: %+.2e at K_b 139, %+.2e at K_b 150; correction a_inf - a14: %+.2e at K_b 136, %+.2e at K_b 139, %+.2e at K_b 150"
+    % (
+        R[139][0] - c14[139],
+        R[150][0] - c14[150],
+        R[136][0] - R[136][1],
+        R[139][0] - R[139][1],
+        R[150][0] - R[150][1],
+    )
+)
+t = (
+    "q1690 registration written %s (clock), generated by code after the check printed above found no event file for K_b 136, 139..150 in fw_cap_par*, fw_prod (%d directories scanned). Aitken-extrapolated births law: bulk laws through c24, c26, c28, stored series to order 18, fixed ratio rho_bar = 0.4130, wall pairs refitted on %d events K_b 83..138.\n"
+    % (time.strftime("%H:%M:%S"), len(glob.glob(os.path.join(H, "fw_cap_par*"))) + 1, len(Kin))
+)
+for NG in (12, 13, 14):
+    t += "pair NG %d: (%.13f, %.13f)\n" % (NG, *P[NG])
+for K in KS:
+    t += "K_b %d: a_inf = %.12f\n" % (K, R[K][0])
+t += "Bars: |a_inf - A| < 3e-13 for K_b 136 and 139..145, and < 5e-13 for K_b 146..150.\n"
+open(os.path.join(H, "q1690_prereg_aitken.txt"), "w").write(t)
+print(
+    "P2 within 1e-12 of the cell (14, 14) at K_b 139 and 3e-12 at K_b 150: %s; P3 correction negative and below 5e-12 everywhere: %s; control: %s; file written: %s"
+    % (
+        lab(p2),
+        lab(p3),
+        lab(c1 and c2),
+        lab("generated by code" in open(os.path.join(H, "q1690_prereg_aitken.txt")).read()),
+    )
+)
+print("READING q1690 done (labels by the script; no verdict word)")

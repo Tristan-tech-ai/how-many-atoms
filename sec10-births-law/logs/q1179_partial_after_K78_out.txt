@@ -1,0 +1,7 @@
+calibration (K 63 to 77): kappa -0.2566 (coefficient of eps F'' in f - F)
+leave-one-family-out: largest deviation of any level 0.00026 (TOLF3 0.0006)
+closed form alone passes the tolerance for 0 of 15 families
+derived terms without kappa fail the tolerance for 15 of 15 families
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True, 'NC4_LOO': True, 'NC5_closed_form_needs_terms': True, 'NC6_kappa_needed': True}
+   K 78: largest deviation over 10 levels 0.00017 (TOLF3 0.0006); differences -0.00004 -0.00011 -0.00012 -0.00007 +0.00001 +0.00009 +0.00015 +0.00017 +0.00016 +0.00013
+VERDICT q1179 T142: INCOMPLETE (K 78 PASS; K 79 MISSING)

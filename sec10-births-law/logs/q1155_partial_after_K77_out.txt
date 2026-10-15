@@ -1,0 +1,7 @@
+calibration offsets g_ev - g_apriori: {61: -0.00139, 62: -0.00127, 63: -0.0014, 64: -0.00127, 65: -0.00135, 66: -0.00123, 67: -0.0013, 68: -0.0012, 69: -0.00129, 70: -0.00121, 71: -0.00128, 72: -0.00118, 73: -0.00127, 74: -0.00114, 75: -0.00121}
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True, 'NC4': True, 'PC2': True}
+   K 76: rho 0.9938; h meas 1.0332 sharp 1.0333 (rel -0.00019); p1/h meas 0.4997 sharp 0.4997; g_ev 0.16510, g_apriori 0.16627, d_lin -0.00113, residual -0.000035; items H S G (True, True, True) -> PASS
+   K 77: rho 0.9971; h meas 1.0310 sharp 1.0305 (rel +0.00043); p1/h meas 0.9987 sharp 0.9989; g_ev 0.16393, g_apriori 0.16512, d_lin -0.00120, residual +0.000009; items H S G (True, True, True) -> PASS
+   K 78: missing
+   K 79: missing
+VERDICT q1155 T135: INCOMPLETE (K 76 PASS; K 77 PASS; K 78 MISSING; K 79 MISSING)

@@ -1,0 +1,6 @@
+median Borel sum: refitted pair (-0.0937736508332, 0.0011599160049), in-sample rms over K_b 83..130 1.7961e-13 (truncation nmax 18: 1.5200e-13)
+differences (1e-12) K_b 61..69: -15.3, -13.5, -11.6, -10.3, -8.8, -7.7, -6.7, -6.1, -5.1; largest size 61..69 1.531e-11, 70..82 8.242e-12
+at K_b 61 with the pair of q1669 fixed: median sum minus truncation nmax 20 -2.707e-12; minus truncation nmax 18 -5.016e-12
+control: table minus direct 5.7e-19, 0.0e+00, 2.7e-20, C4 6.21e-13
+P1 largest size over K_b 61..69 below 5.3e-12: does not hold; P2 in-sample rms within 30 percent: holds; P3 median sum differs from the nmax 20 truncation at K_b 61 by more than 1e-12: holds; control: holds
+READING q1675 done (labels by the script; no verdict word)

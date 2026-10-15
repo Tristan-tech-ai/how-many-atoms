@@ -1,0 +1,20 @@
+control: hash of the order-12 table f48c3ea92d5bd797... equals the registered hash: True
+control: K_b 81 recomputed 51.980243607591 against the table 51.980243607591 -> True
+control: K_b 90 recomputed 56.378254558265 against the table 56.378254558265 -> True
+control: K_b 79 deviation at order 12 -0.0140e-9 against -0.014e-9 -> True
+control: K_b 80 deviation at order 12 -0.0081e-9 against -0.008e-9 -> True
+K_b 81: A_meas 51.980243607689; order-12 table 51.980243607591, deviation +0.0980e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.1098e-9
+K_b 82: A_meas 52.474720531434; order-12 table 52.474720531440, deviation -0.0060e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0048e-9
+K_b 83: A_meas 52.967694373012; order-12 table 52.967694373020, deviation -0.0082e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0018e-9
+K_b 84: A_meas 53.459187791669; order-12 table 53.459187791673, deviation -0.0038e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0053e-9
+K_b 85: A_meas 53.949222838584; order-12 table 53.949222838589, deviation -0.0054e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0030e-9
+K_b 86: A_meas 54.437820980063; order-12 table 54.437820980065, deviation -0.0013e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0064e-9
+K_b 87: A_meas 54.925003119704; order-12 table 54.925003119706, deviation -0.0023e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0049e-9
+K_b 88: A_meas 55.410789619460; order-12 table 55.410789619458, deviation +0.0018e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0084e-9
+K_b 89: A_meas 55.895200319695; order-12 table 55.895200319693, deviation +0.0016e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0077e-9
+K_b 90: A_meas 56.378254558271; order-12 table 56.378254558265, deviation +0.0059e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0115e-9
+K_b 91: A_meas 56.859971188737; order-12 table 56.859971188731, deviation +0.0068e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0121e-9
+K_b 92: A_meas 57.340368597666; order-12 table 57.340368597654, deviation +0.0118e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0166e-9
+K_b 93: A_meas 57.819464721180; order-12 table 57.819464721166, deviation +0.0142e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0187e-9
+K_b 94: A_meas 58.297277060737; order-12 table 58.297277060717, deviation +0.0204e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0245e-9
+READING q1215: K_b 81 True, K_b 82 True, K_b 83 True, K_b 84 True, K_b 85 True, K_b 86 True, K_b 87 True, K_b 88 True, K_b 89 True, K_b 90 True, K_b 91 True, K_b 92 True, K_b 93 True, K_b 94 True (no verdict)

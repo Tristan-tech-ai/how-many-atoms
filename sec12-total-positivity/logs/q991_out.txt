@@ -1,0 +1,9 @@
+READING q991: critical factor t* of the diagonal term for the Cramer minor of u_1
+first state of the family: K 61: t* 1.1388 (K(t* - 1) = 8.467), K 62: t* 1.1360 (K(t* - 1) = 8.432), K 63: t* 1.1340 (K(t* - 1) = 8.442), K 64: t* 1.1314 (K(t* - 1) = 8.410), K 65: t* 1.1295 (K(t* - 1) = 8.417), K 66: t* 1.1271 (K(t* - 1) = 8.389)
+   exponent p of t* - 1 ~ K^-p between K 61 and K 66: 1.118; mean step of t* per family -0.00234
+middle state of the family: K 61: t* 1.1467 (K(t* - 1) = 8.949), K 62: t* 1.1424 (K(t* - 1) = 8.829), K 63: t* 1.1412 (K(t* - 1) = 8.896), K 64: t* 1.1372 (K(t* - 1) = 8.781), K 65: t* 1.1364 (K(t* - 1) = 8.866), K 66: t* 1.1329 (K(t* - 1) = 8.771)
+   exponent p of t* - 1 ~ K^-p between K 61 and K 66: 1.254; mean step of t* per family -0.00276
+last state of the family: K 61: t* 1.1644 (K(t* - 1) = 10.028), K 62: t* 1.1610 (K(t* - 1) = 9.982), K 63: t* 1.1581 (K(t* - 1) = 9.960), K 64: t* 1.1550 (K(t* - 1) = 9.920), K 65: t* 1.1525 (K(t* - 1) = 9.913), K 66: t* 1.1496 (K(t* - 1) = 9.874)
+   exponent p of t* - 1 ~ K^-p between K 61 and K 66: 1.197; mean step of t* per family -0.00296
+all N1(1) positive: True ; rows 18
+END q991 READING (no verdict)

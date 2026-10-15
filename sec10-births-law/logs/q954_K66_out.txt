@@ -1,0 +1,16 @@
+READINGS q954 K 66: family states 111, q924b outputs read 111, q924b PASS lines 111
+counts of True over 111 states: K1 111, K2 111, K3 111, K3c 111, K4 111, K5 111, K6 111, K7 111
+states in the file list: first A 43.845315, last A 44.363282, span 0.5180, all verdicts OPTIMAL True
+minors per state (orders 1-3 and 4-5) distinct sets [(1024, 246016, 20000, 5000, 5000)]; total failures 0
+K1 max error over states: min 1.560e-37, max 1.880e-37; K2 max error: min 1.010e-29, max 7.700e-29
+K3 ratio at delta 1e-12: min 9.069e-15, max 5.742e-11
+K3 ratio at delta 1e-14: min 9.069e-17, max 5.742e-13
+K3 ratio at delta 1e-16: min 9.069e-19, max 5.742e-15
+K4 positions counted per state: [32]; du_j/dA: smallest over all positions and states 0.0954, largest 19.3200 (A 43.8453)
+K4 dw_1/dA: min 0.001797 (A 44.3633), max 0.063030 (A 43.8453), positive in 111 states; first 0.063030, last 0.001797
+K4 dwe/dA: min -0.0008321, max -0.0008136
+reduced Hessian diagonal: first entry -0.2392 to -0.2392; last entry -4.317e-04 to -7.004e-07
+centre signal D(0) - C: first -2.0632e-19, minimum -3.0544e-15 at A 44.223282, last -9.6286e-17, all non-positive True; off-atom maximum first -3.3003e-18, last -9.8527e-18, all non-positive True
+innermost pair mass w_1: first 0.0060272, last 0.011566010, strictly increasing True
+lattice slot 2 u_1/(u_2 - u_1): first 0.1927, last 0.9992; law mu_1/mu_bar: first 0.9355, last 0.99991
+END q954 READINGS (no verdict)

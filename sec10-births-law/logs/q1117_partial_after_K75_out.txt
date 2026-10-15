@@ -1,0 +1,10 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True, 'PC2': True}
+   K 61: g_ev 0.16330, model 0.16336, difference -0.00006 -> PASS
+   K 62: g_ev 0.16491, model 0.16488, difference +0.00003 -> PASS
+   K 74: g_ev 0.16512, model 0.16509, difference +0.00003 -> PASS
+   K 75: g_ev 0.16387, model 0.16393, difference -0.00006 -> PASS
+   K 76: missing -> MISSING
+   K 77: missing -> MISSING
+   K 78: missing -> MISSING
+   K 79: missing -> MISSING
+VERDICT q1117 T125: INCOMPLETE

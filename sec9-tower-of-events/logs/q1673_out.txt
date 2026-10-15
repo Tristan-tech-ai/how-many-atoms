@@ -1,0 +1,5 @@
+v^2 at K_b 61, 70, 82: 139.7, 149.6, 162.0
+ln|d| against v^2: slope -0.1266, correlation -0.9907; ln|d| against ln K: slope -9.514, correlation -0.9887
+rms of the residual of ln|d|: against v^2 0.1196, against ln K 0.1315
+P1 linear in v^2 with slope in [0.10, 0.25]: holds; P2 also linear in ln K: does not hold; P3 slope within 30 percent of 0.2087: does not hold; control (synthetic slope -0.2004): holds
+READING q1673 done (labels by the script; no verdict word)

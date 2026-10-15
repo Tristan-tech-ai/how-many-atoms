@@ -1,0 +1,13 @@
+tower/K66/results_q220_gauss_K66_A43.8453.json
+tower/K66/results_q220_gauss_K66_A43.8518.json
+tower/K66/results_q220_gauss_K66_A43.8883.json
+tower/K66/results_q220_gauss_K66_A43.9383.json
+tower/K66/results_q220_gauss_K66_A43.9883.json
+tower/K66/results_q220_gauss_K66_A44.0383.json
+tower/K66/results_q220_gauss_K66_A44.0883.json
+tower/K66/results_q220_gauss_K66_A44.1383.json
+tower/K66/results_q220_gauss_K66_A44.1883.json
+tower/K66/results_q220_gauss_K66_A44.2383.json
+tower/K66/results_q220_gauss_K66_A44.2883.json
+tower/K66/results_q220_gauss_K66_A44.3383.json
+tower/K66/results_q220_gauss_K66_A44.3633.json

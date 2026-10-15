@@ -1,0 +1,8 @@
+control: stage 110 (B1 = 14) against the registered table q1209, largest difference 4.263256414560601e-14
+stage 122 done
+stage 128 done
+stage 134 done
+control 2: stage 134 against the registered table q1439, largest difference 0.0
+control 3: stage 134 against the registered table q1451, largest difference 0.0
+spread at K_b 131, 134, 136, 138: ['7.39e-09', '1.27e-08', '1.81e-08', '2.57e-08']
+sha256 f2900ce1e315ac366cf74fabc081bf13faa83185408f77797a8d260623634476

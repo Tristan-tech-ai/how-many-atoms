@@ -1,0 +1,4 @@
+events 55; width: median 6.468e-10, mean 5.609e-08, smallest 9.700e-16, largest 1.102e-06 (K_b 92); widths (1e-14) at K_b 83, 100, 130, 138: 83 3321.2, 100 21578970.2, 130 9172081.7, 138 3118761.9
+ratio of the rms floor 5.241e-14 to the median half-width: 0.000
+P1 median width below 1e-12: does not hold; P2 largest width below 1e-10: does not hold; P3 rms floor within a factor 3 of the median half-width: does not hold; control (synthetic width 1.000e-13): holds
+READING q1686 done (labels by the script; no verdict word)

@@ -1,0 +1,31 @@
+even K (phase phi = u1 / local spacing): pairs 1496; margin dp_1/S: overall min 0.1522 at phase 0.499 (K 82); median 0.6998
+   phase 0.000-0.050: pairs   92 min +5.7241 median +6.2017 max +6.6400
+   phase 0.050-0.100: pairs   80 min +5.5725 median +6.0976 max +6.5904
+   phase 0.100-0.150: pairs   61 min +5.3479 median +5.8754 max +6.3775
+   phase 0.150-0.200: pairs   63 min +5.0108 median +5.6230 max +6.1282
+   phase 0.200-0.250: pairs   49 min +4.5952 median +5.1734 max +5.7065
+   phase 0.250-0.300: pairs   35 min +4.0753 median +4.5503 max +5.1747
+   phase 0.300-0.350: pairs   35 min +3.3129 median +3.8026 max +4.3849
+   phase 0.350-0.400: pairs   63 min +2.3997 median +2.9309 max +3.6196
+   phase 0.400-0.450: pairs  100 min +1.4101 median +1.9138 max +2.6407
+   phase 0.450-0.500: pairs  918 min +0.1522 median +0.3217 max +1.5238
+odd K (relaxation r = p_c / p_first interior): pairs 1129; margin dp_1/S: overall min 0.1540 at phase 0.999 (K 81); median 0.4520
+   phase 0.062-0.780: pairs  113 min +4.8908 median +10.3387 max +34.0162
+   phase 0.780-0.929: pairs  113 min +1.8794 median +2.9268 max +5.2120
+   phase 0.929-0.972: pairs  113 min +0.9642 median +1.3784 max +2.0094
+   phase 0.972-0.987: pairs  113 min +0.6214 median +0.7985 max +1.0814
+   phase 0.987-0.993: pairs  113 min +0.4422 median +0.5336 max +0.6719
+   phase 0.993-0.996: pairs  113 min +0.3291 median +0.3918 max +0.4674
+   phase 0.996-0.997: pairs  113 min +0.2638 median +0.3023 max +0.3543
+   phase 0.997-0.998: pairs  113 min +0.2184 median +0.2454 max +0.2752
+   phase 0.998-0.999: pairs  113 min +0.1857 median +0.2042 max +0.2275
+   phase 0.999-0.999: pairs  113 min +0.1540 median +0.1752 max +0.1907
+K 60,61: smallest margin 0.1750, median 0.4190
+K 70,71: smallest margin 0.1624, median 0.5405
+K 80,81: smallest margin 0.1540, median 0.5537
+READING q1376 (exploratory, no verdict)
+even K: families 12 (K 60..82); smallest margin per family: 60: 0.1755, 66: 0.1676, 72: 0.1618, 78: 0.1564
+   fit c + a/K: c = 0.0912, a = 5.042, rms 5.2e-04; fit c + a/K + b/K^2: c = 0.0892, a = 5.321, b = -9.69, rms 5.2e-04
+odd K: families 11 (K 61..81); smallest margin per family: 61: 0.1750, 67: 0.1675, 73: 0.1626, 79: 0.1571
+   fit c + a/K: c = 0.0903, a = 5.215, rms 6.5e-04; fit c + a/K + b/K^2: c = 0.0615, a = 9.263, b = -141.22, rms 6.2e-04
+READING q1376b (exploratory, no verdict)

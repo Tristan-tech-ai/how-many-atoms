@@ -1,0 +1,17 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True}
+state results_q220_gauss_K61_A41.2100.json: A 41.21, m 29, odd True: G1 True (initial minors positive 900, negative 0, undecided 0 of 900); G2 True (spread 9.22e-22)
+state results_q220_gauss_K61_A41.4725.json: A 41.472500, m 29, odd True: G1 True (initial minors positive 900, negative 0, undecided 0 of 900); G2 True (spread 6.96e-24)
+state results_q220_gauss_K61_A41.7325.json: A 41.732500, m 29, odd True: G1 True (initial minors positive 900, negative 0, undecided 0 of 900); G2 True (spread 8.01e-23)
+state results_q220_gauss_K62_A41.7375.json: A 41.7375000000000000000000000000, m 30, odd False: G1 True (initial minors positive 961, negative 0, undecided 0 of 961); G2 True (spread 2.52e-29)
+state results_q220_gauss_K62_A41.9832.json: A 41.983175, m 30, odd False: G1 True (initial minors positive 961, negative 0, undecided 0 of 961); G2 True (spread 3.44e-28)
+state results_q220_gauss_K62_A42.2632.json: A 42.263175, m 30, odd False: G1 True (initial minors positive 961, negative 0, undecided 0 of 961); G2 True (spread 6.29e-27)
+state results_q220_gauss_K63_A42.2682.json: A 42.268175, m 30, odd True: G1 True (initial minors positive 961, negative 0, undecided 0 of 961); G2 True (spread 2.26e-39)
+state results_q220_gauss_K63_A42.5282.json: A 42.528175, m 30, odd True: G1 True (initial minors positive 961, negative 0, undecided 0 of 961); G2 True (spread 5.99e-38)
+state results_q220_gauss_K63_A42.7882.json: A 42.788175, m 30, odd True: G1 True (initial minors positive 961, negative 0, undecided 0 of 961); G2 True (spread 1.48e-36)
+state results_q220_gauss_K64_A42.7932.json: A 42.7931750000000000000000000000, m 31, odd False: G1 True (initial minors positive 1024, negative 0, undecided 0 of 1024); G2 True (spread 1.58e-36)
+state results_q220_gauss_K64_A43.0353.json: A 43.035315, m 31, odd False: G1 True (initial minors positive 1024, negative 0, undecided 0 of 1024); G2 True (spread 2.94e-35)
+state results_q220_gauss_K64_A43.3153.json: A 43.315315, m 31, odd False: G1 True (initial minors positive 1024, negative 0, undecided 0 of 1024); G2 True (spread 8.06e-34)
+state results_q220_gauss_K65_A43.3203.json: A 43.320315, m 31, odd True: G1 True (initial minors positive 1024, negative 0, undecided 0 of 1024); G2 True (spread 8.54e-34)
+state results_q220_gauss_K65_A43.5803.json: A 43.580315, m 31, odd True: G1 True (initial minors positive 1024, negative 0, undecided 0 of 1024); G2 True (spread 1.72e-32)
+state results_q220_gauss_K65_A43.8403.json: A 43.840315, m 31, odd True: G1 True (initial minors positive 1024, negative 0, undecided 0 of 1024); G2 True (spread 3.24e-31)
+VERDICT q998 T84: PASS; states 15

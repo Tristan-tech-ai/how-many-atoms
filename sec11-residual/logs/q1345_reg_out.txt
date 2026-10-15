@@ -1,0 +1,5 @@
+tight_run: scipy brentq called with xtol 1e-16 when no xtol is given; q1183.rho_of replaced by the tight inversion
+tight_run: capacity R(36) = 0.5503757449787372 (old instrument 0.5456)
+C1 146.413; cubic [0.72399, 0.11402, 1.39352, 1.86178]; control c1 True; c2 True; c3 (frozen constants reproduce 57 seen events, largest |Y| 0.0153) True; c4 True; c5 (stages converged) True; c6 True; c7 (null and old C1 fail the bar) True; c8 (max |q5 - q7| / Da 0.00783) True
+sha256 a326fd8f322c49865c2270b1bdff83bdfec086b9704acc05e40d6add0769430e
+REGISTRATION-RUN q1345: controls True, table and run1345*.sh written

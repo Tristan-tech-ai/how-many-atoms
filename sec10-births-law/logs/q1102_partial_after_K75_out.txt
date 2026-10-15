@@ -1,0 +1,9 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True}
+   K 73: u_end 0.1807, rho 0.98389, u_end rho^2 / C = 1.00266 -> PASS
+   K 74: u_end 0.0897, rho 0.98724, u_end rho^2 / C = 0.99480 -> PASS
+   K 75: u_end 0.1769, rho 0.99055, u_end rho^2 / C = 0.99491 -> PASS
+   K 76: u_end None, rho 0.99383 -> MISSING
+   K 77: u_end None, rho 0.99708 -> MISSING
+   K 78: u_end None, rho 1.00030 -> MISSING
+   K 79: u_end None, rho 1.00348 -> MISSING
+VERDICT q1102 T122: INCOMPLETE

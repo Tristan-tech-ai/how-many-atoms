@@ -1,0 +1,240 @@
+family K = 82 (even) from A = 52.467399, signal -6.064e-18, h = 0.0002
+   A = 52.467599: residual 4.6e-38 in 5 it, signal -5.90536e-18, h 2.00e-04  [7s]
+   A = 52.467999: residual 1.9e-45 in 2 it, signal -5.58726e-18, h 4.00e-04  [9s]
+   A = 52.468799: residual 1.2e-40 in 2 it, signal -4.94628e-18, h 8.00e-04  [11s]
+   A = 52.470399: residual 7.5e-36 in 2 it, signal -3.64505e-18, h 1.60e-03  [13s]
+   A = 52.473599: residual 2.4e-31 in 2 it, signal -9.64467e-19, h 3.20e-03  [15s]
+   EVENT between A = 52.473599 (signal -9.645e-19) and 52.479999 (signal 4.717e-18)
+   locate: A = 52.47468539988622 signal -3.041e-20
+   locate: A = 52.47471943530821 signal -9.490e-22
+   locate: A = 52.47472053166613 signal 2.010e-25
+   locate: A = 52.47472053143398 signal -1.328e-30
+   locate: A = 52.47472053143398 signal -1.859e-39
+K_b 82: stored 52.474720531434, new minus stored +2.704e-15, bracket 2.32e-10, control residual 1.2e-56, start results_q220_gauss_K82_A52.4674.json [38s]
+family K = 81 (odd) from A = 51.973343, signal -1.402e-16, h = 0.0002
+   A = 51.973543: residual 2.7e-38 in 5 it, signal -1.36341e-16, h 2.00e-04  [45s]
+   A = 51.973943: residual 1.2e-45 in 2 it, signal -1.28496e-16, h 4.00e-04  [47s]
+   A = 51.974743: residual 7.7e-41 in 2 it, signal -1.12694e-16, h 8.00e-04  [49s]
+   A = 51.976343: residual 4.4e-36 in 2 it, signal -8.06472e-17, h 1.60e-03  [51s]
+   A = 51.979543: residual 2.1e-31 in 2 it, signal -1.47515e-17, h 3.20e-03  [53s]
+   EVENT between A = 51.979543 (signal -1.475e-17) and 51.985943 (signal 1.244e-16)
+   locate: A = 51.98022136852514 signal -4.701e-19
+   locate: A = 51.98024290330150 signal -1.489e-20
+   locate: A = 51.98024360766838 signal 1.877e-24
+   locate: A = 51.98024360757959 signal -7.493e-30
+   locate: A = 51.98024360757959 signal -3.771e-39
+K_b 81: stored 51.980243607580, new minus stored -3.422e-15, bracket 8.88e-11, control residual 1.8e-56, start results_q220_gauss_K81_A51.9733.json [35s]
+family K = 80 (even) from A = 51.476843, signal -1.000e-17, h = 0.0002
+   A = 51.477043: residual 7.4e-38 in 4 it, signal -9.74513e-18, h 2.00e-04  [79s]
+   A = 51.477443: residual 1.1e-45 in 2 it, signal -9.22581e-18, h 4.00e-04  [82s]
+   A = 51.478243: residual 7.2e-41 in 2 it, signal -8.17942e-18, h 8.00e-04  [84s]
+   A = 51.479843: residual 4.5e-36 in 2 it, signal -6.05539e-18, h 1.60e-03  [86s]
+   A = 51.483043: residual 1.9e-31 in 2 it, signal -1.68078e-18, h 3.20e-03  [88s]
+   EVENT between A = 51.483043 (signal -1.681e-18) and 51.489443 (signal 7.588e-18)
+   locate: A = 51.48420359465561 signal -5.190e-20
+   locate: A = 51.48423918826941 signal -1.585e-21
+   locate: A = 51.48424030961776 signal 3.482e-25
+   locate: A = 51.48424030937148 signal -2.335e-30
+   locate: A = 51.48424030937148 signal -3.443e-39
+K_b 80: stored 51.484240309371, new minus stored +1.670e-15, bracket 2.46e-10, control residual 1.4e-56, start results_q220_gauss_K80_A51.4768.json [37s]
+family K = 79 (odd) from A = 50.981688, signal -1.661e-16, h = 0.0002
+   A = 50.981888: residual 4.8e-38 in 4 it, signal -1.59616e-16, h 2.00e-04  [115s]
+   A = 50.982288: residual 6.7e-46 in 2 it, signal -1.46642e-16, h 4.00e-04  [117s]
+   A = 50.983088: residual 4.2e-41 in 2 it, signal -1.20516e-16, h 8.00e-04  [119s]
+   A = 50.984688: residual 2.5e-36 in 2 it, signal -6.75406e-17, h 1.60e-03  [122s]
+   EVENT between A = 50.984688 (signal -6.754e-17) and 50.987888 (signal 4.133e-17)
+   locate: A = 50.98667315293582 signal -4.625e-19
+   locate: A = 50.98668659515824 signal -3.110e-21
+   locate: A = 50.98668668616562 signal 2.366e-25
+   locate: A = 50.98668668615869 signal -1.210e-31
+K_b 79: stored 50.986686686159, new minus stored +4.661e-15, bracket 6.92e-12, control residual 1.5e-56, start results_q220_gauss_K79_A50.9817.json [30s]
+family K = 78 (even) from A = 50.483688, signal -8.786e-18, h = 0.0002
+   A = 50.483888: residual 6.7e-38 in 4 it, signal -8.34229e-18, h 2.00e-04  [145s]
+   A = 50.484288: residual 5.7e-46 in 2 it, signal -7.45083e-18, h 4.00e-04  [147s]
+   A = 50.485088: residual 3.7e-41 in 2 it, signal -5.65496e-18, h 8.00e-04  [149s]
+   A = 50.486688: residual 2.3e-36 in 2 it, signal -2.01104e-18, h 1.60e-03  [151s]
+   EVENT between A = 50.486688 (signal -2.011e-18) and 50.489888 (signal 5.488e-18)
+   locate: A = 50.48754613163239 signal -2.781e-20
+   locate: A = 50.48755793731310 signal -3.814e-22
+   locate: A = 50.48755810147580 signal 2.710e-26
+   locate: A = 50.48755810146413 signal -2.641e-32
+K_b 78: stored 50.487558101465, new minus stored -4.986e-13, bracket 1.17e-11, control residual 1.7e-56, start results_q220_gauss_K78_A50.4837.json [28s]
+family K = 77 (odd) from A = 49.980673, signal -3.306e-16, h = 0.0002
+   A = 49.980873: residual 8.0e-38 in 3 it, signal -3.20183e-16, h 2.00e-04  [173s]
+   A = 49.981273: residual 4.3e-46 in 2 it, signal -2.99352e-16, h 4.00e-04  [175s]
+   A = 49.982073: residual 2.7e-41 in 2 it, signal -2.57404e-16, h 8.00e-04  [177s]
+   A = 49.983673: residual 1.6e-36 in 2 it, signal -1.72351e-16, h 1.60e-03  [179s]
+   EVENT between A = 49.983673 (signal -1.724e-16) and 49.986873 (signal 2.435e-18)
+   locate: A = 49.98682842561037 signal -4.327e-20
+   locate: A = 49.98682920404819 signal -1.056e-23
+   locate: A = 49.98682920423817 signal 4.581e-29
+   locate: A = 49.98682920423817 signal -4.849e-38
+K_b 77: stored 49.986829204238, new minus stored -6.987e-15, bracket 8.24e-16, control residual 1.0e-56, start results_q220_gauss_K77_A49.9807.json [21s]
+family K = 76 (even) from A = 49.479973, signal -1.684e-17, h = 0.0002
+   A = 49.480173: residual 1.2e-37 in 3 it, signal -1.61092e-17, h 2.00e-04  [194s]
+   A = 49.480573: residual 3.3e-46 in 2 it, signal -1.46457e-17, h 4.00e-04  [196s]
+   A = 49.481373: residual 2.2e-41 in 2 it, signal -1.16974e-17, h 8.00e-04  [198s]
+   A = 49.482973: residual 1.4e-36 in 2 it, signal -5.71557e-18, h 1.60e-03  [200s]
+   EVENT between A = 49.482973 (signal -5.716e-18) and 49.486173 (signal 6.593e-18)
+   locate: A = 49.48445889045061 signal -5.766e-20
+   locate: A = 49.48447374925461 signal -5.735e-22
+   locate: A = 49.48447389852885 signal 5.069e-26
+   locate: A = 49.48447389851565 signal -4.456e-32
+K_b 76: stored 49.484473898516, new minus stored -2.034e-14, bracket 1.32e-11, control residual 1.2e-56, start results_q220_gauss_K76_A49.4800.json [28s]
+family K = 75 (odd) from A = 48.974433, signal -5.306e-16, h = 0.0002
+   A = 48.974633: residual 8.6e-38 in 3 it, signal -5.13533e-16, h 2.00e-04  [222s]
+   A = 48.975033: residual 2.5e-46 in 2 it, signal -4.79380e-16, h 4.00e-04  [223s]
+   A = 48.975833: residual 1.6e-41 in 2 it, signal -4.10605e-16, h 8.00e-04  [225s]
+   A = 48.977433: residual 9.8e-37 in 2 it, signal -2.71181e-16, h 1.60e-03  [227s]
+   EVENT between A = 48.977433 (signal -2.712e-16) and 48.980633 (signal 1.526e-17)
+   locate: A = 48.98046247542786 signal -2.579e-19
+   locate: A = 48.98046530874060 signal -2.387e-22
+   locate: A = 48.98046531136525 signal 3.738e-27
+   locate: A = 48.98046531136521 signal -5.418e-35
+K_b 75: stored 48.980465311365, new minus stored -3.059e-15, bracket 4.11e-14, control residual 1.1e-56, start results_q220_gauss_K75_A48.9744.json [21s]
+family K = 74 (even) from A = 48.468433, signal -3.908e-17, h = 0.0002
+   A = 48.468633: residual 1.3e-37 in 3 it, signal -3.78972e-17, h 2.00e-04  [242s]
+   A = 48.469033: residual 2.0e-46 in 2 it, signal -3.55131e-17, h 4.00e-04  [244s]
+   A = 48.469833: residual 1.3e-41 in 2 it, signal -3.07102e-17, h 8.00e-04  [246s]
+   A = 48.471433: residual 8.2e-37 in 2 it, signal -2.09653e-17, h 1.60e-03  [248s]
+   A = 48.474633: residual 4.7e-32 in 2 it, signal -9.12302e-19, h 3.20e-03  [250s]
+   EVENT between A = 48.474633 (signal -9.123e-19) and 48.481033 (signal 4.150e-17)
+   locate: A = 48.47477065504992 signal -3.264e-20
+   locate: A = 48.47477557662103 signal -1.167e-21
+   locate: A = 48.47477575901613 signal 3.478e-26
+   locate: A = 48.47477575901070 signal -3.706e-32
+K_b 74: stored 48.474775759011, new minus stored -3.947e-13, bracket 5.44e-12, control residual 8.3e-57, start results_q220_gauss_K74_A48.4684.json [24s]
+family K = 73 (odd) from A = 47.963112, signal -6.239e-16, h = 0.0002
+   A = 47.963312: residual 5.6e-38 in 3 it, signal -5.95342e-16, h 2.00e-04  [266s]
+   A = 47.963712: residual 1.4e-46 in 2 it, signal -5.37938e-16, h 4.00e-04  [268s]
+   A = 47.964512: residual 8.7e-42 in 2 it, signal -4.22360e-16, h 8.00e-04  [270s]
+   A = 47.966112: residual 5.4e-37 in 2 it, signal -1.88107e-16, h 1.60e-03  [272s]
+   EVENT between A = 47.966112 (signal -1.881e-16) and 47.969312 (signal 2.929e-16)
+   locate: A = 47.96736335053188 signal -2.001e-18
+   locate: A = 47.96737657045203 signal -2.105e-20
+   locate: A = 47.96737671100434 signal 1.539e-24
+   locate: A = 47.96737671099407 signal -1.183e-30
+   locate: A = 47.96737671099407 signal -6.651e-41
+K_b 73: stored 47.967376710983, new minus stored +1.112e-11, bracket 1.03e-11, control residual 1.0e-56, start results_q220_gauss_K73_A47.9631.json [28s]
+family K = 72 (even) from A = 47.455112, signal -3.292e-17, h = 0.0002
+   A = 47.455312: residual 6.7e-38 in 3 it, signal -3.08503e-17, h 2.00e-04  [293s]
+   A = 47.455712: residual 1.0e-46 in 2 it, signal -2.66960e-17, h 4.00e-04  [295s]
+   A = 47.456512: residual 6.5e-42 in 2 it, signal -1.83287e-17, h 8.00e-04  [297s]
+   A = 47.458112: residual 4.1e-37 in 2 it, signal -1.35796e-18, h 1.60e-03  [299s]
+   EVENT between A = 47.458112 (signal -1.358e-18) and 47.461312 (signal 3.354e-17)
+   locate: A = 47.45823651963003 signal -2.394e-20
+   locate: A = 47.45823871293038 signal -4.214e-22
+   locate: A = 47.45823875223852 signal 5.450e-27
+   locate: A = 47.45823875223801 signal -1.241e-33
+K_b 72: stored 47.458238752238, new minus stored -1.308e-13, bracket 5.08e-13, control residual 8.3e-57, start results_q220_gauss_K72_A47.4551.json [20s]
+family K = 71 (odd) from A = 46.943872, signal -8.430e-16, h = 0.0002
+   A = 46.944072: residual 1.7e-38 in 3 it, signal -7.95120e-16, h 2.00e-04  [313s]
+   A = 46.944472: residual 7.7e-47 in 2 it, signal -6.99066e-16, h 4.00e-04  [314s]
+   A = 46.945272: residual 4.9e-42 in 2 it, signal -5.05686e-16, h 8.00e-04  [316s]
+   A = 46.946872: residual 3.0e-37 in 2 it, signal -1.13817e-16, h 1.60e-03  [318s]
+   EVENT between A = 46.946872 (signal -1.138e-16) and 46.950072 (signal 6.906e-16)
+   locate: A = 46.94732477068643 signal -1.681e-18
+   locate: A = 46.94733144320557 signal -2.474e-20
+   locate: A = 46.94733154285769 signal 9.080e-25
+   locate: A = 46.94733154285403 signal -4.904e-31
+K_b 71: stored 46.947331542854, new minus stored +9.156e-15, bracket 3.66e-12, control residual 7.6e-57, start results_q220_gauss_K71_A46.9439.json [21s]
+family K = 70 (even) from A = 46.430872, signal -6.647e-17, h = 0.0002
+   A = 46.431072: residual 1.9e-38 in 3 it, signal -6.29948e-17, h 2.00e-04  [334s]
+   A = 46.431472: residual 5.7e-47 in 2 it, signal -5.60295e-17, h 4.00e-04  [335s]
+   A = 46.432272: residual 3.7e-42 in 2 it, signal -4.20010e-17, h 8.00e-04  [337s]
+   A = 46.433872: residual 2.3e-37 in 2 it, signal -1.35504e-17, h 1.60e-03  [339s]
+   EVENT between A = 46.433872 (signal -1.355e-17) and 46.437072 (signal 4.495e-17)
+   locate: A = 46.43461327066870 signal -1.902e-19
+   locate: A = 46.43462362912470 signal -2.650e-21
+   locate: A = 46.43462377553702 signal 1.599e-25
+   locate: A = 46.43462377552819 signal -1.344e-31
+K_b 70: stored 46.434623775529, new minus stored -3.449e-13, bracket 8.83e-12, control residual 9.6e-57, start results_q220_gauss_K70_A46.4309.json [22s]
+family K = 69 (odd) from A = 45.912517, signal -3.011e-15, h = 0.0002
+   A = 45.912717: residual 3.2e-39 in 3 it, signal -2.93432e-15, h 2.00e-04  [356s]
+   A = 45.913117: residual 5.4e-47 in 2 it, signal -2.78100e-15, h 4.00e-04  [358s]
+   A = 45.913917: residual 3.5e-42 in 2 it, signal -2.47231e-15, h 8.00e-04  [359s]
+   A = 45.915517: residual 2.2e-37 in 2 it, signal -1.84669e-15, h 1.60e-03  [361s]
+   A = 45.918717: residual 1.2e-32 in 2 it, signal -5.62115e-16, h 3.20e-03  [363s]
+   EVENT between A = 45.918717 (signal -5.621e-16) and 45.925117 (signal 2.143e-15)
+   locate: A = 45.92004668211460 signal -1.510e-17
+   locate: A = 45.92008216211016 signal -4.013e-19
+   locate: A = 45.92008313049090 signal 7.850e-23
+   locate: A = 45.92008313030152 signal -4.078e-28
+   locate: A = 45.92008313030152 signal -4.144e-37
+K_b 69: stored 45.920083130302, new minus stored +5.575e-16, bracket 1.89e-10, control residual 1.1e-56, start results_q220_gauss_K69_A45.9125.json [27s]
+family K = 68 (even) from A = 45.397517, signal -1.831e-16, h = 0.0002
+   A = 45.397717: residual 3.0e-39 in 3 it, signal -1.77376e-16, h 2.00e-04  [382s]
+   A = 45.398117: residual 3.3e-47 in 2 it, signal -1.65850e-16, h 4.00e-04  [384s]
+   A = 45.398917: residual 2.1e-42 in 2 it, signal -1.42636e-16, h 8.00e-04  [386s]
+   A = 45.400517: residual 1.4e-37 in 2 it, signal -9.55546e-17, h 1.60e-03  [387s]
+   EVENT between A = 45.400517 (signal -9.555e-17) and 45.403717 (signal 1.256e-18)
+   locate: A = 45.40367548525671 signal -2.283e-20
+   locate: A = 45.40367622637343 signal -5.297e-24
+   locate: A = 45.40367622654542 signal 2.235e-29
+   locate: A = 45.40367622654542 signal -2.187e-38
+K_b 68: stored 45.403676226546, new minus stored -3.348e-13, bracket 7.26e-16, control residual 9.6e-57, start results_q220_gauss_K68_A45.3975.json [18s]
+family K = 67 (odd) from A = 44.879782, signal -3.779e-15, h = 0.0002
+   A = 44.879982: residual 3.2e-40 in 3 it, signal -3.64804e-15, h 2.00e-04  [400s]
+   A = 44.880382: residual 2.8e-47 in 2 it, signal -3.38437e-15, h 4.00e-04  [402s]
+   A = 44.881182: residual 1.8e-42 in 2 it, signal -2.85359e-15, h 8.00e-04  [404s]
+   A = 44.882782: residual 1.1e-37 in 2 it, signal -1.77814e-15, h 1.60e-03  [405s]
+   EVENT between A = 44.882782 (signal -1.778e-15) and 44.885982 (signal 4.289e-16)
+   locate: A = 44.88536008907090 signal -5.912e-18
+   locate: A = 44.88536854433170 signal -1.922e-20
+   locate: A = 44.88536857191520 signal 8.662e-25
+   locate: A = 44.88536857191396 signal -1.269e-31
+K_b 67: stored 44.885368571914, new minus stored -4.317e-16, bracket 1.24e-12, control residual 7.6e-57, start results_q220_gauss_K67_A44.8798.json [19s]
+family K = 66 (even) from A = 44.358282, signal -3.476e-16, h = 0.0002
+   A = 44.358482: residual 2.5e-40 in 3 it, signal -3.37800e-16, h 2.00e-04  [419s]
+   A = 44.358882: residual 1.8e-47 in 2 it, signal -3.18181e-16, h 4.00e-04  [420s]
+   A = 44.359682: residual 1.2e-42 in 2 it, signal -2.78670e-16, h 8.00e-04  [422s]
+   A = 44.361282: residual 7.5e-38 in 2 it, signal -1.98541e-16, h 1.60e-03  [423s]
+   A = 44.364482: residual 4.7e-33 in 2 it, signal -3.38045e-17, h 3.20e-03  [425s]
+   EVENT between A = 44.364482 (signal -3.380e-17) and 44.370882 (signal 3.140e-16)
+   locate: A = 44.36510402098794 signal -1.082e-18
+   locate: A = 44.36512385617481 signal -3.442e-20
+   locate: A = 44.36512450810970 signal 3.977e-24
+   locate: A = 44.36512450803440 signal -1.462e-29
+   locate: A = 44.36512450803440 signal -6.206e-39
+K_b 66: stored 44.365124508034, new minus stored -3.216e-14, bracket 7.53e-11, control residual 9.6e-57, start results_q220_gauss_K66_A44.3583.json [22s]
+family K = 65 (odd) from A = 43.835315, signal -8.613e-15, h = 0.0002
+   A = 43.835515: residual 6.9e-41 in 3 it, signal -8.39481e-15, h 2.00e-04  [440s]
+   A = 43.835915: residual 1.7e-47 in 2 it, signal -7.95743e-15, h 4.00e-04  [442s]
+   A = 43.836715: residual 1.1e-42 in 2 it, signal -7.07695e-15, h 8.00e-04  [443s]
+   A = 43.838315: residual 7.0e-38 in 2 it, signal -5.29296e-15, h 1.60e-03  [445s]
+   A = 43.841515: residual 4.1e-33 in 2 it, signal -1.63193e-15, h 3.20e-03  [446s]
+   EVENT between A = 43.841515 (signal -1.632e-15) and 43.847915 (signal 6.071e-15)
+   locate: A = 43.84287094927401 signal -4.274e-17
+   locate: A = 43.84290621530370 signal -1.107e-18
+   locate: A = 43.84290715285290 signal 2.106e-22
+   locate: A = 43.84290715267453 signal -1.038e-27
+   locate: A = 43.84290715267453 signal -9.726e-37
+K_b 65: stored 43.842907152675, new minus stored +4.999e-16, bracket 1.78e-10, control residual 5.7e-57, start results_q220_gauss_K65_A43.8353.json [22s]
+family K = 64 (even) from A = 43.315315, signal -3.013e-16, h = 0.0002
+   A = 43.315515: residual 9.0e-42 in 3 it, signal -2.83708e-16, h 2.00e-04  [462s]
+   A = 43.315915: residual 8.6e-48 in 2 it, signal -2.48390e-16, h 4.00e-04  [464s]
+   A = 43.316715: residual 5.6e-43 in 2 it, signal -1.77273e-16, h 8.00e-04  [465s]
+   A = 43.318315: residual 3.6e-38 in 2 it, signal -3.31013e-17, h 1.60e-03  [467s]
+   EVENT between A = 43.318315 (signal -3.310e-17) and 43.321515 (signal 2.631e-16)
+   locate: A = 43.31867263155447 signal -5.209e-19
+   locate: A = 43.31867824858420 signal -8.172e-21
+   locate: A = 43.31867833810298 signal 2.604e-25
+   locate: A = 43.31867833810012 signal -1.302e-31
+K_b 64: stored 43.318678338100, new minus stored -2.670e-13, bracket 2.85e-12, control residual 6.4e-57, start results_q220_gauss_K64_A43.3153.json [17s]
+family K = 63 (odd) from A = 42.788175, signal -8.331e-15, h = 0.0002
+   A = 42.788375: residual 1.1e-41 in 3 it, signal -7.94523e-15, h 2.00e-04  [480s]
+   A = 42.788775: residual 8.3e-48 in 2 it, signal -7.17032e-15, h 4.00e-04  [481s]
+   A = 42.789575: residual 5.3e-43 in 2 it, signal -5.61065e-15, h 8.00e-04  [483s]
+   A = 42.791175: residual 3.3e-38 in 2 it, signal -2.45166e-15, h 1.60e-03  [484s]
+   EVENT between A = 42.791175 (signal -2.452e-15) and 42.794375 (signal 4.027e-15)
+   locate: A = 42.79238600656882 signal -2.528e-17
+   locate: A = 42.79239841731519 signal -2.581e-19
+   locate: A = 42.79239854531582 signal 1.682e-23
+   locate: A = 42.79239854530747 signal -1.119e-29
+   locate: A = 42.79239854530747 signal -4.853e-40
+K_b 63: stored 42.792398545307, new minus stored +4.112e-15, bracket 8.34e-12, control residual 1.1e-56, start results_q220_gauss_K63_A42.7882.json [20s]
+K_b 62: no start state below the stored amplitude (stored 42.264026833785)
+K_b 61: no start state below the stored amplitude (stored 41.733520766420)
+re-measured 20 of 22 events; shifts positive 8; mean shift K_b <= 70: -1.22e-13, K_b > 70: +8.40e-13
+P1 does not hold; P2 does not hold; P3 is evaluated by q1713 [496s]
+READING q1712 done (labels by the script; no verdict word)

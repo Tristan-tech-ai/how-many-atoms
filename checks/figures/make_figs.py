@@ -1,5 +1,5 @@
 """Figures 1-2 of paper 1 (rewritten 4 Oct 2026 for the figure gate: every plotted number is read by code from a primary file).
-  fig_ring32.pdf: the certified 32-ring, agents/F_work/ring32_R2fix_polished.json (the state certified in ring32_R2fix_cert.log)
+  fig_ring32.pdf: the certified 32-ring, F_work/ring32_R2fix_polished.json (the state certified in ring32_R2fix_cert.log)
   fig_count.pdf : the count against eps at r_p = 1:
      leading-order series to K = 320: centre_scripts/q811/R1.0_K320_dps150.log
      count rule, K/2 truncation: amendment 1305 table (K 16-32) and centre_scripts/q811/k2conv/rp10_K*_flank.log (K 34-42)
@@ -17,7 +17,7 @@ from figstyle import apply, OK, WIDTH
 apply()
 
 # Figure 1: the certified 32-ring
-d = jsonv("agents/F_work/ring32_R2fix_polished.json")
+d = jsonv("F_work/ring32_R2fix_polished.json")
 rp, rm = float(d["rp"]), float(d["rm"]); G = [float(x) for x in d["G"]]; m = [float(x) for x in d["m"]]
 fig, ax = plt.subplots(figsize=(WIDTH, 2.6))
 tt = [2*math.pi*i/720 for i in range(721)]

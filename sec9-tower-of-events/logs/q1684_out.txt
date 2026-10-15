@@ -1,0 +1,8 @@
+P1 no event file for K_b 139..150: holds []
+cell NG 14 nmax 14: pair (-0.0937736508488, 0.0011599160189), in-sample rms over 55 events 5.241e-14, K_b 138 in sample +7.11e-14
+cell NG 13 nmax 14: pair (-0.0937736508302, 0.0011599160025), in-sample rms over 55 events 1.946e-13, K_b 138 in sample -2.84e-13
+cell NG 14 nmax 16: pair (-0.0937736508385, 0.0011599160097), in-sample rms over 55 events 1.180e-13, K_b 138 in sample -1.99e-13
+cell NG 14 nmax 18: pair (-0.0937736508361, 0.0011599160077), in-sample rms over 55 events 1.621e-13, K_b 138 in sample -2.27e-13
+spread of the four cells: 3.98e-13 at K_b 139, 6.39e-13 at K_b 150
+P2 cells differ by less than 3e-12 at K_b 139 and 8e-12 at K_b 150: holds; P3 file written with the code-generated listing text: holds; control: holds
+READING q1684 done (labels by the script; no verdict word)

@@ -1,4 +1,4 @@
-# Section VI: leaving the boundary
+# Section VIII and Supplementary Notes S3 and S4: leaving the boundary
 
 On a filled region the boundary ring stays optimal until an atom is born at the center. The formal density predicts when.
 
@@ -9,8 +9,10 @@ On a filled region the boundary ring stays optimal until an atom is born at the 
 | center births on mixed curves (Table V) | `q831_mixed_centre.py`, `q835_lfp_mixed_centre.py`, `q836_rd_mixed_centre.py` | `I_cap_centre.py`, `I_lfp_centre.py`, `I_rd_centre.py` | `q831_*.log`, `births__*.log` |
 | birth curves (Fig. 3) | | | `births__*.log` |
 | mass of the first center atom, its instability and split | `q818_centre_atom.py`, `q819_centre_split.py`, `q820_centre_pair.py` | `I_centre_ring.py`, `I_pair_ring.py` | |
-| rings inside rings (Table VI; full list in `../paper/`) | `q822_inner_formal.py` to `q842_miss_scaling.py` | `q821_pair_loss.py`, `q823_quartet.py`, `q823b_quartet.py` | `q821_*.log` to `q833_*.log` |
+| rings inside rings (Tables S5 and S6 of the Supplementary Notes) | `q822_inner_formal.py` to `q842_miss_scaling.py` | `q821_pair_loss.py`, `q823_quartet.py`, `q823b_quartet.py` | `q821_*.log` to `q833_*.log` |
 
 The `q8xx` model scripts are float64 numpy; the ring solvers use python-flint ball arithmetic at 128 to 160 bits.
 
 See [`FILES.md`](FILES.md) for every script.
+
+The terms of this folder are those of the paper (Section I, Terms) and of the top README.

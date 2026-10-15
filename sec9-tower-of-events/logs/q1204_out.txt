@@ -1,0 +1,7 @@
+control: hash of the table content fcf88352217a8017... equals the registered hash: True
+control: K_b 81 recomputed 51.9802436076 against the table 51.9802436076 -> True
+control: K_b 90 recomputed 56.3782545581 against the table 56.3782545581 -> True
+control: K_b 79 deviation +0.0267e-9 against +0.027e-9 -> True
+control: K_b 80 deviation +0.0241e-9 against +0.024e-9 -> True
+K_b 81: A_meas 51.980243607689, a_pred 51.9802436076, deviation +0.1193e-9, item S1 (< 0.5e-9): True
+READING q1204: K_b 81 True (no verdict)

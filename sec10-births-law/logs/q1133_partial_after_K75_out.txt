@@ -1,0 +1,8 @@
+reference fit: 272 points from 30 families, degree 8, largest residual 0.0033; controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True, 'PC2': True}
+   K 74: differences f_j - reference +0.0002 +0.0007 +0.0009 +0.0009 +0.0006 +0.0002 -0.0001 -0.0003 -0.0005 -0.0006 (tolerance 0.006) -> PASS
+   K 75: differences f_j - reference +0.0003 +0.0005 +0.0006 +0.0004 +0.0000 -0.0003 -0.0006 -0.0007 -0.0008 -0.0008 (tolerance 0.006) -> PASS
+   K 76: missing -> MISSING
+   K 77: missing -> MISSING
+   K 78: missing -> MISSING
+   K 79: missing -> MISSING
+VERDICT q1133 T129: INCOMPLETE

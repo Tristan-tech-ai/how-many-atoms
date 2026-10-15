@@ -1,0 +1,2 @@
+C1 synthetic 8^n times a cubic: Z closed form and difference order 4 at lambda = 8: True; C2 synthetic 8^n + 3^n: no vanishing order, Z far from 1: False
+VOID: control failed

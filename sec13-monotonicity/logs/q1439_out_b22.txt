@@ -1,0 +1,5 @@
+controls: events at the table -> all PASS; one P event 0.06e-9 off -> FAIL ; one B102 event 3 bars off -> FAIL ; K_b 110 missing -> B108 INCOMPLETE ; one event 0.9 bar off -> B102 PASS : True
+P (post, K_b 82 to 101): PASS; measured 20 of 20; largest |dev| 0.0102e-9; violations []
+B102 (blind, K_b 102 to 107): PASS; measured 6 of 6; largest |dev| 0.0013e-9; violations []
+B108 (blind, K_b 108 to 114): INCOMPLETE; measured 6 of 7; largest |dev| 0.0049e-9; violations []
+VERDICT q1439: P PASS; B102 PASS; B108 INCOMPLETE

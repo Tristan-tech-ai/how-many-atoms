@@ -1,0 +1,20 @@
+=== q1642_births_136_138.py
+control K_b 137: c20 -8.53e-11 (-8.53e-11), c24 +2.91e-11 (+2.91e-11): ok
+K_b 136: c20 difference -7.96e-11, c24 difference +3.15e-11; R1 holds; R2 holds; R3 holds
+K_b 138: c20 difference -9.07e-11, c24 difference +2.68e-11; R1 holds; R2 holds; R3 holds
+READING q1642 done (labels by the script; no verdict word)
+=== q1668_births_136_138_labels.py
+K_b 136: ladder diff -2.001e-11 (bar holds, trend holds); frozen diff -2.160e-12 (bar holds, trend holds)
+K_b 138: ladder diff -2.119e-11 (bar holds, trend holds); frozen diff -2.416e-12 (bar holds, trend holds)
+READING q1668 done (labels by the script; no verdict word)
+=== q1682_cells_136_labels.py
+K_b 136 cell NG 13 nmax 14: a_pred - A = -4.263e-13 (bar holds)
+K_b 136 cell NG 14 nmax 14: a_pred - A = +8.527e-14 (bar holds)
+K_b 136 cell NG 14 nmax 16: a_pred - A = -2.416e-13 (bar holds)
+READING q1682 done (labels by the script; no verdict word)
+=== q1691_aitken_labels.py
+K_b 136: a_inf - A = +0.000e+00 (bar holds)
+K_b 139: a_inf - A = +7.105e-14 (bar holds)
+K_b 140: a_inf - A = +2.842e-14 (bar holds)
+K_b 141: a_inf - A = +2.842e-14 (bar holds)
+READING q1691 done (labels by the script; no verdict word)

@@ -1,0 +1,67 @@
+== quiet: a 24.087835, K 30, centre False
+   S1' central quotient of two polishes at a -+ 1e-4 vs du_p/da: max relative error 3.22e-08 -> PASS
+   sign of b by equation, g' group: 00000000000++++ | g-1 and centre group: --------------
+   p-rows of J^-1 against the g-1 / centre equations (rows p_1..p_J innermost first):
+     --++++++++++++
+     --++++++++++++
+     --++++++++++++
+     --++++++++++++
+     --++++++++++++
+     ---+++++++++++
+     ---+++++++++++
+     ---+++++++++++
+     ---+++++++++++
+     ---+++++++++++
+     ---+++++++++++
+     ----++++++++++
+     ----++++++++++
+     ---------+++++
+     --------------
+   part from the g' equations: min +1.6956 max +6.6364, all positive True
+   part from the g-1 equations: min -5.6513 max -0.8188, all positive False
+   sum min 0.2406 (compare du_p/da min 0.2406)
+== before: a 24.301715, K 30, centre False
+   S1' central quotient of two polishes at a -+ 1e-4 vs du_p/da: max relative error 1.22e-08 -> PASS
+   sign of b by equation, g' group: 00000000000++++ | g-1 and centre group: --------------
+   p-rows of J^-1 against the g-1 / centre equations (rows p_1..p_J innermost first):
+     --++++++++++++
+     --++++++++++++
+     ---+++++++++++
+     ---+++++++++++
+     ---+++++++++++
+     ---+++++++++++
+     ---+++++++++++
+     ----++++++++++
+     ----++++++++++
+     ----++++++++++
+     -----+++++++++
+     -----+++++++++
+     ------++++++++
+     ---------+++++
+     --------------
+   part from the g' equations: min +1.0034 max +6.2635, all positive True
+   part from the g-1 equations: min -5.2869 max -0.8188, all positive False
+   sum min 0.1455 (compare du_p/da min 0.1455)
+== after: a 24.327264, K 31, centre True
+   S1' central quotient of two polishes at a -+ 1e-4 vs du_p/da: max relative error 4.72e-07 -> PASS
+   sign of b by equation, g' group: 00000000000++++ | g-1 and centre group: ---------------
+   p-rows of J^-1 against the g-1 / centre equations (rows p_1..p_J innermost first):
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++++++++++-
+     ++++++---+++++-
+     +++------------
+   part from the g' equations: min +1.8188 max +31.5699, all positive True
+   part from the g-1 equations: min -27.1989 max -0.8188, all positive False
+   sum min 1.0000 (compare du_p/da min 1.0000)
+exit 0

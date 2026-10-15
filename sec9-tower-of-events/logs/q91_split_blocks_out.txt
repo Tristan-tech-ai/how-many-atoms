@@ -1,0 +1,5 @@
+line(s) of the limit 'fails > 8' in q1411_fast_walk.py: [221]; lines that set fails = 0: [198]
+attempt 0: 4 steps, eps 0.0001 to 2.963e-05, failed steps 4 (residuals after 40 iterations: 9.4e-13, 7.5e-14, 3.1e-16, 2.5e-18); end: split branch lost
+   accepted steps: 0; worst accepted residual none; steps with residual above 1e-55: 0
+attempt 1: 265 steps, eps 0.0001 to 0.2798, failed steps 9 (residuals after 40 iterations: 1.4e-13, 2.2e-13, 2.7e-11, 3.9e-17, 1.0e-16, 9.2e-17, 9.7e-16, 1.1e-15, 1.8e-15); end: split branch lost
+   accepted steps: 256; worst accepted residual 8.5e-46; steps with residual above 1e-55: 126

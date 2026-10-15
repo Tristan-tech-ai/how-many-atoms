@@ -1,0 +1,1705 @@
+[
+ {
+  "paper": "supplement_flat",
+  "printed": "0.4",
+  "context": "lost below the predicted point by $0.4",
+  "expr": "100*L(1477, r'E - 1 = \\+(4\\.17e-3)')",
+  "why": "LFP pair miss in the eccentric harmonic, E - 1 = +4.17e-3 (1477), in per cent",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.9",
+  "context": "lost below the predicted point by $0.4",
+  "expr": "100*L(1477, r'\\+(8\\.72e-3) \\(rd')",
+  "why": "NPMLE (rd) pair miss in the eccentric harmonic, E - 1 = +8.72e-3 (1477), in per cent",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.831",
+  "context": "$\\pi(1 + 2k_r) = -0.831$",
+  "expr": "math.pi*(1 + 2*L(1520, r'k = (-0\\.63226)'))",
+  "why": "pi (1 + 2k) with the 1D strip response k = -0.63226 (1520)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.44",
+  "context": "rises to $0.0148$ at $m = 12.8$",
+  "expr": "100*(L(1610, r'offset (3\\.36257)')/L(1610, r'over delta = (3\\.34776)') - 1)",
+  "why": "2D excess 3.36257 - 3.34776 at m 12.838 relative to delta (1610), in per cent",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.0890",
+  "context": "$0.0890$ near $7.7$",
+  "expr": "L(1597, r'and (3\\.4368) \\(7\\.72\\)') - L(1590, r'below delta = (3\\.34776)')",
+  "why": "5D maximum offset 3.4368 at m 7.72 (1597, 1590) minus the 1D delta 3.34776",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.6",
+  "context": "shape term & $2.6",
+  "expr": "100*(L(1513, r'Delta\\(2\\.5\\) = (0\\.060542)') - L(1513, r'registered (0\\.060508)'))/(L(1513, r'registered (0\\.060508)') - L(1513, r'alternative (0\\.059221)'))",
+  "why": "p 2.5: offset 0.060542 - 0.060508 over the shape signal 0.060508 - 0.059221 (registered minus area-only, 1513)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "1.0",
+  "context": "shape term & $2.6",
+  "expr": "100*(L(1514, r'= (0\\.098570);') - L(1514, r'registered (0\\.098533)'))/(L(1514, r'registered (0\\.098533)') - L(1514, r'alternative (0\\.094966)'))",
+  "why": "p 3: offset 0.098570 - 0.098533 over the shape signal 0.098533 - 0.094966 (registered minus area-only, 1514)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.138",
+  "context": "its shift is $2.138$ against",
+  "expr": "(T('temporal_within/centre_scripts/q868_runs/d8_e1.log', r'd 8 e1 \\(birth of the centre\\): m ([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)'))",
+  "why": "d 8 e1 3.19499053 (d8_e1.log) minus d 1 e1 1.05674351 (Amendment 1573)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "1.137",
+  "context": "against $1.137$ from",
+  "expr": "(7 * (3 * (L(1573, r'd 3 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)')) - 5 * (L(1573, r'd 2 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)'))))",
+  "why": "shift_8 = 7 (3 s_3 - 5 s_2) from the d = 2, 3 e1 shifts of Amendment 1573",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "88",
+  "context": "misses by $88\\%$: its shift",
+  "expr": "100 * ((T('temporal_within/centre_scripts/q868_runs/d8_e1.log', r'd 8 e1 \\(birth of the centre\\): m ([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)')) - (7 * (3 * (L(1573, r'd 3 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)')) - 5 * (L(1573, r'd 2 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)'))))) / (7 * (3 * (L(1573, r'd 3 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)')) - 5 * (L(1573, r'd 2 e1\\s+([\\d.]+)') - L(1573, r'reproduces d 1 e1 ([\\d.]+)'))))",
+  "why": "relative miss of the d = 8 e1 shift",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.3",
+  "context": "(resolution about $6\\%$, $2.3\\%$)",
+  "expr": "100 * ((L(1514, r'settings identical to 1513: final bracket \\[[\\d.]+, ([\\d.]+)\\]') - L(1514, r'settings identical to 1513: final bracket \\[([\\d.]+),')) + (L(1513, r'p 2 \\(disc control\\): final bracket \\[[\\d.]+, ([\\d.]+)\\]') - L(1513, r'p 2 \\(disc control\\): final bracket \\[([\\d.]+),'))) / 2 / (L(1512, r'predicted C ([\\d.]+); equal-area disc') - L(1512, r'equal-area disc \\(area-only alternative\\) ([\\d.]+)\\.'))",
+  "why": "p = 3: (bracket width at p 3 + disc bracket width)/2 over the shape signal 3.567e-3 = 2.31 % (Amendments 1512-1514)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "1.31",
+  "context": "$d = 4$ within $1.31",
+  "expr": "1.31 if 100*max([abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+2 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+2 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+3 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+3 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+5 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+5 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+6 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+6 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+7 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+7 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+8 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+8 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+9 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+9 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+10 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+10 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+11 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+11 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+12 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+12 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+13 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+13 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+14 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+14 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+15 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+15 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+16 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+16 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+17 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+17 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+18 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+18 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1)]) <= 1.31 else -1",
+  "why": "upper bound over the NPMLE d = 4 events of q872_npmle_d4.log; largest |shift/quadratic - 1| is 1.3047 % (K_eff 2)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.0048",
+  "context": "missed by $0.0048$",
+  "expr": "abs(L(1572, r'd 2 e1 (\\d\\.\\d+) \\(= the record') - L(1573, r'exact\\s+midpoints (\\d\\.\\d+) and'))",
+  "why": "2D e1 1.53499461 against the 1D midpoint 1.53019517 (Amendments 1572, 1573)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.00012",
+  "context": "(after the fact), $0.00012",
+  "expr": "abs(L(1573, r'2D e3 rebirth \\(midpoint\\)\\s+(\\d\\.\\d+)') - L(1573, r'exact\\s+midpoints \\d\\.\\d+ and (\\d\\.\\d+)'))",
+  "why": "2D e3 3.32182818 against the 1D midpoint 3.32195167 (Amendment 1573)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.8",
+  "context": "At $r_p = 2.8$, $r_m = 2.200$ this",
+  "expr": "L(1414, r'new centre atom of the 2 x 2 MIMO optimum at rp (\\d\\.\\d+)')",
+  "why": "1414 heading 'the mass of the new centre atom of the 2 x 2 MIMO optimum at rp 2.8'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "10^{-10}",
+  "context": "gave the same value to $10^{-10}",
+  "expr": "1e-10 if max([abs(L(1415, r'\\| 2\\.200 \\| (0\\.\\d+) \\|') - L(1415, r'\\| 2\\.200 \\| 0\\.\\d+ \\| (0\\.\\d+) \\|')), abs(L(1415, r'\\| 2\\.210 \\| (0\\.\\d+) \\|') - L(1415, r'\\| 2\\.210 \\| 0\\.\\d+ \\| (0\\.\\d+) \\|'))]) <= 1e-10 else -1",
+  "why": "m0 of the solved ring plus centre atom equals the registered m0 in all ten printed decimals: 1415 '| 2.200 | 0.0014575498 | 0.0014575498 |', '| 2.210 | 0.0025986389 | 0.0025986389 |' (heading 'to 1e-10')",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.5",
+  "context": "at $r_p = 3.5$ we",
+  "expr": "L(1418, r'on the filled ellipse rp (\\d\\.\\d+) the centre atom splits')",
+  "why": "1418 heading 'on the filled ellipse rp 3.5 the centre atom splits along the major axis at rm 3.20334'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "40",
+  "context": "a 40-atom ring with a center atom",
+  "expr": "L(1420, r'K (\\d+) boundary ring from a regular seed')",
+  "why": "1420 (a) 'Ring plus centre atom (I_centre_ring.py, K 40 boundary ring from a regular seed, float64)'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.13",
+  "context": "the capacity pair at $\\epsilon_i \\approx 0.13",
+  "expr": "L(1439, r'inner ellipticity \\d\\.\\d+ to\\s+(\\d\\.\\d+)\\)')",
+  "why": "capacity pair at rp 4.3: 1439 '(inner ellipticity 0.006 to 0.126)'; recompute_p1/inner_eps.py gives 0.126185 at the loss rm 3.29254",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.048",
+  "context": "the LFP pair at $0.048",
+  "expr": "J('temporal_within/gate_truth/recompute_p1/inner_eps.json', 'lfp_rp2.8', 'eps_i')",
+  "why": "LFP pair at rp 2.8: inner eps_i at the observed loss rm 2.246310 (1477), recomputed with q841's own method (inner_eps.py on q833_lfp28_inner.log): 0.048208 (1477 prints 'eps 0.048'; the same run gives E - 1 = 4.171e-3 as 1477)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.10",
+  "context": "$0.10$, each lost below",
+  "expr": "J('temporal_within/gate_truth/recompute_p1/inner_eps.json', 'rd_rp3.1', 'eps_i')",
+  "why": "NPMLE (rd) pair at rp 3.1: inner eps_i at the observed loss rm 2.498436 (1477), recomputed with q841's method (inner_eps.py on q833_rd31_inner.log): 0.099589 (1477 'eps 0.100'; E - 1 = 8.716e-3 as 1477)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.13",
+  "context": "quartet passed at $\\epsilon_i \\approx 0.13",
+  "expr": "L(1439, r'inner ellipticity \\d\\.\\d+ to\\s+(\\d\\.\\d+)\\)')",
+  "why": "capacity pair at rp 4.3: 1439 '(inner ellipticity 0.006 to 0.126)'; recompute_p1/inner_eps.py gives 0.126185 at the loss rm 3.29254",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.13",
+  "context": "capacity & 3/4 & 4/4",
+  "expr": "L(1439, r'inner ellipticity \\d\\.\\d+ to\\s+(\\d\\.\\d+)\\)')",
+  "why": "capacity pair at rp 4.3: 1439 '(inner ellipticity 0.006 to 0.126)'; recompute_p1/inner_eps.py gives 0.126185 at the loss rm 3.29254",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.048",
+  "context": "LFP & 2/3 & 2/2",
+  "expr": "J('temporal_within/gate_truth/recompute_p1/inner_eps.json', 'lfp_rp2.8', 'eps_i')",
+  "why": "LFP pair at rp 2.8: inner eps_i at the observed loss rm 2.246310 (1477), recomputed with q841's own method (inner_eps.py on q833_lfp28_inner.log): 0.048208 (1477 prints 'eps 0.048'; the same run gives E - 1 = 4.171e-3 as 1477)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.10",
+  "context": "NPMLE ($s = 2$) & 3/4 & 2/2",
+  "expr": "J('temporal_within/gate_truth/recompute_p1/inner_eps.json', 'rd_rp3.1', 'eps_i')",
+  "why": "NPMLE (rd) pair at rp 3.1: inner eps_i at the observed loss rm 2.498436 (1477), recomputed with q841's method (inner_eps.py on q833_rd31_inner.log): 0.099589 (1477 'eps 0.100'; E - 1 = 8.716e-3 as 1477)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "4.5",
+  "context": "discs and balls with radius $m \\le 4.5",
+  "expr": "max([L(1558, r'(\\d\\.\\d+)\\s+ACCEPTED \\(res 6\\.7e-16\\)'), L(1558, r'(\\d\\.\\d+)\\s+ACCEPTED \\(res 8\\.9e-16\\)'), L(1564, r'(\\d\\.\\d+)\\s+ACCEPTED \\(KKT \\+2\\.2e-16\\)'), L(1564, r'(\\d\\.\\d+)\\s+ACCEPTED \\(KKT -2\\.2e-16\\)'), L(1564, r'(\\d\\.\\d+)\\s+ACCEPTED \\(KKT \\+9\\.8e-15\\)'), L(1567, r'(\\d\\.\\d+)\\s+ACCEPTED \\(\\+3\\.3e-15\\)'), L(1567, r'(\\d\\.\\d+)\\s+ACCEPTED \\(-2\\.7e-15\\)'), L(1567, r'(\\d\\.\\d+)\\s+ACCEPTED \\(\\+3\\.1e-15\\)')])",
+  "why": "largest radius among the accepted LFP disc (1558, 1564) and ball (1567) states: m 2.5, 4.5; 2.0, 3.5, 4.0; 2.5, 3.5, 4.5",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "6.5",
+  "context": "$m = 6.5$. At a center event",
+  "expr": "L(1558, r'(\\d\\.\\d+)\\s+NOT ACCEPTED \\(KKT \\+9\\.8\\)') if L(1558, r'(\\d\\.\\d+)\\s+NOT ACCEPTED \\(KKT \\+9\\.8\\)') == L(1564, r'(\\d\\.\\d+)\\s+NOT ACCEPTED \\(KKT \\+0\\.95\\)') else -1",
+  "why": "the disc run that failed in both attempts: 1558 '6.5 NOT ACCEPTED (KKT +9.8)' and 1564 '6.5 NOT ACCEPTED (KKT +0.95)'",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.5",
+  "context": "$1.0139$ at $m = 3.5",
+  "expr": "T('temporal_within/centre_scripts/q862_runs/m3.5.log', r'm (\\d\\.\\d+): K \\d+ \\(centre atom')",
+  "why": "1D LFP state behind the ratio 1.0139: q862_runs/m3.5.log 'm 3.5: K 5 (centre atom yes) ... B 0.7865959476 ... ACCEPTED' (ratio (1 - B)/(pi^2/(m + delta)^2) = 1.0139, 1576 M4)",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "4.5",
+  "context": "$1.0088$ at $m = 4.5",
+  "expr": "T('temporal_within/centre_scripts/q862_runs/m4.5.log', r'm (\\d\\.\\d+): K \\d+ \\(centre atom')",
+  "why": "1D LFP state behind the ratio 1.0088: q862_runs/m4.5.log 'm 4.5: K 6 (centre atom no) ... B 0.8383434439 ... ACCEPTED'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "16",
+  "context": "16 states): strip",
+  "expr": "L(1510, r'C at integer A = \\d+\\.\\.(\\d+)') - L(1510, r'Fits over A >= (\\d+)') + 1",
+  "why": "number of integer radii in the fit: 1510 'C at integer A = 3..25' and 'Fits over A >= 10 (16 states)': 25 - 10 + 1",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2\\times 10^{-5}",
+  "context": "16 states): strip",
+  "expr": "abs(L(1510, r's0 = (\\d\\.\\d+), s1 = ') - L(725, r'beta = (\\d\\.\\d+), A = 29\\.85'))",
+  "why": "three-term fit s0 = 3.98159 (1510) against beta = 3.98160794709 (725): |s0 - beta| = 1.79e-5 (1510: 's0 - beta = -1.8e-5')",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.5",
+  "context": "superellipses $p = 2.5",
+  "expr": "L(1513, r'superellipse p = (\\d\\.\\d+) follows')",
+  "why": "1513 heading 'Capacity on the superellipse p = 2.5 follows'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.4\\times 10^{-5}",
+  "context": "superellipses $p = 2.5",
+  "expr": "L(1513, r'p 2\\.5: final bracket .*?midpoint (\\d\\.\\d+)') - L(1513, r'p 2 \\(disc control\\): .*?midpoint (\\d\\.\\d+)') - L(1513, r'registered (\\d\\.\\d+) \\+-')",
+  "why": "p 2.5: Delta = midpoint 2.96738138 - disc midpoint 2.90683923 = 0.06054215 (1513) against registered 0.060508: +3.42e-5 in C",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.7\\times 10^{-5}",
+  "context": "superellipses $p = 2.5",
+  "expr": "L(1514, r'midpoint (\\d\\.\\d+)\\. Delta\\(3\\)') - L(1514, r'Delta\\(3\\) = \\d\\.\\d+ - (\\d\\.\\d+) =') - L(1514, r'registered (\\d\\.\\d+) \\+-')",
+  "why": "p 3: Delta = 3.00540945 - 2.90683923 = 0.09857022 (1514) against registered 0.098533: +3.72e-5 in C",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.03",
+  "context": "(registered $-0.633 \\pm 0.03",
+  "expr": "L(1519, r'PASS: k = -0\\.633 \\+- (\\d\\.\\d+)')",
+  "why": "band registered in 1519: 'PASS: k = -0.633 +- 0.03'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "20",
+  "context": "width $20$ to",
+  "expr": "L(1526, r'a = (\\d+): -0\\.041408')",
+  "why": "width registered in 1526: 'a = 20: -0.041408, -0.041411, -0.041416' (scored in 1527)",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "5\\times 10^{-7}",
+  "context": "width $20$ to",
+  "expr": "max([L(1527, r'differences \\+(\\d\\.\\d+e-\\d+),'), L(1527, r'differences \\+\\d\\.\\d+e-\\d+, -(\\d\\.\\d+e-\\d+),'), L(1527, r'differences \\+\\d\\.\\d+e-\\d+, -\\d\\.\\d+e-\\d+, -(\\d\\.\\d+e-\\d+),')]) if max([L(1527, r'differences \\+(\\d\\.\\d+e-\\d+),'), L(1527, r'differences \\+\\d\\.\\d+e-\\d+, -(\\d\\.\\d+e-\\d+),'), L(1527, r'differences \\+\\d\\.\\d+e-\\d+, -\\d\\.\\d+e-\\d+, -(\\d\\.\\d+e-\\d+),')]) <= 5e-7 else -1",
+  "why": "a = 20 rows against the frozen predictions: 1527 'differences +3.7e-7, -3.6e-7, -5.0e-7'; largest 5.0e-7",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.5",
+  "context": "LFP, discs $m = 2, 2.5",
+  "expr": "L(1558, r'(\\d\\.\\d+)\\s+ACCEPTED \\(res 6\\.7e-16\\)')",
+  "why": "accepted disc state of 1558: '2.5 ACCEPTED (res 6.7e-16) ... ratio 1.0170'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.5",
+  "context": "LFP, discs $m = 2, 2.5, 3.5",
+  "expr": "L(1564, r'(\\d\\.\\d+)\\s+ACCEPTED \\(KKT -2\\.2e-16\\)')",
+  "why": "accepted disc state of 1564: '3.5 ACCEPTED (KKT -2.2e-16) ... ratio 1.0067'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "4.5",
+  "context": "LFP, discs $m = 2, 2.5, 3.5, 4, 4.5",
+  "expr": "L(1558, r'(\\d\\.\\d+)\\s+ACCEPTED \\(res 8\\.9e-16\\)')",
+  "why": "accepted disc state of 1558: '4.5 ACCEPTED (res 8.9e-16) ... ratio 1.0020'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.85",
+  "context": "LFP, discs $m = 2",
+  "expr": "L(1557, r'Band: ratio \\(2 - B\\)/prediction in \\[(\\d\\.\\d+),')",
+  "why": "band registered in 1557: 'ratio (2 - B)/prediction in [0.85, 1.15]'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.5",
+  "context": "LFP, ellipses $(5, 3.5)$",
+  "expr": "L(1559, r'\\(A, B\\) = \\(5, (\\d\\.\\d+)\\)')",
+  "why": "ellipse registered in 1559: '(A, B) = (5, 3.5): 0.410547'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.97",
+  "context": "LFP, ellipses $(5, 3.5)$",
+  "expr": "L(1559, r'Band: ratio \\(2 - B\\)/prediction in \\[(\\d\\.\\d+),')",
+  "why": "band registered in 1559: 'ratio (2 - B)/prediction in [0.97, 1.04]'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.5",
+  "context": "LFP, balls $m = 2.5",
+  "expr": "L(1567, r'(\\d\\.\\d+)\\s+ACCEPTED \\(\\+3\\.3e-15\\)')",
+  "why": "ball state of 1567: '2.5 ACCEPTED (+3.3e-15) ... ratio 1.0060'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.5",
+  "context": "LFP, balls $m = 2.5, 3.5",
+  "expr": "L(1567, r'(\\d\\.\\d+)\\s+ACCEPTED \\(-2\\.7e-15\\)')",
+  "why": "ball state of 1567: '3.5 ACCEPTED (-2.7e-15) ... ratio 0.9986'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "4.5",
+  "context": "LFP, balls $m = 2.5, 3.5, 4.5",
+  "expr": "L(1567, r'(\\d\\.\\d+)\\s+ACCEPTED \\(\\+3\\.1e-15\\)')",
+  "why": "ball state of 1567: '4.5 ACCEPTED (+3.1e-15) ... ratio 0.9946'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.85",
+  "context": "LFP, balls $m = 2.5",
+  "expr": "L(1566, r'Band: ratio in \\[(\\d\\.\\d+), 1\\.15\\]')",
+  "why": "band registered in 1566: 'Band: ratio in [0.85, 1.15] (as 1557)'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.99",
+  "context": "LFP, narrow annuli with the 1D coupling",
+  "expr": "L(1565, r'Band: ratio \\(2 - B\\)/coupled in \\[(\\d\\.\\d+),')",
+  "why": "band registered in 1565: 'ratio (2 - B)/coupled in [0.99, 1.03]'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "7.7",
+  "context": "$4 \\le m \\le 7.7",
+  "expr": "L(1585, r'd 5: (?:\\d\\.\\d+ \\(\\d\\.\\d+\\), ){4}\\d\\.\\d+ \\((\\d\\.\\d+)\\)')",
+  "why": "largest event radius of the tracked LFP states scored in 1585: 'd 5: ... 0.98410 (7.7151)'; 1584 '5D e3-e7, 4.40-7.72'",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "9.5",
+  "context": "at $9.5 \\le m",
+  "expr": "L(1590, r'with m in \\[(\\d\\.\\d+), \\d+\\.\\d+\\]')",
+  "why": "window registered in 1590: '3D chain events with m in [9.5, 13.5]'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "7.6",
+  "context": "factor $d - 1$ ($m = 7.6",
+  "expr": "L(1602, r'3D m (\\d\\.\\d+): offset')",
+  "why": "the two scored 3D events of 1602: '3D m 7.5890: offset 3.38490 ...' and '3D m 8.4442: offset 3.38584 ...'",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "8.4",
+  "context": "7.6$--$8.4",
+  "expr": "L(1602, r'3D m 7\\.5890: offset.*?3D m (\\d\\.\\d+): offset')",
+  "why": "the two scored 3D events of 1602: '3D m 7.5890: offset 3.38490 ...' and '3D m 8.4442: offset 3.38584 ...'",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.003",
+  "context": "2 of 2 within $0.003",
+  "expr": "0.003 if max([abs((L(1602, r'3D m 7\\.5890: offset (\\d\\.\\d+), predicted') - L(1602, r'3D m 7\\.5890: offset \\d\\.\\d+, predicted [^=]*= (\\d\\.\\d+)'))), abs((L(1602, r'3D m 8\\.4442: offset (\\d\\.\\d+), predicted') - L(1602, r'3D m 8\\.4442: offset \\d\\.\\d+, predicted (\\d\\.\\d+)')))]) <= 0.003 else -1",
+  "why": "1602 '3D m 7.5890: offset 3.38490, predicted ... = 3.38576, difference -0.00086' and '3D m 8.4442: offset 3.38584, predicted 3.38670'; band 0.003 registered in 1591",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.0009",
+  "context": "(misses $-0.0009",
+  "expr": "max([abs((L(1602, r'3D m 7\\.5890: offset (\\d\\.\\d+), predicted') - L(1602, r'3D m 7\\.5890: offset \\d\\.\\d+, predicted [^=]*= (\\d\\.\\d+)'))), abs((L(1602, r'3D m 8\\.4442: offset (\\d\\.\\d+), predicted') - L(1602, r'3D m 8\\.4442: offset \\d\\.\\d+, predicted (\\d\\.\\d+)')))])",
+  "why": "1602 '3D m 7.5890: offset 3.38490, predicted ... = 3.38576, difference -0.00086' and '3D m 8.4442: offset 3.38584, predicted 3.38670'",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.98",
+  "context": "bands were $[0.98",
+  "expr": "L(1584, r'lies in \\[(\\d\\.\\d+), 1\\.02\\]')",
+  "why": "band registered in 1584: 'lies in [0.98, 1.02] (d 2, 3'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.95",
+  "context": "and $[0.95",
+  "expr": "L(1584, r'or \\[(\\d\\.\\d+), 1\\.05\\]')",
+  "why": "band registered in 1584: 'or [0.95, 1.05] (d 4, 5'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "9.9",
+  "context": "near $m = 9.9",
+  "expr": "T('temporal_within/centre_scripts/q868_runs/q874_d3_1590.log', r'm (\\d+\\.\\d+) deficit \\d\\.\\d+ offset (\\d\\.\\d+) residual(?=.*max offset \\2;)')",
+  "why": "radius of the event whose offset equals the log's 'max offset 3.38623' (q874_d3_1590.log: 'm 9.885038 ... offset 3.38623')",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "7.9",
+  "context": "near $7.9",
+  "expr": "T('temporal_within/centre_scripts/q868_runs/q874_d4_1593.log', r'm (\\d+\\.\\d+) deficit \\d\\.\\d+ offset (\\d\\.\\d+) residual(?=.*max offset \\2;)')",
+  "why": "radius of the event whose offset equals the log's 'max offset 3.41130' (q874_d4_1593.log: 'm 7.924068 ... offset 3.41130')",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "7.7",
+  "context": "near $7.7",
+  "expr": "L(1597, r'the last known 5D offsets \\d\\.\\d+ \\(\\d\\.\\d+\\) and \\d\\.\\d+ \\((\\d\\.\\d+)\\)') if abs(L(1597, r'the last known 5D offsets \\d\\.\\d+ \\(\\d\\.\\d+\\) and (\\d\\.\\d+) \\(') - T('temporal_within/centre_scripts/q868_runs/q874_d5_1597.log', r'max offset (\\d\\.\\d+);')) < 5e-5 else -1",
+  "why": "5D maximum: 1597 'the last known 5D offsets 3.4361 (6.66) and 3.4368 (7.72)', and q874_d5_1597.log 'max offset 3.43680' is that value",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "18",
+  "context": "annuli of width $W = 10$ to $18",
+  "expr": "max([L(1531, r'\\(R1, R2\\)\\s+rings[^\\n]*\\n\\s+\\(\\d+, (\\d+)\\)') - L(1531, r'\\(R1, R2\\)\\s+rings[^\\n]*\\n\\s+\\((\\d+), \\d+\\)'), L(1531, r'\\(R1, R2\\)\\s+rings[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\(\\d+, (\\d+)\\)') - L(1531, r'\\(R1, R2\\)\\s+rings[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\((\\d+), \\d+\\)'), L(1531, r'\\(R1, R2\\)\\s+rings[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\(\\d+, (\\d+)\\)') - L(1531, r'\\(R1, R2\\)\\s+rings[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\((\\d+), \\d+\\)'), L(1531, r'\\(R1, R2\\)\\s+rings[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\(\\d+, (\\d+)\\)') - L(1531, r'\\(R1, R2\\)\\s+rings[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\(\\d+, \\d+\\)[^\\n]*\\n\\s+\\((\\d+), \\d+\\)')])",
+  "why": "widths R2 - R1 of the four annuli of 1531's table ((12, 30), (15, 30), (20, 30), (15, 25)): 18, 15, 10, 10",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "77",
+  "context": "the observed miss is $77",
+  "expr": "100*min([L(1532, r'\\(12, 30\\)\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1532, r'\\(12, 30\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)'), L(1532, r'\\(15, 30\\)\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1532, r'\\(15, 30\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)'), L(1532, r'\\(20, 30\\)\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1532, r'\\(20, 30\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)'), L(1532, r'\\(15, 25\\)\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1532, r'\\(15, 25\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')])",
+  "why": "smallest ratio miss / strip term over the four annuli of 1532 (miss of 1531, strip 4 pi R_mid delta0(W/2)): (12, 30) -2.50010e-3 / -3.23956e-3 = 77.2 %; largest (15, 25) 101.0 %",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "1.6",
+  "context": "to $0.7$ to $1.6",
+  "expr": "100*(max([L(1568, r'\\(7, 10\\)\\s+[\\d.]+\\s+[\\d.]+\\s+[\\d.e-]+\\s+\\[[^\\]]*\\]\\s+(\\d\\.\\d+)')/L(1568, r'\\(7, 10\\)\\s+[\\d.]+\\s+[\\d.]+\\s+[\\d.e-]+\\s+\\[[^\\]]*\\]\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)'), L(1568, r'\\(9, 13\\)\\s+[\\d.]+\\s+[\\d.]+\\s+[\\d.e-]+\\s+\\[[^\\]]*\\]\\s+(\\d\\.\\d+)')/L(1568, r'\\(9, 13\\)\\s+[\\d.]+\\s+[\\d.]+\\s+[\\d.e-]+\\s+\\[[^\\]]*\\]\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)'), L(1568, r'\\(10, 15\\)\\s+[\\d.]+\\s+[\\d.]+\\s+[\\d.e-]+\\s+\\[[^\\]]*\\]\\s+(\\d\\.\\d+)')/L(1568, r'\\(10, 15\\)\\s+[\\d.]+\\s+[\\d.]+\\s+[\\d.e-]+\\s+\\[[^\\]]*\\]\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)')]) - 1)",
+  "why": "1568 bracket midpoint over the coupled prediction on the three annuli: 0.433474/0.426799, 0.348652/0.345854, 0.290780/0.288764; largest +1.564 %",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "14",
+  "context": "up to $14",
+  "expr": "100*max([abs(L(1534, r'\\(10, 3\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(10, 3\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(10, 4\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(10, 4\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(10, 5\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(10, 5\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(10, 6\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(10, 6\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(10, 7\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(10, 7\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(10, 9\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(10, 9\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(20, 3\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(20, 3\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(20, 4\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(20, 4\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(20, 5\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(20, 5\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(20, 6\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(20, 6\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(20, 7\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(20, 7\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(20, 9\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(20, 9\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1534, r'\\(20, 11\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1534, r'\\(20, 11\\)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)'))])",
+  "why": "largest |obs - P1| / |coupling| over the 13 decisive 2D capacity entries of 1534: (10, 6) 5.06e-2 / 0.3624 = 14.0 % (1534 '0.04-14 %')",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "33",
+  "context": "(2D) and $33",
+  "expr": "100*max([abs(L(1536, r'\\n\\s+3\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+8\\s')/L(1536, r'\\n\\s+3\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+8\\s')), abs(L(1536, r'\\n\\s+3\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+8\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1536, r'\\n\\s+3\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+8\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1536, r'\\n\\s+4\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+9\\s')/L(1536, r'\\n\\s+4\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+9\\s')), abs(L(1536, r'\\n\\s+4\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+9\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1536, r'\\n\\s+4\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+9\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1536, r'\\n\\s+5\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+10\\s')/L(1536, r'\\n\\s+5\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+10\\s')), abs(L(1536, r'\\n\\s+5\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+10\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1536, r'\\n\\s+5\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+10\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1536, r'\\n\\s+6\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+11\\s')/L(1536, r'\\n\\s+6\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+11\\s')), abs(L(1536, r'\\n\\s+6\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+11\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1536, r'\\n\\s+6\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+11\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)')), abs(L(1536, r'\\n\\s+7\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+13\\s')/L(1536, r'\\n\\s+7\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+13\\s')), abs(L(1536, r'\\n\\s+7\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+13\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?')/L(1536, r'\\n\\s+7\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+13\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+[+-]?\\d+\\.\\d+(?:e-\\d+)?\\s+([+-]?\\d+\\.\\d+(?:e-\\d+)?)'))])",
+  "why": "largest |obs - P1| / |coupling| over the 10 decisive 3D shell widths of 1536: W 8, 1.452 / 4.420 = 32.9 % (1536 'remainder is 33 %')",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.64",
+  "context": "in $d = 4$ and $5$ within $0.64",
+  "expr": "max([100*abs(L(1580, r'e3 birth\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)\\s+\\d\\.\\d+')/L(1580, r'e3 birth\\s+\\d\\.\\d+\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)') - 1), 100*abs(L(1580, r'e4 lift\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)\\s+\\d\\.\\d+')/L(1580, r'e4 lift\\s+\\d\\.\\d+\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)') - 1), 100*abs(L(1580, r'e5 birth\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)\\s+\\d\\.\\d+')/L(1580, r'e5 birth\\s+\\d\\.\\d+\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)') - 1), 100*abs(L(1580, r'e6 lift\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)\\s+\\d\\.\\d+')/L(1580, r'e6 lift\\s+\\d\\.\\d+\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)') - 1), 100*abs(L(1580, r'e7 birth\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)\\s+\\d\\.\\d+')/L(1580, r'e7 birth\\s+\\d\\.\\d+\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)') - 1)]) if max([100*abs(L(1580, r'e3 birth\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)\\s+\\d\\.\\d+')/L(1580, r'e3 birth\\s+\\d\\.\\d+\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)') - 1), 100*abs(L(1580, r'e4 lift\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)\\s+\\d\\.\\d+')/L(1580, r'e4 lift\\s+\\d\\.\\d+\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)') - 1), 100*abs(L(1580, r'e5 birth\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)\\s+\\d\\.\\d+')/L(1580, r'e5 birth\\s+\\d\\.\\d+\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)') - 1), 100*abs(L(1580, r'e6 lift\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)\\s+\\d\\.\\d+')/L(1580, r'e6 lift\\s+\\d\\.\\d+\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)') - 1), 100*abs(L(1580, r'e7 birth\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)\\s+\\d\\.\\d+')/L(1580, r'e7 birth\\s+\\d\\.\\d+\\s+\\d\\.\\d+\\s+(\\d\\.\\d+)') - 1)]) <= 0.64 else -1",
+  "why": "LFP 4D events e3-e7 of 1580: |shift / predicted shift - 1|, largest e3 1.17354/1.16608 - 1 = 0.640 %",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "1.3",
+  "context": "$d = 4$ within $1.3",
+  "expr": "100*max([abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+2 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+2 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+3 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+3 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+5 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+5 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+6 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+6 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+7 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+7 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+8 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+8 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+9 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+9 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+10 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+10 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+11 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+11 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+12 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+12 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+13 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+13 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+14 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+14 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+15 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+15 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+16 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+16 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+17 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+17 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1), abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+18 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+18 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1)])",
+  "why": "NPMLE d 4 events K_eff 2-18 of q872_npmle_d4.log: |shift / quadratic - 1|, largest K_eff 2 0.71744/0.70820 - 1 = 1.305 %",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "16",
+  "context": "16 of 17 within",
+  "expr": "sum([abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+2 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+2 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+3 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+3 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+5 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+5 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+6 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+6 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+7 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+7 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+8 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+8 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+9 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+9 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+10 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+10 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+11 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+11 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+12 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+12 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+13 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+13 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+14 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+14 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+15 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+15 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+16 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+16 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+17 birth\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+17 birth\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01, abs(T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+18 liftoff\\s+A\\s+[\\d.]+ shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'K_eff\\s+18 liftoff\\s+A\\s+[\\d.]+ shift \\d\\.\\d+ quadratic (\\d\\.\\d+)') - 1) <= 0.01])",
+  "why": "count of the 17 NPMLE d 4 events of q872_npmle_d4.log with |shift / quadratic - 1| <= 1 % (log: 'within 1 %: 16')",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "17",
+  "context": "16 of 17 within",
+  "expr": "T('temporal_within/centre_scripts/q868_runs/q872_npmle_d4.log', r'd = 4 NPMLE: (\\d+) matched events')",
+  "why": "q872_npmle_d4.log 'd = 4 NPMLE: 17 matched events'",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.8",
+  "context": "and $2.8\\%$ in $d = 5$",
+  "expr": "100*abs(T('temporal_within/centre_scripts/q868_runs/q870_cap.log', r'd = 5:.*?K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+\\s+shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q870_cap.log', r'd = 5:.*?K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+\\s+shift \\d\\.\\d+\\s+quadratic (\\d\\.\\d+)') - 1) if T('temporal_within/centre_scripts/q868_runs/q870_cap.log', r'd = 5: \\d+ matched events; in band \\(2%\\) (\\d+)') == T('temporal_within/centre_scripts/q868_runs/q870_cap.log', r'd = 5: (\\d+) matched events') - 1 and abs(T('temporal_within/centre_scripts/q868_runs/q870_cap.log', r'd = 5:.*?K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+\\s+shift (\\d\\.\\d+)')/T('temporal_within/centre_scripts/q868_runs/q870_cap.log', r'd = 5:.*?K_eff\\s+4 liftoff\\s+A\\s+[\\d.]+\\s+shift \\d\\.\\d+\\s+quadratic (\\d\\.\\d+)') - 1) > 0.02 else -1",
+  "why": "capacity d 5 (q870_cap.log): the one event outside 2 % ('20 matched events; in band (2%) 19') is K_eff 4, 1.77698/1.72927 - 1 = 2.76 %, so it is the largest",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "25",
+  "context": "($R = 10$ to $25",
+  "expr": "L(1495, r'at A = 10, 15, 20, (\\d+) q668 and q846 have the same ring\\s+counts')",
+  "why": "NPMLE disc radii checked by both instruments: 1495 (3) 'at A = 10, 15, 20, 25 q668 and q846 have the same ring counts (5, 8, 11, 15'",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.5",
+  "context": "at $m = 2$ and $3.5",
+  "expr": "L(1564, r'(\\d\\.\\d+)\\s+ACCEPTED \\(KKT -2\\.2e-16\\)')",
+  "why": "LFP disc state of 1564 '3.5 ACCEPTED (KKT -2.2e-16) centre + 1.64275 + 3.5' (3 rings counting the centre; 1D K 5 gives 2 pairs)",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.0001",
+  "context": "(after the fact), $0.0001",
+  "expr": "abs(L(1573, r'2D e3 rebirth \\(midpoint\\)\\s+(\\d\\.\\d+)') - L(1573, r'exact\\s+midpoints \\d\\.\\d+ and (\\d\\.\\d+)'))",
+  "why": "2D e3 3.32182818 against the 1D midpoint 3.32195167 (1573 table and note): -0.00012",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.015",
+  "context": "(registered) and $0.015",
+  "expr": "L(1574, r'difference \\+(\\d\\.\\d+): FAIL \\(band')",
+  "why": "1574 M: '2D e5 ... 4.98162126; difference +0.015134: FAIL (band +-0.01)'",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.01",
+  "context": "outside its band of $0.01",
+  "expr": "L(1573, r'= \\(1D e5 \\+ 1D e6\\)/2 within \\+-(\\d\\.\\d+)')",
+  "why": "band registered in 1573 M: '(1D e5 + 1D e6)/2 within +-0.01'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.015",
+  "context": "failed: 2D birth $e_5$ at the 1D midpoint",
+  "expr": "L(1574, r'difference \\+(\\d\\.\\d+): FAIL \\(band')",
+  "why": "1574 M: 'difference +0.015134: FAIL (band +-0.01)'",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.01",
+  "context": "failed: 2D birth $e_5$ at the 1D midpoint",
+  "expr": "L(1573, r'= \\(1D e5 \\+ 1D e6\\)/2 within \\+-(\\d\\.\\d+)')",
+  "why": "band registered in 1573 M: 'within +-0.01'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "18",
+  "context": "form S on the ellipse $r_p = 3$, 18-ring",
+  "expr": "L(1349, r'cap, rp 3, K (\\d+), major')",
+  "why": "ring size of the rp 3 event whose form-S score failed (+1.175 %, 1356); registered as 'cap, rp 3, K 18, major' (1349)",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "18",
+  "context": "extremal form, mixed curve, 18-ring",
+  "expr": "L(1331, r'lam 0\\.02 K (\\d+) scored')",
+  "why": "1331 heading 'lam 0.02 K 18 scored: copying ring PASS (+0.277 %), extremal FAIL (-2.81 %)'",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.6\\times10^{-5}",
+  "context": "to $1.6\\times10^{-5}$ at $R=10$",
+  "expr": "L(1482, r'R = 10: [-\\d.]+ vs [-\\d.]+ \\((\\d\\.\\d)e-5\\s+relative\\)')*1e-5",
+  "why": "amendment 1482: P1 on the disc, R = 10, relative difference 1.6e-5",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "3\\times10^{-7}",
+  "context": "to $3\\times10^{-7}$ at $R=20$",
+  "expr": "L(1482, r'R = 20: [-\\d.]+ vs [-\\d.]+ \\((\\d)e-7\\s+relative\\)')*1e-7",
+  "why": "amendment 1482: P1 on the disc, R = 20, relative difference 3e-7",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "20",
+  "context": "at $R=20$",
+  "expr": "L(1482, r'R = (\\d+): -0\\.01524395')",
+  "why": "amendment 1482: R = 20",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "15",
+  "context": "for $j=2$ to $15$",
+  "expr": "T('temporal_within/small_gap_q206/q1757_bulk_coefficients_j11_15.py', r'j = 11\\.\\.(15)')",
+  "why": "q1757: the structure is tested on j = 11..15 (F_15 = f30)",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "15",
+  "context": "on $j=11$ to $15$",
+  "expr": "T('temporal_within/small_gap_q206/q1757_bulk_coefficients_j11_15.py', r'j = 11\\.\\.(15)')",
+  "why": "q1757: j = 11..15",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "16",
+  "context": "19j+16)/90",
+  "expr": "T('temporal_within/small_gap_q206/q1757_bulk_coefficients_j11_15.py', r'19 j \\+ (\\d+)\\) / \\d+')",
+  "why": "q1757 docstring: Q(j) = -j (j - 1) (6 j^3 + j^2 - 19 j + 16) / 90",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "90",
+  "context": "19j+16)/90",
+  "expr": "T('temporal_within/small_gap_q206/q1757_bulk_coefficients_j11_15.py', r'19 j \\+ \\d+\\) / (\\d+)')",
+  "why": "q1757 docstring: Q(j) = ... / 90",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "15",
+  "context": "for $n=1$ to $15$",
+  "expr": "L(2227, r'for n = 1 to (15)\\.')",
+  "why": "amendment 2227: the logarithm of the generating function has the coefficient 1/(n 8^n) at u^n for n = 1 to 15",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.4",
+  "context": "registered to lie in $1.4$ to $2.6$",
+  "expr": "L(1799, r'M2: the step r71 - r70 lies in \\[(1\\.4)e-9, 2\\.6e-9\\]')",
+  "why": "amendment 1799: registered band of the step at K_b 71",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "2.6",
+  "context": "registered to lie in $1.4$ to $2.6$",
+  "expr": "L(1799, r'M2: the step r71 - r70 lies in \\[1\\.4e-9, (2\\.6)e-9\\]')",
+  "why": "amendment 1799: registered band of the step at K_b 71",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "2.68",
+  "context": "was $2.68$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'step at K_b 71 is \\+(2\\.68)01e-09')",
+  "why": "amendment 1820: the step at K_b 71 is +2.6801e-09",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.08",
+  "context": "registered in $1.08$ to $1.19$",
+  "expr": "L(1836, r'lies in \\[(1\\.08), 1\\.19\\] for K = 74 to 79')",
+  "why": "amendment 1836: registered band of the ratio",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.19",
+  "context": "registered in $1.08$ to $1.19$",
+  "expr": "L(1836, r'lies in \\[1\\.08, (1\\.19)\\] for K = 74 to 79')",
+  "why": "amendment 1836: registered band of the ratio",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "2.4",
+  "context": "from $2.4$ at $K_b = 61$",
+  "expr": "L(1962, r'The c50c stage D = 110: (2\\.374)')",
+  "why": "amendment 1962: residual at K_b 61 on the c50c stage D = 110",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "16.1",
+  "context": "to $16.1$ at $K_b = 80$",
+  "expr": "L(1962, r'The c50c stage D = 110: 2\\.374, 12\\.581, 15\\.953, (16\\.118)')",
+  "why": "amendment 1962: residual at K_b 80 on the c50c stage D = 110",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "61",
+  "context": "at $K_b = 61$ to $16.1$",
+  "expr": "L(1962, r'for K_b (61), 70, 79, 80')",
+  "why": "amendment 1962: K_b 61",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "80",
+  "context": "to $16.1$ at $K_b = 80$",
+  "expr": "L(1962, r'for K_b 61, 70, 79, (80):')",
+  "why": "amendment 1962: K_b 80",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.020",
+  "context": "error of up to $0.020$",
+  "expr": "L(2016, r'by 0\\.004e-9 to (0\\.020)e-9')",
+  "why": "amendment 2016: the cubic spline errs at births by 0.004e-9 to 0.020e-9",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "2.4",
+  "context": "$2.4$ at $K_b = 61$",
+  "expr": "L(1962, r'The c50c stage D = 110: (2\\.374)')",
+  "why": "amendment 1962: residual at K_b 61 on the c50c stage D = 110",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.020",
+  "context": "$0.020$ at births",
+  "expr": "L(2016, r'by 0\\.004e-9 to (0\\.020)e-9')",
+  "why": "amendment 2016: the cubic spline errs at births by 0.004e-9 to 0.020e-9",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "93",
+  "context": "NPMLE transition $K_b = 93$ & 2040",
+  "expr": "L(2040, r'False by 0\\.023e-9 at K_b (93)')",
+  "why": "amendment 2040: K_b 93",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "94",
+  "context": "capacity birth $K_b = 94$ & 2160",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'FAILS by the letter at the birth K_b (94)')",
+  "why": "amendment 2160: K_b 94",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.05",
+  "context": "step $0.05$ on the computed optima",
+  "expr": "L(1482, r'centred differences \\(R \\+- (0\\.05)\\)')",
+  "why": "amendment 1482: P1 uses a centred difference in R with R +- 0.05",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "16",
+  "context": "series to order $16$ still gives",
+  "expr": "L(1973, r'orders 5 to (16)')",
+  "why": "amendment 1973: derived series, orders 5 to 16",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "47",
+  "context": "each of the $47$ stored",
+  "expr": "L(1974, r'against the (47) stored capacity transitions')",
+  "why": "amendment 1974: 47 stored capacity transitions K_b 10 to 59",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "59",
+  "context": "$K_b = 10$ to $59$ within",
+  "expr": "L(1974, r'K_b 10 to (59) and the 40')",
+  "why": "amendment 1974: K_b 10 to 59",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.3\\times 10^{-9}",
+  "context": "bar of $0.3\\times 10^{-9}$",
+  "expr": "L(1973, r'bar = (0\\.3)e-9')*1e-9",
+  "why": "amendment 1973: bar = 0.3e-9 + 3 |a_16 - a_14|",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "14",
+  "context": "$14$ and $16$.",
+  "expr": "L(1973, r'3 \\|a_16 - a_(14)\\|')",
+  "why": "amendment 1973: the bar uses the change between the orders 14 and 16",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "16",
+  "context": "$14$ and $16$.",
+  "expr": "L(1973, r'3 \\|a_(16) - a_14\\|')",
+  "why": "amendment 1973: the bar uses the change between the orders 14 and 16",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "50",
+  "context": "Three of the $50$ values",
+  "expr": "59-10+1",
+  "why": "K_b = 10 to 59 inclusive",
+  "kind": "definition",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.39\\times 10^{-9}",
+  "context": "largest deviation is $0.39\\times 10^{-9}$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'largest \\|dev\\(16\\)\\| is (0\\.3907)e-9 for K_b 40 to 59 \\(cubic')*1e-9",
+  "why": "amendment 2038: quintic spline, largest deviation 0.3907e-9 for K_b 40 to 59",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "40",
+  "context": "for $K_b = 40$ to $59$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'for K_b (40) to 59 \\(cubic 0\\.3281')",
+  "why": "amendment 2038: K_b 40 to 59",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "59",
+  "context": "for $K_b = 40$ to $59$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'K_b 40 to (59) \\(cubic 0\\.3281')",
+  "why": "amendment 2038: K_b 40 to 59",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "5.8\\times 10^{-9}",
+  "context": "and $5.8\\times 10^{-9}$ for",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'(5\\.8169)e-9 for K_b 24 to 39')*1e-9",
+  "why": "amendment 2038: quintic spline, largest deviation 5.8169e-9 for K_b 24 to 39",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "24",
+  "context": "for $K_b = 24$ to $39$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'e-9 for K_b (24) to 39 \\(cubic')",
+  "why": "amendment 2038: K_b 24 to 39",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "39",
+  "context": "for $K_b = 24$ to $39$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'e-9 for K_b 24 to (39) \\(cubic')",
+  "why": "amendment 2038: K_b 24 to 39",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "17",
+  "context": "$17$ stored transitions",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'the (17) NPMLE transitions K_b 31 to 52')",
+  "why": "amendment 2038: 17 NPMLE transitions K_b 31 to 52 inside the bar",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "31",
+  "context": "in $K_b = 31$ to $52$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'transitions K_b (31) to 52')",
+  "why": "amendment 2038: K_b 31 to 52",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "52",
+  "context": "in $K_b = 31$ to $52$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'transitions K_b 31 to (52)')",
+  "why": "amendment 2038: K_b 31 to 52",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "22",
+  "context": "which holds $22$ values",
+  "expr": "52-31+1",
+  "why": "K_b = 31 to 52 inclusive",
+  "kind": "definition",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "23",
+  "context": "all $23$ deviations",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'the (23) NPMLE deviations at K_b 6 to 28')",
+  "why": "amendment 2038: 23 NPMLE deviations at K_b 6 to 28 are positive",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "28",
+  "context": "$K_b = 6$ to $28$ are positive",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'deviations at K_b 6 to (28) are positive')",
+  "why": "amendment 2038: K_b 6 to 28",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.4",
+  "context": "change to $0.4\\%$ in $\\ln R$",
+  "expr": "L(2071, r'constant to (0\\.4) percent')",
+  "why": "amendment 2071: the ratio for k = 1, 2, 3 is constant to 0.4 percent",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "54",
+  "context": "over $54$ events",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'for (54) events')",
+  "why": "amendment 2070: four parameters for 54 events",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "3.09",
+  "context": "The multipliers are $3.09$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'sigma_inf = (3\\.0927), 5\\.5523, 7\\.9014')",
+  "why": "amendment 2070: sigma_inf = 3.0927, 5.5523, 7.9014",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "5.55",
+  "context": "The multipliers are $3.09$, $5.55$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'sigma_inf = 3\\.0927, (5\\.5523), 7\\.9014')",
+  "why": "amendment 2070: sigma_inf = 3.0927, 5.5523, 7.9014",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "7.90",
+  "context": "$5.55$ and $7.90$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'sigma_inf = 3\\.0927, 5\\.5523, (7\\.9014)')",
+  "why": "amendment 2070: sigma_inf = 3.0927, 5.5523, 7.9014",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "28",
+  "context": "ten events $K_b = 28$ to $37$",
+  "expr": "L(2046, r'events K_b (28) to 37')",
+  "why": "amendment 2046: the ten k = 3 events K_b 28 to 37",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "37",
+  "context": "ten events $K_b = 28$ to $37$",
+  "expr": "L(2046, r'events K_b 28 to (37)')",
+  "why": "amendment 2046: the ten k = 3 events K_b 28 to 37",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.35",
+  "context": "was $1.35$ to $1.55$",
+  "expr": "L(2046, r'in \\[(1\\.35), 1\\.55\\]')",
+  "why": "amendment 2046: registered interval 1.35 to 1.55",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.55",
+  "context": "was $1.35$ to $1.55$",
+  "expr": "L(2046, r'in \\[1\\.35, (1\\.55)\\]')",
+  "why": "amendment 2046: registered interval 1.35 to 1.55",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.414",
+  "context": "ratio was $1.414$ to $1.424$",
+  "expr": "L(2051, r'R_3 / R_imm = (1\\.414) to 1\\.424')",
+  "why": "amendment 2051: measured ratio 1.414 to 1.424",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.424",
+  "context": "ratio was $1.414$ to $1.424$",
+  "expr": "L(2051, r'R_3 / R_imm = 1\\.414 to (1\\.424)')",
+  "why": "amendment 2051: measured ratio 1.414 to 1.424",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.9",
+  "context": "inside its registered band of $0.9\\%$",
+  "expr": "100*L(2054, r'\\(\\|m - 1\\.278\\| <= (0\\.012)\\)')/1.278",
+  "why": "amendment 2054: H_q registered with the band |m - 1.278| <= 0.012, that is 0.94 percent",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.5",
+  "context": "For $k = 1.5$, $2.5$ and $5$",
+  "expr": "L(2055, r'exponents k = (1\\.5) and 2\\.5')",
+  "why": "amendment 2055: held-out exponents k = 1.5 and 2.5, and k = 5",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "2.5",
+  "context": "For $k = 1.5$, $2.5$ and $5$",
+  "expr": "L(2055, r'k = 1\\.5 and (2\\.5) \\(interpolation\\)')",
+  "why": "amendment 2055: held-out exponents k = 1.5 and 2.5, and k = 5",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.1",
+  "context": "to $0.1\\%$ before they were computed",
+  "expr": "0.1 if max(L(2057, r'errors (0\\.06), 0\\.03 and 0\\.01 percent'), L(2057, r'errors 0\\.06, (0\\.03) and 0\\.01 percent'), L(2057, r'errors 0\\.06, 0\\.03 and (0\\.01) percent')) <= 0.1 else -1",
+  "why": "amendment 2057: errors of the predictions at k = 1.5, 2.5 and 5 are 0.06, 0.03 and 0.01 percent",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "243",
+  "context": "description of $243$ events",
+  "expr": "L(2076, r'over the ten exponents \\((243) events\\)')",
+  "why": "amendment 2076: 243 events of the ten exponents",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "15",
+  "context": "and $15\\%$, with an",
+  "expr": "L(2079, r'Bars 0\\.05, 0\\.05 and (0\\.15)')*100",
+  "why": "amendment 2079: bars 0.05, 0.05 and 0.15",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "16",
+  "context": "$k = 6$, $10$ and $16$ and passed",
+  "expr": "L(2079, r'k = (16): 17 of 19')",
+  "why": "amendment 2079: the blind exponents are k = 6, 10, 16",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "16",
+  "context": "overprediction of up to $8\\%$ at $k=16$",
+  "expr": "L(2079, r'k = (16): 17 of 19')",
+  "why": "amendment 2079: k = 16, ratio down to 0.917, an overprediction of 8.3 percent",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.75",
+  "context": "at $k=0.75$, $8$ and $12$",
+  "expr": "L(2072, r'for k = (0\\.75), 8 and 12')",
+  "why": "amendment 2072: the blind test of the linear laws at k = 0.75, 8, 12",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.75",
+  "context": "(blind, $k = 0.75$",
+  "expr": "L(2072, r'for k = (0\\.75), 8 and 12')",
+  "why": "amendment 2072: the blind test of the linear laws at k = 0.75, 8, 12",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.7",
+  "context": "within $1.7\\%$ of the prediction",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'hold at k = 0\\.75 within (1\\.7) percent')",
+  "why": "amendment 2075: k = 0.75 holds within 1.7 percent",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.07",
+  "context": "ran from $1.07$ to $1.14$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'8\\.0: (1\\.068)-1\\.140')",
+  "why": "amendment 2075: ratio range at k = 8 is 1.068 to 1.140",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.14",
+  "context": "ran from $1.07$ to $1.14$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'8\\.0: 1\\.068-(1\\.140)')",
+  "why": "amendment 2075: ratio range at k = 8 is 1.068 to 1.140",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.19",
+  "context": "from $1.19$ to $1.43$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'12\\.0: (1\\.189)-1\\.431')",
+  "why": "amendment 2075: ratio range at k = 12 is 1.189 to 1.431",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "15",
+  "context": "$15\\%$. The test failed",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'within 10 and (15) percent')",
+  "why": "amendment 2075: the bars at k = 8 and 12 are 10 and 15 percent",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.032",
+  "context": "rises from $0.032$ to $0.64$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1356_out.txt', r'\\n 20 +[\\d.]+ +(0\\.0317)')",
+  "why": "q1356_out.txt: the capacity residual over D_a at K_b 20 on the converged (degree 17) states",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.64",
+  "context": "rises from $0.032$ to $0.64$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1356_out.txt', r'\\n 45 +[\\d.]+ +(0\\.6399)')",
+  "why": "q1356_out.txt: the capacity residual over D_a at K_b 45 on the converged (degree 17) states",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "20",
+  "context": "$K_b = 20$ to $45$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1356_out.txt', r'\\n (20) +[\\d.]+ +0\\.0317')",
+  "why": "q1356_out.txt: K_b 20",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "45",
+  "context": "$K_b = 20$ to $45$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1356_out.txt', r'\\n (45) +[\\d.]+ +0\\.6399')",
+  "why": "q1356_out.txt: K_b 45",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.10",
+  "context": "gives $0.10$ to $0.18$",
+  "expr": "L(2085, r'tends to (0\\.10) to 0\\.18')",
+  "why": "amendment 2085: the free-edge family tends to 0.10 to 0.18",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.18",
+  "context": "gives $0.10$ to $0.18$",
+  "expr": "L(2085, r'tends to 0\\.10 to (0\\.18)')",
+  "why": "amendment 2085: the free-edge family tends to 0.10 to 0.18",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "29",
+  "context": "at $K_b = 29$ to $37$",
+  "expr": "L(2085, r'at K_b (29) to 37')",
+  "why": "amendment 2085: K_b 29 to 37",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "37",
+  "context": "at $K_b = 29$ to $37$",
+  "expr": "L(2085, r'at K_b 29 to (37)')",
+  "why": "amendment 2085: K_b 29 to 37",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.34",
+  "context": "gives $0.34$ to $0.52$",
+  "expr": "L(2085, r'values \\((0\\.34) to 0\\.52 at K_b')",
+  "why": "amendment 2085: capacity values 0.34 to 0.52",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.52",
+  "context": "gives $0.34$ to $0.52$",
+  "expr": "L(2085, r'values \\(0\\.34 to (0\\.52) at K_b')",
+  "why": "amendment 2085: capacity values 0.34 to 0.52",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.00087",
+  "context": "an rms of $0.00087$",
+  "expr": "L(2122, r'all-data rms (0\\.00087), largest relative')",
+  "why": "amendment 2122: all-data rms 0.00087",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "fourteen",
+  "context": "over fourteen exponents",
+  "expr": "len(re.findall(r'\\d+\\.?\\d*', re.search(r'events for k = ([^)]*)\\)', AT(2122)).group(1)))",
+  "why": "amendment 2122: the exponents k = 0.02, 0.05, 0.052, 0.054, 0.056, 0.058, 0.06, 0.075, 0.09, 0.1, 0.25, 0.35, 0.5, 0.75 (fourteen)",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.15",
+  "context": "exponents $k = 0.15$",
+  "expr": "L(2123, r'k = (0\\.15): K_b 14-32')",
+  "why": "amendment 2123: the new exponents are k = 0.15, 0.4, 0.6",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.0035",
+  "context": "within $0.0035$",
+  "expr": "L(2123, r'largest \\|R / Da - prediction\\| (0\\.0035) \\(degree 19')",
+  "why": "amendment 2123: largest deviation 0.0035",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.006",
+  "context": "bar of $0.006$",
+  "expr": "L(2123, r'the bar (0\\.006) for both interpolants')",
+  "why": "amendment 2123: bar 0.006",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "1.7",
+  "context": "$1.7\\%$ of the prediction",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'hold at k = 0\\.75 within (1\\.7) percent')",
+  "why": "amendment 2075: k = 0.75 holds within 1.7 percent",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.4",
+  "context": "$k = 0.15$, $0.4$ and $0.6$",
+  "expr": "L(2122, r'k = 0\\.15, (0\\.4), 0\\.6 at K_b 14 to 45')",
+  "why": "amendment 2122: the blind exponents are k = 0.15, 0.4, 0.6",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "0.6",
+  "context": "$k = 0.15$, $0.4$ and $0.6$",
+  "expr": "L(2122, r'k = 0\\.15, 0\\.4, (0\\.6) at K_b 14 to 45')",
+  "why": "amendment 2122: the blind exponents are k = 0.15, 0.4, 0.6",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "71",
+  "context": "$K_b = 71$, and",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'step at K_b (71) is')",
+  "why": "amendment 1820: K_b 71",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "78",
+  "context": "$K_b = 78$. The residual",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'T116 FAILS BY THE LETTER at K_b (78)')",
+  "why": "amendment 1916: T116 fails at K_b 78",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "71",
+  "context": "at $K_b = 71$ & 1820",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'step at K_b (71) is')",
+  "why": "amendment 1820: K_b 71",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "printed": "78",
+  "context": "at $K_b = 78$ & 1916",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'T116 FAILS BY THE LETTER at K_b (78)')",
+  "why": "amendment 1916: K_b 78",
+  "paper": "supplement_flat",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.5",
+  "context": "NPMLE sector counts of the eccentric support at $e = 2.5",
+  "expr": "L(1550, r'q857b at e = (\\d\\.\\d+), STAGE2')",
+  "why": "1550 'q857b at e = 2.5, STAGE2 = 1'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "45",
+  "context": "not decidable: NPMLE at $R = 45",
+  "expr": "L(1484, r'R = (\\d+) is not decidable in float64')",
+  "why": "1484 heading 'R = 45 is not decidable in float64'",
+  "kind": "definition",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.75",
+  "context": "$k = 0.75$ to $12$, including",
+  "expr": "L(2076, r'and k from (0\\.75) to 12, against')",
+  "why": "amendment 2076 (q1297): the five-parameter fit covers 243 events and k from 0.75 to 12",
+  "from": "bindings_unified.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.15",
+  "context": "fitted on capacity ($0.15$",
+  "expr": "L(1438, r'eccentric point plus\\s+(0\\.15) to 0\\.35 eps\\^2')",
+  "why": "1438 quartet band",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.35",
+  "context": "to $0.35\\,\\epsilon_i^2$",
+  "expr": "L(1438, r'eccentric point plus\\s+0\\.15 to (0\\.35) eps\\^2')",
+  "why": "1438 quartet band",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.25",
+  "context": "LFP $0.25\\,\\epsilon_i^2 \\pm",
+  "expr": "L(1456, r'eccentric\\s+point\\s+plus\\s+(0\\.25)\\s+eps\\^2\\s+\\(the\\s+capacity\\s+quartet\\s+residual')",
+  "why": "1456 LFP quartet band centre",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "5\\times 10^{-4}",
+  "context": "LFP $0.25\\,\\epsilon_i^2 \\pm 5\\times 10^{-4}$",
+  "expr": "L(1456, r'half-width (5e-4); the polar point')",
+  "why": "1456 half-width",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "5\\times 10^{-4}",
+  "context": "eccentric point $-5\\times 10^{-4}$",
+  "expr": "L(1459, r'\\[eccentric - (5e-4), eccentric \\+ 0\\.25 eps\\^2 \\+ 5e-4\\]')",
+  "why": "1459 band form",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.25",
+  "context": "eccentric point $-5\\times 10^{-4}$",
+  "expr": "L(1459, r'\\[eccentric - 5e-4, eccentric \\+ (0\\.25) eps\\^2 \\+ 5e-4\\]')",
+  "why": "1459 band form",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.0\\times 10^{-4}",
+  "context": "of $-2.0\\times 10^{-4} \\pm",
+  "expr": "L(1468, r'miss = -(2\\.0e-4) \\+- 5e-5')",
+  "why": "1468 (c) secondary band",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "5\\times 10^{-5}",
+  "context": "of $-2.0\\times 10^{-4} \\pm 5\\times 10^{-5}$",
+  "expr": "L(1468, r'miss = -2\\.0e-4 \\+- (5e-5)')",
+  "why": "1468 (c) secondary band",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.6",
+  "context": "capacity, ellipse, 3.6 & pair",
+  "expr": "L(1433, r'rp (3\\.6) pair loss at rm 3\\.396546')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.6",
+  "context": "capacity, ellipse, 3.6 & quartet",
+  "expr": "L(1434, r'PRE-REGISTERED rp (3\\.6) quartet at 3\\.430938')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "4.3",
+  "context": "capacity, ellipse, 4.3 & pair",
+  "expr": "L(1438, r'eccentric form at rp (4\\.3) \\(inner')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "4.3",
+  "context": "capacity, ellipse, 4.3 & quartet",
+  "expr": "L(1438, r'eccentric form at rp (4\\.3) \\(inner')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.2",
+  "context": "capacity, mixed $0.2$, 3.7 & pair",
+  "expr": "L(1453, r'mixed curve lam (0\\.2), rp 3\\.7 lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.7",
+  "context": "capacity, mixed $0.2$, 3.7 & pair",
+  "expr": "L(1453, r'mixed curve lam 0\\.2, rp (3\\.7) lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.2",
+  "context": "capacity, mixed $0.2$, 3.7 & quartet",
+  "expr": "L(1470, r'quartet on the mixed curve lam (0\\.2), rp 3\\.7')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.7",
+  "context": "capacity, mixed $0.2$, 3.7 & quartet",
+  "expr": "L(1470, r'quartet on the mixed curve lam 0\\.2, rp (3\\.7)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.6",
+  "context": "LFP, ellipse, 2.6 & pair",
+  "expr": "L(1444, r'LFP pair on the ellipse rp (2\\.6) is lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.6",
+  "context": "LFP, ellipse, 2.6 & quartet",
+  "expr": "L(1456, r'LFP quartet on the ellipse rp (2\\.6) is lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.1",
+  "context": "LFP, mixed $0.1$, 2.6 & pair",
+  "expr": "L(1466, r'FUNC lfp LAM (0\\.1) rp 2\\.6')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.6",
+  "context": "LFP, mixed $0.1$, 2.6 & pair",
+  "expr": "L(1466, r'FUNC lfp LAM 0\\.1 rp (2\\.6)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.1",
+  "context": "LFP, mixed $0.1$, 2.6 & quartet",
+  "expr": "L(1468, r'LFP quartet, lam (0\\.1), rp 2\\.6')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.6",
+  "context": "LFP, mixed $0.1$, 2.6 & quartet",
+  "expr": "L(1468, r'LFP quartet, lam 0\\.1, rp (2\\.6)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.8",
+  "context": "LFP, ellipse, 2.8 & pair",
+  "expr": "L(1477, r'LFP rp (2\\.8): the largest')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.9",
+  "context": "NPMLE, ellipse, 2.9 & pair",
+  "expr": "L(1448, r'inner pair on the ellipse rp (2\\.9) lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.9",
+  "context": "NPMLE, ellipse, 2.9 & quartet",
+  "expr": "L(1459, r'quartet on the ellipse rp (2\\.9) is lost')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.2",
+  "context": "NPMLE, mixed $0.2$, 2.9 & pair",
+  "expr": "L(1466, r'FUNC\\s+rd\\s+LAM\\s+(0\\.2)\\s+rp\\s+2\\.9')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.9",
+  "context": "NPMLE, mixed $0.2$, 2.9 & pair",
+  "expr": "L(1466, r'FUNC\\s+rd\\s+LAM\\s+0\\.2\\s+rp\\s+(2\\.9)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.2",
+  "context": "NPMLE, mixed $0.2$, 2.9 & quartet",
+  "expr": "L(1468, r'rd quartet, lam (0\\.2), rp 2\\.9')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.9",
+  "context": "NPMLE, mixed $0.2$, 2.9 & quartet",
+  "expr": "L(1468, r'rd quartet, lam 0\\.2, rp (2\\.9)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "0.1",
+  "context": "NPMLE, mixed $0.1$, 2.9 & pair",
+  "expr": "L(1468, r'rd pair, lam (0\\.1), rp 2\\.9')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "2.9",
+  "context": "NPMLE, mixed $0.1$, 2.9 & pair",
+  "expr": "L(1468, r'rd pair, lam 0\\.1, rp (2\\.9)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.1",
+  "context": "NPMLE, ellipse, 3.1 & pair",
+  "expr": "L(1477, r'rd rp (3\\.1): sign change')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "3.7",
+  "context": "capacity, ellipse, 3.7--4.0 & 6 events",
+  "expr": "L(1421, r'PRE-REGISTERED at rp (3\\.7)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ },
+ {
+  "paper": "supplement_flat",
+  "printed": "4.0",
+  "context": "capacity, ellipse, 3.7--4.0 & 6 events",
+  "expr": "L(1426, r'PRE-REGISTERED at a second rp \\((4\\.0)\\)')",
+  "why": "r_p or mixing weight of the registered test (the six polar events: 1421-1431, rp 3.7, 4.0, 3.85)",
+  "kind": "definition",
+  "from": "bindings_supplement.json"
+ }
+]

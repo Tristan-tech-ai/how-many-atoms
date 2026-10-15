@@ -1,0 +1,4 @@
+K_b 83: change of a_pred when e_n is added: e_12 -1.53e-11, e_13 -5.90e-12, e_14 -2.43e-12, e_15 -1.09e-12, e_16 -4.90e-13, e_17 -2.49e-13, e_18 -1.21e-13, e_19 -7.11e-14, e_20 -5.68e-14
+K_b 106: change of a_pred when e_n is added: e_12 -3.35e-12, e_13 -1.13e-12, e_14 -3.91e-13, e_15 -1.63e-13, e_16 -7.82e-14, e_17 -3.55e-14, e_18 -7.11e-15, e_19 +7.11e-15, e_20 +0.00e+00
+K_b 130: change of a_pred when e_n is added: e_12 -8.95e-13, e_13 -2.98e-13, e_14 -1.14e-13, e_15 -4.26e-14, e_16 +0.00e+00, e_17 +1.42e-14, e_18 -1.42e-14, e_19 +1.42e-14, e_20 -2.84e-14
+READING q1669b done (post hoc, no labels)

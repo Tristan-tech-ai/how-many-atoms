@@ -1,0 +1,4 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True}
+   N1 slope at K_b 64: 0.38900 against 0.38889 (bar 0.001) -> True
+   N2 a2 at K_b 65: 0.25895 against 0.25889 (bar 0.001) -> True
+VERDICT q956 T70: PASS; items {'N1': True, 'N2': True}

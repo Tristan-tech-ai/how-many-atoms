@@ -1,0 +1,8 @@
+K_b 60 birth: measured 41.200836329135, predicted 41.200836328099, difference +1.04e-09; dwc/dA 0.3949
+K_b 61 split: measured 41.733520766420, predicted 41.733520763325, difference +3.10e-09; k -9.1195e-13, a2 0.2628, spacing from K_b 60: measured 0.532684437, predicted 0.532684435
+K_b 62 birth: measured 42.264026833785, predicted 42.264026828731, difference +5.05e-09; dwc/dA 0.3919, spacing from K_b 61: measured 0.530506067, predicted 0.530506065
+K_b 63 split: measured 42.792398545314, predicted 42.792398538486, difference +6.83e-09; k -5.2458e-13, a2 0.2608, spacing from K_b 62: measured 0.528371712, predicted 0.528371710
+K_b 64 birth: measured 43.318678338100, predicted 43.318678329604, difference +8.50e-09; dwc/dA 0.3890, spacing from K_b 63: measured 0.526279793, predicted 0.526279791
+K_b 65 split: measured 43.842907152746, predicted 43.842907142431, difference +1.03e-08; k -3.0494e-13, a2 0.2590, spacing from K_b 64: measured 0.524228815, predicted 0.524228813
+events measured: 6 of 6
+END q955 READINGS (no verdict)

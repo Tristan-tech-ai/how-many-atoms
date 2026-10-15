@@ -1,0 +1,12 @@
+== even: rows 84..108, train K<=96 n=7, test K 97.. n=6; c = 1.651, s(108) = 0.0728; sign check x position-type > 0: True, mass-type < 0: True
+   amplitudes X_0, X_1, Y_3, Y_4, Y_5: ['44.5615', '8.0996', '49.8420', '8.1663', '0.8327']  (limits of the p=2/3 fits of reading 4 for atoms 1, 2: 8.2191, 44.967 at K to infinity)
+   fit rms of log x on the training rows: 7.4e-04
+   hold-out max |error| of x_j / x_j: ['2.7e-03', '2.2e-03', '0.0e+00', '2.8e-03', '2.9e-03', '4.6e-03']
+   hold-out max |R_e error|: model 4.7e-03 | (B) direct p=2/3 1.0e-05 | (C) per-fraction p=2/3 4.8e-06
+   model limit K -> infinity: x_inf = ['+44.5615', '+8.0996', '+1.0000', '-49.8420', '-8.1663', '-0.8327']  R_e(inf) = 1.09937
+== odd: rows 83..107, train K<=96 n=7, test K 97.. n=6; c = 1.695, s(108) = 0.0747; sign check x position-type > 0: True, mass-type < 0: True
+   amplitudes X_0, X_1, Y_3, Y_4, Y_5: ['44.5954', '8.0909', '49.8938', '8.1568', '0.8300']  (limits of the p=2/3 fits of reading 4 for atoms 1, 2: 8.2191, 44.967 at K to infinity)
+   fit rms of log x on the training rows: 7.2e-04
+   hold-out max |error| of x_j / x_j: ['2.6e-03', '2.3e-03', '0.0e+00', '2.9e-03', '2.7e-03', '4.3e-03']
+   hold-out max |R_e error|: model 4.4e-03 | (B) direct p=2/3 4.6e-06 | (C) per-fraction p=2/3 7.0e-07
+   model limit K -> infinity: x_inf = ['+44.5954', '+8.0909', '+1.0000', '-49.8938', '-8.1568', '-0.8300']  R_e(inf) = 1.09697

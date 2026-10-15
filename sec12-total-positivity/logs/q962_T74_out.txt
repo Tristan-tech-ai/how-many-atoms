@@ -1,0 +1,4 @@
+r65 = +1.0314e-08; predicted K_b 66 = 44.365124496108; registered band of A_cross for N2: 44.365124507723 to 44.365124508523
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True, 'NC4': True, 'NC5': True}
+K_b 66: predicted 44.365124496108, measured 44.365124508034, r66 +1.1926e-08, step r66 - r65 +1.6117e-09, items {'N1': True, 'N2': True, 'N3': True}, q938 line: VERDICT q938 T67: PASS; failed items []
+VERDICT q962 T74: PASS

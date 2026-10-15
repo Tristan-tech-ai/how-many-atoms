@@ -1,0 +1,68 @@
+== quiet: a 24.087835, K 30, centre False, J 15, masses 14
+   (a) off-diagonal entries of S: negative 98, positive or zero 112; diagonal all negative True -> FAIL
+   (b) b_eff entries: min -1.5237e-01, max +6.8386e-01, negative 7 -> FAIL
+   (c) S^-1 entries: positive 0 of 225, max -7.713e-01 -> PASS
+   consistency of the reduced flow with the full flow: max relative difference 0.00e+00; reduced flow min 0.2406
+   sign of b_eff: +-+-+-+-+-+-+-+
+   sign pattern of -S off-diagonals (rows innermost first; + means S_ij > 0):
+     .+-+-+-+-+-+-+-
+     +.+-+-+-+-+-+-+
+     -+.+-+-+-+-+-+-
+     +-+.+-+-+-+-+-+
+     -+-+.+-+-+-+-+-
+     +-+-+.+-+-+-+-+
+     -+-+-+.+-+-+-+-
+     +-+-+-+.+-+-+-+
+     -+-+-+-+.+-+-+-
+     +-+-+-+-+.+-+-+
+     -+-+-+-+-+.+-+-
+     +-+-+-+-+-+.+-+
+     -+-+-+-+-+-+.+-
+     +-+-+-+-+-+-+.+
+     -+-+-+-+-+-+-+.
+== before: a 24.301715, K 30, centre False, J 15, masses 14
+   (a) off-diagonal entries of S: negative 98, positive or zero 112; diagonal all negative True -> FAIL
+   (b) b_eff entries: min -1.5237e-01, max +6.8386e-01, negative 7 -> FAIL
+   (c) S^-1 entries: positive 0 of 225, max -4.856e-01 -> PASS
+   consistency of the reduced flow with the full flow: max relative difference 0.00e+00; reduced flow min 0.1455
+   sign of b_eff: +-+-+-+-+-+-+-+
+   sign pattern of -S off-diagonals (rows innermost first; + means S_ij > 0):
+     .+-+-+-+-+-+-+-
+     +.+-+-+-+-+-+-+
+     -+.+-+-+-+-+-+-
+     +-+.+-+-+-+-+-+
+     -+-+.+-+-+-+-+-
+     +-+-+.+-+-+-+-+
+     -+-+-+.+-+-+-+-
+     +-+-+-+.+-+-+-+
+     -+-+-+-+.+-+-+-
+     +-+-+-+-+.+-+-+
+     -+-+-+-+-+.+-+-
+     +-+-+-+-+-+.+-+
+     -+-+-+-+-+-+.+-
+     +-+-+-+-+-+-+.+
+     -+-+-+-+-+-+-+.
+== after: a 24.327264, K 31, centre True, J 15, masses 15
+   (a) off-diagonal entries of S: negative 98, positive or zero 112; diagonal all negative True -> FAIL
+   (b) b_eff entries: min -1.5237e-01, max +6.8386e-01, negative 7 -> FAIL
+   (c) S^-1 entries: positive 0 of 225, max -1.965e+00 -> PASS
+   consistency of the reduced flow with the full flow: max relative difference 0.00e+00; reduced flow min 1.0000
+   sign of b_eff: +-+-+-+-+-+-+-+
+   sign pattern of -S off-diagonals (rows innermost first; + means S_ij > 0):
+     .+-+-+-+-+-+-+-
+     +.+-+-+-+-+-+-+
+     -+.+-+-+-+-+-+-
+     +-+.+-+-+-+-+-+
+     -+-+.+-+-+-+-+-
+     +-+-+.+-+-+-+-+
+     -+-+-+.+-+-+-+-
+     +-+-+-+.+-+-+-+
+     -+-+-+-+.+-+-+-
+     +-+-+-+-+.+-+-+
+     -+-+-+-+-+.+-+-
+     +-+-+-+-+-+.+-+
+     -+-+-+-+-+-+.+-
+     +-+-+-+-+-+-+.+
+     -+-+-+-+-+-+-+.
+A5 VERDICT: FAIL
+exit 0

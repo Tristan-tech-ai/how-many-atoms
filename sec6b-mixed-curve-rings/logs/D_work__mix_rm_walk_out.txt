@@ -1,0 +1,6 @@
+rm 1.7410: residual 2.195e-33, smallest mass +8.576301e-03, scan max [0.0, 2.0192806798988786e-34], D(0) - C +2.9523539768e-03
+rm 1.7404: residual 2.092e-39, smallest mass +5.972301e-03, scan max [90.0, -1.1322873664528935e-40], D(0) - C +2.5707996849e-03
+rm 1.7398: residual 1.327e-38, smallest mass +2.951005e-03, scan max [90.0, -6.098173188691472e-40], D(0) - C +2.1895141399e-03
+rm 1.7392: residual 1.115e-37, smallest mass -5.970586e-04, scan max [90.0, -3.878846288775302e-39], D(0) - C +1.8084974631e-03
+stop at rm 1.7392: a mass <= 0
+END mix_rm_walk

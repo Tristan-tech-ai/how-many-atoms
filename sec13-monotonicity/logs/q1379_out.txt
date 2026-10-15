@@ -1,0 +1,7 @@
+K 82, A 52.1324: sum c over the right half 27.061601487, (A + delta)/2 = 27.061601487
+excess g = cum - depth at selected atoms: j 0: d 0.00 g 3.4963, j 1: d 2.72 g 3.1265, j 2: d 4.89 g 2.9875, j 4: d 8.61 g 2.8492, j 8: d 14.95 g 2.7220, j 12: d 20.53 g 2.6546, j 16: d 25.67 g 2.6100, j 20: d 30.49 g 2.5774, j 24: d 35.09 g 2.5519, j 28: d 39.50 g 2.5311, j 32: d 43.75 g 2.5131, j 36: d 47.86 g 2.4919
+fit g_inf + a d^-gamma (start gamma 0.33): g_inf 1.5214, a 1.9539, gamma 0.1800, rms 9.3e-04
+fit g_inf + a d^-gamma (start gamma 0.5): g_inf 1.5214, a 1.9539, gamma 0.1800, rms 9.3e-04
+fit g_inf + a d^-gamma (start gamma 1.0): g_inf 1.5214, a 1.9539, gamma 0.1800, rms 9.3e-04
+logarithmic fit g = 3.3136 + -0.2161 ln d, rms 6.3e-03
+READING q1379 (exploratory, no verdict)

@@ -1,0 +1,17 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True} (PC {'X1': True, 'X2': True, 'X3': True, 'count': 156, 'bad': 0} | NC1 {'X1': False, 'X2': False, 'X3': False, 'count': 156, 'bad': 5} | NC2 {'X1': False, 'X2': False, 'X3': False, 'count': 156, 'bad': 6} | NC3 {'X1': True, 'X2': False, 'X3': False, 'count': 156, 'bad': 9} )
+state results_q220_gauss_K61_A41.2100.json: A 41.21, m 29, odd True, polished residual 3.92e-173: X1 True, X2 True (870 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K61_A41.4725.json: A 41.472500, m 29, odd True, polished residual 1.86e-132: X1 True, X2 True (870 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K61_A41.7325.json: A 41.732500, m 29, odd True, polished residual 3.34e-133: X1 True, X2 True (870 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K62_A41.7375.json: A 41.7375000000000000000000000000, m 30, odd False, polished residual 1.09e-134: X1 True, X2 True (930 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K62_A41.9832.json: A 41.983175, m 30, odd False, polished residual 1.25e-134: X1 True, X2 True (930 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K62_A42.2632.json: A 42.263175, m 30, odd False, polished residual 4.33e-133: X1 True, X2 True (930 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K63_A42.2682.json: A 42.268175, m 30, odd True, polished residual 4.53e-134: X1 True, X2 True (930 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K63_A42.5282.json: A 42.528175, m 30, odd True, polished residual 1.65e-141: X1 True, X2 True (930 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K63_A42.7882.json: A 42.788175, m 30, odd True, polished residual 3.78e-132: X1 True, X2 True (930 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K64_A42.7932.json: A 42.7931750000000000000000000000, m 31, odd False, polished residual 1.77e-132: X1 True, X2 True (992 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K64_A43.0353.json: A 43.035315, m 31, odd False, polished residual 7.69e-134: X1 True, X2 True (992 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K64_A43.3153.json: A 43.315315, m 31, odd False, polished residual 6.88e-131: X1 True, X2 True (992 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K65_A43.3203.json: A 43.320315, m 31, odd True, polished residual 7.14e-135: X1 True, X2 True (992 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K65_A43.5803.json: A 43.580315, m 31, odd True, polished residual 1.52e-139: X1 True, X2 True (992 initial minors, 0 not certainly positive), X3 True, X4 True
+state results_q220_gauss_K65_A43.8403.json: A 43.840315, m 31, odd True, polished residual 5.66e-132: X1 True, X2 True (992 initial minors, 0 not certainly positive), X3 True, X4 True
+VERDICT q973 T77b: PASS; states 15

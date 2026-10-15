@@ -1,0 +1,8 @@
+controls: S1 (cubic profile, G(0) 0.17585) {'E1': True, 'E2': True, 'E3': True, 'E4': True, 'E5': True} | S2 (f'(0) = 2 pi / 3, G(0) 1/6) {'E1': True, 'E2': True, 'E3': True, 'E4': True, 'E5': True}
+families: 32 | first-atom points: 32
+E1: G(0) 0.16763, jackknife se 0.00018, residual rms 0.00039; from 1/6: +5.35 se; from 0.16623: +7.78 se
+E2: G(0) 0.16520, jackknife se 0.00032, residual rms 0.00024; from 1/6: -4.61 se; from 0.16623: -3.24 se
+E3: G(0) 0.16802, jackknife se 0.00018, residual rms 0.00059; from 1/6: +7.32 se; from 0.16623: +9.69 se
+E4: G(0) 0.16591, jackknife se 0.00020, residual rms 0.00038; from 1/6: -3.70 se; from 0.16623: -1.56 se
+E5: G(0) 0.16607, jackknife se 0.00007, residual rms 0.00037; from 1/6: -8.53 se; from 0.16623: -2.33 se
+END READING q1152 (no verdict)

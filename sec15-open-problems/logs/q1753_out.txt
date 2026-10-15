@@ -1,0 +1,8 @@
+powers of 1/pi present: F_1: [2]; F_2: [2, 4]; F_3: [4, 6]; F_4: [4, 6, 8]; F_5: [6, 8, 10]; F_6: [6, 8, 10, 12]; F_7: [8, 10, 12, 14]; F_8: [8, 10, 12, 14, 16]; F_9: [10, 12, 14, 16, 18]; F_10: [10, 12, 14, 16, 18, 20]
+C1 synthetic quadratic reproduced: True; C2 synthetic cubic not reproduced: True
+top coefficient (power u^j) times 8^j for j = 2..10: 1 1 1 1 1 1 1 1 1
+second coefficient (power u^(j-1)) times 8^j for j = 2..10: 2: -2/3; 3: -26/3; 4: -136/3; 5: -464/3; 6: -1234/3; 7: -2786/3; 8: -5600/3; 9: -3440; 10: -5926
+quadratic through j = 4..6: -221*j**2/3 + 1661*j/3 - 3244/3; reproduces j = 7..10: False
+lowest power u^k for j = 2..10: 2:1 3:2 4:2 5:3 6:3 7:4 8:4 9:5 10:5; ceil(j/2): 2:1 3:2 4:2 5:3 6:3 7:4 8:4 9:5 10:5
+P1 top coefficient equals (1/8)^j for j = 2..10: holds; P2 second coefficient times 8^j reproduced by a quadratic in j: does not hold; P3 lowest power u^ceil(j/2): holds
+READING q1753 done (labels by the script; no verdict word)

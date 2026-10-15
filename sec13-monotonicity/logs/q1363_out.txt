@@ -1,0 +1,32 @@
+control c1 (counter on a synthetic derivative): True
+control c2 (ball arithmetic against the 40-digit mpmath sum at seven grid points, full precision: largest upper bound of the difference 1.26e-40, max |D'| 2.744e-01; bar 1e-30): True
+control c3 (equally spaced comb: 2 sign changes, 0 undecided, pattern False): True; c4 (one atom removed: 16 sign changes, 0 undecided): True; c5 (K = 40 state: 38 changes, 0 undecided, pattern True, smallest decided |D'| 8.31e-14, largest ball radius 6.1e-65): True
+state K, A, file | sign changes (expected K - 2), pattern, undecided, smallest decided |D'|, largest radius
+  K 40: A 29.8500 (2 OPTIMAL states, results_q207_gauss_K40_A29.8500.json) | 38 (expected 38), pattern True, undecided 0, smallest decided |D'| 8.3e-14, radius 6.2e-65 -> agrees
+  K 60: A 41.1200 (20 OPTIMAL states, results_q220_gauss_K60_A41.1200.json) | 58 (expected 58), pattern True, undecided 0, smallest decided |D'| 2.5e-28, radius 3.9e-65 -> agrees
+  K 61: A 41.4725 (106 OPTIMAL states, results_q220_gauss_K61_A41.4725.json) | 59 (expected 59), pattern None, undecided 0, smallest decided |D'| 7.0e-16, radius 5.2e-65 -> agrees
+  K 62: A 41.8032 (185 OPTIMAL states, results_q220_gauss_K62_A41.8032.json) | 60 (expected 60), pattern True, undecided 0, smallest decided |D'| 7.6e-17, radius 4.8e-65 -> agrees
+  K 63: A 42.5282 (106 OPTIMAL states, results_q220_gauss_K63_A42.5282.json) | 61 (expected 61), pattern None, undecided 0, smallest decided |D'| 3.4e-17, radius 3.9e-65 -> agrees
+  K 64: A 42.9753 (138 OPTIMAL states, results_q220_gauss_K64_A42.9753.json) | 62 (expected 62), pattern True, undecided 0, smallest decided |D'| 8.7e-17, radius 4.2e-65 -> agrees
+  K 65: A 43.5803 (106 OPTIMAL states, results_q220_gauss_K65_A43.5803.json) | 63 (expected 63), pattern None, undecided 0, smallest decided |D'| 1.2e-16, radius 4.5e-65 -> agrees
+  K 66: A 44.0283 (135 OPTIMAL states, results_q220_gauss_K66_A44.0283.json) | 64 (expected 64), pattern True, undecided 0, smallest decided |D'| 3.9e-17, radius 4.9e-65 -> agrees
+  K 67: A 44.6248 (106 OPTIMAL states, results_q220_gauss_K67_A44.6248.json) | 65 (expected 65), pattern None, undecided 0, smallest decided |D'| 3.9e-18, radius 4.8e-65 -> agrees
+  K 68: A 45.0725 (134 OPTIMAL states, results_q220_gauss_K68_A45.0725.json) | 66 (expected 66), pattern True, undecided 0, smallest decided |D'| 1.3e-17, radius 5.4e-65 -> agrees
+  K 69: A 45.6625 (104 OPTIMAL states, results_q220_gauss_K69_A45.6625.json) | 67 (expected 67), pattern None, undecided 0, smallest decided |D'| 2.8e-17, radius 4.3e-65 -> agrees
+  K 70: A 46.1109 (141 OPTIMAL states, results_q220_gauss_K70_A46.1109.json) | 68 (expected 68), pattern True, undecided 0, smallest decided |D'| 1.4e-19, radius 5.2e-65 -> agrees
+  K 71: A 46.6839 (105 OPTIMAL states, results_q220_gauss_K71_A46.6839.json) | 69 (expected 69), pattern None, undecided 0, smallest decided |D'| 1.2e-17, radius 5.2e-65 -> agrees
+  K 72: A 47.1201 (135 OPTIMAL states, results_q220_gauss_K72_A47.1201.json) | 70 (expected 70), pattern True, undecided 0, smallest decided |D'| 4.2e-18, radius 5.6e-65 -> agrees
+  K 73: A 47.7081 (104 OPTIMAL states, results_q220_gauss_K73_A47.7081.json) | 71 (expected 71), pattern None, undecided 0, smallest decided |D'| 4.7e-18, radius 5.0e-65 -> agrees
+  K 74: A 48.1234 (141 OPTIMAL states, results_q220_gauss_K74_A48.1234.json) | 72 (expected 72), pattern True, undecided 0, smallest decided |D'| 5.8e-18, radius 5.7e-65 -> agrees
+  K 75: A 48.7194 (105 OPTIMAL states, results_q220_gauss_K75_A48.7194.json) | 73 (expected 73), pattern None, undecided 0, smallest decided |D'| 7.2e-19, radius 5.6e-65 -> agrees
+  K 76: A 49.1450 (136 OPTIMAL states, results_q220_gauss_K76_A49.1450.json) | 74 (expected 74), pattern True, undecided 0, smallest decided |D'| 4.7e-19, radius 5.7e-65 -> agrees
+  K 77: A 49.7257 (105 OPTIMAL states, results_q220_gauss_K77_A49.7257.json) | 75 (expected 75), pattern None, undecided 0, smallest decided |D'| 6.9e-18, radius 5.6e-65 -> agrees
+  K 78: A 50.1587 (132 OPTIMAL states, results_q220_gauss_K78_A50.1587.json) | 76 (expected 76), pattern True, undecided 0, smallest decided |D'| 1.4e-18, radius 5.3e-65 -> agrees
+  K 79: A 50.7317 (103 OPTIMAL states, results_q220_gauss_K79_A50.7317.json) | 77 (expected 77), pattern None, undecided 0, smallest decided |D'| 3.4e-18, radius 5.2e-65 -> agrees
+  K 80: A 51.1468 (135 OPTIMAL states, results_q220_gauss_K80_A51.1468.json) | 78 (expected 78), pattern True, undecided 0, smallest decided |D'| 1.7e-18, radius 6.0e-65 -> agrees
+  K 81: A 51.7283 (101 OPTIMAL states, results_q220_gauss_K81_A51.7283.json) | 79 (expected 79), pattern None, undecided 0, smallest decided |D'| 3.5e-19, radius 5.3e-65 -> agrees
+  K 82: A 52.1324 (138 OPTIMAL states, results_q220_gauss_K82_A52.1324.json) | 80 (expected 80), pattern True, undecided 0, smallest decided |D'| 6.0e-19, radius 5.9e-65 -> agrees
+  K 83: A 52.4774 (1 OPTIMAL states, results_q220_gauss_K83_A52.4774.json) | 81 (expected 81), pattern None, undecided 0, smallest decided |D'| 1.8e-20, radius 5.6e-65 -> agrees
+states analysed 25; all agree with branch 0: True
+READING q1363 (exploratory, no verdict)
+exit 0

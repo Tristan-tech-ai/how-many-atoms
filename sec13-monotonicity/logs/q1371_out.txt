@@ -1,0 +1,21 @@
+control c1 (synthetic law recovered; a drifting law is detected): True
+pairs 2285; global delta (median over j = 0..3) 1.99080397
+j | median delta_j over all pairs | max - min over all pairs
+   0 | 1.99080397 | 1.11e-07
+   1 | 1.99080397 | 2.73e-07
+   2 | 1.99080397 | 2.30e-06
+   3 | 1.99080393 | 1.25e-05
+   4 | 1.99080378 | 5.34e-05
+   5 | 1.99080328 | 1.93e-04
+   6 | 1.99080175 | 6.21e-04
+   7 | 1.99079724 | 1.82e-03
+   8 | 1.99078557 | 4.95e-03
+   9 | 1.99075666 | 1.26e-02
+  10 | 1.99068664 | 3.06e-02
+  11 | 1.99052559 | 7.06e-02
+  12 | 1.99017272 | 1.57e-01
+K 62: pairs 107, atoms j (of 13) with |delta_j - global| < 1e-6 at every pair: 2, < 1e-4: 6; delta_0 spread 5.37e-09, median delta_0 1.990803973
+K 70: pairs 110, atoms j (of 13) with |delta_j - global| < 1e-6 at every pair: 4, < 1e-4: 7; delta_0 spread 9.97e-10, median delta_0 1.990803973
+K 80: pairs 101, atoms j (of 13) with |delta_j - global| < 1e-6 at every pair: 5, < 1e-4: 9; delta_0 spread 3.54e-10, median delta_0 1.990803974
+K 82: pairs 102, atoms j (of 13) with |delta_j - global| < 1e-6 at every pair: 5, < 1e-4: 10; delta_0 spread 3.93e-10, median delta_0 1.990803974
+READING q1371 (exploratory, no verdict)

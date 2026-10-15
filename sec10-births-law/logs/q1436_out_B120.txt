@@ -1,0 +1,7 @@
+controls: events at the table -> all PASS; one event 3 bars off (K_b 125) -> B120 FAIL ; one event missing (K_b 115) -> B110 INCOMPLETE ; one event 0.9 bar off -> B100 PASS : True
+B100 (K_b 100 to 109): PASS; measured 10 of 10; deviations (1e-9) 100 -0.0019, 101 -0.0025, 102 -0.0018, 103 -0.0023, 104 -0.0017, 105 -0.0022, 106 -0.0017, 107 -0.0021, 108 -0.0017, 109 -0.0022
+B110 (K_b 110 to 119): PASS; measured 10 of 10; deviations (1e-9) 110 -0.0019, 111 -0.0024, 112 -0.0023, 113 -0.0028, 114 -0.0029, 115 -0.0034, 116 -0.0038, 117 -0.0046, 118 -0.0052, 119 -0.0063
+B120 (K_b 120 to 129): PASS; measured 10 of 10; deviations (1e-9) 120 -0.0072, 121 -0.0087, 122 -0.0102, 123 -0.0123, 124 -0.0146, 125 -0.0175, 126 -0.0209, 127 -0.0250, 128 -0.0300, 129 -0.0360
+B130 (K_b 130 to 139): INCOMPLETE; measured 2 of 10; deviations (1e-9) 130 -0.0431, 131 -0.0515
+B140 (K_b 140 to 150): INCOMPLETE; measured 0 of 11; deviations (1e-9) 
+VERDICT q1436: B100 PASS; B110 PASS; B120 PASS; B130 INCOMPLETE; B140 INCOMPLETE

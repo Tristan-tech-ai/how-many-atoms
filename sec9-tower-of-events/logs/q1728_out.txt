@@ -1,0 +1,6 @@
+step 12 -> 13: predicted delta nu0 -2.081e-10, delta d0 +1.918e-10; observed -2.084e-10, +1.921e-10; ratios 0.999, 0.998
+step 13 -> 14: predicted delta nu0 -8.412e-11, delta d0 +7.777e-11; observed -8.424e-11, +7.789e-11; ratios 0.999, 0.998
+step 14 -> 15: predicted delta nu0 -3.668e-11, delta d0 +3.400e-11; observed -3.673e-11, +3.404e-11; ratios 0.999, 0.999
+ratios of successive steps in nu0: predicted 0.404, 0.436; observed 0.404, 0.436
+P1 steps within 15 percent: holds; P2 step ratios within 0.03: holds; control: holds
+READING q1728 done (labels by the script; no verdict word)

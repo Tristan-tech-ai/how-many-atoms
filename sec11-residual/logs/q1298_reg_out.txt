@@ -1,0 +1,6 @@
+k 6.0: law (1.01368119, -0.11023235); v^2 69.79 to 115.02; predicted R (1e-9): K_b 14 29146.12, 20 2326.054, 28 122.4401, 40 2.69625; sigma 16.073, g -23.13
+k 10.0: law (1.41223275, -0.22306077); v^2 70.31 to 115.33; predicted R (1e-9): K_b 14 40392.97, 20 3315.475, 28 178.4806, 40 4.01004; sigma 26.490, g -26.39
+k 16.0: law (1.79468019, -0.34500854); v^2 70.87 to 115.67; predicted R (1e-9): K_b 14 60572.95, 20 4983.004, 28 269.3991, 40 6.08599; sigma 42.116, g -24.15
+control c1 True; c2 True; c3 (law reproduces seen events: max |ratio - 1| 0.0254, rms ln R 0.0066) True; c4 (events differing from the linear law by more than the bar: {6.0: 0, 10.0: 19, 16.0: 19}) True; c5 (quintic vs septic, max relative per k 6.0: 0.00641, 10.0: 0.00670, 16.0: 0.00602; synthetic test True) True; c6 (D = 80 vs 92, 6.85e-06) True; c7 True; c8 (stages converged at D = 92, G = 1) True
+sha256 97138d546511a907caf9adcf01ef8ce75bdce9c4a338d6bfbef8438344f37ce9
+REGISTRATION-RUN q1298: controls True, table and run1298a/b/c.sh written

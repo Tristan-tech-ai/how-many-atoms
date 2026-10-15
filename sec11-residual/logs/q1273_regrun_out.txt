@@ -1,0 +1,12 @@
+control c1 (driver reproduces k = 3, max relative a_med difference 0.00e+00): True; c2 (chain solver bit-identical at k = 2): True; c3 (item functions): True; c4 (quintic vs septic, max relative to R_pred 0.00225): True; c5 (D = 80 vs 92 1.63e-06): True; c6 (reference interpolation exact): True
+K_b 29: v^2 98.23, a_med 23.3292313637, R_3 50.0294, predicted R_4 63.9376 (H_q) / 65.4385 (H_l), start a0 = 23.325231
+K_b 30: v^2 99.85, a_med 23.9605702628, R_3 35.6978, predicted R_4 45.6217 (H_q) / 46.6927 (H_l), start a0 = 23.956570
+K_b 31: v^2 101.45, a_med 24.5868446200, R_3 25.4969, predicted R_4 32.5850 (H_q) / 33.3499 (H_l), start a0 = 24.582845
+K_b 32: v^2 103.02, a_med 25.2082522359, R_3 18.3264, predicted R_4 23.4211 (H_q) / 23.9709 (H_l), start a0 = 25.204252
+K_b 33: v^2 104.57, a_med 25.8249774156, R_3 13.2769, predicted R_4 16.9679 (H_q) / 17.3662 (H_l), start a0 = 25.820977
+K_b 34: v^2 106.09, a_med 26.4371922601, R_3 9.6412, predicted R_4 12.3214 (H_q) / 12.6107 (H_l), start a0 = 26.433192
+K_b 35: v^2 107.59, a_med 27.0450577995, R_3 7.0176, predicted R_4 8.9685 (H_q) / 9.1790 (H_l), start a0 = 27.041058
+K_b 36: v^2 109.07, a_med 27.6487249938, R_3 5.1316, predicted R_4 6.5582 (H_q) / 6.7122 (H_l), start a0 = 27.644725
+base law numbers of the k = 4 spline and chain seed: d0 0.70887, nu0 -0.03259
+sha256 3aab77a7bd3a4f65ca129b616e8129f575107a3e5ff28d97db1306aca40a8d97
+REGISTRATION-RUN q1273: controls True, table written

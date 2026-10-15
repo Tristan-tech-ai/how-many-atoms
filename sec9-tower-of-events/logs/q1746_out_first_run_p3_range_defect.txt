@@ -1,0 +1,17 @@
+C1 recursion at NG = 10 against births_law.g: largest relative difference 1.01e-16
+CONTROL q1740 smallest terms reproduced: holds
+k, rho_k, n of the smallest term, S(k) = 16 pi^2 t_min, |residual| of q1727, ratio |residual| / S(k):
+  k = 30: rho 0.93993, n* = 29, S = 3.026e-12, |residual| = 1.027e-12, ratio = 0.339
+  k = 32: rho 0.95501, n* = 30, S = 1.239e-12, |residual| = 2.607e-13, ratio = 0.21
+  k = 34: rho 0.96940, n* = 31, S = 5.209e-13, |residual| = 1.115e-13, ratio = 0.214
+  k = 36: rho 0.98318, n* = 32, S = 2.246e-13, |residual| = 2.677e-13, ratio = 1.19
+  k = 38: rho 0.99639, n* = 33, S = 9.906e-14, |residual| = 3.363e-13, ratio = 3.39
+  k = 40: rho 1.00910, n* = 33, S = 4.459e-14, |residual| = 3.206e-13, ratio = 7.19
+  k = 42: rho 1.02134, n* = 34, S = 2.04e-14, |residual| = 2.827e-13, ratio = 13.9
+  k = 45: rho 1.03891, n* = 35, S = 6.554e-15, |residual| = 1.774e-13, ratio = 27.1
+  k = 50: rho 1.06634, n* = 37, S = 1.065e-15, |residual| = 1.924e-14, ratio = 18.1
+  k = 55: rho 1.09179, n* = 39, S = 1.887e-16, |residual| = 1.592e-13, ratio = 844.0
+  k = 60: rho 1.11557, n* = 41, S = 3.611e-17, |residual| = 2.770e-13, ratio = 7.67e+3
+S(28) = 7.612e-12, S(30) = 3.026e-12; largest |residual| at k = 30, largest S at k = 28; the ratio |residual| / S(k) runs from 0.21 to 7.67e+03 over the printed rows (spread factor 3.65e+04)
+P1 S(30) between 2e-12 and 4e-12: holds; P2 S(k) falls monotonically over k = 28..60: holds; P3 largest |residual| at a k different from the k of the largest S: holds
+READING q1746 done (labels by the script; no verdict word)

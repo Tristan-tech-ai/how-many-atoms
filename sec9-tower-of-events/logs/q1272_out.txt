@@ -1,0 +1,5 @@
+control: variant A order 16 52.474720531429 against the table 52.474720531429; B differs from A by 3.85e-12: True
+A_cross 52.474720531434
+order 12: cubic spline deviation -0.0060e-9, quintic spline deviation -0.0098e-9
+order 16: cubic spline deviation +0.0048e-9, quintic spline deviation +0.0010e-9
+READING q1272 (no verdict)

@@ -1,0 +1,5 @@
+e_10 closed form -3362667379392.344434402, stored -3362667379392.344434402; relative difference 0.0
+e_9 from the order-10 run against stored: 0.0; e_9 of the order-9 run against stored: 0.0
+completion line of e_9 in q1634_se_10.log prints: 0; ratio e_10/e_9 = 51.03568; control (change of 1e-59): 1.0e-59
+P1 closed form equals the stored value to 1e-50: holds; P2 completion line prints 0: holds; P3 ratio 51.0357 to 4 digits: holds; control: holds
+READING q1695 done (labels by the script; no verdict word)

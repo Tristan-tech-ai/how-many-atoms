@@ -1,0 +1,3 @@
+state results_q220_gauss_K65_A43.5803.json: A 43.580315, m 31; spread of S_G,pq/N_pq along rows 1.721e-32; b_eff,p/(c_p N_pA) from +0.737200 to +0.790947
+   (m + 1) x (m + 1) matrix E'NE': initial minors positive 1024, negative 0, undecided 0 of 1024; its first m rows: positive 992, negative 0, undecided 0 of 992
+END q996 READING (no verdict)

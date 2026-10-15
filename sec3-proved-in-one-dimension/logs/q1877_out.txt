@@ -1,0 +1,6 @@
+2 int R = 4.01569; 2(sum nu - g) = 4.01569
+A = 10.0: M_A - 2A - 2(sum nu - g) = 8.8134e-16
+A = 20.0: M_A - 2A - 2(sum nu - g) = 3.1554e-30
+A = 40.0: M_A - 2A - 2(sum nu - g) = 3.1554e-30
+P1 held; P2 held
+READING (no verdict): the limit lemma of the dual upper bound checked by quadrature; the script writes nothing.

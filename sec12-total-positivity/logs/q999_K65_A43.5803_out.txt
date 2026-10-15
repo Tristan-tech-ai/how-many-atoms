@@ -1,0 +1,2 @@
+   D'(A) = 2.860179e-01; b_eff,G = b_eff - D'(A) (B Dm^-1 e): ratio b_eff,G,p/(c_p N_pA) from +1.0000000000 to +1.0000000000; ratio b_eff,p/(c_p N_pA) from +0.737200 to +0.790947
+END q999 READING (no verdict)

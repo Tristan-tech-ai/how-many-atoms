@@ -1,0 +1,23 @@
+k, delta_k (depth), relative mass deviation:
+   1 -3.631e-03 +5.391e-03
+   2 -3.658e-04 +4.748e-04
+   3 -5.888e-05 +7.309e-05
+   5 -1.942e-06 +3.204e-06
+   8 +2.146e-07 -1.162e-08
+  10 +1.025e-07 -2.822e-08
+  12 +4.249e-08 -1.369e-08
+  15 +1.153e-08 -3.744e-09
+  20 +3.036e-09 -1.255e-10
+  30 +6.572e-09 +4.473e-10
+  40 +1.089e-08 +3.843e-10
+  50 +1.425e-08 +3.163e-10
+  60 +1.691e-08 +2.660e-10
+  70 +1.907e-08 +2.284e-10
+  80 +2.086e-08 +1.879e-10
+  90 +2.183e-08 -2.413e-11
+ 100 +1.735e-08 -1.423e-09
+ 110 +2.206e-09 -1.307e-09
+ 120 +3.535e-16 -2.399e-15
+increases of |delta_k| between k = 12 and 60 at k = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]; log-log slope of |delta_k| over k = 20..60: 1.65; |delta_60| 1.691e-08; |relative mass deviation| at k = 60 2.660e-10
+P1 does not hold; P2 does not hold; P3 does not hold; P4 does not hold
+READING q1609 done (labels by the script; no verdict word)

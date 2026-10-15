@@ -19,6 +19,7 @@ Scripts are formatted with black (layout only). The original path is the name us
 | `scripts/I_rd_centre.py` | TEXT COPY of I_lfp_centre for FUNC rd (SRC_S from the state). | `I_rd_centre.py` |
 | `scripts/I_steps.py` | continuation of one ring by plain Newton (G_core, float64) through a list of rm values, with the scan validity read at each; | `I_steps.py` |
 | `scripts/d90_mpD.py` | the KKT function D of d89 in mpmath, for checks below double precision. | `centre_scripts/d90_mpD.py` |
+| `scripts/math.py` |  | `gate_truth/_repo_rebuild/paper2/sec5-baseline/scripts/math.py` |
 | `scripts/q719_wallchain_arb.py` | the D2-orbit wall-chain solve of q708/q712 in ball arithmetic (python-flint arb), with the separable Gauss-Hermite rule of q718: for a query point q, Ex[i, j] = exp(-(qx + T_i - x_j)^2/2), Ey[j, l] = exp(-(qy + T_l - y_j)^2/2), p = Ex diag( | `centre_scripts/q719_wallchain_arb.py` |
 | `scripts/q786_lfp_wallchain.py` | the least favourable prior for a normal mean known to lie on the ellipse (unit noise, squared-error loss). | `centre_scripts/q786_lfp_wallchain.py` |
 | `scripts/q816_centre_birth.py` | where the filled-ellipse optimum first needs an interior atom, from the formal density alone. | `centre_scripts/q816_centre_birth.py` |
@@ -47,5 +48,6 @@ Scripts are formatted with black (layout only). The original path is the name us
 | `scripts/q840_crossing_poly.py` | interpolation error of q825's eccentric crossing on a coarse scan. | `centre_scripts/q840_crossing_poly.py` |
 | `scripts/q841_harm_at.py` | the K-th eccentric harmonic of the inner formal density at given rm values (cubic fit through the four logged rows around each rm), to state a pair or quartet loss as a miss in the harmonic (E - 1 = harmonic/2 - 1). | `centre_scripts/q841_harm_at.py` |
 | `scripts/q842_miss_scaling.py` | TEXT COPY of q839 with the two second-aspect-ratio losses of 1477 added and the inner major radius A printed, to ask whether the miss E - 1 scales with eps or with A. | `centre_scripts/q842_miss_scaling.py` |
+| `scripts/time.py` |  | `gpu_lab/venv/Lib/site-packages/cupyx/time.py` |
 
 `logs/` holds 111 output files of the runs reported in the paper; a `__` in a name stands for a folder separator of the original tree.

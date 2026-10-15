@@ -1,0 +1,8 @@
+control K_b 53: a_pred 37.4069796958; against the stored q645 value 0.0e+00; against the located amplitude of amendment 962 7.1e-11 -> True
+control K_b 55: a_pred 38.5030763177; against the stored q645 value 1.4e-14; against the located amplitude of amendment 962 2.0e-10 -> True
+control K_b 57: a_pred 39.5892471498; against the stored q645 value 7.1e-15; against the located amplitude of amendment 962 7.8e-11 -> True
+control K_b 59: a_pred 40.6659278448; against the stored q645 value 0.0e+00; against the located amplitude of amendment 962 1.8e-11 -> True
+immune curve range of rho: 0.841 to 1.064; capacity rho_c at K_b 61, 79, 80: [0.9406, 1.0033, 1.0065]
+predictions a_pred(K_b): {61: 41.7335207663, 62: 42.2640268337, 63: 42.7923985453, 64: 43.3186783381, 65: 43.8429071526, 66: 44.3651245081, 67: 44.8853685718, 68: 45.4036762264, 69: 45.9200831302, 70: 46.4346237755, 71: 46.9473315427, 72: 47.458238752, 73: 47.9673767106, 74: 48.4747757586, 75: 48.980465311, 76: 49.4844738981, 77: 49.9868292039, 78: 50.4875581012, 79: 50.986686686, 80: 51.4842403093}
+sha256 of the 20 predictions 9c6608c9248dfb627cfcffaba52c123c3eec24f5e80f110b11bd2ef2ace76006
+READING q1200: predictions only (no measurement read)

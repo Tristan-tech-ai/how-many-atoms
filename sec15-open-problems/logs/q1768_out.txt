@@ -1,0 +1,9 @@
+C1 substitution exact: True; C2 F level 1 from the exp relation equals the polynomial of q1756 for k = 0..11: True
+log level 1 in w: -8*w**5 + 76*w**4/3 - 28*w**3 + 34*w**2/3 - 2/3
+F level 1 in w: -8*w**6 + 76*w**5/3 - 28*w**4 + 34*w**3/3 - 2*w/3
+reciprocal level 0 in w (as polynomial in w and 1/w): 8*w**4 - 76*w**3/3 + 28*w**2 - 34*w/3 + 2/(3*w)
+p(n) = n 8^n coefficient of u^(n-2) in L_n, n = 1..15: 1: 0, 2: 0, 3: 0, 4: -56/9, 5: -616/9, 6: 2456/3, 7: 157864/9, 8: 431120/3, 9: 771152, 10: 9521936/3, 11: 32494352/3, 12: 32097912, 13: 766291240/9, 14: 1858488632/9, 15: 1395158024/3
+degree-10 polynomial with zeros n = 0..3 fitted on n = 4..10, checked on n = [11, 12, 13, 14, 15]: holds
+   p(n) = n*(n - 3)*(n - 2)*(n - 1)*(115*n**6 - 1425*n**5 + 5137*n**4 + 945*n**3 - 40676*n**2 + 70392*n - 26964)/34020
+P1 log level 1 in w has degree 5 and 3 times it has integer coefficients: holds; P2 p(n) of the log level 2 is a polynomial of degree 10 with zeros n = 0..3 and 5 independent checks: holds; P3 factor n(n-1)(n-2)(n-3): holds
+READING q1768 done (labels by the script; no verdict word)

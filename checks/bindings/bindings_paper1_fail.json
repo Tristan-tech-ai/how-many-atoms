@@ -24,14 +24,14 @@
   "paper": "paper1",
   "printed": "2.2",
   "context": "copying error $h_{K-2}$ to within $2.2\\%$",
-  "expr": "2.2 if 100 * max(abs(-(J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 4) - L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){4}([\\d.]+) \\(j 2-10\\)')) - T('temporal_within/agents/B_out/cc_cap13K12.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){4}(-[\\d.e-]+),')) / abs(T('temporal_within/agents/B_out/cc_cap13K12.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){4}(-[\\d.e-]+),')), abs(-(J('temporal_within/agents/B_out/cc13K10_M5_e0.20724.json', 'c', 3) - L(1283, r'K 10 at eps 0\\.207240: b (?:[\\d.]+, ){3}([\\d.]+) \\(j 2-8\\)')) - T('temporal_within/agents/B_out/cc_cap13K10.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){3}(-[\\d.e-]+),')) / abs(T('temporal_within/agents/B_out/cc_cap13K10.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){3}(-[\\d.e-]+),'))) <= 2.2 else -1",
+  "expr": "2.2 if 100 * max(abs(-(J('temporal_within/B_out/cc13K12_M6_e0.182742.json', 'c', 4) - L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){4}([\\d.]+) \\(j 2-10\\)')) - T('temporal_within/B_out/cc_cap13K12.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){4}(-[\\d.e-]+),')) / abs(T('temporal_within/B_out/cc_cap13K12.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){4}(-[\\d.e-]+),')), abs(-(J('temporal_within/B_out/cc13K10_M5_e0.20724.json', 'c', 3) - L(1283, r'K 10 at eps 0\\.207240: b (?:[\\d.]+, ){3}([\\d.]+) \\(j 2-8\\)')) - T('temporal_within/B_out/cc_cap13K10.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){3}(-[\\d.e-]+),')) / abs(T('temporal_within/B_out/cc_cap13K10.log', r'LR b_j - c_j\\^\\(K/2\\):\\s+(?:[-\\d.e]+, ){3}(-[\\d.e-]+),'))) <= 2.2 else -1",
   "why": "upper bound: |h_{K-2}(solved) - h_{K-2}(LR)| / |h_{K-2}(LR)| is 2.17 % (K = 12) and 1.44 % (K = 10)"
  },
  {
   "paper": "paper1",
   "printed": "4\\times 10^{-6}",
   "context": "are at most $4\\times 10^{-6}$ for",
-  "expr": "4e-6 if max(abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){0}([\\d.]+),') - J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 0)), abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){1}([\\d.]+),') - J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 1)), abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){2}([\\d.]+),') - J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 2)), abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){3}([\\d.]+),') - J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 3))) <= 4e-6 else -1",
+  "expr": "4e-6 if max(abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){0}([\\d.]+),') - J('temporal_within/B_out/cc13K12_M6_e0.182742.json', 'c', 0)), abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){1}([\\d.]+),') - J('temporal_within/B_out/cc13K12_M6_e0.182742.json', 'c', 1)), abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){2}([\\d.]+),') - J('temporal_within/B_out/cc13K12_M6_e0.182742.json', 'c', 2)), abs(L(1283, r'K 12 at eps 0\\.182742: b (?:[\\d.]+, ){3}([\\d.]+),') - J('temporal_within/B_out/cc13K12_M6_e0.182742.json', 'c', 3))) <= 4e-6 else -1",
   "why": "upper bound: |b_j - c_j| for j = 2, 4, 6, 8 is 0.9e-6, 2.3e-6, 3.7e-6, 1.6e-6 (b to six digits in Amendment 1283)"
  },
  {

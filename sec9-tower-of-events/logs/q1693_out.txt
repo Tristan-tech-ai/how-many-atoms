@@ -1,0 +1,4 @@
+r = f30/f28 = 0.46196: largest |a_inf - A| over K_b 61..82 without 73: 2.125e-12 (K_b 73 +1.15e-11); rms K_b 83..130 4.576e-14; K_b 131..138 (1e-12): 131 +0.114, 132 +0.085, 133 +0.014, 134 +0.043, 135 +0.114, 137 +0.043, 138 +0.099
+r = 0.4404: largest over K_b 61..82 without 73: 1.634e-12; no extrapolation (a15): largest over K_b 61..69 3.723e-12, over K_b 70..82 without 73 1.627e-12
+P1 below 1.0e-12: does not hold; P2 smaller than the fixed-ratio value 1.634e-12: does not hold; P3 later events within 0.1e-12: does not hold; control: holds
+READING q1693 done (labels by the script; no verdict word)

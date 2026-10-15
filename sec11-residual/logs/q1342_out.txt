@@ -1,0 +1,59 @@
+tight_run: scipy brentq called with xtol 1e-16 when no xtol is given; q1183.rho_of replaced by the tight inversion
+tight_run: capacity R(36) = 0.5503757449787372 (old instrument 0.5456)
+events 24; control: Da(115) and R(36) True; synthetic recovery and no forced term True
+C1: parameters [  1.76906 -77.95995]; rms of the relative misfit 0.0963; largest 0.2897
+C2: parameters [ 2.01091e+00 -8.04793e+01  1.95457e-04]; rms of the relative misfit 0.0649; largest 0.1613
+C3: parameters [ 1.78568e+00 -7.73949e+01 -3.69444e-04  1.06767e-06]; rms of the relative misfit 0.0415; largest 0.1129
+C4: parameters [ 2.83064e+00 -1.17710e+02  3.13051e+03]; rms of the relative misfit 0.0810; largest 0.2192
+K_b   v^2     R(1e-9)   C2 misfit   C4 misfit
+ 20   79.78    19.5922    -0.0792    -0.1643
+ 21   81.78    16.1194    +0.1208    +0.1758
+ 22   83.72    14.7108    +0.1476    +0.2192
+ 23   85.62    16.7599    -0.1148    -0.0733
+ 24   87.48    14.8629    -0.1613    -0.1378
+ 25   89.30    10.6698    -0.0490    -0.0375
+ 26   91.08     8.0283    +0.0062    +0.0061
+ 27   92.83     6.7320    -0.0598    -0.0682
+ 28   94.55     5.3039    -0.0753    -0.0892
+ 29   96.23     3.8408    -0.0184    -0.0370
+ 30   97.89     2.8509    +0.0109    -0.0105
+ 31   99.51     2.2397    -0.0200    -0.0416
+ 32  101.12     1.7139    -0.0272    -0.0485
+ 33  102.69     1.2612    +0.0028    -0.0184
+ 34  104.24     0.9406    +0.0192    -0.0008
+ 35  105.77     0.7242    +0.0033    -0.0145
+ 36  107.28     0.5504    +0.0008    -0.0147
+ 37  108.76     0.4111    +0.0166    +0.0033
+ 40  113.10     0.1802    +0.0188    +0.0141
+ 41  114.51     0.1363    +0.0266    +0.0250
+ 42  115.90     0.1033    +0.0341    +0.0356
+ 43  117.28     0.0794    +0.0291    +0.0337
+ 44  118.63     0.0607    +0.0319    +0.0398
+ 45  119.98     0.0464    +0.0353    +0.0463
+closure law M2 at k = 0: sigma 0.4465, g -11.105
+READING q1299 (exploratory, no verdict)
+control: synthetic recovery of (c1 common, c0 per k): True
+per exponent: n, K_b range, v^2 range | two terms c0, c1, rms | three terms c0, c1, c2, rms
+  k 0.020: n  18, K_b 23-40, v^2   85.6- 113.1 | c0  1.855 c1  -143.02 rms 0.0265 | c0  2.327 c1   -234.0 c2    4357.1 rms 0.0254
+  k 0.050: n  19, K_b 21-40, v^2   81.7- 113.1 | c0  1.937 c1  -146.92 rms 0.0238 | c0  1.788 c1   -119.1 c2   -1282.9 rms 0.0234
+  k 0.052: n   1, K_b 39-39, v^2  111.7- 111.7 | c0  0.624 c1     0.01 rms 0.0000 | c0    nan c1      nan c2       nan rms nan
+  k 0.054: n   1, K_b 39-39, v^2  111.7- 111.7 | c0  0.627 c1     0.01 rms 0.0000 | c0    nan c1      nan c2       nan rms nan
+  k 0.056: n   1, K_b 39-39, v^2  111.6- 111.6 | c0  0.630 c1     0.01 rms 0.0000 | c0    nan c1      nan c2       nan rms nan
+  k 0.058: n   1, K_b 39-39, v^2  111.6- 111.6 | c0  0.633 c1     0.01 rms 0.0000 | c0    nan c1      nan c2       nan rms nan
+  k 0.060: n   4, K_b 38-41, v^2  110.2- 114.5 | c0  2.060 c1  -159.29 rms 0.0032 | c0    nan c1      nan c2       nan rms nan
+  k 0.075: n   4, K_b 38-41, v^2  110.2- 114.5 | c0  2.082 c1  -159.39 rms 0.0030 | c0    nan c1      nan c2       nan rms nan
+  k 0.090: n   4, K_b 38-41, v^2  110.2- 114.5 | c0  2.104 c1  -159.38 rms 0.0029 | c0    nan c1      nan c2       nan rms nan
+  k 0.100: n  18, K_b 21-40, v^2   81.7- 113.1 | c0  2.013 c1  -147.42 rms 0.0181 | c0  1.952 c1   -136.1 c2    -525.4 rms 0.0180
+  k 0.250: n  20, K_b 17-40, v^2   73.3- 113.0 | c0  2.237 c1  -147.09 rms 0.0144 | c0  2.351 c1   -166.9 c2     849.3 rms 0.0141
+  k 0.350: n  22, K_b 15-40, v^2   68.7- 112.9 | c0  2.388 c1  -145.78 rms 0.0138 | c0  2.720 c1   -201.5 c2    2294.9 rms 0.0096
+  k 0.500: n  21, K_b 14-40, v^2   66.1- 112.8 | c0  2.687 c1  -147.25 rms 0.0080 | c0  2.959 c1   -192.8 c2    1855.2 rms 0.0037
+  k 0.750: n  21, K_b 14-40, v^2   65.8- 112.6 | c0  3.303 c1  -148.58 rms 0.0072 | c0  3.725 c1   -220.3 c2    2960.4 rms 0.0029
+one common c1 for all exponents: c1 = -146.413; c0 per k: 0.02: 1.8917, 0.05: 1.9310, 0.06: 1.9453, 0.075: 1.9669, 0.09: 1.9887, 0.1: 2.0018, 0.25: 2.2290, 0.35: 2.3962, 0.5: 2.6762, 0.75: 3.2767
+   rms of ln R with the common c1: 0.02: 0.0280, 0.05: 0.0238, 0.06: 0.0041, 0.075: 0.0039, 0.09: 0.0037, 0.1: 0.0182, 0.25: 0.0145, 0.35: 0.0139, 0.5: 0.0082, 0.75: 0.0077
+common c1 for the six old exponents only: c1 = -146.554; c0: 0.02: 1.8932, 0.05: 1.9325, 0.1: 2.0033, 0.25: 2.2307, 0.5: 2.6781, 0.75: 3.2784; rms 0.0281, 0.0238, 0.0182, 0.0144, 0.0082, 0.0077
+the single-event exponents (k = 0.052 to 0.058, K_b 39) against the common-c1 form with c0(k) from a cubic through the common-fit c0 of k = 0.02, 0.05, 0.1, 0.25 (R / Da measured - predicted):
+  k 0.052: R/Da +0.6242, predicted +0.6223, difference +0.0019
+  k 0.054: R/Da +0.6270, predicted +0.6251, difference +0.0020
+  k 0.056: R/Da +0.6299, predicted +0.6278, difference +0.0021
+  k 0.058: R/Da +0.6327, predicted +0.6305, difference +0.0022
+READING q1342 (exploratory, no verdict)

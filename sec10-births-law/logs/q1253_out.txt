@@ -1,0 +1,4 @@
+control: cubic dev16 at K_b 10 +49823.7895e-9 (q1220 output +49823.7895): True
+k = 3: K_b 10: dev16 +49823.8e-9, dev12 -12650.6e-9, bar 1.164e-04, |dev16| > |dev12|: True; K_b 11: dev16 +22353.4e-9, dev12 -7194.7e-9, bar 5.296e-05, |dev16| > |dev12|: True; K_b 12: dev16 +10634.4e-9, dev12 -4350.5e-9, bar 2.587e-05, |dev16| > |dev12|: True; K_b 13: dev16 +4718.5e-9, dev12 -3334.7e-9, bar 1.341e-05, |dev16| > |dev12|: True; K_b 14: dev16 +2300.4e-9, dev12 -2245.4e-9, bar 7.310e-06, |dev16| > |dev12|: True
+k = 5: K_b 10: dev16 +50370.9e-9, dev12 -12105.6e-9, bar 1.164e-04, |dev16| > |dev12|: True; K_b 11: dev16 +22282.2e-9, dev12 -7266.4e-9, bar 5.296e-05, |dev16| > |dev12|: True; K_b 12: dev16 +10439.9e-9, dev12 -4544.9e-9, bar 2.587e-05, |dev16| > |dev12|: True; K_b 13: dev16 +4716.5e-9, dev12 -3336.7e-9, bar 1.341e-05, |dev16| > |dev12|: True; K_b 14: dev16 +2206.7e-9, dev12 -2339.1e-9, bar 7.310e-06, |dev16| > |dev12|: False
+READING q1253 (no verdict)

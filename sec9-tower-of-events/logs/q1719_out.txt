@@ -1,0 +1,8 @@
+NG 13 minus NG 12: nu0 -2.084e-10, d0 +1.921e-10
+NG 14 minus NG 13: nu0 -8.424e-11, d0 +7.789e-11
+NG 15 minus NG 14: nu0 -3.673e-11, d0 +3.404e-11
+one-order ratios of successive steps: NG 14/13: nu0 0.4043, d0 0.4054; NG 15/14: nu0 0.4360, d0 0.4370
+nu0: limit with the last ratio 0.4360 fixed: -0.0937736508389; minus the c30 births pair +3.929e-12; c30 ladder pair minus c30 births pair +3.232e-11
+d0: limit with the last ratio 0.4370 fixed: 0.0011599160097; minus the c30 births pair -3.785e-12; c30 ladder pair minus c30 births pair -3.021e-11
+ladder minus births, NG = 14 (c28 births pair of q1665): nu0 +6.065e-11, d0 -5.685e-11; NG = 15 (c30 births pair): nu0 +3.232e-11, d0 -3.021e-11
+READING q1719 done (post hoc; no labels)

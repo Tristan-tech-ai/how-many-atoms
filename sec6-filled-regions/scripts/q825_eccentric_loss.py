@@ -1,5 +1,5 @@
 """q825 (03 Oct 2026): the inner rings' copying loss in the ECCENTRIC parameter of the inner curve (the boundary convention of A2
-Section III), from q822 logs. The function harm() is a TEXT COPY of the referee's round-3 check (scratchpad r3_param.py, A2 R3,
+Section III), from q822 logs. The function harm() is a TEXT COPY of the referee's round-3 check (r3_param.py, A2 R3,
 finding 1; arc-length branch dropped): the logged density g(th) dth/2pi on rho(th) = sum a_k cos 2k th is re-expressed in s, where
 x = A cos s, y = B sin s with A = rho(0), B = rho(pi/2), and its K-th harmonic 2 <g cos K s> is compared with the ring's b_K = 2
 (pair: K = 2 from an MI 1 log; quartet: K = 4 from an MI 2 log). Prints that harmonic at each logged rm and the rm where it crosses 2

@@ -1,0 +1,8 @@
+state results_q220_gauss_K65_A43.5803.json: A 43.580315, m 31, odd True; du_u all positive: True
+   w_1: row of M1 positive 15, negative 16 of 31; M2 - (-2.423e-04); flow +4.1625e-03; sum of positive terms 3.047e-02, negative -2.606e-02
+   w_2: row of M1 positive 15, negative 16 of 31; M2 - (-2.472e-04); flow +2.3345e-03; sum of positive terms 2.873e-02, negative -2.615e-02
+   w_16: row of M1 positive 15, negative 16 of 31; M2 - (-3.033e-04); flow -3.0002e-04; sum of positive terms 2.561e-02, negative -2.560e-02
+   w_31: row of M1 positive 15, negative 16 of 31; M2 + (8.081e-03); flow -5.6556e-04; sum of positive terms 2.193e-03, negative -1.084e-02
+   we: row of M1 positive 15, negative 16 of 31; M2 + (3.535e-03); flow -8.4178e-04; sum of positive terms 1.171e-03, negative -5.548e-03
+   wc: row of M1 positive 16, negative 15 of 31; M2 - (-2.408e-04); flow +5.0878e-03; sum of positive terms 3.256e-02, negative -2.723e-02
+END q982 READING (no verdict)

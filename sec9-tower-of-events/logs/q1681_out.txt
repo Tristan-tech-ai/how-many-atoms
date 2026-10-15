@@ -1,0 +1,10 @@
+cell NG 13 nmax 14: in-sample rms 1.7397e-13; K_b 138: a_pred - A = -4.263e-13
+cell NG 14 nmax 14: in-sample rms 5.8440e-14; K_b 138: a_pred - A = +8.527e-14
+cell NG 14 nmax 16: in-sample rms 1.1017e-13; K_b 138: a_pred - A = -2.700e-13
+P1 cell (14, 14) in [-2e-13, +4e-13]: holds; P2 cell (13, 14) in [-7e-13, -3e-13]: holds; P3 cell (14, 16) in [-4e-13, -1.5e-13]: holds; control: holds
+q1681 registration written 10:04:32 (clock); event files for K_b 136 in fw_cap_par*, fw_prod: none (no event_Kb136.json in any directory); K_b 138 existed (delivered 10:03:04) and is not registered here.
+cell NG 13 nmax 14: K_b 136 a_pred = 77.388989108976
+cell NG 14 nmax 14: K_b 136 a_pred = 77.388989108977
+cell NG 14 nmax 16: K_b 136 a_pred = 77.388989108976
+Bars: cell (14, 14) |a_pred - A| < 5e-13; cell (13, 14) a_pred - A in [-6e-13, -2e-13]; cell (14, 16) a_pred - A in [-3.5e-13, -1.2e-13].
+READING q1681 done (labels by the script; no verdict word)

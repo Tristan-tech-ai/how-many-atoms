@@ -1,0 +1,3 @@
+predictions K_b 139: (14, 14) 78.690973245048, (14, 18) 78.690973245048; K_b 150: 83.406503514129, 83.406503514128
+P1 labels hold on synthetic events at the (14, 14) prediction: holds; P2 the (14, 14) bar and the (14, 18) sign do not hold at +2e-12: holds; P3 no files gives NO EVENT, exit 0: holds; P4 file without A_event gives VOID, exit 2: holds; P5 control predictions equal the registered ones: holds
+SELFTEST PASS

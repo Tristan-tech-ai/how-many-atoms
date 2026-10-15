@@ -1,0 +1,14 @@
+control synthetic recovery: OK (L 1.03000, p 1.300); control below-one limit: OK
+even: 11 states, K 62..82, R from 1.05997 to 1.05613, decrements per 2 in K: first 0.00049, last 0.00030; monotone decreasing True
+    L + a K^-p: p 1.0000, L 1.04421, a 0.9782, rms 1.95e-05
+    L + a K^-p: p 1.3333, L 1.04765, a 3.0356, rms 3.25e-05
+    L + a K^-p: p 2.0000, L 1.05108, a 34.5571, rms 6.24e-05
+    L + a K^-p: p 0.7175, L 1.03880, a 0.4089, rms 1.41e-05
+    spread of L over the models: 1.03880 to 1.05108; all above 1: True
+odd: 10 states, K 63..81, R from 1.05234 to 1.05007, decrements per 2 in K: first 0.00031, last 0.00024; monotone decreasing True
+    L + a K^-p: p 1.0000, L 1.04230, a 0.6330, rms 2.47e-05
+    L + a K^-p: p 1.3333, L 1.04452, a 1.9661, rms 3.10e-05
+    L + a K^-p: p 2.0000, L 1.04674, a 22.4286, rms 4.54e-05
+    L + a K^-p: p 0.3168, L 1.02316, a 0.1084, rms 1.80e-05
+    spread of L over the models: 1.02316 to 1.04674; all above 1: True
+READING q1394 done

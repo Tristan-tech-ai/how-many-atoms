@@ -1,0 +1,32 @@
+== quiet: J 15
+   order 1 (all 225 minors): smallest midpoint +2.396e-05, certainly negative 0, undecided 0
+   order 2 (all 11025 minors): smallest midpoint +1.257e-15, certainly negative 0, undecided 0
+   order 3 (all 207025 minors): smallest midpoint +2.771e-28, certainly negative 0, undecided 0
+   order 4 (20000 sampled): smallest midpoint +5.015e-39, certainly negative 0, undecided 0
+   order 5 (20000 sampled): smallest midpoint +2.707e-38, certainly negative 0, undecided 0
+   order 6 (20000 sampled): smallest midpoint +5.987e-42, certainly negative 0, undecided 0
+   order 7 (20000 sampled): smallest midpoint +2.654e-49, certainly negative 0, undecided 0
+   order 8 (20000 sampled): smallest midpoint +1.376e-39, certainly negative 0, undecided 0
+   A6b -> PASS
+== before: J 15
+   order 1 (all 225 minors): smallest midpoint +2.883e-05, certainly negative 0, undecided 0
+   order 2 (all 11025 minors): smallest midpoint +1.695e-15, certainly negative 0, undecided 0
+   order 3 (all 207025 minors): smallest midpoint +3.950e-28, certainly negative 0, undecided 0
+   order 4 (20000 sampled): smallest midpoint +1.582e-33, certainly negative 0, undecided 0
+   order 5 (20000 sampled): smallest midpoint +3.539e-36, certainly negative 0, undecided 0
+   order 6 (20000 sampled): smallest midpoint +2.097e-43, certainly negative 0, undecided 0
+   order 7 (20000 sampled): smallest midpoint +2.091e-44, certainly negative 0, undecided 0
+   order 8 (20000 sampled): smallest midpoint +2.025e-48, certainly negative 0, undecided 0
+   A6b -> PASS
+== after: J 15
+   order 1 (all 225 minors): smallest midpoint +1.331e-06, certainly negative 0, undecided 0
+   order 2 (all 11025 minors): smallest midpoint +2.453e-17, certainly negative 0, undecided 0
+   order 3 (all 207025 minors): smallest midpoint +3.590e-30, certainly negative 0, undecided 0
+   order 4 (20000 sampled): smallest midpoint +6.463e-32, certainly negative 0, undecided 0
+   order 5 (20000 sampled): smallest midpoint +1.141e-36, certainly negative 0, undecided 0
+   order 6 (20000 sampled): smallest midpoint +2.566e-42, certainly negative 0, undecided 0
+   order 7 (20000 sampled): smallest midpoint +3.473e-48, certainly negative 0, undecided 0
+   order 8 (20000 sampled): smallest midpoint +4.828e-53, certainly negative 0, undecided 0
+   A6b -> PASS
+A6b VERDICT: PASS
+exit 0

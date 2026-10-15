@@ -1,0 +1,8 @@
+q1103 (code line, reading, no verdict): u_end = smallest flow of the family (readings q953/q954), rho = rho(K_b = K) of the prediction files
+odd K [63, 65, 67, 69, 71] rho [0.94834, 0.95578, 0.96304, 0.97014, 0.97709]
+  u_end*rho^2 [0.17519, 0.17448, 0.17371, 0.17431, 0.17461] mean 0.174461
+  log-log slope of u_end against rho -2.106
+even K [64, 66, 68, 70, 72] rho [0.95208, 0.95943, 0.96661, 0.97363, 0.98051]
+  u_end*rho^2 [0.08811, 0.08782, 0.08755, 0.08807, 0.08787] mean 0.087882
+  log-log slope of u_end against rho -2.037
+C_odd/C_even = 1.9851827219492995

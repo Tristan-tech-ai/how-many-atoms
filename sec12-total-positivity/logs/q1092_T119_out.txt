@@ -1,0 +1,26 @@
+controls: {'PC': (30, 0), 'NC1': (28, 0), 'NC2': (0, 0)} -> True
+results_q220_gauss_K63_A42.2682.json: m 30, degree 29, certified sign changes 29, undecided 0, R1 True
+results_q220_gauss_K63_A42.5282.json: m 30, degree 29, certified sign changes 29, undecided 0, R1 True
+results_q220_gauss_K63_A42.7882.json: m 30, degree 29, certified sign changes 29, undecided 0, R1 True
+results_q220_gauss_K64_A42.7932.json: m 31, degree 30, certified sign changes 30, undecided 0, R1 True
+results_q220_gauss_K64_A43.0353.json: m 31, degree 30, certified sign changes 30, undecided 0, R1 True
+results_q220_gauss_K64_A43.3153.json: m 31, degree 30, certified sign changes 30, undecided 0, R1 True
+results_q220_gauss_K65_A43.3203.json: m 31, degree 30, certified sign changes 30, undecided 0, R1 True
+results_q220_gauss_K65_A43.5803.json: m 31, degree 30, certified sign changes 30, undecided 0, R1 True
+results_q220_gauss_K65_A43.8403.json: m 31, degree 30, certified sign changes 30, undecided 0, R1 True
+results_q220_gauss_K66_A43.8453.json: m 32, degree 31, certified sign changes 31, undecided 0, R1 True
+results_q220_gauss_K66_A44.0883.json: m 32, degree 31, certified sign changes 31, undecided 0, R1 True
+results_q220_gauss_K66_A44.3633.json: m 32, degree 31, certified sign changes 31, undecided 0, R1 True
+results_q220_gauss_K67_A44.3683.json: m 32, degree 31, certified sign changes 31, undecided 0, R1 True
+results_q220_gauss_K67_A44.6248.json: m 32, degree 31, certified sign changes 31, undecided 0, R1 True
+results_q220_gauss_K67_A44.8848.json: m 32, degree 31, certified sign changes 31, undecided 0, R1 True
+results_q220_gauss_K68_A44.8898.json: m 33, degree 32, certified sign changes 32, undecided 0, R1 True
+results_q220_gauss_K68_A45.1325.json: m 33, degree 32, certified sign changes 32, undecided 0, R1 True
+results_q220_gauss_K68_A45.4025.json: m 33, degree 32, certified sign changes 32, undecided 0, R1 True
+results_q220_gauss_K69_A45.4075.json: m 33, degree 32, certified sign changes 32, undecided 0, R1 True
+results_q220_gauss_K69_A45.6625.json: m 33, degree 32, certified sign changes 32, undecided 0, R1 True
+results_q220_gauss_K69_A45.9175.json: m 33, degree 32, certified sign changes 32, undecided 0, R1 True
+results_q220_gauss_K70_A45.9225.json: m 34, degree 33, certified sign changes 33, undecided 0, R1 True
+results_q220_gauss_K70_A46.1559.json: m 34, degree 33, certified sign changes 33, undecided 0, R1 True
+results_q220_gauss_K70_A46.4309.json: m 34, degree 33, certified sign changes 33, undecided 0, R1 True
+VERDICT q1092 T119: PASS; states 24; not certified 0

@@ -1,0 +1,53 @@
+control c1 (counter on a synthetic derivative): True
+control c2 (ball arithmetic against the 40-digit mpmath sum at seven grid points, full precision: largest upper bound of the difference 1.26e-40, max |D'| 2.744e-01; bar 1e-30): True
+control c3 (equally spaced comb: 2 sign changes, 0 undecided, pattern False): True; c4 (one atom removed: 16 sign changes, 0 undecided): True; c5 (K = 40 state: 38 changes, 0 undecided, pattern True, smallest decided |D'| 8.31e-14, largest ball radius 6.1e-65): True
+K 60 A 41.130000 centre_signal -1.3188038699921963e-14 u1 0.5423 D'(0.01) sign + first change 0.550 count 58 (K-2 = 58) undecided 0
+K 60 A 41.140000 centre_signal -1.2031245261984632e-14 u1 0.5434 D'(0.01) sign + first change 0.560 count 58 (K-2 = 58) undecided 0
+K 60 A 41.150000 centre_signal -1.0669186907792677e-14 u1 0.5446 D'(0.01) sign + first change 0.550 count 58 (K-2 = 58) undecided 0
+K 60 A 41.160000 centre_signal -9.086892973855335e-15 u1 0.5457 D'(0.01) sign + first change 0.560 count 58 (K-2 = 58) undecided 0
+K 60 A 41.170000 centre_signal -7.268761524306154e-15 u1 0.5468 D'(0.01) sign + first change 0.550 count 58 (K-2 = 58) undecided 0
+K 60 A 41.180000 centre_signal -5.198516687501548e-15 u1 0.5478 D'(0.01) sign + first change 0.560 count 58 (K-2 = 58) undecided 0
+K 60 A 41.190000 centre_signal -2.8592078314628193e-15 u1 0.5489 D'(0.01) sign + first change 0.550 count 58 (K-2 = 58) undecided 0
+K 60 A 41.200000 centre_signal -2.331857380893908e-16 u1 0.5499 D'(0.01) sign + first change 0.560 count 58 (K-2 = 58) undecided 0
+K 62 A 42.228175 centre_signal -4.6566141109531804e-15 u1 0.5415 D'(0.01) sign + first change 0.552 count 60 (K-2 = 60) undecided 0
+K 62 A 42.233175 centre_signal -4.125160615402283e-15 u1 0.5421 D'(0.01) sign + first change 0.547 count 60 (K-2 = 60) undecided 0
+K 62 A 42.238175 centre_signal -3.557611266835849e-15 u1 0.5426 D'(0.01) sign + first change 0.562 count 60 (K-2 = 60) undecided 0
+K 62 A 42.243175 centre_signal -2.952749771037856e-15 u1 0.5431 D'(0.01) sign + first change 0.557 count 60 (K-2 = 60) undecided 0
+K 62 A 42.248175 centre_signal -2.3093344915925634e-15 u1 0.5436 D'(0.01) sign + first change 0.552 count 60 (K-2 = 60) undecided 0
+K 62 A 42.253175 centre_signal -1.6260980939920638e-15 u1 0.5441 D'(0.01) sign + first change 0.547 count 60 (K-2 = 60) undecided 0
+K 62 A 42.258175 centre_signal -9.017471862864882e-16 u1 0.5446 D'(0.01) sign + first change 0.562 count 60 (K-2 = 60) undecided 0
+K 62 A 42.263175 centre_signal -1.3496195625397788e-16 u1 0.5451 D'(0.01) sign + first change 0.557 count 60 (K-2 = 60) undecided 0
+K 64 A 43.280315 centre_signal -2.8096979954035357e-15 u1 0.5368 D'(0.01) sign + first change 0.540 count 62 (K-2 = 62) undecided 0
+K 64 A 43.285315 centre_signal -2.5164721996621475e-15 u1 0.5373 D'(0.01) sign + first change 0.555 count 62 (K-2 = 62) undecided 0
+K 64 A 43.290315 centre_signal -2.2027393306840206e-15 u1 0.5378 D'(0.01) sign + first change 0.550 count 62 (K-2 = 62) undecided 0
+K 64 A 43.295315 centre_signal -1.8677955366118413e-15 u1 0.5383 D'(0.01) sign + first change 0.545 count 62 (K-2 = 62) undecided 0
+K 64 A 43.300315 centre_signal -1.5109220435832969e-15 u1 0.5388 D'(0.01) sign + first change 0.540 count 62 (K-2 = 62) undecided 0
+K 64 A 43.305315 centre_signal -1.1313849420934151e-15 u1 0.5393 D'(0.01) sign + first change 0.555 count 62 (K-2 = 62) undecided 0
+K 64 A 43.310315 centre_signal -7.284349712315538e-16 u1 0.5398 D'(0.01) sign + first change 0.550 count 62 (K-2 = 62) undecided 0
+K 64 A 43.315315 centre_signal -3.0130730077850686e-16 u1 0.5403 D'(0.01) sign + first change 0.545 count 62 (K-2 = 62) undecided 0
+K 66 A 44.328282 centre_signal -1.5716069421561894e-15 u1 0.5326 D'(0.01) sign + first change 0.552 count 64 (K-2 = 64) undecided 0
+K 66 A 44.333282 centre_signal -1.3991970998214016e-15 u1 0.5331 D'(0.01) sign + first change 0.547 count 64 (K-2 = 64) undecided 0
+K 66 A 44.338282 centre_signal -1.2147147582773221e-15 u1 0.5336 D'(0.01) sign + first change 0.542 count 64 (K-2 = 64) undecided 0
+K 66 A 44.343282 centre_signal -1.0177423816246182e-15 u1 0.5341 D'(0.01) sign + first change 0.537 count 64 (K-2 = 64) undecided 0
+K 66 A 44.348282 centre_signal -8.078534810201013e-16 u1 0.5346 D'(0.01) sign + first change 0.552 count 64 (K-2 = 64) undecided 0
+K 66 A 44.353282 centre_signal -5.846124845561507e-16 u1 0.5351 D'(0.01) sign + first change 0.547 count 64 (K-2 = 64) undecided 0
+K 66 A 44.358282 centre_signal -3.475746058193312e-16 u1 0.5356 D'(0.01) sign + first change 0.542 count 64 (K-2 = 64) undecided 0
+K 66 A 44.363282 centre_signal -9.62857111189192e-17 u1 0.5361 D'(0.01) sign + first change 0.537 count 64 (K-2 = 64) undecided 0
+K 80 A 51.446843 centre_signal -4.2004670415966875e-17 u1 0.5063 D'(0.01) sign + first change 0.513 count 78 (K-2 = 78) undecided 0
+K 80 A 51.451843 centre_signal -3.7555059339213796e-17 u1 0.5068 D'(0.01) sign + first change 0.508 count 78 (K-2 = 78) undecided 0
+K 80 A 51.456843 centre_signal -3.276888420727546e-17 u1 0.5073 D'(0.01) sign + first change 0.523 count 78 (K-2 = 78) undecided 0
+K 80 A 51.461843 centre_signal -2.763362897593716e-17 u1 0.5077 D'(0.01) sign + first change 0.518 count 78 (K-2 = 78) undecided 0
+K 80 A 51.466843 centre_signal -2.2136486282974046e-17 u1 0.5082 D'(0.01) sign + first change 0.513 count 78 (K-2 = 78) undecided 0
+K 80 A 51.471843 centre_signal -1.6264352778839922e-17 u1 0.5086 D'(0.01) sign + first change 0.528 count 78 (K-2 = 78) undecided 0
+K 80 A 51.476843 centre_signal -1.0003824403774465e-17 u1 0.5091 D'(0.01) sign + first change 0.523 count 78 (K-2 = 78) undecided 0
+K 80 A 51.481843 centre_signal -3.3411916108849515e-18 u1 0.5095 D'(0.01) sign + first change 0.518 count 78 (K-2 = 78) undecided 0
+K 82 A 52.437399 centre_signal -2.563634357702544e-17 u1 0.5031 D'(0.01) sign + first change 0.523 count 80 (K-2 = 80) undecided 0
+K 82 A 52.442399 centre_signal -2.2919030873045343e-17 u1 0.5036 D'(0.01) sign + first change 0.518 count 80 (K-2 = 80) undecided 0
+K 82 A 52.447399 centre_signal -1.999436399346367e-17 u1 0.5040 D'(0.01) sign + first change 0.513 count 80 (K-2 = 80) undecided 0
+K 82 A 52.452399 centre_signal -1.6854563934586673e-17 u1 0.5045 D'(0.01) sign + first change 0.508 count 80 (K-2 = 80) undecided 0
+K 82 A 52.457399 centre_signal -1.3491668807250084e-17 u1 0.5049 D'(0.01) sign + first change 0.523 count 80 (K-2 = 80) undecided 0
+K 82 A 52.462399 centre_signal -9.897530870438155e-18 u1 0.5054 D'(0.01) sign + first change 0.518 count 80 (K-2 = 80) undecided 0
+K 82 A 52.467399 centre_signal -6.063813530360973e-18 u1 0.5058 D'(0.01) sign + first change 0.513 count 80 (K-2 = 80) undecided 0
+K 82 A 52.472399 centre_signal -1.9819883046984464e-18 u1 0.5062 D'(0.01) sign + first change 0.508 count 80 (K-2 = 80) undecided 0
+READING q1366 (exploratory, no verdict)
+exit 0

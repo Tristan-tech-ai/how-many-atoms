@@ -1,0 +1,18 @@
+LAM 0.05350: residual 3.247e-31, smallest mass +5.204636e-02, scan max [26.0, 1.4118446837879335e-13]
+LAM 0.05400: residual 3.800e-34, smallest mass +5.220603e-02, scan max [26.0, 1.4060964281220293e-13]
+LAM 0.05450: residual 9.272e-32, smallest mass +5.236870e-02, scan max [26.0, 1.399718362028018e-13]
+LAM 0.05500: residual 2.057e-38, smallest mass +5.204751e-02, scan max [26.0, 1.3926865331662653e-13]
+LAM 0.05550: residual 1.513e-37, smallest mass +5.105903e-02, scan max [26.0, 1.3849767184385755e-13]
+LAM 0.05600: residual 1.029e-38, smallest mass +4.999805e-02, scan max [26.0, 1.3765624181888758e-13]
+LAM 0.05650: residual 2.127e-32, smallest mass +4.886322e-02, scan max [26.0, 1.3674119615849894e-13]
+LAM 0.05700: residual 1.633e-28, smallest mass +4.765516e-02, scan max [26.0, 1.3574846334846521e-13]
+LAM 0.05750: residual 4.001e-30, smallest mass +4.637712e-02, scan max [26.0, 1.3467258961803822e-13]
+LAM 0.05800: residual 3.357e-33, smallest mass +4.503580e-02, scan max [26.0, 1.3350620871113133e-13]
+LAM 0.05850: residual 5.382e-28, smallest mass +4.364185e-02, scan max [26.0, 1.3223954341609327e-13]
+LAM 0.05900: residual 1.469e-38, smallest mass +4.221010e-02, scan max [26.0, 1.30860073674754e-13]
+LAM 0.05950: residual 5.877e-38, smallest mass +4.075906e-02, scan max [26.0, 1.2935253151910357e-13]
+LAM 0.06000: residual 3.600e-38, smallest mass +3.930955e-02, scan max [59.0, 1.3472416496563e-13]
+LAM 0.06050: residual 4.584e-28, smallest mass +3.832184e-02, scan max [59.0, 1.3425042881272033e-13]
+LAM 0.06100: residual 1.560e-16, smallest mass +3.838268e-02, scan max [26.0, 1.225421283773791e-13]
+stop at LAM 0.06100: residual above 1e-25
+END mix_lam_continuation_lfp2

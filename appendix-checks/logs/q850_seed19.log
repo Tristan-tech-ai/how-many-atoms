@@ -1,0 +1,6 @@
+seed from c60_K19.json entry A = 16.509997 (positions rescaled to A = 16.0)
+A 16.0 t 0.0: atoms 19 (walls w 0.097169, 0.097169); residual 4.9e-15; KKT max +8.9e-16; I + tE = 2.1640693806; depth_L 2.718845, depth_R 2.718845; (dR - dL)/(2t) +nan; mean depth 2.718845
+A 16.0 t 0.01: atoms 19 (walls w 0.082034, 0.113869); residual 6.7e-15; KKT max +1.3e-15; I + tE = 2.1693951052; depth_L 2.712286, depth_R 2.725450; (dR - dL)/(2t) +0.65819; mean depth 2.718868
+A 16.0 t 0.02: atoms 19 (walls w 0.068524, 0.132028); residual 3.5e-05; KKT max -7.2e-10; I + tE = 2.1852905653; depth_L 2.705775, depth_R 2.732101; (dR - dL)/(2t) +0.65813; mean depth 2.718938
+A 16.0 t 0.03: atoms 19 (walls w 0.056643, 0.151489); residual 1.0e-14; KKT max -1.3e-15; I + tE = 2.2115905004; depth_L 2.699303, depth_R 2.738797; (dR - dL)/(2t) +0.65824; mean depth 2.719050
+A 16.0 t 0.05: atoms 19 (walls w 0.037563, 0.193565); residual 7.9e-14; KKT max +1.3e-15; I + tE = 2.2938981544; depth_L 2.686498, depth_R 2.752331; (dR - dL)/(2t) +0.65833; mean depth 2.719415

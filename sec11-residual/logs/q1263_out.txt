@@ -1,0 +1,12 @@
+K_b 14: immune dev +14245.4826e-9, NPMLE dev +8716.6184e-9, ratio 1.6343
+K_b 15: immune dev +8941.2637e-9, NPMLE dev +5483.5664e-9, ratio 1.6306
+K_b 16: immune dev +5698.8666e-9, NPMLE dev +3493.6593e-9, ratio 1.6312
+K_b 17: immune dev +3715.2273e-9, NPMLE dev +2255.7778e-9, ratio 1.6470
+K_b 18: immune dev +2438.2175e-9, NPMLE dev +1470.8427e-9, ratio 1.6577
+K_b 19: immune dev +1598.5482e-9, NPMLE dev +966.7318e-9, ratio 1.6536
+K_b 20: immune dev +1060.9230e-9, NPMLE dev +641.5634e-9, ratio 1.6537
+K_b 21: immune dev +716.8548e-9, NPMLE dev +430.1944e-9, ratio 1.6664
+K_b 22: immune dev +486.6736e-9, NPMLE dev +290.5737e-9, ratio 1.6749
+K_b 23: immune dev +330.1600e-9, NPMLE dev +197.5546e-9, ratio 1.6712
+located 10 of 10; item R3 (>= 8 located): True; item R1 (all located ratios in [1.5, 1.85]): True; item R2 (all located dev > 0): True
+VERDICT q1263 ratio class: PASS; located 10 of 10; R1 True; R2 True

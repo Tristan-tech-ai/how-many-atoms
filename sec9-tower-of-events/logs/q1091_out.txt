@@ -1,0 +1,10 @@
+READING q1091: results_q220_gauss_K71_A46.4359.json: m 34
+  sign r : +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-  (adjacent equal pairs 0; outermost atom -1)
+  sign b : -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  (adjacent equal pairs 0; outermost atom +1)
+READING q1091: results_q220_gauss_K71_A46.6889.json: m 34
+  sign r : -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  (adjacent equal pairs 0; outermost atom +1)
+  sign b : -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  (adjacent equal pairs 0; outermost atom +1)
+READING q1091: results_q220_gauss_K65_A43.5803.json: m 31
+  sign r : -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-  (adjacent equal pairs 0; outermost atom -1)
+  sign b : +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  (adjacent equal pairs 0; outermost atom +1)
+END q1091 READING (no verdict)

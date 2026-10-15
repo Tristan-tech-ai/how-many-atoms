@@ -1,0 +1,29 @@
+READING q1448 (no verdict): x (adjoint response) and bd (forcing) at the six edge indices, each normalised at index 2 (outermost position-type), K 83 to 108 n 26
+== even K 84 .. 108 n 13
+  bd_six relative change first -> last, and max |change| over the rows (normalised values):
+   bd[0]: +0.000135632 -> +0.000135632  rel change 7.7e-13
+   bd[1]: +0.028309305 -> +0.028309305  rel change 8.2e-14
+   bd[3]: +0.000441853 -> +0.000441853  rel change 7.3e-13
+   bd[4]: +0.063951234 -> +0.063951234  rel change 7.3e-14
+   bd[5]: +0.977300629 -> +0.977300629  rel change 2.7e-15
+  x_six relative change first -> last:
+   x[0]: +37.468631 -> +38.625535  rel change 3.1e-02
+   x[1]: +7.424707 -> +7.547263  rel change 1.7e-02
+   x[3]: -42.002235 -> -42.966924  rel change 2.3e-02
+   x[4]: -7.501085 -> -7.571167  rel change 9.3e-03
+   x[5]: -0.834250 -> -0.828903  rel change 6.4e-03
+  x_ref (outermost position-type x): 5.747626e+00 -> 5.299990e+00; bd_ref 2.172816e-01 -> 2.172816e-01 (rel change 3.6e-15)
+== odd K 83 .. 107 n 13
+  bd_six relative change first -> last, and max |change| over the rows (normalised values):
+   bd[0]: +0.000135632 -> +0.000135632  rel change 9.7e-13
+   bd[1]: +0.028309305 -> +0.028309305  rel change 1.0e-13
+   bd[3]: +0.000441853 -> +0.000441853  rel change 9.2e-13
+   bd[4]: +0.063951234 -> +0.063951234  rel change 9.3e-14
+   bd[5]: +0.977300629 -> +0.977300629  rel change 3.3e-15
+  x_six relative change first -> last:
+   x[0]: +37.274162 -> +38.469144  rel change 3.2e-02
+   x[1]: +7.394186 -> +7.522346  rel change 1.7e-02
+   x[3]: -41.797732 -> -42.800875  rel change 2.4e-02
+   x[4]: -7.469724 -> -7.545212  rel change 1.0e-02
+   x[5]: -0.831425 -> -0.826492  rel change 5.9e-03
+  x_ref (outermost position-type x): 1.056343e-01 -> 8.048895e-02; bd_ref 2.172816e-01 -> 2.172816e-01 (rel change 4.4e-15)

@@ -1,0 +1,9 @@
+C1 synthetic (1, 1) law reproduced: True; C2 synthetic (2, 2) law not reproduced by the (1, 1) fit: True
+b(j), j = 2..15: 2: -1/96; 3: -13/768; 4: -1/3072; 5: -109/368640; 6: -37/442368; 7: -33223/123863040; 8: -16507/424673280; 9: -54007/293601280; 10: -395711/13589544960; 11: -4717124861/25113479086080; 12: -15501869/489223618560; 13: -163831023637/621857577369600; 14: -3433570933/73057393704960; 15: -86841758233067/179094982282444800
+signs j = 2..15: --------------
+parity even: ratios b(j+2)/b(j): 2: 0.03125; 4: 0.25694; 6: 0.46472; 8: 0.74913; 10: 1.08819; 12: 1.48322
+   (1,1) fit on the first three, checks on the others -> reproduces: False; function (251633*n - 436843)/(24*(1909*n + 84746))
+parity odd: ratios b(j+2)/b(j): 3: 0.01747; 5: 0.90714; 7: 0.68580; 9: 1.02112; 11: 1.40260; 13: 1.84052
+   (1,1) fit on the first three, checks on the others -> reproduces: False; function (4661828657449*n - 14102909088502)/(24*(351476454233*n - 1334521199399))
+P1 degree (1, 1) ratio law for both parities: does not hold; P2 sign periodic with the period(s) [1, 2, 3, 4, 5, 6, 7]: holds; P3 |ratio| grows with j (compared two steps apart): does not hold
+READING q1760 done (labels by the script; no verdict word)

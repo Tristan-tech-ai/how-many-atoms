@@ -1,0 +1,8 @@
+resume from results_q1411_gauss_K139_A78.690759.json
+start state results_q1411_gauss_K139_A78.690759.json A_end 84.0 out small_gap_q206\fw_gpu_cap2
+chunk 1 done, events so far 2
+chunk 2 done, events so far 3
+chunk 3 done, events so far 3
+chunk 4 done, events so far 4
+chunk 5 done, events so far 4
+done: wall 2853 s, events written 5, newton calls 1319, fails 0, max arb residual 4.3e-55 (counts only; amplitudes are not printed)

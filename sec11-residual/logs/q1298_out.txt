@@ -1,0 +1,67 @@
+k 6.0 K_b 14: R +29628.00737e-9, R_pred 29145.60182, ratio 1.0166
+k 6.0 K_b 15: R +18686.52993e-9, R_pred 18664.59789, ratio 1.0012
+k 6.0 K_b 16: R +11986.99266e-9, R_pred 12079.44139, ratio 0.9923
+k 6.0 K_b 17: R +7908.00128e-9, R_pred 7895.47266, ratio 1.0016
+k 6.0 K_b 18: R +5239.88634e-9, R_pred 5208.87594, ratio 1.0060
+k 6.0 K_b 19: R +3449.45164e-9, R_pred 3466.55043, ratio 0.9951
+k 6.0 K_b 20: R +2301.73912e-9, R_pred 2326.05127, ratio 0.9895
+k 6.0 K_b 21: R +1570.07615e-9, R_pred 1572.93212, ratio 0.9982
+k 6.0 K_b 22: R +1074.14539e-9, R_pred 1071.48183, ratio 1.0025
+k 6.0 K_b 23: R +731.34687e-9, R_pred 734.97743, ratio 0.9951
+k 6.0 K_b 24: R +503.33669e-9, R_pred 507.48449, ratio 0.9918
+k 6.0 K_b 25: R +352.14170e-9, R_pred 352.60531, ratio 0.9987
+k 6.0 K_b 26: R +247.00762e-9, R_pred 246.45671, ratio 1.0022
+k 6.0 K_b 27: R +172.82123e-9, R_pred 173.24330, ratio 0.9976
+k 6.0 K_b 28: R +121.92310e-9, R_pred 122.44013, ratio 0.9958
+k 6.0 K_b 37: R +6.68095e-9, R_pred 6.63858, ratio 1.0064
+k 6.0 K_b 38: NOT LOCATED
+k 6.0 K_b 39: R +3.65667e-9, R_pred 3.62841, ratio 1.0078
+k 6.0 K_b 40: R +2.71467e-9, R_pred 2.69625, ratio 1.0068
+k 6.0: Reading, largest change of the ratio with the septic a_med: 0.00641
+k 6.0: item with the quintic a_med True; with the septic a_med True
+k 6.0: located 18; ratio range 0.9895 to 1.0166; item L6 (|ratio - 1| <= 0.05): True
+k 10.0 K_b 14: R +41407.72803e-9, R_pred 40391.97946, ratio 1.0251
+k 10.0 K_b 15: R +26213.16342e-9, R_pred 26017.54892, ratio 1.0075
+k 10.0 K_b 16: R +16880.85277e-9, R_pred 16927.03525, ratio 0.9973
+k 10.0 K_b 17: R +11183.72684e-9, R_pred 11117.29217, ratio 1.0060
+k 10.0 K_b 18: R +7439.91858e-9, R_pred 7366.80052, ratio 1.0099
+k 10.0 K_b 19: R +4915.45840e-9, R_pred 4922.59614, ratio 0.9986
+k 10.0 K_b 20: R +3291.87439e-9, R_pred 3315.46905, ratio 0.9929
+k 10.0 K_b 21: R +2253.63194e-9, R_pred 2249.82443, ratio 1.0017
+k 10.0 K_b 22: R +1547.10228e-9, R_pred 1537.56452, ratio 1.0062
+k 10.0 K_b 23: R +1056.80729e-9, R_pred 1057.88922, ratio 0.9990
+k 10.0 K_b 24: R +729.60583e-9, R_pred 732.52772, ratio 0.9960
+k 10.0 K_b 25: R +512.03502e-9, R_pred 510.33005, ratio 1.0033
+k 10.0 K_b 26: R +360.21990e-9, R_pred 357.59951, ratio 1.0073
+k 10.0 K_b 27: R +252.75464e-9, R_pred 251.96825, ratio 1.0031
+k 10.0 K_b 28: R +178.80852e-9, R_pred 178.48054, ratio 1.0018
+k 10.0 K_b 37: R +10.00189e-9, R_pred 9.83297, ratio 1.0172
+k 10.0 K_b 38: R +7.41934e-9, R_pred 7.26713, ratio 1.0209
+k 10.0 K_b 39: R +5.49575e-9, R_pred 5.38932, ratio 1.0197
+k 10.0 K_b 40: R +4.08914e-9, R_pred 4.01004, ratio 1.0197
+k 10.0: Reading, largest change of the ratio with the septic a_med: 0.00670
+k 10.0: item with the quintic a_med True; with the septic a_med True
+k 10.0: located 19; ratio range 0.9929 to 1.0251; item L10 (|ratio - 1| <= 0.05): True
+k 16.0 K_b 14: R +56705.54707e-9, R_pred 60570.90481, ratio 0.9362
+k 16.0 K_b 15: R +36019.72310e-9, R_pred 39021.42401, ratio 0.9231
+k 16.0 K_b 16: R +23276.04603e-9, R_pred 25394.45504, ratio 0.9166
+k 16.0 K_b 17: R +15466.66470e-9, R_pred 16684.78659, ratio 0.9270
+k 16.0 K_b 18: R +10321.58164e-9, R_pred 11060.96115, ratio 0.9332
+k 16.0 K_b 19: R +6844.54700e-9, R_pred 7394.65427, ratio 0.9256
+k 16.0 K_b 20: R +4599.94408e-9, R_pred 4982.99138, ratio 0.9231
+k 16.0 K_b 21: R +3158.23774e-9, R_pred 3383.16832, ratio 0.9335
+k 16.0 K_b 22: R +2174.64607e-9, R_pred 2313.35774, ratio 0.9400
+k 16.0 K_b 23: R +1490.62906e-9, R_pred 1592.52338, ratio 0.9360
+k 16.0 K_b 24: R +1032.44626e-9, R_pred 1103.33103, ratio 0.9358
+k 16.0 K_b 25: R +726.47680e-9, R_pred 769.07356, ratio 0.9446
+k 16.0 K_b 26: R +512.47358e-9, R_pred 539.19565, ratio 0.9504
+k 16.0 K_b 27: R +360.69408e-9, R_pred 380.12370, ratio 0.9489
+k 16.0 K_b 28: R +255.89506e-9, R_pred 269.39905, ratio 0.9499
+k 16.0 K_b 37: NOT LOCATED
+k 16.0 K_b 38: R +10.86331e-9, R_pred 11.02028, ratio 0.9858
+k 16.0 K_b 39: NOT LOCATED
+k 16.0 K_b 40: R +6.01029e-9, R_pred 6.08599, ratio 0.9876
+k 16.0: Reading, largest change of the ratio with the septic a_med: 0.00602
+k 16.0: item with the quintic a_med True; with the septic a_med True
+k 16.0: located 17; ratio range 0.9166 to 0.9876; item L16 (|ratio - 1| <= 0.15): True
+VERDICT q1298 quadratic-g closure class: PASS; L6 True; L10 True; L16 True; ratio ranges 6: 0.990-1.017, 10: 0.993-1.025, 16: 0.917-0.988

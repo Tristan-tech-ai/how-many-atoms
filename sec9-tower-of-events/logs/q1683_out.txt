@@ -1,0 +1,5 @@
+bulk ratios f_(2n+2)/f_(2n) for n = 10..13: 10: 0.3386, 11: 0.3707, 12: 0.4036, 13: 0.4336; slope 0.03177 per order, intercept 0.0213
+centre ratios e_(n+1)/e_n for n = 10..19: slope 4.2414 per order, intercept 12.246; divided by 16 pi^2: 0.02686; alpha/(16 pi^2) = 0.02815
+linear extrapolation of the bulk ratio to n = 14: f30/f28 = 0.4660; centre slope within 11.4 percent of the bulk slope
+P1 bulk slope in [0.025, 0.035]: holds; P2 centre slope within 15 percent of the bulk slope: holds; P3 f30/f28 in [0.45, 0.50]: holds; control (synthetic slope 0.05000): holds
+READING q1683 done (labels by the script; no verdict word)

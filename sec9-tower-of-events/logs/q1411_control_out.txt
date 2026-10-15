@@ -1,0 +1,54 @@
+start state A = 42.258175
+re-solved at the decimal A: residual 6.5e-38 in 1 it
+family K = 62 (even) from A = 42.258175, signal -9.017e-16, h = 0.0002
+   A = 42.258375: residual 2.3e-42 in 3 it, signal -8.71899e-16, h 2.00e-04  [18s]
+   A = 42.258775: residual 5.1e-48 in 2 it, signal -8.12000e-16, h 4.00e-04  [26s]
+   A = 42.259575: residual 3.2e-43 in 2 it, signal -6.91382e-16, h 8.00e-04  [33s]
+   A = 42.261175: residual 2.0e-38 in 2 it, signal -4.46854e-16, h 1.60e-03  [41s]
+   EVENT between A = 42.261175 (signal -4.469e-16) and 42.264375 (signal 5.553e-17)
+   locate: A = 42.264021296 signal -8.816e-19
+   locate: A = 42.264028370 signal 2.445e-19
+   locate: A = 42.264026834 signal -7.487e-24
+   locate: A = 42.264026864 signal 4.883e-21
+   locate: A = 42.264026834 signal 9.031e-23
+EVENT located: A = 42.264026834 .. 42.264026834
+   birth seed delta 0.0001: predicted wc 3.919e-05
+   birth: odd family start at A = 42.2641268, wc 3.907e-05, D''(0) -1.334e-15
+family K = 63 (odd) from A = 42.264127, signal -1.334e-15, h = 0.0002
+   A = 42.264207: residual 6.2e-50 in 7 it, signal -1.34071e-15, h 8.00e-05  [184s]
+   A = 42.264255: residual 1.3e-46 in 3 it, signal -1.34475e-15, h 4.80e-05  [196s]
+   A = 42.264351: residual 1.4e-42 in 3 it, signal -1.35285e-15, h 9.60e-05  [207s]
+   A = 42.264543: residual 1.2e-35 in 3 it, signal -1.36911e-15, h 1.92e-04  [218s]
+   A = 42.264927: residual 4.2e-41 in 4 it, signal -1.40193e-15, h 3.84e-04  [232s]
+   A = 42.265464: residual 1.7e-35 in 4 it, signal -1.44853e-15, h 5.38e-04  [245s]
+   A = 42.266217: residual 8.0e-49 in 5 it, signal -1.51505e-15, h 7.53e-04  [261s]
+   A = 42.267271: residual 6.6e-39 in 5 it, signal -1.61069e-15, h 1.05e-03  [277s]
+   A = 42.268746: residual 4.1e-31 in 6 it, signal -1.74950e-15, h 1.48e-03  [297s]
+   A = 42.270221: residual 8.2e-44 in 7 it, signal -1.89405e-15, h 1.48e-03  [319s]
+   A = 42.271106: residual 2.4e-40 in 5 it, signal -1.98353e-15, h 8.85e-04  [336s]
+   A = 42.272345: residual 2.9e-37 in 5 it, signal -2.11227e-15, h 1.24e-03  [351s]
+   A = 42.274080: residual 1.9e-43 in 7 it, signal -2.29931e-15, h 1.73e-03  [374s]
+   A = 42.275121: residual 6.3e-44 in 5 it, signal -2.41533e-15, h 1.04e-03  [392s]
+   A = 42.276578: residual 2.7e-37 in 5 it, signal -2.58255e-15, h 1.46e-03  [409s]
+   A = 42.276578: residual 4.1e-38 in 8 it, signal -2.58256e-15, h 8.56e-08  [905s]
+   A = 42.276578: residual 1.6e-36 in 6 it, signal -2.58256e-15, h 2.05e-08  [958s]
+   A = 42.276578: residual 5.1e-31 in 8 it, signal -2.58256e-15, h 2.05e-08  [986s]
+   A = 42.276578: residual 5.5e-33 in 5 it, signal -2.58257e-15, h 1.23e-08  [1005s]
+   A = 42.276578: residual 8.7e-36 in 8 it, signal -2.58257e-15, h 6.90e-09  [1062s]
+   A = 42.276578: residual 1.2e-35 in 6 it, signal -2.58257e-15, h 4.14e-09  [1080s]
+   A = 42.276578: residual 3.0e-41 in 6 it, signal -2.58257e-15, h 1.66e-09  [1124s]
+   A = 42.276578: residual 2.8e-40 in 7 it, signal -2.58257e-15, h 1.66e-09  [1144s]
+   A = 42.276578: residual 2.3e-40 in 5 it, signal -2.58257e-15, h 9.94e-10  [1159s]
+   A = 42.276578: residual 1.5e-34 in 8 it, signal -2.58257e-15, h 1.39e-09  [1182s]
+   A = 42.276578: residual 5.1e-38 in 5 it, signal -2.58257e-15, h 8.35e-10  [1196s]
+   A = 42.276578: residual 8.9e-38 in 6 it, signal -2.58257e-15, h 1.17e-09  [1213s]
+   A = 42.276578: residual 4.3e-33 in 6 it, signal -2.58257e-15, h 4.67e-10  [1253s]
+   A = 42.276578: residual 3.4e-31 in 5 it, signal -2.58257e-15, h 1.87e-10  [1292s]
+   A = 42.276578: residual 6.4e-36 in 6 it, signal -2.58257e-15, h 2.62e-10  [1310s]
+   A = 42.276578: residual 9.3e-31 in 5 it, signal -2.58257e-15, h 2.62e-10  [1325s]
+   A = 42.276578: residual 4.7e-35 in 7 it, signal -2.58257e-15, h 3.66e-10  [1345s]
+   A = 42.276578: residual 1.2e-32 in 5 it, signal -2.58257e-15, h 2.20e-10  [1360s]
+   A = 42.276578: residual 1.2e-34 in 6 it, signal -2.58257e-15, h 1.23e-10  [1405s]
+   A = 42.276578: residual 2.0e-34 in 6 it, signal -2.58257e-15, h 4.93e-11  [1448s]
+   A = 42.276578: residual 3.1e-31 in 5 it, signal -2.58257e-15, h 4.93e-11  [1463s]
+exit 127

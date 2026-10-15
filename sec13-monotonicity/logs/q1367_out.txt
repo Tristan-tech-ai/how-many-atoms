@@ -1,0 +1,6 @@
+control c1 (synthetic majorized chain: forward ok True, reversed violations 6 of 6): True
+control c2 (moving 5 percent of the two heaviest masses to the two lightest is majorized, the reverse is a violation): True; c3 (total mass of 2738 states within 1e-12 of 1, largest deviation 3.3e-16): True
+states 2738, consecutive pairs 2665; pairs with max_r (S_r(A2) - S_r(A1)) above 1e-12: 0; largest value 1.554e-15 at (A1, K1, A2, K2, r) = (48.984433, 76, 48.985058, 76, 76)
+pairs across a change of K: 26; largest value among them 6.661e-16
+READING q1367 (exploratory, no verdict)
+exit 0

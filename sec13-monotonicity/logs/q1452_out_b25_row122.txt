@@ -1,0 +1,5 @@
+controls: rows at law A -> A and C PASS; rows at law B -> B and C PASS; rows at the exponent-1 null -> A FAIL and B FAIL (informative); one PN row 3 bars off law A -> A FAIL ; one Re row 3 bars off law B -> B FAIL ; row 120 missing -> A INCOMPLETE ; one Re row 0.9 bar off -> A PASS ; one PN row below one -> C FAIL : True
+A (law 2/3 within its bar): PASS; measured 8 of 8; violations []
+B (free-exponent law within its bar): PASS; measured 8 of 8; violations []
+C (PN and Re above one): PASS; measured 8 of 8; violations []
+VERDICT q1452: A PASS; B PASS; C PASS

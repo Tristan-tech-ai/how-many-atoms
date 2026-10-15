@@ -1,0 +1,26 @@
+family K = 73 (odd) from A = 47.963112, signal -6.239e-16, h = 0.0002
+   A = 47.963312: residual 5.6e-38 in 3 it, signal -5.95342e-16, h 2.00e-04  [6s]
+   A = 47.963712: residual 1.4e-46 in 2 it, signal -5.37938e-16, h 4.00e-04  [8s]
+   A = 47.964512: residual 8.7e-42 in 2 it, signal -4.22360e-16, h 8.00e-04  [11s]
+   A = 47.966112: residual 5.4e-37 in 2 it, signal -1.88107e-16, h 1.60e-03  [13s]
+   EVENT between A = 47.966112 (signal -1.881e-16) and 47.969312 (signal 2.929e-16)
+   locate: A = 47.96736335053188 signal -2.001e-18
+   locate: A = 47.96737657045203 signal -2.105e-20
+   locate: A = 47.96737671100434 signal 1.539e-24
+   locate: A = 47.96737671099407 signal -1.183e-30
+   locate: A = 47.96737671099407 signal -6.651e-41
+H = 0.04: control residual 2.0e-56 (ok); event minus the H = 0.05 value: +1.479e-19 [33s]
+family K = 73 (odd) from A = 47.963112, signal -6.239e-16, h = 0.0002
+   A = 47.963312: residual 5.6e-38 in 3 it, signal -5.95342e-16, h 2.00e-04  [36s]
+   A = 47.963712: residual 1.4e-46 in 2 it, signal -5.37938e-16, h 4.00e-04  [38s]
+   A = 47.964512: residual 8.7e-42 in 2 it, signal -4.22360e-16, h 8.00e-04  [39s]
+   A = 47.966112: residual 5.4e-37 in 2 it, signal -1.88107e-16, h 1.60e-03  [40s]
+   EVENT between A = 47.966112 (signal -1.881e-16) and 47.969312 (signal 2.929e-16)
+   locate: A = 47.96736335053188 signal -2.001e-18
+   locate: A = 47.96737657045203 signal -2.105e-20
+   locate: A = 47.96737671100434 signal 1.539e-24
+   locate: A = 47.96737671099407 signal -1.183e-30
+   locate: A = 47.96737671099407 signal -6.651e-41
+H = 0.07: control residual 8.9e-57 (ok); event minus the H = 0.05 value: +1.737e-21 [52s]
+P1 holds; P2 holds
+READING q1716 done (labels by the script; no verdict word)

@@ -1,0 +1,9 @@
+C1 error at x = 1e-4 below 1e-14: True (2.21e-16); C2 changed L_1 coefficient gives an error above 1e-5 at rho = 1: True (0.000459)
+rho = 0.8: ln S = 0.0167115; absolute error of the levels 0..2: 2.495e-6
+rho = 0.8: x = 0.019789; relative error of ln S against levels 0..2: 0.0001493; levels 0..1: 0.001714; level 0 only: 0.196
+rho = 1.0: ln S = 0.0115161; absolute error of the levels 0..2: 1.3e-7
+rho = 1.0: x = 0.012665; relative error of ln S against levels 0..2: 1.129e-5; levels 0..1: 0.0003816; level 0 only: 0.1068
+rho = 1.2: ln S = 0.00826824; absolute error of the levels 0..2: 1.291e-8
+rho = 1.2: x = 0.0087952; relative error of ln S against levels 0..2: 1.561e-6; levels 0..1: 0.0001188; level 0 only: 0.06844
+P1 error of the levels 0..2 at rho = 1 below 1e-7: does not hold; P2 the error grows when rho decreases: holds; P3 error of the levels 0..1 at rho = 1 between 1e-6 and 1e-4: does not hold
+READING q1773 done (labels by the script; no verdict word)

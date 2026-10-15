@@ -2,6 +2,8 @@
 
 Scripts, bindings and figure scripts are copied unchanged; inputs and outputs carry the path redactions of the other folders. A `__` in an input name stands for a folder separator of the original tree.
 
+In the checks of the merged paper the folder of the original tree that held the helper runs is written `runs`, and a few words in comments are reworded; the program text is otherwise as it ran.
+
 | file | original path |
 |---|---|
 | `scripts/gate_numbers.py` | `temporal_within/gate_truth/gate_numbers.py` |
@@ -18,12 +20,23 @@ Scripts, bindings and figure scripts are copied unchanged; inputs and outputs ca
 | `scripts/inner_eps.py` | `temporal_within/gate_truth/recompute_p1/inner_eps.py` |
 | `scripts/rp3_form_loss.py` | `temporal_within/gate_truth/recompute_p1/rp3_form_loss.py` |
 | `scripts/env_versions.py` | `temporal_within/gate_truth/recompute_p1/env_versions.py` |
+| `scripts/make_bindings_unified.py` | `temporal_within/gate_truth/make_bindings_unified.py` |
+| `scripts/make_bindings_unified_new.py` | `temporal_within/gate_truth/make_bindings_unified_new.py` |
+| `scripts/add_residual_block.py` | `temporal_within/gate_truth/add_residual_block.py` |
+| `scripts/fix_bindings_gen.py` | `temporal_within/gate_truth/fix_bindings_gen.py` |
+| `scripts/build_count_law_data.py` | `temporal_within/gate_truth/build_count_law_data.py` |
 | `figures/make_figs.py` | `temporal_within/paper_onelaw/figs/make_figs.py` |
 | `figures/make_fig_births.py` | `temporal_within/paper_onelaw/figs/make_fig_births.py` |
 | `figures/make_fig_excess.py` | `temporal_within/paper_onelaw/figs/make_fig_excess.py` |
+| `figures/make_fig_roots.py` | `temporal_within/paper_unified/figs/make_fig_roots.py` |
+| `figures/figsrc_births.py` | `temporal_within/paper_unified/figs/figsrc_births.py` |
 | `figures/figstyle.py` | `temporal_within/paper_onelaw/figs/figstyle.py` |
+| `figures/make_fig_law.py` | `temporal_within/paper_unified/figs/make_fig_law.py` |
 | `figures/q874_d4_early.log` | `temporal_within/gate_truth/fig_data/q874_d4_early.log` |
 | `figures/q874_d5_early.log` | `temporal_within/gate_truth/fig_data/q874_d5_early.log` |
+| `bindings/bindings_unified.json` | `temporal_within/gate_truth/bindings_unified.json` |
+| `bindings/bindings_supplement_notes.json` | `temporal_within/gate_truth/bindings_supplement_notes.json` |
+| `bindings/unified_new_src.json` | `temporal_within/gate_truth/unified_new_src.json` |
 | `bindings/bindings_paper1.json` | `temporal_within/gate_truth/bindings_paper1.json` |
 | `bindings/bindings_paper1_weak.json` | `temporal_within/gate_truth/bindings_paper1_weak.json` |
 | `bindings/bindings_paper1_fail.json` | `temporal_within/gate_truth/bindings_paper1_fail.json` |
@@ -33,32 +46,33 @@ Scripts, bindings and figure scripts are copied unchanged; inputs and outputs ca
 | `outputs/inner_eps.json` | `temporal_within/gate_truth/recompute_p1/inner_eps.json` |
 | `outputs/rp3_form_loss.json` | `temporal_within/gate_truth/recompute_p1/rp3_form_loss.json` |
 | `outputs/env_versions.json` | `temporal_within/gate_truth/recompute_p1/env_versions.json` |
-| `inputs/B_out__b2_gap2d_G_c3b_states.jsonl.log` | `temporal_within/agents/B_out/b2_gap2d_G_c3b_states.jsonl.log` |
-| `inputs/B_out__b2_gap2d_G_c3c_states.jsonl.log` | `temporal_within/agents/B_out/b2_gap2d_G_c3c_states.jsonl.log` |
-| `inputs/B_out__cc_cap13K10.log` | `temporal_within/agents/B_out/cc_cap13K10.log` |
-| `inputs/B_out__cc_cap13K12.log` | `temporal_within/agents/B_out/cc_cap13K12.log` |
-| `inputs/F_ring32_cert.py` | `temporal_within/agents/F_ring32_cert.py` |
-| `inputs/F_work__ring32_R2fix_cert.json` | `temporal_within/agents/F_work/ring32_R2fix_cert.json` |
-| `inputs/F_work__ring32_R2fix_cert.log` | `temporal_within/agents/F_work/ring32_R2fix_cert.log` |
-| `inputs/F_work__ring32_R2fix_polished.json` | `temporal_within/agents/F_work/ring32_R2fix_polished.json` |
-| `inputs/F_work__ring32_cert.json` | `temporal_within/agents/F_work/ring32_cert.json` |
-| `inputs/F_work__ring32_cert.log` | `temporal_within/agents/F_work/ring32_cert.log` |
-| `inputs/G_work__c3a_part1.log` | `temporal_within/agents/G_work/c3a_part1.log` |
-| `inputs/G_work__c3b.log` | `temporal_within/agents/G_work/c3b.log` |
-| `inputs/G_work__c3c.log` | `temporal_within/agents/G_work/c3c.log` |
-| `inputs/G_work__e36__S_copy_rm0.9690_p448.json` | `temporal_within/agents/G_work/e36/S_copy_rm0.9690_p448.json` |
-| `inputs/G_work__formal__M3r9__c_eps1.5.txt` | `temporal_within/agents/G_work/formal/M3r9/c_eps1.5.txt` |
-| `inputs/G_work__formal__M3r9__c_eps1.6.txt` | `temporal_within/agents/G_work/formal/M3r9/c_eps1.6.txt` |
-| `inputs/G_work__formal__M4r12__c_eps1.3.txt` | `temporal_within/agents/G_work/formal/M4r12/c_eps1.3.txt` |
-| `inputs/G_work__formal__M4r12__c_eps1.35.txt` | `temporal_within/agents/G_work/formal/M4r12/c_eps1.35.txt` |
-| `inputs/G_work__formal__M5r12__c_eps1.2.txt` | `temporal_within/agents/G_work/formal/M5r12/c_eps1.2.txt` |
-| `inputs/G_work__formal__M5r12__c_eps1.22.txt` | `temporal_within/agents/G_work/formal/M5r12/c_eps1.22.txt` |
-| `inputs/G_work__formal__M6r12__c_eps1.12.txt` | `temporal_within/agents/G_work/formal/M6r12/c_eps1.12.txt` |
-| `inputs/G_work__formal__M6r12__c_eps1.13.txt` | `temporal_within/agents/G_work/formal/M6r12/c_eps1.13.txt` |
-| `inputs/G_work__formal__M7r12b__c_eps1.05.txt` | `temporal_within/agents/G_work/formal/M7r12b/c_eps1.05.txt` |
-| `inputs/G_work__formal__M7r12b__c_eps1.055.txt` | `temporal_within/agents/G_work/formal/M7r12b/c_eps1.055.txt` |
-| `inputs/G_work__formal__M8r12__c_eps0.99.txt` | `temporal_within/agents/G_work/formal/M8r12/c_eps0.99.txt` |
-| `inputs/G_work__formal__M8r12__c_eps1.0.txt` | `temporal_within/agents/G_work/formal/M8r12/c_eps1.0.txt` |
+| `outputs/count_law_data.json` | `temporal_within/gate_truth/count_law_data.json` |
+| `inputs/B_out__b2_gap2d_G_c3b_states.jsonl.log` | `temporal_within/B_out/b2_gap2d_G_c3b_states.jsonl.log` |
+| `inputs/B_out__b2_gap2d_G_c3c_states.jsonl.log` | `temporal_within/B_out/b2_gap2d_G_c3c_states.jsonl.log` |
+| `inputs/B_out__cc_cap13K10.log` | `temporal_within/B_out/cc_cap13K10.log` |
+| `inputs/B_out__cc_cap13K12.log` | `temporal_within/B_out/cc_cap13K12.log` |
+| `inputs/F_ring32_cert.py` | `temporal_within/F_ring32_cert.py` |
+| `inputs/F_work__ring32_R2fix_cert.json` | `temporal_within/F_work/ring32_R2fix_cert.json` |
+| `inputs/F_work__ring32_R2fix_cert.log` | `temporal_within/F_work/ring32_R2fix_cert.log` |
+| `inputs/F_work__ring32_R2fix_polished.json` | `temporal_within/F_work/ring32_R2fix_polished.json` |
+| `inputs/F_work__ring32_cert.json` | `temporal_within/F_work/ring32_cert.json` |
+| `inputs/F_work__ring32_cert.log` | `temporal_within/F_work/ring32_cert.log` |
+| `inputs/G_work__c3a_part1.log` | `temporal_within/G_work/c3a_part1.log` |
+| `inputs/G_work__c3b.log` | `temporal_within/G_work/c3b.log` |
+| `inputs/G_work__c3c.log` | `temporal_within/G_work/c3c.log` |
+| `inputs/G_work__e36__S_copy_rm0.9690_p448.json` | `temporal_within/G_work/e36/S_copy_rm0.9690_p448.json` |
+| `inputs/G_work__formal__M3r9__c_eps1.5.txt` | `temporal_within/G_work/formal/M3r9/c_eps1.5.txt` |
+| `inputs/G_work__formal__M3r9__c_eps1.6.txt` | `temporal_within/G_work/formal/M3r9/c_eps1.6.txt` |
+| `inputs/G_work__formal__M4r12__c_eps1.3.txt` | `temporal_within/G_work/formal/M4r12/c_eps1.3.txt` |
+| `inputs/G_work__formal__M4r12__c_eps1.35.txt` | `temporal_within/G_work/formal/M4r12/c_eps1.35.txt` |
+| `inputs/G_work__formal__M5r12__c_eps1.2.txt` | `temporal_within/G_work/formal/M5r12/c_eps1.2.txt` |
+| `inputs/G_work__formal__M5r12__c_eps1.22.txt` | `temporal_within/G_work/formal/M5r12/c_eps1.22.txt` |
+| `inputs/G_work__formal__M6r12__c_eps1.12.txt` | `temporal_within/G_work/formal/M6r12/c_eps1.12.txt` |
+| `inputs/G_work__formal__M6r12__c_eps1.13.txt` | `temporal_within/G_work/formal/M6r12/c_eps1.13.txt` |
+| `inputs/G_work__formal__M7r12b__c_eps1.05.txt` | `temporal_within/G_work/formal/M7r12b/c_eps1.05.txt` |
+| `inputs/G_work__formal__M7r12b__c_eps1.055.txt` | `temporal_within/G_work/formal/M7r12b/c_eps1.055.txt` |
+| `inputs/G_work__formal__M8r12__c_eps0.99.txt` | `temporal_within/G_work/formal/M8r12/c_eps0.99.txt` |
+| `inputs/G_work__formal__M8r12__c_eps1.0.txt` | `temporal_within/G_work/formal/M8r12/c_eps1.0.txt` |
 | `inputs/c32_imm_D62_B20.json` | `temporal_within/centre_scripts/c32_imm_D62_B20.json` |
 | `inputs/c33_imm_D146.json` | `temporal_within/centre_scripts/c33_imm_D146.json` |
 | `inputs/c33_imm_D146.log` | `temporal_within/centre_scripts/c33_imm_D146.log` |
@@ -95,3 +109,24 @@ Scripts, bindings and figure scripts are copied unchanged; inputs and outputs ca
 | `inputs/results_q74_halfline_long.json` | `temporal_within/results_q74_halfline_long.json` |
 | `inputs/results_q75_Eg.json` | `temporal_within/results_q75_Eg.json` |
 | `inputs/results_q75b_Eg.json` | `temporal_within/results_q75b_Eg.json` |
+| `inputs/small_gap_q206__q1791_out.txt` | `temporal_within/small_gap_q206/q1791_out.txt` |
+| `inputs/small_gap_q206__q1789_out.txt` | `temporal_within/small_gap_q206/q1789_out.txt` |
+| `inputs/q955_tower_table_out.txt` | `temporal_within/scratchpad_archive_729e03fd/q955_tower_table_out.txt` |
+| `inputs/tower_K62_As.json` | `temporal_within/scratchpad_archive_729e03fd/tower_K62_As.json` |
+| `inputs/tower_K63_birth_out.json` | `temporal_within/scratchpad_archive_729e03fd/tower_K63_birth_out.json` |
+| `inputs/tower_K64_As.json` | `temporal_within/scratchpad_archive_729e03fd/tower_K64_As.json` |
+| `inputs/tower_K65_birth_out.json` | `temporal_within/scratchpad_archive_729e03fd/tower_K65_birth_out.json` |
+| `inputs/tower_K66_As.json` | `temporal_within/scratchpad_archive_729e03fd/tower_K66_As.json` |
+| `inputs/tower_K68_As.json` | `temporal_within/scratchpad_archive_729e03fd/tower_K68_As.json` |
+| `inputs/tower_K69_birth_out.json` | `temporal_within/scratchpad_archive_729e03fd/tower_K69_birth_out.json` |
+| `inputs/tower_K70_As_T83.json` | `temporal_within/scratchpad_archive_729e03fd/tower_K70_As_T83.json` |
+| `inputs/tower_K71_birth_out.json` | `temporal_within/scratchpad_archive_729e03fd/tower_K71_birth_out.json` |
+| `inputs/q932_trace_K62.log` | `temporal_within/scratchpad_archive_729e03fd/q932_trace_K62.log` |
+| `inputs/gate_truth__bib_snapshots__SharmaShamai2010.json` | `temporal_within/gate_truth/bib_snapshots/SharmaShamai2010.json` |
+| `inputs/q1367_out.txt` | `temporal_within/scratchpad_archive_729e03fd/q1367_out.txt` |
+| `inputs/q1380_out.txt` | `temporal_within/scratchpad_archive_729e03fd/q1380_out.txt` |
+| `inputs/q1356_out.txt` | `temporal_within/scratchpad_archive_729e03fd/q1356_out.txt` |
+| `inputs/q1313t_out.txt` | `temporal_within/scratchpad_archive_729e03fd/q1313t_out.txt` |
+| `inputs/q1088_T117_out.txt` | `temporal_within/scratchpad_archive_729e03fd/q1088_T117_out.txt` |
+| `inputs/small_gap_q206__q1887_out.txt` | `temporal_within/small_gap_q206/q1887_out.txt` |
+| `inputs/small_gap_q206__q1887_npmle_birth_300nodes_verdict.py` | `temporal_within/small_gap_q206/q1887_npmle_birth_300nodes_verdict.py` |

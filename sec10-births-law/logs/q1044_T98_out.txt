@@ -1,0 +1,5 @@
+r69 = +1.7660e-08; predicted K_b 70, 71 = 46.434623755647, 46.947331520330
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True}
+   K_b 70: predicted 46.434623755647, measured 46.434623775529, r +1.9881e-08, step +2.2220e-09 -> PASS
+   K_b 71: predicted 46.947331520330, measured 46.947331542892, r +2.2562e-08, step +2.6801e-09 -> FAIL
+VERDICT q1044 T98: FAIL

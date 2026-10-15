@@ -1,0 +1,8 @@
+controls: {'PC': (30, 0), 'NC1': (28, 0), 'NC2': (0, 0), 'R2_PC': True, 'R2_NC_positive': False} -> True
+results_q220_gauss_K72_A46.9489.json: m 35, degree 34, certified sign changes 34, undecided 0, N1(1) certainly positive True, R1 and R2 True
+results_q220_gauss_K72_A47.1801.json: m 35, degree 34, certified sign changes 34, undecided 0, N1(1) certainly positive True, R1 and R2 True
+results_q220_gauss_K72_A47.4551.json: m 35, degree 34, certified sign changes 34, undecided 0, N1(1) certainly positive True, R1 and R2 True
+results_q220_gauss_K73_A47.4601.json: m 35, degree 34, certified sign changes 34, undecided 0, N1(1) certainly positive True, R1 and R2 True
+results_q220_gauss_K73_A47.7081.json: m 35, degree 34, certified sign changes 34, undecided 0, N1(1) certainly positive True, R1 and R2 True
+results_q220_gauss_K73_A47.9631.json: m 35, degree 34, certified sign changes 34, undecided 0, N1(1) certainly positive True, R1 and R2 True
+VERDICT q1106 T123: PASS; states 6; not certified 0; N1(1) not positive 0

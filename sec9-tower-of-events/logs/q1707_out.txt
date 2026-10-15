@@ -1,0 +1,7 @@
+births pairs per NG: NG 10 (-0.0937736500, 0.0011599152); NG 11 (-0.0937736506, 0.0011599158); NG 12 (-0.0937736508, 0.0011599159); NG 13 (-0.0937736508, 0.0011599160); NG 14 (-0.0937736508, 0.0011599160); NG 15 (-0.0937736508, 0.0011599160)
+NG = 10: ladder minus births: nu0 +1.702e-09, d0 -1.594e-09
+NG = 12: ladder minus births: nu0 +2.729e-10, d0 -2.556e-10
+NG = 14: ladder minus births: nu0 +6.065e-11, d0 -5.685e-11
+ratios of successive differences (10 -> 12, 12 -> 14): nu0 0.160, 0.222; d0 0.160, 0.222
+P1 holds; P2 holds; P3 holds; control: holds
+READING q1707 done (labels by the script; no verdict word)

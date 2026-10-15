@@ -1,0 +1,6 @@
+CONTROL synthetic quartic R found at degree 4; synthetic with 2^j found: None
+c_2(j) * 8^j, j = 4..15: -4/3, -436/45, 916/5, 15276/5, 341048/15, 574136/5, 6785656/15, 7463192/5, 21528012/5, 167557676/15, 1196629148/45, 294710468/5
+R of degree 6 with 5 independent checks; c_2(j) 8^j = j*(j - 3)*(j - 2)*(j - 1)*(118*j**6 - 1092*j**5 + 1135*j**4 + 14790*j**3 - 46973*j**2 + 27054*j + 22212)/340200
+leading coefficient of c_2(j) 8^j: 59/170100; square of the k = 1 leading coefficient over two: 1/450
+P1 degree of R is 6 with 5 checks: holds; P2 leading coefficient equals 1/450: does not hold
+READING q1759 done (labels by the script; no verdict word)

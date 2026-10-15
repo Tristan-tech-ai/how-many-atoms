@@ -1,0 +1,13 @@
+== quiet: a 24.087835, K 30, centre False, J 15, masses 14; relative difference of b_eff between the steps 1e-20 and 1e-24: 1.03e-31; signs of E b_eff: +++++++++++++++
+   T: initial minors positive 225, negative 0, undecided 0 of 225
+   X with sigma = +1: initial minors positive 240, negative 0, undecided 0 of 240
+   X with sigma = -1: initial minors positive 225, negative 15, undecided 0 of 240
+== before: a 24.301715, K 30, centre False, J 15, masses 14; relative difference of b_eff between the steps 1e-20 and 1e-24: 4.16e-32; signs of E b_eff: +++++++++++++++
+   T: initial minors positive 225, negative 0, undecided 0 of 225
+   X with sigma = +1: initial minors positive 240, negative 0, undecided 0 of 240
+   X with sigma = -1: initial minors positive 225, negative 15, undecided 0 of 240
+== after: a 24.327264, K 31, centre True, J 15, masses 15; relative difference of b_eff between the steps 1e-20 and 1e-24: 2.23e-30; signs of E b_eff: +++++++++++++++
+   T: initial minors positive 225, negative 0, undecided 0 of 225
+   X with sigma = +1: initial minors positive 240, negative 0, undecided 0 of 240
+   X with sigma = -1: initial minors positive 225, negative 15, undecided 0 of 240
+END q980 READING (no verdict)

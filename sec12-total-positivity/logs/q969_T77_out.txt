@@ -1,0 +1,17 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True} (PC {'X1': True, 'X2': True, 'X3': True, 'count': 156, 'bad': 0} | NC1 {'X1': False, 'X2': False, 'X3': False, 'count': 156, 'bad': 5} | NC2 {'X1': False, 'X2': False, 'X3': False, 'count': 156, 'bad': 6} | NC3 {'X1': True, 'X2': False, 'X3': False, 'count': 156, 'bad': 9} )
+state results_q220_gauss_K61_A41.2100.json: A 41.21, m 29, odd True: X1 True, X2 False (870 initial minors, 43 not certainly positive), X3 True
+state results_q220_gauss_K61_A41.4725.json: A 41.472500, m 29, odd True: X1 True, X2 False (870 initial minors, 30 not certainly positive), X3 True
+state results_q220_gauss_K61_A41.7325.json: A 41.732500, m 29, odd True: X1 True, X2 False (870 initial minors, 27 not certainly positive), X3 True
+state results_q220_gauss_K62_A41.7375.json: A 41.7375000000000000000000000000, m 30, odd False: X1 False, X2 False (930 initial minors, 62 not certainly positive), X3 False
+state results_q220_gauss_K62_A41.9832.json: A 41.983175, m 30, odd False: X1 False, X2 False (930 initial minors, 59 not certainly positive), X3 False
+state results_q220_gauss_K62_A42.2632.json: A 42.263175, m 30, odd False: X1 False, X2 False (930 initial minors, 57 not certainly positive), X3 False
+state results_q220_gauss_K63_A42.2682.json: A 42.268175, m 30, odd True: X1 False, X2 False (930 initial minors, 80 not certainly positive), X3 False
+state results_q220_gauss_K63_A42.5282.json: A 42.528175, m 30, odd True: X1 False, X2 False (930 initial minors, 61 not certainly positive), X3 False
+state results_q220_gauss_K63_A42.7882.json: A 42.788175, m 30, odd True: X1 False, X2 False (930 initial minors, 60 not certainly positive), X3 False
+state results_q220_gauss_K64_A42.7932.json: A 42.7931750000000000000000000000, m 31, odd False: X1 True, X2 False (992 initial minors, 64 not certainly positive), X3 True
+state results_q220_gauss_K64_A43.0353.json: A 43.035315, m 31, odd False: X1 True, X2 False (992 initial minors, 58 not certainly positive), X3 True
+state results_q220_gauss_K64_A43.3153.json: A 43.315315, m 31, odd False: X1 True, X2 False (992 initial minors, 58 not certainly positive), X3 True
+state results_q220_gauss_K65_A43.3203.json: A 43.320315, m 31, odd True: X1 True, X2 False (992 initial minors, 79 not certainly positive), X3 True
+state results_q220_gauss_K65_A43.5803.json: A 43.580315, m 31, odd True: X1 True, X2 False (992 initial minors, 64 not certainly positive), X3 True
+state results_q220_gauss_K65_A43.8403.json: A 43.840315, m 31, odd True: X1 True, X2 False (992 initial minors, 64 not certainly positive), X3 True
+VERDICT q969 T77: FAIL; states 15

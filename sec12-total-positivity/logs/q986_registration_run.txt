@@ -1,0 +1,2 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True}
+VERDICT q986 T80b: INCOMPLETE (no row processed)

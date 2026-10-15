@@ -1,0 +1,6 @@
+start: U = 3.981948; min(K - m) on the dense grid = -1.689e-05; lemma(-15) = -33.00
+optimised: U = 3.990008; success False (Positive directional derivative for linesearch); min(K - m) = -1.929e-07; lemma(-15) = 1.00
+profile: g = 4.218943865; s = [0.014712017, -2.423658261, -3.337072961, -3.242557666, -4.218943865]; nu = [3.435818087, 1.584446936, 0.131437977, 0.645464019, 0.416780629]
+float check of the 9-decimal profile on step 0.0005: min(K - m/2) = 8.088e-15
+P1 did not hold; P2 held; prediction U < 3.990: did not hold
+READING (no verdict): dense-grid float64 optimisation of the dual test profile; nothing is proved here; profile in q1880_profiles.json.

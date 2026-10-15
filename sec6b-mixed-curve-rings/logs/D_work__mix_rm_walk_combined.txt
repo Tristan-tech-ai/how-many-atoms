@@ -1,0 +1,16 @@
+rm 1.7410: residual 2.195e-33, smallest mass +8.576301e-03, scan max [0.0, 2.0192806798988786e-34], D(0) - C +2.9523539768e-03
+rm 1.7404: residual 2.092e-39, smallest mass +5.972301e-03, scan max [90.0, -1.1322873664528935e-40], D(0) - C +2.5707996849e-03
+rm 1.7398: residual 1.327e-38, smallest mass +2.951005e-03, scan max [90.0, -6.098173188691472e-40], D(0) - C +2.1895141399e-03
+rm 1.7392: residual 2.201e-41, smallest mass +4.225892e-02, scan max [90.0, -2.4667765727475107e-42], D(0) - C +1.8084974636e-03
+rm 1.7386: residual 1.499e-38, smallest mass +4.220593e-02, scan max [90.0, -7.98822082151159e-40], D(0) - C +1.4277497786e-03
+rm 1.7380: residual 1.810e-41, smallest mass +4.215229e-02, scan max [90.0, -1.8210516718000834e-42], D(0) - C +1.0472712034e-03
+rm 1.7375: residual 3.618e-42, smallest mass +4.210709e-02, scan max [90.0, -3.68645498737826e-43], D(0) - C +7.3041138072e-04
+rm 1.7370: residual 2.022e-42, smallest mass +4.206143e-02, scan max [90.0, -2.0580476430345497e-43], D(0) - C +4.1373859255e-04
+rm 1.7368: residual 2.141e-31, smallest mass +4.204303e-02, scan max [90.0, 2.7145363738691166e-33], D(0) - C +2.8712186244e-04
+rm 1.73665: residual 8.982e-35, smallest mass +4.202918e-02, scan max [90.0, 1.1648647837748148e-36], D(0) - C +1.9217896340e-04
+rm 1.73655: residual 2.692e-37, smallest mass +4.201993e-02, scan max [90.0, 7.549704952880447e-39], D(0) - C +1.2889305486e-04
+rm 1.73645: residual 5.373e-38, smallest mass +4.201065e-02, scan max [90.0, 2.4029891532751283e-39], D(0) - C +6.5614632944e-05
+rm 1.73635: residual 5.391e-38, smallest mass +4.200136e-02, scan max [90.0, 2.4048459736376125e-39], D(0) - C +2.3436982094e-06
+rm 1.73625: residual 5.410e-38, smallest mass +4.199205e-02, scan max [90.0, 2.4066613380082233e-39], D(0) - C -6.0919748795e-05
+rm 1.73615: residual 5.428e-38, smallest mass +4.198271e-02, scan max [90.0, 2.4084347250054034e-39], D(0) - C -1.2417570752e-04
+rm 1.73605: residual 5.447e-38, smallest mass +4.197336e-02, scan max [90.0, 2.4101655886153956e-39], D(0) - C -1.8742417741e-04

@@ -1,0 +1,2 @@
+controls: {'PC': (30, 0), 'NC1': (28, 0), 'NC2': (0, 0)} -> True
+VERDICT q1088 T117: INCOMPLETE (controls run only)

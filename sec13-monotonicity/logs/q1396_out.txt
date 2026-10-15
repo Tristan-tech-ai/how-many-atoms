@@ -1,0 +1,23 @@
+states 2396 K from 60 to 83 ; control constant family: OK ; control drift detected: OK
+even states 1255
+   s_1: min 2.71884325, max 2.71884325, spread 6.210e-12, spread/value 2.28e-12
+   s_2: min 4.88844242, max 4.88844242, spread 6.391e-11, spread/value 1.31e-11
+   s_3: min 6.82359839, max 6.82359839, spread 3.885e-10, spread/value 5.69e-11
+   s_4: min 8.61374533, max 8.61374533, spread 1.793e-09, spread/value 2.08e-10
+   s_5: min 10.30100715, max 10.30100716, spread 6.918e-09, spread/value 6.72e-10
+   s_6: min 11.90958427, max 11.90958429, spread 2.347e-08, spread/value 1.97e-09
+   s_7: min 13.45503750, max 13.45503757, spread 7.211e-08, spread/value 5.36e-09
+   s_8: min 14.94813797, max 14.94813818, spread 2.047e-07, spread/value 1.37e-08
+odd states 1141
+   s_1: min 2.71884325, max 2.71884325, spread 8.031e-12, spread/value 2.95e-12
+   s_2: min 4.88844242, max 4.88844242, spread 5.807e-11, spread/value 1.19e-11
+   s_3: min 6.82359839, max 6.82359839, spread 3.535e-10, spread/value 5.18e-11
+   s_4: min 8.61374533, max 8.61374533, spread 1.634e-09, spread/value 1.90e-10
+   s_5: min 10.30100715, max 10.30100716, spread 6.315e-09, spread/value 6.13e-10
+   s_6: min 11.90958427, max 11.90958429, spread 2.146e-08, spread/value 1.80e-09
+   s_7: min 13.45503751, max 13.45503757, spread 6.606e-08, spread/value 4.91e-09
+   s_8: min 14.94813799, max 14.94813818, spread 1.879e-07, spread/value 1.26e-08
+K 60: 19 states, median s_1..s_4: ['2.71884325', '4.88844242', '6.82359839', '8.61374533'] ; s_1 min/max 2.71884325 2.71884325
+K 70: 117 states, median s_1..s_4: ['2.71884325', '4.88844242', '6.82359839', '8.61374533'] ; s_1 min/max 2.71884325 2.71884325
+K 80: 111 states, median s_1..s_4: ['2.71884325', '4.88844242', '6.82359839', '8.61374533'] ; s_1 min/max 2.71884325 2.71884325
+READING q1396 done

@@ -1,11 +1,11 @@
 """Recompute the form-S (Szego / copying) loss points of the rp 3 ellipse rings K = 6..16 and their misses against the solved events.
 
-Inputs (read only): agent G's formal-density outputs temporal_within/agents/G_work/formal/<chain>/c_eps<eps>.txt (line "CVEC c_2,c_4,..."),
-the chains and eps pairs agent G used (G_family.md table: M3r9 1.5/1.6, M4r12 1.3/1.35, M5r12 1.20/1.22, M6r12 1.12/1.13,
+Inputs (read only): the formal-density outputs temporal_within/G_work/formal/<chain>/c_eps<eps>.txt (line "CVEC c_2,c_4,..."),
+the chains and eps pairs a helper script used (G_family.md table: M3r9 1.5/1.6, M4r12 1.3/1.35, M5r12 1.20/1.22, M6r12 1.12/1.13,
 M7r12b 1.05/1.055, M8r12 0.99/1.00), and the solved event brackets in rm from G_work/c3a_part1.log, c3b.log, c3c.log (eps = 3 - rm).
 Method: Verblunsky coefficients alpha_n = -Phi_{n+1}(0) of f(t) dt/2pi, f = 1 + sum c_2k cos 2kt, by Toeplitz solves (a text copy of the
-phi() of agents/G_copytest.py, itself a copy of the record's q806); the K-ring (tau = +1, X atom) is lost where alpha_(K-1) = +1,
-located by the straight line through the two eps points (as agent G did). Miss = solved eps / form eps - 1.
+phi() of G_copytest.py, itself a copy of the record's q806); the K-ring (tau = +1, X atom) is lost where alpha_(K-1) = +1,
+located by the straight line through the two eps points (as a helper script did). Miss = solved eps / form eps - 1.
 Writes only rp3_form_loss.json in this folder.
 """
 import os, re, json
@@ -14,7 +14,7 @@ from mpmath import mp, mpf, matrix, lu_solve
 mp.dps = 50
 HERE = os.path.dirname(os.path.abspath(__file__))
 TW = os.path.dirname(os.path.dirname(HERE))
-GW = os.path.join(TW, "agents", "G_work")
+GW = os.path.join(TW, "runs", "G_work")
 CASES = [(6, "M3r9", "1.5", "1.6", "c3a_part1.log", "X1G"), (8, "M4r12", "1.3", "1.35", "c3b.log", "XY1G"),
          (10, "M5r12", "1.2", "1.22", "c3b.log", "X2G"), (12, "M6r12", "1.12", "1.13", "c3b.log", "XY2G"),
          (14, "M7r12b", "1.05", "1.055", "c3c.log", "X3G"), (16, "M8r12", "0.99", "1.0", "c3c.log", "XY3G")]

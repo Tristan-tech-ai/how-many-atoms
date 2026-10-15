@@ -1,0 +1,8 @@
+C1 recursion at NG = 10 against births_law.g: largest relative difference 1.01e-16
+rho_30 = 0.9399318052, rho_60 = 1.11556582 (N_law(rho) = k + nu0, law to NG = 18)
+C2 position law from the terms against births_law.dlaw at NG = 18: largest relative difference 2.22e-16
+k = 30: smallest term for n <= 40 at n = 29 (1.92e-14), for n <= 60 at n = 29 (1.92e-14); terms n = 15, 17, 19, 21, 25, 30: 1.37e-12 4.0e-13 1.49e-13 6.88e-14 2.61e-14 1.94e-14
+k = 60: smallest term for n <= 40 at n = 40 (2.3e-19), for n <= 60 at n = 41 (2.29e-19); terms n = 15, 17, 19, 21, 25, 30: 1.35e-14 1.97e-15 3.7e-16 8.63e-17 8.32e-18 1.12e-18
+A rho^2 at k = 30 and 60: 28.542, 40.206
+P1 smallest term at k = 30 at n > 18: holds; P2 index at k = 60 exceeds that at k = 30 by at least 5: holds; P3 term n = 19 at k = 30 is 1.486e-13, between 2e-13 and 2e-11: does not hold
+READING q1740 done (labels by the script; no verdict word)

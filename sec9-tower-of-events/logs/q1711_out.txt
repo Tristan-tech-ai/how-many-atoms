@@ -1,0 +1,41 @@
+control: re-solved state at A = 47.9631: residual 1.02e-56 in 3 updates, wc 1.044e-02 [2s]
+family K = 73 (odd) from A = 47.963112, signal -6.239e-16, h = 0.0002
+   A = 47.963312: residual 5.6e-38 in 3 it, signal -5.95342e-16, h 2.00e-04  [5s]
+   A = 47.963712: residual 1.4e-46 in 2 it, signal -5.37938e-16, h 4.00e-04  [6s]
+   A = 47.964512: residual 8.7e-42 in 2 it, signal -4.22360e-16, h 8.00e-04  [8s]
+   A = 47.966112: residual 5.4e-37 in 2 it, signal -1.88107e-16, h 1.60e-03  [10s]
+   EVENT between A = 47.966112 (signal -1.881e-16) and 47.969312 (signal 2.929e-16)
+   locate: A = 47.96736335053188 signal -2.001e-18
+   locate: A = 47.96737657045203 signal -2.105e-20
+   locate: A = 47.96737671100434 signal 1.539e-24
+   locate: A = 47.96737671099407 signal -1.183e-30
+   locate: A = 47.96737671099407 signal -6.651e-41
+EVENT located: K_b = 73 (split) A_event = 47.967376710994066746 (bracket 1.03e-11)
+   split eps 0.0001: residual 3.04e-50 in 5 it, A - A_s = 2.5081e-09, u_1 0.00010
+   split eps 0.00017: residual 1.21e-56 in 3 it, A - A_s = 7.2485e-09, u_1 0.00017
+   split eps 0.000289: residual 2.76e-53 in 2 it, A - A_s = 2.0948e-08, u_1 0.00029
+   split eps 0.0004913: residual 1.59e-50 in 2 it, A - A_s = 6.0540e-08, u_1 0.00049
+   split eps 0.0008352: residual 5.62e-48 in 2 it, A - A_s = 1.7496e-07, u_1 0.00084
+   split eps 0.00142: residual 3.79e-45 in 2 it, A - A_s = 5.0564e-07, u_1 0.00142
+   split eps 0.002414: residual 5.74e-57 in 3 it, A - A_s = 1.4613e-06, u_1 0.00241
+   split eps 0.004103: residual 4.93e-55 in 3 it, A - A_s = 4.2233e-06, u_1 0.00410
+   split eps 0.006976: residual 2.35e-49 in 3 it, A - A_s = 1.2207e-05, u_1 0.00698
+   split eps 0.01186: residual 2.61e-56 in 4 it, A - A_s = 3.5286e-05, u_1 0.01186
+   split eps 0.02016: residual 1.42e-51 in 4 it, A - A_s = 1.0206e-04, u_1 0.02016
+   split eps 0.03427: residual 1.08e-56 in 5 it, A - A_s = 2.9560e-04, u_1 0.03427
+   split eps 0.05826: residual 1.16e-54 in 6 it, A - A_s = 8.5981e-04, u_1 0.05826
+   split eps 0.09905: residual 1.81e-50 in 8 it, A - A_s = 2.5325e-03, u_1 0.09905
+   split eps 0.1684: residual 4.52e-54 in 25 it, A - A_s = 7.7555e-03, u_1 0.16838
+   split eps 0.2862: residual 2.38e-08 in 40 it, A - A_s = 2.1492e-02, u_1 0.28624
+   split eps 0.2273: residual 7.94e-11 in 40 it, A - A_s = 1.4582e-02, u_1 0.22731
+   split eps 0.1978: residual 3.41e-49 in 26 it, A - A_s = 1.1099e-02, u_1 0.19784
+   split eps 0.2325: residual 3.36e-51 in 28 it, A - A_s = 1.6153e-02, u_1 0.23247
+   split eps 0.2731: residual 1.02e-56 in 29 it, A - A_s = 2.4143e-02, u_1 0.27315
+   split eps 0.3: residual 3.41e-11 in 40 it, A - A_s = 2.9983e-02, u_1 0.30003
+   split eps 0.297: residual 1.42e-47 in 32 it, A - A_s = 3.0242e-02, u_1 0.29705
+   split eps 0.3: residual 7.01e-57 in 10 it, A - A_s = 3.1094e-02, u_1 0.30003
+   split: even family start at A = 47.9984706635, u_1 0.3000, centre signal -4.241e-18
+walker returned end; event files: ['event_Kb73.json'] [297s]
+event file event_Kb73.json: new amplitude minus the stored one: +4.497e-12 (A_lo, A_hi bracket width 1.03e-11)
+outcome (a) does not hold; outcome (b) does not hold; outcome (c) holds
+READING q1711 done (labels by the script; no verdict word)

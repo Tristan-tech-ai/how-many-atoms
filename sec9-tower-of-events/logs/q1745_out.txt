@@ -1,0 +1,9 @@
+C1 recursion at NG = 10 against births_law.g: largest relative difference 1.01e-16
+rho_30 = 0.9399318052, rho_60 = 1.11556582 (N_law(rho) = k + nu0, law to NG = 18)
+C2 position law from the terms against births_law.dlaw at NG = 18: largest relative difference 2.22e-16
+CONTROL q1740 values reproduced: holds
+k = 30: t_18 = 2.368e-13, tail sum n = 19..29 = 5.446e-13 (n = 19..40: 1.069e-12), ratio tail / t_18 = 2.3, tail / t_19 = 3.664
+k = 60: t_18 = 8.303e-16, tail sum n = 19..41 = 7.397e-16, ratio tail / t_18 = 0.8909
+tail terms k = 30, n = 19..29: 1.49e-13 9.85e-14 6.88e-14 5.04e-14 3.87e-14 3.11e-14 2.61e-14 2.28e-14 2.07e-14 1.96e-14 1.92e-14
+P1 k = 30 sum n = 19..29 between 3e-13 and 1.5e-12: holds (5.446e-13); P2 k = 60 sum n = 19..41 below 1e-15: holds (7.397e-16); P3 ratio tail / t_18 at k = 30 between 3 and 12: does not hold (2.300)
+READING q1745 done (labels by the script; no verdict word)

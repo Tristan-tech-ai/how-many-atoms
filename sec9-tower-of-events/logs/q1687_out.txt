@@ -1,0 +1,6 @@
+cell (14, 14), full-precision strings: pair (-0.0937736508489, 0.0011599160190), in-sample rms over 55 events 5.3949e-14, largest |a_pred - A| 1.993e-13
+cell (14, 16), full-precision strings: pair (-0.0937736508385, 0.0011599160098), in-sample rms over 55 events 1.1895e-13, largest |a_pred - A| 3.588e-13
+cell (14, 18), full-precision strings: pair (-0.0937736508361, 0.0011599160077), in-sample rms over 55 events 1.6258e-13, largest |a_pred - A| 5.061e-13
+cell (14, 14) with the float64 conversion of the same strings: rms 5.4484e-14, largest 2.003e-13
+P1 rms of (14, 14) below 3e-14: does not hold; P2 rms of (14, 18) within 20 percent of 1.621e-13: holds; P3 largest |a_pred - A| of (14, 14) below 1e-13: does not hold; control: holds
+READING q1687 done (labels by the script; no verdict word)

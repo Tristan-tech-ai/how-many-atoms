@@ -1,0 +1,13 @@
+n =  9: r_n = 47.897452, d_n = 1.202234, D_n = 6.4337, D_n / D_(n-1) = 0.084441, effective power p_n = 20.99
+n = 10: r_n = 51.035677, d_n = 3.138225, D_n = 1.936, D_n / D_(n-1) = 0.30091, effective power p_n = 11.4
+n = 11: r_n = 54.860237, d_n = 3.82456, D_n = 0.68634, D_n / D_(n-1) = 0.35451, effective power p_n = 10.88
+n = 12: r_n = 58.920564, d_n = 4.060327, D_n = 0.23577, D_n / D_(n-1) = 0.34352, effective power p_n = 12.28
+n = 13: r_n = 63.077247, d_n = 4.156683, D_n = 0.096356, D_n / D_(n-1) = 0.40869, effective power p_n = 11.18
+n = 14: r_n = 67.286048, d_n = 4.208801, D_n = 0.052118, D_n / D_(n-1) = 0.54089, effective power p_n = 8.292
+n = 15: r_n = 71.527127, d_n = 4.241078, D_n = 0.032277, D_n / D_(n-1) = 0.6193, effective power p_n = 6.945
+n = 16: r_n = 75.788586, d_n = 4.26146, D_n = 0.020381, D_n / D_(n-1) = 0.63146, effective power p_n = 7.123
+n = 17: r_n = 80.0639, d_n = 4.275314, D_n = 0.013854, D_n / D_(n-1) = 0.67973, effective power p_n = 6.368
+n = 18: r_n = 84.350003, d_n = 4.286103, D_n = 0.01079, D_n / D_(n-1) = 0.77882, effective power p_n = 4.373
+n = 19: r_n = 88.645506, d_n = 4.295502, D_n = 0.0093992, D_n / D_(n-1) = 0.87112, effective power p_n = 2.552
+n = 20: r_n = 92.949674, d_n = 4.304168, D_n = 0.0086658, D_n / D_(n-1) = 0.92198, effective power p_n = 1.584
+TABLE q1740c done (facts; no labels)

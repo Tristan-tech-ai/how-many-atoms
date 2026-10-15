@@ -1,0 +1,6 @@
+control K 65: m 31, N1(1) positive True, t* 1.1364, J (t* - 1) 4.2284; PC (odd median band) True; NC1 (odd first band) inside False; NC2 (odd last band) inside False
+VERDICT q1055 T100: INCOMPLETE (controls run only)
+
+real	0m16.662s
+user	0m0.015s
+sys	0m0.015s

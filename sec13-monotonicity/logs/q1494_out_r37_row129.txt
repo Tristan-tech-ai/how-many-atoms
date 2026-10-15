@@ -1,0 +1,4 @@
+controls: rows at law C -> C1 PASS C2 PASS ; rows at the persistence null -> C2 FAIL ; one PN row 3 bars off -> C1 FAIL ; row 127 missing -> C1 INCOMPLETE C2 INCOMPLETE ; one Re row 0.9 bar off -> C1 PASS C2 PASS ; no row -> C1 INCOMPLETE : True
+C1 (series law C within its bar): PASS; measured 8 of 8; violations []
+C2 (law C closer than the persistence null): PASS; measured 8 of 8; violations []
+VERDICT q1494: C1 PASS; C2 PASS

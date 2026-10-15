@@ -1,0 +1,5 @@
+K values 28 states 63
+R_e overall min 1.07801 (K 81) max 1.12729 (K 20)
+even rho min 0.24910 (K 20) max 0.29544 (K 80); R_e min 1.07975 max 1.12729; P/N min 1.05495 max 1.09268; states 36
+odd rho min 0.26314 (K 21) max 0.35273 (K 19); R_e min 1.07801 max 1.11876; P/N min 1.05007 max 1.08001; states 27
+all rho min 0.24910 max 0.35273

@@ -1,0 +1,8 @@
+controls: PC True, NC1 True, NC2 True; instrument G2 at the first state True (spread 9.22e-22)
+state results_q220_gauss_K61_A41.2100.json: A 41.21, m 29, odd True: C1 True (largest |2 w_p c_p + 1| = 1.293e-21); C2 True (spread 9.22e-22); c_p from -42.86382 to -18.39103
+state results_q220_gauss_K62_A41.9832.json: A 41.983175, m 30, odd False: C1 True (largest |2 w_p c_p + 1| = 4.822e-28); C2 True (spread 3.44e-28); c_p from -43.75490 to -18.72018
+state results_q220_gauss_K63_A42.7882.json: A 42.788175, m 30, odd True: C1 True (largest |2 w_p c_p + 1| = 2.078e-36); C2 True (spread 1.48e-36); c_p from -41.24011 to -19.06288
+state results_q220_gauss_K64_A42.7932.json: A 42.7931750000000000000000000000, m 31, odd False: C1 True (largest |2 w_p c_p + 1| = 2.209e-36); C2 True (spread 1.58e-36); c_p from -81.81497 to -19.06501
+state results_q220_gauss_K65_A43.5803.json: A 43.580315, m 31, odd True: C1 True (largest |2 w_p c_p + 1| = 2.413e-32); C2 True (spread 1.72e-32); c_p from -45.24179 to -19.40010
+state results_q220_gauss_K65_A43.8403.json: A 43.840315, m 31, odd True: C1 True (largest |2 w_p c_p + 1| = 4.542e-31); C2 True (spread 3.24e-31); c_p from -42.54920 to -19.51079
+VERDICT q1079 T111: PASS; states 6; failing 0

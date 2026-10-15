@@ -1,0 +1,4 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True}
+r_78 = +6.5659e-08 (measured 50.487558101465, predicted 50.487558035806)
+r_79 = +7.8887e-08 (measured 50.986686686158, predicted 50.986686607271); ratio r_79 / r_78 = 1.2015; band [1.185, 1.215]
+VERDICT q1181 T143: PASS (ratio 1.2015)

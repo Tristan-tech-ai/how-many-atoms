@@ -1,0 +1,10 @@
+N =  30 (window 25): ||C||_inf 2.750e+10; largest component of C F 1.849e-76 (window 15: 1.681e-76); first depth differs from the window-15 value by 6.721e-49; passes for r = 1e-60, 1e-40, 1e-35, 1e-30; norm/r 4.406e+14; 2C control inside False
+N =  60 (window 25): ||C||_inf 1.382e+16; largest component of C F 9.556e-71 (window 15: 8.834e-71); first depth differs from the window-15 value by 5.18e-49; passes for r = 1e-60, 1e-40, 1e-35, 1e-30; norm/r 3.163e+20; 2C control inside False
+N =  90 (window 25): ||C||_inf 4.046e+20; largest component of C F 3.207e-66 (window 15: 3.206e-66); first depth differs from the window-15 value by 5.966e-49; passes for r = 1e-60, 1e-40, 1e-35, 1e-30; norm/r 1.141e+25; 2C control inside False
+N = 120 (window 25): ||C||_inf 2.593e+24; largest component of C F 2.150e-62 (window 15: 6.051e-59); first depth differs from the window-15 value by 5.262e-49; passes for r = 1e-60, 1e-40, 1e-35, 1e-30; norm/r 8.454e+28; 2C control inside False
+   N =  30: continuum radius = largest component of C F + ||C||_inf (2 E + tail) = 1.849e-76 + 2.860e-108
+   N =  60: continuum radius = largest component of C F + ||C||_inf (2 E + tail) = 9.556e-71 + 1.437e-102
+   N =  90: continuum radius = largest component of C F + ||C||_inf (2 E + tail) = 3.207e-66 + 4.208e-98
+   N = 120: continuum radius = largest component of C F + ||C||_inf (2 E + tail) = 2.150e-62 + 2.696e-94
+P1 holds; P2 holds; P3 holds; P4 holds
+READING q1608 done (labels by the script; no verdict word)

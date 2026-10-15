@@ -1,0 +1,8 @@
+d_1(120) = 2.718843251660640378729225700719578145973350203594133931
+d_1(180) = d_1(120) + 1.6849438e-31 = 2.718843251660640378729225700719746640353350203594133931 (the digits beyond the 38th decimal are limited by the 8-digit shift)
+shift 10 -> 30 / shift 30 -> 60 = 4.267e+6
+shift 30 -> 60 / shift 60 -> 90 = 1.181e+5
+shift 60 -> 90 / shift 90 -> 120 = 1.848e+4
+shift 90 -> 120 / shift 120 -> 180 = 4930.0
+if the next ratio (180 -> 240 against 120 -> 180) is not below 1e+03, the shift beyond 180 atoms is below 1.68e-34
+READING q1605b done (post hoc; no verdict word)

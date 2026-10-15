@@ -1,0 +1,8 @@
+C1 synthetic with log: largest prediction error 5.83e-13; C2 synthetic without log: fitted gamma 6.42e-12
+model L on n = 10..17: coefficients [   2.60614 -136.0674    52.13407  409.92112]; errors at n = 18, 19, 20: -4.671e-02 -1.159e-01 -2.186e-01; largest 2.186e-01
+model 0 on n = 10..17: coefficients [ 4.58658 -2.1617  72.8841 ]; errors at n = 18, 19, 20: +9.593e-02 +1.739e-01 +2.645e-01; largest 2.645e-01
+model Q on n = 10..17: coefficients [   3.91521   24.49544 -273.73517 1475.70754]; errors at n = 18, 19, 20: -3.363e-02 -8.035e-02 -1.475e-01; largest 1.475e-01
+sensitivity model L on n = 11..18: errors at n = 19, 20: -1.621e-02 -4.262e-02
+sensitivity model 0 on n = 11..18: errors at n = 19, 20: +3.782e-02 +6.807e-02
+P1 model L predicts r_18..r_20 within 0.01: does not hold (largest 2.186e-01); P2 alpha of model L in 4.3..4.9: does not hold (alpha = 2.6061); P3 model 0 worse by at least a factor 3: does not hold (ratio 1.21)
+READING q1748 done (labels by the script; no verdict word)

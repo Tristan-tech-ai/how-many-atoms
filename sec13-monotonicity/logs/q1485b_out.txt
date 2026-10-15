@@ -1,0 +1,5 @@
+stored row K = 110: PN 1.052900665788294 Re 1.077184907723202; state file results_q1411_gauss_K110_A65.770293.json
+eps 0e+00: PN 1.052900665788294 Re 1.077184907723202 control_ok True; Delta PN +0.00e+00, Delta Re +0.00e+00
+eps 1e-14: PN 1.052900665788294 Re 1.077184907723202 control_ok True; Delta PN +0.00e+00, Delta Re +0.00e+00; gradient PN +0.00e+00, Re +0.00e+00
+eps 1e-12: PN 1.052900665788294 Re 1.077184907723202 control_ok True; Delta PN +0.00e+00, Delta Re +0.00e+00; gradient PN +0.00e+00, Re +0.00e+00
+READING q1485: INSENSITIVE (the re-solve removes a starting error of 1e-12 in the positions)

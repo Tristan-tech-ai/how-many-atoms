@@ -1,0 +1,4 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True}
+   K 77: ratio 0.9747 (in [0.92, 1.02])
+   K 79: ratio 0.9321 (in [0.92, 1.02])
+VERDICT q1163 T137: PASS (K 77 PASS; K 79 PASS)

@@ -1,0 +1,3 @@
+control K_b 137: c20 -8.53e-11 (-8.53e-11), c24 +2.91e-11 (+2.91e-11): ok
+NO EVENT K_b 136 or 138 in fw_prod: no label
+READING q1642 done (labels by the script; no verdict word)

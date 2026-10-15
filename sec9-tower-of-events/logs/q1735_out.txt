@@ -1,0 +1,15 @@
+a_pred - A (1e-12) by NG:    K_b 61   K_b 65   K_b 70   K_b 76   K_b 82
+  NG = 14    -12.80      -8.51      -5.22      -3.00      -1.79
+  NG = 15     -4.60      -3.15      -1.98      -1.16      -0.68
+  NG = 16     -0.64      -0.65      -0.53      -0.35      -0.21
+  NG = 17     +1.41      +0.62      +0.18      +0.01      +0.01
+  NG = 18     +2.54      +1.27      +0.53      +0.21      +0.08
+  NG = 19     +3.23      +1.67      +0.76      +0.31      +0.14
+  NG = 20     +3.65      +1.91      +0.89      +0.38      +0.17
+  NG = 21     +3.95      +2.06      +0.96      +0.41      +0.16
+  NG = 22     +4.14      +2.16      +0.99      +0.41      +0.18
+  NG = 23     +4.28      +2.23      +1.04      +0.43      +0.22
+  NG = 24     +4.39      +2.31      +1.05      +0.44      +0.22
+best NG per K: K_b 61: NG 16 (size 6.39e-13), K_b 65: NG 17 (size 6.18e-13), K_b 70: NG 17 (size 1.85e-13), K_b 76: NG 17 (size 1.42e-14), K_b 82: NG 17 (size 7.11e-15)
+P1 best NG at K_b 61 in [15, 18]: holds; P2 best size at K_b 61 below 1.5e-12: holds; P3 K_b 82 best NG above 20 with size below 1e-13: does not hold
+READING q1735 done (labels by the script; no verdict word)

@@ -1,0 +1,13 @@
+control c1 (counter on a synthetic sequence): True
+control c2 (a mixture of two non-totally-positive components has more than 2 modes): True
+control c3 (a positive kernel that is not totally positive breaks the bound 2K - 1): True
+K | trials | max sign changes of Q' | max of D' | bound 2K - 1 | inputs attaining the bound in D'
+  2 | 700 | 3 | 3 | 3 | 415 -> within the bound
+  3 | 700 | 5 | 5 | 5 | 94 -> within the bound
+  4 | 700 | 7 | 7 | 7 | 3 -> within the bound
+  5 | 700 | 9 | 7 | 9 | 0 -> within the bound
+  6 | 700 | 11 | 7 | 11 | 0 -> within the bound
+  7 | 700 | 11 | 7 | 13 | 0 -> within the bound
+all within the bounds: True
+READING q1364 (exploratory, no verdict)
+exit 0

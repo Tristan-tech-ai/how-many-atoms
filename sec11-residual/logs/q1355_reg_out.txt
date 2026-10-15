@@ -1,0 +1,6 @@
+tight_run: TIGHT_DEG=17: degree 5 -> 17, degree 7 -> 19; root bracket 5 to 55
+tight_run: scipy brentq called with xtol 1e-16 when no xtol is given; q1183.rho_of replaced by the tight inversion
+tight_run: capacity R(36) = 0.5450679907426093 (old instrument 0.5456)
+model (4, 1, 1): rms 0.00087, in-sample largest |dR/Da| 0.0027, cross-validation maximum 0.0021; control c0 True; c1 True; c2 True; c3 True; c4 True; c5 True; c6 True; c7 (two-term form fails the bar) True; c8 (max |a17 - a19| / Da 0.00014) True
+sha256 89b5afb6d0f70ca3f2cdd519eeeb147a4fdf96abe80625b5554f8fe8eef93cec
+REGISTRATION-RUN q1355: controls True, table and run1355*.sh written

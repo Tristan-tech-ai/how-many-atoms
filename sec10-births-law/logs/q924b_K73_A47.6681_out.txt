@@ -1,0 +1,16 @@
+[     7s] state tower/K73\results_q220_gauss_K73_A47.6681.json: K 73, m 35, unknowns 72, A 47.668112, polished residual 7.95e-54
+[    25s] K1: columns 8, max error 1.15e-37 -> True; control J[2,0] x 1.01 gives 0.000889 -> fails as it must True
+[    27s] K2: max |b_an - b_fd| 2.38e-29 against 2.12e-26 -> True; control b[0] x 1.1 gives 0.0136 -> fails as it must True
+[    33s] K3: linear residual 9.06e-50 (True); ratios 1.691e-14 1.691e-16 1.691e-18 conditions (True, True, True, True) -> True
+[    39s] K3 controls: D1 conditions (False, False, False, True) fails as it must True; D2 conditions (True, False, False, True) fails as it must True
+[    39s] K4: du_j/dA > 0 for all 35 positions True (min 0.5651, max 1.085); dw_1/dA = 0.004590 (True); dwe/dA = -0.0007089; dwc/dA = 0.005991 (True); control -du fails True
+[    39s] reduced Hessian 35 x 35; diagonal from -0.2392 to -4.850e-6
+[    39s] [clean] C-sign violations 0; C-inv True
+[    40s] [clean] TP orders 1-3: minors examined {1: 1225, 2: 354025, 3: 20000}, failures 0 []
+[    40s] [clean] TPh orders 4-5: minors examined {4: 5000, 5: 5000}, failures 0 []
+[    40s] K5: C-sign True, C-inv True, TP True, TPh True -> True
+[    40s] [positive control] C-sign violations 0; C-inv True
+[    41s] [positive control] TP orders 1-3: minors examined {1: 1225, 2: 354025, 3: 20000}, failures 0 []
+[    41s] [positive control] TPh orders 4-5: minors examined {4: 5000, 5: 5000}, failures 0 []
+[    41s] K6 positive control passes all four gates: True; K7 negative controls fail as they must: True
+VERDICT q924b results_q220_gauss_K73_A47.6681.json: PASS; K1 True K2 True K3 True K4 True K5 True (C-sign True C-inv True TP True TPh True) K6 True K7 True

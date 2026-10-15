@@ -1,0 +1,9 @@
+CONTROLS C1 arb J(c) equals the quadrature: holds; C3 J_cap(1.1648) = [-5.0010744e-5 +/- 3.67e-13] (note: -5.0011e-5): holds
+C2 negative control, p_0 = 7.5, 400 points: failures 1, all ell' positive True, smallest margin [-0.12560363217890489329849255640823139815464202830 +/- 2.64e-48]: holds
+P1 grid check from p_0 = 7.6162 to 1e7, 4000 points: ell'_G > 0 at all points True; failures of p_i > g_G(p_(i+1)) 0; smallest margin (lower endpoint) [0.0012248029855141807615459180190452270120644668548 +/- 2.66e-50] at i = 0
+P2 ell'_G(7.6162) lower endpoint = [0.033559546232487684544890580856454934609206489759 +/- 4.56e-49] (needs >= 0.033559); S_phi * 7.6162 upper endpoint = [10.654624155242334766486968661134942916259547572 +/- 1.53e-46] (needs <= 10.6547); S_phi = [1.398942275 +/- 5.09e-11]
+NPMLE: M_c/ell_c = [317.4915820 +/- 1.01e-8]; c0max = [0.09234270622 +/- 1.94e-12]; sqrt(c0max)/4 = [0.07596985678 +/- 3.59e-12] (lower endpoint [0.075969856776414896722794307112923724004266397792 +/- 2.95e-49])
+capacity: ell* = [0.3119850528 +/- 3.93e-12]; L(1, ell*) = [0.5906721731 +/- 2.65e-11]; rho = [2.909027895 +/- 3.18e-10]; c0max = [0.4412967282 +/- 4.60e-11]; sqrt(c0max)/4 = [0.1660754212 +/- 3.43e-11] (lower endpoint [0.16607542116572264065907629111354184978909155788 +/- 2.37e-48])
+P1 holds; P2 holds; P3 holds (both constants below the printed 0.1661 and 0.0760: capacity upper endpoint [0.16607542116572264065907629111354184978909155788 +/- 9.94e-49], NPMLE upper endpoint [0.075969856776414896722794307112923724004266397793 +/- 1.50e-49]); P4 J(1.1648) < 0: holds
+valid statements by rounding down: capacity >= 0.1660, NPMLE >= 0.0759
+READING q1791 done (labels by the script; no verdict word)

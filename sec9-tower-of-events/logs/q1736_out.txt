@@ -1,0 +1,6 @@
+nmax = 16: best NG per K: K_b 61: NG 15 (size 1.19e-12), K_b 65: NG 15 (size 1.56e-13), K_b 70: NG 15 (size 2.77e-13), K_b 76: NG 15 (size 3.41e-13), K_b 82: NG 16 (size 1.85e-13)
+nmax = 18: best NG per K: K_b 61: NG 16 (size 6.39e-13), K_b 65: NG 17 (size 6.18e-13), K_b 70: NG 17 (size 1.85e-13), K_b 76: NG 17 (size 1.42e-14), K_b 82: NG 17 (size 7.11e-15)
+nmax = 20: best NG per K: K_b 61: NG 18 (size 2.49e-13), K_b 65: NG 18 (size 6.39e-14), K_b 70: NG 18 (size 3.55e-14), K_b 76: NG 18 (size 3.55e-14), K_b 82: NG 18 (size 2.84e-14)
+nmax = 20, a_pred - A (1e-12) by NG, K_b 61 and K_b 82: NG 14 -15.11 -1.88; NG 15 -6.92 -0.81; NG 16 -2.95 -0.33; NG 17 -0.90 -0.14; NG 18 +0.25 -0.03; NG 19 +0.92 +0.04; NG 20 +1.34 +0.06; NG 21 +1.62 +0.08; NG 22 +1.82 +0.07; NG 23 +1.95 +0.09; NG 24 +2.09 +0.08
+P1 best size at K_b 61 with nmax 20 below that with nmax 18: holds; P2 best sizes at K_b 76 and 82 with nmax 20 below 5e-14: holds; P3 best NG moves by at most one order between nmax 16, 18, 20 at K_b 61 and 82: does not hold
+READING q1736 done (labels by the script; no verdict word)

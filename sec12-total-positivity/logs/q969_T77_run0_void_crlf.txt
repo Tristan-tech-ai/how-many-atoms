@@ -1,0 +1,15 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True} (PC {'X1': True, 'X2': True, 'X3': True, 'count': 156, 'bad': 0} | NC1 {'X1': False, 'X2': False, 'X3': False, 'count': 156, 'bad': 5} | NC2 {'X1': False, 'X2': False, 'X3': False, 'count': 156, 'bad': 6} | NC3 {'X1': True, 'X2': False, 'X3': False, 'count': 156, 'bad': 9} )
+Traceback (most recent call last):
+  File "q969_extended_tp_test.py", line 86, in <module>
+    try: main()
+         ~~~~^^
+  File "q969_extended_tp_test.py", line 76, in main
+    r = state_gates(p)
+  File "q969_extended_tp_test.py", line 55, in state_gates
+    A_str, u, w, we, wc, d = F.load_state(path); m = len(u); odd = wc is not None
+                             ~~~~~~~~~~~~^^^^^^
+  File "q920_cap_flint.py", line 113, in load_state
+    d = json.load(open(path)); d = d[-1] if isinstance(d, list) else d
+                  ~~~~^^^^^^
+OSError: [Errno 22] Invalid argument: 'capacity_odd/results_q220_gauss_K61_A41.2100.json\r'
+VERDICT q969 T77: VOID (exception)

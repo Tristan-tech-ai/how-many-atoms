@@ -1,0 +1,6 @@
+window k = 30..70: delta d0 = +7.3207e-08, delta nu0 = -6.2822e-08, rms of the rest 6.04e-11, largest 2.06e-10 (largest |delta| in the window 1.91e-08)
+window k = 30..60: delta d0 = +7.2630e-08, delta nu0 = -6.2242e-08, rms of the rest 5.49e-11, largest 1.66e-10 (largest |delta| in the window 1.69e-08)
+window k = 40..80: delta d0 = +7.4361e-08, delta nu0 = -6.4087e-08, rms of the rest 1.09e-11, largest 3.52e-11 (largest |delta| in the window 2.09e-08)
+window k = 50..90: delta d0 = +7.2835e-08, delta nu0 = -6.2385e-08, rms of the rest 1.06e-10, largest 4.28e-10 (largest |delta| in the window 2.18e-08)
+pair used: nu0 = -0.093773586, d0 = +0.001159841; spacing s_k at k = 30, 50, 70: 1.0640 0.9378 0.8628
+READING q1609b done (post hoc; no verdict word)

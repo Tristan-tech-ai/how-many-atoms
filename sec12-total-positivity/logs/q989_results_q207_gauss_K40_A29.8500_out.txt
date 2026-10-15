@@ -1,0 +1,21 @@
+state results_q207_gauss_K40_A29.8500.json: A 29.85, m 19; N1 at the actual diagonal positive True
+   atom 1: d_p 1.4606e-10; critical factor for this atom alone infinity (grid up to 1000)
+   atom 2: d_p 1.8589e-10; critical factor for this atom alone infinity (grid up to 1000)
+   atom 3: d_p 2.8950e-10; critical factor for this atom alone 162.6495
+   atom 4: d_p 5.2201e-10; critical factor for this atom alone 55.8078
+   atom 5: d_p 1.0386e-09; critical factor for this atom alone 27.8448
+   atom 6: d_p 2.2086e-09; critical factor for this atom alone 17.1149
+   atom 7: d_p 4.9326e-09; critical factor for this atom alone 11.9452
+   atom 8: d_p 1.1482e-08; critical factor for this atom alone 9.0486
+   atom 9: d_p 2.7814e-08; critical factor for this atom alone 7.2414
+   atom 10: d_p 7.0260e-08; critical factor for this atom alone 6.0210
+   atom 11: d_p 1.8595e-07; critical factor for this atom alone 5.1451
+   atom 12: d_p 5.1923e-07; critical factor for this atom alone 4.4861
+   atom 13: d_p 1.5447e-06; critical factor for this atom alone 3.9705
+   atom 14: d_p 4.9631e-06; critical factor for this atom alone 3.5540
+   atom 15: d_p 1.7558e-05; critical factor for this atom alone 3.2078
+   atom 16: d_p 7.0437e-05; critical factor for this atom alone 2.9124
+   atom 17: d_p 3.3649e-04; critical factor for this atom alone 2.6538
+   atom 18: d_p 2.1018e-03; critical factor for this atom alone 2.4215
+   atom 19: d_p 2.1840e-02; critical factor for this atom alone 2.2063
+END q989 READING (no verdict)

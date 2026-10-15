@@ -1,0 +1,13 @@
+K_b 14: v^2 69.20, a_med 13.1849254529, Da 3053.97883e-9, predicted R_3 20709.8647e-9, start a0 = 13.180946
+K_b 15: v^2 71.50, a_med 13.9339834343, Da 1919.42753e-9, predicted R_3 13016.1624e-9, start a0 = 13.929996
+K_b 16: v^2 73.72, a_med 14.6713134947, Da 1221.41333e-9, predicted R_3 8282.7374e-9, start a0 = 14.667322
+K_b 17: v^2 75.87, a_med 15.3977837611, Da 786.19825e-9, predicted R_3 5331.4251e-9, start a0 = 15.393789
+K_b 18: v^2 77.97, a_med 16.1141532559, Da 511.46433e-9, predicted R_3 3468.3793e-9, start a0 = 16.110157
+K_b 19: v^2 80.01, a_med 16.8210904145, Da 336.03836e-9, predicted R_3 2278.7679e-9, start a0 = 16.817093
+K_b 20: v^2 82.00, a_med 17.5191879856, Da 222.82700e-9, predicted R_3 1511.0508e-9, start a0 = 17.515189
+K_b 21: v^2 83.94, a_med 18.2089749080, Da 149.03841e-9, predicted R_3 1010.6702e-9, start a0 = 18.204976
+K_b 22: v^2 85.83, a_med 18.8909257497, Da 100.49641e-9, predicted R_3 681.4936e-9, start a0 = 18.886926
+K_b 23: v^2 87.69, a_med 19.5654683882, Da 68.28379e-9, predicted R_3 463.0510e-9, start a0 = 19.561469
+control c1 True; c2 (Da(115)) True; c3 (quintic vs septic, max relative 0.00472) True; c4 (D = 80 vs 92 5.21e-09) True; c5 (chain bit-identical at k = 2) True; c6 (sigma_3 = 6.7813 in 6.6 to 7.0) True
+sha256 777002581898d45b353acec501f99c0587b4dc3165d3ac057322f133ab94993b
+REGISTRATION-RUN q1287: controls True, table and run1287.sh written

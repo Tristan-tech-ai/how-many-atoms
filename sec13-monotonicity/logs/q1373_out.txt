@@ -1,0 +1,10 @@
+control c1 (grid interpolation of a synthetic function of phi from two samplings): True
+K 62: phi range 0.019 - 0.499; R1(phi) at the grid: 0.5025 0.5146 0.5342 0.5613 0.5961 0.6398 0.6939 0.7622 0.8528 | R2: 0.9909 0.9850 0.9757 0.9636 0.9492 0.9336 0.9184 0.9075 0.9111
+K 66: phi range 0.020 - 0.499; R1(phi) at the grid: 0.5026 0.5148 0.5344 0.5614 0.5963 0.6400 0.6942 0.7624 0.8530 | R2: 0.9916 0.9856 0.9763 0.9642 0.9498 0.9342 0.9190 0.9081 0.9116
+K 70: phi range 0.021 - 0.499; R1(phi) at the grid: 0.5028 0.5149 0.5345 0.5616 0.5965 0.6401 0.6944 0.7626 0.8531 | R2: 0.9921 0.9862 0.9769 0.9647 0.9503 0.9347 0.9195 0.9086 0.9120
+K 74: phi range 0.020 - 0.499; R1(phi) at the grid: 0.5029 0.5151 0.5347 0.5617 0.5966 0.6403 0.6944 0.7627 0.8532 | R2: 0.9926 0.9867 0.9774 0.9652 0.9508 0.9351 0.9199 0.9089 0.9124
+K 78: phi range 0.020 - 0.499; R1(phi) at the grid: 0.5030 0.5151 0.5347 0.5618 0.5967 0.6404 0.6947 0.7628 0.8533 | R2: 0.9930 0.9871 0.9778 0.9656 0.9512 0.9355 0.9203 0.9093 0.9127
+K 82: phi range 0.020 - 0.499; R1(phi) at the grid: 0.5031 0.5153 0.5348 0.5620 0.5969 0.6404 0.6946 0.7628 0.8534 | R2: 0.9934 0.9874 0.9781 0.9659 0.9515 0.9359 0.9206 0.9096 0.9129
+R1: largest relative difference between K = 62 and K = 82: 1.286e-03; between neighbouring K: 4.311e-04; variation of R1 along phi (K = 82): 6.962e-01
+R2: largest relative difference between K = 62 and K = 82: 2.494e-03; between neighbouring K: 6.716e-04; variation of R2 along phi (K = 82): 9.215e-02
+READING q1373 (exploratory, no verdict)

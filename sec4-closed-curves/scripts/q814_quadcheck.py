@@ -1,4 +1,4 @@
-"""q814 (03 Oct 2026, my check of the K 20 event on lam 0.02, rp 1.2): D - C at chosen angles under capfix (FIX_N, FIX_B)
+"""q814 (03 Oct 2026, our check of the K 20 event on lam 0.02, rp 1.2): D - C at chosen angles under capfix (FIX_N, FIX_B)
 and Gauss-Hermite (NGH), using the D_core2 (unchanged). Usage (cwd ): py q814 STATE.json "capfix:40:20,capfix:56:24,cap:360" PREC
 """
 

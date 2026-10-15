@@ -1,0 +1,5 @@
+control K 65: m 31, N1(1) positive True, t* 1.1364, J (t* - 1) 4.2284; PC (median band) True; NC1 (first band) inside False; NC2 (last band) inside False
+K 71 first state tower/K71/results_q220_gauss_K71_A46.4359.json: m 34, N1(1) positive True, t* 1.1177, J (t* - 1) 4.0018, band (3.98, 4.03), inside
+K 71 median state tower/K71/results_q220_gauss_K71_A46.6889.json: m 34, N1(1) positive True, t* 1.1236, J (t* - 1) 4.2024, band (4.18, 4.235), inside
+K 71 last state tower/K71/results_q220_gauss_K71_A46.9439.json: m 34, N1(1) positive True, t* 1.1375, J (t* - 1) 4.6750, band (4.635, 4.715), inside
+VERDICT q1071 T105: PASS; states 3; outside 0

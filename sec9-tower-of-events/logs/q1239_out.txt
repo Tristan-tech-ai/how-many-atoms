@@ -1,0 +1,2 @@
+control: variant A reproduces q1209 at K_b 61, 70, 80 within 1e-12: True; variant D differs from A by 1.00e-10 at K_b 70 (> 1e-6): False
+READING q1239: VOID (control)

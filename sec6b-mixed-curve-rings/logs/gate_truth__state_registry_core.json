@@ -1,0 +1,213 @@
+{
+ "note": "core registry: the 25 states traced by hand behind printed numbers plus the ring states of the NPMLE mixed-curve birth (amendment 2252); checked by gate_state_validity.py and gate_kkt_margin.py",
+ "states": [
+  {
+   "file": "G_work/c28f_states.jsonl",
+   "claim": "Table VI: capacity ellipse rp 2.8 center birth (amendment 1406)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.4036_ngh120_p128_lfp17_K18.json",
+   "claim": "Table VI: LFP ellipse rp 1.7 center birth (amendment 1443)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.4038_ngh120_p128_lfp17_K18.json",
+   "claim": "Table VI: LFP ellipse rp 1.7 center birth (amendment 1443)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.4040_ngh120_p128_lfp17_K18.json",
+   "claim": "Table VI: LFP ellipse rp 1.7 center birth (amendment 1443)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.40_ngh120_p128_lfp17_K16.json",
+   "claim": "Table VI: LFP ellipse rp 1.7 center birth (amendment 1443)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.40_ngh120_p128_lfp17_K18.json",
+   "claim": "Table VI: LFP ellipse rp 1.7 center birth (amendment 1443)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.40_ngh120_p128_lfp17_K20.json",
+   "claim": "Table VI: LFP ellipse rp 1.7 center birth (amendment 1443)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7416_rd21_K20.json",
+   "claim": "Table VI: NPMLE ellipse rp 2.1 center birth (amendment 1447)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7417_rd21_K20.json",
+   "claim": "Table VI: NPMLE ellipse rp 2.1 center birth (amendment 1447)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7414_ngh120_p128_rd21_K20.json",
+   "claim": "Table VI: NPMLE ellipse rp 2.1 center birth (amendment 1447)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7416_ngh120_p128_rd21_K20.json",
+   "claim": "Table VI: NPMLE ellipse rp 2.1 center birth (amendment 1447)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7418_ngh120_p128_rd21_K20.json",
+   "claim": "Table VI: NPMLE ellipse rp 2.1 center birth (amendment 1447)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K67.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 67 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K68.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 68 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K69.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 69 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K71.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 71 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K74.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 74 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K75.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 75 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K77.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 77 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K78.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 78 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K81.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 81 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K83.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 83 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K84.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 84 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K87.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 87 located (amendment 2040)"
+  },
+  {
+   "file": "centre_scripts/q607_u1207_K93.json",
+   "claim": "Sec. VI blind test: NPMLE transition K_b 93 located (amendment 2040)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.73605_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.73615_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.73625_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.73635_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.73645_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.73655_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.73665_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7368_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7370_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7375_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7380_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7386_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7392_rdmxpos_K18x0.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7398_rdmxpos_K20.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7404_rdmxpos_K20.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.7410_rdmxpos_K20.json",
+   "claim": "Table VI NPMLE mixed cell 1.7363463 (amendment 2252, q1888 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.40127_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.40137_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.40147_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.40157_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.40167_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.40177_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.4018_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.4020_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.4024_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.4028_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  },
+  {
+   "file": "D_work/D_newton_harm_rm1.4032_ngh120_p128_lfpmxpos.json",
+   "claim": "Table VI LFP mixed cell 1.4015695 (amendment 2254, q1889 PASS)"
+  }
+ ]
+}

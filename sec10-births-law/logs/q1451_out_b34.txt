@@ -1,0 +1,4 @@
+controls: events at the table -> all PASS; one B115 event 3 bars off -> FAIL ; one B123 event 3 bars off -> FAIL ; K_b 120 missing -> B115 INCOMPLETE ; one event 0.9 bar off -> B115 PASS : True
+B115 (blind, K_b 115 to 122): PASS; measured 8 of 8; largest |dev| 0.0338e-9; violations []
+B123 (blind, K_b 123 to 130): PASS; measured 8 of 8; largest |dev| 0.1517e-9; violations []
+VERDICT q1451: B115 PASS; B123 PASS

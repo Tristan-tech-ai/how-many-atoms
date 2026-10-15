@@ -1,0 +1,7 @@
+states used 54, skipped 9 (results_q207_gauss_K26_A21.2821.json, results_q207_gauss_K40_A30.1191.json, results_q235_results_q206_gauss_K40_A29.85.json, results_q235_results_q220_gauss_K60_A41.0800.json, results_q235_results_q220_gauss_K70_A46.3837.json, results_q240_results_q220_gauss_K60_A41.0800.json)
+E2/c* over the 54 states, columns Lambda0 = 1, 2, 4, 8, 0.27A^(2/3), 0.4413A^(2/3): min [0.1868, 0.1907, 0.1992, 0.2198, 0.198, 0.2094]; max [0.1953, 0.2069, 0.2426, 0.8462, 0.2076, 0.2282]; for A >= 29.85 only: max [0.1895, 0.1966, 0.2131, 0.2612, 0.2012, 0.2154]
+A range of the states: 20.374 to 51.513; odd-K states included: 1
+worst ratio of the chain inequality (P2b) lhs/Q = 3.303e-04; worst ratio of eta e^(Lambda/3) to the explicit C1 (P2c) = 0.0596; largest E2/c* = 0.8462
+CONTROLS C1 c* equals the auditor's values: holds; C2 perturbed state E2/c* ratio 2.710e+02 (>= 100): holds; C3 wrong sign of the exponent is violated somewhere: holds
+P2a (LM2): holds; P2b (chain inequality): holds; P2c (explicit C1): holds; P2d (E2/c* <= 1): holds
+READING q1788 done (labels by the script; no verdict word)

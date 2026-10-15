@@ -1,0 +1,12 @@
+K_b 131: a_pred - A_event = -1.705e-11
+K_b 132: a_pred - A_event = -1.766e-11
+K_b 133: a_pred - A_event = -1.825e-11
+K_b 134: a_pred - A_event = -1.884e-11
+K_b 135: a_pred - A_event = -1.943e-11
+K_b 137: a_pred - A_event = -2.062e-11
+events measured: [131, 132, 133, 134, 135, 137]; rms 1.868e-11; mean -1.864e-11; control rms over K_b 83..130: 8.996e-12
+P1 every |diff| below 3e-11: holds; P2 rms below 2e-11: holds; P3 |mean| below 1e-11: does not hold; control rms(83..130) = 8.996e-12 to 3 digits: holds
+q1662 registration written 09:34:57 (clock); event files for K_b 136 and 138 in fw_cap_par*, fw_prod: none (no event_Kb136.json, no event_Kb138.json in any directory)
+K_b 136: a_pred (nmax 18, c24 law and pair) = 77.388989108956; bar |a_pred - A_event| < 3e-11
+K_b 138: a_pred (nmax 18, c24 law and pair) = 78.257764318971; bar |a_pred - A_event| < 3e-11
+READING q1662 done (labels by the script; no verdict word)

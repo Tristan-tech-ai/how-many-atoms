@@ -1,0 +1,15 @@
+capacity: pairs 2625; pairs with a negative cumulative flow (below -1e-14/dA): 0; smallest margin dT_m / S over all pairs and m: 6.4198e-02; median over pairs of the pair's smallest margin: 7.8047e-02
+   tightest m: median 35 of n = 36; fraction of pairs whose tightest m is 1: 0.000, is within 3 of n: 1.000; correlation of the margin with the family age: -0.274
+   median margin by K (every 5th): K 60: 8.112e-02, K 65: 3.086e-01, K 70: 7.268e-02, K 75: 2.940e-01, K 80: 6.579e-02
+capacity: outer cumulative flow of the r = 1..4 outermost atoms over -sum p / (A + delta) - 1: largest 5.76e-06, median 6.99e-11
+immune: pairs 1085; pairs with a negative cumulative flow (below -1e-14/dA): 0; smallest margin dT_m / S over all pairs and m: 8.2352e-02; median over pairs of the pair's smallest margin: 1.1300e-01
+   tightest m: median 18 of n = 19; fraction of pairs whose tightest m is 1: 0.000, is within 3 of n: 1.000; correlation of the margin with the family age: -0.408
+   median margin by K (every 5th): K 30: 1.130e-01, K 35: 6.429e-01, K 40: 9.005e-02, K 45: 9.838e-01
+npmle: pairs 676; pairs with a negative cumulative flow (below -1e-14/dA): 0; smallest margin dT_m / S over all pairs and m: 9.8376e-02; median over pairs of the pair's smallest margin: 2.3122e-01
+   tightest m: median 14 of n = 15; fraction of pairs whose tightest m is 1: 0.001, is within 3 of n: 0.999; correlation of the margin with the family age: -0.415
+   median margin by K (every 5th): K 24: 1.340e-01, K 29: 4.799e-01, K 34: 1.046e-01
+READING q1375 (exploratory, no verdict)
+capacity: inner range m <= n - 6: smallest margin dT_m / S over pairs 1.5225e-01, median 2.6931e-01; m = 1 (the innermost mass flow) smallest 1.5225e-01, median 5.5823e-01
+immune: inner range m <= n - 6: smallest margin dT_m / S over pairs 1.9587e-01, median 4.2746e-01; m = 1 (the innermost mass flow) smallest 1.9587e-01, median 1.0560e+00
+npmle: inner range m <= n - 6: smallest margin dT_m / S over pairs 2.2885e-01, median 4.9523e-01; m = 1 (the innermost mass flow) smallest 2.2885e-01, median 9.1458e-01
+READING q1375b (exploratory, no verdict)

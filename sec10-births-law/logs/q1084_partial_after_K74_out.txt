@@ -1,0 +1,9 @@
+controls (synthetic start r73 = +1.7e-8): {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True}
+r73 = +2.9399e-08; predicted K_b 74 to 79 = 48.474775725, 48.980465272, 49.484473852, 49.986829149, 50.487558036, 50.986686607
+   K_b 74: predicted 48.474775725040, measured 48.474775759011, r +3.3971e-08, ratio r/r_prev 1.1555 -> PASS
+   K_b 75: not measured yet -> MISSING
+   K_b 76: not measured yet -> MISSING
+   K_b 77: not measured yet -> MISSING
+   K_b 78: not measured yet -> MISSING
+   K_b 79: not measured yet -> MISSING
+VERDICT q1084 T116: INCOMPLETE

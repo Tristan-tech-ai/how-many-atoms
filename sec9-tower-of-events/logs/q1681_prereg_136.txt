@@ -1,0 +1,5 @@
+q1681 registration written 10:04:32 (clock); event files for K_b 136 in fw_cap_par*, fw_prod: none (no event_Kb136.json in any directory); K_b 138 existed (delivered 10:03:04) and is not registered here.
+cell NG 13 nmax 14: K_b 136 a_pred = 77.388989108976
+cell NG 14 nmax 14: K_b 136 a_pred = 77.388989108977
+cell NG 14 nmax 16: K_b 136 a_pred = 77.388989108976
+Bars: cell (14, 14) |a_pred - A| < 5e-13; cell (13, 14) a_pred - A in [-6e-13, -2e-13]; cell (14, 16) a_pred - A in [-3.5e-13, -1.2e-13].

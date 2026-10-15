@@ -1,0 +1,11 @@
+N0 = 60, N1 = 90: exact shift 1.5348673e-23
+   after update 1: d_1 shift so far 1.5369612e-23 (residual before 5.37e-18)
+   after update 2: d_1 shift so far 1.5348673e-23 (residual before 2.88e-27)
+   after update 3: d_1 shift so far 1.5348673e-23 (residual before 3.70e-33)
+   after update 4: d_1 shift so far 1.5348673e-23 (residual before 3.06e-49)
+N0 = 90, N1 = 120: exact shift 8.3076329e-28
+   after update 1: d_1 shift so far 8.3091807e-28 (residual before 3.82e-20)
+   after update 2: d_1 shift so far 8.3076329e-28 (residual before 1.82e-30)
+   after update 3: d_1 shift so far 8.3076329e-28 (residual before 1.08e-32)
+   after update 4: d_1 shift so far 8.3076329e-28 (residual before 9.47e-47)
+READING q1604b done (post hoc; no verdict word)

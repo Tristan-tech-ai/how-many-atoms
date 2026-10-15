@@ -1,0 +1,1 @@
+Registration q1754 at 13:47:41 on 2026-10-10 by code (the exact e_11 does not exist yet): the ratio s_10 = d_1(11)/d_1(10) of the coefficients of pi^18 in e_11 and pi^16 in e_10 lies in [12.72222, 12.96222]. Rule in the docstring of small_gap_q206/q1754_prereg_d1_ratio_11.py (sha256 50ce549929f97523). Evaluate with q1755 when centre_scripts/q1634_out_11.json exists.

@@ -1,0 +1,7 @@
+control (law c28, births pair of the c28 fit): rms over K_b 83..130 1.679e-13, largest over all events 3.979e-13 (q1687 cell (14, 14): 5.4e-14 and 2.0e-13)
+model A: K_b 61..82 largest 4.263e-12 (at K_b 61); rms over K_b 83..130 9.955e-14; K_b 131..142 largest 5.684e-14
+model B: K_b 61..82 largest 4.391e-12 (at K_b 61); rms over K_b 83..130 8.140e-14; K_b 131..142 largest 9.948e-14
+model B a_pred - A (1e-12), K_b 61..70: 61 +4.39, 62 +3.72, 63 +3.18, 64 +2.67, 65 +2.31, 66 +1.95, 67 +1.67, 68 +1.44, 69 +1.22, 70 +1.05
+model B a_pred - A (1e-12), K_b 131..142: 131 +0.07, 132 +0.07, 133 +0.04, 134 +0.07, 135 +0.07, 136 +0.06, 137 +0.04, 138 +0.10, 139 +0.09, 140 +0.09, 141 +0.09, 142 +0.09
+P1 K_b 61..82 below 1.0e-12: does not hold; P2 rms over K_b 83..130 below 3e-13: holds; P3 K_b 131..142 below 5e-13: holds; P4 models agree within 3e-13: holds; control: does not hold
+READING q1733 done (labels by the script; no verdict word)

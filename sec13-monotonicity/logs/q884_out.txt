@@ -1,0 +1,10 @@
+row 0: a 23.705091, K 30, centre False: sign changes of g' 29 (expected 29), undecided 0 -> PASS
+row 100: a 24.733564, K 31, centre True: sign changes of g' 30 (expected 30), undecided 0 -> PASS
+row 200: a 25.829107, K 33, centre True: sign changes of g' 32 (expected 32), undecided 0 -> PASS
+row 300: a 26.818049, K 35, centre True: sign changes of g' 34 (expected 34), undecided 0 -> PASS
+row 400: a 27.668988, K 36, centre False: sign changes of g' 35 (expected 35), undecided 0 -> PASS
+row 500: a 28.639442, K 38, centre False: sign changes of g' 37 (expected 37), undecided 0 -> PASS
+row 600: a 29.452485, K 39, centre True: sign changes of g' 38 (expected 38), undecided 0 -> PASS
+row 611: a 29.584485, K 39, centre True: sign changes of g' 38 (expected 38), undecided 0 -> PASS
+T12 VERDICT: PASS
+exit 0

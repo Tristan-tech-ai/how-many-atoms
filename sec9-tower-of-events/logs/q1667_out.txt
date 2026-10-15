@@ -1,0 +1,8 @@
+f30 = -7.25424082052e-12; f30/f28 = 0.46196429; control relative differences (7 stored values, f26 and f28 against the ORD 28 run): max 5.6e-16 over 9 values
+NG = 12: pair (-0.0937736507540, 0.0011599159348), in-sample rms 9.551e-13, frozen out-of-sample rms 1.891e-12
+NG = 13: pair (-0.0937736508135, 0.0011599159874), in-sample rms 3.743e-13, frozen out-of-sample rms 7.331e-13
+NG = 14: pair (-0.0937736508344, 0.0011599160061), in-sample rms 1.518e-13, frozen out-of-sample rms 2.999e-13
+NG = 15: pair (-0.0937736508428, 0.0011599160135), in-sample rms 6.076e-14, frozen out-of-sample rms 9.708e-14
+rms ratios in sample c24..c30: 0.392, 0.406, 0.400
+F9 f30 negative and f30/f28 in [0.43, 0.52]: holds; F10 births rms in the ranges: holds; F11 control and births control: holds
+READING q1667 done (labels by the script; no verdict word)

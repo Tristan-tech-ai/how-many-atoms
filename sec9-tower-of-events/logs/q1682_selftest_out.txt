@@ -1,0 +1,3 @@
+cell predictions: NG 13 nmax 14 77.388989108976, NG 14 nmax 14 77.388989108977, NG 14 nmax 16 77.388989108976
+P1 bars hold on the synthetic events at the cell predictions: holds; P2 bars do not hold at +1e-11: holds; P3 no file gives NO EVENT, exit 0: holds; P4 file without A_event gives VOID, exit 2: holds; P5 control predictions: holds
+SELFTEST PASS

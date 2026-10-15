@@ -1,0 +1,16 @@
+j, F_j, bottom term b(j) u^ceil(j/2), share of the bottom, share of the two lowest powers
+ 2: F = -0.000895023, bottom = -0.00105543, share 1.17922, two lowest 1.0
+ 3: F = -0.000171742, bottom = -0.000173773, share 1.01183, two lowest 1.0
+ 4: F = -1.48283e-5, bottom = -3.34179e-6, share 0.225366, two lowest 1.00174
+ 5: F = -8.04679e-7, bottom = -3.07556e-7, share 0.38221, two lowest 1.0004
+ 6: F = -3.00989e-8, bottom = -8.69999e-8, share 2.89047, two lowest 0.443458
+ 7: F = -1.31908e-8, bottom = -2.82682e-8, share 2.14303, two lowest 0.963683
+ 8: F = -6.37201e-9, bottom = -4.09651e-9, share 0.642891, two lowest 1.22819
+ 9: F = -2.22154e-9, bottom = -1.96423e-9, share 0.884175, two lowest 1.04209
+10: F = -7.14879e-10, bottom = -3.10938e-10, share 0.434953, two lowest 0.950152
+11: F = -2.42092e-10, bottom = -2.03223e-10, share 0.839442, two lowest 0.98075
+12: F = -8.9738e-11, bottom = -3.42829e-11, share 0.382034, two lowest 0.977551
+13: F = -3.62175e-11, bottom = -2.88807e-11, share 0.797422, two lowest 0.999879
+14: F = -1.5703e-11, bottom = -5.15209e-12, share 0.328095, two lowest 0.962901
+15: F = -7.25424e-12, bottom = -5.38576e-12, share 0.74243, two lowest 0.995934
+TABLE q1777 done (facts; no labels)

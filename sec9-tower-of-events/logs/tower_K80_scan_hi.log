@@ -1,0 +1,15 @@
+[    13s] K 61 base tower/K79/results_q220_gauss_K79_A50.9867.json: A 50.986688, wc 0.0096526811, centre signal 3.31699e-20, D''(0) 4.49006e-20
+[    44s] eps 0.010000: g = -7.963200109e-19  (w_1 0.00482785, 1 substeps)
+[    72s] eps 0.013000: g = -1.377213297e-18  (w_1 0.00482889, 1 substeps)
+[   100s] eps 0.016900: g = -2.359761636e-18  (w_1 0.00483065, 1 substeps)
+[   131s] eps 0.021970: g = -4.022669473e-18  (w_1 0.00483362, 1 substeps)
+[   163s] eps 0.028561: g = -6.839869588e-18  (w_1 0.00483865, 1 substeps)
+[   200s] eps 0.037129: g = -1.162074031e-17  (w_1 0.00484716, 1 substeps)
+[   244s] eps 0.048268: g = -1.975763198e-17  (w_1 0.00486156, 1 substeps)
+[   291s] eps 0.062749: g = -3.367565681e-17  (w_1 0.00488598, 1 substeps)
+[   339s] eps 0.081573: g = -5.768932800e-17  (w_1 0.00492748, 1 substeps)
+[   559s] eps 0.10604: g = -9.976023188e-17  (w_1 0.00499825, 2 substeps)
+[   654s] eps 0.13786: g = -1.755407029e-16  (w_1 0.00511965, 1 substeps)
+[   730s] eps 0.17922: g = -3.193966501e-16  (w_1 0.00532992, 1 substeps)
+[   797s] eps 0.23298: g = -6.228555826e-16  (w_1 0.00569950, 1 substeps)
+RESULT q930 scan: tower/K79/results_q220_gauss_K79_A50.9867.json: points 13, sign change False, root None, branch points 0

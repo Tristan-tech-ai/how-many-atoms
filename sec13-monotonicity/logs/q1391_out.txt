@@ -1,0 +1,3 @@
+A 41.74: central step 0.0038 (symmetric False) 10.29692657 (rel diff to IFT 0.0663)
+A 41.78375: central step 0.0038 (symmetric False) 2.306727883 (rel diff to IFT 0.0291); second central step 0.0054 (symmetric False) 2.292279095
+A 41.843175: central step 0.0050 (symmetric True) 0.8641182668 (rel diff to IFT 0.00101); second central step 0.0100 (symmetric True) 0.8667493887; Richardson 0.8632412262 (rel diff to IFT 4.38e-6)

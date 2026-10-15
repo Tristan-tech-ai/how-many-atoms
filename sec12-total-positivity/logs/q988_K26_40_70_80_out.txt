@@ -1,0 +1,11 @@
+results_q206_gauss_K80_A51.513057.json: A 51.513057000000003427, m 39; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1214
+results_q206_gauss_K40_A29.85.json: A 29.850000000000001421, m 19; N1(1) positive True; first grid t with N1 not certainly positive 1.26; crossing 1.2524
+results_q207_gauss_K40_A29.8500.json: A 29.85, m 19; N1(1) positive True; first grid t with N1 not certainly positive 1.26; crossing 1.2524
+results_q207_gauss_K40_A30.1191.json: A 30.11911843710044, m 19; N1(1) positive True; first grid t with N1 not certainly positive 1.30; crossing 1.2917
+results_q207_gauss_K26_A21.2821.json: A 21.282139118869804, m 12; N1(1) positive True; first grid t with N1 not certainly positive 1.48; crossing 1.4771
+results_q207_gauss_K70_A46.5787.json: A 46.5787, m 34; N1(1) positive True; first grid t with N1 not certainly positive 1.16; crossing 1.1489
+END q988 READING (no verdict)
+
+real	1m38.526s
+user	0m0.030s
+sys	0m0.015s

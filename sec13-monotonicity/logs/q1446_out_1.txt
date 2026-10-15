@@ -1,0 +1,5 @@
+controls: rows at the table -> M1, M2, M3 PASS; rows at the exponent-1 null -> M1 FAIL and M3 FAIL ; one PN row 3 bars off -> M1 FAIL ; row 112 missing -> M1 INCOMPLETE ; one Re row 0.9 bar off -> M1 PASS ; one PN row below 1 -> M2 FAIL : True
+M1 (law, bar 2 x hold-out error): INCOMPLETE; measured 1 of 6; violations []
+M2 (PN and Re above one): INCOMPLETE; measured 1 of 6; violations []
+M3 (2/3 prediction closer than the exponent-1 null): INCOMPLETE; measured 1 of 6; violations []
+VERDICT q1446: M1 INCOMPLETE; M2 INCOMPLETE; M3 INCOMPLETE

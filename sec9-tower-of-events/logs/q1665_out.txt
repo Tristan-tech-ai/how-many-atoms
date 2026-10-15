@@ -1,0 +1,7 @@
+f28 = -1.57030337718e-11; f28/f26 = 0.43357543; control relative differences (7 stored plus f26 against the ORD 26 run): max 5.6e-16 over 8 values
+NG = 12: pair (-0.0937736507540, 0.0011599159348), in-sample rms 9.551e-13, frozen out-of-sample rms 1.891e-12
+NG = 13: pair (-0.0937736508135, 0.0011599159874), in-sample rms 3.743e-13, frozen out-of-sample rms 7.331e-13
+NG = 14: pair (-0.0937736508344, 0.0011599160061), in-sample rms 1.518e-13, frozen out-of-sample rms 2.999e-13
+largest move of a prediction between NG = 12 and 14: 2.316e-12
+F2 f28 negative and f28/f26 in [0.39, 0.47]: holds; F4 predictions move by less than 5e-11: holds; F7 births rms in the ranges: holds; control: holds
+READING q1665 done (labels by the script; no verdict word)

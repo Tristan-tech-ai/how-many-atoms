@@ -1,0 +1,27 @@
+states 21 with D1 data 21
+control relative differences: min 1.89e-32, max 3.94e-30
+controls not OK: []
+flow > 0 in 21 of 21 ; smallest flow 0.00147749217903
+ratio P/N: min 1.05007, max 1.05997; cancellation sum|c|/|sum c|: min 34.35, max 40.95
+sign structure exceptions (a positive difference-row contribution or a negative D' contribution): 0
+K 62: 1 states, P/N from 1.05997 to 1.05997
+K 63: 1 states, P/N from 1.05234 to 1.05234
+K 64: 1 states, P/N from 1.05948 to 1.05948
+K 65: 1 states, P/N from 1.05203 to 1.05203
+K 66: 1 states, P/N from 1.05903 to 1.05903
+K 67: 1 states, P/N from 1.05172 to 1.05172
+K 68: 1 states, P/N from 1.05861 to 1.05861
+K 69: 1 states, P/N from 1.05148 to 1.05148
+K 70: 1 states, P/N from 1.05824 to 1.05824
+K 71: 1 states, P/N from 1.05124 to 1.05124
+K 72: 1 states, P/N from 1.05780 to 1.05780
+K 73: 1 states, P/N from 1.05102 to 1.05102
+K 74: 1 states, P/N from 1.05744 to 1.05744
+K 75: 1 states, P/N from 1.05075 to 1.05075
+K 76: 1 states, P/N from 1.05708 to 1.05708
+K 77: 1 states, P/N from 1.05053 to 1.05053
+K 78: 1 states, P/N from 1.05674 to 1.05674
+K 79: 1 states, P/N from 1.05031 to 1.05031
+K 80: 1 states, P/N from 1.05643 to 1.05643
+K 81: 1 states, P/N from 1.05007 to 1.05007
+K 82: 1 states, P/N from 1.05613 to 1.05613

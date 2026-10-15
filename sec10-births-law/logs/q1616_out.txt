@@ -1,0 +1,8 @@
+c20 block pair, 1 term(s): E_4 = -8.006e+05; residual rms 3.02e-10, largest 6.37e-10
+c20 block pair, 2 term(s): E_4 = -4.251e+05, E_5 = -6.538e+07; residual rms 2.23e-11, largest 4.92e-11
+c20 block pair, 3 term(s): E_4 = -1.224e+05, E_5 = -1.74e+08, E_6 = 9.703e+09; residual rms 9.58e-12, largest 2.84e-11
+c24 block pair, 1 term(s): E_4 = -7.827e+05; residual rms 3.58e-10, largest 7.51e-10
+c24 block pair, 2 term(s): E_4 = -3.379e+05, E_5 = -7.743e+07; residual rms 2.57e-11, largest 5.31e-11
+c24 block pair, 3 term(s): E_4 = -426.9, E_5 = -1.984e+08, E_6 = 1.08e+10; residual rms 1.06e-11, largest 2.93e-11
+P1 two-term rms below 5e-11: holds; P2 two-term rms below 0.3 of the one-term rms: holds; P3 c24 coefficients within 30 percent of c20: holds; P4 third term lowers the rms by less than a factor 2: does not hold
+READING q1616 done (labels by the script; no verdict word)

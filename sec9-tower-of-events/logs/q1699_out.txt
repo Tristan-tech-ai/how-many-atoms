@@ -1,0 +1,10 @@
+frozen depths ready [0s]
+P1 largest difference NG = 10 against the frozen module: 1.255e-87 [0s]
+P2 largest difference NG = 12 arb against the float dep[12] of q1613: 4.263e-14 [0s]
+NG = 14 depths ready [0s]
+P4 relative differences of f22, f24, f26, f28 against the printed decimals: 2.4e-17, 3.1e-17, 3.2e-17, 7.3e-17; len(Fa), len(ga) = (15, 15)
+f26 = -3.621753597e-11, f28 = -1.570303377e-11 (reading 139: -3.62175e-11, -1.57030e-11)
+P5 largest |d(NG=14) - d(NG=12)| over k = 30..60: 6.374e-11 [0s]
+S1 corrupted f20 digit: P1 difference 6.082e-12 (must exceed 1e-50); S2 corrupted f26 digit: P4 relative difference 2.793e-11 (must exceed 1e-14) [0s]
+P1 holds; P2 holds; P3 holds (S1 holds, S2 holds); P4 holds; P5 holds
+READING q1699 done (labels by the script; no verdict word)

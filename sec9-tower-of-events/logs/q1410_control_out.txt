@@ -1,0 +1,16 @@
+C1: Jacobian time 1.7s; worst |dJ| / row max = 6.35e-40; residual max 3.86e-19  (dump residual 3.859e-19)
+C1 OK
+   it 1: lam 0.125 residual 0.00093 step 0.005 [5s]
+   it 2: lam 0.5 residual 0.000465 step 0.0044 [8s]
+   it 3: lam 0.125 residual 0.000407 step 0.0051 [13s]
+   it 4: lam 0.5 residual 0.000203 step 0.012 [16s]
+   it 5: lam 1 residual 4.47e-08 step 0.0017 [19s]
+   it 6: lam 1 residual 2.06e-11 step 0.0027 [21s]
+   it 7: lam 1 residual 2.5e-12 step 0.0014 [24s]
+   it 8: lam 1 residual 1.36e-14 step 0.00022 [26s]
+   it 9: lam 1 residual 1.89e-19 step 1.1e-07 [29s]
+   it 10: lam 1 residual 6.45e-30 step 1.6e-12 [31s]
+   it 11: lam 1 residual 6.29e-51 step 2.2e-23 [34s]
+C2: Newton 11 iterations, 36s, fast residual 6.29e-51; |u_1 - stored| 1.02e-19, |we - stored| 1.70e-20 (stored residual 6.7e-41; the Jacobian is ill-conditioned, so a deviation of order cond x residual is expected)
+C2': mpmath residual of the fast solution 6.29e-51
+C2 OK

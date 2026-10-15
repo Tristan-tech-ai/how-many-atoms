@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "q983_immune_highprec_reading.py", line 30, in <module>
+    Di = Dm.inv(); S = A - B * Di * C
+  File "flint/types/arb_mat.pyx", line 379, in flint.types.arb_mat.arb_mat.inv
+ZeroDivisionError: matrix is singular

@@ -1,0 +1,4 @@
+q1700 registration written 11:54:39 on 10 Oct 2026 by code, after a listing showed that centre_scripts/q1634_out_11.json does not exist and before the order-11 run was started. Plan: scratch/plan_e11_symbolic.md (queue task Q92).
+Run: py q1634_e6_se.py 11 in centre_scripts (log q1634_se_11.log, output q1634_out_11.json), below normal priority, guard e11se_memwatch.ps1 (stops only its own PID at a working set above 6000 MB or free RAM below 3000 MB).
+Predictions: P1 the closed form of e_11, evaluated at 90 digits, equals the stored e_11 of d22_out_18.json to a relative difference below 1e-50; P2 the line 'completed eta_10: far-field constant minus e_10 = 0' prints 0; P3 the total time lies between 25000 and 40000 s and the peak working set between 1.0 and 2.2 GB.
+Evaluation: py q1700_e11_check.py (copy of q1695 with a selftest on a changed digit), to be written while the run goes on.

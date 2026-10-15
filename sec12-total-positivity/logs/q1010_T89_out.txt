@@ -1,0 +1,4 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True}
+   even K 66 -> 68: s_min -3.0544e-15 -> -1.7655e-15, Delta 1.04578 -> 1.03770, slope -38.34
+   odd K 67 -> 69: s_min -4.2718e-14 -> -2.5160e-14, Delta 1.04343 -> 1.03585, slope -39.22
+VERDICT q1010 T89: PASS; items {'N1': True, 'N2': True}

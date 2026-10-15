@@ -1,0 +1,6 @@
+limit pair (8, 9, 10): (-0.093773592, +0.001159849); q1610 pair: (-0.093773648, +0.001159914); difference (-5.580e-08, +6.422e-08)
+sensitivity of the mean offset: d/d nu0 +0.928, d/d d0 +1.000
+limit pair: mean offset -2.013e-09, spread 2.298e-08, largest |.| 1.241e-08 at K_b 83, 48 births
+q1610 pair: mean offset +1.045e-08, spread 1.717e-08, largest |.| 2.170e-08 at K_b 83, 48 births
+P1 mean offset in [+5e-09, +1.8e-08]: holds; P2 spread within 20 percent of 2.30e-08: does not hold; P3 largest |offset| in [1.5e-08, 3.5e-08]: holds; P4 control reproduces q1564: holds
+READING q1611 done (labels by the script; no verdict word)

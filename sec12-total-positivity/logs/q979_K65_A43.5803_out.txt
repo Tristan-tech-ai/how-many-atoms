@@ -1,0 +1,9 @@
+state results_q220_gauss_K65_A43.5803.json: A 43.580315, m 31
+   t = 1: initial minors not certainly positive 0 of 992; first few (order, type, index): []
+   t = 1.02: initial minors not certainly positive 0 of 992; first few (order, type, index): []
+   t = 1.05: initial minors not certainly positive 0 of 992; first few (order, type, index): []
+   t = 1.1: initial minors not certainly positive 0 of 992; first few (order, type, index): []
+   t = 1.15: initial minors not certainly positive 1 of 992; first few (order, type, index): [(31, 'rows 0..k-1, columns from', 1)]
+   t = 1.2: initial minors not certainly positive 1 of 992; first few (order, type, index): [(31, 'rows 0..k-1, columns from', 1)]
+   t = 1.25: initial minors not certainly positive 3 of 992; first few (order, type, index): [(30, 'rows 0..k-1, columns from', 1), (30, 'rows from, columns 0..k-1', 1), (31, 'rows 0..k-1, columns from', 1)]
+END q979 READING (no verdict)

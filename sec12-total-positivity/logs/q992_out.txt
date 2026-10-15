@@ -1,0 +1,9 @@
+READING q992: stored states of the families K 50, K 60, K 70 (the last state of the family lies at the birth K_b = K)
+K 50, A 35.5, m 24: N1(1) positive True; t* 1.1851; K (t* - 1) = 9.255
+K 50, A 35.74, m 24: N1(1) positive True; t* 1.2078; K (t* - 1) = 10.390
+K 60, A 40.9, m 29: N1(1) positive True; t* 1.1467; K (t* - 1) = 8.802
+K 60, A 41.2, m 29: N1(1) positive True; t* 1.1674; K (t* - 1) = 10.044
+K 70, A 46.3837, m 34: N1(1) positive True; t* 1.1367; K (t* - 1) = 9.569
+K 70, A 46.4437, m 34: N1(1) positive True; t* 1.1404; K (t* - 1) = 9.828
+last states of the families (q988_all_out.txt): K 62 A 42.2632: t* 1.1610 K(t* - 1) 9.982, K 64 A 43.3153: t* 1.1550 K(t* - 1) 9.920, K 66 A 44.3633: t* 1.1496 K(t* - 1) 9.874
+END q992 READING (no verdict)

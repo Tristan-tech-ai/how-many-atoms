@@ -1,0 +1,3 @@
+controls: PC True, NC1 True, NC2 True
+results_q220_gauss_K65_A43.5803.json: m 31: L1 True (signs of r: first [-1, 1, -1, 1], smallest |r_p| 8.628e-10); L2 True; I1 True (spread 1.72e-32)
+VERDICT q1089 T118: VOID (instrument check I1 fails at tower/K71/results_q220_gauss_K71_A46.4359.json: spread 4.240e-20)

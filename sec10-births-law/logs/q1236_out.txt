@@ -1,0 +1,5 @@
+control: [8/8] with e_2..e_18, real positive poles 1/y: 4.4297591, 4.0833505; reproduces q1220: True
+[9/9] with e_2..e_20, real positive poles y (1/y): 0.22401746 (4.4639377), 0.53430583 (1.8715873), 0.74385489 (1.3443482)
+complex poles nearest to the real axis (1/y): (4.13017 - 0.196463j); (4.13017 + 0.196463j); (-1.23067 - 0.462452j); (-1.23067 + 0.462452j)
+smallest positive real pole 1/y = 4.4639377; item E3 ([4.47, 4.58]): False
+READING q1236: E3 False (no verdict)

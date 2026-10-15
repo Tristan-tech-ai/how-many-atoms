@@ -1,0 +1,6 @@
+calibration per parity (a, b), residual std of offset*4pi^2rho^2, points: {'even': ([-0.04215, -0.9364], 0.00092, 24), 'odd': ([-0.04581, -0.86138], 0.00086, 24)}
+leave-one-family-out, last state dropped: largest deviation of the offset 3.57e-05 (TOLG 1e-04)
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True, 'NC4_LOO': True}
+   K 77: distance 0.0012, g_ev 0.16393, offset -0.001191, predicted -0.001193, difference +1.93e-06 (TOLG 1e-04)
+   K 78: distance 0.0039, g_ev 0.16514, offset -0.001141, predicted -0.001159, difference +1.77e-05 (TOLG 1e-04)
+VERDICT q1168 T139: INCOMPLETE (K 77 PASS; K 78 PASS; K 79 MISSING)

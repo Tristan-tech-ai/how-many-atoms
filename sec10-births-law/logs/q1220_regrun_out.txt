@@ -1,0 +1,9 @@
+control C1': x = 0.0124: machine against direct lateral average 1.518e-14 (< 1e-9): True
+control C1': x = 0.0063: machine against direct lateral average 8.478e-20 (< 1e-9): True
+control C2': Pade [2/2] differs by 8.251e-08 (> 1e-8): True   [2 s]
+table theta = 0.3 built [51 s]
+table theta = 0.5 built [76 s]
+control C3: five points table against direct checked: True
+control C4: K_b 79: S_med against the sum to n = 18: 6.215e-13 (< 1e-11): True
+sha256 c5102c2a416bbf077013b7f7c2a7c30a44646d02e18361bbc3919eba4f6a0564
+REGISTRATION-RUN q1220: controls True [81 s]

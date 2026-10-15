@@ -1,0 +1,7 @@
+calibration offsets (K: g_ev - g_pred): {61: -0.00139, 62: -0.00127, 63: -0.0014, 64: -0.00127, 65: -0.00135, 66: -0.00123, 67: -0.0013, 68: -0.0012, 69: -0.00129, 70: -0.00121, 71: -0.00128, 72: -0.00118, 73: -0.00127, 74: -0.00114, 75: -0.00121}
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True}
+   K 76: xi_1 0.0424, g_ev 0.16510, g_pred 0.16627, offset -0.00117, d_lin -0.00113; profile rms 0.00154, largest 0.00241; items E1 E2 E3 (True, True, True) -> PASS
+   K 77: xi_1 0.0845, g_ev 0.16393, g_pred 0.16512, offset -0.00119, d_lin -0.00120; profile rms 0.00160, largest 0.00212; items E1 E2 E3 (True, True, True) -> PASS
+   K 78: xi_1 0.0419, g_ev 0.16514, g_pred 0.16628, offset -0.00114, d_lin -0.00111; profile rms 0.00150, largest 0.00235; items E1 E2 E3 (True, True, True) -> PASS
+   K 79: xi_1 0.0832, g_ev 0.16394, g_pred 0.16516, offset -0.00122, d_lin -0.00117; profile rms 0.00155, largest 0.00222; items E1 E2 E3 (True, True, True) -> PASS
+VERDICT q1154 T134: PASS (K 76 PASS; K 77 PASS; K 78 PASS; K 79 PASS)

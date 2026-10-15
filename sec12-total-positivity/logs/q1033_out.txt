@@ -1,0 +1,6 @@
+READING q1033: additivity of the margin of N1 over the atoms
+K 40 A 29.85: m 19, sum 1/(f* - 1) 5.0680, 1/(t* - 1) 3.9620, ratio sum/(1/(t*-1)) 1.2792, outermost 10 atoms contribute 4.5684, outermost atom 1/(f*-1) 0.8290
+K 65 A 43.5803: m 31, sum 1/(f* - 1) 9.7770, 1/(t* - 1) 7.3314, ratio sum/(1/(t*-1)) 1.3336, outermost 10 atoms contribute 6.4778, outermost atom 1/(f*-1) 0.9564
+K 70 A 46.5787: m 34, sum 1/(f* - 1) 8.9191, 1/(t* - 1) 6.7159, ratio sum/(1/(t*-1)) 1.3281, outermost 10 atoms contribute 6.2148, outermost atom 1/(f*-1) 0.9389
+K 80 A 51.513057: m 39, sum 1/(f* - 1) 11.0865, 1/(t* - 1) 8.2372, ratio sum/(1/(t*-1)) 1.3459, outermost 10 atoms contribute 6.8152, outermost atom 1/(f*-1) 0.9790
+END q1033 READING (no verdict)

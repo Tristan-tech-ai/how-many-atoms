@@ -1,0 +1,17 @@
+control: order-16 deviations equal q1235_out.txt at 20 events to 0.001e-9: True
+order 12: max |dev| splits 0.0939, births 0.1320, all 20 0.1320 (1e-9)
+order 13: max |dev| splits 0.0467, births 0.0979, all 20 0.0979 (1e-9)
+order 14: max |dev| splits 0.0281, births 0.0818, all 20 0.0818 (1e-9)
+order 15: max |dev| splits 0.0190, births 0.0738, all 20 0.0738 (1e-9)
+order 16: max |dev| splits 0.0141, births 0.0696, all 20 0.0696 (1e-9)
+order 17: max |dev| splits 0.0115, births 0.0672, all 20 0.0672 (1e-9)
+order 18: max |dev| splits 0.0111, births 0.0658, all 20 0.0658 (1e-9)
+order 19: max |dev| splits 0.0109, births 0.0649, all 20 0.0649 (1e-9)
+order 20: max |dev| splits 0.0107, births 0.0643, all 20 0.0643 (1e-9)
+split K_b 61 at orders 16 to 20: -0.0060, -0.0024, -0.0002, +0.0011, +0.0021
+split K_b 63 at orders 16 to 20: -0.0141, -0.0114, -0.0098, -0.0088, -0.0081
+split K_b 65 at orders 16 to 20: -0.0133, -0.0112, -0.0100, -0.0093, -0.0088
+split K_b 73 at orders 16 to 20: -0.0123, -0.0115, -0.0111, -0.0109, -0.0107
+births K_b 66, 68 at order 20: 66: -0.0200, 68: +0.0200
+order-20 splits: 61: +0.0021, 63: -0.0081, 65: -0.0088, 67: +0.0043, 69: -0.0007, 71: +0.0007, 73: -0.0107, 75: +0.0006, 77: +0.0008, 79: +0.0011
+READING q1256 (no verdict)

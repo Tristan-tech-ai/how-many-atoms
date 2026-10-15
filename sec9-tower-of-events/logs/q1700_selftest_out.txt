@@ -1,0 +1,2 @@
+SELFTEST q1700: (a) control order 10 holds (relative difference 0.0); (b) changed 60th digit detected holds (1.0e-59); (c) changed completion line detected holds; (d) missing file raises holds
+SELFTEST PASS

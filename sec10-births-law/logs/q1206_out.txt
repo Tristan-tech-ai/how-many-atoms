@@ -1,0 +1,19 @@
+item-function control 4.0e-10: (True, True) expected (True, True) -> True
+item-function control 6.0e-10: (False, True) expected (False, True) -> True
+item-function control 2.5e-09: (False, False) expected (False, False) -> True
+control u1205c_K50: a_t 36.4666031158, deviation from 36.4666031158 -0.024e-9, located True -> True
+K_b 54: a_t 38.6711199997, a_pred 38.6711199997, deviation +0.054e-9, rho_c 0.9158, located True, N1 True, N2 True
+K_b 55: a_t 39.2158718726, a_pred 39.2158718726, deviation -0.007e-9, rho_c 0.9199, located True, N1 True, N2 True
+K_b 56: a_t 39.7581883237, a_pred 39.7581883237, deviation -0.002e-9, rho_c 0.9240, located True, N1 True, N2 True
+K_b 57: a_t 40.2981230743, a_pred 40.2981230743, deviation -0.048e-9, rho_c 0.9281, located True, N1 True, N2 True
+K_b 58: a_t 40.8357277471, a_pred 40.8357277471, deviation -0.019e-9, rho_c 0.9320, located True, N1 True, N2 True
+K_b 59: a_t 41.3710519832, a_pred 41.3710519832, deviation -0.007e-9, rho_c 0.9360, located True, N1 True, N2 True
+K_b 60: a_t 41.9041435499, a_pred 41.9041435499, deviation +0.009e-9, rho_c 0.9399, located True, N1 True, N2 True
+K_b 61: a_t 42.4350484413, a_pred 42.4350484413, deviation -0.013e-9, rho_c 0.9437, located True, N1 True, N2 True
+K_b 62: NOT LOCATED (output incomplete or states unconverged)
+K_b 63: a_t 43.4904738636, a_pred 43.4904738636, deviation -0.032e-9, rho_c 0.9512, located True, N1 True, N2 True
+K_b 64: a_t 44.0150783276, a_pred 44.0150783275, deviation +0.070e-9, rho_c 0.9549, located True, N1 True, N2 True
+K_b 65: a_t 44.5376641398, a_pred 44.5376641398, deviation -0.011e-9, rho_c 0.9586, located True, N1 True, N2 True
+K_b 66: a_t 45.0582697125, a_pred 45.0582697125, deviation +0.003e-9, rho_c 0.9622, located True, N1 True, N2 True
+located 12 of 13; N1 for all located True; N2 for all located True
+VERDICT q1206 N1 class: PASS; located 12 of 13; N1 True; N2 True

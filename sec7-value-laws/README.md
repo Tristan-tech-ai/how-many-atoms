@@ -1,4 +1,4 @@
-# Section VII: optimal values in d dimensions
+# Supplementary Notes S1: optimal values in d dimensions
 
 The one-dimensional edge constants fix the optimal value on discs, balls, shells and annuli: a widened volume for capacity, a
 perimeter law for the NPMLE, and a widened Dirichlet eigenvalue for the LFP.
@@ -12,9 +12,11 @@ perimeter law for the NPMLE, and a widened Dirichlet eigenvalue for the LFP.
 | LFP on intervals | `q862_lfp1d.py` | `q862_runs__*.log` |
 | LFP on discs, ellipses, annuli, balls | `q861_lfp_disc.py`, `q861b_lfp_disc_active.py`, `q863_lfp_grid2d.py`, `q863b_*`, `q863c_*`, `q865_lfp_ball3d.py` | `q861_runs__*`, `q861b_runs__*`, `q863_runs__*`, `q865_runs__*` |
 | Dirichlet eigenvalues of widened regions | `q864_dirichlet_offset.py`, `q864b_dirichlet_annulus.py`, `q864d_dirichlet_triangle.py` | |
-| registered predictions and their scoring (Table VII, close walls) | `pred15xx.py`, `score15xx.py` | |
+| registered predictions and their scoring (Table S1 of the Supplementary Notes, close walls) | `pred15xx.py`, `score15xx.py` | |
 
 `pred15xx.py` wrote a prediction before the run, and `score15xx.py` scored it afterwards; the number is the entry of the
 registration log that holds the prediction.
 
 See [`FILES.md`](FILES.md) for every script.
+
+The terms of this folder are those of the paper (Section I, Terms) and of the top README.

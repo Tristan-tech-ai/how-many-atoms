@@ -1,0 +1,7 @@
+calibration (K 63 to 77): a_even -0.2537, a_odd -0.2910, b -0.1906
+leave-one-family-out, K 63 to 77: largest deviation of any level 0.00041 (TOLF2 0.0009)
+closed form alone passes the tolerance for families: []
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True, 'NC4_LOO': np.True_, 'NC5_operator_needed': True}
+   K 78: largest deviation over 10 levels 0.00023 (TOLF2 0.0009); differences +0.00007 +0.00018 +0.00023 +0.00020 +0.00015 +0.00010 +0.00008 +0.00009 +0.00012 +0.00014
+   K 79: largest deviation over 10 levels 0.00041 (TOLF2 0.0009); differences +0.00021 +0.00036 +0.00041 +0.00040 +0.00034 +0.00029 +0.00026 +0.00025 +0.00024 +0.00023
+VERDICT q1174 T141: PASS (K 78 PASS; K 79 PASS)

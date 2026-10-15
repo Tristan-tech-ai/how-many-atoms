@@ -1,0 +1,14 @@
+READING q1062: Hermite Gram positivity at the K 65 state, m 31, functions 64; counts by size [positive, negative, undecided]
+   size 2: [390, 0, 0]
+   size 3: [387, 0, 0]
+   size 4: [390, 0, 0]
+   size 5: [383, 0, 0]
+   size 6: [390, 0, 0]
+   size 7: [321, 0, 0]
+   size 8: [365, 0, 0]
+   size 9: [374, 0, 0]
+END q1062 READING (no verdict)
+
+real	0m15.271s
+user	0m0.015s
+sys	0m0.000s

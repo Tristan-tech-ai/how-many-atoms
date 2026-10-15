@@ -1,0 +1,3 @@
+q1104 (code line, reading, no verdict): u*rho^2 with u = smallest flow over the q924b range of the family INCLUDING the state beyond the end (q1100), rho = rho(K_b=K)
+odd K [61, 63, 65, 67, 69, 71] u*rho^2 [0.1723, 0.17331, 0.17265, 0.17176, 0.17242, 0.17271] mean 0.17253 relative spread 0.0089 log-log slope -2.034
+even K [62, 64, 66, 68, 70, 72] u*rho^2 [0.08677, 0.08717, 0.08681, 0.08661, 0.08705, 0.08687] mean 0.08688 relative spread 0.0064 log-log slope -2.001

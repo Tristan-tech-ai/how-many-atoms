@@ -1,0 +1,6 @@
+k 0.75: v^2 68.37 to 114.17; predicted R (1e-9): K_b 14 6950.60, 20 512.178, 28 25.2880, 40 0.52574; sigma 2.330, g -11.97
+k 8.0: v^2 70.08 to 115.19; predicted R (1e-9): K_b 14 31384.10, 20 2609.833, 28 141.5787, 40 3.19742; sigma 21.297, g -29.75
+k 12.0: v^2 70.52 to 115.46; predicted R (1e-9): K_b 14 32642.26, 20 2946.400, 28 168.9950, 40 3.98998; sigma 31.761, g -39.56
+control c1 True; c2 True; c3 (laws vs fitted values) True; c4 (closure vs measured k = 2, max deviation 0.0090) True; c5 (quintic vs septic, max relative per k 0.75: 0.00247, 8.0: 0.00739, 12.0: 0.00934; synthetic test True) True; c6 (D = 80 vs 92, 8.78e-05) True; c7 True
+sha256 cd0ff6ec38cf79ddfe19846321ba1c38c2f97de408a9e56c52e86d984bf22bf4
+REGISTRATION-RUN q1294: controls True, table and run1294.sh written

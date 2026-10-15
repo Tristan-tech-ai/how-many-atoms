@@ -1,0 +1,8 @@
+control: synthetic recovery g = -13.000000, sigma_inf = [2.9 5.4 7.7]: True
+common g: g = -14.599, sigma_inf = 3.0927, 5.5523, 7.9014, rms of ln residual 0.0036; events k 1: 16, k 2: 26, k 3: 12
+  k = 1 alone: g = -12.325, sigma_inf = 3.0087, rms 0.0021
+  k = 2 alone: g = -15.019, sigma_inf = 5.5832, rms 0.0031
+  k = 3 alone: g = -18.971, sigma_inf = 8.3033, rms 0.0018
+amplitudes sigma_inf relative to k = 1: 1.0000, 1.7953, 2.5548
+max |ln residual| per k (common g): k 1: 0.0122, k 2: 0.0073, k 3: 0.0087
+READING q1289 (exploratory, no verdict)

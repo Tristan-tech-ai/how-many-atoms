@@ -1,0 +1,8 @@
+state results_q220_gauss_K65_A43.5803.json: A 43.580315, m 31, odd True, grid points 5500; largest relative spread of S_G,pq/N_pq along a row: 0.000e+00
+   row scale c_p = S_G,pp/N_pp from -4.5242e+01 (p = 1) to -1.9400e+01 (p = m); w_p from 1.1052e-02 to 2.5773e-02
+   order 2: sampled minors of Gh positive 1487, negative 1513, undecided 0
+   order 3: sampled minors of Gh positive 1525, negative 1474, undecided 1
+   order 4: sampled minors of Gh positive 1517, negative 1482, undecided 1
+   order 5: sampled minors of Gh positive 1516, negative 1471, undecided 13
+   order 6: sampled minors of Gh positive 1498, negative 1461, undecided 41
+END q976 READING (no verdict)

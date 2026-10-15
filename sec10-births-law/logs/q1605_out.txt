@@ -1,0 +1,5 @@
+N0 = 120, N1 = 180
+   after update 1: d_1 shift so far 1.6809227e-31 (residual before 5.54e-22)
+   after update 2: d_1 shift so far 1.6849438e-31 (residual before 5.39e-33)
+P1 holds; P2 holds; P3 holds; P4 holds
+READING q1605 done (labels by the script; no verdict word)

@@ -1,4 +1,4 @@
-"""q808 (Amendment 1329): my check of the flank 32-ring (BACKLOG 36) with the record's capacity function (q719's D_grad, copied
+"""q808 (Amendment 1329): our check of the flank 32-ring (BACKLOG 36) with the record's capacity function (q719's D_grad, copied
 as text from q802), not D's code. Reads a D-format state (G in radians, orbit masses, C), evaluates D - C at the major vertex, at one
 atom per orbit and at the midpoints between neighbouring atoms in [0, pi/2], and at extra angles given on the command line.
 Usage: py q808_b36_check.py STATE.json NGH PREC [extra angles deg, comma-separated]"""

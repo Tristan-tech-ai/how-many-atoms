@@ -1,0 +1,6 @@
+row 500: a 28.639442, K 38, J 19, polish residual 3.76e-47
+   order 8, rows 0..k-1, columns from 12: certainly negative, log10|minor| -117.65, cancellation ratio 1.69e+26; delta 1e-60: ---; delta 1e-45: ---; delta 1e-35: ---
+row 580: a 29.258485, K 39, J 19, polish residual 2.44e-47
+   order 6, rows 0..k-1, columns from 14: certainly negative, log10|minor| -96.95, cancellation ratio 4.16e+25; delta 1e-60: ---; delta 1e-45: ---; delta 1e-35: ---
+   order 8, rows 0..k-1, columns from 12: certainly negative, log10|minor| -117.61, cancellation ratio 2.24e+25; delta 1e-60: ---; delta 1e-45: ---; delta 1e-35: ---
+END q984 READING (no verdict)

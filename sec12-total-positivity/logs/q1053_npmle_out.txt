@@ -1,0 +1,8 @@
+READING q1053: margin t* for the npmle functional
+row 300: a 24.0120, K 29, J 14, centre True; N1(1) positive True; crossing 1.3692; J (t* - 1) 5.169; K (t* - 1) 10.706
+row 680: a 28.5423, K 37, J 18, centre True; N1(1) positive True; crossing 1.2325; J (t* - 1) 4.184; K (t* - 1) 8.601
+END q1053 READING (no verdict)
+
+real	1m35.346s
+user	0m0.030s
+sys	0m0.031s

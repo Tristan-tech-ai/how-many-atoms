@@ -1,0 +1,6 @@
+start (n = 3): U = 4.015690, min K on grid = 9.710e-12
+n = 3: U = 4.884432, min K = 1.000e-07, success True; g = 6.272301, s = [-0.35238, -3.67202, -6.2723], nu = [4.17923, 3.20359, 1.3317]
+n = 4: U = 4.009112, min K = 1.000e-07, success True; g = 6.635322, s = [-0.03959, -2.86673, -5.14231, -6.63532], nu = [3.57661, 2.48696, 2.04408, 0.53222]
+n = 5: U = 3.981948, min K = 1.000e-07, success True; g = 7.229488, s = [0.00226, -2.69284, -4.76509, -6.37628, -7.22949], nu = [3.48816, 2.30236, 1.85965, 1.31382, 0.25647]
+P1 held; P2 held; P3 held; P4 held
+READING (no verdict): float64 optimisation of the dual test profile; nothing is proved here; profiles in q1878_profiles.json.

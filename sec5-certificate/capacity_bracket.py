@@ -11,7 +11,7 @@ import sys, os, math, time
 import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "agents"))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "runs"))
 from flint import arb, ctx
 import quadrature_bounds as FC, kkt_krawczyk as FK
 

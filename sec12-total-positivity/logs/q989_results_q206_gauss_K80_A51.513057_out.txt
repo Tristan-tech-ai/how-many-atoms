@@ -1,0 +1,41 @@
+state results_q206_gauss_K80_A51.513057.json: A 51.513057000000003427, m 39; N1 at the actual diagonal positive True
+   atom 1: d_p -8.8410e-16; critical factor for this atom alone infinity (grid up to 1000)
+   atom 2: d_p -6.8464e-16; critical factor for this atom alone infinity (grid up to 1000)
+   atom 3: d_p -2.2955e-16; critical factor for this atom alone infinity (grid up to 1000)
+   atom 4: d_p 6.1090e-16; critical factor for this atom alone infinity (grid up to 1000)
+   atom 5: d_p 2.0807e-15; critical factor for this atom alone 727.4017
+   atom 6: d_p 4.6168e-15; critical factor for this atom alone 245.3217
+   atom 7: d_p 8.9929e-15; critical factor for this atom alone 113.6505
+   atom 8: d_p 1.6583e-14; critical factor for this atom alone 63.7717
+   atom 9: d_p 2.9845e-14; critical factor for this atom alone 40.7217
+   atom 10: d_p 5.3214e-14; critical factor for this atom alone 28.4955
+   atom 11: d_p 9.4769e-14; critical factor for this atom alone 21.3190
+   atom 12: d_p 1.6939e-13; critical factor for this atom alone 16.7706
+   atom 13: d_p 3.0478e-13; critical factor for this atom alone 13.7042
+   atom 14: d_p 5.5313e-13; critical factor for this atom alone 11.5326
+   atom 15: d_p 1.0140e-12; critical factor for this atom alone 9.9321
+   atom 16: d_p 1.8800e-12; critical factor for this atom alone 8.7105
+   atom 17: d_p 3.5283e-12; critical factor for this atom alone 7.7519
+   atom 18: d_p 6.7101e-12; critical factor for this atom alone 6.9810
+   atom 19: d_p 1.2944e-11; critical factor for this atom alone 6.3487
+   atom 20: d_p 2.5354e-11; critical factor for this atom alone 5.8205
+   atom 21: d_p 5.0488e-11; critical factor for this atom alone 5.3725
+   atom 22: d_p 1.0234e-10; critical factor for this atom alone 4.9875
+   atom 23: d_p 2.1147e-10; critical factor for this atom alone 4.6528
+   atom 24: d_p 4.4624e-10; critical factor for this atom alone 4.3588
+   atom 25: d_p 9.6345e-10; critical factor for this atom alone 4.0981
+   atom 26: d_p 2.1331e-09; critical factor for this atom alone 3.8651
+   atom 27: d_p 4.8564e-09; critical factor for this atom alone 3.6550
+   atom 28: d_p 1.1405e-08; critical factor for this atom alone 3.4643
+   atom 29: d_p 2.7736e-08; critical factor for this atom alone 3.2900
+   atom 30: d_p 7.0180e-08; critical factor for this atom alone 3.1295
+   atom 31: d_p 1.8586e-07; critical factor for this atom alone 2.9808
+   atom 32: d_p 5.1915e-07; critical factor for this atom alone 2.8421
+   atom 33: d_p 1.5447e-06; critical factor for this atom alone 2.7117
+   atom 34: d_p 4.9630e-06; critical factor for this atom alone 2.5882
+   atom 35: d_p 1.7558e-05; critical factor for this atom alone 2.4699
+   atom 36: d_p 7.0437e-05; critical factor for this atom alone 2.3556
+   atom 37: d_p 3.3649e-04; critical factor for this atom alone 2.2436
+   atom 38: d_p 2.1018e-03; critical factor for this atom alone 2.1326
+   atom 39: d_p 2.1840e-02; critical factor for this atom alone 2.0215
+END q989 READING (no verdict)

@@ -1,0 +1,2079 @@
+[
+ {
+  "printed": "1.6",
+  "context": "Q_1+Q_2+1.6",
+  "expr": "2*math.sqrt(2/math.pi)",
+  "why": "E|c+Z| <= |c| + sqrt(2/pi) for each of two coordinates: 2 sqrt(2/pi) = 1.5958 <= 1.6 (formula in the proof)"
+ },
+ {
+  "printed": "0.484",
+  "context": "0.484",
+  "expr": "2*math.exp(-0.5)/math.sqrt(2*math.pi)",
+  "why": "2 psi(1) = 2 exp(-1/2)/sqrt(2 pi) = 0.48394, printed rounded up to 0.484 (Gaussian sums, appendix)"
+ },
+ {
+  "printed": "0.7979",
+  "context": "0.7979",
+  "expr": "math.sqrt(2/math.pi)",
+  "why": "int |u| psi(u) du = sqrt(2/pi) = 0.79788, printed rounded up (Gaussian sums, appendix)"
+ },
+ {
+  "printed": "0.79788",
+  "context": "0.79788",
+  "expr": "math.sqrt(2/math.pi)",
+  "why": "int |u| psi(u) du = sqrt(2/pi) = 0.79788"
+ },
+ {
+  "printed": "0.1137",
+  "context": "k(1/4)=0.1137",
+  "expr": "2*(1-0.25)+math.log(0.25)",
+  "why": "k(s) = 2(1-s) + ln s at s = 1/4 (definition in the same sentence)"
+ },
+ {
+  "printed": "3\\times10^{-9}",
+  "context": "<3\\times10^{-9}",
+  "expr": "3e-9 if math.exp(-2*math.pi**2) < 3e-9 else -1",
+  "why": "x = exp(-2 pi^2/h^2) is largest at h = 1, where it is exp(-2 pi^2) = 2.7e-9"
+ },
+ {
+  "printed": "0.1",
+  "context": "\\Lambda(x_0)-0.1",
+  "expr": "0.1 if (math.e-1)/(2*9.354)*(1+(math.e-1)/(2*9.354)/2) <= 0.1 else -1",
+  "why": "delta = eta/(2L) <= (e-1)/(2 L) with L = 9.354 (text), and A >= 1: delta (1 + delta/(2A)) <= 0.0919 (1 + 0.046) <= 0.1"
+ },
+ {
+  "printed": "0.4413",
+  "context": "c_0<0.4413",
+  "expr": "T('temporal_within/small_gap_q206/q1791_out.txt', r'capacity: ell\\* = .*?c0max = \\[(\\d\\.\\d+)')",
+  "why": "q1791_out.txt: capacity c0max = 0.4412967282, printed rounded up to 0.4413"
+ },
+ {
+  "printed": "0.1660",
+  "context": "0.1660\\,A^{4/3}",
+  "expr": "math.floor(T('temporal_within/small_gap_q206/q1791_out.txt', r'capacity: ell\\* = .*?sqrt\\(c0max\\)/4 = \\[(\\d\\.\\d+)')*1e4)/1e4",
+  "why": "q1791_out.txt: sqrt(c0max)/4 = 0.1660754212 for the capacity, rounded down to 4 decimals (valid statement)"
+ },
+ {
+  "printed": "0.0759",
+  "context": "0.0759\\,a^{4/3}",
+  "expr": "math.floor(T('temporal_within/small_gap_q206/q1791_out.txt', r'NPMLE: .*?sqrt\\(c0max\\)/4 = \\[(0\\.\\d+)')*1e4)/1e4",
+  "why": "q1791_out.txt: sqrt(c0max)/4 = 0.07596985678 for the NPMLE, rounded down to 4 decimals (valid statement)"
+ },
+ {
+  "printed": "0.0759",
+  "context": "valid statements are $0.1660$ and $0.0759$",
+  "expr": "math.floor(T('temporal_within/small_gap_q206/q1791_out.txt', r'NPMLE: .*?sqrt\\(c0max\\)/4 = \\[(0\\.\\d+)')*1e4)/1e4",
+  "why": "q1791_out.txt: 0.07596985678 rounded down to 4 decimals"
+ },
+ {
+  "printed": "54",
+  "context": "On $54$ certified states",
+  "expr": "T('temporal_within/small_gap_q206/q1789_out.txt', r'states used (\\d+),')",
+  "why": "q1789_out.txt: 'states used 54'"
+ },
+ {
+  "printed": "0.1868",
+  "context": "between $0.1868$ and $0.2426$",
+  "expr": "T('temporal_within/small_gap_q206/q1789_out.txt', r'min \\[(0\\.\\d+),')",
+  "why": "q1789_out.txt: smallest E2/c* of the column Lambda0 = 1, which is the smallest of the five columns used"
+ },
+ {
+  "printed": "0.2426",
+  "context": "between $0.1868$ and $0.2426$",
+  "expr": "T('temporal_within/small_gap_q206/q1789_out.txt', r'; max \\[(?:[\\d.]+, ){2}([\\d.]+),')",
+  "why": "q1789_out.txt: largest E2/c* of the column Lambda0 = 4, the largest of the five columns used (the column Lambda0 = 8 is not used)"
+ },
+ {
+  "printed": "3.3\\times10^{-4}",
+  "context": "worst ratio of $3.3\\times10^{-4}$",
+  "expr": "T('temporal_within/small_gap_q206/q1789_out.txt', r'chain inequality \\(P2b\\) lhs/Q = ([\\d.e-]+)')",
+  "why": "q1789_out.txt: worst ratio of the chain inequality 3.303e-04"
+ },
+ {
+  "printed": "5\\times10^{-12}",
+  "context": "agreement to $5\\times10^{-12}$",
+  "expr": "L(725, r'printed precision \\((\\d)e-12\\)')*1e-12",
+  "why": "amendment 725: 'below the printed precision (5e-12)' for the edge identity on the certified states"
+ },
+ {
+  "printed": "25",
+  "context": "on $25$ certified states is numerical",
+  "expr": "L(725, r'P1 PASS on (\\d+) of \\d+\\.')",
+  "why": "amendment 725: 'P1 PASS on 25 of 25'"
+ },
+ {
+  "printed": "2\\times10^{-18}",
+  "context": "$-2\\times10^{-18}$ at $K=82$",
+  "expr": "L(2130, r'to (-2\\.0e-18) \\(K = 82, last\\)')",
+  "why": "amendment 2130: the centre signal D(0) - C runs to -2.0e-18 (K = 82, last of the eight)"
+ },
+ {
+  "printed": "82",
+  "context": "at $K=82$ and $D'(0.01)>0$",
+  "expr": "L(2130, r'to -2\\.0e-18 \\(K = (\\d+), last\\)')",
+  "why": "amendment 2130: K = 82, last of the eight states"
+ },
+ {
+  "printed": "0.01",
+  "context": "D'(0.01)>0",
+  "expr": "L(2130, r\"D'\\((0\\.01)\\) is positive\")",
+  "why": "amendment 2130: D'(0.01) is positive in all 48 states"
+ },
+ {
+  "printed": "25",
+  "context": "At the $25$ certified states",
+  "expr": "L(2128, r'\\((\\d+) certified states')",
+  "why": "amendment 2128: 25 certified states"
+ },
+ {
+  "printed": "40",
+  "context": "$K=40$ and $60$ to $83$",
+  "expr": "L(2128, r'certified states, K = (\\d+) and')",
+  "why": "amendment 2128: K = 40 and 60 to 83"
+ },
+ {
+  "printed": "60",
+  "context": "$K=40$ and $60$ to $83$",
+  "expr": "L(2128, r'K = \\d+ and (\\d+) to \\d+\\)')",
+  "why": "amendment 2128: K = 40 and 60 to 83"
+ },
+ {
+  "printed": "83",
+  "context": "$K=40$ and $60$ to $83$",
+  "expr": "L(2128, r'K = \\d+ and \\d+ to (\\d+)\\)')",
+  "why": "amendment 2128: K = 40 and 60 to 83"
+ },
+ {
+  "printed": "1.6\\times10^{-5}",
+  "context": "to $1.6\\times10^{-5}$ at $R=10$",
+  "expr": "L(1482, r'R = 10: [-\\d.]+ vs [-\\d.]+ \\((\\d\\.\\d)e-5\\s+relative\\)')*1e-5",
+  "why": "amendment 1482: P1 on the disc, R = 10, relative difference 1.6e-5"
+ },
+ {
+  "printed": "3\\times10^{-7}",
+  "context": "to $3\\times10^{-7}$ at $R=20$",
+  "expr": "L(1482, r'R = 20: [-\\d.]+ vs [-\\d.]+ \\((\\d)e-7\\s+relative\\)')*1e-7",
+  "why": "amendment 1482: P1 on the disc, R = 20, relative difference 3e-7"
+ },
+ {
+  "printed": "20",
+  "context": "at $R=20$",
+  "expr": "L(1482, r'R = (\\d+): -0\\.01524395')",
+  "why": "amendment 1482: R = 20"
+ },
+ {
+  "printed": "60",
+  "context": "60 & 41.2008363",
+  "expr": "60 if abs(T('temporal_within/scratchpad_archive_729e03fd/q955_tower_table_out.txt', r'K_b 60 birth: measured ([\\d.]+)') - 41.2008363) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "61",
+  "context": "61 & 41.7335208",
+  "expr": "61 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K62_As.json', 'A_s') - 41.7335208) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "62",
+  "context": "62 & 42.2640268",
+  "expr": "62 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K63_birth_out.json', 'A_cross') - 42.2640268) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "63",
+  "context": "63 & 42.7923985",
+  "expr": "63 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K64_As.json', 'A_s') - 42.7923985) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "64",
+  "context": "64 & 43.3186783",
+  "expr": "64 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K65_birth_out.json', 'A_cross') - 43.3186783) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "65",
+  "context": "65 & 43.8429072",
+  "expr": "65 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K66_As.json', 'A_s') - 43.8429072) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "66",
+  "context": "66 & 44.3651245",
+  "expr": "66 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K67_birth_out.json', 'A_cross') - 44.3651245) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "67",
+  "context": "67 & 44.8853686",
+  "expr": "67 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K68_As.json', 'A_s') - 44.8853686) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "68",
+  "context": "68 & 45.4036762",
+  "expr": "68 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K69_birth_out.json', 'A_cross') - 45.4036762) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "69",
+  "context": "69 & 45.9200831",
+  "expr": "69 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K70_As_T83.json', 'A_s') - 45.9200831) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "70",
+  "context": "70 & 46.4346238",
+  "expr": "70 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K71_birth_out.json', 'A_cross') - 46.4346238) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "71",
+  "context": "71 & 46.9473315",
+  "expr": "71 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K72_As.json', 'A_s') - 46.9473315) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "60",
+  "context": "birth $K_b = 60$ to the birth",
+  "expr": "60 if abs(T('temporal_within/scratchpad_archive_729e03fd/q955_tower_table_out.txt', r'K_b 60 birth: measured ([\\d.]+)') - 41.2008363) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "82",
+  "context": "to the birth $K_b = 82$",
+  "expr": "82 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K83_birth_out.json', 'A_cross') - 52.4747205) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "60",
+  "context": "for $K_b = 60$ to $65$",
+  "expr": "60 if abs(T('temporal_within/scratchpad_archive_729e03fd/q955_tower_table_out.txt', r'K_b 60 birth: measured ([\\d.]+)') - 41.2008363) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "65",
+  "context": "for $K_b = 60$ to $65$",
+  "expr": "65 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K66_As.json', 'A_s') - 43.8429072) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "80",
+  "context": "$K_b = 80$ to $82$",
+  "expr": "80 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K81_birth_out.json', 'A_cross') - 51.4842403) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "82",
+  "context": "$K_b = 80$ to $82$",
+  "expr": "82 if abs(J('temporal_within/scratchpad_archive_729e03fd/tower_K83_birth_out.json', 'A_cross') - 52.4747205) <= 6e-8 else -1",
+  "why": "label of the event K_b (the integer of the table row or of the range) tied to its stored amplitude, which equals the printed amplitude to 6e-8"
+ },
+ {
+  "printed": "23",
+  "context": "$23$ events between",
+  "expr": "(82-60+1)",
+  "why": "events K_b = 60 to 82 inclusive (the range bound in the label above)",
+  "kind": "definition"
+ },
+ {
+  "printed": "0.005",
+  "context": "steps of $0.005$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q932_trace_K62.log', r'dA (0\\.005)')",
+  "why": "q932_trace_K62.log: 'dA 0.005' in the header of the trace",
+  "kind": "definition"
+ },
+ {
+  "printed": "0.005",
+  "context": "which lie $0.005$ apart",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q932_trace_K62.log', r'dA (0\\.005)')",
+  "why": "q932_trace_K62.log: 'dA 0.005'; states are stored every step",
+  "kind": "definition"
+ },
+ {
+  "printed": "200",
+  "context": "at $200$ bits or more",
+  "expr": "T('temporal_within/q920_cap_flint.py', r'ctx\\.prec = (\\d+)')",
+  "why": "q920_cap_flint.py sets ctx.prec = 200",
+  "kind": "definition"
+ },
+ {
+  "printed": "0.2590",
+  "context": "between $0.2590$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q955_tower_table_out.txt', r'K_b 65 split:.*?a2 (0\\.\\d+)')",
+  "why": "q955_tower_table_out.txt: a2 of the split K_b 65 is 0.2590"
+ },
+ {
+  "printed": "82",
+  "context": "above $K_b = 82$ existed",
+  "expr": "L(2152, r'births K_b 62 and (\\d+)')",
+  "why": "amendment 2152: the walker reproduces tower events up to the birth K_b 82"
+ },
+ {
+  "printed": "83",
+  "context": "events $K_b = 83$ to",
+  "expr": "L(2152, r'K_b >= (\\d+) under')",
+  "why": "amendment 2152: registration for the events K_b >= 83"
+ },
+ {
+  "printed": "22",
+  "context": "All $22$ events",
+  "expr": "L(2225, r'All (\\d+) lower births')",
+  "why": "amendment 2225: 'All 22 lower births K_b 61 to 82 are re-measured'"
+ },
+ {
+  "printed": "61",
+  "context": "$K_b = 61$ to $82$ were also",
+  "expr": "L(2225, r'All \\d+ lower births K_b (\\d+) to \\d+')",
+  "why": "amendment 2225: K_b 61 to 82"
+ },
+ {
+  "printed": "82",
+  "context": "$K_b = 61$ to $82$ were also",
+  "expr": "L(2225, r'All \\d+ lower births K_b \\d+ to (\\d+) are')",
+  "why": "amendment 2225: K_b 61 to 82"
+ },
+ {
+  "printed": "5.0\\times 10^{-13}",
+  "context": "below $5.0\\times 10^{-13}$",
+  "expr": "L(2225, r'shifts are below (5\\.0)e-13')*1e-13",
+  "why": "amendment 2225: 'The shifts are below 5.0e-13 except K_b 73'"
+ },
+ {
+  "printed": "73",
+  "context": "$K_b = 73$, where the stored",
+  "expr": "L(2225, r'except K_b (\\d+), whose shift')",
+  "why": "amendment 2225: the exception is K_b 73"
+ },
+ {
+  "printed": "1.1\\times 10^{-11}",
+  "context": "off by $1.1\\times 10^{-11}$",
+  "expr": "L(2225, r'whose shift is \\+(1\\.112)e-11')*1e-11",
+  "why": "amendment 2225: the shift of K_b 73 is +1.112e-11"
+ },
+ {
+  "printed": "2010",
+  "context": "conjectured in 2010",
+  "expr": "J('temporal_within/gate_truth/bib_snapshots/SharmaShamai2010.json', 'year')",
+  "why": "year of Sharma and Shamai (registry record of the bibliography gate)",
+  "kind": "definition"
+ },
+ {
+  "printed": "0.15",
+  "context": "relative growth rate is $0.15$",
+  "expr": "L(2139, r'are at least (0\\.15),')",
+  "why": "amendment 2139: all relative derivatives are at least 0.15"
+ },
+ {
+  "printed": "52.5",
+  "context": "reach $A=52.5$",
+  "expr": "L(2142, r'A = 20 to (52\\.5) \\(stored')",
+  "why": "amendment 2142: stored certified states cover A = 20 to 52.5"
+ },
+ {
+  "printed": "25",
+  "context": "$K=25$, $26$, $40$ and $60$ to $83$",
+  "expr": "L(2130, r'\\(K = (25), 26, 40 and 60 to 83,')",
+  "why": "amendment 2130 (q1367): the stored optimal states have K = 25, 26, 40 and 60 to 83"
+ },
+ {
+  "printed": "26",
+  "context": "$K=25$, $26$, $40$ and $60$ to $83$",
+  "expr": "L(2130, r'\\(K = 25, (26), 40 and 60 to 83,')",
+  "why": "amendment 2130 (q1367): the stored optimal states have K = 25, 26, 40 and 60 to 83"
+ },
+ {
+  "printed": "40",
+  "context": "$K=25$, $26$, $40$ and $60$ to $83$",
+  "expr": "L(2130, r'\\(K = 25, 26, (40) and 60 to 83,')",
+  "why": "amendment 2130 (q1367): the stored optimal states have K = 25, 26, 40 and 60 to 83"
+ },
+ {
+  "printed": "60",
+  "context": "$K=25$, $26$, $40$ and $60$ to $83$",
+  "expr": "L(2130, r'\\(K = 25, 26, 40 and (60) to 83,')",
+  "why": "amendment 2130 (q1367): the stored optimal states have K = 25, 26, 40 and 60 to 83"
+ },
+ {
+  "printed": "83",
+  "context": "$K=25$, $26$, $40$ and $60$ to $83$",
+  "expr": "L(2130, r'\\(K = 25, 26, 40 and 60 to (83),')",
+  "why": "amendment 2130 (q1367): the stored optimal states have K = 25, 26, 40 and 60 to 83"
+ },
+ {
+  "printed": "15.8",
+  "context": "to $15.8$",
+  "expr": "L(2141, r'A = 1\\.0 to (15\\.8)')",
+  "why": "amendment 2141: small-A families A = 1.0 to 15.8"
+ },
+ {
+  "printed": "18",
+  "context": "$K=2$ to $18$",
+  "expr": "L(2141, r'K = 2 to (\\d+)\\)')",
+  "why": "amendment 2141: K = 2 to 18"
+ },
+ {
+  "printed": "2422",
+  "context": "$2422$ pairs",
+  "expr": "L(2141, r'in (\\d+) pairs')",
+  "why": "amendment 2141: 2422 pairs"
+ },
+ {
+  "printed": "27",
+  "context": "on $27$ certified states",
+  "expr": "L(2142, r'q1384: (\\d+) certified')",
+  "why": "amendment 2142: 27 certified states"
+ },
+ {
+  "printed": "16.3",
+  "context": "gap $A=16.3$ to $19.9$",
+  "expr": "L(2142, r'gap A = (16\\.3) to 19\\.9')",
+  "why": "amendment 2142: the gap A = 16.3 to 19.9"
+ },
+ {
+  "printed": "19.9",
+  "context": "gap $A=16.3$ to $19.9$",
+  "expr": "L(2142, r'gap A = 16\\.3 to (19\\.9)')",
+  "why": "amendment 2142: the gap A = 16.3 to 19.9"
+ },
+ {
+  "printed": "19",
+  "context": "($19$ pairs)",
+  "expr": "L(2142, r'certified, sparse, (\\d+) pairs')",
+  "why": "amendment 2142: 19 pairs"
+ },
+ {
+  "printed": "0.20",
+  "context": "growth rates are at least $0.20$",
+  "expr": "L(2142, r'trend \\((0\\.20) to 0\\.26')",
+  "why": "amendment 2142: the earlier trend 0.20 to 0.26 continues"
+ },
+ {
+  "printed": "4\\times 10^{-10}",
+  "context": "the edge atom to $4\\times 10^{-10}$",
+  "expr": "L(2132, r'K = 82, (3\\.9)e-10')*1e-10",
+  "why": "amendment 2132: spread of the edge-atom value over the pairs of K = 82 is 3.9e-10 (printed 4e-10)"
+ },
+ {
+  "printed": "2665",
+  "context": "all $2665$ consecutive",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1367_out.txt', r'consecutive pairs (\\d+)')",
+  "why": "q1367_out.txt: 2665 consecutive pairs"
+ },
+ {
+  "printed": "1.6\\times 10^{-15}",
+  "context": "largest violation of $1.6\\times 10^{-15}$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1367_out.txt', r'largest value ([\\d.]+)e-15')*1e-15",
+  "why": "q1367_out.txt: largest value 1.554e-15, printed 1.6e-15"
+ },
+ {
+  "printed": "181",
+  "context": "of $181$ pairs",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1380_out.txt', r'consecutive pairs (\\d+)')",
+  "why": "q1380_out.txt: 181 consecutive pairs of the LFP states"
+ },
+ {
+  "printed": "149",
+  "context": "where $149$ of",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1380_out.txt', r'> 1e-12: (\\d+);')",
+  "why": "q1380_out.txt: 149 pairs above 1e-12"
+ },
+ {
+  "printed": "47",
+  "context": "in $47$ certified",
+  "expr": "L(2148, r'in (\\d+) states \\(K = 19 to 81\\)')",
+  "why": "amendment 2148: 47 states"
+ },
+ {
+  "printed": "19",
+  "context": "states ($K=19$ to $81$)",
+  "expr": "L(2148, r'\\(K = (19) to 81\\)')",
+  "why": "amendment 2148: K = 19 to 81"
+ },
+ {
+  "printed": "81",
+  "context": "states ($K=19$ to $81$)",
+  "expr": "L(2148, r'\\(K = 19 to (81)\\)')",
+  "why": "amendment 2148: K = 19 to 81"
+ },
+ {
+  "printed": "98",
+  "context": "carry $98$ to $99$ percent",
+  "expr": "L(2148, r'(98) to 99 percent of the terms')",
+  "why": "amendment 2148: 98 to 99 percent of the terms"
+ },
+ {
+  "printed": "99",
+  "context": "carry $98$ to $99$ percent",
+  "expr": "L(2148, r'98 to (99) percent of the terms')",
+  "why": "amendment 2148: 98 to 99 percent of the terms"
+ },
+ {
+  "printed": "83",
+  "context": "margin on the rows $K=83$ to $130$",
+  "expr": "L(2204, r'all 48 rows K = (83) to 130')",
+  "why": "amendment 2204: the 48 rows K = 83 to 130"
+ },
+ {
+  "printed": "130",
+  "context": "margin on the rows $K=83$ to $130$",
+  "expr": "L(2204, r'all 48 rows K = 83 to (130)')",
+  "why": "amendment 2204: the 48 rows K = 83 to 130"
+ },
+ {
+  "printed": "48",
+  "context": "over the $48$ rows",
+  "expr": "T('temporal_within/small_gap_q206/q1496_out.txt', r'smallest margin P/N over all (\\d+) rows')",
+  "why": "q1496_out.txt: 48 rows"
+ },
+ {
+  "printed": "1.046845",
+  "context": "is $1.046845$",
+  "expr": "T('temporal_within/small_gap_q206/q1496_out.txt', r'smallest limit: (1\\.046845)')",
+  "why": "q1496_out.txt: smallest margin P/N over all 48 rows"
+ },
+ {
+  "printed": "1.0344",
+  "context": "of $P/N$ are $1.0344$",
+  "expr": "L(2204, r'quoted so far \\((1\\.0344) and')",
+  "why": "amendment 2204: the limits quoted so far, four-coefficient law"
+ },
+ {
+  "printed": "1.0346",
+  "context": "$1.0344$ for even and $1.0346$ for odd",
+  "expr": "L(2204, r'\\(1\\.0344 and (1\\.0346) for P/N')",
+  "why": "amendment 2204: the limits quoted so far, four-coefficient law"
+ },
+ {
+  "printed": "1.03440",
+  "context": "both parities to $1.03440$",
+  "expr": "L(2204, r'both parities give about (1\\.03440) for P/N')",
+  "why": "amendment 2204: five coefficients, both parities"
+ },
+ {
+  "printed": "1.05416",
+  "context": "the limit is $1.05416$",
+  "expr": "L(2204, r'(1\\.05416) for R_e')",
+  "why": "amendment 2204: five coefficients, both parities, edge-atom ratio"
+ },
+ {
+  "printed": "0.3",
+  "context": "puts them higher by $0.3$ to $0.5$",
+  "expr": "100*min([L(2175, r'limits L = ([\\d.]+), [\\d.]+, [\\d.]+ and [\\d.]+')/1.03440 - 1, L(2175, r'limits L = [\\d.]+, ([\\d.]+), [\\d.]+ and [\\d.]+')/1.05416 - 1, L(2175, r'limits L = [\\d.]+, [\\d.]+, ([\\d.]+) and [\\d.]+')/1.03440 - 1, L(2175, r'limits L = [\\d.]+, [\\d.]+, [\\d.]+ and ([\\d.]+)')/1.05416 - 1])",
+  "why": "amendment 2175: free-exponent limits 1.0389, 1.0598, 1.0377, 1.0592 against the five-coefficient limits: smallest excess 0.32 percent"
+ },
+ {
+  "printed": "0.5",
+  "context": "puts them higher by $0.3$ to $0.5$",
+  "expr": "100*max([L(2175, r'limits L = ([\\d.]+), [\\d.]+, [\\d.]+ and [\\d.]+')/1.03440 - 1, L(2175, r'limits L = [\\d.]+, ([\\d.]+), [\\d.]+ and [\\d.]+')/1.05416 - 1, L(2175, r'limits L = [\\d.]+, [\\d.]+, ([\\d.]+) and [\\d.]+')/1.03440 - 1, L(2175, r'limits L = [\\d.]+, [\\d.]+, [\\d.]+ and ([\\d.]+)')/1.05416 - 1])",
+  "why": "amendment 2175: largest excess 0.54 percent"
+ },
+ {
+  "printed": "108",
+  "context": "rows to $K=108$",
+  "expr": "L(2175, r'rows K = 83 to (108)')",
+  "why": "amendment 2175: the free-exponent fit used the rows K = 83 to 108"
+ },
+ {
+  "printed": "4.7",
+  "context": "$4.7$ percent at the smallest",
+  "expr": "100*(T('temporal_within/small_gap_q206/q1496_out.txt', r'smallest limit: (1\\.046845)') - 1)",
+  "why": "q1496_out.txt: smallest P/N 1.046845, i.e. a margin of 4.68 percent"
+ },
+ {
+  "printed": "3.4",
+  "context": "limit near $3.4$ percent",
+  "expr": "L(2204, r'\\((3\\.4) percent for P/N')",
+  "why": "amendment 2204: margin 3.4 percent at the limit"
+ },
+ {
+  "printed": "19",
+  "context": "for $K=19$ to $81$",
+  "expr": "L(2148, r'\\(K = (19) to 81\\)')",
+  "why": "amendment 2148: K = 19 to 81"
+ },
+ {
+  "printed": "81",
+  "context": "for $K=19$ to $81$",
+  "expr": "L(2148, r'\\(K = 19 to (81)\\)')",
+  "why": "amendment 2148: K = 19 to 81"
+ },
+ {
+  "printed": "83",
+  "context": "of the rows $K=83$ to $130$",
+  "expr": "L(2204, r'all 48 rows K = (83) to 130')",
+  "why": "amendment 2204: the 48 rows K = 83 to 130"
+ },
+ {
+  "printed": "130",
+  "context": "of the rows $K=83$ to $130$",
+  "expr": "L(2204, r'all 48 rows K = 83 to (130)')",
+  "why": "amendment 2204: the 48 rows K = 83 to 130"
+ },
+ {
+  "printed": "13",
+  "context": "(13:38:07)",
+  "expr": "T('temporal_within/centre_scripts/q1750_prereg_c0_ratio.txt', r'at (\\d+):\\d+:\\d+ on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "38",
+  "context": "(13:38:07)",
+  "expr": "T('temporal_within/centre_scripts/q1750_prereg_c0_ratio.txt', r'at \\d+:(\\d+):\\d+ on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "13",
+  "context": "(13:47:41)",
+  "expr": "T('temporal_within/centre_scripts/q1754_prereg_d1_ratio.txt', r'at (\\d+):\\d+:\\d+ on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "47",
+  "context": "(13:47:41)",
+  "expr": "T('temporal_within/centre_scripts/q1754_prereg_d1_ratio.txt', r'at \\d+:(\\d+):\\d+ on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "41",
+  "context": "(13:47:41)",
+  "expr": "T('temporal_within/centre_scripts/q1754_prereg_d1_ratio.txt', r'at \\d+:\\d+:(\\d+) on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "14",
+  "context": "(14:00:02)",
+  "expr": "T('temporal_within/small_gap_q206/q1765_prereg_f32.txt', r'at (\\d+):\\d+:\\d+ on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "14",
+  "context": "(14:32:03)",
+  "expr": "T('temporal_within/small_gap_q206/q1775_prereg_f32_bottom.txt', r'at (\\d+):\\d+:\\d+ on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "32",
+  "context": "(14:32:03)",
+  "expr": "T('temporal_within/small_gap_q206/q1775_prereg_f32_bottom.txt', r'at \\d+:(\\d+):\\d+ on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "14",
+  "context": "(14:33:23)",
+  "expr": "T('temporal_within/small_gap_q206/q1778_prereg_f32_value.txt', r'at (\\d+):\\d+:\\d+ on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "33",
+  "context": "(14:33:23)",
+  "expr": "T('temporal_within/small_gap_q206/q1778_prereg_f32_value.txt', r'at \\d+:(\\d+):\\d+ on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "23",
+  "context": "(14:33:23)",
+  "expr": "T('temporal_within/small_gap_q206/q1778_prereg_f32_value.txt', r'at \\d+:\\d+:(\\d+) on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "15",
+  "context": "(15:00:11)",
+  "expr": "T('temporal_within/small_gap_q206/q1782_prereg_f32_second.txt', r'at (\\d+):\\d+:\\d+ on')",
+  "why": "time stamp of the registration, from the first line of the registration file",
+  "kind": "definition"
+ },
+ {
+  "printed": "15",
+  "context": "for $j=2$ to $15$",
+  "expr": "T('temporal_within/small_gap_q206/q1757_bulk_coefficients_j11_15.py', r'j = 11\\.\\.(15)')",
+  "why": "q1757: the structure is tested on j = 11..15 (F_15 = f30)"
+ },
+ {
+  "printed": "15",
+  "context": "on $j=11$ to $15$",
+  "expr": "T('temporal_within/small_gap_q206/q1757_bulk_coefficients_j11_15.py', r'j = 11\\.\\.(15)')",
+  "why": "q1757: j = 11..15"
+ },
+ {
+  "printed": "16",
+  "context": "19j+16)/90",
+  "expr": "T('temporal_within/small_gap_q206/q1757_bulk_coefficients_j11_15.py', r'19 j \\+ (\\d+)\\) / \\d+')",
+  "why": "q1757 docstring: Q(j) = -j (j - 1) (6 j^3 + j^2 - 19 j + 16) / 90"
+ },
+ {
+  "printed": "90",
+  "context": "19j+16)/90",
+  "expr": "T('temporal_within/small_gap_q206/q1757_bulk_coefficients_j11_15.py', r'19 j \\+ \\d+\\) / (\\d+)')",
+  "why": "q1757 docstring: Q(j) = ... / 90"
+ },
+ {
+  "printed": "15",
+  "context": "for $n=1$ to $15$",
+  "expr": "L(2227, r'for n = 1 to (15)\\.')",
+  "why": "amendment 2227: the logarithm of the generating function has the coefficient 1/(n 8^n) at u^n for n = 1 to 15"
+ },
+ {
+  "printed": "15",
+  "context": "is $1845151984/15$",
+  "expr": "T('temporal_within/small_gap_q206/q1765_prereg_f32.txt', r'is 1845151984/(\\d+);')",
+  "why": "q1765_prereg_f32.txt: R3 = 1845151984/15"
+ },
+ {
+  "printed": "94",
+  "context": "$94$ stored states",
+  "expr": "L(1801, r'strictly totally positive at (\\d+) distinct stationary states')",
+  "why": "amendment 1801: X is strictly totally positive at 94 distinct stationary states of the capacity"
+ },
+ {
+  "printed": "94",
+  "context": "verify it at 94 states",
+  "expr": "L(1801, r'strictly totally positive at (\\d+) distinct stationary states')",
+  "why": "amendment 1801: X is strictly totally positive at 94 distinct stationary states of the capacity"
+ },
+ {
+  "printed": "94",
+  "context": "whole matrix at $94$ states",
+  "expr": "L(1801, r'strictly totally positive at (\\d+) distinct stationary states')",
+  "why": "amendment 1801: X is strictly totally positive at 94 distinct stationary states of the capacity"
+ },
+ {
+  "printed": "94",
+  "context": "$94$ distinct states",
+  "expr": "L(1801, r'strictly totally positive at (\\d+) distinct stationary states')",
+  "why": "amendment 1801: X is strictly totally positive at 94 distinct stationary states of the capacity"
+ },
+ {
+  "printed": "40",
+  "context": "$40$ random configurations with $m=5$",
+  "expr": "L(1827, r'PASS at (\\d+) of \\d+ random configurations')",
+  "why": "amendment 1827 (T110): 40 of 40 random configurations"
+ },
+ {
+  "printed": "2930",
+  "context": "all $2930$ initial minors",
+  "expr": "L(1827, r'\\((\\d+) of \\d+ initial minors positive\\)')",
+  "why": "amendment 1827 (T110): 2930 of 2930 initial minors positive"
+ },
+ {
+  "printed": "40",
+  "context": "at $40$ random configurations.",
+  "expr": "L(1834, r'at (40) random configurations')",
+  "why": "amendment 1834 (T113): the diagonal identity holds to 8e-60 at 40 random configurations"
+ },
+ {
+  "printed": "8\\times 10^{-60}",
+  "context": "holds to $8\\times 10^{-60}$",
+  "expr": "L(1834, r'holds to (8)e-60 at')*1e-60",
+  "why": "amendment 1834: holds to 8e-60"
+ },
+ {
+  "printed": "10^{-21}",
+  "context": "between $10^{-21}$ and $10^{-36}$",
+  "expr": "10**(-L(1829, r'to between [\\d.]+e-(\\d+) and'))",
+  "why": "amendment 1829 (T111): c_p = -1/(2 w_p) holds to between 1.3e-21 and 2.1e-36"
+ },
+ {
+  "printed": "10^{-36}",
+  "context": "between $10^{-21}$ and $10^{-36}$",
+  "expr": "10**(-L(1829, r'and [\\d.]+e-(\\d+) \\(bar'))",
+  "why": "amendment 1829 (T111): between 1.3e-21 and 2.1e-36"
+ },
+ {
+  "printed": "1200",
+  "context": "at $1200$ bits",
+  "expr": "L(1763, r'minors of the midpoint matrix at (\\d+) bits')",
+  "why": "amendment 1763: minors at 1200 bits"
+ },
+ {
+  "printed": "10^{-120}",
+  "context": "residual below $10^{-120}$",
+  "expr": "10**(-L(1763, r'polish to 1e-(\\d+) at 600 bits'))",
+  "why": "amendment 1763: polish to 1e-120"
+ },
+ {
+  "printed": "10^{-39}",
+  "context": "states, $10^{-39}$",
+  "expr": "10**(-T('temporal_within/PREREG_Q32.md', r'stored states have the residual 1e-(\\d+)'))",
+  "why": "amendment 1752: the stored states have the residual 1e-39"
+ },
+ {
+  "printed": "10^{-241}",
+  "context": "corner minors of size $10^{-241}$",
+  "expr": "10**(-T('temporal_within/PREREG_Q32.md', r'corner minors of size 1e-(\\d+) to'))",
+  "why": "amendment 1749: corner minors of size 1e-241 to 1e-364 at the stored accuracy"
+ },
+ {
+  "printed": "10^{-364}",
+  "context": "corner minors of size $10^{-241}$",
+  "expr": "10**(-T('temporal_within/PREREG_Q32.md', r'corner minors of size 1e-\\d+ to 1e-(\\d+)'))",
+  "why": "amendment 1749: corner minors of size 1e-241 to 1e-364"
+ },
+ {
+  "printed": "91",
+  "context": "$91$ are optimal states",
+  "expr": "L(1801, r'of which (\\d+) are OPTIMAL')",
+  "why": "amendment 1801: 91 of the 94 states are optimal"
+ },
+ {
+  "printed": "26",
+  "context": "families $K=26$, $40$, $50$, $60$ to $66$ and $70$",
+  "expr": "L(1801, r'K 40 and K (26)\\)')",
+  "why": "amendment 1801: optimal stored states of K 40 and K 26"
+ },
+ {
+  "printed": "40",
+  "context": "families $K=26$, $40$, $50$, $60$ to $66$ and $70$",
+  "expr": "L(1801, r'of K (40) and K 26\\)')",
+  "why": "amendment 1801: optimal stored states of K 40 and K 26"
+ },
+ {
+  "printed": "50",
+  "context": "families $K=26$, $40$, $50$, $60$ to $66$ and $70$",
+  "expr": "L(1801, r'9 stored states of K (50), 60 and 70')",
+  "why": "amendment 1801: 9 stored states of K 50, 60 and 70"
+ },
+ {
+  "printed": "60",
+  "context": "families $K=26$, $40$, $50$, $60$ to $66$ and $70$",
+  "expr": "L(1801, r'9 stored states of K 50, (60) and 70')",
+  "why": "amendment 1801: 9 stored states of K 50, 60 and 70"
+ },
+ {
+  "printed": "66",
+  "context": "families $K=26$, $40$, $50$, $60$ to $66$ and $70$",
+  "expr": "L(1801, r'80 states of K 61 to (66)')",
+  "why": "amendment 1801: 80 states of K 61 to 66"
+ },
+ {
+  "printed": "70",
+  "context": "families $K=26$, $40$, $50$, $60$ to $66$ and $70$",
+  "expr": "L(1801, r'9 stored states of K 50, 60 and (70)')",
+  "why": "amendment 1801: 9 stored states of K 50, 60 and 70"
+ },
+ {
+  "printed": "34",
+  "context": "$12$ to $34$ positive atoms",
+  "expr": "L(1801, r'the largest K among the OPTIMAL ones is 70 \\((\\d+) positions\\)')",
+  "why": "amendment 1801: the optimal K 70 states have 34 positions"
+ },
+ {
+  "printed": "40",
+  "context": "at $K=40$, $70$ and $80$, the last with $39$",
+  "expr": "L(1801, r'K (40) at A = 30\\.1191')",
+  "why": "amendment 1801: stationary states beyond the end of the family: K 40, K 70, K 80"
+ },
+ {
+  "printed": "70",
+  "context": "at $K=40$, $70$ and $80$, the last with $39$",
+  "expr": "L(1801, r'K (70) at A = 46\\.5787')",
+  "why": "amendment 1801: K 70 at A = 46.5787"
+ },
+ {
+  "printed": "80",
+  "context": "at $K=40$, $70$ and $80$, the last with $39$",
+  "expr": "L(1801, r'K (80) at A = 51\\.513057')",
+  "why": "amendment 1801: K 80 at A = 51.513057"
+ },
+ {
+  "printed": "39",
+  "context": "at $K=40$, $70$ and $80$, the last with $39$",
+  "expr": "L(1801, r'K 80 state \\((\\d+) positions\\)')",
+  "why": "amendment 1801: the K 80 state has 39 positions"
+ },
+ {
+  "printed": "32",
+  "context": "turns $32$ to $54$ percent",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'(0\\.323) and 0\\.527 \\(K 64\\)')*100",
+  "why": "amendment 1752: fraction of certainly negative initial minors from 0.323"
+ },
+ {
+  "printed": "54",
+  "context": "turns $32$ to $54$ percent",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'0\\.328 and (0\\.538)')*100",
+  "why": "amendment 1752: fraction of certainly negative initial minors up to 0.538 (T alone)"
+ },
+ {
+  "printed": "10^{-25}",
+  "context": "relative size of about $10^{-25}$",
+  "expr": "10**(-T('temporal_within/PREREG_Q32.md', r'within about 1e-(\\d+) of the solution'))",
+  "why": "amendment 1752: region of total positivity of about 1e-25"
+ },
+ {
+  "printed": "14",
+  "context": "$14$ rows of the NPMLE functional",
+  "expr": "L(1760, r'NPMLE \\((\\d+) of \\d+, T80\\)')",
+  "why": "amendment 1760: NPMLE 14 of 14"
+ },
+ {
+  "printed": "15",
+  "context": "$15$ rows of the immune functional",
+  "expr": "L(1760, r'PASS on (\\d+) of \\d+\\s+immune rows')",
+  "why": "amendment 1760: immune 15 of 15 rows"
+ },
+ {
+  "printed": "4.0",
+  "context": "it lies between $4.0$ and $4.8$",
+  "expr": "L(1806, r'c between (4\\.0) \\(first state\\)')",
+  "why": "amendment 1806: c between 4.0 (first state) and 4.8 (last state)"
+ },
+ {
+  "printed": "4.8",
+  "context": "it lies between $4.0$ and $4.8$",
+  "expr": "L(1806, r'and (4\\.8) \\(last state\\)')",
+  "why": "amendment 1806: c between 4.0 and 4.8"
+ },
+ {
+  "printed": "4.0",
+  "context": "$c$ between $4.0$ and $4.8$",
+  "expr": "L(1806, r'c between (4\\.0) \\(first state\\)')",
+  "why": "amendment 1806: c between 4.0 and 4.8"
+ },
+ {
+  "printed": "4.8",
+  "context": "$c$ between $4.0$ and $4.8$",
+  "expr": "L(1806, r'and (4\\.8) \\(last state\\)')",
+  "why": "amendment 1806: c between 4.0 and 4.8"
+ },
+ {
+  "printed": "68",
+  "context": "$K=68$ to $71$",
+  "expr": "L(1806, r'REGISTERED \\(T100\\): the same scaling at the first, median and last state of the families K (68) and')",
+  "why": "amendment 1806: T100 registered for the families K 68 and K 69"
+ },
+ {
+  "printed": "71",
+  "context": "$K=68$ to $71$",
+  "expr": "L(1823, r'states of the family K (71),')",
+  "why": "amendment 1823: T105 on the family K 71"
+ },
+ {
+  "printed": "34",
+  "context": "$J$ up to $34$ in optimal states",
+  "expr": "L(1806, r'K 70 at A = 46\\.5787, centre positive, J (\\d+)\\)')",
+  "why": "amendment 1806: K 70, J 34"
+ },
+ {
+  "printed": "39",
+  "context": "$J$ up to $34$ in optimal states and $39$",
+  "expr": "L(1806, r'K 80, centre positive, J (\\d+)\\)')",
+  "why": "amendment 1806: K 80, J 39"
+ },
+ {
+  "printed": "35",
+  "context": "all real, simple and positive at $35$",
+  "expr": "L(1854, r'holds at (\\d+) distinct states of the eleven families')",
+  "why": "amendment 1854: real-rootedness at 35 distinct states of eleven families"
+ },
+ {
+  "printed": "40",
+  "context": "$J$ far above $40$",
+  "expr": "L(1807, r'J far above (40) are not examined')",
+  "why": "amendment 1807: amplitudes for J far above 40 are not examined"
+ },
+ {
+  "printed": "65",
+  "context": "one state of $K=65$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1087_results_q220_gauss_K65_A43.5803_out.txt', r'results_q220_gauss_K(\\d+)_A')",
+  "why": "q1087 output header: K 65"
+ },
+ {
+  "printed": "71",
+  "context": "first, median and last state of $K=71$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1087_results_q220_gauss_K71_A46.4359_out.txt', r'results_q220_gauss_K(\\d+)_A')",
+  "why": "q1087 output header: K 71"
+ },
+ {
+  "printed": "0.4",
+  "context": "scatter of $0.4\\%$",
+  "expr": "L(1849, r'scatter of (0\\.4) percent')",
+  "why": "amendment 1849: a scatter of 0.4 percent in the points of the fit"
+ },
+ {
+  "printed": "0.5",
+  "context": "$0.5\\%$ for $K=73$ to $79$",
+  "expr": "L(1919, r'K 73 to 78: [\\d.]+, (0\\.99480)')*(-100)+100",
+  "why": "amendment 1919: u_end rho^2 / C for K 73 to 79 is within 0.52 percent of one"
+ },
+ {
+  "printed": "63",
+  "context": "$K=63$ to $72$",
+  "expr": "L(1849, r'range K (63) to K 72')",
+  "why": "amendment 1849: the relation holds in the range K 63 to K 72"
+ },
+ {
+  "printed": "72",
+  "context": "$K=63$ to $72$",
+  "expr": "L(1849, r'range K 63 to K (72)')",
+  "why": "amendment 1849: the relation holds in the range K 63 to K 72"
+ },
+ {
+  "printed": "73",
+  "context": "$K=73$ to $79$",
+  "expr": "L(1849, r'families K (73) to K 79')",
+  "why": "amendment 1849: T122 registered for the families K 73 to K 79"
+ },
+ {
+  "printed": "79",
+  "context": "$K=73$ to $79$",
+  "expr": "L(1849, r'families K 73 to K (79)')",
+  "why": "amendment 1849: T122 registered for the families K 73 to K 79"
+ },
+ {
+  "printed": "0.0017",
+  "context": "rms of $0.0017$ to $0.0026$",
+  "expr": "L(1896, r'rms (0\\.00166) on the capacity')",
+  "why": "amendment 1896: rms 0.00166 on the capacity points"
+ },
+ {
+  "printed": "0.0026",
+  "context": "rms of $0.0017$ to $0.0026$",
+  "expr": "L(1896, r'0\\.0024 to (0\\.0026) on the chains')",
+  "why": "amendment 1896: 0.0024 to 0.0026 on the chains"
+ },
+ {
+  "printed": "0.1643",
+  "context": "values between $0.1643$ and $0.1675$",
+  "expr": "L(1859, r'values from (0\\.1643) to')",
+  "why": "amendment 1859: extrapolations give values from 0.1643 to 0.1675"
+ },
+ {
+  "printed": "0.1675",
+  "context": "values between $0.1643$ and $0.1675$",
+  "expr": "L(1859, r'values from 0\\.1643 to (0\\.1675)')",
+  "why": "amendment 1859: extrapolations give values from 0.1643 to 0.1675"
+ },
+ {
+  "printed": "45",
+  "context": "e_2 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e2\": \"[^\"]*?/(45)\"')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "176",
+  "context": "e_3 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e3\": \"[^\"]*?(176)/15')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "15",
+  "context": "e_3 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e3\": \"[^\"]*?176/(15)')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "32",
+  "context": "e_3 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e3\": \"[^\"]*?\\+ (32)\\*pi\\*\\*2/9')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "64",
+  "context": "e_3 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e3\": \"(64)\\*pi\\*\\*4/1575')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "1575",
+  "context": "e_3 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e3\": \"64\\*pi\\*\\*4/(1575)')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "4544",
+  "context": "e_4 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e4\": \"-(4544)\\*pi\\*\\*4/2025')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "2025",
+  "context": "e_4 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e4\": \"-4544\\*pi\\*\\*4/(2025)')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "2176",
+  "context": "e_4 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e4\": \"[^\"]*?\\+ (2176)\\*pi\\*\\*6/33075')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "33075",
+  "context": "e_4 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e4\": \"[^\"]*?2176\\*pi\\*\\*6/(33075)')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "23792",
+  "context": "e_4 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e4\": \"[^\"]*?\\+ (23792)/315')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "315",
+  "context": "e_4 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e4\": \"[^\"]*?23792/(315)')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "8416",
+  "context": "e_4 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e4\": \"[^\"]*?\\+ (8416)\\*pi\\*\\*2/135')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "135",
+  "context": "e_4 &=",
+  "expr": "T('temporal_within/centre_scripts/d20_out_5.json', r'\"e4\": \"[^\"]*?8416\\*pi\\*\\*2/(135)')",
+  "why": "d20_out_5.json holds the closed forms of e_2 to e_5 as strings; the printed coefficient is read from the string of the same e_k"
+ },
+ {
+  "printed": "4.4",
+  "context": "times about $4.4^n$",
+  "expr": "L(1973, r'alpha (4\\.\\d+)')",
+  "why": "amendment 1973: the ratio model r_n = alpha n + beta + gamma/n has alpha = 4.4450"
+ },
+ {
+  "printed": "17",
+  "context": "fitted to $n = 10$ to $17$",
+  "expr": "L(1973, r'n = 10 to (17)')",
+  "why": "amendment 1973: the model is fitted on n = 10 to 17"
+ },
+ {
+  "printed": "0.04",
+  "context": "to $0.04\\%$ and $0.11\\%$",
+  "expr": "L(2009, r'to (0\\.04) and 0\\.11 percent')",
+  "why": "amendment 2009: e_19 and e_20 predicted to 0.04 and 0.11 percent"
+ },
+ {
+  "printed": "0.11",
+  "context": "to $0.04\\%$ and $0.11\\%$",
+  "expr": "L(2009, r'0\\.04 and (0\\.11) percent')",
+  "why": "amendment 2009: e_19 and e_20 predicted to 0.04 and 0.11 percent"
+ },
+ {
+  "printed": "16",
+  "context": "with the series cut at order $16$",
+  "expr": "L(1973, r'orders 5 to (16)')",
+  "why": "amendment 1973: derived series, orders 5 to 16"
+ },
+ {
+  "printed": "10^{-9}",
+  "context": "in units of $10^{-9}$",
+  "expr": "1e-9",
+  "why": "unit in which the amendments print the deviations",
+  "kind": "definition"
+ },
+ {
+  "printed": "61",
+  "context": "$K_b = 61$ to $80$ to within",
+  "expr": "L(2007, r'twenty events K_b (61) to 80')",
+  "why": "amendment 2007: the twenty events K_b 61 to 80"
+ },
+ {
+  "printed": "80",
+  "context": "$K_b = 61$ to $80$ to within",
+  "expr": "L(2007, r'twenty events K_b 61 to (80)')",
+  "why": "amendment 2007: the twenty events K_b 61 to 80"
+ },
+ {
+  "printed": "20",
+  "context": "the $20$ capacity events",
+  "expr": "80-61+1",
+  "why": "events K_b = 61 to 80 inclusive",
+  "kind": "definition"
+ },
+ {
+  "printed": "0.09",
+  "context": "to within $0.09$",
+  "expr": "L(2016, r'With the quintic spline: births \\+[\\d.]+, -(0\\.0891)')",
+  "why": "amendment 2016: order-16 deviations with the quintic spline, largest birth 0.0891"
+ },
+ {
+  "printed": "0.016",
+  "context": "within $0.016$",
+  "expr": "L(2016, r'splits -0\\.0066, -(0\\.0161)')",
+  "why": "amendment 2016: quintic spline, largest split 0.0161"
+ },
+ {
+  "printed": "13",
+  "context": "It reproduces $13$ NPMLE",
+  "expr": "L(1966, r'of (13) NPMLE transitions K_b 54 to 66')",
+  "why": "amendment 1966: NPMLE transitions K_b 54 to 66 (13 predicted)"
+ },
+ {
+  "printed": "54",
+  "context": "$K_b = 54$ to $66$",
+  "expr": "L(1966, r'NPMLE transitions K_b (54) to 66')",
+  "why": "amendment 1966: K_b 54 to 66"
+ },
+ {
+  "printed": "66",
+  "context": "$K_b = 54$ to $66$",
+  "expr": "L(1966, r'K_b 54 to (66) are located')",
+  "why": "amendment 1966: K_b 54 to 66"
+ },
+ {
+  "printed": "0.07",
+  "context": "to within $0.07$",
+  "expr": "L(2022, r'NPMLE K_b 64 \\(\\+(0\\.070)\\)')",
+  "why": "amendment 2022: the NPMLE deviation at K_b 64 is +0.070 for every spline degree"
+ },
+ {
+  "printed": "2.5",
+  "context": "by a factor $2.5$ to $3$",
+  "expr": "min(L(2007, r'all twenty events with the corrected splits (?:[\\d.]+, ){0}([\\d.]+)')/L(2007, r'all twenty events with the corrected splits (?:[\\d.]+, ){1}([\\d.]+)'), L(2007, r'all twenty events with the corrected splits (?:[\\d.]+, ){1}([\\d.]+)')/L(2007, r'all twenty events with the corrected splits (?:[\\d.]+, ){2}([\\d.]+)'), L(2007, r'all twenty events with the corrected splits (?:[\\d.]+, ){2}([\\d.]+)')/L(2007, r'all twenty events with the corrected splits (?:[\\d.]+, ){3}([\\d.]+)'), (L(2007, r'all twenty events with the corrected splits (?:[\\d.]+, ){3}([\\d.]+)')/L(2007, r'all twenty events with the corrected splits (?:[\\d.]+, ){4}([\\d.]+)'))**0.5)",
+  "why": "amendment 2007: largest deviation at the orders 5, 6, 7, 8, 10 is 63.490, 22.924, 7.845, 2.805, 0.446; smallest factor per order is (2.805/0.446)^(1/2) = 2.51"
+ },
+ {
+  "printed": "81",
+  "context": "the split $K_b = 81$ and the birth $K_b = 82$",
+  "expr": "L(1972, r'split K 81 to 82 \\(K_b = (81)\\)')",
+  "why": "amendment 1972: the split K_b 81"
+ },
+ {
+  "printed": "82",
+  "context": "the split $K_b = 81$ and the birth $K_b = 82$",
+  "expr": "L(2050, r'blind birth K_b = (82)')",
+  "why": "amendment 2050: the blind birth K_b 82"
+ },
+ {
+  "printed": "0.5",
+  "context": "(bar $0.5$)",
+  "expr": "L(1972, r'item S1 \\(< (0\\.5)e-9\\)')",
+  "why": "amendment 1972: item S1 bar 0.5e-9"
+ },
+ {
+  "printed": "0.3",
+  "context": "(bar $0.3$)",
+  "expr": "L(1972, r'item D1 \\(< (0\\.3)e-9\\)')",
+  "why": "amendment 1972: item D1 bar 0.3e-9"
+ },
+ {
+  "printed": "0.109",
+  "context": "termination error of $0.109$",
+  "expr": "(L(2007, r'A_s old (51\\.\\d+), new') - L(2007, r'A_s old 51\\.\\d+, new (51\\.\\d+);'))*1e9",
+  "why": "amendment 2007: the split K_b 81 amplitude was 51.980243607689 and is 51.980243607580 after the correction, a difference of 0.109e-9"
+ },
+ {
+  "printed": "0.119",
+  "context": "deviates by $+0.119$",
+  "expr": "L(1972, r'item S1 of amendment 1959 \\(\\+(0\\.119)e-9\\)')",
+  "why": "amendment 1972: S1 deviation +0.119e-9"
+ },
+ {
+  "printed": "0.098",
+  "context": "and $+0.098$",
+  "expr": "L(1972, r'item D1 of amendment 1968 \\(\\+(0\\.098)e-9\\)')",
+  "why": "amendment 1972: D1 deviation +0.098e-9"
+ },
+ {
+  "printed": "0.010",
+  "context": "by $+0.010$ and $-0.011$",
+  "expr": "L(2007, r'immune-curve table \\+(0\\.0104)e-9')",
+  "why": "amendment 2007: corrected split against the immune-curve table +0.0104e-9"
+ },
+ {
+  "printed": "0.011",
+  "context": "by $+0.010$ and $-0.011$",
+  "expr": "L(2007, r'order-12 table -(0\\.0109)e-9')",
+  "why": "amendment 2007: corrected split against the order-12 table -0.0109e-9"
+ },
+ {
+  "printed": "0.005",
+  "context": "birth deviates by $+0.005$",
+  "expr": "L(2050, r'S1 True \\(\\+(0\\.0049)e-9\\)')",
+  "why": "amendment 2050: S1 +0.0049e-9"
+ },
+ {
+  "printed": "0.006",
+  "context": "birth deviates by $+0.005$ and $-0.006$",
+  "expr": "L(2050, r'D1 True \\(-(0\\.0060)e-9\\)')",
+  "why": "amendment 2050: D1 -0.0060e-9"
+ },
+ {
+  "printed": "94",
+  "context": "later events up to $K_b = 94$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'FAILS by the letter at the birth K_b (94)')",
+  "why": "amendment 2160: S1 fails at the birth K_b 94"
+ },
+ {
+  "printed": "0.525",
+  "context": "deviation of $+0.525$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'deviation \\+(0\\.5249)e-9')",
+  "why": "amendment 2160: deviation +0.5249e-9"
+ },
+ {
+  "printed": "0.5",
+  "context": "against $0.5$.",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'against the bar (0\\.5)e-9')",
+  "why": "amendment 2160: bar 0.5e-9"
+ },
+ {
+  "printed": "0.014",
+  "context": "deviated by $+0.014$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'passes at K_b 93 and 94 \\(\\+(0\\.0142)e-9')",
+  "why": "amendment 2160: D1 +0.0142e-9 at K_b 93"
+ },
+ {
+  "printed": "0.020",
+  "context": "and $+0.020$ at",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'and \\+(0\\.0204)e-9\\)')",
+  "why": "amendment 2160: D1 +0.0204e-9 at K_b 94"
+ },
+ {
+  "printed": "93",
+  "context": "at $K_b = 93$ and",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'passes at K_b (93) and 94')",
+  "why": "amendment 2160: K_b 93"
+ },
+ {
+  "printed": "94",
+  "context": "$+0.020$ at $K_b = 94$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'passes at K_b 93 and (94)')",
+  "why": "amendment 2160: K_b 94"
+ },
+ {
+  "printed": "34",
+  "context": "Of the $34$ transitions",
+  "expr": "L(2040, r'\\(\\d+ of (34) located')",
+  "why": "amendment 2040: 13 of 34 located"
+ },
+ {
+  "printed": "67",
+  "context": "$K_b = 67$ to $100$",
+  "expr": "L(2040, r'extended test K_b (67) to 100')",
+  "why": "amendment 2040: K_b 67 to 100"
+ },
+ {
+  "printed": "100",
+  "context": "$K_b = 67$ to $100$",
+  "expr": "L(2040, r'K_b 67 to (100) \\(registered')",
+  "why": "amendment 2040: K_b 67 to 100"
+ },
+ {
+  "printed": "13",
+  "context": "only $13$ were located",
+  "expr": "L(2040, r'\\((13) of 34 located')",
+  "why": "amendment 2040: 13 of 34 located"
+ },
+ {
+  "printed": "0.043",
+  "context": "within $-0.043$",
+  "expr": "L(2040, r'K_b 67 -(0\\.043),')",
+  "why": "amendment 2040: D2 deviation at K_b 67 is -0.043"
+ },
+ {
+  "printed": "0.037",
+  "context": "and $+0.037$ of the derived-series",
+  "expr": "L(2040, r'93 \\+(0\\.037);')",
+  "why": "amendment 2040: D2 deviation at K_b 93 is +0.037"
+ },
+ {
+  "printed": "93",
+  "context": "one of them, $K_b = 93$",
+  "expr": "L(2040, r'False by 0\\.023e-9 at K_b (93)')",
+  "why": "amendment 2040: N1 false at K_b 93"
+ },
+ {
+  "printed": "0.523",
+  "context": "deviates by $+0.523$",
+  "expr": "L(2040, r'87 \\+0\\.076, 93 \\+(0\\.523)')",
+  "why": "amendment 2040: first-variant deviation at K_b 93 is +0.523"
+ },
+ {
+  "printed": "0.0338",
+  "context": "largest deviations $0.0338$",
+  "expr": "L(2202, r'B115 \\(blind, K_b 115 to 122\\): PASS; measured 8 of 8; largest \\|dev\\| (0\\.0338)e-9')",
+  "why": "amendment 2202: block B115 largest deviation 0.0338e-9"
+ },
+ {
+  "printed": "0.1517",
+  "context": "largest deviations $0.0338$, $0.1517$",
+  "expr": "L(2202, r'B123 PASS \\(capacity events K_b 123 to 130, 8 of 8, blind, largest deviation (0\\.1517)e-9')",
+  "why": "amendment 2202: block B123 largest deviation 0.1517e-9"
+ },
+ {
+  "printed": "0.6399",
+  "context": "$0.1517$ and $0.6399$",
+  "expr": "L(2225, r'largest deviation of (0\\.6399)e-9')",
+  "why": "amendment 2225: block B131 largest deviation 0.6399e-9"
+ },
+ {
+  "printed": "0.05",
+  "context": "larger of $0.05$",
+  "expr": "L(2202, r'larger of (0\\.05)e-9')",
+  "why": "amendment 2202: bar of an event"
+ },
+ {
+  "printed": "18",
+  "context": "carried to the order $18$",
+  "expr": "L(2226, r'order 20 and NG = (18), K_b 61 to 82')",
+  "why": "amendment 2226: centre series to order 20 and NG = 18"
+ },
+ {
+  "printed": "61",
+  "context": "$K_b = 61$ to $82$ to within",
+  "expr": "L(2226, r'K_b (61) to 82 are predicted within')",
+  "why": "amendment 2226: K_b 61 to 82"
+ },
+ {
+  "printed": "82",
+  "context": "$K_b = 61$ to $82$ to within",
+  "expr": "L(2226, r'K_b 61 to (82) are predicted within')",
+  "why": "amendment 2226: K_b 61 to 82"
+ },
+ {
+  "printed": "2.5\\times 10^{-13}",
+  "context": "to within $2.5\\times 10^{-13}$",
+  "expr": "L(2226, r'within (2\\.49)e-13')*1e-13",
+  "why": "amendment 2226: K_b 61 to 82 within 2.49e-13"
+ },
+ {
+  "printed": "4.8\\times 10^{-14}",
+  "context": "deviation of $4.8\\times 10^{-14}$",
+  "expr": "L(2226, r'rms of (4\\.78)e-14')*1e-14",
+  "why": "amendment 2226: K_b 83 to 130 rms 4.78e-14"
+ },
+ {
+  "printed": "1.1\\times 10^{-13}",
+  "context": "to within $1.1\\times 10^{-13}$",
+  "expr": "L(2226, r'K_b 131 to 143 within (1\\.14)e-13')*1e-13",
+  "why": "amendment 2226: K_b 131 to 143 within 1.14e-13"
+ },
+ {
+  "printed": "17",
+  "context": "orders $17$ to $22$",
+  "expr": "L(2226, r'cannot separate NG (17) to 22')",
+  "why": "amendment 2226: the later events cannot separate NG 17 to 22"
+ },
+ {
+  "printed": "22",
+  "context": "orders $17$ to $22$",
+  "expr": "L(2226, r'cannot separate NG 17 to (22)')",
+  "why": "amendment 2226: the later events cannot separate NG 17 to 22"
+ },
+ {
+  "printed": "1.4",
+  "context": "registered to lie in $1.4$ to $2.6$",
+  "expr": "L(1799, r'M2: the step r71 - r70 lies in \\[(1\\.4)e-9, 2\\.6e-9\\]')",
+  "why": "amendment 1799: registered band of the step at K_b 71"
+ },
+ {
+  "printed": "2.6",
+  "context": "registered to lie in $1.4$ to $2.6$",
+  "expr": "L(1799, r'M2: the step r71 - r70 lies in \\[1\\.4e-9, (2\\.6)e-9\\]')",
+  "why": "amendment 1799: registered band of the step at K_b 71"
+ },
+ {
+  "printed": "2.68",
+  "context": "was $2.68$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'step at K_b 71 is \\+(2\\.68)01e-09')",
+  "why": "amendment 1820: the step at K_b 71 is +2.6801e-09"
+ },
+ {
+  "printed": "71",
+  "context": "$K_b = 71$ (test",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'step at K_b (71) is')",
+  "why": "amendment 1820: K_b 71"
+ },
+ {
+  "printed": "1.08",
+  "context": "registered in $1.08$ to $1.19$",
+  "expr": "L(1836, r'lies in \\[(1\\.08), 1\\.19\\] for K = 74 to 79')",
+  "why": "amendment 1836: registered band of the ratio"
+ },
+ {
+  "printed": "1.19",
+  "context": "registered in $1.08$ to $1.19$",
+  "expr": "L(1836, r'lies in \\[1\\.08, (1\\.19)\\] for K = 74 to 79')",
+  "why": "amendment 1836: registered band of the ratio"
+ },
+ {
+  "printed": "78",
+  "context": "$K_b = 78$ (test",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'T116 FAILS BY THE LETTER at K_b (78)')",
+  "why": "amendment 1916: T116 fails at K_b 78"
+ },
+ {
+  "printed": "2.4",
+  "context": "from $2.4$ at $K_b = 61$",
+  "expr": "L(1962, r'The c50c stage D = 110: (2\\.374)')",
+  "why": "amendment 1962: residual at K_b 61 on the c50c stage D = 110"
+ },
+ {
+  "printed": "16.1",
+  "context": "to $16.1$ at $K_b = 80$",
+  "expr": "L(1962, r'The c50c stage D = 110: 2\\.374, 12\\.581, 15\\.953, (16\\.118)')",
+  "why": "amendment 1962: residual at K_b 80 on the c50c stage D = 110"
+ },
+ {
+  "printed": "61",
+  "context": "at $K_b = 61$ to $16.1$",
+  "expr": "L(1962, r'for K_b (61), 70, 79, 80')",
+  "why": "amendment 1962: K_b 61"
+ },
+ {
+  "printed": "80",
+  "context": "to $16.1$ at $K_b = 80$",
+  "expr": "L(1962, r'for K_b 61, 70, 79, (80):')",
+  "why": "amendment 1962: K_b 80"
+ },
+ {
+  "printed": "0.020",
+  "context": "error of up to $0.020$",
+  "expr": "L(2016, r'by 0\\.004e-9 to (0\\.020)e-9')",
+  "why": "amendment 2016: the cubic spline errs at births by 0.004e-9 to 0.020e-9"
+ },
+ {
+  "printed": "0.455",
+  "context": "amplitudes is $0.455$",
+  "expr": "L(1959, r'separated by at least (0\\.455)')",
+  "why": "amendment 1959: predicted amplitudes are separated by at least 0.455"
+ },
+ {
+  "printed": "41.2",
+  "context": "$41.2 \\le A \\le 67.6$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q955_tower_table_out.txt', r'K_b 60 birth: measured (41\\.2\\d+)')",
+  "why": "q955_tower_table_out.txt: the event K_b 60 lies at A = 41.2008"
+ },
+ {
+  "printed": "67.6",
+  "context": "$41.2 \\le A \\le 67.6$",
+  "expr": "L(1968, r'114 (67\\.6075929457)')",
+  "why": "amendment 1968: the table of predicted amplitudes ends at K_b 114, A = 67.6076"
+ },
+ {
+  "printed": "twenty",
+  "context": "predicted in advance, twenty fell within",
+  "expr": "sum([L(1350, r'\\+0\\.0040 % to \\+(0\\.0054) %') <= 0.61, L(1350, r'\\+0\\.0131 % to \\+(0\\.0145) %') <= 0.61, L(1413, r'\\+0\\.0118 \\.\\. \\+(0\\.0121) %') <= 0.61, L(1428, r'\\+0\\.0055 % to \\+(0\\.0106) %') <= 0.61, L(1328, r'\\| copying ring \\(1302\\) \\| 0\\.134287189 \\| \\+(0\\.03004) %') <= 0.61, L(1374, r'copying \\(1302\\) \\+(0\\.2777) %') <= 0.61, L(1373, r'\\| copying ring \\(q795\\) \\| 0\\.100908111 \\| \\+(0\\.109) %') <= 0.61, L(1385, r'\\| 22 -> 24 \\| \\(0\\.0872266, 0\\.0872344\\) \\| 0\\.086631 \\| \\+0\\.69 % \\| 0\\.087130 \\| \\+(0\\.12) %') <= 0.61, L(1385, r'\\| 0\\.074900 \\| \\+0\\.07 \\.\\. \\+(0\\.13) %') <= 0.61, L(1385, r'\\| 26 -> 28 \\| \\(0\\.0653262, 0\\.0653320\\) \\| 0\\.064977 \\| \\+0\\.54 % \\| 0\\.065283 \\| \\+(0\\.07) %') <= 0.61, L(1323, r'\\+0\\.2171 % to \\+(0\\.2174) %') <= 0.61, L(1325, r'\\+0\\.0191 % to \\+(0\\.0195) %') <= 0.61, L(1327, r'obs/pred - 1 = \\+(0\\.609) %') <= 0.61, L(1340, r'\\| copying ring \\(1300\\) \\| 0\\.138306596 \\| \\+(0\\.0763) %') <= 0.61, L(1359, r'\\| copying ring \\(1300\\) \\| 0\\.124499331 \\| \\+(0\\.0565) %') <= 0.61, L(1337, r'K 8 \\+(0\\.37) %') <= 0.61, L(1337, r'K 10 \\+(0\\.36) %') <= 0.61, L(1337, r'K 12 \\+(0\\.18) %') <= 0.61, L(1337, r'K 14 \\+(0\\.31) %') <= 0.61, L(1337, r'K 16 \\+0\\.007\\.\\.\\+(0\\.039) %') <= 0.61, L(1356, r'\\| Szego \\(copying\\) form alone \\(1348\\) \\| 0\\.94085 \\| \\+(1\\.175) %') <= 0.61])",
+  "why": "count of registered events whose rule-alone score is within 0.61 %: the 10 capacity events with form S (rp <= 1.2), the 10 NPMLE, LFP and annealing events, and the rp 3 18-ring rule-alone miss +1.175 % (1356), which is outside (same formula, abstract wording)"
+ },
+ {
+  "printed": "twenty",
+  "context": "twenty known capacity events",
+  "expr": "80-61+1",
+  "why": "events K_b = 61 to 80 inclusive",
+  "kind": "definition"
+ },
+ {
+  "printed": "20",
+  "context": "It reproduces $20$ capacity events",
+  "expr": "80-61+1",
+  "why": "events K_b = 61 to 80 inclusive",
+  "kind": "definition"
+ },
+ {
+  "printed": "0.09\\times 10^{-9}",
+  "context": "to within $0.09\\times 10^{-9}$",
+  "expr": "L(2016, r'With the quintic spline: births \\+[\\d.]+, -(0\\.0891)')*1e-9",
+  "why": "amendment 2016: order-16 deviations with the quintic spline, largest birth 0.0891e-9"
+ },
+ {
+  "printed": "0.64\\times 10^{-9}",
+  "context": "largest deviation of $0.64\\times 10^{-9}$",
+  "expr": "L(2225, r'largest deviation of (0\\.6399)e-9')*1e-9",
+  "why": "amendment 2225: block B131 largest deviation 0.6399e-9"
+ },
+ {
+  "printed": "0.5",
+  "context": "its bar $0.5$",
+  "expr": "L(1972, r'item S1 \\(< (0\\.5)e-9\\)')",
+  "why": "amendment 1972: item S1 bar 0.5e-9"
+ },
+ {
+  "printed": "2.4",
+  "context": "$2.4$ at $K_b = 61$",
+  "expr": "L(1962, r'The c50c stage D = 110: (2\\.374)')",
+  "why": "amendment 1962: residual at K_b 61 on the c50c stage D = 110"
+ },
+ {
+  "printed": "0.020",
+  "context": "$0.020$ at births",
+  "expr": "L(2016, r'by 0\\.004e-9 to (0\\.020)e-9')",
+  "why": "amendment 2016: the cubic spline errs at births by 0.004e-9 to 0.020e-9"
+ },
+ {
+  "printed": "71",
+  "context": "(T98) & 1820",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'step at K_b (71) is')",
+  "why": "amendment 1820: K_b 71"
+ },
+ {
+  "printed": "78",
+  "context": "(T116) & 1916",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'T116 FAILS BY THE LETTER at K_b (78)')",
+  "why": "amendment 1916: K_b 78"
+ },
+ {
+  "printed": "93",
+  "context": "NPMLE transition $K_b = 93$ & 2040",
+  "expr": "L(2040, r'False by 0\\.023e-9 at K_b (93)')",
+  "why": "amendment 2040: K_b 93"
+ },
+ {
+  "printed": "94",
+  "context": "capacity birth $K_b = 94$ & 2160",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'FAILS by the letter at the birth K_b (94)')",
+  "why": "amendment 2160: K_b 94"
+ },
+ {
+  "printed": "26",
+  "context": "$26$ of them across a change of $K$",
+  "expr": "L(2130, r'(\\d+) of them across a change of K')",
+  "why": "amendment 2130 (q1367): 26 of the 2665 pairs lie across a change of K"
+ },
+ {
+  "printed": "2639",
+  "context": "$2639$ inside a family",
+  "expr": "L(2139, r'separately: (\\d+) \\+ \\d+') + L(2139, r'separately: \\d+ \\+ (\\d+)')",
+  "why": "amendment 2139: the capacity pairs inside a family, 1129 odd plus 1510 even"
+ },
+ {
+  "printed": "54",
+  "context": "which we checked on $54$ certified states",
+  "expr": "T('temporal_within/small_gap_q206/q1789_out.txt', r'states used (\\d+),')",
+  "why": "q1789_out.txt: states used 54"
+ },
+ {
+  "printed": "41",
+  "context": "vacuous below $A\\approx 41$",
+  "expr": "T('temporal_within/AUDIT_EDGE_8B_9B.md', r'vacuous \\(> 1\\) for A <~ (41)')",
+  "why": "AUDIT_EDGE_8B_9B.md: with the proved constant H the explicit bound is vacuous for A below about 41"
+ },
+ {
+  "printed": "20",
+  "context": "prints rounded to 20 decimals",
+  "expr": "20",
+  "why": "format of the table cells (each cell matches the polished 40-digit state rounded to 20 decimals), as in the table caption",
+  "kind": "definition"
+ },
+ {
+  "printed": "0.37",
+  "context": "within $0.37\\%$",
+  "expr": "L(1337, r'K 8 \\+(0\\.37) %')",
+  "why": "amendment 1337: annealing bridge, K 8 is +0.37 percent, the largest of the five"
+ },
+ {
+  "printed": "1.8\\times 10^{-13}",
+  "context": "within $1.8\\times 10^{-13}$ nats",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'<= C <=\\s+(0\\.3906492301483360241)') - T('temporal_within/PREREG_Q32.md', r'(0\\.3906492301481604768) <= C')",
+  "why": "registration log: exact endpoints at the A1 point, 0.3906492301481604768 <= C <= 0.3906492301483360241, width 1.755e-13"
+ },
+ {
+  "printed": "27",
+  "context": "(27/(128\\pi^6))^{1/6}",
+  "expr": "27",
+  "why": "constant of the equation of Abbott and Machta read in noise units: rho^6 = 27 x^2/(128 pi^6) (their Eq. 13 balance, text of papers/abbott_machta_1710.09351.txt)",
+  "kind": "definition"
+ },
+ {
+  "printed": "0.3684",
+  "context": "=0.3684",
+  "expr": "1.5*(27/(128*math.pi**6))**(1/6)",
+  "why": "(3/2) (27/(128 pi^6))^(1/6) from the balance of the last two terms of Eq. (13) of Abbott and Machta"
+ },
+ {
+  "printed": "0.05",
+  "context": "step $0.05$ on the computed optima",
+  "expr": "L(1482, r'centred differences \\(R \\+- (0\\.05)\\)')",
+  "why": "amendment 1482: P1 uses a centred difference in R with R +- 0.05"
+ },
+ {
+  "printed": "16",
+  "context": "series to order $16$ still gives",
+  "expr": "L(1973, r'orders 5 to (16)')",
+  "why": "amendment 1973: derived series, orders 5 to 16"
+ },
+ {
+  "printed": "47",
+  "context": "each of the $47$ stored",
+  "expr": "L(1974, r'against the (47) stored capacity transitions')",
+  "why": "amendment 1974: 47 stored capacity transitions K_b 10 to 59"
+ },
+ {
+  "printed": "59",
+  "context": "$K_b = 10$ to $59$ within",
+  "expr": "L(1974, r'K_b 10 to (59) and the 40')",
+  "why": "amendment 1974: K_b 10 to 59"
+ },
+ {
+  "printed": "0.3\\times 10^{-9}",
+  "context": "bar of $0.3\\times 10^{-9}$",
+  "expr": "L(1973, r'bar = (0\\.3)e-9')*1e-9",
+  "why": "amendment 1973: bar = 0.3e-9 + 3 |a_16 - a_14|"
+ },
+ {
+  "printed": "14",
+  "context": "$14$ and $16$.",
+  "expr": "L(1973, r'3 \\|a_16 - a_(14)\\|')",
+  "why": "amendment 1973: the bar uses the change between the orders 14 and 16"
+ },
+ {
+  "printed": "16",
+  "context": "$14$ and $16$.",
+  "expr": "L(1973, r'3 \\|a_(16) - a_14\\|')",
+  "why": "amendment 1973: the bar uses the change between the orders 14 and 16"
+ },
+ {
+  "printed": "50",
+  "context": "Three of the $50$ values",
+  "expr": "59-10+1",
+  "why": "K_b = 10 to 59 inclusive",
+  "kind": "definition"
+ },
+ {
+  "printed": "0.39\\times 10^{-9}",
+  "context": "largest deviation is $0.39\\times 10^{-9}$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'largest \\|dev\\(16\\)\\| is (0\\.3907)e-9 for K_b 40 to 59 \\(cubic')*1e-9",
+  "why": "amendment 2038: quintic spline, largest deviation 0.3907e-9 for K_b 40 to 59"
+ },
+ {
+  "printed": "40",
+  "context": "for $K_b = 40$ to $59$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'for K_b (40) to 59 \\(cubic 0\\.3281')",
+  "why": "amendment 2038: K_b 40 to 59"
+ },
+ {
+  "printed": "59",
+  "context": "for $K_b = 40$ to $59$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'K_b 40 to (59) \\(cubic 0\\.3281')",
+  "why": "amendment 2038: K_b 40 to 59"
+ },
+ {
+  "printed": "5.8\\times 10^{-9}",
+  "context": "and $5.8\\times 10^{-9}$ for",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'(5\\.8169)e-9 for K_b 24 to 39')*1e-9",
+  "why": "amendment 2038: quintic spline, largest deviation 5.8169e-9 for K_b 24 to 39"
+ },
+ {
+  "printed": "24",
+  "context": "for $K_b = 24$ to $39$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'e-9 for K_b (24) to 39 \\(cubic')",
+  "why": "amendment 2038: K_b 24 to 39"
+ },
+ {
+  "printed": "39",
+  "context": "for $K_b = 24$ to $39$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'e-9 for K_b 24 to (39) \\(cubic')",
+  "why": "amendment 2038: K_b 24 to 39"
+ },
+ {
+  "printed": "17",
+  "context": "$17$ stored transitions",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'the (17) NPMLE transitions K_b 31 to 52')",
+  "why": "amendment 2038: 17 NPMLE transitions K_b 31 to 52 inside the bar"
+ },
+ {
+  "printed": "31",
+  "context": "in $K_b = 31$ to $52$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'transitions K_b (31) to 52')",
+  "why": "amendment 2038: K_b 31 to 52"
+ },
+ {
+  "printed": "52",
+  "context": "in $K_b = 31$ to $52$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'transitions K_b 31 to (52)')",
+  "why": "amendment 2038: K_b 31 to 52"
+ },
+ {
+  "printed": "22",
+  "context": "which holds $22$ values",
+  "expr": "52-31+1",
+  "why": "K_b = 31 to 52 inclusive",
+  "kind": "definition"
+ },
+ {
+  "printed": "23",
+  "context": "all $23$ deviations",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'the (23) NPMLE deviations at K_b 6 to 28')",
+  "why": "amendment 2038: 23 NPMLE deviations at K_b 6 to 28 are positive"
+ },
+ {
+  "printed": "28",
+  "context": "$K_b = 6$ to $28$ are positive",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'deviations at K_b 6 to (28) are positive')",
+  "why": "amendment 2038: K_b 6 to 28"
+ },
+ {
+  "printed": "0.4",
+  "context": "change to $0.4\\%$ in $\\ln R$",
+  "expr": "L(2071, r'constant to (0\\.4) percent')",
+  "why": "amendment 2071: the ratio for k = 1, 2, 3 is constant to 0.4 percent"
+ },
+ {
+  "printed": "54",
+  "context": "over $54$ events",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'for (54) events')",
+  "why": "amendment 2070: four parameters for 54 events"
+ },
+ {
+  "printed": "40",
+  "context": "events $K_b \\le 40$",
+  "expr": "L(2072, r'k = 1: 16 events \\(K_b 20 to (40),')",
+  "why": "amendment 2072: the k = 1 events lie at K_b 20 to 40"
+ },
+ {
+  "printed": "3.09",
+  "context": "The multipliers are $3.09$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'sigma_inf = (3\\.0927), 5\\.5523, 7\\.9014')",
+  "why": "amendment 2070: sigma_inf = 3.0927, 5.5523, 7.9014"
+ },
+ {
+  "printed": "5.55",
+  "context": "The multipliers are $3.09$, $5.55$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'sigma_inf = 3\\.0927, (5\\.5523), 7\\.9014')",
+  "why": "amendment 2070: sigma_inf = 3.0927, 5.5523, 7.9014"
+ },
+ {
+  "printed": "7.90",
+  "context": "$5.55$ and $7.90$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'sigma_inf = 3\\.0927, 5\\.5523, (7\\.9014)')",
+  "why": "amendment 2070: sigma_inf = 3.0927, 5.5523, 7.9014"
+ },
+ {
+  "printed": "28",
+  "context": "ten events $K_b = 28$ to $37$",
+  "expr": "L(2046, r'events K_b (28) to 37')",
+  "why": "amendment 2046: the ten k = 3 events K_b 28 to 37"
+ },
+ {
+  "printed": "37",
+  "context": "ten events $K_b = 28$ to $37$",
+  "expr": "L(2046, r'events K_b 28 to (37)')",
+  "why": "amendment 2046: the ten k = 3 events K_b 28 to 37"
+ },
+ {
+  "printed": "1.35",
+  "context": "was $1.35$ to $1.55$",
+  "expr": "L(2046, r'in \\[(1\\.35), 1\\.55\\]')",
+  "why": "amendment 2046: registered interval 1.35 to 1.55"
+ },
+ {
+  "printed": "1.55",
+  "context": "was $1.35$ to $1.55$",
+  "expr": "L(2046, r'in \\[1\\.35, (1\\.55)\\]')",
+  "why": "amendment 2046: registered interval 1.35 to 1.55"
+ },
+ {
+  "printed": "1.414",
+  "context": "ratio was $1.414$ to $1.424$",
+  "expr": "L(2051, r'R_3 / R_imm = (1\\.414) to 1\\.424')",
+  "why": "amendment 2051: measured ratio 1.414 to 1.424"
+ },
+ {
+  "printed": "1.424",
+  "context": "ratio was $1.414$ to $1.424$",
+  "expr": "L(2051, r'R_3 / R_imm = 1\\.414 to (1\\.424)')",
+  "why": "amendment 2051: measured ratio 1.414 to 1.424"
+ },
+ {
+  "printed": "0.9",
+  "context": "inside its registered band of $0.9\\%$",
+  "expr": "100*L(2054, r'\\(\\|m - 1\\.278\\| <= (0\\.012)\\)')/1.278",
+  "why": "amendment 2054: H_q registered with the band |m - 1.278| <= 0.012, that is 0.94 percent"
+ },
+ {
+  "printed": "1.5",
+  "context": "For $k = 1.5$, $2.5$ and $5$",
+  "expr": "L(2055, r'exponents k = (1\\.5) and 2\\.5')",
+  "why": "amendment 2055: held-out exponents k = 1.5 and 2.5, and k = 5"
+ },
+ {
+  "printed": "2.5",
+  "context": "For $k = 1.5$, $2.5$ and $5$",
+  "expr": "L(2055, r'k = 1\\.5 and (2\\.5) \\(interpolation\\)')",
+  "why": "amendment 2055: held-out exponents k = 1.5 and 2.5, and k = 5"
+ },
+ {
+  "printed": "0.1",
+  "context": "to $0.1\\%$ before they were computed",
+  "expr": "0.1 if max(L(2057, r'errors (0\\.06), 0\\.03 and 0\\.01 percent'), L(2057, r'errors 0\\.06, (0\\.03) and 0\\.01 percent'), L(2057, r'errors 0\\.06, 0\\.03 and (0\\.01) percent')) <= 0.1 else -1",
+  "why": "amendment 2057: errors of the predictions at k = 1.5, 2.5 and 5 are 0.06, 0.03 and 0.01 percent"
+ },
+ {
+  "printed": "243",
+  "context": "description of $243$ events",
+  "expr": "L(2076, r'over the ten exponents \\((243) events\\)')",
+  "why": "amendment 2076: 243 events of the ten exponents"
+ },
+ {
+  "printed": "15",
+  "context": "and $15\\%$, with an",
+  "expr": "L(2079, r'Bars 0\\.05, 0\\.05 and (0\\.15)')*100",
+  "why": "amendment 2079: bars 0.05, 0.05 and 0.15"
+ },
+ {
+  "printed": "16",
+  "context": "$k = 6$, $10$ and $16$ and passed",
+  "expr": "L(2079, r'k = (16): 17 of 19')",
+  "why": "amendment 2079: the blind exponents are k = 6, 10, 16"
+ },
+ {
+  "printed": "16",
+  "context": "overprediction of up to $8\\%$ at $k=16$",
+  "expr": "L(2079, r'k = (16): 17 of 19')",
+  "why": "amendment 2079: k = 16, ratio down to 0.917, an overprediction of 8.3 percent"
+ },
+ {
+  "printed": "0.75",
+  "context": "at $k=0.75$, $8$ and $12$",
+  "expr": "L(2072, r'for k = (0\\.75), 8 and 12')",
+  "why": "amendment 2072: the blind test of the linear laws at k = 0.75, 8, 12"
+ },
+ {
+  "printed": "0.75",
+  "context": "(blind, $k = 0.75$",
+  "expr": "L(2072, r'for k = (0\\.75), 8 and 12')",
+  "why": "amendment 2072: the blind test of the linear laws at k = 0.75, 8, 12"
+ },
+ {
+  "printed": "1.7",
+  "context": "within $1.7\\%$ of the prediction",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'hold at k = 0\\.75 within (1\\.7) percent')",
+  "why": "amendment 2075: k = 0.75 holds within 1.7 percent"
+ },
+ {
+  "printed": "1.07",
+  "context": "ran from $1.07$ to $1.14$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'8\\.0: (1\\.068)-1\\.140')",
+  "why": "amendment 2075: ratio range at k = 8 is 1.068 to 1.140"
+ },
+ {
+  "printed": "1.14",
+  "context": "ran from $1.07$ to $1.14$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'8\\.0: 1\\.068-(1\\.140)')",
+  "why": "amendment 2075: ratio range at k = 8 is 1.068 to 1.140"
+ },
+ {
+  "printed": "1.19",
+  "context": "from $1.19$ to $1.43$",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'12\\.0: (1\\.189)-1\\.431')",
+  "why": "amendment 2075: ratio range at k = 12 is 1.189 to 1.431"
+ },
+ {
+  "printed": "15",
+  "context": "$15\\%$. The test failed",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'within 10 and (15) percent')",
+  "why": "amendment 2075: the bars at k = 8 and 12 are 10 and 15 percent"
+ },
+ {
+  "printed": "0.032",
+  "context": "rises from $0.032$ to $0.64$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1356_out.txt', r'\\n 20 +[\\d.]+ +(0\\.0317)')",
+  "why": "q1356_out.txt: the capacity residual over D_a at K_b 20 on the converged (degree 17) states"
+ },
+ {
+  "printed": "0.64",
+  "context": "rises from $0.032$ to $0.64$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1356_out.txt', r'\\n 45 +[\\d.]+ +(0\\.6399)')",
+  "why": "q1356_out.txt: the capacity residual over D_a at K_b 45 on the converged (degree 17) states"
+ },
+ {
+  "printed": "20",
+  "context": "$K_b = 20$ to $45$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1356_out.txt', r'\\n (20) +[\\d.]+ +0\\.0317')",
+  "why": "q1356_out.txt: K_b 20"
+ },
+ {
+  "printed": "45",
+  "context": "$K_b = 20$ to $45$",
+  "expr": "T('temporal_within/scratchpad_archive_729e03fd/q1356_out.txt', r'\\n (45) +[\\d.]+ +0\\.6399')",
+  "why": "q1356_out.txt: K_b 45"
+ },
+ {
+  "printed": "0.10",
+  "context": "gives $0.10$ to $0.18$",
+  "expr": "L(2085, r'tends to (0\\.10) to 0\\.18')",
+  "why": "amendment 2085: the free-edge family tends to 0.10 to 0.18"
+ },
+ {
+  "printed": "0.18",
+  "context": "gives $0.10$ to $0.18$",
+  "expr": "L(2085, r'tends to 0\\.10 to (0\\.18)')",
+  "why": "amendment 2085: the free-edge family tends to 0.10 to 0.18"
+ },
+ {
+  "printed": "29",
+  "context": "at $K_b = 29$ to $37$",
+  "expr": "L(2085, r'at K_b (29) to 37')",
+  "why": "amendment 2085: K_b 29 to 37"
+ },
+ {
+  "printed": "37",
+  "context": "at $K_b = 29$ to $37$",
+  "expr": "L(2085, r'at K_b 29 to (37)')",
+  "why": "amendment 2085: K_b 29 to 37"
+ },
+ {
+  "printed": "0.34",
+  "context": "gives $0.34$ to $0.52$",
+  "expr": "L(2085, r'values \\((0\\.34) to 0\\.52 at K_b')",
+  "why": "amendment 2085: capacity values 0.34 to 0.52"
+ },
+ {
+  "printed": "0.52",
+  "context": "gives $0.34$ to $0.52$",
+  "expr": "L(2085, r'values \\(0\\.34 to (0\\.52) at K_b')",
+  "why": "amendment 2085: capacity values 0.34 to 0.52"
+ },
+ {
+  "printed": "0.00087",
+  "context": "an rms of $0.00087$",
+  "expr": "L(2122, r'all-data rms (0\\.00087), largest relative')",
+  "why": "amendment 2122: all-data rms 0.00087"
+ },
+ {
+  "printed": "fourteen",
+  "context": "over fourteen exponents",
+  "expr": "len(re.findall(r'\\d+\\.?\\d*', re.search(r'events for k = ([^)]*)\\)', AT(2122)).group(1)))",
+  "why": "amendment 2122: the exponents k = 0.02, 0.05, 0.052, 0.054, 0.056, 0.058, 0.06, 0.075, 0.09, 0.1, 0.25, 0.35, 0.5, 0.75 (fourteen)"
+ },
+ {
+  "printed": "0.15",
+  "context": "exponents $k = 0.15$",
+  "expr": "L(2123, r'k = (0\\.15): K_b 14-32')",
+  "why": "amendment 2123: the new exponents are k = 0.15, 0.4, 0.6"
+ },
+ {
+  "printed": "0.0035",
+  "context": "within $0.0035$",
+  "expr": "L(2123, r'largest \\|R / Da - prediction\\| (0\\.0035) \\(degree 19')",
+  "why": "amendment 2123: largest deviation 0.0035"
+ },
+ {
+  "printed": "0.006",
+  "context": "bar of $0.006$",
+  "expr": "L(2123, r'the bar (0\\.006) for both interpolants')",
+  "why": "amendment 2123: bar 0.006"
+ },
+ {
+  "printed": "1.7",
+  "context": "$1.7\\%$ of the prediction",
+  "expr": "T('temporal_within/PREREG_Q32.md', r'hold at k = 0\\.75 within (1\\.7) percent')",
+  "why": "amendment 2075: k = 0.75 holds within 1.7 percent"
+ },
+ {
+  "printed": "0.4",
+  "context": "$k = 0.15$, $0.4$ and $0.6$",
+  "expr": "L(2122, r'k = 0\\.15, (0\\.4), 0\\.6 at K_b 14 to 45')",
+  "why": "amendment 2122: the blind exponents are k = 0.15, 0.4, 0.6"
+ },
+ {
+  "printed": "0.6",
+  "context": "$k = 0.15$, $0.4$ and $0.6$",
+  "expr": "L(2122, r'k = 0\\.15, 0\\.4, (0\\.6) at K_b 14 to 45')",
+  "why": "amendment 2122: the blind exponents are k = 0.15, 0.4, 0.6"
+ }
+]

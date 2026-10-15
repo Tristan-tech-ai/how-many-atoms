@@ -1,0 +1,10 @@
+[    0 s] state results_q206_gauss_K40_A29.85.json K 40 A 29.850000000000001421 grid 13970 points from -69.850000 to 69.840000
+[   30 s] polished: ok True residual 2.88e-161
+[   32 s] strip: boxes 6985 of [0, Y], largest tau 0.088210; tau_A(Y) [4.5076e-91 +/- 2.69e-97]; C1 True
+[   32 s] g(Y) 1.526e-328; M tail 7.825e-330; grid truncation 1.088e-329
+[   32 s] eps_F 8.3610e-132, eps_J 2.9979e-134; rows widened by 1.6722e-131, entries by 8.4209e-132
+[   43 s] Krawczyk: largest |K(X) - v0| 6.8772e-123 against r = 1e-110; inclusion True; smallest mass in X 1.856279e-02; C2 True
+[   44 s] minors over the box: X1 True, X2 True (380 initial minors, 0 not certainly positive); C3 True
+[   45 s] eps_G 1.3760e-31 (window tail 1.38e-31, far window 2.45e-619); C5 True
+[   86 s] certificate: atom zones 19 passed, 0 failed; wall True; boxes 1083; gap failures 0 (certified positive False); left 0; largest upper bound of D - C -3.5600e-19; C4 True
+VERDICT q1882: PASS

@@ -1,0 +1,9 @@
+cells certified or examined: 112; endpoint evaluations: 85; seconds 18
+smallest certified lower bound on a cell: 9.7101e-12
+K(0.0) in [9.5523507e-7 +/- 3.26e-15]; K'(0.0) in [-0.28619452 +/- 6.72e-10]
+K(-0.25) in [0.054437514 +/- 4.81e-10]; K'(-0.25) in [-0.15424220 +/- 3.89e-9]
+K(-4.0) in [0.00054336525 +/- 4.79e-12]; K'(-4.0) in [0.0025537274 +/- 2.68e-11]
+K(-14.0) in [9.7101264e-12 +/- 4.64e-20]; K'(-14.0) in [4.6336946e-11 +/- 5.72e-20]
+tail lemma: s_3 <= -g True; nu_1 >= sqrt(2 pi) True; -X0 <= 2T + g = [-7.56617 +/- 3.21e-6] True; P(-X0) = [2.0092e-12 +/- 4.26e-17], N(-X0) = [8.9511e-15 +/- 2.54e-20]
+dual value 2(sum nu - g) = [4.015690000 +/- 1e-14]
+VERDICT q1876: PASS

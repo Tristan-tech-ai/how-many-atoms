@@ -1,0 +1,5 @@
+(30, 60): exact 1.812323e-18, signed response 1.8123228e-18, ratio 1.0; sum of absolute terms 5.497e-14; atoms carrying 90 percent of it: 5; largest terms at k = [32, 34, 33, 31]
+(60, 90): exact 1.5348673e-23, signed response 1.5331097e-23, ratio 0.998855; sum of absolute terms 2.756e-16; atoms carrying 90 percent of it: 5; largest terms at k = [63, 65, 62, 66]
+(90, 120): exact 8.3076329e-28, signed response 4.605412e-28, ratio 0.554359; sum of absolute terms 2.066e-18; atoms carrying 90 percent of it: 6; largest terms at k = [93, 96, 94, 95]
+P1 holds; P2 does not hold; P3 holds; P4 holds
+READING q1604 done (labels by the script; no verdict word)

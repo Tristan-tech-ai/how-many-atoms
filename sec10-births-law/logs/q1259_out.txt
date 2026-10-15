@@ -1,0 +1,6 @@
+control: delta at K_b 81 0.1089e-9 (0.109): True
+delta (first - corrected) at the splits (1e-9): 61: +0.0000, 63: +0.0062, 65: +0.0711, 67: +0.0226, 69: +0.0781, 71: +0.0380, 73: +0.0066, 75: +0.0598, 77: +0.0709, 79: -0.0003, 81: +0.1089
+T98 step at K_b 71: printed 2.68e-9, corrected 2.642e-9 (band upper edge 2.6e-9: still above True)
+T116 ratio at K_b 78: printed 1.1917, corrected 1.1932 (band upper edge 1.19: still above True)
+T143 ratio at K_b 79: printed 1.2015, corrected 1.2015 (band 1.185 to 1.215: still inside True)
+READING q1259 (no verdict)

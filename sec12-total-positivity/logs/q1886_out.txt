@@ -1,0 +1,39 @@
+=== state results_q207_gauss_K40_A30.1191.json
+[    0 s] state results_q207_gauss_K40_A30.1191.json K 40 A 30.11911843710044 grid 28048 points from -70.119118 to 70.115882
+[   43 s] polished: ok True residual 5.40e-144
+[   46 s] strip: boxes 7012 of [0, Y], largest tau 0.087949; tau_A(Y) [4.5076e-91 +/- 2.28e-96]; C1 True
+[   46 s] g(Y) 1.575e-328; M tail 8.075e-330; grid truncation 9.649e-330
+[   46 s] eps_F 3.1306e-268, eps_J 1.1034e-270; rows widened by 6.2612e-268, entries by 3.1527e-268
+[   67 s] Krawczyk: largest |K(X) - v0| 1.3965e-137 against r = 1e-110; inclusion False; smallest mass in X 1.949843e-02; C2 False
+[   67 s] minors over the box: X1 True, X2 True (380 initial minors, 0 not certainly positive); C3 True
+[   68 s] eps_G 1.3305e-31 (window tail 1.33e-31, far window 2.03e-619); C5 True
+[   68 s] certificate not run: the state is not marked OPTIMAL
+VERDICT q1882: FAIL
+state verdict: results_q207_gauss_K40_A30.1191.json FAIL
+=== state results_q207_gauss_K70_A46.5787.json
+[    0 s] state results_q207_gauss_K70_A46.5787.json K 70 A 46.5787 grid 34632 points from -86.578700 to 86.576300
+[  131 s] polished: ok True residual 6.37e-164
+[  137 s] strip: boxes 8658 of [0, Y], largest tau 0.087846; tau_A(Y) [4.5076e-91 +/- 5.57e-97]; C1 True
+[  137 s] g(Y) 8.789e-328; M tail 4.507e-329; grid truncation 5.386e-329
+[  137 s] eps_F 1.1225e-267, eps_J 1.6503e-270; rows widened by 2.2450e-267, entries by 1.1258e-267
+[  190 s] Krawczyk: largest |K(X) - v0| 3.9213e-156 against r = 1e-110; inclusion True; smallest mass in X 1.110843e-02; C2 True
+[  190 s] minors over the box: X1 True, X2 True (1190 initial minors, 0 not certainly positive); C3 True
+[  194 s] eps_G 1.3312e-31 (window tail 1.33e-31, far window 2.03e-619); C5 True
+[  194 s] certificate not run: the state is not marked OPTIMAL
+VERDICT q1882: PASS
+state verdict: results_q207_gauss_K70_A46.5787.json PASS
+=== state results_q206_gauss_K80_A51.513057.json
+[    0 s] state results_q206_gauss_K80_A51.513057.json K 80 A 51.513057000000003427 grid 36606 points from -91.513057 to 91.511943
+[  162 s] polished: ok True residual 4.36e-173
+[  169 s] strip: boxes 9152 of [0, Y], largest tau 0.089063; tau_A(Y) [4.5076e-91 +/- 5.57e-97]; C1 True
+[  169 s] g(Y) 1.379e-327; M tail 7.074e-329; grid truncation 8.454e-329
+[  169 s] eps_F 1.5110e-267, eps_J 1.8085e-270; rows widened by 3.0219e-267, entries by 1.5146e-267
+[  236 s] Krawczyk: largest |K(X) - v0| 9.2463e-164 against r = 1e-110; inclusion True; smallest mass in X 9.572173e-03; C2 True
+[  236 s] minors over the box: X1 True, X2 True (1560 initial minors, 0 not certainly positive); C3 True
+[  241 s] eps_G 1.3314e-31 (window tail 1.33e-31, far window 2.03e-619); C5 True
+[  241 s] certificate not run: the state is not marked OPTIMAL
+VERDICT q1882: PASS
+state verdict: results_q206_gauss_K80_A51.513057.json PASS
+summary: K40_A30.1191 FAIL, K70_A46.5787 PASS, K80_A51.513057 PASS
+VERDICT q1886: FAIL
+exit 1

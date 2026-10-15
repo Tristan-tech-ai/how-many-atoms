@@ -1,0 +1,6 @@
+control: a_pred(mp) - a_pred(float64) at K_b 83, 106, 130: -5.98e-15, -8.64e-15, +7.12e-15
+nmax = 14 (mp): pair (-0.0937736508493, 0.0011599160194), in-sample rms 5.3531e-14
+nmax = 18 (mp): pair (-0.0937736508345, 0.0011599160062), in-sample rms 1.4921e-13
+nmax = 20 (mp): pair (-0.0937736508338, 0.0011599160055), in-sample rms 1.6204e-13
+P1 rms at nmax 18 within 10 percent of the float64 value: holds; P2 sequence non-monotone as in float64 within 10 percent: does not hold; P3 mp pair within 5e-12 of the float64 pair: holds; control: holds
+READING q1670 done (labels by the script; no verdict word)

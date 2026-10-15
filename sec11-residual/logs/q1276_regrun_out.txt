@@ -1,0 +1,6 @@
+control c1 (item functions): True; c2 (quintic vs septic, max relative 0.00231): True; c3 (D = 80 vs 92, max relative 4.60e-06): True; c4 (chain bit-identical, NPMLE reference exact): True; c5 (all v^2 in range): True; c6 (offsets smooth in k): True
+k 1.5: base law 0.01758, 0.11577; v^2 97.74 to 108.63; predicted R 30.6063, 21.7574, 15.5502, 11.1512, 8.0375, 5.8215, 4.2349, 3.0895
+k 2.5: base law 0.36935, 0.04508; v^2 97.98 to 108.84; predicted R 45.2082, 32.1637, 22.9982, 16.5045, 11.9045, 8.6280, 6.2791, 4.5829
+k 5.0: base law 0.87512, -0.07393; v^2 98.37 to 109.19; predicted R 76.5279, 54.5197, 39.0133, 28.0320, 20.2430, 14.6873, 10.6960, 7.8126
+sha256 841287ceb87c8e9da1941dfeaff9f7a115982ef045c14789e70bff0efdfedd1c
+REGISTRATION-RUN q1276: controls True, table and run1276.sh written

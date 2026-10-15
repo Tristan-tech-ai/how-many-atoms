@@ -1,0 +1,3 @@
+control: capacity K_b 80 a_16 51.484240309367, v 12.648: True
+capacity K_b 61-80: v 11.820 to 12.648; NPMLE K_b 54-66: v 11.508 to 12.092
+READING q1258 (no verdict)

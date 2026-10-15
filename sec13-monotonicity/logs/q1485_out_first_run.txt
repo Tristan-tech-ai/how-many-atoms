@@ -1,0 +1,15 @@
+eps 1e-10: row failed: did not converge: {float(res)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: newton did not converge: 2.7873568768189135e-09
+
+dump failed
+
+eps 1e-08: row failed:  did not converge: {float(res)}")
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: newton did not converge: 4.678680250070945e-09
+
+dump failed
+
+stored row K = 110: PN 1.052900665788294 Re 1.077184907723202; state file results_q1411_gauss_K110_A65.770293.json
+eps 0e+00: PN 1.052900665788294 Re 1.077184907723202 control_ok True; Delta PN +0.00e+00, Delta Re +0.00e+00
+READING q1485: SENSITIVE or not decided: see the gradients above

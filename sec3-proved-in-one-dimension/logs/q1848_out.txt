@@ -1,0 +1,5 @@
+H1 control 2 kappa: True
+H2 feasible True; B at 50 digits 3.979664622053985265; 30 vs 50 -3.1e-31 (H3 True); H4 True; negative control B 3.73145286017 (H5 True)
+lower bound of liminf (e^(C+h_1) - 2A) from this configuration: 3.979664622
+VERDICT q1848: PASS
+exit 0

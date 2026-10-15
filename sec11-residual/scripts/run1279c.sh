@@ -1,0 +1,19 @@
+#!/bin/bash
+# run1279c.sh (8 Oct 2026): data acquisition, K_b 38 to 52, start a0 = a_med - 0.004 (q1279_extend_prepare.py)
+cd "./centre_scripts"
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 38 19 160 28.722849 0.003 u1279_k5_K38 > q607_u1279_k5_K38.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 39 19 160 29.314430 0.003 u1279_k5_K39 > q607_u1279_k5_K39.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 40 20 160 29.902341 0.003 u1279_k5_K40 > q607_u1279_k5_K40.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 41 20 160 30.486695 0.003 u1279_k5_K41 > q607_u1279_k5_K41.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 42 21 160 31.067597 0.003 u1279_k5_K42 > q607_u1279_k5_K42.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 43 21 160 31.645146 0.003 u1279_k5_K43 > q607_u1279_k5_K43.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 44 22 160 32.219439 0.003 u1279_k5_K44 > q607_u1279_k5_K44.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 45 22 160 32.790564 0.003 u1279_k5_K45 > q607_u1279_k5_K45.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 46 23 160 33.358609 0.003 u1279_k5_K46 > q607_u1279_k5_K46.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 47 23 160 33.923654 0.003 u1279_k5_K47 > q607_u1279_k5_K47.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 48 24 160 34.485778 0.003 u1279_k5_K48 > q607_u1279_k5_K48.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 49 24 160 35.045054 0.003 u1279_k5_K49 > q607_u1279_k5_K49.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 50 25 160 35.601555 0.003 u1279_k5_K50 > q607_u1279_k5_K50.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 51 25 160 36.155347 0.003 u1279_k5_K51 > q607_u1279_k5_K51.log 2>&1
+env KEXP=5 HL_JSON=c33_k5c.json HL_STAGE=92 D0=0.87512 NU0=-0.07393 py c35_chain_k.py 52 26 160 36.706496 0.003 u1279_k5_K52 > q607_u1279_k5_K52.log 2>&1
+echo done $(date +%H:%M:%S) > run1279c.done

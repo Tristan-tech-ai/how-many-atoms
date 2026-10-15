@@ -1,0 +1,10 @@
+[    0 s] state tower/K65/results_q220_gauss_K65_A43.4453.json K 65 A 43.445315 grid 16690
+[   55 s] polished: ok True residual 1.77e-173
+[   60 s] strip: boxes 8345, largest tau 0.089700; tau_A(Y) [4.5076e-91 +/- 5.57e-97]; E1 True
+[   60 s] eps_F 2.5039e-131, eps_J 4.2349e-134
+[   85 s] Krawczyk inclusion True; smallest mass in X 9.770658e-03; E2 True
+[   85 s] flow over the box: dw_0/dA = [0.0158078695756 +/- 4.16e-14] (relative radius 1.72e-95); du_1/dA = [1.16459124597 +/- 2.47e-12]; all du_i/dA certainly > 0: True; any certainly < 0: False
+[   85 s] relative growth (dw_0/dA)/w_0 = 1.6178920
+[   85 s] negative control (b -> -b): sign of dw_0/dA -1 against 1; control True
+VERDICT q1891: PASS
+exit 0

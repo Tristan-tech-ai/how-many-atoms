@@ -1,0 +1,12 @@
+K_b 28: R_3 +72.6914e-9 (predicted 74.2820), R_imm 51.4260, R_NPMLE 28.6944, R_3/R_imm 1.4135, R_3/R_NPMLE 2.5333, d3 -0.0690
+K_b 29: R_3 +51.7263e-9 (predicted 52.7560), R_imm 36.5234, R_NPMLE 20.3033, R_3/R_imm 1.4163, R_3/R_NPMLE 2.5477, d3 -0.0669
+K_b 30: R_3 +36.9067e-9 (predicted 37.5656), R_imm 26.0070, R_NPMLE 14.4497, R_3/R_imm 1.4191, R_3/R_NPMLE 2.5542, d3 -0.0603
+K_b 31: R_3 +26.3443e-9 (predicted 26.8297), R_imm 18.5744, R_NPMLE 10.3340, R_3/R_imm 1.4183, R_3/R_NPMLE 2.5493, d3 -0.0605
+K_b 32: R_3 +18.9195e-9 (predicted 19.2665), R_imm 13.3384, R_NPMLE 7.4183, R_3/R_imm 1.4184, R_3/R_NPMLE 2.5504, d3 -0.0607
+K_b 33: R_3 +13.7033e-9 (predicted 13.9363), R_imm 9.6482, R_NPMLE 5.3523, R_3/R_imm 1.4203, R_3/R_NPMLE 2.5603, d3 -0.0594
+K_b 34: R_3 +9.9487e-9 (predicted 10.1063), R_imm 6.9967, R_NPMLE 3.8802, R_3/R_imm 1.4219, R_3/R_NPMLE 2.5640, d3 -0.0557
+K_b 35: R_3 +7.2381e-9 (predicted 7.3516), R_imm 5.0896, R_NPMLE 2.8243, R_3/R_imm 1.4221, R_3/R_NPMLE 2.5628, d3 -0.0544
+K_b 36: R_3 +5.2903e-9 (predicted 5.3704), R_imm 3.7180, R_NPMLE 2.0617, R_3/R_imm 1.4229, R_3/R_NPMLE 2.5660, d3 -0.0533
+K_b 37: R_3 +3.8851e-9 (predicted 3.9399), R_imm 2.7276, R_NPMLE 1.5103, R_3/R_imm 1.4244, R_3/R_NPMLE 2.5725, d3 -0.0517
+located 10 of 10; item T1: True; item T2: True
+VERDICT q1271 linear-in-k class: PASS; located 10 of 10; T1 True; T2 True

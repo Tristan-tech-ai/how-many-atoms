@@ -1,0 +1,6 @@
+a_inf - A (1e-12), K_b 61..69: 61 +0.72, 62 +0.33, 63 +0.37, 64 +0.04, 65 +0.23, 66 +0.12, 67 +0.10, 68 -0.34, 69 +0.07
+a_inf - A (1e-12), K_b 70..82: 70 -0.31, 71 +0.00, 72 -0.15, 73 +11.10, 74 -0.43, 75 -0.07, 76 -0.09, 77 -0.08, 78 -0.48, 79 +0.06, 80 -0.05, 81 -0.05, 82 +0.00
+a_inf - A (1e-12), K_b 131..138: 131 -0.057, 132 -0.043, 133 +0.000, 134 +0.014, 135 -0.057, 137 +0.000, 138 +0.057; the law through c28 alone: 131 -0.256, 132 -0.256, 133 -0.256, 134 -0.270, 135 -0.313, 137 -0.327, 138 -0.327
+rms over K_b 83..130: a_inf 8.786e-14, law through c28 alone 1.522e-13; rho range over all events -3.000 to 0.833 (K_b 61..82: 0.391 to 0.434)
+P1 K_b 61..69 below 2e-12: holds; P2 K_b 70..82 without 73 below 1e-12: holds; P3 rms over K_b 83..130 below 3e-13: holds; P4 K_b 131..138 within 5e-13: holds; control: does not hold
+READING q1688 done (labels by the script; no verdict word)

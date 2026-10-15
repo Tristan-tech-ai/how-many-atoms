@@ -1,0 +1,8 @@
+N = 90: pair change on 30..60: delta d0 +7.2353e-08, delta nu0 -6.1967e-08; rest rms 4.717e-11, largest 1.502e-10; sign changes between consecutive atoms 0.067; cubic remainder rms 6.189e-12 (ratio 0.131)
+   rest r_k in units of 1e-11 at k = 30, 33, ..., 60: +15.0 +1.4 -4.2 -5.7 -5.1 -3.3 -1.0 +1.4 +3.4 +3.9 +0.3
+N = 120: pair change on 30..60: delta d0 +7.2630e-08, delta nu0 -6.2242e-08; rest rms 5.487e-11, largest 1.659e-10; sign changes between consecutive atoms 0.067; cubic remainder rms 9.083e-12 (ratio 0.166)
+   rest r_k in units of 1e-11 at k = 30, 33, ..., 60: +16.6 +2.3 -3.9 -6.0 -5.9 -4.5 -2.6 -0.3 +2.2 +4.6 +7.1
+   N = 120 pair fitted on 60..90: delta d0 +7.1335e-08, delta nu0 -6.0601e-08, rest rms 1.075e-10; on 45..75: delta d0 +7.4534e-08, delta nu0 -6.4282e-08; spread of delta d0 over the three windows 3.20e-09
+correlation of the rests of N = 90 and N = 120 on k = 30..60: 0.9487; rms ratio (120 over 90) 1.163
+P1 correlation above 0.9 and rms ratio in [0.8, 1.25]: holds; P2 sign changes below 0.3: holds; P3 cubic remainder below 0.2 of the rest: holds; P4 pair on 60..90 differs by more than 1e-9 in d0: holds
+READING q1612 done (labels by the script; no verdict word)

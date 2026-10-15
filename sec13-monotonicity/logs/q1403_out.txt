@@ -1,0 +1,6 @@
+control forced-limit recovers L = 1 sequence: OK ; rejects L = 1.04 sequence: FAILED
+even P/N: limit 1 forced: a 0.1595, p 0.2371, rms 2.69e-05 | free limit: L 1.03880, p 0.718, rms 1.41e-05 | rms ratio 1.9
+even R_e: limit 1 forced: a 0.2013, p 0.2061, rms 3.50e-05 | free limit: L 1.05954, p 0.718, rms 1.72e-05 | rms ratio 2.0
+odd P/N: limit 1 forced: a 0.1073, p 0.1735, rms 1.83e-05 | free limit: L 1.02316, p 0.317, rms 1.80e-05 | rms ratio 1.0
+odd R_e: limit 1 forced: a 0.1724, p 0.1805, rms 2.13e-05 | free limit: L 1.05891, p 0.691, rms 4.60e-06 | rms ratio 4.6
+READING q1403 done

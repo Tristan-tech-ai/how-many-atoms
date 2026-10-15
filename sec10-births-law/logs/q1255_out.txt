@@ -1,0 +1,6 @@
+control (cubic maximum 0.4510e-9 at K_b 40, 17 events): True
+k = 3: max |dev_med| = 4.510e-10 (0.4510e-9) at K_b 40
+k = 5: max |dev_med| = 2.013e-10 (0.2013e-9) at K_b 40
+k = 7: max |dev_med| = 2.049e-10 (0.2049e-9) at K_b 40
+k = 9: max |dev_med| = 2.044e-10 (0.2044e-9) at K_b 40
+READING q1255 (no verdict)

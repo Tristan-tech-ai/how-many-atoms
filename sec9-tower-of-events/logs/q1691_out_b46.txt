@@ -1,0 +1,8 @@
+K_b 136: a_inf - A = +0.000e+00 (bar holds)
+K_b 139: a_inf - A = +7.105e-14 (bar holds)
+K_b 140: a_inf - A = +2.842e-14 (bar holds)
+K_b 141: a_inf - A = +2.842e-14 (bar holds)
+K_b 142: a_inf - A = +5.684e-14 (bar holds)
+K_b 143: a_inf - A = +5.684e-14 (bar holds)
+K_b 144: a_inf - A = +4.263e-14 (bar holds)
+READING q1691 done (labels by the script; no verdict word)

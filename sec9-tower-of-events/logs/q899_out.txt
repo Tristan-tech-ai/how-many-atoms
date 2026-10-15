@@ -1,0 +1,4 @@
+K 50: 13 states, A 35.5000-35.7400; C1 violations 0 -> PASS; C2 innermost mass 0.01442 -> 0.01529 PASS; C3 median |e| last 0.0003 (first 0.0001) PASS; C4 w 0.9987 PASS; total mass of the last state 1.000000 => PASS
+K 60: 19 states, A 40.9000-41.2000; C1 violations 0 -> PASS; C2 innermost mass 0.01169 -> 0.01273 PASS; C3 median |e| last 0.0002 (first 0.0003) PASS; C4 w 0.9991 PASS; total mass of the last state 1.000000 => PASS
+K 70: 6 states, A 46.3837-46.4337; C1 violations 0 -> PASS; C2 innermost mass 0.01081 -> 0.01090 PASS; C3 median |e| last 0.0002 (first 0.0001) PASS; C4 w 0.9993 PASS; total mass of the last state 1.000000 => PASS
+CAPACITY VERDICT: PASS

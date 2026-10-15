@@ -1,0 +1,6 @@
+control: largest difference of the float NG = 10 depths from the arb formal depths for k = 1..121: 4.26e-14
+e_k = d^(12) - d^(10) at k = 1, 10, 30, 45, 60, 90, 120: +2.73e-03 +9.14e-08 +4.65e-10 +6.62e-11 +1.67e-11 +2.40e-12 +5.97e-13
+N = 90: law c20: pair (-0.093773648, +0.001159913), rest rms 4.717e-11; law c24: pair (-0.093773650, +0.001159915), rest rms 1.528e-11 (ratio 0.324); e_k own-pair rest rms 4.537e-11; combination distance to the limit pair 1.118e-08 (c20) and 1.111e-08 (c24)
+N = 120: law c20: pair (-0.093773648, +0.001159914), rest rms 5.487e-11; law c24: pair (-0.093773650, +0.001159916), rest rms 9.521e-12 (ratio 0.174); e_k own-pair rest rms 4.537e-11; combination distance to the limit pair 1.120e-08 (c20) and 1.112e-08 (c24)
+P1 control below 1e-12: holds; P2 rest ratio below 0.5 for both blocks: holds; P3 combination closer to the limit pair with c24: holds; P4 rms of e_k after its own pair fit in [1e-11, 3e-10]: holds
+READING q1613 done (labels by the script; no verdict word)

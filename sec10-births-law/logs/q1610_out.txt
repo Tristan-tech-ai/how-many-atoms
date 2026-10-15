@@ -1,0 +1,28 @@
+round 0: pair (-0.0937735860, +0.0011598410); fit corrections delta d0 +7.235e-08, delta nu0 -6.197e-08; rms of the rest 4.72e-11; largest deviation 1.68e-08 [0s]
+  Newton update 1 residual before 6.08e-09 damping 1.0
+  Newton update 2 residual before 3.77e-17 damping 1.0
+  Newton update 3 residual before 2.35e-23 damping 1.0
+  Newton update 4 residual before 1.36e-30 damping 1.0
+  Newton update 5 residual before 1.99e-44 damping 1.0
+   Newton for the new pair: 5 updates, residuals 6.1e-09, 3.8e-17, 2.3e-23, 1.4e-30, 2.0e-44, 5.9e-73
+round 1: pair (-0.0937736480, +0.0011599134); fit corrections delta d0 +2.880e-10, delta nu0 -2.884e-10; rms of the rest 5.46e-11; largest deviation 1.46e-10 [111s]
+  Newton update 1 residual before 1.50e-11 damping 1.0
+  Newton update 2 residual before 2.27e-22 damping 1.0
+  Newton update 3 residual before 2.85e-29 damping 1.0
+  Newton update 4 residual before 1.32e-44 damping 1.0
+   Newton for the new pair: 4 updates, residuals 1.5e-11, 2.3e-22, 2.8e-29, 1.3e-44, 3.9e-74
+round 2: pair (-0.0937736483, +0.0011599136); fit corrections delta d0 +6.968e-13, delta nu0 -7.026e-13; rms of the rest 5.46e-11; largest deviation 1.65e-10 [200s]
+  Newton update 1 residual before 3.51e-14 damping 1.0
+  Newton update 2 residual before 1.25e-27 damping 1.0
+  Newton update 3 residual before 1.22e-37 damping 1.0
+  Newton update 4 residual before 1.92e-60 damping 1.0
+   Newton for the new pair: 4 updates, residuals 3.5e-14, 1.2e-27, 1.2e-37, 1.9e-60, 1.2e-75
+round 3: pair (-0.0937736483, +0.0011599136); fit corrections delta d0 -1.374e-14, delta nu0 +1.348e-14; rms of the rest 5.46e-11; largest deviation 1.65e-10 [288s]
+  Newton update 1 residual before 7.77e-16 damping 1.0
+  Newton update 2 residual before 6.12e-31 damping 1.0
+  Newton update 3 residual before 4.78e-43 damping 1.0
+   Newton for the new pair: 3 updates, residuals 7.8e-16, 6.1e-31, 4.8e-43, 7.1e-71
+round 4: pair (-0.0937736483, +0.0011599136); fit corrections delta d0 -5.265e-15, delta nu0 +4.489e-15; rms of the rest 5.46e-11; largest deviation 1.65e-10 [356s]
+final pair (nu0, d0) = (-0.093773648256, 0.001159913641); differences to the limit pair of reading 74: -5.626e-08, +6.464e-08
+P1 holds; P2 does not hold; P3 holds; P4 holds
+READING q1610 done (labels by the script; no verdict word)

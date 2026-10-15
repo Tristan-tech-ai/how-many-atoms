@@ -6,7 +6,7 @@ import os, json
 HERE = os.path.dirname(os.path.abspath(__file__))
 G = "temporal_within/gate_truth/"
 BC, IR = G + "births_check.json", G + "inner_rings_check.json"
-BO = "temporal_within/agents/B_out/"
+BO = "temporal_within/B_out/"
 out = []
 
 
@@ -57,7 +57,7 @@ P3HI = "L(1514, r'settings identical to 1513: final bracket \\[[\\d.]+, ([\\d.]+
 S3 = "(L(1512, r'predicted C ([\\d.]+); equal-area disc') - L(1512, r'equal-area disc \\(area-only alternative\\) ([\\d.]+)\\.'))"
 B("2.3", "(resolution about $6\\%$, $2.3\\%$)", f"100 * (({P3HI} - {P3LO}) + ({DHI} - {DLO})) / 2 / {S3}",
   "p = 3: (bracket width at p 3 + disc bracket width)/2 over the shape signal 3.567e-3 = 2.31 % (Amendments 1512-1514)")
-# numbers changed after the agent's pass (strict bounds); expressions taken from the agent's checked bindings by context
+# numbers changed after the the helper's pass (strict bounds); expressions taken from the the helper's checked bindings by context
 AG = json.load(open(os.path.join(HERE, "bindings_paper1_weak.json"), encoding="utf-8"))
 ag = lambda ctx: next(x["expr"] for x in AG if x["context"] == ctx)
 B("0.53", "first five ring losses on cooling lay within $0.53", f"0.53 if {ag('Its first five ring losses on cooling lay within')} <= 0.53 else -1",

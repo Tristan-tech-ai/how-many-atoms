@@ -1,0 +1,5 @@
+pairs: c20 (-0.093773648256, 0.001159913641); c24 (-0.093773650481, 0.001159915679); c28 (-0.093773650774, 0.001159915949)
+successive differences c24-c20: -2.225e-09, +2.038e-09; c28-c24: -2.926e-10, +2.700e-10; ratios r: 0.1315 (nu0), 0.1325 (d0)
+extrapolated pair (-0.093773650818, 0.001159915990); minus births pair: +1.915e-11, -1.801e-11; c28 pair minus births: +6.345e-11, -5.925e-11
+P1 holds; P2 holds; P3 holds; control: holds
+READING q1701 done (labels by the script; no verdict word)

@@ -1,0 +1,10 @@
+[    0 s] state tower/K63/results_q220_gauss_K63_A42.6932.json K 63 A 42.693175 grid 16539 points from -82.693175 to 82.686825
+[   47 s] polished: ok True residual 5.61e-175
+[   52 s] strip: boxes 8270 of [0, Y], largest tau 0.089096; tau_A(Y) [4.5076e-91 +/- 5.57e-97]; C1 True
+[   52 s] g(Y) 6.048e-328; M tail 3.101e-329; grid truncation 4.311e-329
+[   52 s] eps_F 2.3789e-131, eps_J 4.1674e-134; rows widened by 4.7579e-131, entries by 2.3873e-131
+[   75 s] Krawczyk: largest |K(X) - v0| 1.6531e-119 against r = 1e-110; inclusion True; smallest mass in X 1.190355e-02; C2 True
+[   76 s] minors over the box: X1 True, X2 True (930 initial minors, 0 not certainly positive); C3 True
+[   77 s] eps_G 1.3766e-31 (window tail 1.38e-31, far window 2.45e-619); C5 True
+[  193 s] certificate: atom zones 31 passed, 0 failed; wall True; boxes 3096; gap failures 0 (certified positive False); left 0; largest upper bound of D - C -4.5552e-24; C4 True
+VERDICT q1882: PASS

@@ -9,6 +9,7 @@ Scripts are formatted with black (layout only). The original path is the name us
 | `scripts/d72_libnd.py` | radial KKT solver for the amplitude-constrained Gaussian channel with input in the d-ball /x/ <= A and noise N(0, I_d). | `centre_scripts/d72_libnd.py` |
 | `scripts/d74_newton_scaled.py` | d50_lib.newton copied as text with one change: the acceptance norm (and the linear solve) uses residual rows of interior rings' stationarity equations divided by max(r_j, 1e-3), because i'(r) ~ r i''(0) near the origin makes the plain max-n | `centre_scripts/d74_newton_scaled.py` |
 | `scripts/d79_npmle_nd_lib.py` | D(r) = (d/A^d) int_0^A s^(d-1) E(s, r)/ptil(s) ds <= C, C = 1 forced by sum w = 1; | `centre_scripts/d79_npmle_nd_lib.py` |
+| `scripts/math.py` |  | `gate_truth/_repo_rebuild/paper2/sec5-baseline/scripts/math.py` |
 | `scripts/merge_1596.py` | merged event lists for the 1590/1591/1593/1597 readouts, joining CHAIN entries that numpy printing wrapped over several lines (continuation lines start with whitespace). | `centre_scripts/q868_runs/merge_1596.py` |
 | `scripts/q649_rings2d_cont.py` | Amendment 969. Continuation in A of the 2D disc channel's optimal input (rings + origin point), with event handling, using d50_lib (definitions only). | `centre_scripts/q649_rings2d_cont.py` |
 | `scripts/q656_shells3d_cont.py` | continuation of the 3D ball channel (shells + origin). | `centre_scripts/q656_shells3d_cont.py` |
@@ -27,5 +28,6 @@ Scripts are formatted with black (layout only). The original path is the name us
 | `scripts/q874_offset_readout.py` | implied LFP offsets delta_impl = 2 j_{d/2-1,1}/sqrt(d - B) - m at the events of a q869 chain log, and the 1590 readout. | `centre_scripts/q874_offset_readout.py` |
 | `scripts/q875_crossdim_offsets.py` | 3D LFP offsets predicted from the 1D and 2D long chains, offset_3D = offset_1D + 2 kappa_2D/(m + delta). | `centre_scripts/q875_crossdim_offsets.py` |
 | `scripts/q876_kappa_d1.py` | kappa_1(m) = (offset_d(m) - offset_1(m)) (m + delta)/(d - 1) at d = 1.05, 1.10, at the midpoints of 1D event intervals. | `centre_scripts/q876_kappa_d1.py` |
+| `scripts/time.py` |  | `gpu_lab/venv/Lib/site-packages/cupyx/time.py` |
 
 `logs/` holds 60 output files of the runs reported in the paper; a `__` in a name stands for a folder separator of the original tree.

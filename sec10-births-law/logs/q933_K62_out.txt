@@ -1,0 +1,13 @@
+[K 62] files 114, OPTIMAL family states 113, A 41.7375 to 42.263175, completed True
+   E1: PASS  violations 0 in 112 steps
+   E2: PASS  w_1 0.006517 -> 0.012319, non-increasing steps 0
+   E3: PASS  slot first 0.2445
+   E4: PASS  slot last 0.9991
+   E5: PASS  law ratio 0.99991
+   E6: PASS  next state A 42.268175 verdict centre positive
+   control R: verdict FAIL, failed items ['E1', 'E2', 'E3', 'E4', 'E5']
+   control M: verdict FAIL, failed items ['E2', 'E5']
+   control S: verdict FAIL, failed items ['E2', 'E5']
+   control P: verdict FAIL, failed items ['E1', 'E5']
+   control PC (synthetic family that must PASS): True
+VERDICT q933 K 62: PASS; states 113; completed True; failed items []; controls R M S P turn FAIL and PC passes

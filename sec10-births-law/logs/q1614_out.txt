@@ -1,0 +1,6 @@
+q1567 three-parameter fit reproduced: E_4 = -8.94e+05, residual rms 9.08e-12, largest 2.53e-11
+c20 block pair (-0.093773648, +0.001159914): E_4 = -8.006e+05 (0.896 x the q1567 value), residual rms 3.02e-10, largest 6.37e-10, mean -1.19e-10 (without E_4: rms 1.15e-08, mean +1.05e-08)
+c24 block pair (-0.093773650, +0.001159915): E_4 = -7.827e+05 (0.876 x the q1567 value), residual rms 3.58e-10, largest 7.51e-10, mean -1.41e-10 (without E_4: rms 1.13e-08, mean +1.02e-08)
+limit pair of q1564 (-0.093773592, +0.001159849): E_4 = -5.313e+04 (0.059 x the q1567 value), residual rms 6.81e-09, largest 1.10e-08, mean -2.71e-09 (without E_4: rms 6.86e-09, mean -2.01e-09)
+P1 rms below 3e-10 and largest below 1e-09: does not hold; P2 E_4 in [-1.34e+06, -4.5e+05]: holds; P3 control reproduces the q1567 rms: holds; P4 rms below the pair-only 8.9e-10: holds
+READING q1614 done (labels by the script; no verdict word)

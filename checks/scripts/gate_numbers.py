@@ -271,7 +271,7 @@ def eval_binding(b):
         if not m:
             raise ValueError(f"pattern not found in {path}: {rx}")
         return float(m.group(1))
-    env = {"L": L, "J": J, "T": T, "math": math, "sqrt": math.sqrt, "log": math.log, "exp": math.exp, "abs": abs, "min": min,
+    env = {"L": L, "J": J, "T": T, "re": re, "AT": amend_text, "len": len, "math": math, "sqrt": math.sqrt, "log": math.log, "exp": math.exp, "abs": abs, "min": min,
            "max": max, "sum": sum}
     return eval(b["expr"], {"__builtins__": {}}, env)
 

@@ -1,0 +1,10 @@
+[    0 s] state capacity_odd/results_q220_gauss_K61_A41.7325.json K 61 A 41.732500 grid 16347 points from -81.732500 to 81.727500
+[   45 s] polished: ok True residual 8.44e-149
+[   50 s] strip: boxes 8174 of [0, Y], largest tau 0.088906; tau_A(Y) [4.5076e-91 +/- 5.57e-97]; C1 True
+[   50 s] g(Y) 5.499e-328; M tail 2.820e-329; grid truncation 3.920e-329
+[   50 s] eps_F 2.2249e-131, eps_J 4.0800e-134; rows widened by 4.4498e-131, entries by 2.2331e-131
+[   72 s] Krawczyk: largest |K(X) - v0| 5.5666e-120 against r = 1e-110; inclusion True; smallest mass in X 1.251966e-02; C2 True
+[   72 s] minors over the box: X1 True, X2 True (870 initial minors, 0 not certainly positive); C3 True
+[   74 s] eps_G 1.3766e-31 (window tail 1.38e-31, far window 2.45e-619); C5 True
+[  189 s] certificate: atom zones 30 passed, 0 failed; wall True; boxes 3058; gap failures 0 (certified positive False); left 0; largest upper bound of D - C -8.2814e-27; C4 True
+VERDICT q1882: PASS

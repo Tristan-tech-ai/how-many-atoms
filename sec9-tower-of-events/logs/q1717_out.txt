@@ -1,0 +1,25 @@
+family K = 62 (even) from A = 42.258175, signal -9.017e-16, h = 0.0002
+   A = 42.258375: residual 2.3e-42 in 3 it, signal -8.71899e-16, h 2.00e-04  [3s]
+   A = 42.258775: residual 5.1e-48 in 2 it, signal -8.12000e-16, h 4.00e-04  [4s]
+   A = 42.259575: residual 3.2e-43 in 2 it, signal -6.91382e-16, h 8.00e-04  [6s]
+   A = 42.261175: residual 2.0e-38 in 2 it, signal -4.46854e-16, h 1.60e-03  [7s]
+   EVENT between A = 42.261175 (signal -4.469e-16) and 42.264375 (signal 5.553e-17)
+   locate: A = 42.26402129560210 signal -8.816e-19
+   locate: A = 42.26402682313528 signal -1.695e-21
+   locate: A = 42.26402683378499 signal 5.191e-26
+   locate: A = 42.26402683378466 signal -3.057e-33
+K_b 62: stored 42.264026833785, new minus stored -2.293e-13, bracket 3.26e-13, control residual 7.0e-57, start results_q220_gauss_K62_A42.2582.json [15s]
+family K = 61 (odd) from A = 41.727500, signal -2.027e-14, h = 0.0002
+   A = 41.727700: residual 1.6e-42 in 3 it, signal -1.96130e-14, h 2.00e-04  [19s]
+   A = 41.728100: residual 4.9e-48 in 2 it, signal -1.83031e-14, h 4.00e-04  [20s]
+   A = 41.728900: residual 3.2e-43 in 2 it, signal -1.56666e-14, h 8.00e-04  [22s]
+   A = 41.730500: residual 2.0e-38 in 2 it, signal -1.03268e-14, h 1.60e-03  [23s]
+   EVENT between A = 41.730500 (signal -1.033e-14) and 41.733700 (signal 6.229e-16)
+   locate: A = 41.73351795841138 signal -9.750e-18
+   locate: A = 41.73352076383496 signal -8.975e-21
+   locate: A = 41.73352076641985 signal 1.295e-25
+   locate: A = 41.73352076641981 signal -1.720e-33
+K_b 61: stored 41.733520766420, new minus stored -1.393e-15, bracket 3.73e-14, control residual 1.0e-56, start results_q220_gauss_K61_A41.7275.json [16s]
+re-measured 2 of 2 events: K_b 61 -1.393e-15, K_b 62 -2.293e-13
+P1 holds; P2 is evaluated by the table of q1713 with the new amplitudes [31s]
+READING q1717 done (labels by the script; no verdict word)

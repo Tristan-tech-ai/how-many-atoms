@@ -1,0 +1,17 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True}
+row 20: a 23.717515, K 30, centre False, J 15, residual 2.57e-180: X1 True, X2 True (0 not certainly positive of 240), X3 True, X4 True [39s]
+row 60: a 24.039925, K 30, centre False, J 15, residual 9.53e-203: X1 True, X2 True (0 not certainly positive of 240), X3 True, X4 True [64s]
+row 100: a 24.733564, K 31, centre True, J 15, residual 8.35e-201: X1 True, X2 True (0 not certainly positive of 240), X3 True, X4 True [103s]
+row 140: a 25.186080, K 32, centre False, J 16, residual 6.83e-196: X1 True, X2 True (0 not certainly positive of 272), X3 True, X4 True [130s]
+row 180: a 25.602107, K 33, centre True, J 16, residual 8.89e-183: X1 True, X2 True (0 not certainly positive of 272), X3 True, X4 True [175s]
+row 220: a 26.040502, K 33, centre True, J 16, residual 1.08e-196: X1 True, X2 True (0 not certainly positive of 272), X3 True, X4 True [219s]
+row 260: a 26.381852, K 34, centre False, J 17, residual 4.12e-185: X1 True, X2 True (0 not certainly positive of 306), X3 True, X4 True [251s]
+row 300: a 26.818049, K 35, centre True, J 17, residual 2.38e-172: X1 True, X2 True (0 not certainly positive of 306), X3 True, X4 True [301s]
+row 340: a 27.144000, K 35, centre True, J 17, residual 3.66e-195: X1 True, X2 True (0 not certainly positive of 306), X3 True, X4 True [352s]
+row 380: a 27.474988, K 36, centre False, J 18, residual 1.85e-174: X1 True, X2 True (0 not certainly positive of 342), X3 True, X4 True [387s]
+row 420: a 27.908988, K 36, centre False, J 18, residual 7.61e-196: X1 True, X2 True (0 not certainly positive of 342), X3 True, X4 True [424s]
+row 460: a 28.248946, K 37, centre True, J 18, residual 7.07e-187: X1 True, X2 True (0 not certainly positive of 342), X3 True, X4 True [480s]
+row 500: a 28.639442, K 38, centre False, J 19, residual 8.90e-166: X1 True, X2 True (0 not certainly positive of 380), X3 True, X4 True [519s]
+row 540: a 28.962941, K 38, centre False, J 19, residual 1.41e-189: X1 True, X2 True (0 not certainly positive of 380), X3 True, X4 True [559s]
+row 580: a 29.258485, K 39, centre True, J 19, residual 1.55e-168: X1 True, X2 True (0 not certainly positive of 380), X3 True, X4 True [623s]
+VERDICT q986 T80b: PASS; rows 15

@@ -1,4 +1,4 @@
-"""q855 (03 Oct 2026, copy of scratchpad fit_k.py, Amendment 1520): fit the strip response (k, k2) of Amendment 1519 to the accepted q850 rows at A = 16 and 20.3 (reads logs; writes nothing)."""
+"""q855 (03 Oct 2026, copy of fit_k.py, Amendment 1520): fit the strip response (k, k2) of Amendment 1519 to the accepted q850 rows at A = 16 and 20.3 (reads logs; writes nothing)."""
 
 import re, math
 import numpy as np

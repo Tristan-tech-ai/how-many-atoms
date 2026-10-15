@@ -1,0 +1,4 @@
+control: synthetic slope -0.2254 inside [-0.259, -0.191] and -0.5988 outside: True
+npmle K_b 12 to 28 (17 events): slope of ln(deviation) against v^2 = -0.2215 (standard error 0.0004); expected -0.2250; interval [-0.259, -0.191]; item X1a: True
+capacity K_b 24 to 39 (16 events): slope of ln(deviation) against v^2 = -0.0890 (standard error 0.0202); expected -0.2250; interval [-0.259, -0.191]; item X1b: False
+READING q1218: X1a True, X1b False (no verdict)

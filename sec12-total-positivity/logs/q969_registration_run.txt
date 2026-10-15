@@ -1,0 +1,2 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True} (PC {'X1': True, 'X2': True, 'X3': True, 'count': 156, 'bad': 0} | NC1 {'X1': False, 'X2': False, 'X3': False, 'count': 156, 'bad': 5} | NC2 {'X1': False, 'X2': False, 'X3': False, 'count': 156, 'bad': 6} | NC3 {'X1': True, 'X2': False, 'X3': False, 'count': 156, 'bad': 9} )
+VERDICT q969 T77: INCOMPLETE (no state processed)

@@ -1,0 +1,13 @@
+control c1 (generic chain path k = 2 and default k = 1 reproduce stored events): True; c3 (item functions): True; c4 (quintic vs septic a_med, max relative to R_pred 0.00207, bar 0.005): True; c5 (D = 80 vs 92, max relative to R_pred 1.76e-06, bar 0.005): True; c6 (immune interpolation exact): True
+K_b 28: v^2 96.42, a_med 22.8394841356, R_imm 51.4260, R_NPMLE 28.6944, predicted R_3 74.2820e-9 (bar 69.4251 to 79.7103), start a0 = 22.835484
+K_b 29: v^2 98.07, a_med 23.4766299563, R_imm 36.5234, R_NPMLE 20.3033, predicted R_3 52.7560e-9 (bar 49.3066 to 56.6113), start a0 = 23.472630
+K_b 30: v^2 99.70, a_med 24.1084767292, R_imm 26.0070, R_NPMLE 14.4497, predicted R_3 37.5656e-9 (bar 35.1094 to 40.3108), start a0 = 24.104477
+K_b 31: v^2 101.29, a_med 24.7352387818, R_imm 18.5744, R_NPMLE 10.3340, predicted R_3 26.8297e-9 (bar 25.0754 to 28.7903), start a0 = 24.731239
+K_b 32: v^2 102.87, a_med 25.3571153143, R_imm 13.3384, R_NPMLE 7.4183, predicted R_3 19.2665e-9 (bar 18.0068 to 20.6745), start a0 = 25.353115
+K_b 33: v^2 104.41, a_med 25.9742918957, R_imm 9.6482, R_NPMLE 5.3523, predicted R_3 13.9363e-9 (bar 13.0251 to 14.9547), start a0 = 25.970292
+K_b 34: v^2 105.94, a_med 26.5869417710, R_imm 6.9967, R_NPMLE 3.8802, predicted R_3 10.1063e-9 (bar 9.4455 to 10.8448), start a0 = 26.582942
+K_b 35: v^2 107.44, a_med 27.1952270099, R_imm 5.0896, R_NPMLE 2.8243, predicted R_3 7.3516e-9 (bar 6.8710 to 7.8889), start a0 = 27.191227
+K_b 36: v^2 108.93, a_med 27.7992995189, R_imm 3.7180, R_NPMLE 2.0617, predicted R_3 5.3704e-9 (bar 5.0192 to 5.7628), start a0 = 27.795300
+K_b 37: v^2 110.39, a_med 28.3993019377, R_imm 2.7276, R_NPMLE 1.5103, predicted R_3 3.9399e-9 (bar 3.6823 to 4.2278), start a0 = 28.395302
+sha256 589a984eb9538f810ffa69acb7e12c9af113009c7cc25fc43988182fc888c2a9
+REGISTRATION-RUN q1271: controls True, table written

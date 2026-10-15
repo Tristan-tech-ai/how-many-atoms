@@ -1,0 +1,7 @@
+CONTROLS C1 forward map reproduces the data holds; C2 d_7, e_7 equal q1780 holds; C3 K = 6 formula reproduces c_6(14) holds
+hold-out at k = 6 (facts): rule A predicts s_6 = 17.64212, error -2.92 percent; rules B and C predict 19.11386, error 5.17 percent; actual s_6 = 18.17357
+s_7 extrapolations: A 23.57721, B 24.10866, C 24.57881
+c_7(16) = 8^16 [pi^-18] F_16 for A, B, C: -5.772874e+11 -5.847573e+11 -5.913656e+11; band [-6.120940e+11, -5.574038e+11]
+T16 = -1.010046e-12; term2 central = -2.336818e-12; S2 central = -3.346863e-12; S2 band [-3.488545e-12, -3.207465e-12]
+for comparison only: q1778 predicted F_16 = -3.675078e-12; S2 / F_16 (q1778) = 0.9107
+Registration q1782 at 15:00:11 on 2026-10-10 by code (f32 does not exist yet; the run py q1557_f12_symbolic.py 32 started at about 14:00:30). Prediction R1: the coefficient of pi^-18 in f32 times 8^16 is negative and lies in [-6.120940e+11, -5.574038e+11] (extrapolations A, B, C of s_7 = g_7 / e_7 give -5.772874e+11, -5.847573e+11, -5.913656e+11). Prediction R2: the sum S2 of the two lowest powers (pi^-16 and pi^-18) of f32 lies in [-3.488545e-12, -3.207465e-12] (central -3.346863e-12). Rule in the docstring of small_gap_q206/q1782_prereg_f32_second.py (sha256 894517a7e59181fd). Evaluate with q1784 when q1557_stdout_ORD32.txt contains the line for f32.

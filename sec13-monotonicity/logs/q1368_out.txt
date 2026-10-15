@@ -1,0 +1,7 @@
+control c1 (counter): True
+control c3 (a swapped mass vector breaks monotonicity): True
+control c2 (a shuffled difference vector has more than one sign change; the original has 1): True
+(a) states with masses nondecreasing outward: 2738 of 2738; first failures: []
+(b) consecutive same-family pairs 2637: sign changes of dp_j/dA in position order by count [(1, 2637)]; outer end negative in 2637, positive in 0; pairs not of the form (inner +, one change, outer -): 0
+READING q1368 (exploratory, no verdict)
+exit 0

@@ -1,0 +1,16 @@
+results_q220_gauss_K65_A43.3203.json: A 43.320315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1295
+results_q220_gauss_K65_A43.3603.json: A 43.360315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1297
+results_q220_gauss_K65_A43.4003.json: A 43.400315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1302
+results_q220_gauss_K65_A43.4403.json: A 43.440315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1310
+results_q220_gauss_K65_A43.4803.json: A 43.480315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1322
+results_q220_gauss_K65_A43.5203.json: A 43.520315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1336
+results_q220_gauss_K65_A43.5603.json: A 43.560315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1354
+results_q220_gauss_K65_A43.6003.json: A 43.600315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1374
+results_q220_gauss_K65_A43.6403.json: A 43.640315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1396
+results_q220_gauss_K65_A43.6803.json: A 43.680315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.16; crossing 1.1420
+results_q220_gauss_K65_A43.7203.json: A 43.720315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.16; crossing 1.1445
+results_q220_gauss_K65_A43.7603.json: A 43.760315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.16; crossing 1.1471
+results_q220_gauss_K65_A43.8003.json: A 43.800315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.16; crossing 1.1498
+results_q220_gauss_K65_A43.8403.json: A 43.840315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.16; crossing 1.1525
+results_q220_gauss_K65_A43.8403.json: A 43.840315, m 31; N1(1) positive True; first grid t with N1 not certainly positive 1.16; crossing 1.1525
+END q988 READING (no verdict)

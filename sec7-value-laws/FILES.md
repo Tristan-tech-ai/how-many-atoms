@@ -5,6 +5,7 @@ Scripts are formatted with black (layout only). The original path is the name us
 | script | what it does (from its own docstring) | original path |
 |---|---|---|
 | `scripts/fit_k.py` | Fit the strip response (k, k2) of Amendment 1519 to the accepted q850 rows at A = 16 and 20.3 (reads logs; | `scratch/fit_k.py` |
+| `scripts/math.py` |  | `gate_truth/_repo_rebuild/paper2/sec5-baseline/scripts/math.py` |
 | `scripts/pred1533.py` | Predictions for 1533 (written before any 2D C value is read): reads only 'W' from the 2D annulus files. | `scratch/pred1533.py` |
 | `scripts/pred1535.py` | Predictions for 1535 (3D shell capacity), written before any shell C value is read: reads only 'W' from the shell file. | `scratch/pred1535.py` |
 | `scripts/pred1540.py` | Predictions for 1540 (NPMLE 3D shell), from the 1523 ball fits; | `scratch/pred1540.py` |
@@ -60,5 +61,6 @@ Scripts are formatted with black (layout only). The original path is the name us
 | `scripts/score1565.py` |  | `scratch/score1565.py` |
 | `scripts/score1566.py` |  | `scratch/score1566.py` |
 | `scripts/score1570.py` | fit R_eff of the bulk shape of sqrt(p) to the ground state of a disc (J0) or ball (sinc), rho in [0, m - 1.5]. | `scratch/score1570.py` |
+| `scripts/time.py` |  | `gpu_lab/venv/Lib/site-packages/cupyx/time.py` |
 
 `logs/` holds 67 output files of the runs reported in the paper; a `__` in a name stands for a folder separator of the original tree.

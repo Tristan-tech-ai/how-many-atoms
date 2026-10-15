@@ -1,0 +1,12 @@
+rm 1.4032: residual 1.062e-33, smallest mass +6.035615e-02, scan max [37.0, 4.2966078036975205e-16], r(0) - C +1.3883434490e-03
+rm 1.4028: residual 3.217e-30, smallest mass +6.031372e-02, scan max [37.0, 5.672438614207261e-16], r(0) - C +1.0475644405e-03
+rm 1.4024: residual 3.308e-30, smallest mass +6.027089e-02, scan max [37.0, 1.945827022949835e-16], r(0) - C +7.0690514959e-04
+rm 1.4020: residual 3.401e-30, smallest mass +6.022767e-02, scan max [90.0, 1.0968589215400613e-31], r(0) - C +3.6636578598e-04
+rm 1.4018: residual 1.188e-33, smallest mass +6.020591e-02, scan max [90.0, 3.8300544685667183e-35], r(0) - C +1.9614114248e-04
+rm 1.40177: residual 1.175e-38, smallest mass +6.020264e-02, scan max [90.0, -2.938735877055719e-39], r(0) - C +1.7061003803e-04
+rm 1.40167: residual 1.322e-38, smallest mass +6.019171e-02, scan max [90.0, 0.0], r(0) - C +8.5511242509e-05
+rm 1.40157: residual 8.816e-39, smallest mass +6.018076e-02, scan max [90.0, 0.0], r(0) - C +4.1996637348e-07
+rm 1.40147: residual 2.939e-39, smallest mass +6.016978e-02, scan max [90.0, 2.938735877055719e-39], r(0) - C -8.4663787096e-05
+rm 1.40137: residual 1.763e-38, smallest mass +6.015878e-02, scan max [90.0, 8.816207631167156e-39], r(0) - C -1.6974001462e-04
+rm 1.40127: residual 1.175e-38, smallest mass +6.014775e-02, scan max [90.0, 0.0], r(0) - C -2.5480871292e-04
+END mix_rm_walk_lfp

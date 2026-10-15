@@ -1,0 +1,8 @@
+READING after the verdict of q1446 (rows K = 109 to 114): error = measured - predicted (exponent 2/3), in units of 1e-6, and as a fraction of the bar; null error = measured - null prediction (exponent 1)
+ K=109 odd : PN   -1.63 (0.30 bar) null  -18.56 | Re   +1.41 (0.15 bar) null  -26.14 | measured PN 1.04790 Re 1.07450
+ K=110 even: PN   +2.76 (0.19 bar) null  -22.67 | Re   +3.88 (0.19 bar) null  -27.90 | measured PN 1.05290 Re 1.07718
+ K=111 odd : PN   -2.37 (0.44 bar) null  -25.35 | Re   +1.69 (0.18 bar) null  -35.72 | measured PN 1.04778 Re 1.07431
+ K=112 even: PN   +3.55 (0.24 bar) null  -30.99 | Re   +5.02 (0.24 bar) null  -38.14 | measured PN 1.05272 Re 1.07696
+ K=113 odd : PN   -3.22 (0.59 bar) null  -32.72 | Re   +1.92 (0.21 bar) null  -46.11 | measured PN 1.04766 Re 1.07412
+ K=114 even: PN   +4.34 (0.29 bar) null  -40.02 | Re   +6.18 (0.30 bar) null  -49.27 | measured PN 1.05255 Re 1.07674
+largest |error| / bar over the 12 comparisons: 0.59

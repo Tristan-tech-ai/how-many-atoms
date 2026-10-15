@@ -1233,7 +1233,7 @@ def compare():
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "run"
-    if mode == "summary":  # prints only (the log gets the summary at the end of the session)
+    if mode == "summary":  # prints only (the log gets the summary at the end of the run)
         summary()
         sys.exit(0)
     with open(LOGF, "a", encoding="utf-8") as log:

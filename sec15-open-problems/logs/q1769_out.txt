@@ -1,0 +1,11 @@
+C1 synthetic Gamma-type ratio reproduced by the quadratic fit for both parities: True; C2 synthetic with an added term not reproduced: True
+parity even: ratios 2: 0.03125; 4: 0.25694; 6: 0.46472; 8: 0.74913; 10: 1.08819; 12: 1.48322
+   quadratic through the first three ratios: -1909*n**2/852480 + 53827*n/426240 - 7543/35520 ; reproduces the other three exactly: False
+parity odd: ratios 3: 0.01747; 5: 0.90714; 7: 0.68580; 9: 1.02112; 11: 1.40260; 13: 1.84052
+   quadratic through the first three ratios: -351476454233*n**2/2530859036160 + 246101600881*n/158178689760 - 245867995381/72310258176 ; reproduces the other three exactly: False
+parity even: (2, 1) rational fit on the first four, checks on the last two: reproduces: False
+parity odd: (2, 1) rational fit on the first four, checks on the last two: reproduces: False
+P1 exact quadratic ratio for both parities: does not hold; P2 (2, 1) rational reproduces the parity that fails P1: does not hold
+P3 primes above 31 in the numerator and denominator of b(j), j = 6..15: 6: [37] / []; 7: [33223] / []; 8: [971] / []; 9: [53, 1019] / []; 10: [79, 5009] / []; 11: [277477933] / []; 12: [47, 61, 5407] / []; 13: [181, 2633, 343769] / []; 14: [1777, 148633] / []; 15: [3775728618829] / []
+   count of primes above 31: numerators 17, denominators 0
+READING q1769 done (labels by the script; no verdict word)

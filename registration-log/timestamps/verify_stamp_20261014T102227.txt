@@ -1,0 +1,13 @@
+Verification of stamp_20261014T102227.txt.ots, 2026-10-14 11:41:22 +0700
+== ots --no-bitcoin verify
+Assuming target filename is 'stamp_20261014T102227.txt'
+Not checking Bitcoin attestation; Bitcoin disabled
+To verify manually, check that Bitcoin block 971345 has merkleroot 57a8ae745acec4fd04c8612b7c69a933ffae5cb0485f90daa7b6e3180b43ff85
+== mempool.space block 971345
+hash 00000000000000000000e425c0d99e9cdda5d451344e52c83123608fb1d2ff3e
+merkle_root 57a8ae745acec4fd04c8612b7c69a933ffae5cb0485f90daa7b6e3180b43ff85
+timestamp 1791948786
+== blockcypher block 971345
+hash 00000000000000000000e425c0d99e9cdda5d451344e52c83123608fb1d2ff3e
+merkle_root 57a8ae745acec4fd04c8612b7c69a933ffae5cb0485f90daa7b6e3180b43ff85
+time 2026-10-14T03:33:06Z

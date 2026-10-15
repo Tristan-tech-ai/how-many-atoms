@@ -1,0 +1,4 @@
+c20 block pair: offsets from +4.529e-09 to +2.170e-08 (K_b 83 first, K_b 130 last: +2.170e-08, +4.529e-09), all positive: True; fitted power p = 3.486, fit rms 2.40e-11
+c24 block pair: offsets from +4.353e-09 to +2.134e-08 (K_b 83 first, K_b 130 last: +2.134e-08, +4.353e-09), all positive: True; fitted power p = 3.539, fit rms 2.90e-11
+P1 all offsets positive: holds; P2 slope in [2.5, 3.5] for c20: holds; P3 slope in [2.5, 3.5] for c24: does not hold; P4 power-law fit rms below 1.5e-10: holds
+READING q1615 done (labels by the script; no verdict word)

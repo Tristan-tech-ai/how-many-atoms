@@ -1,0 +1,13 @@
+READING q1464b: ratios a2/a1 and a3/a1 of the w-series (powers 1,2,3 of w = 1/v_c^2) of the six edge fractions, rows K 83..114
+  even fraction 0: a1=+0.1580 a2/a1=-24.43 a3/a1=+3446
+  even fraction 1: a1=+3.5182 a2/a1=-24.43 a3/a1=+3446
+  even fraction 2: a1=+0.2412 a2/a1=-24.43 a3/a1=+3446
+  even fraction 3: a1=-0.4305 a2/a1=-24.43 a3/a1=+3446
+  even fraction 4: a1=-4.5950 a2/a1=-24.43 a3/a1=+3446
+  even fraction 5: a1=+5.0255 a2/a1=-24.43 a3/a1=+3446
+  odd fraction 0: a1=+0.1577 a2/a1=-24.06 a3/a1=+3415
+  odd fraction 1: a1=+3.5026 a2/a1=-24.18 a3/a1=+3415
+  odd fraction 2: a1=-0.1207 a2/a1=+141.36 a3/a1=+3467
+  odd fraction 3: a1=-0.4297 a2/a1=-24.04 a3/a1=+3415
+  odd fraction 4: a1=-4.5862 a2/a1=-24.04 a3/a1=+3415
+  odd fraction 5: a1=+5.0158 a2/a1=-24.04 a3/a1=+3415

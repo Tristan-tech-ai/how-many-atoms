@@ -1,0 +1,7 @@
+results_q220_gauss_K50_A35.5000.json: A 35.5, m 24; N1(1) positive True; first grid t with N1 not certainly positive 1.20; crossing 1.1851
+results_q220_gauss_K50_A35.7400.json: A 35.74, m 24; N1(1) positive True; first grid t with N1 not certainly positive 1.22; crossing 1.2078
+results_q220_gauss_K60_A40.9000.json: A 40.9, m 29; N1(1) positive True; first grid t with N1 not certainly positive 1.16; crossing 1.1467
+results_q220_gauss_K60_A41.2000.json: A 41.2, m 29; N1(1) positive True; first grid t with N1 not certainly positive 1.18; crossing 1.1674
+results_q220_gauss_K70_A46.3837.json: A 46.3837, m 34; N1(1) positive True; first grid t with N1 not certainly positive 1.14; crossing 1.1367
+results_q220_gauss_K70_A46.4437.json: A 46.4437, m 34; N1(1) positive True; first grid t with N1 not certainly positive 1.16; crossing 1.1404
+END q988 READING (no verdict)

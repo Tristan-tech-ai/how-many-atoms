@@ -1,0 +1,7 @@
+K_b 139: cell (14, 14) diff +7.105e-14 (bar holds); full series (14, 18) diff -2.132e-13 (bar holds, sign negative holds)
+K_b 140: cell (14, 14) diff +2.842e-14 (bar holds); full series (14, 18) diff -2.558e-13 (bar holds, sign negative holds)
+K_b 141: cell (14, 14) diff +9.948e-14 (bar holds); full series (14, 18) diff -2.700e-13 (bar holds, sign negative holds)
+K_b 142: cell (14, 14) diff +2.842e-14 (bar holds); full series (14, 18) diff -2.842e-13 (bar holds, sign negative holds)
+K_b 143: cell (14, 14) diff +8.527e-14 (bar holds); full series (14, 18) diff -2.842e-13 (bar holds, sign negative holds)
+K_b 144: cell (14, 14) diff +8.527e-14 (bar holds); full series (14, 18) diff -3.126e-13 (bar holds, sign negative holds)
+READING q1685 done (labels by the script; no verdict word)

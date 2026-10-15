@@ -1,0 +1,20 @@
+control: hash of the table content fcf88352217a8017... equals the registered hash: True
+control: K_b 81 recomputed 51.9802436076 against the table 51.9802436076 -> True
+control: K_b 90 recomputed 56.3782545581 against the table 56.3782545581 -> True
+control: K_b 79 deviation +0.0267e-9 against +0.027e-9 -> True
+control: K_b 80 deviation +0.0241e-9 against +0.024e-9 -> True
+K_b 81: A_meas 51.980243607689, a_pred 51.9802436076, deviation +0.1193e-9, item S1 (< 0.5e-9): True
+K_b 82: A_meas 52.474720531434, a_pred 52.4747205314, deviation +0.0049e-9, item S1 (< 0.5e-9): True
+K_b 83: A_meas 52.967694373012, a_pred 52.9676943730, deviation -0.0043e-9, item S1 (< 0.5e-9): True
+K_b 84: A_meas 53.459187791669, a_pred 53.4591877917, deviation -0.0015e-9, item S1 (< 0.5e-9): True
+K_b 85: A_meas 53.949222838584, a_pred 53.9492228386, deviation +0.0024e-9, item S1 (< 0.5e-9): True
+K_b 86: A_meas 54.437820980063, a_pred 54.4378209800, deviation +0.0206e-9, item S1 (< 0.5e-9): True
+K_b 87: A_meas 54.925003119704, a_pred 54.9250031197, deviation +0.0431e-9, item S1 (< 0.5e-9): True
+K_b 88: A_meas 55.410789619460, a_pred 55.4107896194, deviation +0.0805e-9, item S1 (< 0.5e-9): True
+K_b 89: A_meas 55.895200319695, a_pred 55.8952003196, deviation +0.1242e-9, item S1 (< 0.5e-9): True
+K_b 90: A_meas 56.378254558271, a_pred 56.3782545581, deviation +0.1831e-9, item S1 (< 0.5e-9): True
+K_b 91: A_meas 56.859971188737, a_pred 56.8599711885, deviation +0.2495e-9, item S1 (< 0.5e-9): True
+K_b 92: A_meas 57.340368597666, a_pred 57.3403685973, deviation +0.3308e-9, item S1 (< 0.5e-9): True
+K_b 93: A_meas 57.819464721180, a_pred 57.8194647208, deviation +0.4206e-9, item S1 (< 0.5e-9): True
+K_b 94: A_meas 58.297277060737, a_pred 58.2972770602, deviation +0.5249e-9, item S1 (< 0.5e-9): False
+READING q1204: K_b 81 True, K_b 82 True, K_b 83 True, K_b 84 True, K_b 85 True, K_b 86 True, K_b 87 True, K_b 88 True, K_b 89 True, K_b 90 True, K_b 91 True, K_b 92 True, K_b 93 True, K_b 94 False (no verdict)

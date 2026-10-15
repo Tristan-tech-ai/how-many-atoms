@@ -1,0 +1,22 @@
+state results_q220_gauss_K65_A43.5803.json: A 43.580315, m 31
+order 8: minor sign negative, log10|minor| -241.58, cancellation ratio sum|v_p C_p|/|minor| 4.000e+51
+   delta 1e-60: signs and log10 sizes over three seeds: --241.6 --241.6 --241.6
+   delta 1e-45: signs and log10 sizes over three seeds: +-235.3 --235.8 --235.5
+   delta 1e-39: signs and log10 sizes over three seeds: +-229.3 --229.8 --229.5
+order 10: minor sign negative, log10|minor| -302.04, cancellation ratio sum|v_p C_p|/|minor| 9.151e+50
+   delta 1e-60: signs and log10 sizes over three seeds: --302.0 --302.0 --302.0
+   delta 1e-45: signs and log10 sizes over three seeds: +-296.6 +-296.6 --296.9
+   delta 1e-39: signs and log10 sizes over three seeds: +-290.6 +-290.6 --290.9
+order 12: minor sign negative, log10|minor| -344.07, cancellation ratio sum|v_p C_p|/|minor| 9.179e+50
+   delta 1e-60: signs and log10 sizes over three seeds: --344.1 --344.1 --344.1
+   delta 1e-45: signs and log10 sizes over three seeds: --339.0 +-339.4 +-338.4
+   delta 1e-39: signs and log10 sizes over three seeds: --333.0 +-333.4 +-332.4
+order 14: minor sign negative, log10|minor| -363.88, cancellation ratio sum|v_p C_p|/|minor| 9.227e+50
+   delta 1e-60: signs and log10 sizes over three seeds: --363.9 --363.9 --363.9
+   delta 1e-45: signs and log10 sizes over three seeds: +-359.7 --358.7 --360.3
+   delta 1e-39: signs and log10 sizes over three seeds: +-353.7 --352.7 --354.3
+order 16: minor sign negative, log10|minor| -364.34, cancellation ratio sum|v_p C_p|/|minor| 9.538e+50
+   delta 1e-60: signs and log10 sizes over three seeds: --364.3 --364.3 --364.3
+   delta 1e-45: signs and log10 sizes over three seeds: +-359.6 --358.9 --359.5
+   delta 1e-39: signs and log10 sizes over three seeds: +-353.6 --352.9 --353.5
+END q972 READING (no verdict)

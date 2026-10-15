@@ -1,0 +1,5 @@
+control c1 (majorization checker): True
+immune: rows 1102, consecutive pairs 1101 (across a change of K: 15); pairs with max_r (S_r(a2) - S_r(a1)) > 1e-12: 0; largest value 9.992e-16; rows with masses nondecreasing outward (centre excluded): 1102 of 1102; same-family pairs 1085 with one sign change, inner +, outer -: 1085; examples of other pairs []
+npmle: rows 690, consecutive pairs 689 (across a change of K: 13); pairs with max_r (S_r(a2) - S_r(a1)) > 1e-12: 0; largest value 8.882e-16; rows with masses nondecreasing outward (centre excluded): 690 of 690; same-family pairs 676 with one sign change, inner +, outer -: 676; examples of other pairs []
+READING q1369 (exploratory, no verdict)
+exit 0

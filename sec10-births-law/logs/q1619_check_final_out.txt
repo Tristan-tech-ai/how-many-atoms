@@ -1,0 +1,6 @@
+control e_2..e_5 against d20_out_5.json: strings equal and numbers to 1e-12: True
+NMAX = 4 peak working set: old 96 MB, lean 89 MB, ratio 0.93
+NMAX = 4 time: old 38 s, lean 15 s; NMAX = 5 lean time 81 s, peak 124 MB (old NMAX = 5: 1206 s and more in the logs of 1 Oct)
+NMAX = 6: e_6 = -1692738944*pi**6/2679075 - 300975232*pi**4/212625 - 658432*pi**8/3189375 + 383285312/155925 + 2504192*pi**2/405 + 194121728*pi**10/156080925 = -567328.6771; time 1064 s; peak 2441 MB
+P1 control exact: holds; P2 NMAX 4 peak below 40 percent of the old: does not hold; P3 NMAX 6 below 8 GB: holds; P4 e_6 in [-1.5e+06, -1e+05]: holds
+READING q1619 check done (labels by the script; no verdict word)

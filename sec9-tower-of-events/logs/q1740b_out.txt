@@ -1,0 +1,10 @@
+C1 synthetic d_inf recovered on both windows: largest error 6.13e-14
+C2 synthetic with +40/n^3: three-parameter fit on n = 15..20 gives d_inf 4.7978 (true 4.79), on n = 14..19 4.7994
+increments d_n (n = 14..20): 14 4.20880 15 4.24108 16 4.26146 17 4.27531 18 4.28610 19 4.29550 20 4.30417
+window 15..20, three parameters: d_inf = 4.2775, a = -3.6974, b = -63.5306; largest residual 1.05e-03
+window 15..20, two parameters: d_inf = 4.4914, a = 3.7115; largest residual 2.90e-03
+window 14..19, three parameters: d_inf = 4.0550, a = -11.2292, b = -126.9015; largest residual 1.50e-03
+window 14..19, two parameters: d_inf = 4.5375, a = 4.5072; largest residual 6.78e-03
+Stokes values 16 pi^2 / A: A = 32.957 gives 4.7915, A = 32.307 gives 4.8879
+P1 d_inf in [4.5, 5.1]: does not hold (d_inf = 4.2775); P2 largest residual below 1e-4: does not hold (1.05e-03); P3 windows agree within 0.1: does not hold (difference 0.2225)
+READING q1740b done (labels by the script; no verdict word)

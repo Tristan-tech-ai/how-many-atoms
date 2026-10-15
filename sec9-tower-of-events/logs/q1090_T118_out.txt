@@ -1,0 +1,8 @@
+controls: PC True, NC1 True, NC2 True
+results_q220_gauss_K65_A43.5803.json: m 31: L1 True (signs of r: first [-1, 1, -1, 1], smallest |r_p| 8.628e-10); L2 True; spread of S_G/N printed for information only (1.72e-32)
+results_q220_gauss_K71_A46.4359.json: m 34: L1 False (signs of r: first [1, -1, 1, -1], smallest |r_p| 7.412e-11); L2 False; spread of S_G/N printed for information only (4.24e-20)
+results_q220_gauss_K71_A46.5589.json: m 34: L1 True (signs of r: first [-1, 1, -1, 1], smallest |r_p| 1.374e-10); L2 False; spread of S_G/N printed for information only (1.21e-19)
+results_q220_gauss_K71_A46.6889.json: m 34: L1 True (signs of r: first [-1, 1, -1, 1], smallest |r_p| 2.961e-10); L2 False; spread of S_G/N printed for information only (3.58e-19)
+results_q220_gauss_K71_A46.8189.json: m 34: L1 True (signs of r: first [-1, 1, -1, 1], smallest |r_p| 4.159e-10); L2 False; spread of S_G/N printed for information only (1.05e-18)
+results_q220_gauss_K71_A46.9439.json: m 34: L1 True (signs of r: first [-1, 1, -1, 1], smallest |r_p| 5.051e-10); L2 False; spread of S_G/N printed for information only (2.89e-18)
+VERDICT q1090 T118: FAIL; states 6; failing 5

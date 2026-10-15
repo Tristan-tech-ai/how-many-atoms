@@ -1,0 +1,8 @@
+CONTROL j = 2..10: P1 True, P2 True, P3 True; altered Q makes P1 false at j = 11: True
+j = 11: powers of 1/pi [12, 14, 16, 18, 20, 22]; coefficient of u^(j-1) times 8^j = -29018/3; Q(j) = -29018/3; coefficient of u^j times 8^j = 1
+j = 12: powers of 1/pi [12, 14, 16, 18, 20, 22, 24]; coefficient of u^(j-1) times 8^j = -45320/3; Q(j) = -45320/3; coefficient of u^j times 8^j = 1
+j = 13: powers of 1/pi [14, 16, 18, 20, 22, 24, 26]; coefficient of u^(j-1) times 8^j = -68224/3; Q(j) = -68224/3; coefficient of u^j times 8^j = 1
+j = 14: powers of 1/pi [14, 16, 18, 20, 22, 24, 26, 28]; coefficient of u^(j-1) times 8^j = -99554/3; Q(j) = -99554/3; coefficient of u^j times 8^j = 1
+j = 15: powers of 1/pi [16, 18, 20, 22, 24, 26, 28, 30]; coefficient of u^(j-1) times 8^j = -141442/3; Q(j) = -141442/3; coefficient of u^j times 8^j = 1
+P1 coefficient of u^(j-1) times 8^j equals Q(j) for j = 11..15: holds; P2 top coefficient (1/8)^j: holds; P3 lowest power u^ceil(j/2): holds
+READING q1757 done (labels by the script; no verdict word)

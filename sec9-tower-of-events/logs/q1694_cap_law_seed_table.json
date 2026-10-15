@@ -1,0 +1,19 @@
+{
+ "note": "seed predictions for K_b 139..150 from the registered Aitken-extrapolated births law (q1690_prereg_aitken.txt); used only to place the starting amplitude of the seed Newton in q1440 for K_b missing from the older tables; written 2026-10-10 10:44:14",
+ "stages": {
+  "134": {
+   "139": 78.690973245048,
+   "140": 79.123405814044,
+   "141": 79.555068955418,
+   "142": 79.985969487966,
+   "143": 80.416114122375,
+   "144": 80.845509463685,
+   "145": 81.274162013676,
+   "146": 81.702078173181,
+   "147": 82.12926424434,
+   "148": 82.55572643278,
+   "149": 82.98147084974,
+   "150": 83.406503514129
+  }
+ }
+}

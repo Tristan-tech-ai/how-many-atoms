@@ -1,0 +1,13 @@
+SELFTEST: PASS ['PASS', 'FAIL', 'VOID', 'VOID', 'INCOMPLETE']
+  ellipse rm 1.7416: solver exit 0; last residuals [7.232e-15, 5.894e-21, 1.358e-32]; state ['D_newton_harm_rm1.7416_ngh300_p192.json']
+  ellipse rm 1.7416: rp 2.1 rm 1.7416 K 20: D(0) - C = -2.2895089334e-05 (C 1.000000000000, NGH 300, prec 192)
+  ellipse rm 1.7417: solver exit 0; last residuals [7.237e-15, 5.9e-21, 1.361e-32]; state ['D_newton_harm_rm1.7417_ngh300_p192.json']
+  ellipse rm 1.7417: rp 2.1 rm 1.7417 K 20: D(0) - C = +4.2223156896e-05 (C 1.000000000000, NGH 300, prec 192)
+  mixed rm 1.7362: solver exit 0; last residuals [8.873e-19, 2.453e-19, 2.205e-19]; state ['D_newton_harm_rm1.7362_ngh300_p192.json']
+  mixed rm 1.7362: rp 2.1 rm 1.7362 K 20: D(0) - C = -9.2380273650e-05 (C 1.000000000000, NGH 300, prec 192)
+  mixed rm 1.7364: solver exit 0; last residuals [9.185e-19, 2.453e-19, 2.214e-19]; state ['D_newton_harm_rm1.7364_ngh300_p192.json']
+  mixed rm 1.7364: rp 2.1 rm 1.7364 K 20: D(0) - C = +3.4146781013e-05 (C 1.000000000000, NGH 300, prec 192)
+case ellipse: zero_300 1.74163516, registered 1.7416352, |difference| 4.07e-08 (bound 3e-7): True
+case mixed: Newton residual or excess missing (V1)
+VERDICT q1887: VOID
+exit 1

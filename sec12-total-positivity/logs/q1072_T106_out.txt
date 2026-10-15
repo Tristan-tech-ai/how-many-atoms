@@ -1,0 +1,8 @@
+control tower/K65/results_q220_gauss_K65_A43.5803.json: m 31, classes 32, PC violations 0, undecided 0; NC1 (class (1, 'd', 'u', 'above') inverted) violations 351; NC2 (rows 10 and 12 exchanged) violations 343
+results_q220_gauss_K71_A46.4359.json: m 34, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K71_A46.5589.json: m 34, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K71_A46.6889.json: m 34, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K71_A46.8189.json: m 34, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K71_A46.9439.json: m 34, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+states 5, states failing 0
+VERDICT q1072 T106: PASS; states 5; failing 0

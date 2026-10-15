@@ -1,0 +1,9 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True, 'PARSE_NONE': True}
+   K 73: smallest flow 0.1807 -> PASS
+   K 74: smallest flow 0.0897 -> PASS
+   K 75: smallest flow 0.1769 -> PASS
+   K 76: smallest flow 0.0891 -> PASS
+   K 77: smallest flow 0.1746 -> PASS
+   K 78: smallest flow None -> MISSING
+   K 79: smallest flow None -> MISSING
+VERDICT q1099 T121: INCOMPLETE

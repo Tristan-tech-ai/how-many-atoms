@@ -1,0 +1,12 @@
+K_b 131: a_pred - A_event = -1.563e-12
+K_b 132: a_pred - A_event = -1.663e-12
+K_b 133: a_pred - A_event = -1.762e-12
+K_b 134: a_pred - A_event = -1.933e-12
+K_b 135: a_pred - A_event = -2.046e-12
+K_b 137: a_pred - A_event = -2.316e-12
+out of sample (6 events): rms 1.897e-12, mean -1.881e-12, slope -1.277e-13 per K_b; in-sample rms 9.559e-13, mean +1.480e-16
+P1 every |diff| below 5e-12: holds; P2 rms below 3e-12: holds; P3 |slope| below 1e-12 per K_b: holds; control in-sample rms 9.524e-13: holds
+q1663 registration written 09:35:51 (clock); event files for K_b 136 and 138: none (no event_Kb136.json, no event_Kb138.json in any directory)
+K_b 136: a_pred (frozen refit pair, nmax 18) = 77.388989108974; bar |a_pred - A_event| < 5e-12
+K_b 138: a_pred (frozen refit pair, nmax 18) = 78.257764318990; bar |a_pred - A_event| < 5e-12
+READING q1663 done (labels by the script; no verdict word)

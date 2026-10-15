@@ -1,0 +1,6 @@
+C1 synthetic quadratic recovered: True; C2 synthetic with a 1/k term not recovered: True
+ratios a_k = d_(k+1)/d_k, k = 1..6: 2.33333 14.73016 29.16509 47.49739 69.30329 94.65655
+quadratic on k = 3..6: alpha 1.7552, beta 6.0309, gamma -4.7211; on k = 2..5: alpha 1.8427, beta 5.3060, gamma -3.2739; prediction of a_6 from k = 2..5: 94.90063 against 94.65655 (error 0.26 percent)
+reference alpha = 256 pi^2 / A^2: 2.4207 for A = 32.307, 2.3262 for A = 32.957
+P1 alpha of the k = 3..6 quadratic in [1.5, 2.6]: holds (alpha = 1.7552); P2 alpha within 25 percent of 2.4207: does not hold; P3 prediction of a_6 within 5 percent: holds
+READING q1774 done (labels by the script; no verdict word)

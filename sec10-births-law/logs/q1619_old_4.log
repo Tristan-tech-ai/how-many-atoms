@@ -1,0 +1,13 @@
+order 2: S_n 13 terms; far field xi^2 coeff (bulk s_2n) = 4 - 8*pi**2/3 = -22.3189450696; Re d_n = 0 [1 s]
+   b_3 = -8 + 8*pi**2/3; A_2 = 8*pi**2/3; lower orders of Gt(0) (must be 0): [] [1 s]
+   kappa_2 = -16 + 8*pi**2/3; e_2 = 4/3 + 8*pi**2/45 = 3.08792967130477
+   completed eta_2: far-field constant minus e_2 = 0 (must be 0) [2 s]
+order 3: S_n 34 terms; far field xi^2 coeff (bulk s_2n) = 8 - 208*pi**2/3 = -676.292571809; Re d_n = 0 [6 s]
+   b_5 = -704*pi**4/225 - 144/5 + 32*pi**2; A_4 = 16*pi**2*(4*pi**2 + 105)/45; lower orders of Gt(0) (must be 0): [] [7 s]
+   kappa_3 = -64 + 64*pi**4/45 + 176*pi**2/3; e_3 = 64*pi**4/1575 + 176/15 + 32*pi**2/9 = 50.7834707760486
+   completed eta_3: far-field constant minus e_3 = 0 (must be 0) [12 s]
+order 4: S_n 70 terms; far field xi^2 coeff (bulk s_2n) = -2176*pi**2/3 - 64*pi**4/3 + 16 = -9220.81366765; Re d_n = 0 [35 s]
+   b_7 = -5824*pi**4/45 - 864/7 + 384*pi**6/245 + 352*pi**2; A_6 = 32*pi**2*(-126*pi**2 - 4*pi**4 + 3675)/315; lower orders of Gt(0) (must be 0): [] [38 s]
+   kappa_4 = -10112*pi**4/225 - 128*pi**6/315 - 1472/5 + 672*pi**2; e_4 = -4544*pi**4/2025 + 2176*pi**6/33075 + 23792/315 + 8416*pi**2/135 = 535.477089468131
+done {'e1': '0', 'e2': '4/3 + 8*pi**2/45', 'e2_num': 3.087929671304775, 'e3': '64*pi**4/1575 + 176/15 + 32*pi**2/9', 'e3_num': 50.78347077604861, 'e4': '-4544*pi**4/2025 + 2176*pi**6/33075 + 23792/315 + 8416*pi**2/135', 'e4_num': 535.4770894681305} [38 s]
+PEAK_WORKING_SET_MB 96

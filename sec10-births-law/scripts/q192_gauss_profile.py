@@ -1,0 +1,182 @@
+"""Q192: the Gaussian channel's profile (Amendment 264 item 3, pre-registered): (a) its wall chain should be the
+noisy chain 2.7178, 2.1693, 1.935, ...; (b) its bulk should follow the binomial law 3.61 d^-0.324 beyond the
+boundary layer; (c) Delta_inf = h_det(K) - A_g(K) should equal the two-wall law's 2c(K) within 0.03, where
+h_det(K) is the half-length the deterministic-ends problem needs (q187's count law, K_0 = 1.80).
+States: the stored Gaussian K = 25 point of q84 (results_q84_gauss_chain_20_34.json), and fresh float solves of
+the mirror-reduced Gaussian KKT system (the q143 machinery, copied) at K = 34 and 40 in mid-plateau, A between
+A_g(K) and A_g(K+1) from q143's table. Float: gap positions good to ~1e-6, enough for the 0.1 % comparisons.
+"""
+
+import os, sys, json
+import numpy as np
+from scipy.optimize import root
+
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+HERE = os.path.dirname(os.path.abspath(__file__))
+H = 0.02
+L2P = 0.5 * np.log(2 * np.pi)
+law = lambda d: 3.61 * d ** (-0.324)
+
+
+def grid(A):
+    return np.arange(-A - 9.0, A + 9.0 + 1e-9, H)
+
+
+def full(A, u, w, wc):
+    xr = np.concatenate([u, [A]])
+    xl = -xr[::-1]
+    x = np.concatenate([xl, [0.0], xr]) if wc is not None else np.concatenate([xl, xr])
+    ww = np.concatenate([w[::-1], [wc], w]) if wc is not None else np.concatenate([w[::-1], w])
+    return x, ww
+
+
+def stats(A, x, ww):
+    y = grid(A)
+    L = -0.5 * (y[None, :] - x[:, None]) ** 2 - L2P
+    P = np.exp(L)
+    Q = ww @ P
+    lQ = np.log(np.maximum(Q, 1e-300))
+    G = L - lQ[None, :]
+    D = H * (P * G).sum(1)
+    Dp = H * (P * (y[None, :] - x[:, None]) * G).sum(1)
+    return D, Dp
+
+
+def solve(A, u0, w0, wc0):
+    m = len(u0)
+    odd = wc0 is not None
+
+    def F(v):
+        u = v[:m]
+        w = v[m : 2 * m + 1]
+        wc = v[2 * m + 1] if odd else None
+        x, ww = full(A, u, w, wc)
+        D, Dp = stats(A, x, ww)
+        K = len(x)
+        h = K // 2
+        right = np.arange(h, K)
+        return np.concatenate(
+            [D[right[:-1]] - D[right[-1]], Dp[right[(1 if odd else 0) : -1]], [ww.sum() - 1]]
+        )
+
+    v0 = np.concatenate([u0, w0] + ([[wc0]] if odd else []))
+    sol = root(F, v0, method="hybr", options={"xtol": 1e-13, "maxfev": 40000})
+    res = np.abs(F(sol.x)).max()
+    if res > 1e-10:
+        sol2 = root(F, sol.x, method="lm", options={"xtol": 1e-14, "ftol": 1e-14, "maxiter": 5000})
+        res2 = np.abs(F(sol2.x)).max()
+        if res2 < res:
+            sol, res = sol2, res2
+    v = sol.x
+    u = v[:m]
+    w = v[m : 2 * m + 1]
+    wc = v[2 * m + 1] if odd else None
+    ok = (
+        res < 3e-8
+        and np.all(np.diff(u) > 0)
+        and u[0] > 0
+        and u[-1] < A
+        and w.min() > 0
+        and (wc is None or wc > 0)
+    )
+    return u, w, wc, res, ok
+
+
+ref = json.load(open(os.path.join(HERE, "results_q84_gauss_chain_20_34.json")))
+xr = np.array([float(v) for v in ref["gauss_K25_us"]])
+wr = np.array([float(v) for v in ref["gauss_K25_ws"]])
+A_ref = -xr[0]
+gaps_r = np.diff(xr)
+NW = 8
+wall_gaps = gaps_r[:NW]
+wall_w = wr[: NW + 1]
+w_int_ref = float(np.median(wr[NW + 1 : 25 - NW - 1]))
+
+
+def guess(A, K):
+    m = K - 2 * (NW + 1)
+    L = 2 * A
+    Lw = wall_gaps.sum()
+    g = (L - 2 * Lw) / (m + 1)
+    t = np.concatenate([[0.0], np.cumsum(wall_gaps)])
+    t = np.concatenate([t, t[-1] + g * np.arange(1, m + 1)])
+    t = np.concatenate([t, L - t[: NW + 1][::-1]])
+    t = np.sort(np.unique(np.round(t, 12)))
+    x = t - A
+    w = np.concatenate(
+        [wall_w * (25 / K) ** 0.5, np.full(m, w_int_ref * (25 / K) ** 0.8), wall_w[::-1] * (25 / K) ** 0.5]
+    )
+    w /= w.sum()
+    h = K // 2
+    odd = K % 2 == 1
+    return x[h + (1 if odd else 0) : -1], w[h + (1 if odd else 0) :], (w[h] if odd else None)
+
+
+a, b, K0 = 3.615, 0.3241, 1.80
+h_det = lambda K: ((K - K0) * a * (1 + b) / 2) ** (1 / (1 + b))
+
+
+def report(label, A, x):
+    g = np.diff(x)
+    mid = (x[1:] + x[:-1]) / 2
+    K = len(x)
+    right = mid >= 0
+    d = A - mid[right]
+    gr = g[right]
+    o = np.argsort(d)
+    d, gr = d[o], gr[o]
+    print(f"\n{label}: A = {A:.4f}, K = {K}")
+    print(
+        "   wall chain (first 8 gaps): "
+        + " ".join(f"{v:.4f}" for v in gr[:8])
+        + "   [noisy chain: 2.7178 2.1693 1.9350 1.790 1.687 1.608 1.545]"
+    )
+    print(
+        "   gap / bulk law 3.61 d^-0.324 at d: "
+        + " ".join(f"({dd:.1f}: {gg/law(dd):.3f})" for dd, gg in zip(d, gr))
+    )
+    m = d >= 12
+    if m.sum() >= 3:
+        p = np.polyfit(np.log(d[m]), np.log(gr[m]), 1)
+        print(
+            f"   bulk fit over d >= 12 ({m.sum()} gaps): {np.exp(p[1]):.3f} d^{p[0]:+.4f}; mean ratio to the law {np.mean(gr[m]/law(d[m])):.4f}"
+        )
+    # deterministic-end cumulative positions vs this state's, from the wall inward
+    cum_noisy = np.cumsum(gr)
+    dd = np.zeros(len(gr))
+    pos = 0.0
+    cum_det = []
+    for j in range(
+        len(gr)
+    ):  # deterministic chain generated by the law self-consistently: g_j = law(pos + g_j/2)
+        gj = law(pos + 1.0)
+        for _ in range(60):
+            gj = law(pos + gj / 2)
+        pos += gj
+        cum_det.append(pos)
+    cum_det = np.array(cum_det)
+    diff = cum_det - cum_noisy
+    print(
+        "   Delta(j) = deterministic cumulative - this state's cumulative: "
+        + " ".join(f"{v:+.3f}" for v in diff[: min(len(diff), 20)])
+    )
+    print(
+        f"   h_det(K) - A = {h_det(K) - A:+.4f} (count law with K_0 = 1.80; the state is mid-plateau so this is A-dependent by up to half a plateau)"
+    )
+
+
+report("q84 stored Gaussian K = 25", A_ref, xr)
+Ag = {
+    int(k): float(v)
+    for k, v in json.load(open(os.path.join(HERE, "results_q143_Ag_all.json")))["A_g"].items()
+}
+for K in (34, 40):
+    A = 0.5 * (Ag[K] + Ag[K + 1])
+    u0, w0, wc0 = guess(A, K)
+    u, w, wc, res, ok = solve(A, u0, w0, wc0)
+    print(
+        f"\nGaussian K = {K} at mid-plateau A = {A:.4f} (A_g({K}) = {Ag[K]:.4f}, A_g({K+1}) = {Ag[K+1]:.4f}): residual {res:.1e}, clean {ok}"
+    )
+    if ok:
+        x, ww = full(A, u, w, wc)
+        report(f"Gaussian K = {K} solved", A, x)

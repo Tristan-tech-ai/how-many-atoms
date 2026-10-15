@@ -1,0 +1,6 @@
+   B1: True  5 states, wc increasing with A True, lowest state wc -3.390e-04, root wc 7.29e-14
+   B2: True  A_cross 41.200836329, A_b0 41.200836330, difference 4.42e-10
+   B3: True  slope dwc/dA at the root 0.3949
+   B4: True  K 60 centre signals -2.332e-16 at A 41.2, 2.698e-15 at A 41.21
+controls: PC passes 4 items; C1 (wc -> -wc) gives B1 False, B3 False; C2 (A_b0 + 0.002) gives B2 False
+VERDICT q938 T67: PASS; failed items []

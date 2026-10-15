@@ -1,4 +1,4 @@
-"""I_interior (03 Oct, referee R1 item T1): D - C inside the filled ellipse for a solved boundary ring (D_solver state file).
+"""I_interior (03 Oct, reader R1 item T1): D - C inside the filled ellipse for a solved boundary ring (D_solver state file).
 Grid q = (s rp cos t, s rm sin t), s in S_LIST, t in [0, 90] deg (D2 symmetry). Uses D_core2's KKT function through D_solver (FUNC from
 env, here capfix), the same function as the ring solve. Prints the largest D - C over the grid and its place, and D - C at the centre.
 Usage: py I_interior.py STATE.json [NT]   (env FUNC RP LAM PREC as for D_solver)"""

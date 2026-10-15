@@ -1,0 +1,38 @@
+READING q1449 (no verdict): x and bd of the 12 outermost atoms (index 0 = outermost), normalised at the outermost position index; K 83 to 108 n 26
+== even K 84 .. 108
+ atom (0 = outermost): x_pos last row | rel change first->last | p=2/3 limit | x_mass last row | rel change | bd_pos max rel change over K
+   0: xpos   +1.00000 chg 0.0e+00 L   +1.00000 | xmass   -0.82890 chg 6.4e-03 L   -0.79960 | bdpos chg 0.0e+00
+   1: xpos   +7.54726 chg 1.7e-02 L   +8.21909 | xmass   -7.57117 chg 9.3e-03 L   -7.95534 | bdpos chg 8.2e-14
+   2: xpos  +38.62554 chg 3.1e-02 L  +44.96740 | xmass  -42.96692 chg 2.3e-02 L  -48.25511 | bdpos chg 7.7e-13
+   3: xpos +158.39277 chg 4.4e-02 L +195.37561 | xmass -189.42444 chg 3.6e-02 L -225.25923 | bdpos chg 4.7e-12
+   4: xpos +559.55606 chg 5.8e-02 L +727.49405 | xmass -707.86295 chg 4.8e-02 L -886.43453 | bdpos chg 2.2e-11
+   5: xpos +1771.56645 chg 7.2e-02 L +2419.59556 | xmass -2346.94281 chg 6.1e-02 L -3084.00346 | bdpos chg 8.9e-11
+   6: xpos +5150.92615 chg 8.5e-02 L +7373.79479 | xmass -7097.23487 chg 7.4e-02 L -9762.78117 | bdpos chg 6.8e-10
+   7: xpos +13981.04298 chg 1.0e-01 L +20945.55589 | xmass -19935.98294 chg 8.7e-02 L -28659.39597 | bdpos chg 2.5e-05
+   8: xpos +35839.96586 chg 1.2e-01 L +56131.36503 | xmass -52688.88097 chg 1.0e-01 L -79064.98844 | bdpos chg 1.0e+00
+   9: xpos +87519.66638 chg 1.3e-01 L +143194.42432 | xmass -132259.42397 chg 1.1e-01 L -207003.66751 | bdpos chg nan
+  10: xpos +204932.52787 chg 1.5e-01 L +350133.17897 | xmass -317594.57436 chg 1.3e-01 L -518183.49397 | bdpos chg nan
+  11: xpos +462514.28501 chg 1.7e-01 L +825028.12857 | xmass -733651.20233 chg 1.5e-01 L -1247471.06443 | bdpos chg nan
+ ratio x_pos[a]/x_pos[a+1] at the last row: ['0.132', '0.195', '0.244', '0.283', '0.316', '0.344', '0.368', '0.390', '0.410', '0.427', '0.443']
+== odd K 83 .. 107
+ atom (0 = outermost): x_pos last row | rel change first->last | p=2/3 limit | x_mass last row | rel change | bd_pos max rel change over K
+   0: xpos   +1.00000 chg 0.0e+00 L   +1.00000 | xmass   -0.82649 chg 5.9e-03 L   -0.79976 | bdpos chg 0.0e+00
+   1: xpos   +7.52235 chg 1.7e-02 L   +8.21686 | xmass   -7.54521 chg 1.0e-02 L   -7.95429 | bdpos chg 1.0e-13
+   2: xpos  +38.46914 chg 3.2e-02 L  +44.94483 | xmass  -42.80088 chg 2.4e-02 L  -48.23699 | bdpos chg 9.7e-13
+   3: xpos +157.67741 chg 4.6e-02 L +195.24022 | xmass -188.61683 chg 3.7e-02 L -225.13027 | bdpos chg 5.9e-12
+   4: xpos +556.79792 chg 6.0e-02 L +726.86971 | xmass -704.57547 chg 5.0e-02 L -885.77755 | bdpos chg 2.8e-11
+   5: xpos +1762.12726 chg 7.4e-02 L +2417.16301 | xmass -2335.16801 chg 6.3e-02 L -3081.25689 | bdpos chg 1.1e-10
+   6: xpos +5121.43320 chg 8.8e-02 L +7365.39456 | xmass -7058.99237 chg 7.6e-02 L -9752.76397 | bdpos chg 6.8e-10
+   7: xpos +13895.36881 chg 1.0e-01 L +20919.10609 | xmass -19821.10182 chg 8.9e-02 L -28626.41341 | bdpos chg 2.5e-05
+   8: xpos +35605.62626 chg 1.2e-01 L +56054.00528 | xmass -52365.21979 chg 1.0e-01 L -78964.80163 | bdpos chg 1.0e+00
+   9: xpos +86910.45884 chg 1.4e-01 L +142981.50995 | xmass -131395.46345 chg 1.2e-01 L -206718.72383 | bdpos chg nan
+  10: xpos +203416.50340 chg 1.5e-01 L +349576.47254 | xmass -315392.57735 chg 1.3e-01 L -517416.52677 | bdpos chg nan
+  11: xpos +458882.68439 chg 1.7e-01 L +823635.21447 | xmass -728260.05029 chg 1.5e-01 L -1245501.55599 | bdpos chg nan
+ ratio x_pos[a]/x_pos[a+1] at the last row: ['0.133', '0.196', '0.244', '0.283', '0.316', '0.344', '0.369', '0.390', '0.410', '0.427', '0.443']
+-- additional numbers (script): slope of ln x_pos per atom between the first and last row, and size of bd
+even K 84 to 108 : d ln x / atom index = ['0.0164', '0.0152', '0.0145', '0.0141', '0.0138', '0.0137', '0.0136', '0.0136', '0.0137', '0.0138', '0.0140']
+   linear fit of d ln x versus atom index: slope 0.0136 per atom, intercept 0.0020, largest residual 3.0e-03
+   |bd_pos| normalised, atoms 0..11: ['1.0e+00', '2.8e-02', '1.4e-04', '1.7e-07', '7.0e-11', '1.1e-14', '6.7e-19', '1.9e-23', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00']
+odd K 83 to 107 : d ln x / atom index = ['0.0172', '0.0158', '0.0150', '0.0145', '0.0142', '0.0141', '0.0140', '0.0140', '0.0141', '0.0142', '0.0144']
+   linear fit of d ln x versus atom index: slope 0.0139 per atom, intercept 0.0024, largest residual 3.2e-03
+   |bd_pos| normalised, atoms 0..11: ['1.0e+00', '2.8e-02', '1.4e-04', '1.7e-07', '7.0e-11', '1.1e-14', '6.7e-19', '1.9e-23', '0.0e+00', '0.0e+00', '0.0e+00', '0.0e+00']

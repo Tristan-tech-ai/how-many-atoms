@@ -1,0 +1,6 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True}
+   K 67: optimal states 105, complete True
+   K 68: optimal states 110, complete True
+   K 69: optimal states 103, complete True
+pairs 318, pairs with a violation 0, largest increase of a partial sum 2.539e-50
+VERDICT q1003 T87: PASS

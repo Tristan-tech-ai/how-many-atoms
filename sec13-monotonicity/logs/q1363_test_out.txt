@@ -1,0 +1,9 @@
+control c1 (counter on a synthetic derivative): True
+control c2 (ball arithmetic against the 40-digit mpmath sum at seven grid points, full precision: largest upper bound of the difference 1.26e-40, max |D'| 2.744e-01; bar 1e-30): True
+control c3 (equally spaced comb: 2 sign changes, 0 undecided, pattern False): True; c4 (one atom removed: 16 sign changes, 0 undecided): True; c5 (K = 40 state: 38 changes, 0 undecided, pattern True, smallest decided |D'| 8.31e-14, largest ball radius 6.1e-65): True
+state K, A, file | sign changes (expected K - 2), pattern, undecided, smallest decided |D'|, largest radius
+  K 40: A 29.8500 (2 OPTIMAL states, results_q207_gauss_K40_A29.8500.json) | 38 (expected 38), pattern True, undecided 0, smallest decided |D'| 8.3e-14, radius 6.2e-65 -> agrees
+  K 62: A 41.8032 (185 OPTIMAL states, results_q220_gauss_K62_A41.8032.json) | 60 (expected 60), pattern True, undecided 0, smallest decided |D'| 7.6e-17, radius 4.8e-65 -> agrees
+states analysed 2; all agree with branch 0: True
+READING q1363 (exploratory, no verdict)
+exit 0

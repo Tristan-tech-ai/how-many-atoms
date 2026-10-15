@@ -1,0 +1,9 @@
+events K_b >= 131 present in fw_prod: [131, 132, 133, 134, 137] ; expected set: [131, 132, 133, 134, 137]
+K_b:                                        131       132       133       134       137
+wall pair, E_4 = E_5 = 0:             +4.41e-09 +4.29e-09 +4.17e-09 +4.06e-09 +3.74e-09
+wall pair, E_4 alone (-8.006e+05):    -3.88e-10 -3.91e-10 -3.93e-10 -3.95e-10 -4.01e-10
+wall pair, E_4 and E_5 (frozen):      -5.30e-11 -5.66e-11 -6.03e-11 -6.39e-11 -7.50e-11
+Aitken limit pair, E = 0:             -1.08e-08 -1.10e-08 -1.12e-08 -1.14e-08 -1.20e-08
+largest |difference|: two-term 7.50e-11, one-term 4.01e-10, zero-term 4.41e-09, limit pair 1.20e-08; spread of the two-term differences 2.21e-11
+P1 two-term differences below 3e-10: holds; P2 zero-term differences positive in [2e-09, 8e-09]: holds; P3 two-term closer than the limit pair at every event: holds; P4 spread below 2e-10: holds
+READING q1618 done (labels by the script; no verdict word)

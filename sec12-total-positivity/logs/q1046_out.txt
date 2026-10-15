@@ -1,0 +1,10 @@
+READING q1046: s_p against the depth A - u_p
+K 40 atoms read 19
+K 65 atoms read 31
+K 70 atoms read 34
+K 80 atoms read 39
+K 40: m 19, s at depth 5, 10, 15, 20, 25, 30: 0.6978, 0.4654, 0.2852, 0.1384, 0.0282, nan; sum 5.0680; sum over depth > 20 0.3393, > 25 0.0244
+K 65: m 31, s at depth 5, 10, 15, 20, 25, 30: 0.8513, 0.6568, 0.5030, 0.3758, 0.2657, 0.1684; sum 9.7770; sum over depth > 20 2.9042, > 25 1.6251
+K 70: m 34, s at depth 5, 10, 15, 20, 25, 30: 0.8302, 0.6304, 0.4730, 0.3428, 0.2304, 0.1314; sum 8.9191; sum over depth > 20 2.3417, > 25 1.1992
+K 80: m 39, s at depth 5, 10, 15, 20, 25, 30: 0.8784, 0.6906, 0.5415, 0.4179, 0.3111, 0.2163; sum 11.0865; sum over depth > 20 3.8347, > 25 2.3804
+END q1046 READING (no verdict)

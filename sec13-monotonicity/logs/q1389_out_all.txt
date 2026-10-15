@@ -1,0 +1,93 @@
+K 62 start A 41.740000 (even, u_1), stored-system flow 11.0283031511, J 61x61
+   S   : sum 11.02830315 (control OK, relative difference 3.1e-30); sum|c|/|sum c| = 3.9406e+11; positive part 2.1729098e+12, negative part -2.1729098e+12, ratio 1.0; positive 43, negative 2; largest |c| 2.173e+12 
+   R   : sum 11.02830315 (control information, relative difference 8.44e-21); sum|c|/|sum c| = 3.9406e+11; positive part 2.1729098e+12, negative part -2.1729098e+12, ratio 1.0; positive 43, negative 2; largest |c| 2.173e+12 
+   D1  : sum 11.02830315 (control OK, relative difference 4.88e-30); sum|c|/|sum c| = 35.506; positive part 201.29731, negative part -190.26901, ratio 1.05796; positive 15, negative 10; largest |c| 153.2 
+   T   : sum 11.02830315 (control OK, relative difference 6.62e-30); sum|c|/|sum c| = 35.989; positive part 203.96403, negative part -192.93572, ratio 1.05716; positive 16, negative 9; largest |c| 155.8 
+   signs of c in S, D block: -++++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 00000000000000000000---------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -00000000000000000000--------- | D' block: 000000000000000+++++++++++++++
+K 62 f0.1 A 41.783750 (even, u_1), stored-system flow 2.24158555128, J 61x61
+   S   : sum 2.241585551 (control OK, relative difference 1.23e-30); sum|c|/|sum c| = 2.1317e+11; positive part 2.3891821e+11, negative part -2.3891821e+11, ratio 1.0; positive 43, negative 2; largest |c| 2.389e+11 
+   R   : sum 2.241585551 (control information, relative difference 7.53e-21); sum|c|/|sum c| = 2.1317e+11; positive part 2.3891821e+11, negative part -2.3891821e+11, ratio 1.0; positive 43, negative 2; largest |c| 2.389e+11 
+   D1  : sum 2.241585551 (control OK, relative difference 1.98e-30); sum|c|/|sum c| = 35.501; positive part 40.909629, negative part -38.668043, ratio 1.05797; positive 15, negative 10; largest |c| 31.14 
+   T   : sum 2.241585551 (control OK, relative difference 8.16e-32); sum|c|/|sum c| = 35.984; positive part 41.451619, negative part -39.210034, ratio 1.05717; positive 16, negative 9; largest |c| 31.67 
+   signs of c in S, D block: -++++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 00000000000000000000---------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -00000000000000000000--------- | D' block: 000000000000000+++++++++++++++
+K 62 f0.25 A 41.843175 (even, u_1), stored-system flow 0.863245006733, J 61x61
+   S   : sum 0.8632450067 (control OK, relative difference 7.06e-31); sum|c|/|sum c| = 9.9787e+10; positive part 4.3070103e+10, negative part -4.3070103e+10, ratio 1.0; positive 43, negative 2; largest |c| 4.307e+10 
+   R   : sum 0.8632450067 (control information, relative difference 7.43e-21); sum|c|/|sum c| = 9.9787e+10; positive part 4.3070103e+10, negative part -4.3070103e+10, ratio 1.0; positive 43, negative 2; largest |c| 4.307e+10 
+   D1  : sum 0.8632450067 (control OK, relative difference 6.65e-31); sum|c|/|sum c| = 35.453; positive part 15.733799, negative part -14.870554, ratio 1.05805; positive 15, negative 10; largest |c| 11.97 
+   T   : sum 0.8632450067 (control OK, relative difference 7.26e-31); sum|c|/|sum c| = 35.936; positive part 15.942377, negative part -15.079132, ratio 1.05725; positive 16, negative 9; largest |c| 12.18 
+   signs of c in S, D block: -++++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 00000000000000000000---------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -00000000000000000000--------- | D' block: 000000000000000+++++++++++++++
+K 62 middle A 41.983175 (even, u_1), stored-system flow 0.265555740801, J 61x61
+   S   : sum 0.2655557408 (control OK, relative difference 6.0e-32); sum|c|/|sum c| = 3.9993e+10; positive part 5.3101828e+9, negative part -5.3101828e+9, ratio 1.0; positive 42, negative 3; largest |c| 3.626e+9 
+   R   : sum 0.2655557408 (control information, relative difference 7.38e-21); sum|c|/|sum c| = 3.9993e+10; positive part 5.3101828e+9, negative part -5.3101828e+9, ratio 1.0; positive 42, negative 3; largest |c| 3.626e+9 
+   D1  : sum 0.2655557408 (control OK, relative difference 1.68e-31); sum|c|/|sum c| = 35.173; positive part 4.8030393, negative part -4.5374836, ratio 1.05852; positive 15, negative 10; largest |c| 3.655 
+   T   : sum 0.2655557408 (control OK, relative difference 2.11e-31); sum|c|/|sum c| = 35.655; positive part 4.8669435, negative part -4.6013877, ratio 1.05771; positive 16, negative 9; largest |c| 3.719 
+   signs of c in S, D block: --+++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 00000000000000000000---------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -00000000000000000000--------- | D' block: 000000000000000+++++++++++++++
+K 62 f0.75 A 42.123175 (even, u_1), stored-system flow 0.143357355345, J 61x61
+   S   : sum 0.1433573553 (control OK, relative difference 6.87e-32); sum|c|/|sum c| = 2.0128e+10; positive part 1.4427669e+9, negative part -1.4427669e+9, ratio 1.0; positive 41, negative 4; largest |c| 7.708e+8 
+   R   : sum 0.1433573553 (control information, relative difference 7.31e-21); sum|c|/|sum c| = 2.0128e+10; positive part 1.4427669e+9, negative part -1.4427669e+9, ratio 1.0; positive 41, negative 4; largest |c| 7.708e+8 
+   D1  : sum 0.1433573553 (control OK, relative difference 7.78e-32); sum|c|/|sum c| = 34.751; positive part 2.5625736, negative part -2.4192162, ratio 1.05926; positive 15, negative 9; largest |c| 1.95 
+   T   : sum 0.1433573553 (control OK, relative difference 1.4e-31); sum|c|/|sum c| = 35.229; positive part 2.5968593, negative part -2.453502, ratio 1.05843; positive 16, negative 8; largest |c| 1.984 
+   signs of c in S, D block: ---++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 000000000000000000000--------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -000000000000000000000-------- | D' block: 000000000000000+++++++++++++++
+K 62 f0.9 A 42.203175 (even, u_1), stored-system flow 0.113283214167, J 61x61
+   S   : sum 0.1132832142 (control OK, relative difference 6.68e-32); sum|c|/|sum c| = 1.394e+10; positive part 7.8960519e+8, negative part -7.8960519e+8, ratio 1.0; positive 41, negative 4; largest |c| 3.896e+8 
+   R   : sum 0.1132832142 (control information, relative difference 7.27e-21); sum|c|/|sum c| = 1.394e+10; positive part 7.8960519e+8, negative part -7.8960519e+8, ratio 1.0; positive 41, negative 4; largest |c| 3.896e+8 
+   D1  : sum 0.1132832142 (control OK, relative difference 2.7e-32); sum|c|/|sum c| = 34.483; positive part 2.0098306, negative part -1.8965474, ratio 1.05973; positive 15, negative 10; largest |c| 1.529 
+   T   : sum 0.1132832142 (control OK, relative difference 8.87e-32); sum|c|/|sum c| = 34.96; positive part 2.0368176, negative part -1.9235344, ratio 1.05889; positive 16, negative 9; largest |c| 1.557 
+   signs of c in S, D block: ---++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 00000000000000000000---------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -00000000000000000000--------- | D' block: 000000000000000+++++++++++++++
+K 62 end A 42.258175 (even, u_1), stored-system flow 0.0993769958004, J 61x61
+   S   : sum 0.0993769958 (control OK, relative difference 1.23e-31); sum|c|/|sum c| = 1.0916e+10; positive part 5.4241113e+8, negative part -5.4241113e+8, ratio 1.0; positive 41, negative 4; largest |c| 2.577e+8 
+   R   : sum 0.0993769958 (control information, relative difference 7.93e-21); sum|c|/|sum c| = 1.0916e+10; positive part 5.4241113e+8, negative part -5.4241113e+8, ratio 1.0; positive 41, negative 4; largest |c| 2.577e+8 
+   D1  : sum 0.0993769958 (control OK, relative difference 5.74e-33); sum|c|/|sum c| = 34.297; positive part 1.7538331, negative part -1.6544561, ratio 1.06007; positive 15, negative 10; largest |c| 1.335 
+   T   : sum 0.0993769958 (control OK, relative difference 1.72e-32); sum|c|/|sum c| = 34.772; positive part 1.7774422, negative part -1.6780652, ratio 1.05922; positive 16, negative 9; largest |c| 1.358 
+   signs of c in S, D block: ---++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 00000000000000000000---------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -00000000000000000000--------- | D' block: 000000000000000+++++++++++++++
+K 62 f0.97 A 42.243175 (even, u_1), stored-system flow 0.102776981276, J 61x61
+   S   : sum 0.1027769813 (control OK, relative difference 5.04e-32); sum|c|/|sum c| = 1.1661e+10; positive part 5.992255e+8, negative part -5.992255e+8, ratio 1.0; positive 41, negative 4; largest |c| 2.874e+8 
+   R   : sum 0.1027769813 (control information, relative difference 7.25e-21); sum|c|/|sum c| = 1.1661e+10; positive part 5.992255e+8, negative part -5.992255e+8, ratio 1.0; positive 41, negative 4; largest |c| 2.874e+8 
+   D1  : sum 0.1027769813 (control OK, relative difference 1.89e-32); sum|c|/|sum c| = 34.348; positive part 1.8164553, negative part -1.7136784, ratio 1.05997; positive 15, negative 10; largest |c| 1.382 
+   T   : sum 0.1027769813 (control OK, relative difference 5.88e-32); sum|c|/|sum c| = 34.823; positive part 1.8408906, negative part -1.7381136, ratio 1.05913; positive 16, negative 9; largest |c| 1.407 
+   signs of c in S, D block: ---++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 00000000000000000000---------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -00000000000000000000--------- | D' block: 000000000000000+++++++++++++++
+K 61 start A 41.215000 (odd, wc), stored-system flow 0.192353845933, J 60x60
+   S   : sum 0.1923538459 (control OK, relative difference 6.84e-30); sum|c|/|sum c| = 4.7487e+11; positive part 4.567199e+10, negative part -4.567199e+10, ratio 1.0; positive 43, negative 2; largest |c| 4.567e+10 
+   D1  : sum 0.1923538459 (control OK, relative difference 2.0e-30); sum|c|/|sum c| = 35.402; positive part 3.5009929, negative part -3.308639, ratio 1.05814; positive 15, negative 10; largest |c| 2.664 
+   T   : sum 0.1923538459 (control OK, relative difference 1.32e-30); sum|c|/|sum c| = 35.885; positive part 3.547471, negative part -3.3551171, ratio 1.05733; positive 16, negative 9; largest |c| 2.71 
+   signs of c in S, D block: ++++++++++++++++++++++++++++- | D' block: 00000000000000+++++++++++++++ | D(0) row: -
+   signs of c in T, D block: 0000000000000000000---------+ | D' block: 00000000000000+++++++++++++++ | D(0) row: 0
+   signs of c in D1, D block: -0000000000000000000--------- | D' block: 00000000000000+++++++++++++++ | D(0) row: 0
+K 61 middle A 41.472500 (odd, wc), stored-system flow 0.0053043312711, J 60x60
+   S   : sum 0.005304331271 (control OK, relative difference 2.96e-31); sum|c|/|sum c| = 2.9332e+10; positive part 77793525.0, negative part -77793525.0, ratio 1.0; positive 41, negative 4; largest |c| 3.948e+7 
+   D1  : sum 0.005304331271 (control OK, relative difference 4.68e-32); sum|c|/|sum c| = 36.824; positive part 0.10031427, negative part -0.095009934, ratio 1.05583; positive 15, negative 10; largest |c| 0.07648 
+   T   : sum 0.005304331271 (control OK, relative difference 2.82e-31); sum|c|/|sum c| = 37.357; positive part 0.1017281, negative part -0.096423766, ratio 1.05501; positive 16, negative 9; largest |c| 0.07801 
+   signs of c in S, D block: --++++++++++++++++++++++++++- | D' block: 00000000000000+++++++++++++++ | D(0) row: -
+   signs of c in T, D block: 0000000000000000000---------+ | D' block: 00000000000000+++++++++++++++ | D(0) row: 0
+   signs of c in D1, D block: -0000000000000000000--------- | D' block: 00000000000000+++++++++++++++ | D(0) row: 0
+K 61 f0.9 A 41.677500 (odd, wc), stored-system flow 0.00230829892827, J 60x60
+   S   : sum 0.002308298928 (control OK, relative difference 1.5e-32); sum|c|/|sum c| = 1.1779e+10; positive part 13594843.0, negative part -13594843.0, ratio 1.0; positive 40, negative 5; largest |c| 5.971e+6 
+   D1  : sum 0.002308298928 (control OK, relative difference 4.04e-32); sum|c|/|sum c| = 38.682; positive part 0.045798572, negative part -0.043490273, ratio 1.05308; positive 15, negative 9; largest |c| 0.03499 
+   T   : sum 0.002308298928 (control OK, relative difference 1.86e-32); sum|c|/|sum c| = 39.285; positive part 0.046495037, negative part -0.044186738, ratio 1.05224; positive 16, negative 8; largest |c| 0.03582 
+   signs of c in S, D block: ---+++++++++++++++++++++++++- | D' block: 00000000000000+++++++++++++++ | D(0) row: -
+   signs of c in T, D block: 00000000000000000000--------+ | D' block: 00000000000000+++++++++++++++ | D(0) row: 0
+   signs of c in D1, D block: -00000000000000000000-------- | D' block: 00000000000000+++++++++++++++ | D(0) row: 0
+K 61 end A 41.727500 (odd, wc), stored-system flow 0.00201374470001, J 60x60
+   S   : sum 0.0020137447 (control OK, relative difference 7.07e-33); sum|c|/|sum c| = 9.7245e+9; positive part 9791302.5, negative part -9791302.5, ratio 1.0; positive 40, negative 5; largest |c| 4.155e+6 
+   D1  : sum 0.0020137447 (control OK, relative difference 3.41e-32); sum|c|/|sum c| = 39.159; positive part 0.040434568, negative part -0.038420823, ratio 1.05241; positive 15, negative 10; largest |c| 0.03091 
+   T   : sum 0.0020137447 (control OK, relative difference 1.12e-31); sum|c|/|sum c| = 39.78; positive part 0.041060744, negative part -0.039046999, ratio 1.05157; positive 16, negative 9; largest |c| 0.03167 
+   signs of c in S, D block: ---+++++++++++++++++++++++++- | D' block: 00000000000000+++++++++++++++ | D(0) row: -
+   signs of c in T, D block: 0000000000000000000---------+ | D' block: 00000000000000+++++++++++++++ | D(0) row: 0
+   signs of c in D1, D block: -0000000000000000000--------- | D' block: 00000000000000+++++++++++++++ | D(0) row: 0
+READING q1389 done

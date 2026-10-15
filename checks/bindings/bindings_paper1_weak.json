@@ -10,7 +10,7 @@
   "paper": "paper1",
   "printed": "10^{-4}",
   "context": "ten within $10^{-4}$ with a f",
-  "expr": "max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1)), max(abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), max(abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+,\\s*(0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), abs(L(1340, r'Linear zero of the 90-deg margin: rm 0\\.\\d+, eps (0\\.\\d+)')/L(1320, r'\\| LFP rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1359, r'So the loss lies in eps \\((0\\.\\d+),')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1359, r'So the loss lies in eps \\(0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1))]) if max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1)), max(abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), max(abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+,\\s*(0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), abs(L(1340, r'Linear zero of the 90-deg margin: rm 0\\.\\d+, eps (0\\.\\d+)')/L(1320, r'\\| LFP rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1359, r'So the loss lies in eps \\((0\\.\\d+),')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1359, r'So the loss lies in eps \\(0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1))]) <= 1e-4 else -1",
+  "expr": "max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1)), max(abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), max(abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+,\\s*(0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), abs(L(1340, r'Linear zero of the 90-deg margin: rm 0\\.\\d+, eps (0\\.\\d+)')/L(1320, r'\\| LFP rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1359, r'So the loss lies in eps \\((0\\.\\d+),')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1359, r'So the loss lies in eps \\(0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1))]) if max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1)), max(abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), max(abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+,\\s*(0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), abs(L(1340, r'Linear zero of the 90-deg margin: rm 0\\.\\d+, eps (0\\.\\d+)')/L(1320, r'\\| LFP rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1359, r'So the loss lies in eps \\((0\\.\\d+),')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1359, r'So the loss lies in eps \\(0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1))]) <= 1e-4 else -1",
   "why": "largest relative LR miss of the ten LR events: linear-response misses |obs/LR - 1|: mixed 16 (1374 vs 1320), mixed 20 bracket (1373 vs 1332), rp 3 18, 20, 22, 24 (1356, 1360, 1372, 1399 vs 1349, 1358, 1361, 1379); NPMLE 14, 16 brackets (1323, 1325), LFP 14 zero (1340), LFP 16 bracket (1359) against the LR values registered in 1320; max = rp 3 18-ring 9.45e-5"
  },
  {
@@ -24,7 +24,7 @@
   "paper": "paper1",
   "printed": "10^{-4}",
   "context": "computed fell within $10^{-4}$",
-  "expr": "max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1))]) if max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1))]) <= 1e-4 else -1",
+  "expr": "max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1))]) if max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1))]) <= 1e-4 else -1",
   "why": "largest relative LR miss of the six capacity LR events: linear-response misses |obs/LR - 1|: mixed 16 (1374 vs 1320), mixed 20 bracket (1373 vs 1332), rp 3 18, 20, 22, 24 (1356, 1360, 1372, 1399 vs 1349, 1358, 1361, 1379); max 9.45e-5"
  },
  {
@@ -52,7 +52,7 @@
   "paper": "paper1",
   "printed": "10^{-4}",
   "context": "(relative) of its prediction, and it predicted",
-  "expr": "max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1)), max(abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), max(abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+,\\s*(0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), abs(L(1340, r'Linear zero of the 90-deg margin: rm 0\\.\\d+, eps (0\\.\\d+)')/L(1320, r'\\| LFP rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1359, r'So the loss lies in eps \\((0\\.\\d+),')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1359, r'So the loss lies in eps \\(0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1))]) if max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1)), max(abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), max(abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+,\\s*(0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), abs(L(1340, r'Linear zero of the 90-deg margin: rm 0\\.\\d+, eps (0\\.\\d+)')/L(1320, r'\\| LFP rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1359, r'So the loss lies in eps \\((0\\.\\d+),')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1359, r'So the loss lies in eps \\(0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1))]) <= 1e-4 else -1",
+  "expr": "max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1)), max(abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), max(abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+,\\s*(0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), abs(L(1340, r'Linear zero of the 90-deg margin: rm 0\\.\\d+, eps (0\\.\\d+)')/L(1320, r'\\| LFP rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1359, r'So the loss lies in eps \\((0\\.\\d+),')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1359, r'So the loss lies in eps \\(0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1))]) if max([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1)), max(abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1323, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), max(abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1325, r'Bracket: rm in \\(0\\.\\d+, 0\\.\\d+\\], eps in \\[0\\.\\d+,\\s*(0\\.\\d+)\\)')/L(1320, r'\\| NPMLE s 2 rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1)), abs(L(1340, r'Linear zero of the 90-deg margin: rm 0\\.\\d+, eps (0\\.\\d+)')/L(1320, r'\\| LFP rp 1\\.0, K 14 \\(X \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1359, r'So the loss lies in eps \\((0\\.\\d+),')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), abs(L(1359, r'So the loss lies in eps \\(0\\.\\d+, (0\\.\\d+)\\)')/L(1320, r'\\| LFP rp 1\\.0, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1))]) <= 1e-4 else -1",
   "why": "largest relative LR miss where LR was computed (ten events): linear-response misses |obs/LR - 1|: mixed 16 (1374 vs 1320), mixed 20 bracket (1373 vs 1332), rp 3 18, 20, 22, 24 (1356, 1360, 1372, 1399 vs 1349, 1358, 1361, 1379); NPMLE 14, 16 brackets (1323, 1325), LFP 14 zero (1340), LFP 16 bracket (1359) against the LR values registered in 1320"
  },
  {
@@ -73,7 +73,7 @@
   "paper": "paper1",
   "printed": "10^{-7}",
   "context": "between $10^{-7}$ and $9.4",
-  "expr": "min([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1))])",
+  "expr": "min([abs(L(1374, r'zero at rm 1\\.\\d+, eps\\s+(0\\.\\d+) \\(GH-200 bracket')/L(1320, r'\\| capacity lam 0\\.02 rp 1\\.2, K 16 \\(X \\+ Y \\+ 3G\\) \\| 0\\.\\d+ \\| (0\\.\\d+) \\|') - 1), max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1)), abs(L(1356, r'zero at eps (0\\.\\d+) \\(linear and quadratic')/L(1349, r'fam_rp3_K18\\.log,\\s+finished.*?\\):\\s+eps\\s+(0\\.\\d+)') - 1), abs(L(1360, r'linear and quadratic zero at rm 2\\.\\d+, eps\\s+(0\\.\\d+)')/L(1358, r'fam_rp3_K20\\.log.*?eps\\s+(0\\.\\d+)') - 1), abs(L(1372, r'zero at eps (0\\.\\d+)\\. Kind')/L(1361, r'fam_rp3_K22\\.log.*?eps\\s+(0\\.\\d+)') - 1), max(abs(L(1399, r'Last valid rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1), abs(L(1399, r'first invalid\\s+rm 2\\.\\d+ \\(eps (0\\.\\d+)\\)')/L(1379, r'\\| Szego loss \\+ LR offset \\| (0\\.\\d+) \\| \\+-0\\.02 %') - 1))])",
   "why": "smallest relative LR miss of the six capacity LR events: mixed 16-ring capfix zero 0.1343275212 (1374) against LR 0.1343275372 (1320), 1.19e-7"
  },
  {
@@ -88,7 +88,7 @@
   "printed": "0.52",
   "context": "Its first five ring losses on cooling lay within",
   "expr": "max([100*(L(1320, r'So T_c lies in \\(\\d\\.\\d+, (\\d\\.\\d+)\\)')/L(1320, r'obs/pred - 1 recomputed: \\d\\.\\d+/(\\d\\.\\d+)') - 1), 100*(L(1321, r'K 10 T_c (\\d\\.\\d+) against')/L(1321, r'K 10 T_c \\d\\.\\d+ against (\\d\\.\\d+)') - 1), 100*(L(1321, r'so T_c is in\\s+\\(\\d\\.\\d+, (\\d\\.\\d+)\\)')/L(1321, r'K 12 T_c \\d\\.\\d+ against (\\d\\.\\d+)') - 1), 100*(L(1330, r'So T_c lies\\s+in \\(\\d\\.\\d+, (\\d\\.\\d+)\\)')/L(1330, r'registered (\\d\\.\\d+) \\(C_registration') - 1), 100*(L(1337, r'Score: T_c in \\(\\d\\.\\d+, (\\d\\.\\d+)\\)')/L(1337, r'lost on cooling at T_c (\\d\\.\\d+) by a Y split') - 1)])",
-  "why": "largest DA offset counting the independent brackets: K 8 T_c in (2.408, 2.416) against 2.403468696 (1320) gives +0.5214 %; K 10 agent C T_c +0.357 % (1321; my bracket (2.130, 2.1365), centre_scripts/da_check/K10_T2.1365/log.txt valid, +0.41 %); K 12 bracket to +0.357 % (1321); K 14 to +0.47 % (1330); K 16 to +0.0385 % (1337); the point values of agent C are all <= 0.367 %"
+  "why": "largest DA offset counting the independent brackets: K 8 T_c in (2.408, 2.416) against 2.403468696 (1320) gives +0.5214 %; K 10 a helper script T_c +0.357 % (1321; bracket (2.130, 2.1365), centre_scripts/da_check/K10_T2.1365/log.txt valid, +0.41 %); K 12 bracket to +0.357 % (1321); K 14 to +0.47 % (1330); K 16 to +0.0385 % (1337); the point values of a helper script are all <= 0.367 %"
  },
  {
   "paper": "paper1",
@@ -122,14 +122,14 @@
   "paper": "paper1",
   "printed": "2.6\\times 10^{-56}",
   "context": "and $D_\\pi - C$ at the end is $-2.6",
-  "expr": "T('temporal_within/agents/G_work/e36/solve_copy_0.9690_p448.log', r'DC0 (-?\\d\\.\\d+e-\\d+)')",
+  "expr": "T('temporal_within/G_work/e36/solve_copy_0.9690_p448.log', r'DC0 (-?\\d\\.\\d+e-\\d+)')",
   "why": "D - C at t = 0 of the valid 36-ring state at rm 0.9690 (eps 0.0310), 448 bits: log line 'DC0 -2.59e-56 DC90 -1.78e-56'"
  },
  {
   "paper": "paper1",
   "printed": "3.8\\times 10^{-57}",
   "context": "and $D_\\pi - C$ at the end is $-2.6",
-  "expr": "T('temporal_within/agents/G_work/e36/solve_0.9692_p448.log', r'DC0 (-?\\d\\.\\d+e-\\d+)')",
+  "expr": "T('temporal_within/G_work/e36/solve_0.9692_p448.log', r'DC0 (-?\\d\\.\\d+e-\\d+)')",
   "why": "D - C at t = 0 of the valid 36-ring state at rm 0.9692 (eps 0.0308), 448 bits: log line 'DC0 -3.84e-57 DC90 -2.49e-57'"
  },
  {
@@ -265,8 +265,8 @@
   "paper": "paper1",
   "printed": "14",
   "context": "DA, 14 & Y birth",
-  "expr": "L(1330, r'DA K (\\d+) \\(agent C\\) re-checked')",
-  "why": "ring size of the DA event re-checked in 1330: heading 'DA K 14 (agent C) re-checked'"
+  "expr": "L(1330, r'DA K (\\d+) \\(a helper script\\) re-checked')",
+  "why": "ring size of the DA event re-checked in 1330: heading 'DA K 14 re-checked'"
  },
  {
   "paper": "paper1",
@@ -279,8 +279,8 @@
   "paper": "paper1",
   "printed": "16",
   "context": "DA, 16 & Y split",
-  "expr": "L(1337, r'DA K (\\d+) scored \\(my bracket')",
-  "why": "ring size of the DA event scored in 1337: heading 'DA K 16 scored (my bracket'"
+  "expr": "L(1337, r'DA K (\\d+) scored \\((?:m[y]|our) bracket')",
+  "why": "ring size of the DA event scored in 1337: heading 'DA K 16 scored (bracket'"
  },
  {
   "paper": "paper1",
@@ -436,7 +436,7 @@
   "paper": "paper1",
   "printed": "7\\times 10^{-6}",
   "context": "mixed, 1.2, P1, 20-ring",
-  "expr": "max([max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1))]) if max([max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(agent B[^|]*\\| (0\\.\\d+) \\|') - 1))]) <= 7e-6 else -1",
+  "expr": "max([max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1))]) if max([max(abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[(0\\.\\d+),')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1), abs(L(1373, r'to its loss at\\s+rm in \\(1\\.\\d+, 1\\.\\d+\\], eps in \\[0\\.\\d+, (0\\.\\d+)\\)')/L(1332, r'\\| linear response \\(a helper script[^|]*\\| (0\\.\\d+) \\|') - 1))]) <= 7e-6 else -1",
   "why": "mixed 20 LR, larger bracket end: 0.101018506 (1373) over LR 0.1010178410 (1332) = 6.58e-6 (1373: '-0.00007 % .. +0.00066 %')"
  },
  {
@@ -444,7 +444,7 @@
   "printed": "1.2",
   "context": "mixed, 1.2, P1, 22-ring",
   "expr": "L(1381, r'FUNC capfix, LAM 0\\.02, rp (\\d\\.\\d+), 192 bits')",
-  "why": "rp of agent H's trackers on the mixed curve: 1381 'FUNC capfix, LAM 0.02, rp 1.2, 192 bits'",
+  "why": "rp of the trackers on the mixed curve: 1381 'FUNC capfix, LAM 0.02, rp 1.2, 192 bits'",
   "kind": "definition"
  },
  {
@@ -502,7 +502,7 @@
   "printed": "1.2",
   "context": "mixed, 1.2, P1, 26-ring",
   "expr": "L(1381, r'FUNC capfix, LAM 0\\.02, rp (\\d\\.\\d+), 192 bits')",
-  "why": "rp of agent H's trackers on the mixed curve: 1381 'FUNC capfix, LAM 0.02, rp 1.2, 192 bits'",
+  "why": "rp of the trackers on the mixed curve: 1381 'FUNC capfix, LAM 0.02, rp 1.2, 192 bits'",
   "kind": "definition"
  },
  {
@@ -593,8 +593,8 @@
   "paper": "paper1",
   "printed": "16",
   "context": "at $K = 6, \\dots, 16$",
-  "expr": "T('temporal_within/agents/G_work/c3c.log', r'EVENT XY3G \\(K (\\d+)\\) lost')",
-  "why": "last float64 rp 3 event of agent G's sequence: c3c.log 'EVENT XY3G (K 16) lost in rm (1.994168388, 1.994169365)'"
+  "expr": "T('temporal_within/G_work/c3c.log', r'EVENT XY3G \\(K (\\d+)\\) lost')",
+  "why": "last float64 rp 3 event of the sequence: c3c.log 'EVENT XY3G (K 16) lost in rm (1.994168388, 1.994169365)'"
  },
  {
   "paper": "paper1",
@@ -777,28 +777,28 @@
   "paper": "paper1",
   "printed": "8.1",
   "context": "misses of $+8.1",
-  "expr": "100*((3 - (T('temporal_within/agents/G_work/c3a_part1.log', r'EVENT X1G \\(K 6\\) lost in rm \\((\\d\\.\\d+),') + T('temporal_within/agents/G_work/c3a_part1.log', r'EVENT X1G \\(K 6\\) lost in rm \\(\\d\\.\\d+, (\\d\\.\\d+)\\)'))/2)/J('temporal_within/gate_truth/recompute_p1/rp3_form_loss.json', 'K6', 'form_loss_eps') - 1)",
+  "expr": "100*((3 - (T('temporal_within/G_work/c3a_part1.log', r'EVENT X1G \\(K 6\\) lost in rm \\((\\d\\.\\d+),') + T('temporal_within/G_work/c3a_part1.log', r'EVENT X1G \\(K 6\\) lost in rm \\(\\d\\.\\d+, (\\d\\.\\d+)\\)'))/2)/J('temporal_within/gate_truth/recompute_p1/rp3_form_loss.json', 'K6', 'form_loss_eps') - 1)",
   "why": "solved rp 3 event eps = 3 - rm (midpoint of the bracket in G_work/c3a_part1.log: 'EVENT X1G (K 6) lost in rm (...)') over the form-S loss eps 1.600429 recomputed in recompute_p1/rp3_form_loss.py (alpha_5 = +1 between eps 1.5, 1.6, from G's formal/M3r9 CVECs; G_family.md had 1.6004); miss +8.107 %"
  },
  {
   "paper": "paper1",
   "printed": "4.8",
   "context": "$+4.8$, $+3.3",
-  "expr": "100*((3 - (T('temporal_within/agents/G_work/c3b.log', r'EVENT XY1G \\(K 8\\) lost in rm \\((\\d\\.\\d+),') + T('temporal_within/agents/G_work/c3b.log', r'EVENT XY1G \\(K 8\\) lost in rm \\(\\d\\.\\d+, (\\d\\.\\d+)\\)'))/2)/J('temporal_within/gate_truth/recompute_p1/rp3_form_loss.json', 'K8', 'form_loss_eps') - 1)",
+  "expr": "100*((3 - (T('temporal_within/G_work/c3b.log', r'EVENT XY1G \\(K 8\\) lost in rm \\((\\d\\.\\d+),') + T('temporal_within/G_work/c3b.log', r'EVENT XY1G \\(K 8\\) lost in rm \\(\\d\\.\\d+, (\\d\\.\\d+)\\)'))/2)/J('temporal_within/gate_truth/recompute_p1/rp3_form_loss.json', 'K8', 'form_loss_eps') - 1)",
   "why": "solved rp 3 event eps = 3 - rm (midpoint of the bracket in G_work/c3b.log: 'EVENT XY1G (K 8) lost in rm (...)') over the form-S loss eps 1.355165 recomputed in recompute_p1/rp3_form_loss.py (alpha_7 = +1 between eps 1.3, 1.35 (extrapolated), from G's formal/M4r12 CVECs; G_family.md had 1.3552); miss +4.781 %"
  },
  {
   "paper": "paper1",
   "printed": "3.3",
   "context": "$+3.3$, $+2.3",
-  "expr": "100*((3 - (T('temporal_within/agents/G_work/c3b.log', r'EVENT X2G \\(K 10\\) lost in rm \\((\\d\\.\\d+),') + T('temporal_within/agents/G_work/c3b.log', r'EVENT X2G \\(K 10\\) lost in rm \\(\\d\\.\\d+, (\\d\\.\\d+)\\)'))/2)/J('temporal_within/gate_truth/recompute_p1/rp3_form_loss.json', 'K10', 'form_loss_eps') - 1)",
+  "expr": "100*((3 - (T('temporal_within/G_work/c3b.log', r'EVENT X2G \\(K 10\\) lost in rm \\((\\d\\.\\d+),') + T('temporal_within/G_work/c3b.log', r'EVENT X2G \\(K 10\\) lost in rm \\(\\d\\.\\d+, (\\d\\.\\d+)\\)'))/2)/J('temporal_within/gate_truth/recompute_p1/rp3_form_loss.json', 'K10', 'form_loss_eps') - 1)",
   "why": "solved rp 3 event eps = 3 - rm (midpoint of the bracket in G_work/c3b.log: 'EVENT X2G (K 10) lost in rm (...)') over the form-S loss eps 1.216028 recomputed in recompute_p1/rp3_form_loss.py (alpha_9 = +1 between eps 1.20, 1.22, from G's formal/M5r12 CVECs; G_family.md had 1.2160); miss +3.294 %"
  },
  {
   "paper": "paper1",
   "printed": "1.4",
   "context": "and $+1.4\\%$ at",
-  "expr": "100*((3 - (T('temporal_within/agents/G_work/c3c.log', r'EVENT XY3G \\(K 16\\) lost in rm \\((\\d\\.\\d+),') + T('temporal_within/agents/G_work/c3c.log', r'EVENT XY3G \\(K 16\\) lost in rm \\(\\d\\.\\d+, (\\d\\.\\d+)\\)'))/2)/J('temporal_within/gate_truth/recompute_p1/rp3_form_loss.json', 'K16', 'form_loss_eps') - 1)",
+  "expr": "100*((3 - (T('temporal_within/G_work/c3c.log', r'EVENT XY3G \\(K 16\\) lost in rm \\((\\d\\.\\d+),') + T('temporal_within/G_work/c3c.log', r'EVENT XY3G \\(K 16\\) lost in rm \\(\\d\\.\\d+, (\\d\\.\\d+)\\)'))/2)/J('temporal_within/gate_truth/recompute_p1/rp3_form_loss.json', 'K16', 'form_loss_eps') - 1)",
   "why": "solved rp 3 event eps = 3 - rm (midpoint of the bracket in G_work/c3c.log: 'EVENT XY3G (K 16) lost in rm (...)') over the form-S loss eps 0.991642 recomputed in recompute_p1/rp3_form_loss.py (alpha_15 = +1 between eps 0.99, 1.00, from G's formal/M8r12 CVECs; G_family.md had 0.99164); miss +1.431 %"
  },
  {
@@ -983,7 +983,7 @@
   "paper": "paper1",
   "printed": "7\\times 10^{-74}",
   "context": "to $7\\times 10^{-74}$",
-  "expr": "J('temporal_within/agents/F_work/ring32_cert.json', 'box_r', 16)",
+  "expr": "J('temporal_within/F_work/ring32_cert.json', 'box_r', 16)",
   "why": "radius of the capacity C, the 17th unknown of the Krawczyk box, ring32_cert.json box_r[16] = 6.817132021361012e-74"
  },
  {
@@ -1069,7 +1069,7 @@
   "printed": "14",
   "context": "Below about 14 atoms",
   "expr": "(T('temporal_within/PREREG_Q32.md', r'I_lfp_centre on the LFP rings at rm 1\\.40: K 8 [+-]\\d\\.\\d+e-3 \\(opposite sign\\), K (\\d+) ') + T('temporal_within/PREREG_Q32.md', r'I_lfp_centre on the LFP rings at rm 1\\.40: K 8 .*?, K (\\d+)-20 -\\d\\.\\d+e-3'))/2",
-  "why": "midpoint between the largest ring size whose centre excess differs (K 12: -3.2835279e-3) and the smallest that agrees (K 16-20: -3.2835312126e-3), from 1455 F5 ('the centre excess is K-independent only above K about 14-16'); 1455 is classed as writing (referee heading) but records this computation, so it is read from PREREG_Q32.md with T()"
+  "why": "midpoint between the largest ring size whose centre excess differs (K 12: -3.2835279e-3) and the smallest that agrees (K 16-20: -3.2835312126e-3), from 1455 F5 ('the centre excess is K-independent only above K about 14-16'); 1455 is classed as writing (its heading names a reader report) but records this computation, so it is read from PREREG_Q32.md with T()"
  },
  {
   "paper": "paper1",
@@ -1251,7 +1251,7 @@
   "printed": "40",
   "context": "a 40-atom ring with a center atom",
   "expr": "L(1420, r'K (\\d+) boundary ring from a regular seed')",
-  "why": "1420 (a) 'Ring plus centre atom (agents/I_centre_ring.py, K 40 boundary ring from a regular seed, float64)'",
+  "why": "1420 (a) 'Ring plus centre atom (I_centre_ring.py, K 40 boundary ring from a regular seed, float64)'",
   "kind": "definition"
  },
  {
@@ -1807,7 +1807,7 @@
   "paper": "paper1",
   "printed": "1.6",
   "context": "Q_1 + Q_2 + 1.6",
-  "expr": "T('temporal_within/agents/F_core.py', r'qr1 \\+ qr2 \\+ arb\\(\"(\\d\\.\\d+)\"\\)')",
+  "expr": "T('temporal_within/F_core.py', r'qr1 \\+ qr2 \\+ arb\\(\"(\\d\\.\\d+)\"\\)')",
   "why": "constant in the discretisation bound of F_core.py: 'Aa + Bb*(qr1 + qr2 + arb(\"1.6\") + arb(\"0.484\")*h)'",
   "kind": "definition"
  },
@@ -1815,7 +1815,7 @@
   "paper": "paper1",
   "printed": "0.5",
   "context": "$0.5$. For the existence step",
-  "expr": "T('temporal_within/agents/F_kkt.py', r'def system\\(geo, grid, v, a, rho=(\\d\\.\\d+)')",
+  "expr": "T('temporal_within/F_kkt.py', r'def system\\(geo, grid, v, a, rho=(\\d\\.\\d+)')",
   "why": "Cauchy radius for the curve derivatives in F_kkt.py: 'def system(geo, grid, v, a, rho=0.5, jac=True'",
   "kind": "definition"
  },
@@ -1823,7 +1823,7 @@
   "paper": "paper1",
   "printed": "28",
   "context": "$h = 1/28",
-  "expr": "T('temporal_within/agents/F_work/ring32_cert.log', r'fine grid h 1/(\\d+)')",
+  "expr": "T('temporal_within/F_work/ring32_cert.log', r'fine grid h 1/(\\d+)')",
   "why": "ring32_cert.log 'fine grid h 1/28, Y 23.5, M 1317, prec 576'",
   "kind": "definition"
  },
@@ -1831,7 +1831,7 @@
   "paper": "paper1",
   "printed": "16",
   "context": "$h = 1/16",
-  "expr": "T('temporal_within/agents/F_work/ring32_cert.log', r'coarse grid h 1/(\\d+)')",
+  "expr": "T('temporal_within/F_work/ring32_cert.log', r'coarse grid h 1/(\\d+)')",
   "why": "ring32_cert.log 'curve: coarse grid h 1/16, Y 18.0, M 577, prec 256'",
   "kind": "definition"
  },
@@ -1839,7 +1839,7 @@
   "paper": "paper1",
   "printed": "18",
   "context": "$Y = 18",
-  "expr": "T('temporal_within/agents/F_work/ring32_cert.log', r'coarse grid h 1/\\d+, Y (\\d+\\.\\d+)')",
+  "expr": "T('temporal_within/F_work/ring32_cert.log', r'coarse grid h 1/\\d+, Y (\\d+\\.\\d+)')",
   "why": "ring32_cert.log 'curve: coarse grid h 1/16, Y 18.0'",
   "kind": "definition"
  },
@@ -1847,28 +1847,28 @@
   "paper": "paper1",
   "printed": "4.6\\times 10^{-62}",
   "context": "bounds $4.6",
-  "expr": "T('temporal_within/agents/F_work/ring32_cert.log', r'prec 256; quadrature bound (\\d\\.\\d+e-\\d+)')",
+  "expr": "T('temporal_within/F_work/ring32_cert.log', r'prec 256; quadrature bound (\\d\\.\\d+e-\\d+)')",
   "why": "ring32_cert.log 'prec 256; quadrature bound 4.616e-62'"
  },
  {
   "paper": "paper1",
   "printed": "1.4\\times 10^{-60}",
   "context": "$1.4\\times 10^{-60}$ on",
-  "expr": "T('temporal_within/agents/F_work/ring32_cert.log', r'quadrature [\\d.]+e-\\d+ \\(f\\), (\\d\\.\\d+e-\\d+) \\(f')",
+  "expr": "T('temporal_within/F_work/ring32_cert.log', r'quadrature [\\d.]+e-\\d+ \\(f\\), (\\d\\.\\d+e-\\d+) \\(f')",
   "why": "ring32_cert.log 'quadrature 4.62e-62 (f), 1.37e-60 (f'')'"
  },
  {
   "paper": "paper1",
   "printed": "1.3\\times 10^{-50}",
   "context": "The starting point has residual",
-  "expr": "T('temporal_within/agents/F_work/ring32_cert.log', r'harmonic Newton 0: \\|F\\(v\\)\\| <= (\\d\\.\\d+e-\\d+)')",
+  "expr": "T('temporal_within/F_work/ring32_cert.log', r'harmonic Newton 0: \\|F\\(v\\)\\| <= (\\d\\.\\d+e-\\d+)')",
   "why": "ring32_cert.log 'harmonic Newton 0: |F(v)| <= 1.323e-50' (residual of the start state)"
  },
  {
   "paper": "paper1",
   "printed": "32",
   "context": "On each of 32 intervals",
-  "expr": "T('temporal_within/agents/F_work/ring32_R2fix_cert.log', r'(\\d+) Taylor intervals')",
+  "expr": "T('temporal_within/F_work/ring32_R2fix_cert.log', r'(\\d+) Taylor intervals')",
   "why": "ring32_R2fix_cert.log 'curve [0.000000, 1.570796]: 32 Taylor intervals, half-width 0.02454'",
   "kind": "definition"
  },
@@ -1876,7 +1876,7 @@
   "paper": "paper1",
   "printed": "36",
   "context": "polynomial of order 36",
-  "expr": "T('temporal_within/agents/F_work/ring32_R2fix_cert.log', r'half-width 0\\.02454, order (\\d+)')",
+  "expr": "T('temporal_within/F_work/ring32_R2fix_cert.log', r'half-width 0\\.02454, order (\\d+)')",
   "why": "ring32_R2fix_cert.log 'half-width 0.02454, order 36, rho 1'",
   "kind": "definition"
  },
@@ -1884,7 +1884,7 @@
   "paper": "paper1",
   "printed": "0.004",
   "context": "r_j + 0.004",
-  "expr": "T('temporal_within/agents/F_work/ring32_R2fix_cert.log', r'zone half-width (\\d\\.\\d+) \\+ atom radius')",
+  "expr": "T('temporal_within/F_work/ring32_R2fix_cert.log', r'zone half-width (\\d\\.\\d+) \\+ atom radius')",
   "why": "ring32_R2fix_cert.log 'zone half-width 0.004 + atom radius' (F_ring32_cert.py DZ default 0.004)",
   "kind": "definition"
  },
@@ -1892,14 +1892,14 @@
   "paper": "paper1",
   "printed": "38",
   "context": "48 base intervals, 38 free",
-  "expr": "T('temporal_within/agents/F_work/ring32_R2fix_cert.log', r'intervals (\\d+) free')",
+  "expr": "T('temporal_within/F_work/ring32_R2fix_cert.log', r'intervals (\\d+) free')",
   "why": "ring32_R2fix_cert.log 'intervals 38 free + 10 atom zones'"
  },
  {
   "paper": "paper1",
   "printed": "10^{-50}",
   "context": "-1.12760361456]\\times 10^{-50}",
-  "expr": "10**math.floor(math.log10(abs(J('temporal_within/agents/F_work/ring32_R2fix_cert.json', 'vertex', 0))))",
+  "expr": "10**math.floor(math.log10(abs(J('temporal_within/F_work/ring32_R2fix_cert.json', 'vertex', 0))))",
   "why": "power of ten of the certified vertex enclosure, ring32_R2fix_cert.json vertex [-1.1276036145708626e-50, -1.1276036145616275e-50]"
  }
 ]

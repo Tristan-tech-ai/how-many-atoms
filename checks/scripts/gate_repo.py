@@ -1,6 +1,6 @@
 """Repository gate (4 Oct 2026): the public repositories are checked by code against the gated papers.
 
-Tristan asked whether the repositories pass the same gates as the papers. They had not been checked. Checks:
+Checks:
   R1  the paper PDFs in the repositories are byte-identical to the gated builds (papers and the supplement)
   R2  the title in each repository README equals the paper's title
   R3  every cross-reference in the repository docs (Table, Fig., Section, Theorem, Proposition, Conjecture, Lemma, Appendix)
@@ -26,12 +26,21 @@ ROOT = os.path.dirname(TW)
 sys.path.insert(0, HERE)
 import gate_numbers as gn  # loads truth_index.pkl; no side effects beyond that
 
-REPOS = {"paper1": os.path.join(ROOT, "how-many-atoms"), "paper2": os.path.join(ROOT, "how-many-firing-rates")}
-PAPERS = {"paper1": os.path.join(TW, "paper_onelaw", "paper1"), "paper2": os.path.join(TW, "paper_neuron", "paper2")}
+REPOS = {"paper1": os.path.join(ROOT, "how-many-atoms"), "paper2": os.path.join(ROOT, "how-many-firing-rates"),
+         "unified": os.path.join(ROOT, "how-many-atoms-unified")}
+# the merged paper (10 Oct 2026): the text is the flattened file made by paper_unified/flatten.py, the labels come from the aux of unified.tex
+PAPERS = {"paper1": os.path.join(TW, "paper_onelaw", "paper1"), "paper2": os.path.join(TW, "paper_neuron", "paper2"),
+          "unified": os.path.join(TW, "paper_unified", "unified_flat")}
+AUX = {"unified": os.path.join(TW, "paper_unified", "unified")}
+TAG = {"unified": "unified_flat"}  # the paper name written in the bindings
 PDFS = {"paper1": [("paper/how-many-atoms.pdf", "paper_onelaw/paper1.pdf"),
                    ("paper/supplement-inner-rings.pdf", "paper_onelaw/supplement_inner_rings.pdf")],
-        "paper2": [("paper/how-many-firing-rates.pdf", "paper_neuron/paper2.pdf")]}
-PUBLIC_LOG = os.path.join(REPOS["paper1"], "registration-log", "PREREG_Q32.md")
+        "paper2": [("paper/how-many-firing-rates.pdf", "paper_neuron/paper2.pdf")],
+        "unified": [("paper/how-many-atoms.pdf", "paper_unified/unified.pdf"),
+                    ("paper/supplement.pdf", "paper_unified/supplement.pdf")]}   # 15 Oct 2026 (INNERALL): the inner-ring list is Table S6 of the Notes
+PUBLIC_LOGS = {k: os.path.join(r, "registration-log", "PREREG_Q32.md") for k, r in REPOS.items()}
+PUBLIC_LOGS["paper2"] = PUBLIC_LOGS["paper1"]  # the log is published in the repository of paper 1 only
+PUBLIC_LOG = PUBLIC_LOGS["paper1"]
 DOC_RX = re.compile(r"(README|FILES|REDACTIONS)\.md$")
 SKIP_SUFFIX = (".md", ".pdf", ".gitignore", "LICENSE", "requirements.txt")
 
@@ -105,7 +114,9 @@ REF_RX = re.compile(r"\b(Tables?|Fig\.|Figure|Sections?|Theorem|Proposition|Conj
 def main():
     rep, fails = ["# Repository gate report", "", "Computed by gate_repo.py; R3 and R4 lists are for a human read.", ""], {}
     idx = local_index()
-    pub_amend = {int(m.group(1)) for m in re.finditer(r"^## Amendment (\d+)", open(PUBLIC_LOG, encoding="utf-8").read(), re.M)}
+    pub_text_by = {k: (open(v, encoding="utf-8").read() if os.path.exists(v) else "") for k, v in PUBLIC_LOGS.items()}
+    pub_amend_by = {k: {int(m.group(1)) for m in re.finditer(r"^## Amendment (\d+)", t, re.M)} for k, t in pub_text_by.items()}
+    pub_amend = pub_amend_by["paper1"]
     repo_files = {k: git_files(r) for k, r in REPOS.items()}
 
     # ---- R1
@@ -132,7 +143,7 @@ def main():
         base = PAPERS[p]
         tex = open(base + ".tex", encoding="utf-8").read()
         title = re.sub(r"\s+", " ", re.search(r"\\title\{(.*?)\}\s*\n", tex, re.S).group(1)).strip()
-        labs, caps = aux_labels(base), captions(base)
+        labs, caps = aux_labels(AUX.get(p, base)), captions(base)
         cur_words = re.findall(r"[a-z]+", tex.lower())
         cur6 = {" ".join(cur_words[i:i + 6]) for i in range(len(cur_words) - 5)}
         old6 = set()
@@ -177,7 +188,7 @@ def main():
                     if cls or re.search(r"(Amendment|amendment|amendments|registered in|ORCID|version|v)\s*$", before) \
                             or re.match(r"[-\w]*\.(py|json|log|txt|md|pdf)", after) or re.search(r"[\w/]$", before) \
                             or re.match(r"[A-Za-z_/]", after) or kind_ == "word" and val <= 12 \
-                            or f.startswith("registration-log/") and printed.isdigit() and int(printed) in pub_amend:
+                            or f.startswith("registration-log/") and printed.isdigit() and int(printed) in pub_amend_by[p]:
                         continue
                     r6.append((p, f, printed, val, dec, line.strip()[:140]))
     fails["R2"] = sum(1 for r in r2 if r[2] != "SAME")
@@ -197,13 +208,13 @@ def main():
     if "--reuse" not in sys.argv or not os.path.isdir(RB):
         import shutil
         shutil.rmtree(RB, ignore_errors=True)
-        for sub, scripts in (("paper1", ["build_repo.py", "build_cert.py"]), ("paper2", ["build_repo2.py"])):
+        for sub, scripts in (("paper1", ["build_repo.py", "build_cert.py"]), ("paper2", ["build_repo2.py"]), ("unified", ["build_unified.py"])):
             os.makedirs(os.path.join(RB, sub))
             for s in scripts:
                 subprocess.run([sys.executable, os.path.join(BUILD, s), os.path.join(RB, sub)], cwd=BUILD, capture_output=True, check=True)
         subprocess.run([sys.executable, os.path.join(BUILD, "build_checks.py"), RB], cwd=BUILD, capture_output=True, check=True)
     r7 = []
-    carried_paths = {}
+    carried_by = {k: {} for k in REPOS}
     for p, repo in REPOS.items():
         man = json.load(open(os.path.join(RB, p, "_manifest.json"), encoding="utf-8"))
         for f in repo_files[p]:
@@ -214,7 +225,7 @@ def main():
             if os.path.exists(b):
                 if norm_bytes(a) == norm_bytes(b):
                     if f in man:
-                        carried_paths[NP(man[f])] = f
+                        carried_by[p][NP(man[f])] = f
                     r7.append((p, f, "SAME-AS-REBUILD", os.path.relpath(man.get(f, b), ROOT)))
                 else:
                     r7.append((p, f, "DIFFERENT", "differs from the rebuild of " + os.path.relpath(man.get(f, b), ROOT)))
@@ -228,7 +239,7 @@ def main():
                 ok = [c for c in cands if os.path.getsize(c) < 300e6 and sha(c) == sa]
             if ok:
                 for c in ok:
-                    carried_paths[NP(c)] = f
+                    carried_by[p][NP(c)] = f
                 r7.append((p, f, "SAME-AS-ORIGINAL", os.path.relpath(ok[0], ROOT)))
             elif os.path.basename(f).startswith("rerun_"):
                 r7.append((p, f, "GENERATED", "rerun in the repository"))
@@ -237,33 +248,35 @@ def main():
             else:
                 r7.append((p, f, "NO-ORIGINAL", ""))
     fails["R7"] = sum(1 for r in r7 if r[2] in ("DIFFERENT", "NO-ORIGINAL"))
-    json.dump(carried_paths, open(os.path.join(HERE, "report_repo_carried.json"), "w", encoding="utf-8"), indent=0)
+    json.dump(carried_by, open(os.path.join(HERE, "report_repo_carried.json"), "w", encoding="utf-8"), indent=0)
     from collections import Counter as _C
     cnt = _C(r[2] for r in r7)
     rep += ["", f"## R7 file integrity ({dict(cnt)})", "", "| paper | repo file | verdict | original |", "|---|---|---|---|"] + \
            [f"| {' | '.join(r)} |" for r in r7 if r[2] not in ("SAME-AS-REBUILD", "SAME-AS-ORIGINAL")]
 
-    carried_sids = set()
-    pub_text = open(PUBLIC_LOG, encoding="utf-8").read()
-    for j, s in enumerate(gn.SOURCES):
-        if s[0] == "LIT" or "data_barletta_dytso" in s[2]:
-            carried_sids.add(j)  # cited literature (carried by the citation) and public third-party data (named with its URL)
-        elif s[0] == "PRIMARY-LOG":
-            m = re.match(r"Amendment (\d+)", s[1])
-            if m and int(m.group(1)) in pub_amend:
-                carried_sids.add(j)
-        elif NP(s[2]) in carried_paths:
-            carried_sids.add(j)
+    carried_sids_by = {}
+    for pk in REPOS:
+        cs = set()
+        for j, s_ in enumerate(gn.SOURCES):
+            if s_[0] == "LIT" or "data_barletta_dytso" in s_[2]:
+                cs.add(j)  # cited literature (carried by the citation) and public third-party data (named with its URL)
+            elif s_[0] == "PRIMARY-LOG":
+                m = re.match(r"Amendment (\d+)", s_[1])
+                if m and int(m.group(1)) in pub_amend_by[pk]:
+                    cs.add(j)
+            elif NP(s_[2]) in carried_by[pk]:
+                cs.add(j)
+        carried_sids_by[pk] = cs
 
-    def carried_value(val, dec):
+    def carried_value(val, dec, pk):
         rng, _ = gn.lookup(abs(val), dec)
-        return any(int(gn.SRC[i]) in carried_sids and gn.DECS[i] >= dec for i in rng)
+        return any(int(gn.SRC[i]) in carried_sids_by[pk] and gn.DECS[i] >= dec for i in rng)
 
     # ---- R6 verdicts
     paper_text = {p: gn.clean_tex(open(PAPERS[p] + ".tex", encoding="utf-8").read()) for p in PAPERS}
     r6v = []
     for p, f, printed, val, dec, line in r6:
-        if carried_value(val, dec):
+        if carried_value(val, dec, p):
             v = "CARRIED"
         elif re.search(r"(?<![\d.])" + re.escape(printed) + r"(?![\d])", paper_text[p]):
             v = "IN-PAPER"
@@ -289,20 +302,20 @@ def main():
                 for kind_, printed, val, dec, (a, b) in gn.scan_numbers(text):
                     if gn.classify(kind_, printed, val, dec, text[max(0, a - 40):a], text[b:b + 40]):
                         continue
-                    bd = next((x for x in bindings if x.get("kind") != "unverified" and x["paper"] == p and x["printed"] == printed.strip()
+                    bd = next((x for x in bindings if x.get("kind") != "unverified" and x["paper"] == TAG.get(p, p) and x["printed"] == printed.strip()
                                and x["context"] in raw), None)
                     if bd:
                         ams = [int(n) for n in re.findall(r"\bL\((\d+)", bd["expr"])]
                         fps = re.findall(r"\b[JT]\('([^']+)'", bd["expr"])
                         def fp_ok(fp, expr=bd["expr"]):
                             # cited literature: papers/ texts, and the Kostal-Shinomoto 2016 text kept with an archived lane
-                            if NP(os.path.join(ROOT, fp)) in carried_paths or "/papers/" in fp or "data_barletta_dytso" in fp \
+                            if NP(os.path.join(ROOT, fp)) in carried_by[p] or "/papers/" in fp or "data_barletta_dytso" in fp \
                                     or fp.endswith("occupancy_resolution/ks2016.txt"):
                                 return True
                             if fp.endswith("PREREG_Q32.md"):  # the regexes must match the public copy of the log as well
-                                return all(re.search(rx, pub_text, re.S) for rx in re.findall(r"T\('[^']*PREREG_Q32\.md', r'([^']*)'\)", expr))
+                                return all(re.search(rx, pub_text_by[p], re.S) for rx in re.findall(r"T\('[^']*PREREG_Q32\.md', r'([^']*)'\)", expr))
                             return False
-                        ok = any(n in pub_amend for n in ams) or any(fp_ok(fp) for fp in fps)
+                        ok = any(n in pub_amend_by[p] for n in ams) or any(fp_ok(fp) for fp in fps)
                         if not ams and not fps:
                             ok = True  # a literal definition (a label printed by the paper itself)
                         src = ", ".join([f"A{n}" for n in ams] + fps)[:150]
@@ -310,10 +323,10 @@ def main():
                     else:
                         v, hits = gn.verdict(val, dec, declared, set(), gn.sig_digits(printed))
                         sids = {int(gn.SRC[i]) for i in hits}
-                        ok = bool(sids & carried_sids)
+                        ok = bool(sids & carried_sids_by[p])
                         # a source the public material carries in an equivalent copy (e.g. the certificate log published
                         # under another name): accepted when the value has at least four significant digits
-                        if not ok and gn.sig_digits(printed) >= 4 and carried_value(val, dec):
+                        if not ok and gn.sig_digits(printed) >= 4 and carried_value(val, dec, p):
                             ok = True
                         src = gn.where(hits)[:150]
                         labels = sorted({gn.SOURCES[s][1] for s in sids})
@@ -333,16 +346,16 @@ def main():
             text = gn.clean_tex(gn.split_comment(raw)[0])
             for kind_, printed, val, dec, (a, b) in gn.scan_numbers(text):
                 if gn.classify(kind_, printed, val, dec, text[max(0, a - 40):a], text[b:b + 40]) == "IDENT" and printed.isdigit() \
-                        and int(printed) in gn.ALL_AMEND and int(printed) not in pub_amend:
+                        and int(printed) in gn.ALL_AMEND and int(printed) not in pub_amend_by[p]:
                     r9.append((p, f"tex line {no}", printed))
     for p, repo in REPOS.items():
         for f in repo_files[p]:
             if DOC_RX.search(f):
                 for m in re.finditer(r"\b[Aa]mendments?\s+(\d{2,4})", open(os.path.join(repo, f), encoding="utf-8").read()):
-                    if int(m.group(1)) not in pub_amend:
+                    if int(m.group(1)) not in pub_amend_by[p]:
                         r9.append((p, f, m.group(1)))
     fails["R9"] = len(r9)
-    rep += ["", f"## R9 cited amendments missing from the public log (public copy ends at {max(pub_amend)})", "", "| paper | where | amendment |", "|---|---|---|"] + \
+    rep += ["", f"## R9 cited amendments missing from the public log (public copies end at {", ".join(str(max(v)) for v in pub_amend_by.values() if v)})", "", "| paper | where | amendment |", "|---|---|---|"] + \
            [f"| {a} | {b} | {c} |" for a, b, c in r9]
 
     # ---- R5 prose

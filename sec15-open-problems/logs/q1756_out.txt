@@ -1,0 +1,11 @@
+CONTROL synthetic degree 4 found at degree 4; synthetic with 2^j found: None
+k = 1: c_k(j) * 8^j for j = 2..10: -2/3, -26/3, -136/3, -464/3, -1234/3, -2786/3, -5600/3, -3440, -5926
+   finite differences, last entry of each order: -2486 -2738/3 -832/3 -188/3 -8 0 0 0; constant rows: [5, 6]
+   exact polynomial of degree 5 with 3 independent checks: -j**5/15 + j**4/18 + 2*j**3/9 - 7*j**2/18 + 8*j/45 ; factored: -j*(j - 1)*(6*j**3 + j**2 - 19*j + 16)/90
+k = 2: c_k(j) * 8^j for j = 4..10: -4/3, -436/45, 916/5, 15276/5, 341048/15, 574136/5, 6785656/15
+   finite differences, last entry of each order: 5063248/15 1227296/5 2595748/15 1761748/15 3419104/45 138488/3; constant rows: []
+   no polynomial in j of degree <= 4 reproduces the sequence with two checks
+k = 3: c_k(j) * 8^j for j = 6..10: -592/27, -531568/945, -5537408/945, -13708544/315, -373104608/945
+   finite differences, last entry of each order: -47425568/135 -42341536/135 -37972624/135 -26635664/105; constant rows: []
+   no polynomial in j of degree <= 2 reproduces the sequence with two checks
+TABLE q1756 done (facts; no labels)

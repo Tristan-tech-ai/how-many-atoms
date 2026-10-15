@@ -1,6 +1,6 @@
-# Section III: one dimension
+# Section III: one dimension (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count) (edge constants and the count)
 
-On an interval [−A, A] the optimal atoms crowd near the two ends. Each problem has an edge constant (Table I of the paper),
+On an interval [−A, A] the optimal atoms lie farthest apart next to the two ends and come closer together toward the middle. Each problem has an edge constant (Table I of the paper),
 and the number of atoms grows like 0.4002 L^(4/3).
 
 | paper item | scripts | outputs in `logs/` |
@@ -20,3 +20,5 @@ fit was rerun on the pre-registered window only and written to a new file (`lfp_
 `q487_lfp_forward.py` was changed so that importing it writes nothing.
 
 See [`FILES.md`](FILES.md) for every script.
+
+The terms of this folder are those of the paper (Section I, Terms) and of the top README.

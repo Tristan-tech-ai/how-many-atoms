@@ -1,0 +1,22 @@
+tight_run: scipy brentq called with xtol 1e-16 when no xtol is given; q1183.rho_of replaced by the tight inversion
+events 243; control: forms use 1/v^2 with v^2 the density, as in q1296 True; synthetic M3 recovery True (max relative error 1.62e-14); M1 on k <= 5 rms 0.0044 below 0.012: True
+M1 (4 parameters): all-k rms 0.0134; parameters [  2.53988525   0.24326026 -15.51441123  -0.90887932]
+   per-k rms: 0.75: 0.0143, 1: 0.0069, 1.5: 0.0167, 2: 0.0123, 2.5: 0.0061, 3: 0.0017, 4: 0.0107, 5: 0.0168, 8: 0.0165, 12: 0.0184
+   fit on k <= 5 (rms 0.0044): predicted k = 0.75 mean offset of ln R +0.0028; k = 8: rms 0.0560 mean -0.0554; k = 12: rms 0.1665 mean -0.1637
+M2 (5 parameters): all-k rms 0.0056; parameters [  2.60975321   0.17118731 -11.23495205  -2.72135289   0.11918194]
+   per-k rms: 0.75: 0.0034, 1: 0.0039, 1.5: 0.0063, 2: 0.0030, 2.5: 0.0027, 3: 0.0042, 4: 0.0053, 5: 0.0040, 8: 0.0089, 12: 0.0091
+   fit on k <= 5 (rms 0.0025): predicted k = 0.75 mean offset of ln R +0.0013; k = 8: rms 0.0293 mean +0.0279; k = 12: rms 0.1591 mean +0.1550
+M3 (7 parameters): all-k rms 0.0051; parameters [   2.84328841    0.18371829  -30.02297631   -0.73732051 1000.45742206
+ -132.59604905    8.27616343]
+   per-k rms: 0.75: 0.0062, 1: 0.0056, 1.5: 0.0068, 2: 0.0035, 2.5: 0.0011, 3: 0.0034, 4: 0.0051, 5: 0.0046, 8: 0.0061, 12: 0.0061
+   fit on k <= 5 (rms 0.0025): predicted k = 0.75 mean offset of ln R +0.0016; k = 8: rms 0.0253 mean +0.0138; k = 12: rms 0.1284 mean +0.1060
+M4 (5 parameters): all-k rms 0.0117; parameters [  2.62534508   0.20593803 -14.95702736  -1.69782199   4.49468259]
+   per-k rms: 0.75: 0.0108, 1: 0.0070, 1.5: 0.0137, 2: 0.0093, 2.5: 0.0050, 3: 0.0046, 4: 0.0090, 5: 0.0114, 8: 0.0104, 12: 0.0228
+   fit on k <= 5 (rms 0.0039): predicted k = 0.75 mean offset of ln R +0.0014; k = 8: rms 0.0298 mean -0.0262; k = 12: rms 0.0522 mean -0.0347
+M5 (4 parameters): all-k rms 0.0137; parameters [  2.63205299   0.23687739 -19.71152914  -1.23873631]
+   per-k rms: 0.75: 0.0142, 1: 0.0080, 1.5: 0.0167, 2: 0.0119, 2.5: 0.0056, 3: 0.0018, 4: 0.0106, 5: 0.0164, 8: 0.0163, 12: 0.0208
+   fit on k <= 5 (rms 0.0044): predicted k = 0.75 mean offset of ln R +0.0021; k = 8: rms 0.0507 mean -0.0505; k = 12: rms 0.1373 mean -0.1371
+M6 (4 parameters): all-k rms 0.0143; parameters [  2.75961237   0.23119857 -26.82916711  -1.8088589 ]
+   per-k rms: 0.75: 0.0145, 1: 0.0092, 1.5: 0.0166, 2: 0.0117, 2.5: 0.0054, 3: 0.0022, 4: 0.0104, 5: 0.0161, 8: 0.0171, 12: 0.0237
+   fit on k <= 5 (rms 0.0049): predicted k = 0.75 mean offset of ln R +0.0015; k = 8: rms 0.0465 mean -0.0455; k = 12: rms 0.1166 mean -0.1162
+READING q1297 (exploratory, no verdict)

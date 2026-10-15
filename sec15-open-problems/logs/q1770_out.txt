@@ -1,0 +1,8 @@
+C1 series of G reproduces p(n)/n for n = 1..25: True; C2 level 1 gives the w-polynomial of q1768: True
+L_2(w) = 3680*w**10/3 - 8640*w**9 + 236456*w**8/9 - 403472*w**7/9 + 46520*w**6 - 1325456*w**5/45 + 94202*w**4/9 - 12472*w**3/9 - 2380*w**2/9 + 280*w/3 - 214/45
+factored: 2*(w - 1)**4*(27600*w**6 - 84000*w**5 + 89540*w**4 - 36120*w**3 + 1380*w**2 + 1672*w - 107)/45
+degree in w: 10; leading coefficient 3680/3; divided by (-8)^2: 115/6
+multiplicity of w = 1 in L_2: 4; in L_1: 2
+gcd of L_1 and L_2 as polynomials in w: (w - 1)**2
+P1 L_2 has (w-1)^2 or higher: holds (multiplicity 4); P2 the leading coefficient over (-8)^2 is the rational number 115/6: holds; P3 a common root other than w = 1: does not hold (cofactor 1)
+READING q1770 done (labels by the script; no verdict word)

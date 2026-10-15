@@ -1,0 +1,10 @@
+control c1: True
+pairs 2625; g_j nonincreasing from the centre outward in 657; violations 1968; edge atom |g| < 1e-6 in 2625
+largest violation relative to 1/(A + delta): 5.982e+02; median 1.038e+00; examples (K, A, relative violation, index): [(77, 49.486, 598.0, 1), (79, 50.491, 532.0, 1), (71, 46.437, 503.0, 1), (73, 47.461, 497.0, 1), (77, 49.488, 497.0, 1), (81, 51.489, 484.0, 1)]
+number of atoms with g_j above the scale (positive flow): min 1, max 10
+READING q1374 (exploratory, no verdict)
+index (from the centre, 0 = first step between the first two atoms) of the largest violation per pair: [(1, 521), (2, 193), (3, 162), (4, 153), (5, 140), (6, 130), (7, 111), (8, 91), (9, 79), (10, 63), (11, 51), (12, 44)] ...; total violating pairs 1968
+all violating steps by index (first 12): [(1, 568), (2, 804), (3, 998), (4, 1167), (5, 1308), (6, 1426), (7, 1519), (8, 1596), (9, 1655), (10, 1702), (11, 1742), (12, 1775)] ; largest index with a violation 39
+READING q1374b (exploratory, no verdict)
+noise-aware tolerance: g_j nonincreasing in 657 of 2625 pairs; violations in 1968; relative size of the largest violation per pair (times A + delta): median 1.038e+00, max 5.982e+02; index of the largest violation: [(1, 521), (2, 193), (3, 162), (4, 153), (5, 140), (6, 130), (7, 111), (8, 91), (9, 79), (10, 63)] ... largest index 32
+READING q1374c (exploratory, no verdict)

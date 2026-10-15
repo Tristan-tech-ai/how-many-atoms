@@ -1,0 +1,14 @@
+control: old amplitudes reproduce q1209_out.txt: order 16 at 20 events True, order 12 at four events True
+order  5: max |dev| splits (new) 63.490, splits (old) 63.490, births 59.918, all 20 (new) 63.490 (1e-9)
+order  6: max |dev| splits (new) 22.924, splits (old) 22.924, births 21.439, all 20 (new) 22.924 (1e-9)
+order  7: max |dev| splits (new) 7.845, splits (old) 7.845, births 7.253, all 20 (new) 7.845 (1e-9)
+order  8: max |dev| splits (new) 2.805, splits (old) 2.805, births 2.550, all 20 (new) 2.805 (1e-9)
+order 10: max |dev| splits (new) 0.446, splits (old) 0.446, births 0.398, all 20 (new) 0.446 (1e-9)
+order 12: max |dev| splits (new) 0.094, splits (old) 0.094, births 0.132, all 20 (new) 0.132 (1e-9)
+order 14: max |dev| splits (new) 0.028, splits (old) 0.068, births 0.082, all 20 (new) 0.082 (1e-9)
+order 16: max |dev| splits (new) 0.014, splits (old) 0.075, births 0.070, all 20 (new) 0.070 (1e-9)
+order 16 corrected deviations: 61: -0.006, 62: +0.028, 63: -0.014, 64: -0.070, 65: -0.013, 66: -0.024, 67: +0.001, 68: +0.017, 69: -0.003, 70: +0.006, 71: -0.001, 72: +0.007, 73: -0.012, 74: +0.006, 75: -0.001, 76: +0.005, 77: -0.000, 78: +0.005, 79: +0.000, 80: +0.005
+order 12 corrected deviations: 61: -0.094, 62: -0.050, 63: -0.084, 64: -0.132, 65: -0.069, 66: -0.074, 67: -0.044, 68: -0.024, 69: -0.040, 70: -0.027, 71: -0.031, 72: -0.020, 73: -0.037, 74: -0.016, 75: -0.021, 76: -0.013, 77: -0.017, 78: -0.010, 79: -0.014, 80: -0.008
+K_b 81: A_s old 51.980243607689, new 51.980243607580; deviation against the order-12 table -0.0109e-9 (old +0.0980), against the order-16 table +0.0009e-9 (old +0.1098); against the immune-curve table +0.0104e-9 (old +0.1193)
+item M1 (splits at order 16 < 0.03e-9): max 0.0141 -> True; item M2 (K_b 81 < 0.03e-9 against the tables of order 12 and 16): True; item M3 (splits do not worsen from order 12 to 14 to 16): 0.0939, 0.0281, 0.0141 -> True
+READING q1235: M1 True, M2 True, M3 True (no verdict)

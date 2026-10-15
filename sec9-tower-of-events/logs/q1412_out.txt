@@ -1,0 +1,6 @@
+controls: perfect -> PASS, all shifted by 3e-10 -> FAIL, K_b 63 missing -> INCOMPLETE: True
+K_b 62 (birth): walker 42.264026833785, tower 42.264026833785, difference -2.274e-13, bar 1e-10: True
+K_b 63 (split): walker 42.792398545307, tower 42.792398545314, difference -6.224e-12, bar 2e-10: True
+K_b 81 (split): walker 51.980243607580, tower 51.980243607689, difference -1.089e-10, bar 2e-10: True
+K_b 82 (birth): walker 52.474720531434, tower 52.474720531434, difference +0.000e+00, bar 1e-10: True
+VERDICT q1412: PASS

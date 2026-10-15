@@ -1,0 +1,4 @@
+K1 control: B(empty) = [1.806394571137250707265065 +/- 2.84e-25], within 1e-19 of 1.8063945711372507073: True
+B = [3.979664622053985264996123 +/- 3.87e-25] (radius [3.99e-46 +/- 1.73e-49]); K2 True; K3 True; tail bound [1.64e-175 +/- 1.85e-178] (K4 True)
+VERDICT q1849: PASS
+exit 0

@@ -1,4 +1,4 @@
-# my own check of the Szego identity (not B's code): Toeplitz solves for alpha_n, paraorthogonal nodes, weights by moment fit
+# our own check of the Szego identity (not B's code): Toeplitz solves for alpha_n, paraorthogonal nodes, weights by moment fit
 import json, sys
 from mpmath import mp, mpf, matrix, lu_solve, polyroots, arg, cos, pi, re
 

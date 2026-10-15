@@ -1,6 +1,6 @@
-# Section V and Appendix A: the certificate of Theorem 1
+# Section VII and Appendix E: the certificate of Theorem 3
 
-**Theorem 1.** Let Y = X + Z with Z standard Gaussian in the plane, and let the input X be confined to the filled ellipse with
+**Theorem 3.** Let Y = X + Z with Z standard Gaussian in the plane, and let the input X be confined to the filled ellipse with
 semi-axes r_p = 1 and r_m = 0.9597. The capacity-achieving input is a symmetric ring of 32 atoms with no atom at the ends of the
 major axis, (±1, 0).
 This contradicts Theorem 4 of Dytso, Barletta and Kramer (arXiv:2401.17084).
@@ -19,7 +19,7 @@ The second takes about ten seconds and prints an independent two-sided bracket o
 
 | step | file | what it shows |
 |---|---|---|
-| 1. quadrature with an error bound | `quadrature_bounds.py` | every value of the optimality function D_π is a ball that contains the true value (trapezoid rule, Lemma 1 of the paper) |
+| 1. quadrature with an error bound | `quadrature_bounds.py` | every value of the optimality function D_π is a ball that contains the true value (trapezoid rule, Lemma 7 of Appendix E) |
 | 2. an exact solution | `kkt_krawczyk.py` | a Krawczyk test: a box of radius 6.82e-66 around the computed ring holds exactly one solution of the optimality equations |
 | 3. the boundary | `kkt_krawczyk.py` | Taylor enclosures on [0, π/2]: D_π − C < 0 away from the atoms, concave near each atom, uniformly over the box |
 | 4. the interior | (argument in the paper) | the largest atom radius is below 1, so D_π is strictly convex and the interior lies below the boundary maximum |
@@ -52,3 +52,5 @@ values `[-1.12760361457e-50, -1.12760361456e-50]` at (1, 0) and `-1.41767643390e
 - `NT`, `MT`, `RHO`: Taylor intervals, order, Cauchy radius
 - `DZ`: half-width of the zone around each atom
 - `THREADS`: number of threads
+
+The terms of this folder are those of the paper (Section I, Terms) and of the top README.

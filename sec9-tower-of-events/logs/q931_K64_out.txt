@@ -1,0 +1,9 @@
+controls: PC passes all 7 items True; C1 (g -> -g) gives S1 False, S2 False; C2 (reverse eps order) gives S3 False; C3 (A_s + 0.002) gives S3 False
+   S0 41.7375: True  sign g(0.01) +1, sign centre signal +1
+   S0 41.7325: True  sign g(0.01) -1, sign centre signal -1
+   S0 41.6525: True  sign g(0.01) -1, sign centre signal -1
+   S1 41.7375: True  sign change between eps 0.0483 and 0.0627; root eps 0.054436, full residual 1.20e-45, verdict OPTIMAL, centre -3.698e-20, off -2.936e-19
+   S2 41.7325: True  g negative at 13 of 13 points, largest g -8.384e-15
+   S2 41.6525: True  g negative at 13 of 13 points, largest g -1.067e-13
+   S3: True  25 points, A increasing True, fit a0 42.7923983, a2 0.2608, A_s 42.7923985, |a0 - A_s| 2.72e-07
+VERDICT q931 T64: PASS; failed items []; A_s 42.7923985

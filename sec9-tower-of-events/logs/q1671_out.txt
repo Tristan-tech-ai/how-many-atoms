@@ -1,0 +1,5 @@
+events found: 22 of 22 (K_b 61..82): [61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82]
+differences a_pred - A (1e-12): 61 -10.6, 62 -9.6, 63 -8.2, 64 -7.6, 65 -6.5, 66 -5.7, 67 -5.0, 68 -4.8, 69 -3.9, 70 -3.8, 71 -3.0, 72 -2.8, 73 +8.8, 74 -2.4, 75 -1.8, 76 -1.6, 77 -1.3, 78 -1.6, 79 -1.0, 80 -0.8, 81 -0.7, 82 -0.6
+max |diff| K_b 70..82: 8.804e-12; max |diff| K_b 61..69: 1.055e-11
+P1 K_b 70..82 below 1e-10: holds; P2 lower K worse: holds; P3 some K_b 61..69 above 1e-10: does not hold; control (K_b 83..90 differences, largest |diff| 4.62e-13, two evaluations equal): holds
+READING q1671 done (labels by the script; no verdict word)

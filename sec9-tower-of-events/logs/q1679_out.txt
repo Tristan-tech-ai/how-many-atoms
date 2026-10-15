@@ -1,0 +1,6 @@
+cell (13, 14): full pair (-0.0937736508283, 0.0011599160007) rms 1.740e-13; lower half (-0.0937736508180, 0.0011599159909) rms 7.953e-14; upper half (-0.0937736508387, 0.0011599160102) rms 3.230e-14
+   half difference: nu0 -2.072e-11, d0 +1.927e-11; lower-K size K_b 61..69: full pair 4.114e-12, lower-half pair 3.070e-12
+cell (14, 16): full pair (-0.0937736508372, 0.0011599160085) rms 1.102e-13; lower half (-0.0937736508307, 0.0011599160023) rms 5.721e-14; upper half (-0.0937736508430, 0.0011599160138) rms 1.967e-14
+   half difference: nu0 -1.235e-11, d0 +1.153e-11; lower-K size K_b 61..69: full pair 5.137e-12, lower-half pair 4.455e-12
+P1 half pairs within 1e-10: holds; P2 each half rms below 2e-13: holds; P3 lower-K size within a factor 2: holds; control: holds
+READING q1679 done (labels by the script; no verdict word)

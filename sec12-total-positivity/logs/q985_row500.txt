@@ -1,0 +1,7 @@
+   row 500 iteration 0: residual 1.12e-15 [17s]
+   row 500 iteration 1: residual 8.20e-31 [25s]
+   row 500 iteration 2: residual 3.76e-47 [33s]
+   row 500 iteration 3: residual 7.38e-92 [42s]
+   row 500 iteration 4: residual 8.90e-166 [50s]
+row 500: a 28.639442, K 38, J 19, residual 8.90e-166: X1 True, X2 True (0 not certainly positive of 380), X3 True [59s]
+END q985 READING (no verdict)

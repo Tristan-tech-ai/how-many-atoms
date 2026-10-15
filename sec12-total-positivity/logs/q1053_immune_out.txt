@@ -1,0 +1,8 @@
+READING q1053: margin t* for the immune functional
+row 300: a 26.8180, K 35, J 17, centre True; N1(1) positive True; crossing 1.2425; J (t* - 1) 4.123; K (t* - 1) 8.488
+row 580: a 29.2585, K 39, J 19, centre True; N1(1) positive True; crossing 1.2159; J (t* - 1) 4.103; K (t* - 1) 8.422
+END q1053 READING (no verdict)
+
+real	1m56.303s
+user	0m0.000s
+sys	0m0.015s

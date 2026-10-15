@@ -87,7 +87,7 @@
   "paper": "paper1",
   "printed": "0.0310",
   "context": "$\\epsilon = 0.0310$ and $0.0308$",
-  "expr": "J('temporal_within/agents/G_work/e36/S_copy_rm0.9690_p448.json', 'rp') - J('temporal_within/agents/G_work/e36/S_copy_rm0.9690_p448.json', 'rm')",
+  "expr": "J('temporal_within/G_work/e36/S_copy_rm0.9690_p448.json', 'rp') - J('temporal_within/G_work/e36/S_copy_rm0.9690_p448.json', 'rm')",
   "why": "eps = rp - rm of the valid 448-bit 36-ring state at rm 0.9690 (solve_copy_0.9690_p448.log)"
  },
  {
@@ -192,7 +192,7 @@
   "paper": "paper1",
   "printed": "1.12760361456",
   "context": "[-1.12760361457, -1.12760361456]",
-  "expr": "-J('temporal_within/agents/F_work/ring32_R2fix_cert.json', 'vertex', 1)*1e50",
+  "expr": "-J('temporal_within/F_work/ring32_R2fix_cert.json', 'vertex', 1)*1e50",
   "why": "upper end of the certified enclosure of D - C at (rp, 0) in units of 1e-50 (ring32_R2fix_cert.json)"
  },
  {
@@ -206,15 +206,15 @@
   "paper": "paper1",
   "printed": "9.19\\times 10^{-4}",
   "context": "$h_{K - 2} = -9.19",
-  "expr": "J('temporal_within/agents/B_out/cc13K10_M5_e0.20724.json', 'c', 3) - L(1283, r'b 0\\.331127, 0\\.451148, 0\\.561937, (0\\.914573) \\(j 2-8\\)')",
-  "why": "solved rp 1.3 K 10 ring b_8 0.914573 (1283) minus c_8 of the K/2 formal density (agents/B_out/cc13K10_M5_e0.20724.json), as in B_copycheck"
+  "expr": "J('temporal_within/B_out/cc13K10_M5_e0.20724.json', 'c', 3) - L(1283, r'b 0\\.331127, 0\\.451148, 0\\.561937, (0\\.914573) \\(j 2-8\\)')",
+  "why": "solved rp 1.3 K 10 ring b_8 0.914573 (1283) minus c_8 of the K/2 formal density (B_out/cc13K10_M5_e0.20724.json), as in B_copycheck"
  },
  {
   "paper": "paper1",
   "printed": "6.21\\times 10^{-4}",
   "context": "$h_{K - 2} = -9.19",
-  "expr": "J('temporal_within/agents/B_out/cc13K12_M6_e0.182742.json', 'c', 4) - L(1283, r'0\\.352378, 0\\.491135, (0\\.858484) \\(j 2-10\\)')",
-  "why": "solved rp 1.3 K 12 ring b_10 0.858484 (1283) minus c_10 of the K/2 formal density (agents/B_out/cc13K12_M6_e0.182742.json)"
+  "expr": "J('temporal_within/B_out/cc13K12_M6_e0.182742.json', 'c', 4) - L(1283, r'0\\.352378, 0\\.491135, (0\\.858484) \\(j 2-10\\)')",
+  "why": "solved rp 1.3 K 12 ring b_10 0.858484 (1283) minus c_10 of the K/2 formal density (B_out/cc13K12_M6_e0.182742.json)"
  },
  {
   "paper": "paper1",
@@ -241,42 +241,42 @@
   "paper": "paper1",
   "printed": "1.12760361458",
   "context": "[-1.12760361458, -1.12760361456]",
-  "expr": "math.ceil(-J('temporal_within/agents/F_work/ring32_R2fix_cert.json', 'vertex', 0) * 1e50 * 1e11) / 1e11",
+  "expr": "math.ceil(-J('temporal_within/F_work/ring32_R2fix_cert.json', 'vertex', 0) * 1e50 * 1e11) / 1e11",
   "why": "lower end of the certified enclosure of D - C at (rp, 0), rounded outward to 11 digits (ring32_R2fix_cert.json)"
  },
  {
   "paper": "paper1",
   "printed": "2.3",
   "context": "misses of $+8.1$, $+4.8$, $+3.3$, $+2.3$",
-  "expr": "(T('temporal_within/agents/B_out/b2_gap2d_G_c3b_states.jsonl.log', r'eps (1\\.1488\\d*) K 12') / 1.1226 - 1) * 100",
-  "why": "rp 3, K 12: solved loss eps 1.1488852 (solver log) over the Szego-form loss eps 1.1226 (agent G's interpolation of alpha_11, agents/G_family.md; that input is from a secondary note); +2.34 %"
+  "expr": "(T('temporal_within/B_out/b2_gap2d_G_c3b_states.jsonl.log', r'eps (1\\.1488\\d*) K 12') / 1.1226 - 1) * 100",
+  "why": "rp 3, K 12: solved loss eps 1.1488852 (solver log) over the Szego-form loss eps 1.1226 (the interpolation of alpha_11, G_family.md; that input is from a secondary note); +2.34 %"
  },
  {
   "paper": "paper1",
   "printed": "1.8",
   "context": "$+2.3$, $+1.8$ and $+1.4",
-  "expr": "(T('temporal_within/agents/B_out/b2_gap2d_G_c3c_states.jsonl.log', r'eps (1\\.0695\\d*) K 14') / 1.0511 - 1) * 100",
-  "why": "rp 3, K 14: solved loss eps 1.0695439 (solver log) over the Szego-form loss eps 1.0511 (agent G's interpolation; secondary input); +1.755 %"
+  "expr": "(T('temporal_within/B_out/b2_gap2d_G_c3c_states.jsonl.log', r'eps (1\\.0695\\d*) K 14') / 1.0511 - 1) * 100",
+  "why": "rp 3, K 14: solved loss eps 1.0695439 (solver log) over the Szego-form loss eps 1.0511 (the interpolation; secondary input); +1.755 %"
  },
  {
   "paper": "paper1",
   "printed": "1.12760361456",
   "context": "[-1.12760361458, -1.12760361456]",
-  "expr": "math.floor(-J('temporal_within/agents/F_work/ring32_R2fix_cert.json', 'vertex', 1) * 1e50 * 1e11) / 1e11",
+  "expr": "math.floor(-J('temporal_within/F_work/ring32_R2fix_cert.json', 'vertex', 1) * 1e50 * 1e11) / 1e11",
   "why": "upper end of the certified enclosure of D - C at (rp, 0), rounded outward to 11 digits (ring32_R2fix_cert.json)"
  },
  {
   "paper": "paper1",
   "printed": "48",
   "context": "give 48 base intervals, 38 free and",
-  "expr": "T('temporal_within/agents/F_work/ring32_R2fix_cert.log', r'intervals (\\d+) free') + T('temporal_within/agents/F_work/ring32_R2fix_cert.log', r'free \\+ (\\d+) atom zones')",
+  "expr": "T('temporal_within/F_work/ring32_R2fix_cert.log', r'intervals (\\d+) free') + T('temporal_within/F_work/ring32_R2fix_cert.log', r'free \\+ (\\d+) atom zones')",
   "why": "the certificate log prints 'intervals 38 free + 10 atom zones'"
  },
  {
   "paper": "paper1",
   "printed": "10^{-7}",
   "context": "10^{-7}\\max_k|YF(\\hat v)|_k",
-  "expr": "T('temporal_within/agents/F_ring32_cert.py', r'fac = (\\d+\\.\\d+)') * T('temporal_within/agents/F_ring32_cert.py', r'max\\(YF\\)\\*(1e-8)')",
+  "expr": "T('temporal_within/F_ring32_cert.py', r'fac = (\\d+\\.\\d+)') * T('temporal_within/F_ring32_cert.py', r'max\\(YF\\)\\*(1e-8)')",
   "why": "first Krawczyk radius r = max(fac*|YF_i|, fac*max(YF)*1e-8) with fac = 10 in F_ring32_cert.py"
  }
 ]

@@ -1,0 +1,19 @@
+k 8.0 K_b 29: NOT LOCATED
+k 8.0 K_b 30: NOT LOCATED
+k 8.0 K_b 31: NOT LOCATED
+k 8.0 K_b 32: NOT LOCATED
+k 8.0 K_b 33: NOT LOCATED
+k 8.0 K_b 34: NOT LOCATED
+k 8.0 K_b 35: NOT LOCATED
+k 8.0 K_b 36: NOT LOCATED
+k 8.0: events 0 of 8
+k 12.0 K_b 29: R +147.1194e-9, c = R / R_NPMLE 8.7996
+k 12.0 K_b 30: R +105.6632e-9, c = R / R_NPMLE 8.8522
+k 12.0 K_b 31: R +75.8728e-9, c = R / R_NPMLE 8.8720
+k 12.0 K_b 32: R +54.8188e-9, c = R / R_NPMLE 8.9037
+k 12.0 K_b 33: R +39.9372e-9, c = R / R_NPMLE 8.9656
+k 12.0 K_b 34: R +29.1652e-9, c = R / R_NPMLE 9.0082
+k 12.0 K_b 35: R +21.3283e-9, c = R / R_NPMLE 9.0361
+k 12.0 K_b 36: R +15.6769e-9, c = R / R_NPMLE 9.0821
+k 12.0: mean c 8.9399; power form 8.6311: False; linear form 8.9306: True
+VERDICT q1281 large-k class: LINEAR; HP12 False; HL12 True; HP8 None; HL8 None; means 12.0: 8.9399

@@ -1,0 +1,12 @@
+rows even 84 108 13 odd 83 107 13
+limits even ['-0.00465', '-0.17739', '-0.76247', '+0.01625', '+0.38788', '+0.59586']
+limits odd  ['-0.00465', '-0.17738', '-0.76242', '+0.01625', '+0.38788', '+0.59587']
+max |even-odd| limit difference 5.2e-05
+R_e limit from the six limits: even 1.0588 odd 1.0588
+six position-type share of N: 0.9741 to 0.9773; six mass-type share of P: 0.99990 to 0.99990
+sign patterns ['---+++'] largest control_rel 9.9e-39
+bd normalised, max relative change over all 26 rows, per index: ['9.7e-13', '1.0e-13', '0.0e+00', '9.2e-13', '9.3e-14', '3.3e-15']
+bd_ref max relative change 4.4e-15, value 0.2172816
+even x normalised change first to last: 0.6 to 3.1 percent ; x_ref change 8 percent
+odd x normalised change first to last: 0.6 to 3.2 percent ; x_ref change 24 percent
+bd normalised values: ['0.000135632', '0.0283093', '1', '0.000441853', '0.0639512', '0.977301']

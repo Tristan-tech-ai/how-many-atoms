@@ -1,0 +1,17 @@
+control: exact expressions of f18, f20 against the decimals printed by q1557: largest relative difference 4.4e-16
+ratios f18/f16 0.349, f20/f18 0.322; coefficient list length 11
+n_max = 5: window 12..22 pair (-0.093762151, +0.001147186) rms in N 1.06e-07
+n_max = 6: window 12..22 pair (-0.093768995, +0.001154665) rms in N 5.27e-08
+n_max = 7: window 12..22 pair (-0.093771470, +0.001157428) rms in N 2.87e-08
+n_max = 8: window 12..22 pair (-0.093772652, +0.001158767) rms in N 1.50e-08
+n_max = 9: window 12..22 pair (-0.093773175, +0.001159366) rms in N 7.97e-09
+n_max = 10: window 12..22 pair (-0.093773407, +0.001159633) rms in N 4.41e-09
+Aitken over n_max = (6, 7, 8): nu0 -0.093773734 (ratio 0.478), d0 +0.001160027 (ratio 0.485)
+Aitken over n_max = (7, 8, 9): nu0 -0.093773590 (ratio 0.442), d0 +0.001159849 (ratio 0.447)
+Aitken over n_max = (8, 9, 10): nu0 -0.093773592 (ratio 0.444), d0 +0.001159849 (ratio 0.447)
+births law (n_max = 10 at the centre) with the Aitken limit over (6, 7, 8): mean offset +4.402e-08, spread 8.29e-09, largest |.| 5.039e-08
+births law (n_max = 10 at the centre) with the Aitken limit over (7, 8, 9): mean offset -2.192e-10, spread 2.32e-08, largest |.| 1.432e-08
+births law (n_max = 10 at the centre) with the Aitken limit over (8, 9, 10): mean offset -2.013e-09, spread 2.30e-08, largest |.| 1.241e-08
+successive limits differ by 1.44e-07 then 2.12e-09 in nu0; limit over (8, 9, 10) minus q1562 pair: (+1.51e-07, -1.89e-07)
+P1 largest miss below 2e-8: holds; P2 successive Aitken limits converge by a factor of 3: holds; P3 rms below 1e-8 at n_max = 10: holds; P4 limit within 3e-8 of the q1562 pair: does not hold
+READING q1564 done (labels by the script; no verdict word)

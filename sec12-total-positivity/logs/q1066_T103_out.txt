@@ -1,0 +1,9 @@
+control K 65: m 31, N1(1) positive True, t* 1.1364, J (t* - 1) 4.2284; PC (odd median band) True; NC1 (odd first band) inside False; NC2 (odd last band) inside False
+K 70 first state tower/K70/results_q220_gauss_K70_A45.9225.json: m 34, N1(1) positive True, t* 1.1193, J (t* - 1) 4.0562, band (4.03, 4.085), inside
+K 70 median state tower/K70/results_q220_gauss_K70_A46.1559.json: m 34, N1(1) positive True, t* 1.1243, J (t* - 1) 4.2262, band (4.2, 4.29), inside
+K 70 last state tower/K70/results_q220_gauss_K70_A46.4309.json: m 34, N1(1) positive True, t* 1.1396, J (t* - 1) 4.7464, band (4.7, 4.8), inside
+VERDICT q1066 T103: PASS; states 3; outside 0
+
+real	1m15.164s
+user	0m0.015s
+sys	0m0.000s

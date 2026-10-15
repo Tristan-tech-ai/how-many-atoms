@@ -1,0 +1,4 @@
+K 50: 13 states, interior states used 8; (a) violations 0, smallest dx/dA 0.1129; (b) violations 0, d(innermost mass)/dA +3.0829e-03 (first) +2.5656e-03 (last); (c) violations 0, positive interior-mass derivatives 6 (first) 7 (last) of 24; dwe/dA -1.233e-03 -> -1.229e-03 => PASS
+K 60: 19 states, interior states used 15; (a) violations 4, smallest dx/dA 0.1022; (b) violations 0, d(innermost mass)/dA +6.0263e-03 (first) +2.0584e-03 (last); (c) violations 0, positive interior-mass derivatives 4 (first) 8 (last) of 29; dwe/dA -9.498e-04 -> -9.376e-04 => FAIL
+K 70: 6 states, interior states used 4; (a) violations 0, smallest dx/dA 0.0944; (b) violations 0, d(innermost mass)/dA +1.8622e-03 (first) +1.7155e-03 (last); (c) violations 0, positive interior-mass derivatives 8 (first) 9 (last) of 34; dwe/dA -7.467e-04 -> -7.458e-04 => PASS
+CAPACITY FLOW VERDICT: FAIL

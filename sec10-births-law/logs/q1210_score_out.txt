@@ -1,0 +1,40 @@
+item-function control 2.0e-10: (True, True) expected (True, True) -> True
+item-function control 4.0e-10: (False, True) expected (False, True) -> True
+item-function control 2.5e-09: (False, False) expected (False, False) -> True
+control u1205c_K50: a_t 36.4666031158, deviation from 36.4666031158 -0.024e-9, located True -> True
+K_b 67: a_t 45.5769321603, a_pred 45.5769321604, deviation -0.043e-9, located True, N1 True, N2 True
+K_b 68: a_t 46.0936873633, a_pred 46.0936873633, deviation -0.034e-9, located True, N1 True, N2 True
+K_b 69: a_t 46.6085700247, a_pred 46.6085700247, deviation -0.036e-9, located True, N1 True, N2 True
+K_b 70: NOT LOCATED (output incomplete or states unconverged)
+K_b 71: a_t 47.6328509810, a_pred 47.6328509811, deviation -0.029e-9, located True, N1 True, N2 True
+K_b 72: NOT LOCATED (output incomplete or states unconverged)
+K_b 73: NOT LOCATED (output incomplete or states unconverged)
+K_b 74: a_t 49.1560341327, a_pred 49.1560341327, deviation -0.020e-9, located True, N1 True, N2 True
+K_b 75: a_t 49.6603509625, a_pred 49.6603509625, deviation -0.019e-9, located True, N1 True, N2 True
+K_b 76: NOT LOCATED (output incomplete or states unconverged)
+K_b 77: a_t 50.6640366504, a_pred 50.6640366504, deviation -0.016e-9, located True, N1 True, N2 True
+K_b 78: a_t 51.1634587656, a_pred 51.1634587656, deviation -0.013e-9, located True, N1 True, N2 True
+K_b 79: NOT LOCATED (output incomplete or states unconverged)
+K_b 80: a_t 52.1640901496, a_pred 52.1575890003, deviation +6501149.359e-9, located False, N1 False, N2 False
+K_b 81: a_t 52.6523459611, a_pred 52.6523459611, deviation -0.009e-9, located True, N1 True, N2 True
+K_b 82: a_t 53.1433302767, a_pred 53.1455955877, deviation -2265311.051e-9, located False, N1 False, N2 False
+K_b 83: a_t 53.6373606544, a_pred 53.6373606544, deviation -0.005e-9, located True, N1 True, N2 True
+K_b 84: a_t 54.1276633228, a_pred 54.1276633228, deviation -0.003e-9, located True, N1 True, N2 True
+K_b 85: a_t 54.6154996270, a_pred 54.6165251655, deviation -1025538.514e-9, located False, N1 False, N2 False
+K_b 86: NOT LOCATED (output incomplete or states unconverged)
+K_b 87: a_t 55.5900098519, a_pred 55.5900098519, deviation +0.004e-9, located True, N1 True, N2 True
+K_b 88: a_t 56.0707000000, a_pred 56.0746730911, deviation -3973091.149e-9, located False, N1 False, N2 False
+K_b 89: a_t 56.5630000145, a_pred 56.5579763355, deviation +5023679.078e-9, located False, N1 False, N2 False
+K_b 90: a_t 57.0359000013, a_pred 57.0399385265, deviation -4038525.115e-9, located False, N1 False, N2 False
+K_b 91: NOT LOCATED (output incomplete or states unconverged)
+K_b 92: a_t 57.9959000007, a_pred 57.9999131811, deviation -4013180.409e-9, located False, N1 False, N2 False
+K_b 93: a_t 58.4779612434, a_pred 58.4779612434, deviation +0.037e-9, located True, N1 True, N2 True
+K_b 94: a_t 58.9592974094, a_pred 58.9547394807, deviation +4557928.699e-9, located False, N1 False, N2 False
+K_b 95: a_t 59.4720906814, a_pred 59.4302646435, deviation +41826037.898e-9, located False, N1 False, N2 False
+K_b 96: a_t 59.9006000000, a_pred 59.9045530881, deviation -3953088.078e-9, located False, N1 False, N2 False
+K_b 97: a_t 60.3767067148, a_pred 60.3776207902, deviation -914075.406e-9, located False, N1 False, N2 False
+K_b 98: a_t 60.8455000000, a_pred 60.8494833575, deviation -3983357.470e-9, located False, N1 False, N2 False
+K_b 99: a_t 61.3143168007, a_pred 61.3201560417, deviation -5839240.952e-9, located False, N1 False, N2 False
+K_b 100: a_t 61.7884877971, a_pred 61.7896537503, deviation -1165953.153e-9, located False, N1 False, N2 False
+located 13 of 34; N1 for all located True; N2 for all located True
+VERDICT q1210 D2 class: INCOMPLETE; located 13 of 34; N1 True; N2 True

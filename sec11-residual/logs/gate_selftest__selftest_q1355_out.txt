@@ -1,0 +1,9 @@
+case perfect: exit 0, last line: VERDICT q1355 hard-wall global-series class: PASS; k 0.15: True (32 located, largest |dR/Da| 0.0000); k 0.4: T
+case shift +1e-10: exit 0, last line: VERDICT q1355 hard-wall global-series class: FAIL; k 0.15: False (32 located, largest |dR/Da| 1.3609); k 0.4: 
+case shift -1e-10: exit 0, last line: VERDICT q1355 hard-wall global-series class: FAIL; k 0.15: False (32 located, largest |dR/Da| 1.3609); k 0.4: 
+case ten missing: exit 0, last line: VERDICT q1355 hard-wall global-series class: INCOMPLETE
+case one bad event: exit 0, last line: VERDICT q1355 hard-wall global-series class: FAIL; k 0.15: True (32 located, largest |dR/Da| 0.0000); k 0.4: F
+case edited table: exit 2, last line: READING q1355: VOID (table hash)
+case edited events: exit 2, last line: READING q1355: VOID (training events changed)
+files restored byte for byte: True
+SELFTEST q1355: PASS

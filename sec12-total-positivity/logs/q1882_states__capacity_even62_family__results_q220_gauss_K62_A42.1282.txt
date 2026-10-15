@@ -1,0 +1,10 @@
+[    0 s] state capacity_even62_family/results_q220_gauss_K62_A42.1282.json K 62 A 42.128175 grid 16426 points from -82.128175 to 82.121825
+[   44 s] polished: ok True residual 6.36e-175
+[   49 s] strip: boxes 8213 of [0, Y], largest tau 0.087700; tau_A(Y) [4.5076e-91 +/- 5.56e-97]; C1 True
+[   49 s] g(Y) 5.719e-328; M tail 2.933e-329; grid truncation 4.077e-329
+[   49 s] eps_F 2.2875e-131, eps_J 4.1160e-134; rows widened by 4.5750e-131, entries by 2.2958e-131
+[   71 s] Krawczyk: largest |K(X) - v0| 1.4995e-119 against r = 1e-110; inclusion True; smallest mass in X 1.200262e-02; C2 True
+[   71 s] minors over the box: X1 True, X2 True (930 initial minors, 0 not certainly positive); C3 True
+[   73 s] eps_G 1.3766e-31 (window tail 1.38e-31, far window 2.45e-619); C5 True
+[  188 s] certificate: atom zones 30 passed, 0 failed; wall True; boxes 2973; gap failures 0 (certified positive False); left 0; largest upper bound of D - C -6.7091e-24; C4 True
+VERDICT q1882: PASS

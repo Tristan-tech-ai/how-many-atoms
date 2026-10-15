@@ -6,6 +6,7 @@ Scripts are formatted with black (layout only). The original path is the name us
 |---|---|---|
 | `scripts/cap_beta.py` | beta(A) = 1/c* - 2A = e^{h(Y)} - 2A on stored Gaussian capacity states (pred_cap_beta.txt). | `cap_beta.py` |
 | `scripts/cap_edge_pointwise.py` | Step checks for the pointwise capacity edge law (pred_cap_edge_pointwise.txt). | `cap_edge_pointwise.py` |
+| `scripts/math.py` |  | `gate_truth/_repo_rebuild/paper2/sec5-baseline/scripts/math.py` |
 | `scripts/q470_support_certificate.py` | T2 of 613(7)/614(4) - a rigorous SUPPORT-SIZE certificate for one capacity-achieving state of the amplitude-constrained Poisson channel, in ball arithmetic (python-flint arb). | `q470_support_certificate.py` |
 | `scripts/q484_lfp_bnm.py` | the HIGHER-TARGET cheapest test (23 Sep). | `q484_lfp_bnm.py` |
 | `scripts/q486_lfp_sym.py` | least-favourable priors for the bounded normal mean (squared error), SYMMETRIC continuation with the two centre transitions handled explicitly, so that every transition is located by bisection on a sign condition. | `q486_lfp_sym.py` |
@@ -17,5 +18,6 @@ Scripts are formatted with black (layout only). The original path is the name us
 | `scripts/q496_npmle_uniform.py` | number of atoms K(a) of the POPULATION NPMLE of a Gaussian location mixture when the data density is uniform on [-a, a]. | `q496_npmle_uniform.py` |
 | `scripts/q497_npmle_freeze.py` | FROZEN forward predictions of the population-NPMLE change points (uniform data on [-a, a]) beyond a = 33.65, written before any continuation goes past 33.65 (q496's arb run stopped there). | `q497_npmle_freeze.py` |
 | `scripts/q498_npmle_mpcont.py` | arb continuation of the population NPMLE (Gaussian location mixture, data uniform on [-a, a]) past a = 33.65, where the arb run of q496 (mpsweep) stopped. | `q498_npmle_mpcont.py` |
+| `scripts/time.py` |  | `gpu_lab/venv/Lib/site-packages/cupyx/time.py` |
 
 `logs/` holds 10 output files of the runs reported in the paper; a `__` in a name stands for a folder separator of the original tree.

@@ -1,0 +1,6 @@
+v^2 at K_b 61, 70, 82: 139.7, 149.6, 162.0
+ln|d| against v^2: slope -0.1287, correlation -0.9969; ln|d| against ln K: slope -9.675, correlation -0.9952
+rms of the residual of ln|d|: against v^2 0.0687, against ln K 0.0851
+control on the 21 stored events: slope against v^2 -0.1266, exponent against ln K -9.514
+P1 rms against v^2 below 0.08: holds; P2 slope within 10 percent of -0.1266: holds; P3 exponent within 10 percent of -9.514: holds; P4 rms against ln K larger: holds; control: holds
+READING q1718 done (labels by the script; no verdict word)

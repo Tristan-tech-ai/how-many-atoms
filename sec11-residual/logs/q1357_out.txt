@@ -1,0 +1,11 @@
+k 0.15 K_b 14-32: located 19; mean -0.00011, rms 0.00022, largest |d| 0.0004 at K_b 20 (degree 19: 0.0004); slope +0.000010 per K_b; largest relative (R/Da > 0.2) 0.0017
+k 0.15 K_b 33-45: located 12; mean -0.00127, rms 0.00171, largest |d| 0.0035 at K_b 45 (degree 19: 0.0036); slope -0.000285 per K_b; largest relative (R/Da > 0.2) 0.0041
+k 0.15 all      : located 31; mean -0.00056, rms 0.00108, largest |d| 0.0035 at K_b 45 (degree 19: 0.0036); slope -0.000069 per K_b; largest relative (R/Da > 0.2) 0.0041
+k 0.4 K_b 14-32: located 19; mean +0.00045, rms 0.00063, largest |d| 0.0012 at K_b 31 (degree 19: 0.0012); slope +0.000077 per K_b; largest relative (R/Da > 0.2) 0.0012
+k 0.4 K_b 33-45: located 12; mean +0.00027, rms 0.00092, largest |d| 0.0016 at K_b 45 (degree 19: 0.0015); slope -0.000233 per K_b; largest relative (R/Da > 0.2) 0.0012
+k 0.4 all      : located 31; mean +0.00038, rms 0.00076, largest |d| 0.0016 at K_b 45 (degree 19: 0.0015); slope -0.000005 per K_b; largest relative (R/Da > 0.2) 0.0012
+k 0.6 K_b 14-32: located 19; mean -0.00126, rms 0.00145, largest |d| 0.0028 at K_b 14 (degree 19: 0.0028); slope +0.000127 per K_b; largest relative (R/Da > 0.2) 0.0041
+k 0.6 K_b 33-45: located 12; mean -0.00094, rms 0.00120, largest |d| 0.0025 at K_b 45 (degree 19: 0.0024); slope -0.000194 per K_b; largest relative (R/Da > 0.2) 0.0015
+k 0.6 all      : located 31; mean -0.00114, rms 0.00136, largest |d| 0.0028 at K_b 14 (degree 19: 0.0028); slope +0.000030 per K_b; largest relative (R/Da > 0.2) 0.0041
+all 93 located events: rms 0.00109, largest |dR/Da| 0.0035; bar 0.006 is 1.7 times the largest
+READING q1357 (exploratory, no verdict)

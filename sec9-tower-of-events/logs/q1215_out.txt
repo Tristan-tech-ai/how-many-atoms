@@ -1,0 +1,7 @@
+control: hash of the order-12 table f48c3ea92d5bd797... equals the registered hash: True
+control: K_b 81 recomputed 51.980243607591 against the table 51.980243607591 -> True
+control: K_b 90 recomputed 56.378254558265 against the table 56.378254558265 -> True
+control: K_b 79 deviation at order 12 -0.0140e-9 against -0.014e-9 -> True
+control: K_b 80 deviation at order 12 -0.0081e-9 against -0.008e-9 -> True
+K_b 81: A_meas 51.980243607689; order-12 table 51.980243607591, deviation +0.0980e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.1098e-9
+READING q1215: K_b 81 True (no verdict)

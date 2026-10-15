@@ -1,0 +1,13 @@
+q1105 (code line, reading, no verdict): is the minimum over positions of du_j/dA (line K4 of q924b) non-increasing in A along each family K 61..72?
+K 61: states 107; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.1947
+K 62: states 114; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.09725
+K 63: states 106; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.1927
+K 64: states 114; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.09616
+K 65: states 106; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.189
+K 66: states 112; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.09431
+K 67: states 106; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.1852
+K 68: states 111; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.0927
+K 69: states 104; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.1832
+K 70: states 112; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.09183
+K 71: states 105; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.1809
+K 72: states 112; steps with an increase of the minimum: 0 ; minimum at the first state 1.0 , at the last 0.09036

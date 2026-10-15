@@ -1,0 +1,5 @@
+control: cubic dev16 capacity K_b 24 -0.7939, K_b 40 -0.1410, NPMLE K_b 24 +121.4170 (q1220: -0.7939, -0.1410, +121.4170): True; quintic differs from cubic at capacity K_b 24 by 2.5424: True
+k = 3: capacity events 47, inside bar 47, outside at K_b []; max |dev16| K_b 40-59 0.3281e-9, K_b 24-39 5.3014e-9; NPMLE K_b 31-52 events 17, all inside True; NPMLE K_b 6-28 events 23, all positive True, above bar 22, |dev|/bar 1.02 to 2.47
+k = 5: capacity events 47, inside bar 47, outside at K_b []; max |dev16| K_b 40-59 0.3907e-9, K_b 24-39 5.8169e-9; NPMLE K_b 31-52 events 17, all inside True; NPMLE K_b 6-28 events 23, all positive True, above bar 22, |dev|/bar 1.02 to 2.45
+item V1 (capacity all inside bar): k=3 True, k=5 True; V2 (NPMLE K_b 31-52 inside): k=3 True, k=5 True; V3 (NPMLE K_b 6-28 positive): k=3 True, k=5 True; V4 (capacity K_b 40-59 max < 0.4e-9): k=3 True, k=5 True
+READING q1252: for k = 5, V1 True, V2 True, V3 True, V4 True (no verdict)

@@ -1,0 +1,18 @@
+K 61: 106 stored OPTIMAL states A 41.21 to 41.7325; centred triples 104
+K 61 start A 41.215 (odd, wc): entry 0.00390288393; IFT flow 0.192353845933; neighbour FD 0.194568644339; rel diff 0.0114 CONTROL FAILED; sum of contributions 0.192353845933; relative rate 49.285054 [121s]
+     block D(u_j)-D(A) : sum   4.567199e+10, positive part   4.567199e+10, negative part    -0.99126652, largest |c| at index 1 of 29 (2.96152e+10); signs of b: 1+/28-; signs of x: 29+/0-
+     block D'(u_j)     : sum      3.5009929, positive part      3.5009929, negative part              0, largest |c| at index 29 of 29 (2.18382); signs of b: 15+/0-; signs of x: 0+/29-
+     block norm        : sum            0.0, positive part              0, negative part              0, largest |c| at index 1 of 1 (0.0); signs of b: 0+/0-; signs of x: 1+/0-
+     block D(0)-D(A)   : sum  -4.567199e+10, positive part              0, negative part  -4.567199e+10, largest |c| at index 1 of 1 (-4.5672e+10); signs of b: 0+/1-; signs of x: 0+/1-
+K 61 middle A 41.4725 (odd, wc): entry 0.01169705743; IFT flow 0.0053043312711; neighbour FD 0.00530555463993; rel diff 0.000231 OK; sum of contributions 0.0053043312711; relative rate 0.4534757 [119s]
+     block D(u_j)-D(A) : sum     27234772.0, positive part     77793525.0, negative part    -50558753.0, largest |c| at index 1 of 29 (-3.94797e+7); signs of b: 1+/28-; signs of x: 27+/2-
+     block D'(u_j)     : sum     0.10031427, positive part     0.10031427, negative part              0, largest |c| at index 29 of 29 (0.0626642); signs of b: 15+/0-; signs of x: 0+/29-
+     block norm        : sum            0.0, positive part              0, negative part              0, largest |c| at index 1 of 1 (0.0); signs of b: 0+/0-; signs of x: 1+/0-
+     block D(0)-D(A)   : sum    -27234772.0, positive part              0, negative part    -27234772.0, largest |c| at index 1 of 1 (-2.72348e+7); signs of b: 0+/1-; signs of x: 0+/1-
+K 61 end A 41.7275 (odd, wc): entry 0.01250965371; IFT flow 0.00201374470001; neighbour FD 0.00201385323681; rel diff 5.39e-5 OK; sum of contributions 0.00201374470001; relative rate 0.16097526 [130s]
+     block D(u_j)-D(A) : sum      2397350.3, positive part      9791302.5, negative part     -7393952.2, largest |c| at index 1 of 29 (-4.15471e+6); signs of b: 1+/28-; signs of x: 26+/3-
+     block D'(u_j)     : sum    0.040434568, positive part    0.040434568, negative part              0, largest |c| at index 29 of 29 (0.0253403); signs of b: 15+/0-; signs of x: 0+/29-
+     block norm        : sum            0.0, positive part              0, negative part              0, largest |c| at index 1 of 1 (0.0); signs of b: 0+/0-; signs of x: 1+/0-
+     block D(0)-D(A)   : sum     -2397350.3, positive part              0, negative part     -2397350.3, largest |c| at index 1 of 1 (-2.39735e+6); signs of b: 0+/1-; signs of x: 0+/1-
+READING q1387 done 3
+exit 0

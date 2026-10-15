@@ -1,0 +1,7 @@
+calibration fit per parity (a, b, c), residual std, points: {'even': ([1.16189, -0.11005, -0.89085], 0.00054, 21), 'odd': ([1.01798, -0.00226, -0.76714], 0.00052, 24)}
+leave-one-family-out, last state dropped: largest deviation even 0.0007 (TOL 0.0025), odd 0.0006 (TOL 0.002)
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True, 'NC4_LOO': True}
+   K 76: distance 0.0045, R measured 1.0491, predicted 1.0485, difference +0.0006 (TOL 0.0025)
+   K 77: distance 0.0012, R measured 1.0145, predicted 1.0148, difference -0.0003 (TOL 0.002)
+   K 78: distance 0.0039, R measured 1.0490, predicted 1.0484, difference +0.0006 (TOL 0.0025)
+VERDICT q1166 T138: INCOMPLETE (K 76 PASS; K 77 PASS; K 78 PASS; K 79 MISSING)

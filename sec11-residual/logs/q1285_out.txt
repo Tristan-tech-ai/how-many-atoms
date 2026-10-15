@@ -1,0 +1,10 @@
+control: median sum at x = 1/115 2.692957e-04 vs table 2.692957e-04: True; control branch-point series: Im S_+ at theta 0.3 7.010731e-10, at 0.5 7.010731e-10 (invariant to 1e-5 relative): True (nonzero: True)
+v^2    K_b(approx)   median sum delta      Im S_+          Delta a = |Im|/(2 rho) in 1e-9      exp(-v^2/4.445)
+ 100   +3.6335e-04  -8.1717e-09   5.13445    1.697e-10
+ 105   +3.2721e-04  -2.9012e-09   1.77894    5.509e-11
+ 110   +2.9616e-04  -1.0243e-09   0.61362    1.789e-11
+ 115   +2.6930e-04  -3.5982e-10   0.21082    5.808e-12
+ 120   +2.4591e-04  -1.2584e-10   0.07218    1.886e-12
+ 125   +2.2543e-04  -4.3827e-11   0.02463    6.123e-13
+ 130   +2.0740e-04  -1.5208e-11   0.00838    1.988e-13
+READING q1285 (no verdict)

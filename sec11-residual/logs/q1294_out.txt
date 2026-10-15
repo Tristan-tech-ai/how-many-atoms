@@ -1,0 +1,64 @@
+k 0.75 K_b 14: R +7028.22974e-9, R_pred 6950.56623, ratio 1.0112
+k 0.75 K_b 15: R +4440.82311e-9, R_pred 4378.41230, ratio 1.0143
+k 0.75 K_b 16: R +2835.00527e-9, R_pred 2791.65761, ratio 1.0155
+k 0.75 K_b 17: R +1819.85610e-9, R_pred 1799.98746, ratio 1.0110
+k 0.75 K_b 18: R +1182.59619e-9, R_pred 1172.72531, ratio 1.0084
+k 0.75 K_b 19: R +780.46683e-9, R_pred 771.50340, ratio 1.0116
+k 0.75 K_b 20: R +518.88727e-9, R_pred 512.17811, ratio 1.0131
+k 0.75 K_b 21: R +346.30079e-9, R_pred 342.92599, ratio 1.0098
+k 0.75 K_b 22: R +233.32415e-9, R_pred 231.44877, ratio 1.0081
+k 0.75 K_b 23: R +159.14930e-9, R_pred 157.39260, ratio 1.0112
+k 0.75 K_b 24: R +109.15451e-9, R_pred 107.79703, ratio 1.0126
+k 0.75 K_b 25: R +75.11870e-9, R_pred 74.32870, ratio 1.0106
+k 0.75 K_b 26: R +52.08295e-9, R_pred 51.58007, ratio 1.0097
+k 0.75 K_b 27: R +36.45630e-9, R_pred 36.01174, ratio 1.0123
+k 0.75 K_b 28: R +25.63198e-9, R_pred 25.28804, ratio 1.0136
+k 0.75 K_b 37: R +1.33083e-9, R_pred 1.30973, ratio 1.0161
+k 0.75 K_b 38: R +0.94429e-9, R_pred 0.96267, ratio 0.9809
+k 0.75 K_b 39: R +0.72221e-9, R_pred 0.71016, ratio 1.0170
+k 0.75 K_b 40: R +0.53238e-9, R_pred 0.52574, ratio 1.0126
+k 0.75: Reading, largest change of the ratio with the septic a_med: 0.00247
+k 0.75: located 19; ratio range 0.9809 to 1.0170; item L075 (|ratio - 1| <= 0.06): True
+k 8.0 K_b 14: R +35761.47338e-9, R_pred 31383.43650, ratio 1.1395
+k 8.0 K_b 15: R +22601.32347e-9, R_pred 20276.54556, ratio 1.1147
+k 8.0 K_b 16: R +14529.97587e-9, R_pred 13226.25690, ratio 1.0986
+k 8.0 K_b 17: R +9609.58536e-9, R_pred 8706.15435, ratio 1.1038
+k 8.0 K_b 18: R +6382.00219e-9, R_pred 5780.30135, ratio 1.1041
+k 8.0 K_b 19: R +4209.53994e-9, R_pred 3869.07013, ratio 1.0880
+k 8.0 K_b 20: R +2814.53955e-9, R_pred 2609.82909, ratio 1.0784
+k 8.0 K_b 21: R +1923.91138e-9, R_pred 1773.36311, ratio 1.0849
+k 8.0 K_b 22: R +1318.79026e-9, R_pred 1213.39668, ratio 1.0869
+k 8.0 K_b 23: R +899.49258e-9, R_pred 835.75249, ratio 1.0763
+k 8.0 K_b 24: R +620.09884e-9, R_pred 579.27459, ratio 1.0705
+k 8.0 K_b 25: R +434.61556e-9, R_pred 403.91997, ratio 1.0760
+k 8.0 K_b 26: R +305.36152e-9, R_pred 283.26359, ratio 1.0780
+k 8.0 K_b 27: R +213.97845e-9, R_pred 199.73742, ratio 1.0713
+k 8.0 K_b 28: R +151.18654e-9, R_pred 141.57871, ratio 1.0679
+k 8.0 K_b 37: R +8.37899e-9, R_pred 7.83305, ratio 1.0697
+k 8.0 K_b 38: R +6.20998e-9, R_pred 5.79098, ratio 1.0724
+k 8.0 K_b 39: R +4.59579e-9, R_pred 4.29594, ratio 1.0698
+k 8.0 K_b 40: R +3.41575e-9, R_pred 3.19742, ratio 1.0683
+k 8.0: Reading, largest change of the ratio with the septic a_med: 0.00739
+k 8.0: located 19; ratio range 1.0679 to 1.1395; item L8 (|ratio - 1| <= 0.1): False
+k 12.0 K_b 14: R +46724.32886e-9, R_pred 32641.40188, ratio 1.4314
+k 12.0 K_b 15: R +29618.85896e-9, R_pred 21479.17503, ratio 1.3790
+k 12.0 K_b 16: R +19100.32413e-9, R_pred 14235.83436, ratio 1.3417
+k 12.0 K_b 17: R +12670.20104e-9, R_pred 9503.12126, ratio 1.3333
+k 12.0 K_b 18: R +8439.66453e-9, R_pred 6388.59542, ratio 1.3211
+k 12.0 K_b 19: R +5583.85466e-9, R_pred 4324.25228, ratio 1.2913
+k 12.0 K_b 20: R +3744.58752e-9, R_pred 2946.39420, ratio 1.2709
+k 12.0 K_b 21: R +2566.56848e-9, R_pred 2020.44808, ratio 1.2703
+k 12.0 K_b 22: R +1764.02609e-9, R_pred 1394.04898, ratio 1.2654
+k 12.0 K_b 23: R +1206.56128e-9, R_pred 967.56102, ratio 1.2470
+k 12.0 K_b 24: R +834.02095e-9, R_pred 675.38171, ratio 1.2349
+k 12.0 K_b 25: R +585.92131e-9, R_pred 474.01820, ratio 1.2361
+k 12.0 K_b 26: R +412.63422e-9, R_pred 334.44349, ratio 1.2338
+k 12.0 K_b 27: R +289.86646e-9, R_pred 237.16124, ratio 1.2222
+k 12.0 K_b 28: R +205.28346e-9, R_pred 168.99496, ratio 1.2147
+k 12.0 K_b 37: R +11.57322e-9, R_pred 9.68999, ratio 1.1943
+k 12.0 K_b 38: R +8.59182e-9, R_pred 7.18559, ratio 1.1957
+k 12.0 K_b 39: R +6.36870e-9, R_pred 5.34597, ratio 1.1913
+k 12.0 K_b 40: R +4.74224e-9, R_pred 3.98998, ratio 1.1885
+k 12.0: Reading, largest change of the ratio with the septic a_med: 0.00934
+k 12.0: located 19; ratio range 1.1885 to 1.4314; item L12 (|ratio - 1| <= 0.15): False
+VERDICT q1294 closure-in-k class: FAIL; L075 True; L8 False; L12 False; ratio ranges 0.75: 0.981-1.017, 8.0: 1.068-1.140, 12.0: 1.189-1.431

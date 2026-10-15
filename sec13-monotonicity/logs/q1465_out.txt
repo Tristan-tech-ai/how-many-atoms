@@ -1,0 +1,8 @@
+== even: six edge fractions: n = 16 rows; singular values relative to the first: 1.00e+00, 2.11e-11, 2.13e-14, 1.19e-14, 1.06e-14
+   direction alpha (unit vector over the six fractions): [0.02057, 0.45797, 0.0314, -0.05604, -0.59814, 0.65417]
+== even: ln |x| of the five free entries: n = 16 rows; singular values relative to the first: 1.00e+00, 1.27e-03, 3.47e-06, 6.43e-09, 7.71e-12
+== odd: six edge fractions: n = 16 rows; singular values relative to the first: 1.00e+00, 3.75e-04, 3.73e-12, 3.59e-14, 4.82e-15
+   direction alpha (unit vector over the six fractions): [0.02057, 0.4563, -0.04384, -0.05606, -0.59836, 0.65442]
+== odd: ln |x| of the five free entries: n = 16 rows; singular values relative to the first: 1.00e+00, 1.27e-03, 6.37e-06, 3.22e-08, 5.19e-11
+cosine between the even and the odd direction: 0.9971681676944204
+relative residual of the odd rows outside the even direction: 0.0752049483564601

@@ -1,0 +1,7 @@
+cell NG 13 nmax 14: pair (-0.0937736508283, 0.0011599160007), in-sample rms 1.740e-13, out-of-sample rms 3.714e-13; differences (1e-12) K_b 131..135, 137: -0.31, -0.31, -0.34, -0.36, -0.41, -0.47
+cell NG 14 nmax 14: pair (-0.0937736508496, 0.0011599160196), in-sample rms 5.844e-14, out-of-sample rms 8.286e-14; differences (1e-12) K_b 131..135, 137: +0.06, +0.07, +0.10, +0.07, +0.11, +0.07
+cell NG 14 nmax 16: pair (-0.0937736508372, 0.0011599160085), in-sample rms 1.102e-13, out-of-sample rms 2.263e-13; differences (1e-12) K_b 131..135, 137: -0.20, -0.21, -0.23, -0.20, -0.26, -0.26
+best cell by out-of-sample rms: NG 14 nmax 14 (8.286e-14); control (14, 18) in-sample rms 1.5216e-13
+P1 out-of-sample rms below 1e-12 in all three cells: holds; P2 best cell at least twice better than 1.897e-12: holds; P3 in-sample rms of (14, 14) below 1e-13: holds; control: holds
+event files exist for K_b 136 or 138: no registration text written: ['EXISTS .\\small_gap_q206\\fw_cap_par_chain138b\\event_Kb138.json']
+READING q1680 done (labels by the script; no verdict word)

@@ -1,0 +1,10 @@
+[    0 s] state capacity_odd/results_q220_gauss_K61_A41.2825.json K 61 A 41.282500 grid 16257
+[   43 s] polished: ok True residual 1.71e-149
+[   49 s] strip: boxes 8129, largest tau 0.088906; tau_A(Y) [4.5076e-91 +/- 5.57e-97]; E1 True
+[   49 s] eps_F 2.1546e-131, eps_J 4.0422e-134
+[   70 s] Krawczyk inclusion True; smallest mass in X 9.251574e-03; E2 True
+[   70 s] flow over the box: dw_0/dA = [0.0329413514869 +/- 3.65e-14] (relative radius 9.21e-96); du_1/dA = [1.90791814253 +/- 1.37e-12]; all du_i/dA certainly > 0: True; any certainly < 0: False
+[   70 s] relative growth (dw_0/dA)/w_0 = 3.5606212
+[   70 s] negative control (b -> -b): sign of dw_0/dA -1 against 1; control True
+VERDICT q1891: PASS
+exit 0

@@ -1,0 +1,40 @@
+control: hash of the order-12 table f48c3ea92d5bd797... equals the registered hash: True
+control: K_b 81 recomputed 51.980243607591 against the table 51.980243607591 -> True
+control: K_b 90 recomputed 56.378254558265 against the table 56.378254558265 -> True
+control: K_b 79 deviation at order 12 -0.0140e-9 against -0.014e-9 -> True
+control: K_b 80 deviation at order 12 -0.0081e-9 against -0.008e-9 -> True
+K_b 81: A_meas 51.980243607689; order-12 table 51.980243607591, deviation +0.0980e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.1098e-9
+K_b 82: A_meas 52.474720531434; order-12 table 52.474720531440, deviation -0.0060e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0048e-9
+K_b 83: A_meas 52.967694373012; order-12 table 52.967694373020, deviation -0.0082e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0018e-9
+K_b 84: A_meas 53.459187791669; order-12 table 53.459187791673, deviation -0.0038e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0053e-9
+K_b 85: A_meas 53.949222838584; order-12 table 53.949222838589, deviation -0.0054e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0030e-9
+K_b 86: A_meas 54.437820980063; order-12 table 54.437820980065, deviation -0.0013e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0064e-9
+K_b 87: A_meas 54.925003119704; order-12 table 54.925003119706, deviation -0.0023e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0049e-9
+K_b 88: A_meas 55.410789619460; order-12 table 55.410789619458, deviation +0.0018e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0084e-9
+K_b 89: A_meas 55.895200319695; order-12 table 55.895200319693, deviation +0.0016e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0077e-9
+K_b 90: A_meas 56.378254558271; order-12 table 56.378254558265, deviation +0.0059e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0115e-9
+K_b 91: A_meas 56.859971188737; order-12 table 56.859971188731, deviation +0.0068e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0121e-9
+K_b 92: A_meas 57.340368597666; order-12 table 57.340368597654, deviation +0.0118e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0166e-9
+K_b 93: A_meas 57.819464721180; order-12 table 57.819464721166, deviation +0.0142e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0187e-9
+K_b 94: A_meas 58.297277060737; order-12 table 58.297277060717, deviation +0.0204e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0245e-9
+K_b 95: A_meas 58.773822698182; order-12 table 58.773822698157, deviation +0.0249e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0287e-9
+K_b 96: A_meas 59.249118310134; order-12 table 59.249118310101, deviation +0.0330e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0366e-9
+K_b 97: A_meas 59.723180181736; order-12 table 59.723180181696, deviation +0.0405e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0439e-9
+K_b 98: A_meas 60.196024219796; order-12 table 60.196024219744, deviation +0.0521e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0552e-9
+K_b 99: A_meas 60.667665965358; order-12 table 60.667665965294, deviation +0.0637e-9, item D1 (< 0.3e-9): True; order-16 table deviation +0.0665e-9
+K_b 100: A_meas 61.138120605733; order-12 table 61.138120605653, deviation +0.0797e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.0824e-9
+K_b 101: A_meas 61.607402986020; order-12 table 61.607402985921, deviation +0.0984e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.1009e-9
+K_b 102: A_meas 62.075527620135; order-12 table 62.075527620010, deviation +0.1242e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.1265e-9
+K_b 103: A_meas 62.542508701386; order-12 table 62.542508701236, deviation +0.1494e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.1516e-9
+K_b 104: A_meas 63.008360112607; order-12 table 63.008360112423, deviation +0.1842e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.1862e-9
+K_b 105: A_meas 63.473095435879; order-12 table 63.473095435654, deviation +0.2247e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.2267e-9
+K_b 106: A_meas 63.936727961852; order-12 table 63.936727961576, deviation +0.2755e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.2773e-9
+K_b 107: A_meas 64.399270698700; order-12 table 64.399270698363, deviation +0.3362e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.3378e-9
+K_b 108: A_meas 64.860736380714; order-12 table 64.860736380304, deviation +0.4105e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.4120e-9
+K_b 109: A_meas 65.321137476560; order-12 table 65.321137476061, deviation +0.4996e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.5011e-9
+K_b 110: A_meas 65.780486197209; order-12 table 65.780486196600, deviation +0.6082e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.6095e-9
+K_b 111: A_meas 66.238794503564; order-12 table 66.238794502825, deviation +0.7387e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.7400e-9
+K_b 112: A_meas 66.696074113796; order-12 table 66.696074112900, deviation +0.8968e-9, item D1 (< 1.0e-9): True; order-16 table deviation +0.8980e-9
+K_b 113: A_meas 67.152336510399; order-12 table 67.152336509312, deviation +1.0868e-9, item D1 (< 1.0e-9): False; order-16 table deviation +1.0880e-9
+K_b 114: A_meas 67.607592946976; order-12 table 67.607592945659, deviation +1.3163e-9, item D1 (< 1.0e-9): False; order-16 table deviation +1.3173e-9
+READING q1215: K_b 81 True, K_b 82 True, K_b 83 True, K_b 84 True, K_b 85 True, K_b 86 True, K_b 87 True, K_b 88 True, K_b 89 True, K_b 90 True, K_b 91 True, K_b 92 True, K_b 93 True, K_b 94 True, K_b 95 True, K_b 96 True, K_b 97 True, K_b 98 True, K_b 99 True, K_b 100 True, K_b 101 True, K_b 102 True, K_b 103 True, K_b 104 True, K_b 105 True, K_b 106 True, K_b 107 True, K_b 108 True, K_b 109 True, K_b 110 True, K_b 111 True, K_b 112 True, K_b 113 False, K_b 114 False (no verdict)

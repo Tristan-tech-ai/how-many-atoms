@@ -1,0 +1,15 @@
+ratio line r_n = 4.278180 n + 7.358197 on n = 14..20; residuals [ 0.033 -0.004 -0.02  -0.023 -0.015  0.002  0.028]; largest 0.033 (relative 5.0e-04)
+e_21: A -1.352613e+33, B -1.353621e+33 (relative difference 7.5e-04); e_22: A -1.372607e+35, B -1.375346e+35 (relative difference 2.0e-03)
+variant A nmax 20: best NG per K: K_b 61: NG 18 (size 2.49e-13), K_b 65: NG 18 (size 6.39e-14), K_b 70: NG 18 (size 3.55e-14), K_b 76: NG 18 (size 3.55e-14), K_b 82: NG 18 (size 2.84e-14)
+   K_b 61 a_pred - A (1e-12) by NG 16..22: 16 -2.95 17 -0.90 18 +0.25 19 +0.92 20 +1.34 21 +1.62 22 +1.82
+variant A nmax 21: best NG per K: K_b 61: NG 19 (size 2.77e-13), K_b 65: NG 19 (size 1.28e-13), K_b 70: NG 19 (size 2.84e-14), K_b 76: NG 19 (size 1.42e-14), K_b 82: NG 19 (size 7.11e-15)
+   K_b 61 a_pred - A (1e-12) by NG 16..22: 16 -3.60 17 -1.55 18 -0.39 19 +0.28 20 +0.70 21 +0.99 22 +1.17
+variant A nmax 22: best NG per K: K_b 61: NG 19 (size 1.78e-13), K_b 65: NG 19 (size 1.14e-13), K_b 70: NG 20 (size 2.84e-14), K_b 76: NG 20 (size 7.11e-15), K_b 82: NG 20 (size 1.42e-14)
+   K_b 61 a_pred - A (1e-12) by NG 16..22: 16 -4.06 17 -2.02 18 -0.86 19 -0.18 20 +0.23 21 +0.51 22 +0.72
+variant B nmax 21: best NG per K: K_b 61: NG 19 (size 2.70e-13), K_b 65: NG 19 (size 1.14e-13), K_b 70: NG 19 (size 4.26e-14), K_b 76: NG 19 (size 1.42e-14), K_b 82: NG 19 (size 1.42e-14)
+   K_b 61 a_pred - A (1e-12) by NG 16..22: 16 -3.60 17 -1.55 18 -0.39 19 +0.27 20 +0.70 21 +0.97 22 +1.18
+variant B nmax 22: best NG per K: K_b 61: NG 19 (size 1.92e-13), K_b 65: NG 19 (size 1.14e-13), K_b 70: NG 20 (size 4.26e-14), K_b 76: NG 20 (size 7.11e-15), K_b 82: NG 20 (size 0.00e+00)
+   K_b 61 a_pred - A (1e-12) by NG 16..22: 16 -4.06 17 -2.02 18 -0.88 19 -0.19 20 +0.23 21 +0.51 22 +0.72
+CONTROL nmax 20 reproduces q1736 (best NG 18 at K_b 61 and 82, sizes within 1 percent): holds
+P1 nmax 21 best NG at K_b 61 is 18 or 19: holds; P2 nmax 21 best size at K_b 61 below 2.5e-13: does not hold; P3 nmax 22 best NG at K_b 61 in 18..20: holds
+READING q1739 done (labels by the script; no verdict word)

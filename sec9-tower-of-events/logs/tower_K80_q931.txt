@@ -1,0 +1,10 @@
+controls: PC passes all 7 items True; C1 (g -> -g) gives S1 False, S2 False; C2 (reverse eps order) gives S3 False; C3 (A_s + 0.002) gives S3 False
+   S0 41.7375: False  sign g(0.01) -1, sign centre signal +1
+   S0 41.7325: True  sign g(0.01) -1, sign centre signal -1
+   S0 41.6525: True  sign g(0.01) -1, sign centre signal -1
+   S1 41.7375: False  no sign change from + to -
+   S2 41.7325: True  g negative at 13 of 13 points, largest g -1.669e-16
+   S2 41.6525: True  g negative at 13 of 13 points, largest g -1.746e-15
+   S3: False  only 0 branch points
+VOID q931: S0 violated (instrument)
+VERDICT q931 T64: VOID (S0 violated (instrument))

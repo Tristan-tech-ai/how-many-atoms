@@ -1,0 +1,19 @@
+control tower/K65/results_q220_gauss_K65_A43.5803.json: m 31, classes 32, PC violations 0, undecided 0; NC1 (class (1, 'd', 'u', 'above') inverted) violations 351; NC2 (rows 10 and 12 exchanged) violations 343
+results_q220_gauss_K67_A44.3683.json: m 32, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K67_A44.6248.json: m 32, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K67_A44.8848.json: m 32, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K68_A44.8898.json: m 33, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K68_A45.1325.json: m 33, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K68_A45.4025.json: m 33, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K69_A45.4075.json: m 33, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K69_A45.6625.json: m 33, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K69_A45.9175.json: m 33, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K70_A45.9225.json: m 34, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K70_A46.1559.json: m 34, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+results_q220_gauss_K70_A46.4309.json: m 34, violations (orders 1-4) 0, undecided 0, minority minors at orders 5 and 6 0, PASS
+states 12, states failing 0
+VERDICT q1065 T102: PASS; states 12; failing 0
+
+real	3m39.076s
+user	0m0.015s
+sys	0m0.000s

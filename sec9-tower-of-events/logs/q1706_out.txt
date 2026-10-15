@@ -1,0 +1,7 @@
+P1 largest difference NG = 14, new module against q1697: 1.274e-87 [0s]
+P2 relative differences of f22, f24, f26, f28, f30 against the printed decimals: 2.4e-17, 3.1e-17, 3.2e-17, 7.3e-17, 1.4e-17; len(Fa), len(ga) = (16, 16)
+f30 = -7.25424082052e-12 (reading 157: -7.25424082052e-12)
+P3 largest |d(NG=15) - d(NG=14)| over k = 30..60: 8.350e-12 [0s]
+P4 corrupted f26 digit: P2 relative difference 2.793e-11 (must exceed 1e-14) [0s]
+P1 holds; P2 holds; P3 holds; P4 holds
+READING q1706 done (labels by the script; no verdict word)

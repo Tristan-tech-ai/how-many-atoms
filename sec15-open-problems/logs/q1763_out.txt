@@ -1,0 +1,6 @@
+C1 synthetic (2, 2) law: single function reproduces, parity model does not: True; C2 synthetic parity law: parity model reproduces, single function does not: True
+ratios r(j), j = 6..13: 6: 16507/35520 (0.46472); 7: 1458189/2126272 (0.68580); 8: 395711/528224 (0.74913); 9: 4717124861/4619542752 (1.02112); 10: 15501869/14245596 (1.08819); 11: 3440451496377/2452904927720 (1.40260); 12: 10300712799/6944837312 (1.48322); 13: 86841758233067/47183334807456 (1.84052)
+single (2, 2) function on j = 6, 8, 10, 11, 13: reproduces j = 7, 9, 12 exactly: False
+parity model on j = 6..9: reproduces j = 10..13 exactly: False; coefficients {'a0': -1642932488608258183313/3749451183022859170560, 'a1': 145229934063761283119/937362795755714792640, 'b0': 186240281664146445977/3749451183022859170560, 'b1': -23863823953317458227/1874725591511429585280}
+P1 single rational function of degree (2, 2) reproduces three held-out ratios: does not hold; P2 parity-split linear model reproduces four held-out ratios: does not hold; P3: not evaluated (neither model holds)
+READING q1763 done (labels by the script; no verdict word)

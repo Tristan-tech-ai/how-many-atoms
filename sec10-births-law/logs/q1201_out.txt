@@ -1,0 +1,21 @@
+control K_b 53: deviation from the located amplitude of amendment 962 7.4e-11 -> True
+control K_b 55: deviation from the located amplitude of amendment 962 3.9e-11 -> True
+control K_b 57: deviation from the located amplitude of amendment 962 7.1e-11 -> True
+control K_b 59: deviation from the located amplitude of amendment 962 1.8e-11 -> True
+control: largest |A_meas - a_pred| over K_b 61 to 79 with this interpolation 1.035e-10 (registered below 2e-10) -> True
+control: the extension is continuous at the last node (rho 1.0641) -> True
+stage D = 110.0; table K_b 81 to 114, a_t up to 67.6076 (limit D - 42 = 68.0); first extrapolated K_b: 100; smallest gap between consecutive events 0.455256
+  K_b 81: a_pred 51.9802436076 interpolated
+  K_b 82: a_pred 52.4747205314 interpolated
+  K_b 83: a_pred 52.9676943730 interpolated
+  K_b 84: a_pred 53.4591877917 interpolated
+  K_b 85: a_pred 53.9492228386 interpolated
+  K_b 86: a_pred 54.4378209800 interpolated
+  K_b 87: a_pred 54.9250031197 interpolated
+  K_b 88: a_pred 55.4107896194 interpolated
+  K_b 89: a_pred 55.8952003196 interpolated
+  K_b 90: a_pred 56.3782545581 interpolated
+  K_b 100: a_pred 61.1381206043 extrapolated
+  K_b 110: a_pred 65.7804861954 extrapolated
+sha256 fcf88352217a8017344239510feeb38f1318f2d7751a763c7bfaf21ba844aaac
+END READING q1201 (predictions; no measurement beyond K_b 79 read)

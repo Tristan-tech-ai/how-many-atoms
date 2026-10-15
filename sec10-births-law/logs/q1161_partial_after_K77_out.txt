@@ -1,0 +1,4 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True}
+   K 76: ratio 0.9677 (in [0.95, 1.05])
+   K 78: missing
+VERDICT q1161 T136: INCOMPLETE (K 76 PASS; K 78 MISSING)

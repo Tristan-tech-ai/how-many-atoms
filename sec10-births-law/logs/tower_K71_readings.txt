@@ -1,0 +1,19 @@
+READINGS q953 K 71: family states 104, q924b outputs read 104, q924b PASS lines 104
+counts of True over 104 states: K1 104, K2 104, K3 104, K3c 104, K4 104, K5 104, K6 104, K7 104
+states in the file list: first A 46.435872, last A 46.943872, span 0.5080, all verdicts OPTIMAL True
+minors per state (orders 1-3 and 4-5) distinct sets [(1156, 314721, 20000, 5000, 5000)]; total failures 0
+K1 max error over states: min 9.770e-38, max 1.700e-37; K2 max error: min 1.380e-29, max 5.610e-29
+K3 ratio at delta 1e-12: min 8.753e-15, max 1.904e-11
+K3 ratio at delta 1e-14: min 8.753e-17, max 1.904e-13
+K3 ratio at delta 1e-16: min 8.753e-19, max 1.904e-15
+K4 du_j/dA: smallest over all positions and states 0.1829, largest 7.2710
+K4 dwc/dA: min 0.001668, max 0.350100, positive in 104 states; first 0.35010, last 0.001668
+K4 dw_1/dA: min -0.13850 (A 46.4359), max 0.007314 (A 46.5389); negative in 12 states (A 46.4359 to 46.4839), positive in 92 states (from A 46.4889)
+K4 dwe/dA: min -0.0007454, max -0.0007300
+reduced Hessian diagonal: most negative entry over states -0.2392 to -0.2392; least negative entry -2.400e-05 to -9.839e-08
+centre signal: first -1.4872e-16, minimum -1.4927e-14 at A 46.803872, last -8.4283e-16, all non-positive True
+state after the family A 46.948872: verdict centre positive, centre signal 3.8548e-16, wc 0.01074993, residual 2.23e-39
+centre mass wc: first 0.0004558, last 0.010741642; innermost pair w_1: first 0.0107217, minimum 0.0089851 at A 46.483872, last 0.010749451
+m_ref: first 0.0107861, last 0.010741877; r = wc/m_ref: first 0.04226, last 0.999978
+lattice slot u_1/(u_2-u_1): first 0.5113, last 0.9986; law wc/(mu_bar u_1): first 0.0822, last 0.99991
+END q953 READINGS (no verdict)

@@ -1,0 +1,42 @@
+k  8  delta -1.672e-07  ratio to previous +0.306
+k  9  delta -4.856e-08  ratio to previous +0.290
+k 10  delta -1.121e-08  ratio to previous +0.231
+k 11  delta -6.094e-11  ratio to previous +0.005
+k 12  delta +2.646e-09  ratio to previous -43.424
+k 13  delta +2.772e-09  ratio to previous +1.048
+k 14  delta +2.243e-09  ratio to previous +0.809
+k 15  delta +1.662e-09  ratio to previous +0.741
+k 16  delta +1.187e-09  ratio to previous +0.714
+k 17  delta +8.340e-10  ratio to previous +0.703
+k 18  delta +5.831e-10  ratio to previous +0.699
+k 19  delta +4.077e-10  ratio to previous +0.699
+k 20  delta +2.858e-10  ratio to previous +0.701
+k 21  delta +2.011e-10  ratio to previous +0.704
+k 22  delta +1.420e-10  ratio to previous +0.706
+k 23  delta +1.006e-10  ratio to previous +0.708
+k 24  delta +7.133e-11  ratio to previous +0.709
+k 25  delta +5.050e-11  ratio to previous +0.708
+k 26  delta +3.559e-11  ratio to previous +0.705
+k 27  delta +2.485e-11  ratio to previous +0.698
+k 28  delta +1.707e-11  ratio to previous +0.687
+k 29  delta +1.141e-11  ratio to previous +0.669
+k 30  delta +7.290e-12  ratio to previous +0.639
+k 31  delta +4.288e-12  ratio to previous +0.588
+k 32  delta +2.109e-12  ratio to previous +0.492
+k 33  delta +5.395e-13  ratio to previous +0.256
+k 34  delta -5.762e-13  ratio to previous -1.068
+k 35  delta -1.351e-12  ratio to previous +2.345
+k 36  delta -1.870e-12  ratio to previous +1.384
+k 37  delta -2.193e-12  ratio to previous +1.173
+k 38  delta -2.369e-12  ratio to previous +1.080
+k 39  delta -2.431e-12  ratio to previous +1.026
+k 40  delta -2.407e-12  ratio to previous +0.990
+k 41  delta -2.317e-12  ratio to previous +0.963
+k 42  delta -2.176e-12  ratio to previous +0.939
+k 43  delta -1.997e-12  ratio to previous +0.918
+k 44  delta -1.788e-12  ratio to previous +0.896
+k 45  delta -1.557e-12  ratio to previous +0.871
+log-linear fit over k = 12..30: slope -0.3420 per atom, correlation -0.99762; largest relative departure of the fit 0.574
+sign changes of delta_k between k = 10 and 60 after k = [np.int64(11), np.int64(33), np.int64(50)]
+rms of delta_k over k = 35..60: 1.675e-12; over k = 45..75: 2.737e-12
+READING q1709b done (post hoc; no labels)

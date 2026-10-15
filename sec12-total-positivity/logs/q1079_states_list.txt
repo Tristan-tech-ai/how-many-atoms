@@ -1,0 +1,1 @@
+capacity_odd/results_q220_gauss_K61_A41.2100.json capacity_even62_family/results_q220_gauss_K62_A41.9832.json tower/K63/results_q220_gauss_K63_A42.7882.json tower/K64/results_q220_gauss_K64_A42.7932.json tower/K65/results_q220_gauss_K65_A43.5803.json tower/K65/results_q220_gauss_K65_A43.8403.json 

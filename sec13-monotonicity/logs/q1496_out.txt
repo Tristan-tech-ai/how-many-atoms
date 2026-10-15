@@ -1,0 +1,10 @@
+even PN: limit, 3 terms: K<=114 1.034352, K<=122 1.034357, K<=130 1.034358; 4 terms K<=130 1.034393; shift by the 8 rows +1.56e-06; shift by the 4th term +3.46e-05
+even Re: limit, 3 terms: K<=114 1.054075, K<=122 1.054083, K<=130 1.054087; 4 terms K<=130 1.054159; shift by the 8 rows +3.79e-06; shift by the 4th term +7.22e-05
+odd  PN: limit, 3 terms: K<=114 1.034623, K<=122 1.034610, K<=130 1.034597; 4 terms K<=130 1.034399; shift by the 8 rows -1.33e-05; shift by the 4th term -1.98e-04
+odd  Re: limit, 3 terms: K<=114 1.054239, K<=122 1.054237, K<=130 1.054232; 4 terms K<=130 1.054163; shift by the 8 rows -5.17e-06; shift by the 4th term -6.85e-05
+even-odd gap of the limit, 3 terms: {'PN': '+2.39e-04', 'Re': '+1.45e-04'} | 4 terms: {'PN': '+6.04e-06', 'Re': '+4.43e-06'}
+P1 adding the rows 123..130 moves every limit by less than 1e-4: holds
+P2 adding a fourth term moves every limit by less than 1e-4: does not hold
+P3 the even-odd gap of the limit of P/N stays above 1e-4 with 3 terms: holds
+smallest margin P/N over all 48 rows and the smallest limit: 1.046845 1.034358 (both above 1)
+READING q1496 done (labels by the script; no verdict word)

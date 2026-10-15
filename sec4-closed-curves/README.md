@@ -1,4 +1,4 @@
-# Section IV: closed curves
+# Section VI: closed curves
 
 On a closed curve near a circle the optimal atoms copy a smooth "formal density": they sit at the nodes of its Szegő
 (para-orthogonal) quadrature, and a ring of K atoms is lost where the Verblunsky coefficient α_{K−1} of the density reaches ±1.
@@ -19,6 +19,8 @@ On a closed curve near a circle the optimal atoms copy a smooth "formal density"
 | deterministic annealing ring losses (Table II) | `C_predict.py`, `C_da_solver.py` | `C_registration.md`, `C_runs__main__grid_T3.5.log`, `da_check__*` |
 
 `D_solver.py` handles the three problems (`FUNC cap`, `FUNC lfp`, `FUNC rd`). The 36-ring states at r_m = 0.9690 and 0.9692 in
-`G_work__e36__solve_*_p448.log` are the two 448-bit states cited in Section IV-D.
+`G_work__e36__solve_*_p448.log` are the two 448-bit states cited in Section VI-D.
 
 See [`FILES.md`](FILES.md) for every script.
+
+The terms of this folder are those of the paper (Section I, Terms) and of the top README.

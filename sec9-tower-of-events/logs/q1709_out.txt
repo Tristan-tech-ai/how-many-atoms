@@ -1,0 +1,4 @@
+pair used (-0.093773650774, 0.001159915949); delta_k at k = 1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60: -1.39e-02 -6.41e-06 -1.12e-08 +1.66e-09 +2.86e-10 +5.05e-11 +7.29e-12 -1.35e-12 -2.41e-12 -1.56e-12 -2.35e-13 +2.45e-12
+monotone fall over k = 10..45: False; one sign: False; log-linear fit over k = 20..40: slope -0.2859 per atom, correlation -0.9042; window fit rest rms on 20..40: 4.046e-11
+P1 does not hold; P2 does not hold; P3 does not hold; P4 holds
+READING q1709 done (labels by the script; no verdict word)

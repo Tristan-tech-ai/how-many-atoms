@@ -1,0 +1,8 @@
+chain families in the fit: 27; controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True, 'PC2': True}
+   K 74: p_j/h measured 0.49967 1.49967 2.50165 3.50688 4.51651 5.53158; relative differences -0.00033 -0.00011 +0.00023 +0.00053 +0.00058 +0.00016 (tolerance 0.002) -> PASS
+   K 75: p_j/h measured 0.99870 1.99870 3.00126 4.00757 5.01870 6.03564; relative differences +0.00107 +0.00053 -0.00032 -0.00147 -0.00295 -0.00490 (tolerance 0.007) -> PASS
+   K 76: missing -> MISSING
+   K 77: missing -> MISSING
+   K 78: missing -> MISSING
+   K 79: missing -> MISSING
+VERDICT q1129 T128: INCOMPLETE

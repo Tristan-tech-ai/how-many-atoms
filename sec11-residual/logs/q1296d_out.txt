@@ -1,0 +1,20 @@
+tight_run: scipy brentq called with xtol 1e-16 when no xtol is given; q1183.rho_of replaced by the tight inversion
+control: synthetic recovery of all forms True; F1 reproduces q1293 / q1295 at k = 2 and 12 False
+READING q1296: VOID (control)
+k                       F1 1+g/v2                 F2 exp(g/v2)                F3 1/(1-g/v2)
+         sigma      g     rms       sigma      g     rms       sigma      g     rms  
+ 0.75     2.375  -12.439 0.0017      2.405  -14.542 0.0014      2.442  -17.475 0.0012
+ 1.00     3.013  -12.436 0.0017      3.044  -14.285 0.0018      3.081  -16.772 0.0018
+ 1.50     4.305  -13.658 0.0012      4.371  -16.217 0.0009      4.456  -19.918 0.0006
+ 2.00     5.595  -15.177 0.0013      5.704  -18.393 0.0010      5.849  -23.275 0.0009
+ 2.50     6.916  -16.851 0.0016      7.087  -20.914 0.0011      7.328  -27.464 0.0005
+ 3.00     8.221  -18.119 0.0017      8.460  -22.883 0.0011      8.807  -30.922 0.0008
+ 4.00    10.848  -20.310 0.0023     11.269  -26.528 0.0014     11.925  -38.007 0.0007
+ 5.00    13.498  -22.053 0.0029     14.140  -29.582 0.0018     15.201  -44.564 0.0008
+ 8.00    21.601  -25.732 0.0047     23.105  -36.530 0.0031     25.978  -62.126 0.0015
+12.00    32.642  -28.519 0.0067     35.625  -42.387 0.0046     42.145  -80.926 0.0025
+
+F1 1+g/v2: mean rms ln R 0.0026, max 0.0067; sigma(k) = 2.6869 k + 0.2210 (intercept at k = -0.082), largest relative residual 0.0619; g(k) = -1.5093 k + -12.5300, largest residual 2.122
+F2 exp(g/v2): mean rms ln R 0.0018, max 0.0046; sigma(k) = 2.9465 k + -0.1917 (intercept at k = 0.065), largest relative residual 0.1914; g(k) = -2.6229 k + -13.8003, largest residual 2.888
+F3 1/(1-g/v2): mean rms ln R 0.0011, max 0.0025; sigma(k) = 3.5038 k + -1.2066 (intercept at k = 0.344), largest relative residual 0.7184; g(k) = -5.9089 k + -12.6571, largest residual 2.637
+READING q1296 (exploratory, no verdict)

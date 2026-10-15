@@ -1,0 +1,7 @@
+pair NG = 14: fit on K_b 83..130 (-0.0937736508346, 0.0011599160062); fit on K_b 61..130 (-0.0937736507993, 0.0011599159736); move +3.525e-11, -3.257e-11
+pair NG = 12: move +2.017e-10, -1.863e-10; NG = 13: move +8.490e-11, -7.844e-11; rho_bar 0.4130 and 0.4407
+rms of a_inf - A: fit 83..130 over K_b 83..130 3.123e-14; fit 61..130 over all 70 events 1.495e-13, over K_b 83..130 1.227e-13, over K_b 61..82 1.956e-13
+out of sample K_b 131..142 (1e-12), fit 83..130: 131 -0.014, 132 +0.000, 133 +0.028, 134 +0.057, 135 +0.014, 136 +0.043, 137 +0.043, 138 +0.085, 139 +0.043, 140 +0.000, 141 +0.071, 142 +0.057
+out of sample K_b 131..142 (1e-12), fit 61..130: 131 +0.185, 132 +0.270, 133 +0.185, 134 +0.185, 135 +0.270, 136 +0.284, 137 +0.256, 138 +0.327, 139 +0.313, 140 +0.313, 141 +0.298, 142 +0.270
+P1 pair moves by less than 3e-12: does not hold; P2 rms over 70 events below 6e-14: does not hold; P3 K_b 131..142 within 0.1e-12: does not hold; control: holds
+READING q1721 done (labels by the script; no verdict word)

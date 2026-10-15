@@ -1,0 +1,18 @@
+[immune] rows 1102, new rows from index 612: 490
+   F1 A2: pairs 490, violations 0 -> PASS
+   family K 39 centre True  rows 567-634 (completed): F2 PASS (23 of 23 steps); F3 r 0.9936 -> 0.999737 increasing True -> PASS; F4 last u 0.9960 -> PASS; F5 last law ratio 0.99971 -> PASS => PASS
+   family K 40 centre False rows 635-682 (completed): F2 PASS (47 of 47 steps); F4 last w 0.9983 -> PASS; F5 last law ratio 0.99983 -> PASS; F4 first 0.473 -> PASS (event bracket width 5.86e-07) => PASS
+   family K 41 centre True  rows 683-723 (completed): F2 PASS (40 of 40 steps); F3 r 0.1972 -> 0.999779 increasing True -> PASS; F4 last u 0.9963 -> PASS; F5 last law ratio 0.99972 -> PASS; F4 first 0.557 -> PASS (event bracket width 7.62e-07) => PASS
+   family K 42 centre False rows 724-778 (completed): F2 PASS (54 of 54 steps); F4 last w 0.9984 -> PASS; F5 last law ratio 0.99984 -> PASS; F4 first not examined (event bracket width 4.853e-02) => PASS
+   family K 43 centre True  rows 779-900 (completed): F2 PASS (121 of 121 steps); F3 r 0.2035 -> 0.999918 increasing True -> PASS; F4 last u 0.9970 -> PASS; F5 last law ratio 0.99983 -> PASS; F4 first 0.559 -> PASS (event bracket width 5.86e-07) => PASS
+   family K 44 centre False rows 901-1033 (completed): F2 PASS (132 of 132 steps); F4 last w 0.9985 -> PASS; F5 last law ratio 0.99984 -> PASS; F4 first 0.490 -> PASS (event bracket width 6.10e-07) => PASS
+   family K 45 centre True  rows 1034-1101 (not completed): F2 PASS (67 of 67 steps); F3 r 0.2097 -> 0.987143 increasing True -> PASS; F4 first 0.561 -> PASS (event bracket width 6.11e-07) => PASS
+   [immune] families with new rows examined, completed among them: 6, F2 steps examined: 484, F4-first not examined: 1
+[NPMLE] rows 690, new rows from index 544: 146
+   F1 A2: pairs 146, violations 0 -> PASS
+   family K 34 centre False rows 543-582 (completed): F2 PASS (39 of 39 steps); F4 last w 0.9977 -> PASS; F5 last law ratio 0.99981 -> PASS => PASS
+   family K 35 centre True  rows 583-610 (completed): F2 PASS (27 of 27 steps); F3 r 0.1766 -> 0.999770 increasing True -> PASS; F4 last u 0.9955 -> PASS; F5 last law ratio 0.99977 -> PASS; F4 first 0.550 -> PASS (event bracket width 7.63e-07) => PASS
+   family K 36 centre False rows 611-656 (completed): F2 PASS (45 of 45 steps); F4 last w 0.9975 -> PASS; F5 last law ratio 0.99966 -> PASS; F4 first 0.453 -> PASS (event bracket width 7.63e-07) => PASS
+   family K 37 centre True  rows 657-689 (not completed): F2 PASS (32 of 32 steps); F3 r 0.1835 -> 0.999559 increasing True -> PASS; F4 first 0.553 -> PASS (event bracket width 7.63e-07) => PASS
+   [NPMLE] families with new rows examined, completed among them: 3, F2 steps examined: 143, F4-first not examined: 0
+FORWARD TEST VERDICT (q895c): PASS

@@ -1,0 +1,22 @@
+capacity events 47 K_b range 10 59
+  K_b 10-23: events 14, max |dev16| 49823.7895e-9, median 663.9400e-9, positive 13
+  K_b 24-39: events 16, max |dev16| 5.3014e-9, median 1.6580e-9, positive 0
+  K_b 40-59: events 17, max |dev16| 0.3281e-9, median 0.0378e-9, positive 2
+  K_b 6-28: events 19, max |dev16| 49823.7895e-9, median 79.5705e-9, positive 13
+  K_b 29-35: events 7, max |dev16| 3.5197e-9, median 1.6580e-9, positive 0
+  K_b 36-52: events 17, max |dev16| 0.7308e-9, median 0.1008e-9, positive 2
+  L1 False at K_b: []
+  L2 False at K_b: [10, 11, 12, 13, 14]
+  L1' False at K_b: []
+  dev16/bar, K_b 10-28: 10: 0.43, 11: 0.42, 12: 0.41, 13: 0.35, 14: 0.31, 15: 0.29, 16: 0.27, 17: 0.21, 18: 0.18, 19: 0.13, 20: 0.12, 21: 0.05, 22: 0.05, 23: -0.02, 24: -0.01, 25: -0.08, 26: -0.06, 27: -0.13, 28: -0.09
+npmle events 40 K_b range 6 52
+  K_b 10-23: events 14, max |dev16| 105860.8865e-9, median 4054.0750e-9, positive 14
+  K_b 24-39: events 12, max |dev16| 121.4170e-9, median 7.5422e-9, positive 12
+  K_b 40-59: events 10, max |dev16| 0.3347e-9, median 0.0545e-9, positive 9
+  K_b 6-28: events 23, max |dev16| 2346069.9866e-9, median 2502.7495e-9, positive 23
+  K_b 29-35: events 3, max |dev16| 7.5422e-9, median 2.7558e-9, positive 3
+  K_b 36-52: events 14, max |dev16| 1.3544e-9, median 0.1021e-9, positive 13
+  L1 False at K_b: [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+  L2 False at K_b: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 34]
+  L1' False at K_b: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 34]
+  dev16/bar, K_b 10-28: 10: 1.74, 11: 1.95, 12: 2.14, 13: 2.28, 14: 2.39, 15: 2.44, 16: 2.47, 17: 2.44, 18: 2.40, 19: 2.31, 20: 2.23, 21: 2.09, 22: 1.99, 23: 1.82, 24: 1.71, 25: 1.53, 26: 1.44, 27: 1.25, 28: 1.17

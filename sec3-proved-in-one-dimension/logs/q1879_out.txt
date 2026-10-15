@@ -1,0 +1,10 @@
+profile n = 5 (9 decimals): g = 7.229488062; atoms [('0.002264532', '3.488164116'), ('-2.692836479', '2.302357309'), ('-4.765091522', '1.859653241'), ('-6.376280151', '1.313821805'), ('-7.229488062', '0.256465456')]
+float check of the rounded profile: min K on the grid [-16, 0] step 0.05 = 7.522e-11
+cells certified or examined: 19; endpoint evaluations: 17; seconds 7
+smallest certified lower bound on a cell: 9.9978e-8
+K(0.0) in [9.9978087e-8 +/- 4.14e-16]; K'(0.0) in [-0.28621434 +/- 4.19e-9]
+K(-0.25) in [0.054500801 +/- 6.98e-11]; K'(-0.25) in [-0.15472502 +/- 4.65e-9]
+tail lemma: s_n <= -g True; nu > 0 True; -X0 <= 2T + g = [-15.0278 +/- 9.26e-6] True; P(-X0) = [2.3866e-17 +/- 3.00e-22], N(-X0) = [7.2260e-5 +/- 2.14e-10]; a2 = [1.54296 +/- 3.04e-6]
+dual value 2(sum nu - g) = [3.981947730 +/- 3e-14]
+certified negative value of K at x = -2.71875: [-6.50544e-6 +/- 3.91e-12]
+VERDICT q1879: FAIL

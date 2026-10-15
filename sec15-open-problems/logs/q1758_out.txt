@@ -1,0 +1,5 @@
+CONTROL k = 1 polynomial found again at degree 5 with 8 checks, equal to Q: True; synthetic degree 4 found at 4
+k = 2 (j = 4..15, 12 points): no polynomial of degree <= 9 reproduces the sequence with two checks
+k = 3 (j = 6..15, 10 points): no polynomial of degree <= 7 reproduces the sequence with two checks
+k = 4 (j = 8..15, 8 points): no polynomial of degree <= 5 reproduces the sequence with two checks
+TABLE q1758 done (facts; no labels)

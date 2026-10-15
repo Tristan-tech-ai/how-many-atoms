@@ -1,0 +1,28 @@
+k 1.5 K_b 29: R +30.6330e-9 (predicted 30.6063), c = R / R_NPMLE 1.4084
+k 1.5 K_b 30: R +21.7541e-9 (predicted 21.7574), c = R / R_NPMLE 1.4070
+k 1.5 K_b 31: R +15.5451e-9 (predicted 15.5502), c = R / R_NPMLE 1.4067
+k 1.5 K_b 32: R +11.1470e-9 (predicted 11.1512), c = R / R_NPMLE 1.4067
+k 1.5 K_b 33: R +8.0506e-9 (predicted 8.0375), c = R / R_NPMLE 1.4095
+k 1.5 K_b 34: R +5.8297e-9 (predicted 5.8215), c = R / R_NPMLE 1.4092
+k 1.5 K_b 35: R +4.2383e-9 (predicted 4.2349), c = R / R_NPMLE 1.4083
+k 1.5 K_b 36: R +3.0924e-9 (predicted 3.0895), c = R / R_NPMLE 1.4085
+k 1.5: mean c 1.4080 (predicted 1.4072); item P15: True
+k 2.5 K_b 29: R +45.0868e-9 (predicted 45.2082), c = R / R_NPMLE 2.1773
+k 2.5 K_b 30: R +32.1383e-9 (predicted 32.1637), c = R / R_NPMLE 2.1815
+k 2.5 K_b 31: R +22.9359e-9 (predicted 22.9982), c = R / R_NPMLE 2.1773
+k 2.5 K_b 32: R +16.4630e-9 (predicted 16.5045), c = R / R_NPMLE 2.1777
+k 2.5 K_b 33: R +11.9151e-9 (predicted 11.9045), c = R / R_NPMLE 2.1851
+k 2.5 K_b 34: R +8.6444e-9 (predicted 8.6280), c = R / R_NPMLE 2.1873
+k 2.5 K_b 35: R +6.2869e-9 (predicted 6.2791), c = R / R_NPMLE 2.1859
+k 2.5 K_b 36: R +4.5926e-9 (predicted 4.5829), c = R / R_NPMLE 2.1878
+k 2.5: mean c 2.1825 (predicted 2.1832); item P25: True
+k 5.0 K_b 29: R +75.9267e-9 (predicted 76.5279), c = R / R_NPMLE 3.9785
+k 5.0 K_b 30: R +54.2999e-9 (predicted 54.5197), c = R / R_NPMLE 3.9938
+k 5.0 K_b 31: R +38.8239e-9 (predicted 39.0133), c = R / R_NPMLE 3.9905
+k 5.0 K_b 32: NOT LOCATED
+k 5.0 K_b 33: R +20.2747e-9 (predicted 20.2430), c = R / R_NPMLE 4.0163
+k 5.0 K_b 34: R +14.7496e-9 (predicted 14.6873), c = R / R_NPMLE 4.0270
+k 5.0 K_b 35: R +10.7465e-9 (predicted 10.6960), c = R / R_NPMLE 4.0290
+k 5.0 K_b 36: R +7.8687e-9 (predicted 7.8126), c = R / R_NPMLE 4.0388
+k 5.0: mean c 4.0106 (predicted 4.01); item P5: True
+VERDICT q1276 smooth-c(k) class: PASS; P15 True; P25 True; P5 True; means 1.5: 1.4080, 2.5: 2.1825, 5.0: 4.0106

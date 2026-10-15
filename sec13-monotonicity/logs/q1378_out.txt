@@ -1,0 +1,3 @@
+pairs analysed; (pair, interior atom) cases 90574; smallest dx/dA 0.085780 at (K, centre, A, index from the centre) (82, False, 52.4674, 0); cases with dx/dA < 1 - 1e-9: 25797; largest dx/dA 94.3744
+cases with dx/dA < 1 by index from the centre (first 12): [(0, 1763), (1, 1469), (2, 1291), (3, 1167), (4, 1074), (5, 1005), (6, 950), (7, 908), (8, 875), (9, 843), (10, 818), (11, 797)]
+READING q1378 (exploratory, no verdict)

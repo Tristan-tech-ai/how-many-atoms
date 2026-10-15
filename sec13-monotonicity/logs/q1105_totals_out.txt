@@ -1,0 +1,1 @@
+q1105 totals (code, reading): families 12, states 1309, steps 1297, increases 0

@@ -1,0 +1,143 @@
+[     5s] base polished on the frozen grid 43.5 (5250 points): True, residual [2.2062493858209774661679118301479627248188471612428293001686e-46 +/- 4.08e-105]
+[     9s] base saved as the first state: verdict OPTIMAL, centre signal -1.6913e-18, off-atom -5.9057e-18
+[     9s] trace from capacity_even62/results_q220_gauss_K62_A41.737500_eps0.12085.json: K 62, A 41.7375000000000000000000000000, dA 0.005, stop 43.0
+[    64s]    corrector failed at A = 41.742500; dA -> 0.0025
+[   133s] A = 41.740000: ok True, residual 3.53e-39, wc none, w1 0.0066719228, centre signal -4.4871e-18, off-atom -3.0667e-18, ordered True -> OPTIMAL
+[   206s] A = 41.745000: ok True, residual 2.45e-39, wc none, w1 0.0069670222, centre signal -1.4102e-17, off-atom -7.1539e-18, ordered True -> OPTIMAL
+[   265s] A = 41.750000: ok True, residual 1.40e-42, wc none, w1 0.0072433135, centre signal -2.9095e-17, off-atom -1.5228e-17, ordered True -> OPTIMAL
+[   346s]    corrector failed at A = 41.755000; dA -> 0.0025
+[   406s] A = 41.752500: ok True, residual 2.37e-44, wc none, w1 0.0073746286, centre signal -3.8612e-17, off-atom -1.1445e-17, ordered True -> OPTIMAL
+[   486s]    corrector failed at A = 41.757500; dA -> 0.0025
+[   535s] A = 41.755000: ok True, residual 1.44e-46, wc none, w1 0.0075015344, centre signal -4.9478e-17, off-atom -5.4445e-18, ordered True -> OPTIMAL
+[   615s]    corrector failed at A = 41.760000; dA -> 0.0025
+[   656s] A = 41.757500: ok True, residual 1.11e-52, wc none, w1 0.0076241505, centre signal -6.1694e-17, off-atom -9.0938e-18, ordered True -> OPTIMAL
+[   717s] A = 41.762500: ok True, residual 3.12e-53, wc none, w1 0.0078570204, centre signal -9.0178e-17, off-atom -1.9194e-17, ordered True -> OPTIMAL
+[   775s] A = 41.767500: ok True, residual 3.04e-39, wc none, w1 0.0080742847, centre signal -1.2407e-16, off-atom -3.3036e-17, ordered True -> OPTIMAL
+[   824s] A = 41.772500: ok True, residual 1.32e-52, wc none, w1 0.0082770101, centre signal -1.6336e-16, off-atom -4.5602e-17, ordered True -> OPTIMAL
+[   873s] A = 41.777500: ok True, residual 1.38e-47, wc none, w1 0.0084662496, centre signal -2.0805e-16, off-atom -3.7446e-17, ordered True -> OPTIMAL
+[   948s]    corrector failed at A = 41.782500; dA -> 0.0025
+[  1024s]    corrector failed at A = 41.780000; dA -> 0.00125
+[  1053s] A = 41.778750: ok True, residual 3.56e-46, wc none, w1 0.0085115723, centre signal -2.2006e-16, off-atom -3.5529e-17, ordered True -> OPTIMAL
+[  1117s] A = 41.783750: ok True, residual 6.14e-43, wc none, w1 0.0086853771, centre signal -2.7148e-16, off-atom -2.8353e-17, ordered True -> OPTIMAL
+--- restart at 02:32 with the step growth repair (amendment 1715), base capacity_even62_family/results_q220_gauss_K62_A41.7837.json
+[     3s] base polished on the frozen grid 43.5 (5250 points): True, residual [1.0645423487928162361436138892229563140612980997330671952441e-53 +/- 1.05e-112]
+[     7s] base saved as the first state: verdict OPTIMAL, centre signal -2.7148e-16, off-atom -2.8353e-17
+[     7s] trace from capacity_even62_family/results_q220_gauss_K62_A41.7837.json: K 62, A 41.783750, dA 0.005, stop 43.0
+[    36s]    corrector failed at A = 41.788750; dA -> 0.0025
+[    92s] A = 41.786250: ok True, residual 6.40e-53, wc none, w1 0.0087679949, centre signal -2.9920e-16, off-atom -2.5062e-17, ordered True -> OPTIMAL
+[   173s]    corrector failed at A = 41.790250; dA -> 0.002
+[   212s] A = 41.788250: ok True, residual 1.79e-53, wc none, w1 0.0088321367, centre signal -3.2234e-16, off-atom -2.2573e-17, ordered True -> OPTIMAL
+[   294s]    corrector failed at A = 41.791450; dA -> 0.0016
+[   330s] A = 41.789850: ok True, residual 5.74e-41, wc none, w1 0.0088822420, centre signal -3.4148e-16, off-atom -1.9550e-17, ordered True -> OPTIMAL
+--- restart at 02:39 with q941 quadratic predictor (amendment 1718), base capacity_even62_family/results_q220_gauss_K62_A41.7899.json
+[     3s] base polished on the frozen grid 43.5 (5250 points): True, residual [6.2175678992075131781392984258700072710350090855827553722395e-53 +/- 1.48e-112]
+[     7s] base saved as the first state: verdict OPTIMAL, centre signal -3.4148e-16, off-atom -1.9550e-17
+[     7s] trace from capacity_even62_family/results_q220_gauss_K62_A41.7899.json: K 62, A 41.789850, dA 0.005, stop 43.0
+[    42s] A = 41.794850: ok True, residual 5.22e-45, wc none, w1 0.0090322180, centre signal -4.0478e-16, off-atom -2.9925e-17, ordered True -> OPTIMAL
+[   120s]    corrector failed at A = 41.799850; dA -> 0.0025
+[   160s] A = 41.797350: ok True, residual 4.61e-44, wc none, w1 0.0091036386, centre signal -4.3843e-16, off-atom -3.5938e-17, ordered True -> OPTIMAL
+[   236s]    corrector failed at A = 41.801350; dA -> 0.002
+[   262s] A = 41.799350: ok True, residual 1.33e-40, wc none, w1 0.0091591508, centre signal -4.6630e-16, off-atom -4.1145e-17, ordered True -> OPTIMAL
+[   290s] A = 41.802550: ok True, residual 2.30e-45, wc none, w1 0.0092450929, centre signal -5.1265e-16, off-atom -5.0210e-17, ordered True -> OPTIMAL
+[   302s]    corrector failed at A = 41.807550; dA -> 0.0025
+[   382s]    corrector failed at A = 41.805050; dA -> 0.00125
+[   454s]    corrector failed at A = 41.803800; dA -> 0.000625
+[   477s] A = 41.803175: ok True, residual 7.04e-41, wc none, w1 0.0092614782, centre signal -5.2195e-16, off-atom -5.2085e-17, ordered True -> OPTIMAL
+--- restart at 02:47 with q942 cubic predictor (amendment 1721), base capacity_even62_family/results_q220_gauss_K62_A41.8032.json
+[     3s] base polished on the frozen grid 43.5 (5250 points): True, residual [5.8021305152921666159425652465128835470061117911813154776779e-50 +/- 1.74e-109]
+[     7s] base saved as the first state: verdict OPTIMAL, centre signal -5.2195e-16, off-atom -5.2085e-17
+[     7s] trace from capacity_even62_family/results_q220_gauss_K62_A41.8032.json: K 62, A 41.803175, dA 0.005, stop 43.0
+[    34s] A = 41.808175: ok True, residual 4.57e-37, wc none, w1 0.0093880757, centre signal -5.9934e-16, off-atom -6.8127e-17, ordered True -> OPTIMAL
+[    59s] A = 41.813175: ok True, residual 1.84e-53, wc none, w1 0.0095071504, centre signal -6.8195e-16, off-atom -7.5533e-17, ordered True -> OPTIMAL
+[    80s] A = 41.818175: ok True, residual 1.23e-52, wc none, w1 0.0096192956, centre signal -7.6973e-16, off-atom -1.0582e-16, ordered True -> OPTIMAL
+[   101s] A = 41.823175: ok True, residual 4.37e-39, wc none, w1 0.0097250533, centre signal -8.6262e-16, off-atom -1.3018e-16, ordered True -> OPTIMAL
+[   127s] A = 41.828175: ok True, residual 1.06e-53, wc none, w1 0.0098249177, centre signal -9.6058e-16, off-atom -1.5389e-16, ordered True -> OPTIMAL
+[   154s] A = 41.833175: ok True, residual 4.23e-50, wc none, w1 0.0099193394, centre signal -1.0635e-15, off-atom -1.4917e-16, ordered True -> OPTIMAL
+[   186s] A = 41.838175: ok True, residual 1.62e-37, wc none, w1 0.010008729, centre signal -1.1714e-15, off-atom -1.4446e-16, ordered True -> OPTIMAL
+[   216s] A = 41.843175: ok True, residual 2.20e-45, wc none, w1 0.010093461, centre signal -1.2842e-15, off-atom -1.3979e-16, ordered True -> OPTIMAL
+[   259s] A = 41.848175: ok True, residual 6.73e-39, wc none, w1 0.010173878, centre signal -1.4017e-15, off-atom -1.3514e-16, ordered True -> OPTIMAL
+[   279s] A = 41.853175: ok True, residual 1.89e-38, wc none, w1 0.010250291, centre signal -1.5239e-15, off-atom -1.3052e-16, ordered True -> OPTIMAL
+[   316s] A = 41.858175: ok True, residual 2.62e-48, wc none, w1 0.010322984, centre signal -1.6507e-15, off-atom -1.2593e-16, ordered True -> OPTIMAL
+[   333s] A = 41.863175: ok True, residual 1.17e-42, wc none, w1 0.010392219, centre signal -1.7819e-15, off-atom -1.2138e-16, ordered True -> OPTIMAL
+[   351s] A = 41.868175: ok True, residual 3.00e-48, wc none, w1 0.010458233, centre signal -1.9176e-15, off-atom -1.1688e-16, ordered True -> OPTIMAL
+[   369s] A = 41.873175: ok True, residual 5.56e-54, wc none, w1 0.010521245, centre signal -2.0575e-15, off-atom -1.1241e-16, ordered True -> OPTIMAL
+[   385s] A = 41.878175: ok True, residual 1.53e-38, wc none, w1 0.010581454, centre signal -2.2016e-15, off-atom -1.0800e-16, ordered True -> OPTIMAL
+[   401s] A = 41.883175: ok True, residual 3.91e-39, wc none, w1 0.010639045, centre signal -2.3497e-15, off-atom -1.0364e-16, ordered True -> OPTIMAL
+[   417s] A = 41.888175: ok True, residual 2.61e-40, wc none, w1 0.010694186, centre signal -2.5017e-15, off-atom -9.9329e-17, ordered True -> OPTIMAL
+[   431s] A = 41.893175: ok True, residual 2.40e-42, wc none, w1 0.010747031, centre signal -2.6574e-15, off-atom -9.5079e-17, ordered True -> OPTIMAL
+[   446s] A = 41.898175: ok True, residual 8.17e-45, wc none, w1 0.010797725, centre signal -2.8167e-15, off-atom -8.8120e-17, ordered True -> OPTIMAL
+[   461s] A = 41.903175: ok True, residual 8.34e-48, wc none, w1 0.010846399, centre signal -2.9795e-15, off-atom -8.6767e-17, ordered True -> OPTIMAL
+[   475s] A = 41.908175: ok True, residual 2.92e-52, wc none, w1 0.010893175, centre signal -3.1454e-15, off-atom -1.1344e-16, ordered True -> OPTIMAL
+[   489s] A = 41.913175: ok True, residual 2.24e-54, wc none, w1 0.010938165, centre signal -3.3145e-15, off-atom -1.2721e-16, ordered True -> OPTIMAL
+[   505s] A = 41.918175: ok True, residual 1.09e-54, wc none, w1 0.010981473, centre signal -3.4865e-15, off-atom -1.4169e-16, ordered True -> OPTIMAL
+[   520s] A = 41.923175: ok True, residual 7.76e-55, wc none, w1 0.011023196, centre signal -3.6612e-15, off-atom -1.5688e-16, ordered True -> OPTIMAL
+[   535s] A = 41.928175: ok True, residual 1.91e-54, wc none, w1 0.011063423, centre signal -3.8383e-15, off-atom -1.7275e-16, ordered True -> OPTIMAL
+[   550s] A = 41.933175: ok True, residual 1.39e-48, wc none, w1 0.011102237, centre signal -4.0178e-15, off-atom -1.8928e-16, ordered True -> OPTIMAL
+[   565s] A = 41.938175: ok True, residual 1.42e-43, wc none, w1 0.011139715, centre signal -4.1994e-15, off-atom -2.0645e-16, ordered True -> OPTIMAL
+[   579s] A = 41.943175: ok True, residual 1.32e-52, wc none, w1 0.011175929, centre signal -4.3827e-15, off-atom -2.2424e-16, ordered True -> OPTIMAL
+[   593s] A = 41.948175: ok True, residual 2.59e-54, wc none, w1 0.011210945, centre signal -4.5677e-15, off-atom -2.4262e-16, ordered True -> OPTIMAL
+[   606s] A = 41.953175: ok True, residual 1.85e-54, wc none, w1 0.011244827, centre signal -4.7541e-15, off-atom -2.6157e-16, ordered True -> OPTIMAL
+[   619s] A = 41.958175: ok True, residual 8.01e-37, wc none, w1 0.011277633, centre signal -4.9415e-15, off-atom -2.8106e-16, ordered True -> OPTIMAL
+[   632s] A = 41.963175: ok True, residual 3.75e-38, wc none, w1 0.011309415, centre signal -5.1298e-15, off-atom -3.0105e-16, ordered True -> OPTIMAL
+[   644s] A = 41.968175: ok True, residual 2.11e-39, wc none, w1 0.011340226, centre signal -5.3186e-15, off-atom -3.2153e-16, ordered True -> OPTIMAL
+[   657s] A = 41.973175: ok True, residual 1.35e-40, wc none, w1 0.011370113, centre signal -5.5077e-15, off-atom -3.1318e-16, ordered True -> OPTIMAL
+[   670s] A = 41.978175: ok True, residual 9.46e-42, wc none, w1 0.011399121, centre signal -5.6968e-15, off-atom -2.8831e-16, ordered True -> OPTIMAL
+[   684s] A = 41.983175: ok True, residual 7.05e-43, wc none, w1 0.011427291, centre signal -5.8855e-15, off-atom -2.6443e-16, ordered True -> OPTIMAL
+[   698s] A = 41.988175: ok True, residual 5.48e-44, wc none, w1 0.011454662, centre signal -6.0735e-15, off-atom -2.4156e-16, ordered True -> OPTIMAL
+[   712s] A = 41.993175: ok True, residual 4.37e-45, wc none, w1 0.011481271, centre signal -6.2606e-15, off-atom -1.9822e-16, ordered True -> OPTIMAL
+[   726s] A = 41.998175: ok True, residual 3.53e-46, wc none, w1 0.011507153, centre signal -6.4462e-15, off-atom -1.9890e-16, ordered True -> OPTIMAL
+[   739s] A = 42.003175: ok True, residual 2.82e-47, wc none, w1 0.011532341, centre signal -6.6302e-15, off-atom -2.5719e-16, ordered True -> OPTIMAL
+[   753s] A = 42.008175: ok True, residual 2.20e-48, wc none, w1 0.011556864, centre signal -6.8121e-15, off-atom -2.8908e-16, ordered True -> OPTIMAL
+[   766s] A = 42.013175: ok True, residual 1.62e-49, wc none, w1 0.011580753, centre signal -6.9916e-15, off-atom -3.2247e-16, ordered True -> OPTIMAL
+[   781s] A = 42.018175: ok True, residual 1.08e-50, wc none, w1 0.011604034, centre signal -7.1682e-15, off-atom -3.5729e-16, ordered True -> OPTIMAL
+[   795s] A = 42.023175: ok True, residual 6.02e-52, wc none, w1 0.011626732, centre signal -7.3416e-15, off-atom -3.9343e-16, ordered True -> OPTIMAL
+[   808s] A = 42.028175: ok True, residual 2.35e-53, wc none, w1 0.011648873, centre signal -7.5113e-15, off-atom -4.3082e-16, ordered True -> OPTIMAL
+[   822s] A = 42.033175: ok True, residual 7.79e-55, wc none, w1 0.011670480, centre signal -7.6769e-15, off-atom -4.6934e-16, ordered True -> OPTIMAL
+[   836s] A = 42.038175: ok True, residual 1.10e-54, wc none, w1 0.011691573, centre signal -7.8379e-15, off-atom -5.0891e-16, ordered True -> OPTIMAL
+[   851s] A = 42.043175: ok True, residual 6.51e-55, wc none, w1 0.011712174, centre signal -7.9940e-15, off-atom -5.4940e-16, ordered True -> OPTIMAL
+[   865s] A = 42.048175: ok True, residual 3.74e-55, wc none, w1 0.011732301, centre signal -8.1446e-15, off-atom -5.9071e-16, ordered True -> OPTIMAL
+[   879s] A = 42.053175: ok True, residual 7.79e-55, wc none, w1 0.011751975, centre signal -8.2892e-15, off-atom -6.3271e-16, ordered True -> OPTIMAL
+[   893s] A = 42.058175: ok True, residual 6.17e-55, wc none, w1 0.011771211, centre signal -8.4274e-15, off-atom -6.7528e-16, ordered True -> OPTIMAL
+[   907s] A = 42.063175: ok True, residual 8.33e-55, wc none, w1 0.011790027, centre signal -8.5586e-15, off-atom -7.1828e-16, ordered True -> OPTIMAL
+[   921s] A = 42.068175: ok True, residual 7.45e-55, wc none, w1 0.011808438, centre signal -8.6823e-15, off-atom -7.6157e-16, ordered True -> OPTIMAL
+[   935s] A = 42.073175: ok True, residual 5.95e-55, wc none, w1 0.011826460, centre signal -8.7980e-15, off-atom -7.8782e-16, ordered True -> OPTIMAL
+[   949s] A = 42.078175: ok True, residual 6.79e-55, wc none, w1 0.011844106, centre signal -8.9051e-15, off-atom -8.0716e-16, ordered True -> OPTIMAL
+[   963s] A = 42.083175: ok True, residual 4.78e-55, wc none, w1 0.011861391, centre signal -9.0030e-15, off-atom -8.2571e-16, ordered True -> OPTIMAL
+[   977s] A = 42.088175: ok True, residual 3.37e-55, wc none, w1 0.011878327, centre signal -9.0911e-15, off-atom -8.4339e-16, ordered True -> OPTIMAL
+[   991s] A = 42.093175: ok True, residual 5.08e-55, wc none, w1 0.011894926, centre signal -9.1689e-15, off-atom -8.6012e-16, ordered True -> OPTIMAL
+[  1006s] A = 42.098175: ok True, residual 4.52e-55, wc none, w1 0.011911201, centre signal -9.2357e-15, off-atom -8.7581e-16, ordered True -> OPTIMAL
+[  1021s] A = 42.103175: ok True, residual 6.13e-55, wc none, w1 0.011927162, centre signal -9.2908e-15, off-atom -8.9036e-16, ordered True -> OPTIMAL
+[  1035s] A = 42.108175: ok True, residual 5.23e-55, wc none, w1 0.011942820, centre signal -9.3337e-15, off-atom -9.0368e-16, ordered True -> OPTIMAL
+[  1050s] A = 42.113175: ok True, residual 4.90e-55, wc none, w1 0.011958186, centre signal -9.3637e-15, off-atom -8.4453e-16, ordered True -> OPTIMAL
+[  1064s] A = 42.118175: ok True, residual 3.96e-55, wc none, w1 0.011973268, centre signal -9.3800e-15, off-atom -7.5614e-16, ordered True -> OPTIMAL
+[  1079s] A = 42.123175: ok True, residual 3.74e-55, wc none, w1 0.011988077, centre signal -9.3819e-15, off-atom -6.7309e-16, ordered True -> OPTIMAL
+[  1093s] A = 42.128175: ok True, residual 3.55e-55, wc none, w1 0.012002621, centre signal -9.3688e-15, off-atom -4.9835e-16, ordered True -> OPTIMAL
+[  1107s] A = 42.133175: ok True, residual 5.85e-55, wc none, w1 0.012016909, centre signal -9.3398e-15, off-atom -5.2281e-16, ordered True -> OPTIMAL
+[  1121s] A = 42.138175: ok True, residual 2.48e-55, wc none, w1 0.012030949, centre signal -9.2943e-15, off-atom -6.3141e-16, ordered True -> OPTIMAL
+[  1135s] A = 42.143175: ok True, residual 4.92e-55, wc none, w1 0.012044748, centre signal -9.2315e-15, off-atom -6.7315e-16, ordered True -> OPTIMAL
+[  1150s] A = 42.148175: ok True, residual 2.85e-55, wc none, w1 0.012058315, centre signal -9.1504e-15, off-atom -6.2059e-16, ordered True -> OPTIMAL
+[  1162s] A = 42.153175: ok True, residual 8.04e-37, wc none, w1 0.012071655, centre signal -9.0505e-15, off-atom -5.7034e-16, ordered True -> OPTIMAL
+[  1174s] A = 42.158175: ok True, residual 5.04e-37, wc none, w1 0.012084777, centre signal -8.9307e-15, off-atom -5.2238e-16, ordered True -> OPTIMAL
+[  1187s] A = 42.163175: ok True, residual 3.15e-37, wc none, w1 0.012097687, centre signal -8.7902e-15, off-atom -4.7673e-16, ordered True -> OPTIMAL
+[  1199s] A = 42.168175: ok True, residual 1.96e-37, wc none, w1 0.012110390, centre signal -8.6282e-15, off-atom -4.3339e-16, ordered True -> OPTIMAL
+[  1212s] A = 42.173175: ok True, residual 1.21e-37, wc none, w1 0.012122894, centre signal -8.4438e-15, off-atom -3.9236e-16, ordered True -> OPTIMAL
+[  1224s] A = 42.178175: ok True, residual 7.43e-38, wc none, w1 0.012135204, centre signal -8.2360e-15, off-atom -3.1180e-16, ordered True -> OPTIMAL
+[  1237s] A = 42.183175: ok True, residual 4.54e-38, wc none, w1 0.012147325, centre signal -8.0040e-15, off-atom -3.1716e-16, ordered True -> OPTIMAL
+[  1250s] A = 42.188175: ok True, residual 2.76e-38, wc none, w1 0.012159262, centre signal -7.7467e-15, off-atom -3.5684e-16, ordered True -> OPTIMAL
+[  1262s] A = 42.193175: ok True, residual 1.67e-38, wc none, w1 0.012171022, centre signal -7.4631e-15, off-atom -3.7775e-16, ordered True -> OPTIMAL
+[  1275s] A = 42.198175: ok True, residual 9.98e-39, wc none, w1 0.012182609, centre signal -7.1523e-15, off-atom -3.9719e-16, ordered True -> OPTIMAL
+[  1287s] A = 42.203175: ok True, residual 5.93e-39, wc none, w1 0.012194027, centre signal -6.8133e-15, off-atom -3.6746e-16, ordered True -> OPTIMAL
+[  1300s] A = 42.208175: ok True, residual 3.48e-39, wc none, w1 0.012205282, centre signal -6.4449e-15, off-atom -3.3738e-16, ordered True -> OPTIMAL
+[  1313s] A = 42.213175: ok True, residual 2.03e-39, wc none, w1 0.012216377, centre signal -6.0462e-15, off-atom -3.0793e-16, ordered True -> OPTIMAL
+[  1325s] A = 42.218175: ok True, residual 1.48e-39, wc none, w1 0.012227318, centre signal -5.6160e-15, off-atom -2.7913e-16, ordered True -> OPTIMAL
+[  1338s] A = 42.223175: ok True, residual 1.06e-39, wc none, w1 0.012238107, centre signal -5.1532e-15, off-atom -2.5100e-16, ordered True -> OPTIMAL
+[  1350s] A = 42.228175: ok True, residual 7.50e-40, wc none, w1 0.012248750, centre signal -4.6566e-15, off-atom -2.2357e-16, ordered True -> OPTIMAL
+[  1363s] A = 42.233175: ok True, residual 5.51e-40, wc none, w1 0.012259250, centre signal -4.1252e-15, off-atom -1.9684e-16, ordered True -> OPTIMAL
+[  1375s] A = 42.238175: ok True, residual 3.98e-40, wc none, w1 0.012269610, centre signal -3.5576e-15, off-atom -1.7085e-16, ordered True -> OPTIMAL
+[  1387s] A = 42.243175: ok True, residual 2.84e-40, wc none, w1 0.012279834, centre signal -2.9527e-15, off-atom -1.4561e-16, ordered True -> OPTIMAL
+[  1399s] A = 42.248175: ok True, residual 2.00e-40, wc none, w1 0.012289926, centre signal -2.3093e-15, off-atom -1.2114e-16, ordered True -> OPTIMAL
+[  1411s] A = 42.253175: ok True, residual 1.40e-40, wc none, w1 0.012299888, centre signal -1.6261e-15, off-atom -9.7455e-17, ordered True -> OPTIMAL
+[  1424s] A = 42.258175: ok True, residual 9.72e-41, wc none, w1 0.012309725, centre signal -9.0175e-16, off-atom -5.5522e-17, ordered True -> OPTIMAL
+[  1436s] A = 42.263175: ok True, residual 6.69e-41, wc none, w1 0.012319439, centre signal -1.3496e-16, off-atom -2.5913e-17, ordered True -> OPTIMAL
+[  1448s] A = 42.268175: ok True, residual 4.57e-41, wc none, w1 0.012329032, centre signal 6.7560e-16, off-atom 6.0825e-16, ordered True -> centre positive
+RESULT q941: trace ends at A = 42.268175 with verdict centre positive

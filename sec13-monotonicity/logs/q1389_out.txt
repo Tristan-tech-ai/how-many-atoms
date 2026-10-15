@@ -1,0 +1,32 @@
+K 62 end A 42.258175 (even, u_1), stored-system flow 0.0993769958004, J 61x61
+   S   : sum 0.0993769958 (control OK); sum|c|/|sum c| = 1.0916e+10; positive 41, negative 4; largest |c| 2.577e+8 
+   R   : sum 0.0993769958 (control FAILED); sum|c|/|sum c| = 1.0916e+10; positive 41, negative 4; largest |c| 2.577e+8 
+   D1  : sum 0.0993769958 (control OK); sum|c|/|sum c| = 34.297; positive 15, negative 10; largest |c| 1.335 
+   T   : sum 0.0993769958 (control OK); sum|c|/|sum c| = 34.772; positive 16, negative 9; largest |c| 1.358 
+   signs of c in S, D block: ---++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 00000000000000000000---------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -00000000000000000000--------- | D' block: 000000000000000+++++++++++++++
+K 62 middle A 41.983175 (even, u_1), stored-system flow 0.265555740801, J 61x61
+   S   : sum 0.2655557408 (control OK); sum|c|/|sum c| = 3.9993e+10; positive 42, negative 3; largest |c| 3.626e+9 
+   R   : sum 0.2655557408 (control FAILED); sum|c|/|sum c| = 3.9993e+10; positive 42, negative 3; largest |c| 3.626e+9 
+   D1  : sum 0.2655557408 (control OK); sum|c|/|sum c| = 35.173; positive 15, negative 10; largest |c| 3.655 
+   T   : sum 0.2655557408 (control OK); sum|c|/|sum c| = 35.655; positive 16, negative 9; largest |c| 3.719 
+   signs of c in S, D block: --+++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 00000000000000000000---------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -00000000000000000000--------- | D' block: 000000000000000+++++++++++++++
+K 62 start A 41.740000 (even, u_1), stored-system flow 11.0283031511, J 61x61
+   S   : sum 11.02830315 (control FAILED); sum|c|/|sum c| = 3.9406e+11; positive 43, negative 2; largest |c| 2.173e+12 
+   R   : sum 11.02830315 (control FAILED); sum|c|/|sum c| = 3.9406e+11; positive 43, negative 2; largest |c| 2.173e+12 
+   D1  : sum 11.02830315 (control FAILED); sum|c|/|sum c| = 35.506; positive 15, negative 10; largest |c| 153.2 
+   T   : sum 11.02830315 (control FAILED); sum|c|/|sum c| = 35.989; positive 16, negative 9; largest |c| 155.8 
+   signs of c in S, D block: -++++++++++++++++++++++++++++- | D' block: 000000000000000+++++++++++++++
+   signs of c in T, D block: 00000000000000000000---------+ | D' block: 000000000000000+++++++++++++++
+   signs of c in D1, D block: -00000000000000000000--------- | D' block: 000000000000000+++++++++++++++
+K 61 end A 41.727500 (odd, wc), stored-system flow 0.00201374470001, J 60x60
+   S   : sum 0.0020137447 (control OK); sum|c|/|sum c| = 9.7245e+9; positive 40, negative 5; largest |c| 4.155e+6 
+   D1  : sum 0.0020137447 (control OK); sum|c|/|sum c| = 2.381e+9; positive 16, negative 10; largest |c| 2.397e+6 
+   T   : sum 0.0020137447 (control OK); sum|c|/|sum c| = 3.7915e+9; positive 24, negative 2; largest |c| 3.71e+6 
+   signs of c in S, D block: ---+++++++++++++++++++++++++- | D' block: 00000000000000+++++++++++++++
+   signs of c in T, D block: 0000000000000000000+++++++++- | D' block: 00000000000000+++++++++++++++
+   signs of c in D1, D block: +0000000000000000000--------- | D' block: 00000000000000+++++++++++++++
+READING q1389 done

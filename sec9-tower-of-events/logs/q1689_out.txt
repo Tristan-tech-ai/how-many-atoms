@@ -1,0 +1,7 @@
+fixed ratio rho_bar (median over K_b 61..82) = 0.4130; range there 0.391 to 0.434
+a_inf - A (1e-12), K_b 61..69: 61 -0.21, 62 -0.41, 63 -0.16, 64 -0.40, 65 -0.09, 66 -0.11, 67 -0.06, 68 -0.41, 69 -0.02
+a_inf - A (1e-12), K_b 70..82: 70 -0.36, 71 +0.00, 72 -0.14, 73 +11.13, 74 -0.38, 75 +0.00, 76 -0.03, 77 -0.01, 78 -0.45, 79 +0.06, 80 +0.00, 81 +0.01, 82 +0.02
+a_inf - A (1e-12), K_b 131..138: 131 -0.014, 132 +0.000, 133 +0.028, 134 +0.057, 135 +0.014, 137 +0.043, 138 +0.085; the law through c28 alone: 131 -0.256, 132 -0.256, 133 -0.256, 134 -0.270, 135 -0.313, 137 -0.327, 138 -0.327
+rms over K_b 83..130: a_inf 3.123e-14, law through c28 alone 1.522e-13
+P1 K_b 61..69 below 2e-12: holds; P2 K_b 70..82 without 73 below 1e-12: holds; P3 rms over K_b 83..130 below 2e-13: holds; P4 K_b 131..138 within 3e-13: holds; P5 K_b 73 above 5e-12: holds; control: holds
+READING q1689 done (labels by the script; no verdict word)

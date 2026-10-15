@@ -1,0 +1,33 @@
+NG = 15, N = 90, formal start pair (-0.0937735860, +0.0011598410)
+round 0: pair (-0.093773586000, +0.001159841000); fit corrections delta d0 +7.469e-08, delta nu0 -6.452e-08; rms of the rest 1.74e-11; largest deviation 1.68e-08 [0s]
+  Newton update 1 residual before 6.16e-09 damping 1.0
+  Newton update 2 residual before 3.86e-17 damping 1.0
+  Newton update 3 residual before 2.51e-23 damping 1.0
+  Newton update 4 residual before 1.48e-30 damping 1.0
+  Newton update 5 residual before 2.49e-44 damping 1.0
+   Newton for the new pair: 5 updates, residuals 6.2e-09, 3.9e-17, 2.5e-23, 1.5e-30, 2.5e-44, 8.9e-73
+round 1: pair (-0.093773650518, +0.001159915691); fit corrections delta d0 +2.914e-10, delta nu0 -2.919e-10; rms of the rest 1.16e-12; largest deviation 3.09e-11 [98s]
+  Newton update 1 residual before 1.51e-11 damping 1.0
+  Newton update 2 residual before 2.31e-22 damping 1.0
+  Newton update 3 residual before 2.76e-29 damping 1.0
+  Newton update 4 residual before 1.26e-44 damping 1.0
+   Newton for the new pair: 4 updates, residuals 1.5e-11, 2.3e-22, 2.8e-29, 1.3e-44, 3.8e-74
+round 2: pair (-0.093773650810, +0.001159915983); fit corrections delta d0 +6.859e-13, delta nu0 -6.908e-13; rms of the rest 1.18e-12; largest deviation 3.93e-12 [177s]
+  Newton update 1 residual before 3.47e-14 damping 1.0
+  Newton update 2 residual before 1.22e-27 damping 1.0
+  Newton update 3 residual before 1.20e-37 damping 1.0
+  Newton update 4 residual before 1.84e-60 damping 1.0
+   Newton for the new pair: 4 updates, residuals 3.5e-14, 1.2e-27, 1.2e-37, 1.8e-60, 9.9e-76
+round 3: pair (-0.093773650810, +0.001159915983); fit corrections delta d0 +3.697e-14, delta nu0 -3.864e-14; rms of the rest 1.18e-12; largest deviation 3.97e-12 [256s]
+  Newton update 1 residual before 1.56e-15 damping 1.0
+  Newton update 2 residual before 2.46e-30 damping 1.0
+  Newton update 3 residual before 5.14e-42 damping 1.0
+  Newton update 4 residual before 3.19e-68 damping 1.0
+   Newton for the new pair: 4 updates, residuals 1.6e-15, 2.5e-30, 5.1e-42, 3.2e-68, 1.2e-75
+round 4: pair (-0.093773650810, +0.001159915983); fit corrections delta d0 -1.394e-14, delta nu0 +1.510e-14; rms of the rest 1.18e-12; largest deviation 3.98e-12 [334s]
+window 20..40 on the state of the last round: pair (-0.093773650121, +0.001159915271), rest rms 2.46e-11
+window 45..75 on the state of the last round: pair (-0.093773650838, +0.001159916009), rest rms 2.00e-13
+final pair (nu0, d0) = (-0.093773650810, 0.001159915983); differences to the births pair: +3.222e-11, -3.021e-11; combination minus the births value +4.019e-13
+c28 pair minus the c30 births pair: +6.895e-11, -6.425e-11; c28 rest rms 2.197e-12
+P2 holds; P3 holds; C4 holds
+READING q1705 done (labels by the script; no verdict word)

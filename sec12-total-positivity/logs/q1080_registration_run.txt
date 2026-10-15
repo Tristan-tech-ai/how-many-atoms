@@ -1,0 +1,2 @@
+controls on 3 synthetic matrices (m [10, 11, 12]): PC True (classes checked [8, 8, 8]); NC1 (factor (-1)^k dropped) fails True; NC2 (global sign reversed) fails True
+VERDICT q1080 T112: INCOMPLETE (controls run only)

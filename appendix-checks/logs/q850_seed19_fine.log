@@ -1,0 +1,9 @@
+seed from c60_K19.json entry A = 16.509997 (positions rescaled to A = 16.0)
+A 16.0 t 0.0: atoms 19 (walls w 0.097169, 0.097169); residual 4.9e-15; KKT max +8.9e-16; I + tE = 2.1640693806; depth_L 2.718845, depth_R 2.718845; (dR - dL)/(2t) +nan; mean depth 2.718845
+A 16.0 t 0.005: atoms 19 (walls w 0.089401, 0.105329); residual 2.1e-14; KKT max +5.3e-15; I + tE = 2.1654018997; depth_L 2.715560, depth_R 2.722142; (dR - dL)/(2t) +0.65819; mean depth 2.718851
+A 16.0 t 0.01: atoms 19 (walls w 0.082034, 0.113869); residual 3.6e-15; KKT max +3.1e-15; I + tE = 2.1693951052; depth_L 2.712286, depth_R 2.725450; (dR - dL)/(2t) +0.65819; mean depth 2.718868
+A 16.0 t 0.015: atoms 19 (walls w 0.075074, 0.122774); residual 6.2e-15; KKT max +4.9e-15; I + tE = 2.1760360092; depth_L 2.709023, depth_R 2.728770; (dR - dL)/(2t) +0.65820; mean depth 2.718897
+A 16.0 t 0.0175: atoms 19 (walls w 0.071747, 0.127358); residual 1.0e-14; KKT max -8.9e-16; I + tE = 2.1803429739; depth_L 2.707396, depth_R 2.730434; (dR - dL)/(2t) +0.65821; mean depth 2.718915
+A 16.0 t 0.02: atoms 19 (walls w 0.068523, 0.132026); residual 5.8e-15; KKT max +2.7e-15; I + tE = 2.1853031851; depth_L 2.705772, depth_R 2.732101; (dR - dL)/(2t) +0.65821; mean depth 2.718936
+A 16.0 t 0.0225: atoms 19 (walls w 0.065401, 0.136776); residual 1.2e-14; KKT max +1.8e-15; I + tE = 2.1909126986; depth_L 2.704151, depth_R 2.733770; (dR - dL)/(2t) +0.65822; mean depth 2.718961
+A 16.0 t 0.025: atoms 19 (walls w 0.062381, 0.141606); residual 7.1e-15; KKT max +7.1e-15; I + tE = 2.1971670898; depth_L 2.702532, depth_R 2.735443; (dR - dL)/(2t) +0.65822; mean depth 2.718988

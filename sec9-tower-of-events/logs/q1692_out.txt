@@ -1,0 +1,7 @@
+NG 15 signed a_pred - A at K_b 61 (1e-12), nmax 10..18:   348.60   159.82    76.33    37.08    17.59     7.31     1.64    -1.64    -3.72
+NG 15 signed a_pred - A at K_b 69:   130.95    57.27    26.01    11.94     5.26     1.90     0.10    -0.85    -1.47; at K_b 82:   19.28    7.94    3.40    1.44    0.58    0.17   -0.02   -0.14   -0.23
+NG 15 largest size over K_b 61..69 (1e-12), nmax 10..18:   348.60   159.82    76.33    37.08    17.59     7.31     1.64     1.76     3.72; K_b 73 at nmax 18: +10.25
+f30/f28 = 0.46196; pair (NG 15, nmax 18) = (-0.0937736508427, 0.0011599160135); best nmax by lower-K size 16 (1.641e-12)
+Aitken over (13, 14, 15): rho_bar 0.4404 (range 0.400 to 0.464); largest |a_inf - A| over K_b 61..82 without 73: 1.634e-12; K_b 73: +1.14e-11; rms K_b 83..130: 4.160e-14; K_b 131..138 (1e-12): 131 +0.099, 132 +0.071, 133 +0.000, 134 +0.028, 135 +0.099, 137 +0.028, 138 +0.085
+F12 holds; F13 holds; F14 holds; F15 holds; F16 holds; F17 holds; F18 holds; F19 holds; G1 does not hold; G2 holds; G3 holds; control holds
+READING q1692 done (labels by the script; no verdict word)

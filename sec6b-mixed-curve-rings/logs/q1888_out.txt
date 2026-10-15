@@ -1,0 +1,7 @@
+controls: PASS
+  rm 1.74100  residual 2.20e-33  smallest mass +8.5763e-03  D(0) - C +2.952354e-03
+  rm 1.74040  residual 2.09e-39  smallest mass +5.9723e-03  D(0) - C +2.570800e-03
+  rm 1.73980  residual 1.33e-38  smallest mass +2.9510e-03  D(0) - C +2.189514e-03
+  rm 1.73920  residual 1.11e-37  smallest mass -5.9706e-04  D(0) - C +1.808497e-03
+VERDICT q1888: INCOMPLETE
+exit 1

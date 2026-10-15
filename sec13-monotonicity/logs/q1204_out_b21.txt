@@ -1,0 +1,38 @@
+control: hash of the table content fcf88352217a8017... equals the registered hash: True
+control: K_b 81 recomputed 51.9802436076 against the table 51.9802436076 -> True
+control: K_b 90 recomputed 56.3782545581 against the table 56.3782545581 -> True
+control: K_b 79 deviation +0.0267e-9 against +0.027e-9 -> True
+control: K_b 80 deviation +0.0241e-9 against +0.024e-9 -> True
+K_b 81: A_meas 51.980243607689, a_pred 51.9802436076, deviation +0.1193e-9, item S1 (< 0.5e-9): True
+K_b 82: A_meas 52.474720531434, a_pred 52.4747205314, deviation +0.0049e-9, item S1 (< 0.5e-9): True
+K_b 83: A_meas 52.967694373012, a_pred 52.9676943730, deviation -0.0043e-9, item S1 (< 0.5e-9): True
+K_b 84: A_meas 53.459187791669, a_pred 53.4591877917, deviation -0.0015e-9, item S1 (< 0.5e-9): True
+K_b 85: A_meas 53.949222838584, a_pred 53.9492228386, deviation +0.0024e-9, item S1 (< 0.5e-9): True
+K_b 86: A_meas 54.437820980063, a_pred 54.4378209800, deviation +0.0206e-9, item S1 (< 0.5e-9): True
+K_b 87: A_meas 54.925003119704, a_pred 54.9250031197, deviation +0.0431e-9, item S1 (< 0.5e-9): True
+K_b 88: A_meas 55.410789619460, a_pred 55.4107896194, deviation +0.0805e-9, item S1 (< 0.5e-9): True
+K_b 89: A_meas 55.895200319695, a_pred 55.8952003196, deviation +0.1242e-9, item S1 (< 0.5e-9): True
+K_b 90: A_meas 56.378254558271, a_pred 56.3782545581, deviation +0.1831e-9, item S1 (< 0.5e-9): True
+K_b 91: A_meas 56.859971188737, a_pred 56.8599711885, deviation +0.2495e-9, item S1 (< 0.5e-9): True
+K_b 92: A_meas 57.340368597666, a_pred 57.3403685973, deviation +0.3308e-9, item S1 (< 0.5e-9): True
+K_b 93: A_meas 57.819464721180, a_pred 57.8194647208, deviation +0.4206e-9, item S1 (< 0.5e-9): True
+K_b 94: A_meas 58.297277060737, a_pred 58.2972770602, deviation +0.5249e-9, item S1 (< 0.5e-9): False
+K_b 95: A_meas 58.773822698182, a_pred 58.7738226975, deviation +0.6383e-9, item S1 (< 0.5e-9): False
+K_b 96: A_meas 59.249118310134, a_pred 59.2491183094, deviation +0.7662e-9, item S1 (< 0.5e-9): False
+K_b 97: A_meas 59.723180181736, a_pred 59.7231801808, deviation +0.9040e-9, item S1 (< 0.5e-9): False
+K_b 98: A_meas 60.196024219796, a_pred 60.1960242187, deviation +1.0565e-9, item S1 (< 0.5e-9): False
+K_b 99: A_meas 60.667665965358, a_pred 60.6676659641, deviation +1.2196e-9, item S1 (< 0.5e-9): False
+K_b 100: A_meas 61.138120605733, a_pred 61.1381206043, deviation +1.3959e-9, item S2 (< 2.0e-9): True
+K_b 101: A_meas 61.607402986020, a_pred 61.6074029846, deviation +1.4008e-9, item S2 (< 2.0e-9): True
+K_b 102: A_meas 62.075527620135, a_pred 62.0755276187, deviation +1.4124e-9, item S2 (< 2.0e-9): True
+K_b 103: A_meas 62.542508701386, a_pred 62.5425087000, deviation +1.4230e-9, item S2 (< 2.0e-9): True
+K_b 104: A_meas 63.008360112607, a_pred 63.0083601112, deviation +1.4429e-9, item S2 (< 2.0e-9): True
+K_b 105: A_meas 63.473095435879, a_pred 63.4730954344, deviation +1.4683e-9, item S2 (< 2.0e-9): True
+K_b 106: A_meas 63.936727961852, a_pred 63.9367279603, deviation +1.5037e-9, item S2 (< 2.0e-9): True
+K_b 107: A_meas 64.399270698700, a_pred 64.3992706972, deviation +1.5487e-9, item S2 (< 2.0e-9): True
+K_b 108: A_meas 64.860736380714, a_pred 64.8607363791, deviation +1.6074e-9, item S2 (< 2.0e-9): True
+K_b 109: A_meas 65.321137476560, a_pred 65.3211374749, deviation +1.6808e-9, item S2 (< 2.0e-9): True
+K_b 110: A_meas 65.780486197209, a_pred 65.7804861954, deviation +1.7736e-9, item S2 (< 2.0e-9): True
+K_b 111: A_meas 66.238794503564, a_pred 66.2387945017, deviation +1.8883e-9, item S2 (< 2.0e-9): True
+K_b 113: A_meas 67.152336510399, a_pred 67.1523365082, deviation +2.2048e-9, item S2 (< 2.0e-9): False
+READING q1204: K_b 81 True, K_b 82 True, K_b 83 True, K_b 84 True, K_b 85 True, K_b 86 True, K_b 87 True, K_b 88 True, K_b 89 True, K_b 90 True, K_b 91 True, K_b 92 True, K_b 93 True, K_b 94 False, K_b 95 False, K_b 96 False, K_b 97 False, K_b 98 False, K_b 99 False, K_b 100 True, K_b 101 True, K_b 102 True, K_b 103 True, K_b 104 True, K_b 105 True, K_b 106 True, K_b 107 True, K_b 108 True, K_b 109 True, K_b 110 True, K_b 111 True, K_b 113 False (no verdict)

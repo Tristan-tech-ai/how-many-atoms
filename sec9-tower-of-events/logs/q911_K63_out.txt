@@ -1,0 +1,14 @@
+[K 63] files 106, OPTIMAL family states 105, A 42.268175 to 42.788175, completed True
+   H1: PASS  violations 0 in 104 steps
+   H2: PASS  wc 0.001438 -> 0.012113
+   H3a: PASS  r 0.1203 -> 0.999967
+   H4first: PASS  u first 0.5338
+   H3last: PASS  r last 0.999967
+   H4last: PASS  u last 0.9983
+   H5: PASS  law ratio 0.99989
+   control R: verdict FAIL, failed items ['H1', 'H2', 'H3a', 'H4first', 'H3last', 'H4last', 'H5']
+   control M: verdict FAIL, failed items ['H3a', 'H3last', 'H5']
+   control S: verdict FAIL, failed items ['H2', 'H3a', 'H3last', 'H5']
+   control P: verdict FAIL, failed items ['H1', 'H3a', 'H4last']
+   control PC (synthetic family that must PASS): True
+VERDICT q911 K 63: PASS; states 105; completed True; failed items []; controls R M S P turn FAIL and PC passes

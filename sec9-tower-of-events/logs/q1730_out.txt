@@ -1,0 +1,7 @@
+nu0: steps -5.950e-11, -2.090e-11, -8.400e-12; ratios 0.351, 0.402; limit with constant ratio -0.0937736508484 (tail -5.645e-12), with rising ratio -0.0937736508556 (tail -1.283e-11)
+   ladder limit model A -0.0937736508471: minus births limit (constant ratio) +1.34e-12, (rising ratio) +8.53e-12
+   ladder limit model B -0.0937736508483: minus births limit (constant ratio) +1.45e-13, (rising ratio) +7.33e-12
+d0: steps +5.260e-11, +1.870e-11, +7.400e-12; ratios 0.356, 0.396; limit with constant ratio 0.0011599160183 (tail +4.846e-12), with rising ratio 0.0011599160212 (tail +7.695e-12)
+   ladder limit model A 0.0011599160174: minus births limit (constant ratio) -9.46e-13, (rising ratio) -3.80e-12
+   ladder limit model B 0.0011599160185: minus births limit (constant ratio) +1.54e-13, (rising ratio) -2.70e-12
+READING q1730 done (post hoc; no labels)

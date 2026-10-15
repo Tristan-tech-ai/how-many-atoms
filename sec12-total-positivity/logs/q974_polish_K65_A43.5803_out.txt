@@ -1,0 +1,12 @@
+results_q220_gauss_K65_A43.5803.json delta 1e-100 seed 1: m 31, ordered True, X1 True; X initial minors positive 992, negative 0, undecided 0 of 992; T alone positive 961, negative 0, undecided 0 of 961
+results_q220_gauss_K65_A43.5803.json delta 1e-70 seed 1: m 31, ordered True, X1 True; X initial minors positive 992, negative 0, undecided 0 of 992; T alone positive 961, negative 0, undecided 0 of 961
+results_q220_gauss_K65_A43.5803.json delta 1e-60 seed 1: m 31, ordered True, X1 True; X initial minors positive 992, negative 0, undecided 0 of 992; T alone positive 961, negative 0, undecided 0 of 961
+results_q220_gauss_K65_A43.5803.json delta 1e-55 seed 1: m 31, ordered True, X1 True; X initial minors positive 992, negative 0, undecided 0 of 992; T alone positive 961, negative 0, undecided 0 of 961
+results_q220_gauss_K65_A43.5803.json delta 1e-52 seed 1: m 31, ordered True, X1 True; X initial minors positive 992, negative 0, undecided 0 of 992; T alone positive 961, negative 0, undecided 0 of 961
+results_q220_gauss_K65_A43.5803.json delta 1e-50 seed 1: m 31, ordered True, X1 True; X initial minors positive 992, negative 0, undecided 0 of 992; T alone positive 961, negative 0, undecided 0 of 961
+results_q220_gauss_K65_A43.5803.json delta 1e-47 seed 1: m 31, ordered True, X1 True; X initial minors positive 992, negative 0, undecided 0 of 992; T alone positive 961, negative 0, undecided 0 of 961
+results_q220_gauss_K65_A43.5803.json delta 1e-44 seed 1: m 31, ordered True, X1 True; X initial minors positive 992, negative 0, undecided 0 of 992; T alone positive 961, negative 0, undecided 0 of 961
+results_q220_gauss_K65_A43.5803.json delta 1e-40 seed 1: m 31, ordered True, X1 True; X initial minors positive 992, negative 0, undecided 0 of 992; T alone positive 961, negative 0, undecided 0 of 961
+results_q220_gauss_K65_A43.5803.json delta 1e-30 seed 1: m 31, ordered True, X1 True; X initial minors positive 992, negative 0, undecided 0 of 992; T alone positive 961, negative 0, undecided 0 of 961
+results_q220_gauss_K65_A43.5803.json delta 1e-20 seed 1: m 31, ordered True, X1 True; X initial minors positive 986, negative 6, undecided 0 of 992; T alone positive 955, negative 6, undecided 0 of 961
+END q974 READING (no verdict)

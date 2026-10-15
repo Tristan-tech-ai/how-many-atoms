@@ -1,0 +1,4 @@
+CONTROL the w-polynomials equal the factored forms of q1768 and q1770: True
+L_1(y) = -8*y**5 - 44*y**4/3 - 20*y**3/3 - 2*y**2/3 ; lowest power of y: 2 ; coefficients from the lowest power: -2/3, -20/3, -44/3, -8
+L_2(y) = 3680*y**10/3 + 10880*y**9/3 + 33416*y**8/9 + 13616*y**7/9 + 568*y**6/3 - 112*y**5/15 - 14*y**4/9 ; lowest power of y: 4 ; coefficients from the lowest power: -14/9, -112/15, 568/3, 13616/9, 33416/9, 10880/3, 3680/3
+TABLE q1771 done (facts; no labels)

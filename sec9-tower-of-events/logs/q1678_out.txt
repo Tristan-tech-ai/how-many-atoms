@@ -1,0 +1,14 @@
+in-sample rms (1e-13); columns nmax =       9      10      11      12      13      14      15      16      17
+NG 11:  116.71   29.12    3.55   16.17   21.44   23.76   24.83   25.41   25.64
+NG 12:  132.92   45.32   12.92    0.41    5.21    7.55    8.60    9.13    9.43
+NG 13:  138.72   51.15   18.67    5.95    0.67    1.74    2.79    3.33    3.59
+NG 14:  141.00   53.36   20.87    8.17    2.87    0.58    0.58    1.10    1.37
+largest size over K_b 61..69 (1e-12)
+NG 11:  662.42  209.37   20.58   62.98  102.18  121.69  131.98  137.65  140.94
+NG 12:  746.41  293.35  104.58   21.04   18.19   37.68   47.94   53.60   56.93
+NG 13:  780.19  327.11  138.38   54.83   15.62    4.11   14.18   19.85   23.12
+NG 14:  794.87  341.81  153.00   69.49   30.24   10.74    0.89    5.14    8.49
+best nmax by lower-K size: NG 11: 11 (2.06e-11), NG 12: 13 (1.82e-11), NG 13: 14 (4.11e-12), NG 14: 15 (8.88e-13); best nmax by in-sample rms: NG 11: 11, NG 12: 12, NG 13: 13, NG 14: 15
+ratios of the best lower-K sizes NG 11 to 12, 12 to 13: 0.884, 0.226
+P1 best nmax = NG + 1 for NG 11, 12, 13: does not hold; P2 ratios in [0.15, 0.5]: does not hold; P3 NG 14 best nmax 15 or 16: holds; control: holds
+READING q1678 done (labels by the script; no verdict word)

@@ -1,0 +1,8 @@
+controls on 3 synthetic matrices (m [10, 11, 12]): PC True (classes checked [8, 8, 8]); NC1 (factor (-1)^k dropped) fails True; NC2 (global sign reversed) fails True
+results_q220_gauss_K65_A43.5803.json: m 31, predicted classes checked 8, violating minors 0, undecided 0, PASS
+results_q220_gauss_K71_A46.4359.json: m 34, predicted classes checked 8, violating minors 0, undecided 0, PASS
+results_q220_gauss_K71_A46.5589.json: m 34, predicted classes checked 8, violating minors 0, undecided 0, PASS
+results_q220_gauss_K71_A46.6889.json: m 34, predicted classes checked 8, violating minors 0, undecided 0, PASS
+results_q220_gauss_K71_A46.8189.json: m 34, predicted classes checked 8, violating minors 0, undecided 0, PASS
+results_q220_gauss_K71_A46.9439.json: m 34, predicted classes checked 8, violating minors 0, undecided 0, PASS
+VERDICT q1080 T112: PASS; states 6; failing 0

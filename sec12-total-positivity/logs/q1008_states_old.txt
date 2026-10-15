@@ -1,0 +1,6 @@
+results_q206_gauss_K80_A51.513057.json
+results_q206_gauss_K40_A29.85.json
+results_q207_gauss_K40_A29.8500.json
+results_q207_gauss_K40_A30.1191.json
+results_q207_gauss_K26_A21.2821.json
+results_q207_gauss_K70_A46.5787.json

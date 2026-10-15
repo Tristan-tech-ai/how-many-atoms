@@ -1,0 +1,2 @@
+K_b 138: ladder diff -2.119e-11 (bar holds, trend holds); frozen diff -2.416e-12 (bar holds, trend holds)
+READING q1668 done (labels by the script; no verdict word)

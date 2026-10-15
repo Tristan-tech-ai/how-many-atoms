@@ -1,0 +1,9 @@
+state results_q220_gauss_K65_A43.5803.json: A 43.580315, m 31
+   certainly negative: rows 0..k-1, columns from j = 24, order 8, log10|minor| -241.58
+   certainly negative: rows 0..k-1, columns from j = 22, order 10, log10|minor| -302.04
+   certainly negative: rows 0..k-1, columns from j = 20, order 12, log10|minor| -344.07
+   certainly negative: rows 0..k-1, columns from j = 18, order 14, log10|minor| -363.88
+   certainly negative: rows 0..k-1, columns from j = 16, order 16, log10|minor| -364.34
+number of certainly negative initial minors 5 of 992
+initial minors of T alone (columns 0..m-1) that are not certainly positive at 800 bits: 0 of 961
+END q971 READING (no verdict)

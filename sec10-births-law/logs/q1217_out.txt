@@ -1,0 +1,3 @@
+e_19 = -1.497130e+29; predicted -1.497720e+29; ratio - 1 = -0.039 percent; item E1 (< 0.5 percent): True
+e_20 = -1.391577e+31; predicted -1.393058e+31; ratio - 1 = -0.106 percent; item E2 (< 1.0 percent): True
+READING q1217 (no verdict)

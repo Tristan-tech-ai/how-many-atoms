@@ -1,0 +1,16 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True}
+row 20: a 20.985200, K 25, centre True, J 12, polish residual 1.83e-54: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 4.85e-32)
+row 60: a 21.434400, K 25, centre True, J 12, polish residual 2.06e-57: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 6.78e-32)
+row 100: a 21.821248, K 26, centre False, J 13, polish residual 6.81e-56: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 7.15e-32)
+row 140: a 22.280356, K 27, centre True, J 13, polish residual 3.76e-53: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 1.15e-31)
+row 180: a 22.775579, K 28, centre False, J 14, polish residual 1.46e-49: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 1.43e-31)
+row 220: a 23.120000, K 28, centre False, J 14, polish residual 4.65e-55: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 6.27e-32)
+row 260: a 23.537943, K 29, centre True, J 14, polish residual 3.89e-54: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 6.99e-31)
+row 300: a 24.012000, K 29, centre True, J 14, polish residual 6.60e-56: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 1.05e-31)
+row 340: a 24.402955, K 30, centre False, J 15, polish residual 1.98e-54: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 1.28e-31)
+row 380: a 24.812000, K 31, centre True, J 15, polish residual 1.10e-50: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 6.00e-31)
+row 420: a 25.276000, K 31, centre True, J 15, polish residual 3.56e-56: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 7.71e-32)
+row 460: a 25.612351, K 32, centre False, J 16, polish residual 5.93e-54: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 4.83e-31)
+row 500: a 26.034029, K 33, centre True, J 16, polish residual 7.82e-50: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 2.47e-30)
+row 540: a 26.513372, K 33, centre True, J 16, polish residual 7.93e-56: X1 True, X2 True (0 and 0 not certainly positive), X3 True, X4 True, X5 True (b_eff difference 1.29e-31)
+VERDICT q981 T80 npmle: PASS; rows 14

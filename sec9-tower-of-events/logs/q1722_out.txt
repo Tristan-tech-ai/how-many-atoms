@@ -1,0 +1,5 @@
+(12, 13, 14): rho_bar 0.4130; largest |a_inf - A| over K_b 61..82 2.132e-13; rms over K_b 83..130 3.123e-14
+(13, 14, 15): rho_bar 0.4404; largest |a_inf - A| over K_b 61..82 1.634e-12; rms over K_b 83..130 4.160e-14
+(13, 14, 15) a_inf - A (1e-12), K_b 61..69: 61 +1.63, 62 +1.39, 63 +1.19, 64 +1.00, 65 +0.87, 66 +0.73, 67 +0.64, 68 +0.53, 69 +0.44
+P1 largest over K_b 61..82 above 0.21e-12: holds; P2 rms over K_b 83..130 above 3.123e-14: holds; P3 rho_bar above 0.43: holds; control: holds
+READING q1722 done (labels by the script; no verdict word)

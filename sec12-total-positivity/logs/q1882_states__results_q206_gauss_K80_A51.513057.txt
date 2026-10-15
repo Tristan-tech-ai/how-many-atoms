@@ -1,0 +1,10 @@
+[    0 s] state results_q206_gauss_K80_A51.513057.json K 80 A 51.513057000000003427 grid 18303 points from -91.513057 to 91.506943
+[   83 s] polished: ok True residual 1.81e-173
+[   90 s] strip: boxes 9152 of [0, Y], largest tau 0.089063; tau_A(Y) [4.5076e-91 +/- 5.57e-97]; C1 True
+[   90 s] g(Y) 1.379e-327; M tail 7.074e-329; grid truncation 9.833e-329
+[   90 s] eps_F 4.1390e-131, eps_J 4.9540e-134; rows widened by 8.2779e-131, entries by 4.1489e-131
+[  121 s] Krawczyk: largest |K(X) - v0| 1.1985e-117 against r = 1e-110; inclusion True; smallest mass in X 9.572173e-03; C2 True
+[  121 s] minors over the box: X1 True, X2 False (1560 initial minors, 46 not certainly positive); C3 False
+[  123 s] eps_G 1.3769e-31 (window tail 1.38e-31, far window 2.45e-619); C5 True
+[  123 s] certificate not run: the state is not marked OPTIMAL
+VERDICT q1882: FAIL

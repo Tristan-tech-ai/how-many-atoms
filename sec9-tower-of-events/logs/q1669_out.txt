@@ -1,0 +1,8 @@
+nmax = 10: pair (-0.0937736513667, 0.0011599164781), in-sample rms 5.3365e-12
+nmax = 12: pair (-0.0937736509145, 0.0011599160775), in-sample rms 8.1394e-13
+nmax = 14: pair (-0.0937736508492, 0.0011599160193), in-sample rms 6.0239e-14
+nmax = 18: pair (-0.0937736508347, 0.0011599160063), in-sample rms 1.5200e-13
+nmax = 20: pair (-0.0937736508339, 0.0011599160056), in-sample rms 1.6407e-13
+pair shifts nmax 14 to 18: (+1.452e-11, -1.299e-11); rms ratio 14/18 = 0.3963; rms ratio 20/18 = 1.07943; files agree to 1.9e-55
+P1 pair within 2e-11: holds; P2 rms within 3 percent: does not hold; P3 e_19 and e_20 change the rms by less than 1 percent: does not hold; control: holds
+READING q1669 done (labels by the script; no verdict word)

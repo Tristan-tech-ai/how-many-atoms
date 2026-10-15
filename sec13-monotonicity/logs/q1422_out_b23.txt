@@ -1,0 +1,6 @@
+controls: events at the 1959 table -> S1, S2 PASS PASS ; events at the order-12 table -> D1 PASS PASS ; one S1 event 0.6e-9 off -> FAIL ; one event missing -> INCOMPLETE : True
+S1 (K_b 81 to 99, bar 0.5e-9): FAIL; measured 19 of 19; violations [(94, 0.5249), (95, 0.6383), (96, 0.7662), (97, 0.904), (98, 1.0565), (99, 1.2196)]
+S2 (K_b 100 to 114, bar 2e-9): FAIL; measured 15 of 15; violations [(112, 2.0306), (113, 2.2048), (114, 2.4185)]
+D1 (K_b 81 to 99, bar 0.3e-9): PASS; measured 19 of 19; violations []
+D1b (K_b 100 to 114, bar 1e-9): FAIL; measured 15 of 15; violations [(113, 1.0868), (114, 1.3163)]
+VERDICT q1422: S1 FAIL; S2 FAIL; D1 FAIL

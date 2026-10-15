@@ -4,7 +4,7 @@ c = (x, y), y >= 0, stands for {(x, y), (x, -y)} with its mass spread evenly. Da
 the inner centre: rho from r to rho_out(phi) (ray from (e, 0) at angle phi to the outer circle), phi in [0, pi], Gauss-Legendre NS x NT,
 Jacobian rho; weights Q sum to 1. Candidates: a square grid of step H, y >= 0, inside |y| <= R and outside the disc of radius r - 1 about
 the inner centre. Solver: the constrained Newton method of q852/q849, copied as text (simplex-enforced NNLS step, backtracking on the
-likelihood), stopped at max KKT - 1 < TOL on the candidate grid. Stage 2 (fine local grid) only if STAGE2=1 (memory: see BACKLOG 80).
+likelihood), stopped at max KKT - 1 < TOL on the candidate grid. Stage 2 (fine local grid) only if STAGE2=1.
 Prints support size, KKT, Gt = (L - log f0)/f0, f0 = 1/(pi (R^2 - r^2)).
 Usage: py q857_npmle_eccannulus.py R r e [H NS NT]   (defaults H 0.2, NS 40, NT 360)"""
 

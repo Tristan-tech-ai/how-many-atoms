@@ -1,0 +1,10 @@
+[    0 s] state results_q207_gauss_K40_A30.1191.json K 40 A 30.11911843710044 grid 14024 points from -70.119118 to 70.110882
+[   23 s] polished: ok True residual 5.40e-144
+[   25 s] strip: boxes 7012 of [0, Y], largest tau 0.087949; tau_A(Y) [4.5076e-91 +/- 2.28e-96]; C1 True
+[   25 s] g(Y) 1.575e-328; M tail 8.075e-330; grid truncation 1.122e-329
+[   25 s] eps_F 8.5755e-132, eps_J 3.0224e-134; rows widened by 1.7151e-131, entries by 8.6360e-132
+[   36 s] Krawczyk: largest |K(X) - v0| 2.3849e-123 against r = 1e-110; inclusion True; smallest mass in X 1.949843e-02; C2 True
+[   36 s] minors over the box: X1 True, X2 True (380 initial minors, 0 not certainly positive); C3 True
+[   37 s] eps_G 1.3760e-31 (window tail 1.38e-31, far window 2.45e-619); C5 True
+[   37 s] certificate not run: the state is not marked OPTIMAL
+VERDICT q1882: PASS

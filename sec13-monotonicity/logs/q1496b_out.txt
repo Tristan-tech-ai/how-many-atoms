@@ -1,0 +1,12 @@
+PN: 3 terms: even 1.0366310, odd 1.0363049, gap odd - even -3.26e-04, mean 1.0364679
+PN: 4 terms: even 1.0343583, odd 1.0345969, gap odd - even +2.39e-04, mean 1.0344776
+PN: 5 terms: even 1.0343928, odd 1.0343989, gap odd - even +6.04e-06, mean 1.0343958
+PN: 6 terms: even 1.0339230, odd 1.0339795, gap odd - even +5.65e-05, mean 1.0339512   (noise may dominate)
+Re: 3 terms: even 1.0569696, odd 1.0567853, gap odd - even -1.84e-04, mean 1.0568774
+Re: 4 terms: even 1.0540866, odd 1.0542318, gap odd - even +1.45e-04, mean 1.0541592
+Re: 5 terms: even 1.0541588, odd 1.0541633, gap odd - even +4.43e-06, mean 1.0541611
+Re: 6 terms: even 1.0535665, odd 1.0536043, gap odd - even +3.78e-05, mean 1.0535854   (noise may dominate)
+P1 5 terms: even-odd gap of both limits below 3e-5: holds
+P2 common limit of P/N changes by less than 1e-4 from 4 to 5 terms: holds (-8.17e-05)
+P3 common limit of R_e changes by less than 1e-4 from 4 to 5 terms: holds (+1.84e-06)
+READING q1496b done (labels by the script; no verdict word)

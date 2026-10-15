@@ -1,0 +1,19 @@
+controls: PASS
+  rm 1.74100  residual 2.20e-33  smallest mass +8.5763e-03  D(0) - C +2.952354e-03
+  rm 1.74040  residual 2.09e-39  smallest mass +5.9723e-03  D(0) - C +2.570800e-03
+  rm 1.73980  residual 1.33e-38  smallest mass +2.9510e-03  D(0) - C +2.189514e-03
+  rm 1.73920  residual 2.20e-41  smallest mass +4.2259e-02  D(0) - C +1.808497e-03
+  rm 1.73860  residual 1.50e-38  smallest mass +4.2206e-02  D(0) - C +1.427750e-03
+  rm 1.73800  residual 1.81e-41  smallest mass +4.2152e-02  D(0) - C +1.047271e-03
+  rm 1.73750  residual 3.62e-42  smallest mass +4.2107e-02  D(0) - C +7.304114e-04
+  rm 1.73700  residual 2.02e-42  smallest mass +4.2061e-02  D(0) - C +4.137386e-04
+  rm 1.73680  residual 2.14e-31  smallest mass +4.2043e-02  D(0) - C +2.871219e-04
+  rm 1.73665  residual 8.98e-35  smallest mass +4.2029e-02  D(0) - C +1.921790e-04
+  rm 1.73655  residual 2.69e-37  smallest mass +4.2020e-02  D(0) - C +1.288931e-04
+  rm 1.73645  residual 5.37e-38  smallest mass +4.2011e-02  D(0) - C +6.561463e-05
+  rm 1.73635  residual 5.39e-38  smallest mass +4.2001e-02  D(0) - C +2.343698e-06
+  rm 1.73625  residual 5.41e-38  smallest mass +4.1992e-02  D(0) - C -6.091975e-05
+  rm 1.73615  residual 5.43e-38  smallest mass +4.1983e-02  D(0) - C -1.241757e-04
+  rm 1.73605  residual 5.45e-38  smallest mass +4.1973e-02  D(0) - C -1.874242e-04
+VERDICT q1888: PASS
+exit 0

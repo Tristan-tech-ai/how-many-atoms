@@ -1,0 +1,19 @@
+q1395 rows 21 ; q1398 rows 28 (first 21 are the stage f0.97 states)
+even f0.97: 11 states; c_1/E from -0.29320 to -0.28638 (K 62: -0.28638, K 82: -0.29320); E/flow from 1.4013 to 1.4148; flow all positive True; c_1 all negative True
+   c_D(m)/c_D'(m): K 62: -1.21509, K 82: -1.22579, relative change +0.0088
+   c_D'(m-1)/c_D'(m): K 62: 0.57488, K 82: 0.58751, relative change +0.0220
+   c_D(m-1)/c_D'(m): K 62: -0.24921, K 82: -0.25725, relative change +0.0323
+   c_D'(m-2)/c_D'(m): K 62: 0.02179, K 82: 0.02270, relative change +0.0418
+   c_D(m-2)/c_D'(m): K 62: -0.00589, K 82: -0.00621, relative change +0.0543
+odd f0.97: 10 states; c_1/E from -0.34187 to -0.34110 (K 63: -0.34162, K 81: -0.34174); E/flow from 1.5177 to 1.5195; flow all positive True; c_1 all negative True
+   c_D(m)/c_D'(m): K 63: -1.22122, K 81: -1.22992, relative change +0.0071
+   c_D'(m-1)/c_D'(m): K 63: 0.57577, K 81: 0.58693, relative change +0.0194
+   c_D(m-1)/c_D'(m): K 63: -0.24990, K 81: -0.25700, relative change +0.0284
+   c_D'(m-2)/c_D'(m): K 63: 0.02185, K 81: 0.02266, relative change +0.0371
+   c_D(m-2)/c_D'(m): K 63: -0.00592, K 81: -0.00620, relative change +0.0473
+even: edge-only ratio P_edge/N_edge from the three outermost atoms (rows D', D of m, m-1, m-2): K 62: 1.08603, K 82: 1.08122; minimum 1.08122, maximum 1.08603; full P/N K 62: 1.05997, K 82: 1.05613
+odd: edge-only ratio P_edge/N_edge from the three outermost atoms (rows D', D of m, m-1, m-2): K 63: 1.08164, K 81: 1.07800; minimum 1.07800, maximum 1.08164; full P/N K 63: 1.05234, K 81: 1.05007
+depths s_1..s_3 identical in all 21 states to 5 digits: True [(2.71884, 4.88844, 6.8236)]
+K = 62 family (5 states, A from 41.7400 to 42.2582): c_1/E from -0.28985 to -0.28623, E/flow from 1.4010 to 1.4082
+small A: [(20, 17.0, -0.25309, 1.3388), (24, 19.9, -0.25737, 1.3466)]
+READING q1399 done

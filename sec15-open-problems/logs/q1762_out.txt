@@ -1,0 +1,10 @@
+C1 synthetic 8^n times a cubic: Z closed form and difference order 4 at lambda = 8: True; C2 synthetic 8^n + 3^n: no vanishing order at lambda = 8: True
+m = 0: Z(n), n = 3..8: 3: 2.9682 4: 0.8186 5: 0.5542 6: -6.3444 7: -2.0100 8: 0.6718
+   vanishing order of the finite differences of d_m(n) lambda^-n on n = 3..10: lambda=8: None, lambda=1/8: None, lambda=16: None, lambda=4: None, lambda=2: None, lambda=1: None
+m = 1: Z(n), n = 3..8: 3: -4.3554 4: 0.0122 5: -14688.3405 6: -0.0278 7: 0.9333 8: 1.0036
+   vanishing order of the finite differences of d_m(n) lambda^-n on n = 3..10: lambda=8: None, lambda=1/8: None, lambda=16: None, lambda=4: None, lambda=2: None, lambda=1: None
+m = 2: Z(n), n = 3..8: 3: -0.2794 4: -4.5986 5: 0.4633 6: 1.3405 7: 0.7925 8: -3.6145
+   vanishing order of the finite differences of d_m(n) lambda^-n on n = 3..10: lambda=8: None, lambda=1/8: None, lambda=16: None, lambda=4: None, lambda=2: None, lambda=1: None
+(P1 is a weak band: Z is close to 1 for any sequence dominated by one geometric term; P2 is the discriminating item)
+P1 Z_1(5..8) in [0.8, 1.2]: does not hold (-14688.3405 -0.0278 0.9333 1.0036); P2 vanishing order of d_1(n)/8^n at most 5: does not hold (order None); P3 Z_0 leaves [0.5, 2]: holds
+READING q1762 done (labels by the script; no verdict word)

@@ -28,16 +28,18 @@ Scripts are formatted with black (layout only). The original path is the name us
 | `scripts/H_arb.py` | seeds and reads for the mixed curve (LAM 0.02, RP 1.2) in ball arithmetic. | `H_arb.py` |
 | `scripts/H_track.py` | continuation of one ring in rm on the mixed curve, adapted from the D_track.cmd_track (copied as text; | `H_track.py` |
 | `scripts/d90_mpD.py` | the KKT function D of d89 in mpmath, for checks below double precision. | `centre_scripts/d90_mpD.py` |
+| `scripts/math.py` |  | `gate_truth/_repo_rebuild/paper2/sec5-baseline/scripts/math.py` |
 | `scripts/q719_wallchain_arb.py` | the D2-orbit wall-chain solve of q708/q712 in ball arithmetic (python-flint arb), with the separable Gauss-Hermite rule of q718: for a query point q, Ex[i, j] = exp(-(qx + T_i - x_j)^2/2), Ey[j, l] = exp(-(qy + T_l - y_j)^2/2), p = Ex diag( | `centre_scripts/q719_wallchain_arb.py` |
 | `scripts/q786_lfp_wallchain.py` | the least favourable prior for a normal mean known to lie on the ellipse (unit noise, squared-error loss). | `centre_scripts/q786_lfp_wallchain.py` |
 | `scripts/q790_full_numeric.py` | the full formal smooth density on the real ellipse (all orders in eps), by Newton on its Fourier coefficients. | `centre_scripts/q790_full_numeric.py` |
 | `scripts/q795_copy_ring_predict.py` | the copying-ring form of the comb rule, parameter-free. | `centre_scripts/q795_copy_ring_predict.py` |
-| `scripts/q808_b36_check.py` | my check of the flank 32-ring (BACKLOG 36) with the record's capacity function (q719's D_grad, copied as text from q802), not D's code. | `centre_scripts/q808_b36_check.py` |
+| `scripts/q808_b36_check.py` | our check of the flank 32-ring (BACKLOG 36) with the record's capacity function (q719's D_grad, copied as text from q802), not D's code. | `centre_scripts/q808_b36_check.py` |
 | `scripts/q811_szego_series.py` | the Szego loss condition evaluated on the leading-order (extremal-sector) formal density of the ellipse, for every ring size, with no ring solves. | `centre_scripts/q811_szego_series.py` |
 | `scripts/q812_szego_full_grid.py` | q811's event finder on the FULL formal density (q790 logs on an eps grid, harmonics to 2M). | `centre_scripts/q812_szego_full_grid.py` |
 | `scripts/q813_count_rule.py` | for every finished q790 log in a folder, the count K = 1 + the first odd j with /alpha_j/ >= 1 (alpha_j the Verblunsky coefficients of the full formal density, Levinson-Durbin), with K eps and K eps^(1/2). | `centre_scripts/q813_count_rule.py` |
 | `scripts/q814_quadcheck.py` | D - C at chosen angles under capfix (FIX_N, FIX_B) and Gauss-Hermite (NGH), using the D_core2 (unchanged). | `centre_scripts/lam02k20check/q814_quadcheck.py` |
 | `scripts/q815_onedlimit.py` | the K/2-convention copying loss for the two smallest rings on the pure ellipse, evaluated toward rm -> 0. | `centre_scripts/q815_onedlimit.py` |
 | `scripts/szego_check.py` |  | `scratch/szego_check.py` |
+| `scripts/time.py` |  | `gpu_lab/venv/Lib/site-packages/cupyx/time.py` |
 
 `logs/` holds 31 output files of the runs reported in the paper; a `__` in a name stands for a folder separator of the original tree.

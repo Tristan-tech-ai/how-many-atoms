@@ -1,0 +1,9 @@
+controls (synthetic start r73 = +1.7e-8): {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True}
+r73 = +2.9399e-08; predicted K_b 74 to 79 = 48.474775725, 48.980465272, 49.484473852, 49.986829149, 50.487558036, 50.986686607
+   K_b 74: predicted 48.474775725040, measured 48.474775759011, r +3.3971e-08, ratio r/r_prev 1.1555 -> PASS
+   K_b 75: predicted 48.980465271805, measured 48.980465311425, r +3.9620e-08, ratio r/r_prev 1.1663 -> PASS
+   K_b 76: predicted 49.484473852047, measured 49.484473898516, r +4.6469e-08, ratio r/r_prev 1.1729 -> PASS
+   K_b 77: predicted 49.986829149215, measured 49.986829204309, r +5.5094e-08, ratio r/r_prev 1.1856 -> PASS
+   K_b 78: predicted 50.487558035806, measured 50.487558101465, r +6.5659e-08, ratio r/r_prev 1.1917 -> FAIL
+   K_b 79: predicted 50.986686607271, measured 50.986686686158, r +7.8887e-08, ratio r/r_prev 1.2015 -> FAIL
+VERDICT q1084 T116: FAIL

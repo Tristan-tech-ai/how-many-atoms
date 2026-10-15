@@ -1,0 +1,6 @@
+stored ratio minus q1217 model for n = 10..19: 10: +0.0143, 11: -0.0174, 12: -0.0116, 13: +0.0010, 14: +0.0104, 15: +0.0118, 16: +0.0039, 17: -0.0123, 18: -0.0349, 19: -0.0623
+model coefficients (alpha, beta, gamma) from n = 10..14: 4.5249, 4.6181, 49.9022; model/stored for e_15..e_20: 15: 1.00005, 16: 1.00044, 17: 1.00133, 18: 1.00283, 19: 1.00501, 20: 1.00790
+in-sample rms at nmax = 20: stored 1.6407e-13, with e_15..e_20 from the n = 10..14 extrapolation 1.6332e-13 (ratio 0.995)
+stored e_19 / prediction - 1 = -0.0004, e_20 / prediction - 1 = -0.0011
+P1 stored ratios within 0.3 of the q1217 model: holds; P2 model extrapolation changes the rms by less than 30 percent: holds; P3 e_19 and e_20 within 3 percent of the predictions: holds; control: holds
+READING q1672 done (labels by the script; no verdict word)

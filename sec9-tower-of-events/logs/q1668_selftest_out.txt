@@ -1,0 +1,7 @@
+frozen predictions: K_b 136 77.388989108974, K_b 138 78.257764318990
+K_b 136: ladder diff -2.005e-11 (bar holds, trend holds); frozen diff -2.203e-12 (bar holds, trend holds)
+K_b 138: ladder diff -2.117e-11 (bar holds, trend holds); frozen diff -2.402e-12 (bar holds, trend holds)
+K_b 136: ladder diff -7.844e-12 (bar holds, trend does not hold); frozen diff +1.000e-11 (bar does not hold, trend does not hold)
+K_b 138: ladder diff -8.768e-12 (bar holds, trend does not hold); frozen diff +1.000e-11 (bar does not hold, trend does not hold)
+P1 frozen labels hold on diff -2.2e-12 / -2.4e-12: holds; P2 bar does not hold on diff +1e-11: holds; P3 no files gives NO EVENT and exit 0: holds; P4 file without A_event gives VOID and exit 2: holds; P5 control predictions: holds
+SELFTEST PASS

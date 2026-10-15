@@ -1,0 +1,5 @@
+[     5s] base polished on the frozen grid 60.0 (6900 points): True, residual [2.2052237873514857699654719736690367506161571819706113680551e-53 +/- 1.64e-112]
+[     9s] base saved as the first state: verdict other, centre signal 3.3170e-20, off-atom -1.4354e-20
+[     9s] trace from tower/K79/results_q220_gauss_K79_A50.9867.json: K 79, A 50.986688, dA 0.005, stop 51.0
+[    29s] A = 50.991688: ok True, residual 1.85e-42, wc 0.0096598994, w1 0.0096654835, centre signal 1.7571e-16, off-atom 7.7098e-18, ordered True -> centre positive
+RESULT q941: trace ends at A = 50.991688 with verdict centre positive

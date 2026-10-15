@@ -1,0 +1,7 @@
+state results_q220_gauss_K65_A43.5653.json: A 43.565315, m 31, odd True; E b_eff entries positive in 31 of 31 (all one sign: True); smallest entry of P 9.766; max relative |P b_eff - du| 2.45e-47
+   b_eff magnitudes growth |b_j+1|/|b_j|: 2.28 1.81 1.66 1.59 1.54 1.52 1.51 1.51 1.51 1.52 1.53 1.55 1.56 1.58 1.60 1.62 1.65 1.68 1.71 1.75 1.80 1.85 1.92 1.99 2.10 2.23 2.42 2.69 3.09 3.32
+   row 1: ratios |t_j+1|/|t_j| min 0.374 at j 30, max 3.493, number below 1: 24; last term / sum of the abs of the others 0.000
+   row 16: ratios |t_j+1|/|t_j| min 0.396 at j 30, max 3.809, number below 1: 13; last term / sum of the abs of the others 0.002
+   row 31: ratios |t_j+1|/|t_j| min 1.502 at j 7, max 3.877, number below 1: 0; last term / sum of the abs of the others 1.170
+   minimum over all rows of the minimal ratio: 0.374 (row 1); rows with minimal ratio below 1: 30 of 31
+END q968 READING (no verdict)

@@ -1,0 +1,7 @@
+event lines (line, K_b, kind) of the whole log: 16 K_b 138 birth, 36 K_b 138 birth, 431 K_b 139 split, 451 K_b 139 split, 731 K_b 139 split, 1009 K_b 139 split, 1572 K_b 140 birth, 2162 K_b 141 split, 3084 K_b 142 birth, 3107 K_b 142 birth, 3139 K_b 142 birth, 3558 K_b 143 split, 4310 K_b 144 birth
+lines of 'could not be started': [22, 437, 718, 998, 3090, 3123, 4319]; lines of 'birth: odd family start': [39, 1574, 3141, 4312, 4314, 4317]
+E1(a) odd-start line after the K_b 142 event: does not hold; E1(b) phrase count at the end of the log is 6: does not hold (count before the next event line: 5, at the end: 7)
+E2 event files K_b [138, 139, 140, 141, 142, 143, 144] (7 files); phrase count 7: holds
+E3 done: wall 1701 s, events written 7, newton calls 843, fails 0, max arb residual 4.5e-55: holds
+E4 134 health samples since 12:36:40, maximum GPU temperature 51.0 C, throttle values all 0: holds
+READING q1741 done (labels by the script; no verdict word)

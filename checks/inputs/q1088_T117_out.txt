@@ -1,0 +1,8 @@
+controls: {'PC': (30, 0), 'NC1': (28, 0), 'NC2': (0, 0)} -> True
+results_q220_gauss_K65_A43.5803.json: m 31, degree 30, certified sign changes 30, undecided 0, R1 True
+results_q220_gauss_K71_A46.4359.json: m 34, degree 33, certified sign changes 33, undecided 0, R1 True
+results_q220_gauss_K71_A46.5589.json: m 34, degree 33, certified sign changes 33, undecided 0, R1 True
+results_q220_gauss_K71_A46.6889.json: m 34, degree 33, certified sign changes 33, undecided 0, R1 True
+results_q220_gauss_K71_A46.8189.json: m 34, degree 33, certified sign changes 33, undecided 0, R1 True
+results_q220_gauss_K71_A46.9439.json: m 34, degree 33, certified sign changes 33, undecided 0, R1 True
+VERDICT q1088 T117: PASS; states 6; not certified 0

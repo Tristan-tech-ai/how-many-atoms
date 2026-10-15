@@ -1,0 +1,8 @@
+control: synthetic minimum at delta 0.007 (true 0.007): True
+delta (1e-9) : sum of var(ln c_k), k = 2..5  -0.004: 5.02e-03; -0.003: 4.13e-03; -0.002: 3.36e-03; -0.001: 2.71e-03; 0.000: 2.16e-03; 0.001: 1.72e-03; 0.002: 1.36e-03; 0.003: 1.10e-03; 0.004: 9.25e-04; 0.005: 8.27e-04; 0.006: 8.04e-04; 0.007: 8.52e-04; 0.008: 9.66e-04; 0.009: 1.14e-03; 0.010: 1.38e-03; 0.011: 1.68e-03; 0.012: 2.02e-03; 0.013: 2.42e-03; 0.014: 2.86e-03; 0.015: 3.35e-03; 0.016: 3.89e-03; 0.017: 4.46e-03; 0.018: 5.07e-03; 0.019: 5.72e-03; 0.020: 6.40e-03
+minimum on the grid at delta = 0.006e-9 (sum of variances 8.04e-04); refined 0.0060e-9 (8.04e-04); at delta = 0: 2.16e-03
+k = 2: events 19; c at K_b 29..48: 1.7984 .. 1.7682 (delta = 0.0060), 1.7987 .. 1.8490 (delta = 0); slope of ln c per K_b -0.00020 (delta) against +0.00156 (0)
+k = 3: events 19; c at K_b 29..48: 2.5471 .. 2.4956 (delta = 0.0060), 2.5477 .. 2.6568 (delta = 0); slope of ln c per K_b +0.00015 (delta) against +0.00263 (0)
+k = 4: events 18; c at K_b 29..48: 3.2700 .. 3.1980 (delta = 0.0060), 3.2709 .. 3.4395 (delta = 0); slope of ln c per K_b +0.00053 (delta) against +0.00342 (0)
+k = 5: events 17; c at K_b 29..48: 3.9774 .. 3.8821 (delta = 0.0060), 3.9785 .. 4.2040 (delta = 0); slope of ln c per K_b +0.00078 (delta) against +0.00400 (0)
+READING q1283 (exploratory, no verdict)

@@ -1,0 +1,16 @@
+control (synthetic global recovery): True
+exponents and events used: {0.02: 22, 0.05: 23, 0.052: 1, 0.054: 1, 0.056: 1, 0.058: 1, 0.06: 4, 0.075: 4, 0.09: 4, 0.1: 23, 0.25: 24, 0.35: 24, 0.5: 21, 0.75: 21}
+model (d0, d1, d2): all-data rms of relative misfit | leave-one-out over k = 0.1, 0.25, 0.35, 0.5: largest relative misfit, largest |dR/Da|
+  (4, 2, 2): rms 0.00087 | largest relative 0.0056, largest absolute 0.0021
+  (4, 2, 1): rms 0.00087 | largest relative 0.0053, largest absolute 0.0021
+  (4, 1, 1): rms 0.00087 | largest relative 0.0050, largest absolute 0.0021
+  (4, 1, 2): rms 0.00087 | largest relative 0.0054, largest absolute 0.0021
+  (4, 3, 1): rms 0.00076 | largest relative 0.0074, largest absolute 0.0023
+  (4, 3, 2): rms 0.00075 | largest relative 0.0072, largest absolute 0.0025
+  (3, 2, 2): rms 0.00228 | largest relative 0.0139, largest absolute 0.0065
+  (3, 1, 2): rms 0.00250 | largest relative 0.0258, largest absolute 0.0075
+  (3, 2, 1): rms 0.00253 | largest relative 0.0280, largest absolute 0.0077
+  (1, 3, 2): rms 0.00229 | largest relative 0.0129, largest absolute 0.0079
+  (3, 3, 2): rms 0.00211 | largest relative 0.0107, largest absolute 0.0080
+  (4, 2, 0): rms 0.00293 | largest relative 0.0330, largest absolute 0.0081
+READING q1355a (exploratory, no verdict)

@@ -1,0 +1,5 @@
+controls: {'PC': True, 'NC1': True, 'NC2': True, 'NC3': True}
+   K_b 74: slope 0.3759409444675098, rho 0.98724, slope * rho = 0.37114 -> PASS
+   K_b 76: slope 0.3735796871420995, rho 0.99383, slope * rho = 0.37128 -> PASS
+   K_b 78: slope 0.3712910168026402, rho 1.00030, slope * rho = 0.37140 -> PASS
+VERDICT q1109 T124: PASS

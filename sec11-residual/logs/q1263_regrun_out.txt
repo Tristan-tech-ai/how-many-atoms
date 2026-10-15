@@ -1,0 +1,13 @@
+control c1 (immune dev K_b 30 +27.1162): True; c2 (NPMLE dev K_b 20 +641.5634): True; c3 (item function): True; c4a (imm/NPMLE inside the bar at 16 stored events): True; c4b (imm/capacity outside at 17 events): True
+K_b 14: NPMLE dev +8716.6184e-9, immune a_med 13.3781631848, predicted immune dev in [13074.928, 16125.744]e-9, start a0 = 13.374178
+K_b 15: NPMLE dev +5483.5664e-9, immune a_med 14.1287290302, predicted immune dev in [8225.350, 10144.598]e-9, start a0 = 14.124738
+K_b 16: NPMLE dev +3493.6593e-9, immune a_med 14.8674517873, predicted immune dev in [5240.489, 6463.270]e-9, start a0 = 14.863458
+K_b 17: NPMLE dev +2255.7778e-9, immune a_med 15.5952144670, predicted immune dev in [3383.667, 4173.189]e-9, start a0 = 15.591218
+K_b 18: NPMLE dev +1470.8427e-9, immune a_med 16.3127883100, predicted immune dev in [2206.264, 2721.059]e-9, start a0 = 16.308791
+K_b 19: NPMLE dev +966.7318e-9, immune a_med 17.0208519847, predicted immune dev in [1450.098, 1788.454]e-9, start a0 = 17.016854
+K_b 20: NPMLE dev +641.5634e-9, immune a_med 17.7200068625, predicted immune dev in [962.345, 1186.892]e-9, start a0 = 17.716008
+K_b 21: NPMLE dev +430.1944e-9, immune a_med 18.4107891733, predicted immune dev in [645.292, 795.860]e-9, start a0 = 18.406790
+K_b 22: NPMLE dev +290.5737e-9, immune a_med 19.0936797104, predicted immune dev in [435.860, 537.561]e-9, start a0 = 19.089680
+K_b 23: NPMLE dev +197.5546e-9, immune a_med 19.7691117200, predicted immune dev in [296.332, 365.476]e-9, start a0 = 19.765112
+sha256 5fbf90cc7ed8c48bcde3cb0c4951ec05e3a1828443a69f952944f2e5dfca439e
+REGISTRATION-RUN q1263: controls True, table written

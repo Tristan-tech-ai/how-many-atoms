@@ -1,0 +1,18 @@
+in-sample rms over K_b 83..130 (1e-13); rows NG = 11..14, columns nmax = 10, 12, 14, 16, 18, 20
+NG 11:     29.12      16.14      23.74      25.40      25.76      25.91
+NG 12:     45.37       0.42       7.52       9.14       9.53       9.70
+NG 13:     51.14       5.90       1.73       3.34       3.73       3.84
+NG 14:     53.38       8.18       0.56       1.06       1.49       1.61
+largest size over K_b 61..69 (1e-12)
+NG 11:    209.38      62.98     121.69     137.63     142.98     145.16
+NG 12:    293.33      21.05      37.68      53.60      58.97      61.11
+NG 13:    327.12      54.82       4.11      19.83      25.19      27.36
+NG 14:    341.79      69.48      10.79       5.17      10.49      12.70
+largest size over K_b 70..82 (1e-12)
+NG 11:     66.12      26.68      44.85      49.31      50.66      51.13
+NG 12:     96.42      13.34      14.50      18.92      20.29      20.76
+NG 13:    108.13      21.34       9.27       7.25       8.60       9.12
+NG 14:    112.97      24.60      12.55       9.66       8.84       8.53
+smallest lower-K size over K_b 61..69: 4.114e-12 at NG 13, nmax 14; smallest in-sample rms: 4.201e-14 at NG 12, nmax 12
+P1 smallest lower-K size below 7e-12 at nmax <= 16: holds; P2 best in-sample cell differs from best lower-K cell: holds; P3 for every NG the smallest lower-K size is at nmax <= 16: holds; control: does not hold
+READING q1676 done (labels by the script; no verdict word)
