@@ -1,0 +1,34 @@
+[
+ {
+  "A": 17.0,
+  "K": 20,
+  "file": "results_q206_gauss_K20_A17.0.json",
+  "logc_spread": 1.3322676295501878e-15,
+  "cstar": 0.026328532542282446,
+  "centre_envelope": 3.741033837378893e-05
+ },
+ {
+  "A": 29.85,
+  "K": 40,
+  "file": "results_q206_gauss_K40_A29.85.json",
+  "logc_spread": 2.6645352591003757e-15,
+  "cstar": 0.015703121077532817,
+  "centre_envelope": 3.1869013095153775e-07
+ },
+ {
+  "A": 40.95,
+  "K": 60,
+  "file": "results_q207_gauss_K60_A40.9500.json",
+  "logc_spread": 2.6645352591003757e-15,
+  "cstar": 0.011643936622862434,
+  "centre_envelope": 7.160472148548536e-08
+ },
+ {
+  "A": 51.999614,
+  "K": 82,
+  "file": "results_q220_gauss_K82_A51.9996.json",
+  "logc_spread": 2.6645352591003757e-15,
+  "cstar": 0.0092609025595589,
+  "centre_envelope": 7.522210410115804e-09
+ }
+]

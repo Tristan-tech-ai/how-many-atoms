@@ -1,0 +1,10 @@
+{
+ "h": "1/20",
+ "Y": 22,
+ "bits": 256,
+ "grid_points_per_axis": 881,
+ "max_abs_D_minus_C_at_mass_points": 1.727233711018889e-77,
+ "D_minus_C_at_(1,0)": -1.1276036145662805e-50,
+ "D_minus_C_at_(0,rm)": -1.4176764339034144e-48,
+ "seconds": 2.1
+}

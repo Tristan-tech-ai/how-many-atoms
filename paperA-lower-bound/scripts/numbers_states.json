@@ -1,0 +1,22 @@
+{
+ "n_states": 2668,
+ "n_missing": 0,
+ "verdicts": {
+  "OPTIMAL": 2668
+ },
+ "max_residual": 9.403801844469096e-21,
+ "n_states_ge_29.85": 2666,
+ "diff_min": -0.6455308613366242,
+ "diff_max": 0.37447609327784903,
+ "n_events": 138,
+ "Kb_min": 3,
+ "Kb_max": 144,
+ "ratio_min": 2.4901101363646543,
+ "ratio_max": 5.080901948528079,
+ "ratio_last": 2.4901101363646543,
+ "beta_half": 1.99080397355,
+ "C_LAW": 0.4002,
+ "C_LOW": 0.166,
+ "C_LAW_over_C_LOW": 2.4108433734939756,
+ "C_LOW_over_C_LAW_percent": 41.479260369815094
+}

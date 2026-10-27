@@ -1,4 +1,32 @@
-# How Many Atoms, Where, and When: supplementary material
+# How Many Atoms: code and data for three papers on the capacity-achieving input of amplitude-constrained Gaussian channels
+
+This repository holds the code, the computed optima, the certificates and the run logs behind three papers by
+I Made Tristan Hope Firdaus (2026). Each paper has its own folder with a guide to the files it rests on, the scripts of its figures
+and tables, and the data they read.
+
+| paper | folder | main result |
+|---|---|---|
+| "A Lower Bound of Order A^(4/3) on the Number of Mass Points of the Capacity-Achieving Input of the Amplitude-Constrained Gaussian Channel" | [`paperA-lower-bound/`](paperA-lower-bound/) | the capacity-achieving input of the scalar channel with amplitude constraint A has at least 0.1660 A^(4/3) mass points for all large A (proved) |
+| "The Capacity-Achieving Input of a Two-by-Two Peak-Constrained Gaussian Channel Need Not Use the Ends of Its Ellipse" | [`paperB-mimo-ring/`](paperB-mimo-ring/) | for the ellipse with semi-axes 1 and 0.9597 the capacity-achieving input is a ring of 32 mass points without mass at the ends of the major axis (computer-assisted proof in ball arithmetic) |
+| "Total Positivity and the Monotonicity Question for the Amplitude-Constrained Gaussian Channel" | [`paperC-total-positivity/`](paperC-total-positivity/) | an equivalent local form of the question whether the number of mass points can decrease, strict total positivity of the Gram part of the velocity matrix (proved), and outward motion at 91 optimal states (computer-assisted) |
+
+For the larger computations the paper folders point into shared folders. [`sec5-certificate/`](sec5-certificate/) is the
+certificate of paper B, a package that runs on its own. [`sec3-proved-in-one-dimension/`](sec3-proved-in-one-dimension/) holds the
+ball-arithmetic step of paper A. [`sec12-total-positivity/`](sec12-total-positivity/) holds the computer-assisted proof of paper C,
+and [`sec13-monotonicity/`](sec13-monotonicity/) the data of its observations. [`checks/`](checks/) holds input files that several
+scripts share.
+
+Install the packages of [`requirements.txt`](requirements.txt) (`pip install -r requirements.txt`; Python 3.10 or later). Each paper
+folder's README says how to rerun its scripts.
+
+## The earlier merged paper
+
+The three papers were written from one earlier working paper, "How Many Atoms, Where, and When", whose PDF and Supplementary Notes
+are in [`paper/`](paper/). The folders `sec3-one-dimension/` to `sec15-open-problems/`, `appendix-checks/`, `registration-log/` and
+`checks/` were organized for that paper, and the section, theorem and table numbers in their READMEs refer to it. The rest of this
+page is the guide to those folders as it was written for the merged paper.
+
+### How Many Atoms, Where, and When: supplementary material
 
 Code, computed states and run logs for the paper
 
@@ -12,7 +40,7 @@ counterexample to a published theorem about the two-by-two MIMO channel, and it 
 atom appears. It also follows one optimum along the amplitude and reduces the question whether the number of atoms can decrease to
 two statements about the innermost atoms.
 
-## Terms
+#### Terms
 
 The paper defines its terms in Section I. In brief: a result is *certified* when a computer-assisted proof establishes it, with every quantity
 computed in ball arithmetic, the interval arithmetic in which each number is a midpoint with a radius that bounds all rounding and truncation
@@ -23,7 +51,7 @@ a *split* the atom at the center becomes two; the *births law* gives the amplitu
 this repository with its Kuhn-Tucker residual. An *amendment* is an entry of the registration log. A *verdict* is the last line that a test
 script prints: PASS, FAIL, or another outcome stated in advance; a run that stopped without a verdict line is VOID. The other terms are those of the paper.
 
-## Where to find what
+#### Where to find what
 
 Each folder holds the material behind one part of the paper. The folder names are fixed identifiers and do not follow the section
 numbers; the second column gives the sections and appendices of the paper, and `S1`, `S2`, ... are the sections of the
@@ -53,7 +81,7 @@ Supplementary Notes, which are submitted with the paper.
 Every folder has a `README.md` (what is there and how it maps to the paper) and a `FILES.md` (one line per script: what it does,
 the name it had when it ran, and the sections that cite it).
 
-## Two kinds of folder
+#### Two kinds of folder
 
 **`sec5-certificate/` is a package.** It runs on its own and reproduces the proof of Theorem 2. It was rerun from this folder
 before publishing and the output matches the original run digit for digit (`results/rerun_*` against `results/original_*`).
@@ -63,7 +91,7 @@ so they match the names in the registration log. The scripts expect the folder l
 `centre_scripts/` for run folders), so rerunning one usually means adjusting a path at the top of the script. The Python files
 were reformatted with [black](https://github.com/psf/black) for readability; black changes layout only, never the program.
 
-## Requirements
+#### Requirements
 
 Python 3.10 or later and the packages in [`requirements.txt`](requirements.txt):
 
@@ -73,7 +101,7 @@ pip install -r requirements.txt
 
 `python-flint` provides the ball arithmetic (FLINT/Arb) used by every rigorous step.
 
-## Quick start: check Theorem 2
+#### Quick start: check Theorem 2
 
 ```
 cd sec5-certificate
@@ -83,7 +111,7 @@ python certify_ring32.py data/start_state_ring32.json ring32
 About four minutes on three threads. The last lines should report `Krawczyk ... ok True`, `curve certificate ok True`, and
 `D - C at the major vertex ... [-1.12760361457e-50, -1.12760361456e-50]`. See [`sec5-certificate/README.md`](sec5-certificate/README.md).
 
-## Quick start: the numerical input of Theorem 1
+#### Quick start: the numerical input of Theorem 1
 
 ```
 cd sec3-proved-in-one-dimension/scripts
@@ -93,7 +121,7 @@ python q1796_lower_bound_constants_arb.py
 A few seconds. The output shows the ball for J(1.1648), which lies below zero, the ball for J(1.1647), which lies above zero, and the
 constants that follow, ending with `CHECK q1796: ALL THREE STATEMENTS HOLD`. The argument itself is Appendix A of the paper.
 
-## What is proved and what is numerical
+#### What is proved and what is numerical
 
 Every theorem, proposition, lemma and corollary of the paper has its proof in the paper, or the certificate on which it rests.
 Theorem 1 and its proof (Appendix A) concern the capacity-achieving input; Theorem 2 rests on the computer-assisted certificate in
@@ -103,13 +131,13 @@ append-only log before the optimum was computed; the log's time stamps are not c
 [`registration-log/`](registration-log/), and Table VII of the paper and Table S7 of the Supplementary Notes list the registered
 tests that did not pass.
 
-## How the numbers were checked
+#### How the numbers were checked
 
 Every number printed in the paper was checked by code against a primary file: a run log, a result file, or an entry of the
 registration log. The figures are drawn by scripts that read their data from such files. [`checks/`](checks/) holds that code,
 the formula behind each derived number, and the input files that the other folders do not already hold.
 
-## License and citation
+#### License and citation
 
 Code: MIT License (see [`LICENSE`](LICENSE)). If you use this material, please cite the paper above.
 

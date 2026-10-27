@@ -1,0 +1,12 @@
+{
+ "control_max_diff": 3.031877049419762e-08,
+ "control_A": 3.5,
+ "K": 18,
+ "A": 15.797,
+ "m": 8,
+ "order": 9,
+ "N_negative_entries": 40,
+ "entries": 81,
+ "EpNEp_all_positive": true,
+ "EpNEp_min_scaled": 0.002283284349397384
+}

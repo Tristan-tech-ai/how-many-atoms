@@ -1,0 +1,10 @@
+{
+ "vertex_gap": 1.1276036145662805e-50,
+ "largest_gap": 1.5035877342259898e-48,
+ "smallest_gap_away_from_zones": 4.461704348252913e-52,
+ "n_points": 921,
+ "bits": 256,
+ "h": "1/20",
+ "Y": 22,
+ "max_abs_at_mass_points": 1.727233711018889e-77
+}
