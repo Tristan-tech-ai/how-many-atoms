@@ -1,0 +1,28 @@
+Verification of stamp_20261015T065231.txt.ots, 2026-10-27 08:59:38 +0700
+== ots --no-bitcoin verify
+Assuming target filename is 'stamp_20261015T065231.txt'
+Not checking Bitcoin attestation; Bitcoin disabled
+To verify manually, check that Bitcoin block 971484 has merkleroot 3ca7dea0b874c13e9b74cd90a91cebb421f4449006b168fc5967af030349ac34
+Not checking Bitcoin attestation; Bitcoin disabled
+To verify manually, check that Bitcoin block 971559 has merkleroot 172cd4d345616baf3ca50b56d372997976b81b1a407af9947852c6aba3e10a33
+== mempool.space block 971484
+hash 000000000000000000009d31905ca42f7b2a4f14d9eca9ce7034b49394350bae
+merkle_root 3ca7dea0b874c13e9b74cd90a91cebb421f4449006b168fc5967af030349ac34
+timestamp 1792024329
+== blockchain.info block 971484
+hash 000000000000000000009d31905ca42f7b2a4f14d9eca9ce7034b49394350bae
+merkle_root 3ca7dea0b874c13e9b74cd90a91cebb421f4449006b168fc5967af030349ac34
+timestamp 1792024329
+== mempool.space block 971559
+hash 0000000000000000000141f135fd308ffc52e3d664b11dc7011eef31ef45cff6
+merkle_root 172cd4d345616baf3ca50b56d372997976b81b1a407af9947852c6aba3e10a33
+timestamp 1792063434
+== blockchain.info block 971559
+hash 0000000000000000000141f135fd308ffc52e3d664b11dc7011eef31ef45cff6
+merkle_root 172cd4d345616baf3ca50b56d372997976b81b1a407af9947852c6aba3e10a33
+timestamp 1792063434
+== openssl ts -verify (FreeTSA)
+Verification: OK
+== public copy (append-only): the first N bytes of registration-log/PREREG_Q32.md, N from the manifest
+N = 5538232, sha256 9a6ff51cb55c60003cade6a8207e92b2f8e21e4c099b45b1e810e10f4a4aa1bb: equals the hash of the first N bytes at commit de63783
+result: all checks hold

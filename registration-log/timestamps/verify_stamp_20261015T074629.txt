@@ -1,0 +1,48 @@
+Verification of stamp_20261015T074629.txt.ots, 2026-10-27 09:00:47 +0700
+== ots --no-bitcoin verify
+Assuming target filename is 'stamp_20261015T074629.txt'
+Not checking Bitcoin attestation; Bitcoin disabled
+To verify manually, check that Bitcoin block 971487 has merkleroot 0708e58a2e58cec415d02420cea33fa5c14db768ebbbd21879352742a06697f6
+Not checking Bitcoin attestation; Bitcoin disabled
+To verify manually, check that Bitcoin block 971488 has merkleroot a2b5d4f9771924e6573331adf612845ffd73183e1aec23ae6c7df8899550ee41
+Not checking Bitcoin attestation; Bitcoin disabled
+To verify manually, check that Bitcoin block 971527 has merkleroot bb0bede31a4a5329f755aa37e118861033161d25f0977c192b1e0b932a176759
+Not checking Bitcoin attestation; Bitcoin disabled
+To verify manually, check that Bitcoin block 971559 has merkleroot 172cd4d345616baf3ca50b56d372997976b81b1a407af9947852c6aba3e10a33
+== mempool.space block 971487
+hash 0000000000000000000053e1e12b3dc5c74c78915f8cffc9a5bdc7a0cebbeb90
+merkle_root 0708e58a2e58cec415d02420cea33fa5c14db768ebbbd21879352742a06697f6
+timestamp 1792026878
+== blockchain.info block 971487
+hash 0000000000000000000053e1e12b3dc5c74c78915f8cffc9a5bdc7a0cebbeb90
+merkle_root 0708e58a2e58cec415d02420cea33fa5c14db768ebbbd21879352742a06697f6
+timestamp 1792026878
+== mempool.space block 971488
+hash 00000000000000000000580e0e21bc7a00ebc207a4bb576ee115e9ae006daa5f
+merkle_root a2b5d4f9771924e6573331adf612845ffd73183e1aec23ae6c7df8899550ee41
+timestamp 1792026857
+== blockchain.info block 971488
+hash 00000000000000000000580e0e21bc7a00ebc207a4bb576ee115e9ae006daa5f
+merkle_root a2b5d4f9771924e6573331adf612845ffd73183e1aec23ae6c7df8899550ee41
+timestamp 1792026857
+== mempool.space block 971527
+hash 0000000000000000000017bbbe468f17a762a4c9d7b61ad45e3d65f9b96841c4
+merkle_root bb0bede31a4a5329f755aa37e118861033161d25f0977c192b1e0b932a176759
+timestamp 1792049005
+== blockchain.info block 971527
+hash 0000000000000000000017bbbe468f17a762a4c9d7b61ad45e3d65f9b96841c4
+merkle_root bb0bede31a4a5329f755aa37e118861033161d25f0977c192b1e0b932a176759
+timestamp 1792049005
+== mempool.space block 971559
+hash 0000000000000000000141f135fd308ffc52e3d664b11dc7011eef31ef45cff6
+merkle_root 172cd4d345616baf3ca50b56d372997976b81b1a407af9947852c6aba3e10a33
+timestamp 1792063434
+== blockchain.info block 971559
+hash 0000000000000000000141f135fd308ffc52e3d664b11dc7011eef31ef45cff6
+merkle_root 172cd4d345616baf3ca50b56d372997976b81b1a407af9947852c6aba3e10a33
+timestamp 1792063434
+== openssl ts -verify (FreeTSA)
+Verification: OK
+== public copy (append-only): the first N bytes of registration-log/PREREG_Q32.md, N from the manifest
+N = 5540825, sha256 7dacb02a48d3cf447db534595129871c784db3f3e555eff30cb2097772804a56: equals the hash of the first N bytes at commit de63783
+result: all checks hold
